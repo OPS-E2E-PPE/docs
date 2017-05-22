@@ -2,6 +2,7 @@
 title: "&lt;certificateValidator&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2017"
+ms.prod: ".net-framework"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -25,14 +26,14 @@ Specifies a custom type for certificate validation. This type is used only if th
 ## Syntax  
   
 ```  
-\<system.identityModel>  
-  <identityConfiguration>  
-    <certificateValidation>  
-      \<certificateValidator type=xs:string>  
-      </certificateValidator>  
-    </certificateValidation>  
-  </identityConfiguration>  
-\</system.identityModel>  
+<system.identityModel>  
+  <identityConfiguration>  
+    <certificateValidation>  
+      <certificateValidator type=xs:string>  
+      </certificateValidator>  
+    </certificateValidation>  
+  </identityConfiguration>  
+</system.identityModel>  
 ```  
   
 ## Attributes and Elements  

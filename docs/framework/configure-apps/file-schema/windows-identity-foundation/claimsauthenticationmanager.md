@@ -2,6 +2,7 @@
 title: "&lt;claimsAuthenticationManager&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2017"
+ms.prod: ".net-framework"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
@@ -24,13 +25,13 @@ Registers a claims authentication manager for the incoming claims.
 ## Syntax  
   
 ```  
-\<system.identityModel>  
-  <identityConfiguration>  
-    \<claimsAuthenticationManager type=xs:string>  
-      <optionalConfigurationElements />  
-    </claimsAuthenticationManager>  
-  </identityConfiguration>  
-\</system.identityModel>  
+<system.identityModel>  
+  <identityConfiguration>  
+    <claimsAuthenticationManager type=xs:string>  
+      <optionalConfigurationElements />  
+    </claimsAuthenticationManager>  
+  </identityConfiguration>  
+</system.identityModel>  
 ```  
   
 ## Attributes and Elements  
@@ -59,9 +60,9 @@ Registers a claims authentication manager for the incoming claims.
 ## Example  
   
 ```  
-\<system.identityModel>  
-    \<identityConfiguration name=”MyIdentity”>  
+<system.identityModel>  
+    <identityConfiguration name="MyIdentity">  
       <claimsAuthenticationManager type="MyNamespace.CustomClaimsAuthenticationManager, MyAssembly"/>          
     </identityConfiguration>  
-\</microsoft.identityModel>  
+</microsoft.identityModel>  
 ```
