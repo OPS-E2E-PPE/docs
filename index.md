@@ -367,7 +367,7 @@ description: Learn how to use .NET to create a variety of applications on any pl
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1">
-                                                    <img src="/dotnet/images/hub/net-docs-cloud-2.svg" alt="" />
+                                                    <img src="/dotnet/images/hub/net-docs-cloud-2.svg" alt="test" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
