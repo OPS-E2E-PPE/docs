@@ -1,5 +1,5 @@
 ---
-layout: HubPage(change for prtest)
+layout: HubPage
 hide_bc: true
 title: .NET Documentation
 description: Learn how to use .NET to create a variety of applications on any platform using C#, Visual Basic, and F#. Browse API reference, sample code, tutorials, and more.
@@ -8,7 +8,7 @@ description: Learn how to use .NET to create a variety of applications on any pl
     <div class="container">
         <ul class="cardsY panelContent featuredContent">
             <li>
-                <a href="https://www.microsoft.com/net/tutorials/csharp/getting-started">
+                <a href="/dotnet/csharp/quick-starts">
                     <div class="cardSize">
                         <div class="cardPadding">
                             <div class="card">
