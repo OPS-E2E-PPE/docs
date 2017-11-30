@@ -1,5 +1,5 @@
 ---
-title: "How to: Sort and Filter ADO.NET Data with the Windows Forms BindingSource Component | Microsoft Docs"
+title: "How to: Sort and Filter ADO.NET Data with the Windows Forms BindingSource Component"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "sorting data"
-  - "data sorting, ADO.NET"
+  - "data sorting [Windows Forms], ADO.NET"
   - "data [Windows Forms], filtering"
   - "BindingSource component [Windows Forms], sorting and filtering data"
   - "filtering [Windows Forms], ADO.NET"
@@ -59,7 +60,7 @@ You can expose the sorting and filtering capability of <xref:System.Windows.Form
  To run this example, paste the code into a form that contains a <xref:System.Windows.Forms.BindingSource> named `BindingSource1` and a <xref:System.Windows.Forms.DataGridView> named `dataGridView1`. Handle the <xref:System.Windows.Forms.Form.Load> event for the form and call `InitializeSortedFilteredBindingSource` in the load event handler method.  
   
 ## See Also  
- <xref:System.Windows.Forms.BindingSource.Sort%2A>   
- <xref:System.Windows.Forms.BindingSource.Filter%2A>   
- [How to: Install Sample Databases](http://msdn.microsoft.com/library/ed1291f6-604c-4972-ae22-0345c6dea12e)   
+ <xref:System.Windows.Forms.BindingSource.Sort%2A>  
+ <xref:System.Windows.Forms.BindingSource.Filter%2A>  
+ [How to: Install Sample Databases](http://msdn.microsoft.com/library/ed1291f6-604c-4972-ae22-0345c6dea12e)  
  [BindingSource Component](../../../../docs/framework/winforms/controls/bindingsource-component.md)

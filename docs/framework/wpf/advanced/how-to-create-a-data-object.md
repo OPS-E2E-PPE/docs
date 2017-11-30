@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Data Object | Microsoft Docs"
+title: "How to: Create a Data Object"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "DataObject class [WPF], creating"
   - "data objects [WPF], creating"

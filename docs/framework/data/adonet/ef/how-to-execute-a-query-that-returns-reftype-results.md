@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute a Query that Returns RefType Results | Microsoft Docs"
+title: "How to: Execute a Query that Returns RefType Results"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 7dbbfbcd-93f5-4546-9dbf-e5fa290b69fa
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -46,5 +43,5 @@ This topic shows how to execute a command against a conceptual model by using an
  [!code-vb[DP EntityServices Concepts#eSQLRefTypes](../../../../../samples/snippets/visualbasic/VS_Snippets_Data/dp entityservices concepts/vb/source.vb#esqlreftypes)]  
   
 ## See Also  
- [Entity SQL Reference](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)   
+ [Entity SQL Reference](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)  
  [EntityClient Provider for the Entity Framework](../../../../../docs/framework/data/adonet/ef/entityclient-provider-for-the-entity-framework.md)

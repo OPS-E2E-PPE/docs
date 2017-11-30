@@ -1,5 +1,5 @@
 ---
-title: "IIdentityAuthority Interface | Microsoft Docs"
+title: "IIdentityAuthority Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IIdentityAuthority"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IIdentityAuthority interface [.NET Framework fusion]"
 ms.assetid: 6277f914-51a8-49be-bec6-52d6d648527d

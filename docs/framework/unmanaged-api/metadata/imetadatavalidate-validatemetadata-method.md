@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataValidate::ValidateMetaData Method | Microsoft Docs"
+title: "IMetaDataValidate::ValidateMetaData Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataValidate::ValidateMetaData"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataValidate::ValidateMetaData method [.NET Framework metadata]"
   - "ValidateMetaData method [.NET Framework metadata]"

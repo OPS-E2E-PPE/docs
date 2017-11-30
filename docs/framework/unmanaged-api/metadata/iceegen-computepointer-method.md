@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::ComputePointer Method | Microsoft Docs"
+title: "ICeeGen::ComputePointer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::ComputePointer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICeeGen::ComputePointer method [.NET Framework metadata]"
   - "ComputePointer method [.NET Framework metadata]"

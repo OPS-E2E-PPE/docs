@@ -1,5 +1,5 @@
 ---
-title: "How to: Draw a Rectangle | Microsoft Docs"
+title: "How to: Draw a Rectangle"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "drawing, rectangles"
+  - "drawing [WPF], rectangles"
   - "graphics [WPF], rectangles"
-  - "rectangles, drawing"
+  - "rectangles [WPF], drawing"
 ms.assetid: beeb57ef-fab5-4446-a38a-1588f97b4c2f
 caps.latest.revision: 10
 author: dotnet-bot
@@ -29,14 +29,14 @@ This example shows how to draw a rectangle by using the <xref:System.Windows.Sha
  In the following example, two <xref:System.Windows.Shapes.Rectangle> elements are drawn in a <xref:System.Windows.Controls.Canvas>. The first rectangle has a <xref:System.Windows.Media.Brushes.Blue%2A> interior. The second rectangle has a <xref:System.Windows.Media.Brushes.Blue%2A> interior, a <xref:System.Windows.Media.Brushes.Black%2A> outline, and rounded corners.  
   
 ## Example  
- [!code-xml[drawingwithshapeelements#Rectangle1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DrawingWithShapeElements/CS/rectangleexample.xaml#rectangle1)]  
+ [!code-xaml[drawingwithshapeelements#Rectangle1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DrawingWithShapeElements/CS/rectangleexample.xaml#rectangle1)]  
   
  Although this example uses a <xref:System.Windows.Controls.Canvas> to contain the rectangles, you can use rectangle elements (and all the other shape elements) with any <xref:System.Windows.Controls.Panel> or <xref:System.Windows.Controls.Control> that supports non-text content. In fact, rectangles are particularly useful for providing backgrounds for portions of <xref:System.Windows.Controls.Grid> panels. For an example, see the [Table Overview](../../../../docs/framework/wpf/advanced/table-overview.md).  
   
  This example is part of a larger sample; for the complete sample, see [Shape Elements Sample](http://go.microsoft.com/fwlink/?LinkID=160037).  
   
 ## See Also  
- <xref:System.Windows.Shapes.Rectangle>   
- [Shape Elements Sample](http://go.microsoft.com/fwlink/?LinkID=160037)   
- [Shapes and Basic Drawing in WPF Overview](../../../../docs/framework/wpf/graphics-multimedia/shapes-and-basic-drawing-in-wpf-overview.md)   
+ <xref:System.Windows.Shapes.Rectangle>  
+ [Shape Elements Sample](http://go.microsoft.com/fwlink/?LinkID=160037)  
+ [Shapes and Basic Drawing in WPF Overview](../../../../docs/framework/wpf/graphics-multimedia/shapes-and-basic-drawing-in-wpf-overview.md)  
  [Table Overview](../../../../docs/framework/wpf/advanced/table-overview.md)

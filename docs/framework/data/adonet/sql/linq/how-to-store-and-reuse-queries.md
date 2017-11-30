@@ -1,5 +1,5 @@
 ---
-title: "How to: Store and Reuse Queries | Microsoft Docs"
+title: "How to: Store and Reuse Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: a012bd79-1809-45e3-adea-0229532396cc
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -37,6 +40,6 @@ When you have an application that executes structurally similar queries many tim
  [!code-vb[DLinqQuerying#8](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqQuerying/vb/Module1.vb#8)]  
   
 ## See Also  
- <xref:System.Data.Linq.CompiledQuery>   
- [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)   
+ <xref:System.Data.Linq.CompiledQuery>  
+ [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)  
  [Querying the Database](../../../../../../docs/framework/data/adonet/sql/linq/querying-the-database.md)

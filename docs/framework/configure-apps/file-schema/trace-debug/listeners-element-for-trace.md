@@ -1,5 +1,5 @@
 ---
-title: "&lt;listeners&gt; Element for &lt;trace&gt; | Microsoft Docs"
+title: "&lt;listeners&gt; Element for &lt;trace&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,11 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.diagnostics/trace/listeners"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<listeners> element"
   - "listeners element"
@@ -96,5 +91,5 @@ Specifies a listener that collects, stores, and routes messages. Listeners direc
 ```  
   
 ## See Also  
- <xref:System.Diagnostics.TraceListener>   
+ <xref:System.Diagnostics.TraceListener>  
  [Trace and Debug Settings Schema](../../../../../docs/framework/configure-apps/file-schema/trace-debug/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::CreateValue Method | Microsoft Docs"
+title: "ICorDebugEval::CreateValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::CreateValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEval::CreateValue method [.NET Framework debugging]"
   - "CreateValue method [.NET Framework debugging]"
@@ -73,5 +71,5 @@ HRESULT CreateValue (
   
 ## See Also  
     
- [CreateValueForType Method](../../../../docs/framework/unmanaged-api/debugging/icordebugeval2-createvaluefortype-method.md)   
+ [CreateValueForType Method](../../../../docs/framework/unmanaged-api/debugging/icordebugeval2-createvaluefortype-method.md)  
  ICorDebugValue

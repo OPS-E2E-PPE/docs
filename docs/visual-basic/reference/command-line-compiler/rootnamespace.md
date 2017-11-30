@@ -1,19 +1,15 @@
 ---
-title: "/rootnamespace | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "/rootnamespace"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
 f1_keywords: 
   - "/rootnamespace"
   - "rootnamespace"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "/rootnamespace compiler option [Visual Basic]"
   - "-rootnamespace compiler option [Visual Basic]"
@@ -22,21 +18,6 @@ ms.assetid: e9245edf-6bef-420d-a7c7-324117752783
 caps.latest.revision: 13
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /rootnamespace
 Specifies a namespace for all type declarations.  
@@ -54,9 +35,9 @@ Specifies a namespace for all type declarations.
 |`namespace`|The name of the namespace in which to enclose all type declarations for the current project.|  
   
 ## Remarks  
- If you use the Visual Studio executable file (Devenv.exe) to compile a project created in the Visual Studio integrated development environment, use `/rootnamespace` to specify the value of the <xref:VSLangProj80.VBProjectProperties3.RootNamespace%2A> property. See [Devenv Command Line Switches](https://docs.microsoft.com/visualstudio/ide/reference/devenv-command-line-switches) for more information.  
+ If you use the Visual Studio executable file (Devenv.exe) to compile a project created in the Visual Studio integrated development environment, use `/rootnamespace` to specify the value of the <xref:VSLangProj80.VBProjectProperties3.RootNamespace%2A> property. See [Devenv Command Line Switches](/visualstudio/ide/reference/devenv-command-line-switches) for more information.  
   
- Use the common language runtime MSIL Disassembler (I`ldasm.exe`) to view the namespace names in your output file.  
+ Use the common language runtime MSIL Disassembler (`Ildasm.exe`) to view the namespace names in your output file.  
   
 |To set /rootnamespace in the Visual Studio integrated development environment|  
 |---|  
@@ -70,6 +51,6 @@ vbc /rootnamespace:mynamespace in.vb
 ```  
   
 ## See Also  
- [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
- [Ildasm.exe (IL Disassembler)](https://msdn.microsoft.com/library/f7dy01k1)   
+ [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)  
+ [Ildasm.exe (IL Disassembler)](https://msdn.microsoft.com/library/f7dy01k1)  
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)

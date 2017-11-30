@@ -1,5 +1,5 @@
 ---
-title: "How to: Validate Application Settings | Microsoft Docs"
+title: "How to: Validate Application Settings"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "validating application settings"
-  - "application settings, Windows Forms"
-  - "application settings, validating"
+  - "application settings [Windows Forms], Windows Forms"
+  - "application settings [Windows Forms], validating"
 ms.assetid: 9f145ada-4267-436a-aa4c-c4dcffd0afb7
 caps.latest.revision: 17
 author: dotnet-bot
@@ -166,5 +167,5 @@ This topic demonstrates how to validate application settings before they are per
     ```  
   
 ## See Also  
- [Creating Event Handlers in Windows Forms](../../../../docs/framework/winforms/creating-event-handlers-in-windows-forms.md)   
+ [Creating Event Handlers in Windows Forms](../../../../docs/framework/winforms/creating-event-handlers-in-windows-forms.md)  
  [How to: Create Application Settings](../../../../docs/framework/winforms/advanced/how-to-create-application-settings.md)

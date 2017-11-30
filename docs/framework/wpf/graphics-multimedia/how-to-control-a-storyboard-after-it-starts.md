@@ -1,5 +1,5 @@
 ---
-title: "How to: Control a Storyboard After It Starts | Microsoft Docs"
+title: "How to: Control a Storyboard After It Starts"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Storyboards, controlling after start"
+  - "Storyboards [WPF], controlling after start"
 ms.assetid: 040f13f0-69f9-4ab5-be2b-079f4f80c7c0
 caps.latest.revision: 6
 author: dotnet-bot

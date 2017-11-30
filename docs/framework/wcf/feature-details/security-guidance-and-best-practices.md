@@ -1,5 +1,5 @@
 ---
-title: "Security Guidance and Best Practices | Microsoft Docs"
+title: "Security Guidance and Best Practices"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -31,5 +31,5 @@ The topics in this section present guidance for and items to consider when creat
  Contains entries related to performance and security.  
   
 ## See Also  
- [Basic WCF Programming](../../../../docs/framework/wcf/basic-wcf-programming.md)   
+ [Basic WCF Programming](../../../../docs/framework/wcf/basic-wcf-programming.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

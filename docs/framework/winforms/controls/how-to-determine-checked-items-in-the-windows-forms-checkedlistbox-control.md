@@ -1,5 +1,5 @@
 ---
-title: "How to: Determine Checked Items in the Windows Forms CheckedListBox Control | Microsoft Docs"
+title: "How to: Determine Checked Items in the Windows Forms CheckedListBox Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "check boxes, determining checked state"
+  - "check boxes [Windows Forms], determining checked state"
   - "CheckedListBox control [Windows Forms], determining checked state"
 ms.assetid: 178b477d-27c9-489c-8914-44a9623a4d41
 caps.latest.revision: 14

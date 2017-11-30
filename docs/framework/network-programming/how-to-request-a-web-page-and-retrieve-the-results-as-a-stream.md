@@ -1,5 +1,5 @@
 ---
-title: "How to: Request a Web Page and Retrieve the Results as a Stream | Microsoft Docs"
+title: "How to: Request a Web Page and Retrieve the Results as a Stream"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: d32b7f35-29d8-4fb7-ad71-d219edc5e359
 caps.latest.revision: 12
 author: "mcleblanc"

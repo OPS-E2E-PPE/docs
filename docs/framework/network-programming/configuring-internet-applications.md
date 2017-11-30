@@ -1,5 +1,5 @@
 ---
-title: "Configuring Internet Applications | Microsoft Docs"
+title: "Configuring Internet Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "downloading Internet resources, default proxy"
   - "sending data, default proxy"
@@ -107,6 +102,6 @@ The [\<system.Net> Element (Network Settings)](../../../docs/framework/configure
 ```  
   
 ## See Also  
- [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)   
- [Network Settings Schema](../../../docs/framework/configure-apps/file-schema/network/index.md)   
+ [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)  
+ [Network Settings Schema](../../../docs/framework/configure-apps/file-schema/network/index.md)  
  [\<system.Net> Element (Network Settings)](../../../docs/framework/configure-apps/file-schema/network/system-net-element-network-settings.md)

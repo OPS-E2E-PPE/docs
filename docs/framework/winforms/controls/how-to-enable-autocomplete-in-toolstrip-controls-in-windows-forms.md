@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable AutoComplete in ToolStrip Controls in Windows Forms | Microsoft Docs"
+title: "How to: Enable AutoComplete in ToolStrip Controls in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,13 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "AutoComplete, examples"
+  - "AutoComplete [Windows Forms], examples"
   - "toolbars [Windows Forms], AutoComplete"
   - "examples [Windows Forms], toolbars"
-  - "AutoComplete, enabling in toolbars"
-  - "ToolStripComboBox class, examples"
+  - "AutoComplete [Windows Forms], enabling in toolbars"
+  - "ToolStripComboBox class [Windows Forms], examples"
   - "ToolStrip control [Windows Forms], AutoComplete"
 ms.assetid: fd66d085-1af1-45d4-930a-cde944da2e16
 caps.latest.revision: 13
@@ -95,11 +96,11 @@ The following procedure combines a <xref:System.Windows.Forms.ToolStripLabel> wi
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStrip>   
- <xref:System.Windows.Forms.ToolStripLabel>   
- <xref:System.Windows.Forms.ToolStripComboBox>   
- <xref:System.Windows.Forms.ToolStripComboBox.AutoCompleteMode%2A>   
- <xref:System.Windows.Forms.ToolStripComboBox.AutoCompleteSource%2A>   
- [ToolStrip Control Overview](../../../../docs/framework/winforms/controls/toolstrip-control-overview-windows-forms.md)   
- [ToolStrip Control Architecture](../../../../docs/framework/winforms/controls/toolstrip-control-architecture.md)   
+ <xref:System.Windows.Forms.ToolStrip>  
+ <xref:System.Windows.Forms.ToolStripLabel>  
+ <xref:System.Windows.Forms.ToolStripComboBox>  
+ <xref:System.Windows.Forms.ToolStripComboBox.AutoCompleteMode%2A>  
+ <xref:System.Windows.Forms.ToolStripComboBox.AutoCompleteSource%2A>  
+ [ToolStrip Control Overview](../../../../docs/framework/winforms/controls/toolstrip-control-overview-windows-forms.md)  
+ [ToolStrip Control Architecture](../../../../docs/framework/winforms/controls/toolstrip-control-architecture.md)  
  [ToolStrip Technology Summary](../../../../docs/framework/winforms/controls/toolstrip-technology-summary.md)

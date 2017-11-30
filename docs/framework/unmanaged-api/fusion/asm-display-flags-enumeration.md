@@ -1,5 +1,5 @@
 ---
-title: "ASM_DISPLAY_FLAGS Enumeration | Microsoft Docs"
+title: "ASM_DISPLAY_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ASM_DISPLAY_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ASM_DISPLAY_FLAGS enumeration [.NET Framework fusion]"
 ms.assetid: dbade6c9-9d26-4a79-9fd2-46108edd12d7
@@ -70,5 +68,5 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Enumerations](../../../../docs/framework/unmanaged-api/fusion/fusion-enumerations.md)

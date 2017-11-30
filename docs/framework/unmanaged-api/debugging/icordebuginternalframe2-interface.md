@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugInternalFrame2 Interface | Microsoft Docs"
+title: "ICorDebugInternalFrame2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugInternalFrame2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugInternalFrame2 interface [.NET Framework debugging]"
 ms.assetid: d4755569-85b8-4ff4-bf50-0e608e76429f
@@ -55,5 +53,5 @@ Provides information about internal frames, including stack address and position
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

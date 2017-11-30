@@ -1,5 +1,5 @@
 ---
-title: Health monitoring | Microsoft Docs 
+title: Health monitoring
 description: .NET Microservices Architecture for Containerized .NET Applications | Health monitoring
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,6 +7,7 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 # Health monitoring
 
@@ -99,7 +100,7 @@ services.AddHealthChecks(checks =>
 });
 ```
 
-For a service or web application to expose the health check endpoint, it has to enable the UserHealthChecks(\[*url\_for\_health\_checks*\]) extension method. This method goes at the WebHostBuilder level in the main method of the Program class of your ASP.NET Core service or web application, right after UseKestrel as shown in the code below.
+For a service or web application to expose the health check endpoint, it has to enable the UseHealthChecks(\[*url\_for\_health\_checks*\]) extension method. This method goes at the WebHostBuilder level in the main method of the Program class of your ASP.NET Core service or web application, right after UseKestrel as shown in the code below.
 
 ```csharp
 namespace Microsoft.eShopOnContainers.WebMVC
@@ -169,7 +170,7 @@ Health monitoring is especially important when an orchestrator performs an appli
 
 Another aspect of service health is reporting metrics from the service. This is an advanced capability of the health model of some orchestrators, like Service Fabric. Metrics are important when using an orchestrator because they are used to balance resource usage. Metrics also can be an indicator of system health. For example, you might have an application that has many microservices, and each instance reports a requests-per-second (RPS) metric. If one service is using more resources (memory, processor, etc.) than another service, the orchestrator could move service instances around in the cluster to try to maintain even resource utilization.
 
-Note that if you are using Azure Service Fabric, it provides its own [Health Monitoring model](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-health-introduction), which is more advanced than simple health checks.
+Note that if you are using Azure Service Fabric, it provides its own [Health Monitoring model](https://docs.microsoft.com/azure/service-fabric/service-fabric-health-introduction), which is more advanced than simple health checks.
 
 ## Advanced monitoring: visualization, analysis, and alerts
 
@@ -185,10 +186,10 @@ Finally, if you were storing all the event streams, you can use Microsoft Power 
     [*https://github.com/aspnet/HealthChecks/*](https://github.com/aspnet/HealthChecks/)
 
 -   **Introduction to Service Fabric health monitoring**
-    [*https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-health-introduction*](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-health-introduction)
+    [*https://docs.microsoft.com/azure/service-fabric/service-fabric-health-introduction*](https://docs.microsoft.com/azure/service-fabric/service-fabric-health-introduction)
 
 -   **Azure Application Insights**
-    [*https://azure.microsoft.com/en-us/services/application-insights/*](https://azure.microsoft.com/en-us/services/application-insights/)
+    [*https://azure.microsoft.com/services/application-insights/*](https://azure.microsoft.com/services/application-insights/)
 
 -   **Microsoft Operations Management Suite**
     [*https://www.microsoft.com/en-us/cloud-platform/operations-management-suite*](https://www.microsoft.com/en-us/cloud-platform/operations-management-suite)

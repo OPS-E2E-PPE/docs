@@ -1,5 +1,5 @@
 ---
-title: "Hiring Process | Microsoft Docs"
+title: "Hiring Process"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -219,7 +219,7 @@ This sample demonstrates how to implement a business process using messaging act
   
 2.  If the solution fails to build, verify the following:  
   
-    -   The reference to `ContosoHR` is not missing from the `InternalClient` or `CareersWebSite`projects.  
+    -   The reference to `ContosoHR` is not missing from the `InternalClient` or `CareersWebSite` projects.  
   
 3.  If the solution fails to execute, verify the following:  
   
@@ -237,6 +237,4 @@ This sample demonstrates how to implement a business process using messaging act
   
 1.  Delete the SQL Server instance store by running Cleanup.bat, located in DbSetup folder.  
   
-2.  Delete the source code form your hard drive.  
-  
-## See Also
+2.  Delete the source code form your hard drive.

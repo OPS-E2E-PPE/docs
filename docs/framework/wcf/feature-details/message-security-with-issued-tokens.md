@@ -1,5 +1,5 @@
 ---
-title: "Message Security with Issued Tokens | Microsoft Docs"
+title: "Message Security with Issued Tokens"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -23,5 +23,5 @@ The issued token client enables the federated security scenario in [!INCLUDE[ind
  For a detailed explanation about the federated scenario, see [Federation and Issued Tokens](../../../../docs/framework/wcf/feature-details/federation-and-issued-tokens.md).  
   
 ## See Also  
- [Federation and Issued Tokens](../../../../docs/framework/wcf/feature-details/federation-and-issued-tokens.md)   
+ [Federation and Issued Tokens](../../../../docs/framework/wcf/feature-details/federation-and-issued-tokens.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

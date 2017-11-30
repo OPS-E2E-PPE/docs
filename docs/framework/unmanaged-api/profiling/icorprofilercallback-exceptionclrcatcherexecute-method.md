@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionCLRCatcherExecute Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionCLRCatcherExecute Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionCLRCatcherExecute"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExceptionCLRCatcherExecute method [.NET Framework profiling]"
   - "ICorProfilerCallback::ExceptionCLRCatcherExecute method [.NET Framework profiling]"
@@ -49,5 +47,5 @@ HRESULT ExceptionCLRCatcherExecute();
  **.NET Framework Versions:** 1.1, 1.0  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ExceptionCLRCatcherFound Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-exceptionclrcatcherfound-method.md)

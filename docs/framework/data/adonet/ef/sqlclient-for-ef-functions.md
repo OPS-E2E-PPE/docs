@@ -1,5 +1,5 @@
 ---
-title: "SqlClient for Entity Framework Functions | Microsoft Docs"
+title: "SqlClient for Entity Framework Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 71a3613c-b94e-494c-8ad8-90cf86ae0b87
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -40,5 +36,5 @@ The .NET Framework Data Provider for SQL Server (SqlClient) for the Entity Frame
  [System Functions](../../../../../docs/framework/data/adonet/ef/system-functions.md)  
   
 ## See Also  
- [Entity SQL Reference](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)   
+ [Entity SQL Reference](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)  
  [Entity SQL Overview](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)

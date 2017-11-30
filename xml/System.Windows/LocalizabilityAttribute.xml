@@ -27,6 +27,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Localization" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -94,10 +95,11 @@
 ## Examples  
  The following code example shows the category settings of localization attributes defined for a button.  
   
- [!code-xml[AttributesSnippets#AttributesSnippet1](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Attributes.xaml#attributessnippet1)]  
+ [!code-xaml[AttributesSnippets#AttributesSnippet1](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Attributes.xaml#attributessnippet1)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.LocalizationCategory" />
       </Docs>
     </Member>
     <Member MemberName="Modifiability">
@@ -132,7 +134,7 @@
 ## Examples  
  The following code example shows the modifiability setting of localization attributes defined for a button.  
   
- [!code-xml[AttributesSnippets#AttributesSnippet1](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Attributes.xaml#attributessnippet1)]  
+ [!code-xaml[AttributesSnippets#AttributesSnippet1](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Attributes.xaml#attributessnippet1)]  
   
  ]]></format>
         </remarks>
@@ -170,10 +172,11 @@
 ## Examples  
  The following code example shows the readability setting of localization attributes defined for a text block.  
   
- [!code-xml[AttributesSnippets#AttributesSnippet4](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Comments.xaml#attributessnippet4)]  
+ [!code-xaml[AttributesSnippets#AttributesSnippet4](~/samples/snippets/csharp/VS_Snippets_Wpf/AttributesSnippets/CSharp/Comments.xaml#attributessnippet4)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Readability" />
       </Docs>
     </Member>
   </Members>

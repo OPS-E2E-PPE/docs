@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_FUNCTION Structure | Microsoft Docs"
+title: "COR_PRF_FUNCTION Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_FUNCTION"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_FUNCTION structure [.NET Framework profiling]"
 ms.assetid: 8bb5acf5-cf4b-4ccb-93f1-46db1f3f8bf3

@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_GC_GENERATION Enumeration | Microsoft Docs"
+title: "COR_PRF_GC_GENERATION Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_GC_GENERATION"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_GC_GENERATION_FLAGS enumeration [.NET Framework profiling]"
 ms.assetid: d6ece160-26ad-4d39-abd7-05acd6f78c48

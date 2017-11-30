@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport::GetPermissionSetProps Method | Microsoft Docs"
+title: "IMetaDataImport::GetPermissionSetProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport::GetPermissionSetProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetPermissionSetProps method [.NET Framework metadata]"
   - "IMetaDataImport::GetPermissionSetProps method [.NET Framework metadata]"
@@ -31,7 +29,7 @@ ms.author: "mairaw"
 manager: "wpickett"
 ---
 # IMetaDataImport::GetPermissionSetProps Method
-Gets the metadata associated with the <xref:System.Security.PermissionSet?displayProperty=fullName> represented by the specified Permission token.  
+Gets the metadata associated with the <xref:System.Security.PermissionSet?displayProperty=nameWithType> represented by the specified Permission token.  
   
 ## Syntax  
   
@@ -67,6 +65,6 @@ HRESULT GetPermissionSetProps (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- <xref:System.Security.PermissionSet>   
- [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)   
+ <xref:System.Security.PermissionSet>  
+ [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)  
  [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Binding Using the SecurityBindingElement | Microsoft Docs"
+title: "How to: Create a Custom Binding Using the SecurityBindingElement"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "security [WCF], creating custom bindings"
 ms.assetid: 203a9f9e-3a73-427c-87aa-721c56265b29
@@ -78,7 +81,7 @@ manager: "mbaldwin"
 |||SSL or Windows StreamSecurityBindingElement|SSL or Windows StreamSecurityBindingElement|SSL or Windows StreamSecurityBindingElement|  
 |||TcpTransportBindingElement|TcpTransportBindingElement|TcpTransportBindingElement|  
   
- Note that there are many configurable settings on the SecurityBindingElements. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][SecurityBindingElement Authentication Modes](../../../../docs/framework/wcf/feature-details/securitybindingelement-authentication-modes.md).  
+ Note that there are many configurable settings on the SecurityBindingElements. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [SecurityBindingElement Authentication Modes](../../../../docs/framework/wcf/feature-details/securitybindingelement-authentication-modes.md).  
   
  [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Secure Conversations and Secure Sessions](../../../../docs/framework/wcf/feature-details/secure-conversations-and-secure-sessions.md).  
   
@@ -110,9 +113,9 @@ manager: "mbaldwin"
  [!code-vb[c_CustomBinding#20](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_custombinding/vb/source.vb#20)]  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.SecurityBindingElement>   
- <xref:System.ServiceModel.Channels.TransportSecurityBindingElement>   
- <xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement>   
- <xref:System.ServiceModel.Channels.CustomBinding>   
- [Extending Bindings](../../../../docs/framework/wcf/extending/extending-bindings.md)   
+ <xref:System.ServiceModel.Channels.SecurityBindingElement>  
+ <xref:System.ServiceModel.Channels.TransportSecurityBindingElement>  
+ <xref:System.ServiceModel.Channels.SymmetricSecurityBindingElement>  
+ <xref:System.ServiceModel.Channels.CustomBinding>  
+ [Extending Bindings](../../../../docs/framework/wcf/extending/extending-bindings.md)  
  [System-Provided Bindings](../../../../docs/framework/wcf/system-provided-bindings.md)

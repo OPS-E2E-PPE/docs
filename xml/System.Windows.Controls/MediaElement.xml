@@ -124,6 +124,7 @@
       <Docs>
         <summary>Identifies the <see cref="P:System.Windows.Controls.MediaElement.Balance" /> dependency property.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="P:System.Windows.Controls.MediaElement.Balance" />
       </Docs>
     </Member>
     <Member MemberName="BufferingEnded">
@@ -1147,11 +1148,12 @@ Different gradient spread methods
    
   
 ## Examples  
- [!code-xml[mediagallery_snip#StretchMediaElementExampleWholePage](~/samples/snippets/visualbasic/VS_Snippets_Wpf/MediaGallery_snip/VB/StretchMediaElementExample.xaml#stretchmediaelementexamplewholepage)]
- [!code-xml[mediagallery_snip#StretchMediaElementExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/MediaGallery_snip/CSharp/StretchMediaElementExample.xaml#stretchmediaelementexamplewholepage)]  
+ [!code-xaml[mediagallery_snip#StretchMediaElementExampleWholePage](~/samples/snippets/visualbasic/VS_Snippets_Wpf/MediaGallery_snip/VB/StretchMediaElementExample.xaml#stretchmediaelementexamplewholepage)]
+ [!code-xaml[mediagallery_snip#StretchMediaElementExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/MediaGallery_snip/CSharp/StretchMediaElementExample.xaml#stretchmediaelementexamplewholepage)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.FrameworkElement.FlowDirection" />
       </Docs>
     </Member>
     <Member MemberName="StretchDirectionProperty">

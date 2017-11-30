@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with WCF Data Services | Microsoft Docs"
+title: "Getting Started with WCF Data Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "HTML"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "WCF Data Services, getting started"
 ms.assetid: c832fa5b-cf86-4690-be5a-a226c0e49530

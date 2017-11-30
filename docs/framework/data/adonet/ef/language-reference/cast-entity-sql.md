@@ -1,5 +1,5 @@
 ---
-title: "CAST (Entity SQL) | Microsoft Docs"
+title: "CAST (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 07b6d750-dfd4-48a9-b86c-3badcbba6f70
 caps.latest.revision: 4
 author: "JennieHubbard"

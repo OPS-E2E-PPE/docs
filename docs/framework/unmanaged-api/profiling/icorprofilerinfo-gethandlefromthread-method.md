@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetHandleFromThread Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetHandleFromThread Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetHandleFromThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHandleFromThread method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetHandleFromThread method [.NET Framework profiling]"

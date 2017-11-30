@@ -1,5 +1,5 @@
 ---
-title: "How to: Designate a Windows Forms Button as the Accept Button | Microsoft Docs"
+title: "How to: Designate a Windows Forms Button as the Accept Button"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "buttons, default on Windows Forms"
+  - "buttons [Windows Forms], default on Windows Forms"
   - "Accept button on Windows Forms"
   - "Button control [Windows Forms], designating as default"
   - "Windows Forms controls, default button on form"
@@ -54,9 +56,9 @@ On any Windows Form, you can designate a <xref:System.Windows.Forms.Button> cont
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.Form.AcceptButton%2A>   
- [Button Control Overview](../../../../docs/framework/winforms/controls/button-control-overview-windows-forms.md)   
- [Ways to Select a Windows Forms Button Control](../../../../docs/framework/winforms/controls/ways-to-select-a-windows-forms-button-control.md)   
- [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)   
- [How to: Designate a Windows Forms Button as the Cancel Button](../../../../docs/framework/winforms/controls/how-to-designate-a-windows-forms-button-as-the-cancel-button.md)   
+ <xref:System.Windows.Forms.Form.AcceptButton%2A>  
+ [Button Control Overview](../../../../docs/framework/winforms/controls/button-control-overview-windows-forms.md)  
+ [Ways to Select a Windows Forms Button Control](../../../../docs/framework/winforms/controls/ways-to-select-a-windows-forms-button-control.md)  
+ [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)  
+ [How to: Designate a Windows Forms Button as the Cancel Button](../../../../docs/framework/winforms/controls/how-to-designate-a-windows-forms-button-as-the-cancel-button.md)  
  [Button Control](../../../../docs/framework/winforms/controls/button-control-windows-forms.md)

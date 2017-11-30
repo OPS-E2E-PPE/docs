@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugBreakpointEnum::Next Method | Microsoft Docs"
+title: "ICorDebugBreakpointEnum::Next Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugBreakpointEnum::Next"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Next method, ICorDebugBreakpointEnum interface [.NET Framework debugging]"
   - "ICorDebugBreakpointEnum::Next method [.NET Framework debugging]"

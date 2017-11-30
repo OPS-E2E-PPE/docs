@@ -1,5 +1,5 @@
 ---
-title: "IALink2 Interface | Microsoft Docs"
+title: "IALink2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "IALink2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IALink2 interface"
 ms.assetid: fba62a55-36bd-401e-bcd2-5be8e2d34891
@@ -48,6 +46,6 @@ Complements the [IALink Interface](../../../../docs/framework/unmanaged-api/alin
  [SetPEKind Method](../../../../docs/framework/unmanaged-api/alink/setpekind-method.md)  
   
 ## See Also  
- [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)   
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
+ [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)  
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
  [Al.exe (Assembly Linker)](../../../../docs/framework/tools/al-exe-assembly-linker.md)

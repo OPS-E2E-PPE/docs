@@ -1,5 +1,5 @@
 ---
-title: "Sn.exe (Strong Name Tool) | Microsoft Docs"
+title: "Sn.exe (Strong Name Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "public keys, signing files"
   - "Strong Name tool"
@@ -129,7 +124,7 @@ sn -d MyContainer
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [Al.exe (Assembly Linker)](../../../docs/framework/tools/al-exe-assembly-linker.md)   
- [Strong-Named Assemblies](../../../docs/framework/app-domains/strong-named-assemblies.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Al.exe (Assembly Linker)](../../../docs/framework/tools/al-exe-assembly-linker.md)  
+ [Strong-Named Assemblies](../../../docs/framework/app-domains/strong-named-assemblies.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

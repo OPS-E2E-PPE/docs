@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Separate X.509 Certificates for Signing and Encryption | Microsoft Docs"
+title: "How to: Use Separate X.509 Certificates for Signing and Encryption"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, extensibility"
   - "ClientCredentials class"
@@ -93,9 +96,9 @@ This topic shows how to configure [!INCLUDE[indigo1](../../../../includes/indigo
      [!code-vb[c_FourCerts#7](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_fourcerts/vb/source.vb#7)]  
   
 ## See Also  
- <xref:System.ServiceModel.Description.ClientCredentials>   
- <xref:System.ServiceModel.Description.ServiceCredentials>   
- <xref:System.ServiceModel.ClientCredentialsSecurityTokenManager>   
- <xref:System.ServiceModel.Security.ServiceCredentialsSecurityTokenManager>   
- <xref:System.ServiceModel.Security.IdentityVerifier>   
+ <xref:System.ServiceModel.Description.ClientCredentials>  
+ <xref:System.ServiceModel.Description.ServiceCredentials>  
+ <xref:System.ServiceModel.ClientCredentialsSecurityTokenManager>  
+ <xref:System.ServiceModel.Security.ServiceCredentialsSecurityTokenManager>  
+ <xref:System.ServiceModel.Security.IdentityVerifier>  
  [Walkthrough: Creating Custom Client and Service Credentials](../../../../docs/framework/wcf/extending/walkthrough-creating-custom-client-and-service-credentials.md)

@@ -1,5 +1,5 @@
 ---
-title: "IGCHostControl Interface | Microsoft Docs"
+title: "IGCHostControl Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IGCHostControl"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IGCHostControl interface [.NET Framework hosting]"
 ms.assetid: 2eb56ea9-8b7e-452b-a209-3d2be719fca6

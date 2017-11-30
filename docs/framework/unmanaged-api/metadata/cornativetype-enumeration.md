@@ -1,5 +1,5 @@
 ---
-title: "CorNativeType Enumeration | Microsoft Docs"
+title: "CorNativeType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorNativeType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorNativeType enumeration [.NET Framework metadata]"
 ms.assetid: e47a72f1-9609-48ed-bb34-97170d7f6890
@@ -153,5 +151,5 @@ typedef enum CorNativeType {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- <xref:System.Runtime.InteropServices.UnmanagedType>   
+ <xref:System.Runtime.InteropServices.UnmanagedType>  
  [Metadata Enumerations](../../../../docs/framework/unmanaged-api/metadata/metadata-enumerations.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Shear Colors | Microsoft Docs"
+title: "How to: Shear Colors"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "colors, transforming with color matrices"
-  - "colors, shearing"
+  - "colors [Windows Forms], transforming with color matrices"
+  - "colors [Windows Forms], shearing"
 ms.assetid: 0a424171-5b8b-45c4-afef-e9720a6c3e22
 caps.latest.revision: 13
 author: dotnet-bot
@@ -46,7 +47,7 @@ Shearing increases or decreases a color component by an amount proportional to a
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs>`e`, which is a parameter of the <xref:System.Windows.Forms.Control.Paint> event handler. Replace `ColorBars.bmp` with an image name and path valid on your system.  
   
 ## See Also  
- <xref:System.Drawing.Imaging.ColorMatrix>   
- <xref:System.Drawing.Imaging.ImageAttributes>   
- [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)   
+ <xref:System.Drawing.Imaging.ColorMatrix>  
+ <xref:System.Drawing.Imaging.ImageAttributes>  
+ [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)  
  [Recoloring Images](../../../../docs/framework/winforms/advanced/recoloring-images.md)

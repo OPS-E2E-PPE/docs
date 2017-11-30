@@ -1,5 +1,5 @@
 ---
-title: "How to: Select an Item in the Windows Forms ListView Control | Microsoft Docs"
+title: "How to: Select an Item in the Windows Forms ListView Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "lists, selecting items"
+  - "lists [Windows Forms], selecting items"
   - "ListView control [Windows Forms], selecting items"
-  - "selection, in list views"
-  - "list views, selecting items"
+  - "selection [Windows Forms], in list views"
+  - "list views [Windows Forms], selecting items"
 ms.assetid: ddea918e-1ddf-47f4-bd09-1e9b4c9d0c39
 caps.latest.revision: 7
 author: dotnet-bot
@@ -34,8 +35,8 @@ This example demonstrates how to programmatically select an item in a Windows Fo
   
 -   A <xref:System.Windows.Forms.ListView> control named `listView1` that contains at least one item.  
   
--   References to the <xref:System?displayProperty=fullName> and <xref:System.Windows.Forms?displayProperty=fullName> namespaces.  
+-   References to the <xref:System?displayProperty=nameWithType> and <xref:System.Windows.Forms?displayProperty=nameWithType> namespaces.  
   
 ## See Also  
- <xref:System.Windows.Forms.ListView>   
- <xref:System.Windows.Forms.ListViewItem.Selected%2A?displayProperty=fullName>
+ <xref:System.Windows.Forms.ListView>  
+ <xref:System.Windows.Forms.ListViewItem.Selected%2A?displayProperty=nameWithType>

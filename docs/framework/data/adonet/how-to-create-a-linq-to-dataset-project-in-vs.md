@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a LINQ to DataSet Project In Visual Studio | Microsoft Docs"
+title: "How to: Create a LINQ to DataSet Project In Visual Studio"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -56,5 +56,5 @@ The different types of [!INCLUDE[vbteclinq](../../../../includes/vbteclinq-md.md
 6.  Optionally, add a `using` directive or imported namespace for `System.Data.Common` or `System.Data.SqlClient`, depending on how you connect to the database.  
   
 ## See Also  
- [Getting Started](../../../../docs/framework/data/adonet/getting-started-linq-to-dataset.md)   
+ [Getting Started](../../../../docs/framework/data/adonet/getting-started-linq-to-dataset.md)  
  [Getting Started with LINQ](http://msdn.microsoft.com/en-us/6cc9af04-950a-4cc3-83d4-2aeb4abe4de9)

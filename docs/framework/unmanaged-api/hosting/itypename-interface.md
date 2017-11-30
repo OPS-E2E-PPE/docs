@@ -1,5 +1,5 @@
 ---
-title: "ITypeName Interface | Microsoft Docs"
+title: "ITypeName Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ITypeName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeName interface [.NET Framework hosting]"
 ms.assetid: 3be458bb-a519-4e22-b373-0b28f2c9cc3c

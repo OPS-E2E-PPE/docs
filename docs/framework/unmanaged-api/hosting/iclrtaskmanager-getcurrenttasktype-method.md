@@ -1,5 +1,5 @@
 ---
-title: "ICLRTaskManager::GetCurrentTaskType Method | Microsoft Docs"
+title: "ICLRTaskManager::GetCurrentTaskType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRTaskManager::GetCurrentTaskType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCurrentTaskType method [.NET Framework hosting]"
   - "ICLRTaskManager::GetCurrentTaskType method [.NET Framework hosting]"

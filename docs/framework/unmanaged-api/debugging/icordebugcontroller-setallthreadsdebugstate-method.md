@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::SetAllThreadsDebugState Method | Microsoft Docs"
+title: "ICorDebugController::SetAllThreadsDebugState Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::SetAllThreadsDebugState"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetAllThreadsDebugState method [.NET Framework debugging]"
   - "ICorDebugController::SetAllThreadsDebugState method [.NET Framework debugging]"

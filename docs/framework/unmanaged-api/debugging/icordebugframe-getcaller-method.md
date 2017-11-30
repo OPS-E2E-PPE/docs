@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFrame::GetCaller Method | Microsoft Docs"
+title: "ICorDebugFrame::GetCaller Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFrame::GetCaller"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCaller method, ICorDebugFrame interface [.NET Framework debugging]"
   - "ICorDebugFrame::GetCaller method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "&lt;assert&gt; Element | Microsoft Docs"
+title: "&lt;assert&gt; Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.diagnostics/assert"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#assert"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<assert> element"
   - "assert element"
@@ -27,7 +22,7 @@ ms.author: "markl"
 manager: "markl"
 ---
 # &lt;assert&gt; Element
-Specifies whether to display a message box when you call the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> method; also specifies the name of the file to write messages to.  
+Specifies whether to display a message box when you call the <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=nameWithType> method; also specifies the name of the file to write messages to.  
   
  \<configuration>  
 \<system.diagnostics>  
@@ -81,5 +76,5 @@ Specifies whether to display a message box when you call the <xref:System.Diagno
 ```  
   
 ## See Also  
- <xref:System.Diagnostics.Debug>   
+ <xref:System.Diagnostics.Debug>  
  [Trace and Debug Settings Schema](../../../../../docs/framework/configure-apps/file-schema/trace-debug/index.md)

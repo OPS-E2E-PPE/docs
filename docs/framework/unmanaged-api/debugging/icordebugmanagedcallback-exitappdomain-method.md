@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::ExitAppDomain Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::ExitAppDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::ExitAppDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugManagedCallback::ExitAppDomain method [.NET Framework debugging]"
   - "ExitAppDomain method [.NET Framework debugging]"

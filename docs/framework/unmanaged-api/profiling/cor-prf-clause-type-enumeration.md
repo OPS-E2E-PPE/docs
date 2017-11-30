@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_CLAUSE_TYPE Enumeration | Microsoft Docs"
+title: "COR_PRF_CLAUSE_TYPE Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_CLAUSE_TYPE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_CLAUSE_TYPE enumeration [.NET Framework profiling]"
 ms.assetid: f64c325a-ed3a-4aaf-b847-a88edbc4fefc

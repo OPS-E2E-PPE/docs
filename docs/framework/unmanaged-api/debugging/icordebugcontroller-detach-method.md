@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::Detach Method | Microsoft Docs"
+title: "ICorDebugController::Detach Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::Detach"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Detach method, ICorDebugController interface [.NET Framework debugging]"
   - "ICorDebugController::Detach method [.NET Framework debugging]"

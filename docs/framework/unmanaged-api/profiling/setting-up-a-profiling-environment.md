@@ -1,5 +1,5 @@
 ---
-title: "Setting Up a Profiling Environment | Microsoft Docs"
+title: "Setting Up a Profiling Environment"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "environment variables, profiling API"
   - "profiling API [.NET Framework], setting up environment"

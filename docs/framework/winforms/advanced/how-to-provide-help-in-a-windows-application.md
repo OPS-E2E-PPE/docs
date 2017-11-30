@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide Help in a Windows Application | Microsoft Docs"
+title: "How to: Provide Help in a Windows Application"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,12 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "Help, Windows applications"
-  - "HTML Help, Windows Forms"
-  - "Windows applications, providing Help"
+  - "Help [Windows Forms], Windows applications"
+  - "HTML Help [Windows Forms], Windows Forms"
+  - "Windows applications [Windows Forms], providing Help"
   - "HelpProvider component [Windows Forms]"
-  - "forms, providing Help"
+  - "forms [Windows Forms], providing Help"
 ms.assetid: 7c4e5cec-2bd2-4f0b-8d75-c2b88929bd61
 caps.latest.revision: 10
 author: dotnet-bot
@@ -64,7 +62,7 @@ You can use of the <xref:System.Windows.Forms.HelpProvider> component to attach 
  You can also use the <xref:System.Windows.Forms.HelpProvider> component to show pop-up Help, even if you have it configured to display Help files for the controls on your Windows Forms. For more information, see [How to: Display Pop-up Help](../../../../docs/framework/winforms/advanced/how-to-display-pop-up-help.md).  
   
 ## See Also  
- [How to: Display Pop-up Help](../../../../docs/framework/winforms/advanced/how-to-display-pop-up-help.md)   
- [Control Help Using ToolTips](../../../../docs/framework/winforms/advanced/control-help-using-tooltips.md)   
- [Integrating User Help in Windows Forms](../../../../docs/framework/winforms/advanced/integrating-user-help-in-windows-forms.md)   
+ [How to: Display Pop-up Help](../../../../docs/framework/winforms/advanced/how-to-display-pop-up-help.md)  
+ [Control Help Using ToolTips](../../../../docs/framework/winforms/advanced/control-help-using-tooltips.md)  
+ [Integrating User Help in Windows Forms](../../../../docs/framework/winforms/advanced/integrating-user-help-in-windows-forms.md)  
  [Windows Forms](../../../../docs/framework/winforms/index.md)

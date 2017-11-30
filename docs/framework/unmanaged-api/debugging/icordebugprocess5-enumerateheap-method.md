@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess5::EnumerateHeap Method | Microsoft Docs"
+title: "ICorDebugProcess5::EnumerateHeap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess5::EnumerateHeap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateHeap method, ICorDebugProcess5 interface [.NET Framework debugging]"
   - "ICorDebugProcess5::EnumerateHeap method [.NET Framework debugging]"
@@ -60,5 +58,5 @@ HRESULT EnumerateHeap(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)   
+ [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

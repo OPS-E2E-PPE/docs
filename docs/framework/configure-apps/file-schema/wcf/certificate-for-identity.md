@@ -1,5 +1,5 @@
 ---
-title: "&lt;certificate&gt; for &lt;identity&gt; | Microsoft Docs"
+title: "&lt;certificate&gt; for &lt;identity&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,7 +26,7 @@ Specifies an X.509 certificate used to validate a server to a client.
 ## Syntax  
   
 ```xml  
-<certificate encodedValue = "Sring" />  
+<certificate encodedValue = "String" />  
 ```  
   
 ## Attributes and Elements  
@@ -57,9 +57,9 @@ Specifies an X.509 certificate used to validate a server to a client.
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.IdentityElement>   
- <xref:System.ServiceModel.EndpointAddress>   
- <xref:System.ServiceModel.EndpointAddress.Identity%2A>   
- <xref:System.ServiceModel.EndpointIdentity>   
- [Service Identity and Authentication](../../../../../docs/framework/wcf/feature-details/service-identity-and-authentication.md)   
+ <xref:System.ServiceModel.Configuration.IdentityElement>  
+ <xref:System.ServiceModel.EndpointAddress>  
+ <xref:System.ServiceModel.EndpointAddress.Identity%2A>  
+ <xref:System.ServiceModel.EndpointIdentity>  
+ [Service Identity and Authentication](../../../../../docs/framework/wcf/feature-details/service-identity-and-authentication.md)  
  [\<identity>](../../../../../docs/framework/configure-apps/file-schema/wcf/identity.md)

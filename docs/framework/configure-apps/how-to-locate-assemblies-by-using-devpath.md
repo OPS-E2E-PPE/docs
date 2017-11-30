@@ -1,5 +1,5 @@
 ---
-title: "How to: Locate Assemblies by Using DEVPATH | Microsoft Docs"
+title: "How to: Locate Assemblies by Using DEVPATH"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "DEVPATH"
   - ".NET Framework application configuration, assemblies"

@@ -1,5 +1,5 @@
 ---
-title: "User-Drawn Controls | Microsoft Docs"
+title: "User-Drawn Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "custom controls [Windows Forms], user-drawn"
   - "OnPaint method [Windows Forms]"
@@ -37,30 +38,31 @@ The .NET Framework provides you with the ability to easily develop your own cont
  When inheriting from the <xref:System.Windows.Forms.Control> class, you must override the <xref:System.Windows.Forms.Control.OnPaint%2A> method and provide graphics-rendering code within. If you want to provide a custom graphical interface to a user control or an inherited control, you can also do so by overriding the <xref:System.Windows.Forms.Control.OnPaint%2A> method. An example is shown below:  
   
 ```vb  
-Protected Overrides Sub OnPaint(ByVal pe As PaintEventArgs)  
+Protected Overrides Sub OnPaint(ByVal e As PaintEventArgs)  
    ' Call the OnPaint method of the base class.  
-   MyBase.OnPaint(pe)  
+   MyBase.OnPaint(e)  
   
    ' Declare and instantiate a drawing pen.  
-   Dim myPen As System.Drawing.Pen = New System.Drawing.Pen(Color.Aqua)  
-  
-   ' Draw an aqua rectangle in the rectangle represented by the control.  
-   pe.Graphics.DrawRectangle(myPen, New Rectangle(Me.Location, Me.Size))  
+   Using myPen As System.Drawing.Pen = New System.Drawing.Pen(Color.Aqua)  
+      ' Draw an aqua rectangle in the rectangle represented by the control.  
+      e.Graphics.DrawRectangle(myPen, New Rectangle(Me.Location, Me.Size))  
+   End Using
 End Sub  
 ```  
   
 ```csharp  
-protected override void OnPaint(PaintEventArgs pe)  
+protected override void OnPaint(PaintEventArgs e)  
 {  
    // Call the OnPaint method of the base class.  
-   base.OnPaint(pe);  
+   base.OnPaint(e);  
   
    // Declare and instantiate a new pen.  
-   System.Drawing.Pen myPen = new System.Drawing.Pen(Color.Aqua);  
-  
-   // Draw an aqua rectangle in the rectangle represented by the control.  
-   pe.Graphics.DrawRectangle(myPen, new Rectangle(this.Location,   
-      this.Size));  
+   using (System.Drawing.Pen myPen = new System.Drawing.Pen(Color.Aqua))  
+   {
+      // Draw an aqua rectangle in the rectangle represented by the control.  
+      e.Graphics.DrawRectangle(myPen, new Rectangle(this.Location,   
+         this.Size));  
+   }
 }  
 ```  
   
@@ -77,14 +79,14 @@ SetStyle(ControlStyles.ResizeRedraw, true);
 ```  
   
 > [!NOTE]
->  Use the <xref:System.Windows.Forms.Control.Region%2A?displayProperty=fullName> property to implement a non-rectangular control.  
+>  Use the <xref:System.Windows.Forms.Control.Region%2A?displayProperty=nameWithType> property to implement a non-rectangular control.  
   
 ## See Also  
- <xref:System.Windows.Forms.Control.Region%2A>   
- <xref:System.Windows.Forms.ControlStyles>   
- <xref:System.Drawing.Graphics>   
- <xref:System.Windows.Forms.Control.OnPaint%2A>   
- <xref:System.Windows.Forms.PaintEventArgs>   
- [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)   
- [Constituent Controls](../../../../docs/framework/winforms/controls/constituent-controls.md)   
+ <xref:System.Windows.Forms.Control.Region%2A>  
+ <xref:System.Windows.Forms.ControlStyles>  
+ <xref:System.Drawing.Graphics>  
+ <xref:System.Windows.Forms.Control.OnPaint%2A>  
+ <xref:System.Windows.Forms.PaintEventArgs>  
+ [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)  
+ [Constituent Controls](../../../../docs/framework/winforms/controls/constituent-controls.md)  
  [Varieties of Custom Controls](../../../../docs/framework/winforms/controls/varieties-of-custom-controls.md)

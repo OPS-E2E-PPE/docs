@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::RegisterMemoryNotificationCallback Method | Microsoft Docs"
+title: "IHostMemoryManager::RegisterMemoryNotificationCallback Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::RegisterMemoryNotificationCallback"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager::RegisterMemoryNotificationCallback method [.NET Framework hosting]"
   - "RegisterMemoryNotificationCallback method [.NET Framework hosting]"
@@ -72,5 +70,5 @@ HRESULT RegisterMemoryNotificationCallback (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRMemoryNotificationCallback Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmemorynotificationcallback-interface.md)   
+ [ICLRMemoryNotificationCallback Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmemorynotificationcallback-interface.md)  
  [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)

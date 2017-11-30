@@ -1,5 +1,5 @@
 ---
-title: "&lt;activityScheduledQuery&gt; of WCF | Microsoft Docs"
+title: "&lt;activityScheduledQuery&gt; of WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -29,7 +29,7 @@ Represents a collection of queries that are used to track an activity scheduled 
   
 ## Syntax  
   
-```vb  
+```xml
 <tracking>     <trackingProfile name="Name">       <workflow>          <activityScheduledQueries>             <activityScheduledQuery activityName="String"                 childActivityName="String"/>          </activityScheduledQueries>       </workflow>     </trackingProfile></tracking>  
 ```  
   
@@ -55,5 +55,5 @@ Represents a collection of queries that are used to track an activity scheduled 
 ## See Also  
  <xref:System.ServiceModel.Activities.Tracking.Configuration.ActivityScheduledQueryElement>     
  <xref:System.Activities.Tracking.ActivityScheduledQuery>     
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

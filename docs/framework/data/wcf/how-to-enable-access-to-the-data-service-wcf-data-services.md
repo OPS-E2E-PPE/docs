@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable Access to the Data Service (WCF Data Services) | Microsoft Docs"
+title: "How to: Enable Access to the Data Service (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF Data Services, configuring"
 ms.assetid: 3d830bcd-32b4-4f26-9287-d58a071452c6
@@ -33,5 +36,5 @@ In [!INCLUDE[ssAstoria](../../../../includes/ssastoria-md.md)], you must explici
      This enables clients to have read and write access to the `Orders` and `Order_Details` entity sets and read-only access to the `Customers` entity sets.  
   
 ## See Also  
- [How to: Develop a WCF Data Service Running on IIS](../../../../docs/framework/data/wcf/how-to-develop-a-wcf-data-service-running-on-iis.md)   
+ [How to: Develop a WCF Data Service Running on IIS](../../../../docs/framework/data/wcf/how-to-develop-a-wcf-data-service-running-on-iis.md)  
  [Configuring the Data Service](../../../../docs/framework/data/wcf/configuring-the-data-service-wcf-data-services.md)

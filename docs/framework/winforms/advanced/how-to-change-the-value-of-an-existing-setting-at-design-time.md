@@ -1,5 +1,5 @@
 ---
-title: "How To: Change the Value of an Existing Setting at Design Time | Microsoft Docs"
+title: "How To: Change the Value of an Existing Setting at Design Time"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms], design time"
   - "application settings [Windows Forms], changing"
@@ -40,6 +38,6 @@ You can use Visual Studio to edit the values of existing settings in your projec
 3.  In the Settings designer, find the setting for which you want to change the value and type the new value in the Value column.  
   
 ## See Also  
- [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)   
- [How To: Create a New Setting at Design Time](../../../../docs/framework/winforms/advanced/how-to-create-a-new-setting-at-design-time.md)   
+ [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)  
+ [How To: Create a New Setting at Design Time](../../../../docs/framework/winforms/advanced/how-to-create-a-new-setting-at-design-time.md)  
  [Application Settings Overview](../../../../docs/framework/winforms/advanced/application-settings-overview.md)

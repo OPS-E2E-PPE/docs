@@ -1,5 +1,5 @@
 ---
-title: "How to: Load Paged Results (WCF Data Services) | Microsoft Docs"
+title: "How to: Load Paged Results (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF Data Services, deferred content"
   - "WCF Data Services, loading data"
@@ -36,5 +39,5 @@ manager: "erikre"
  [!code-vb[Astoria Northwind Client#GetCustomersPagedNested](../../../../samples/snippets/visualbasic/VS_Snippets_Misc/astoria northwind client/vb/source.vb#getcustomerspagednested)]  
   
 ## See Also  
- [Loading Deferred Content](../../../../docs/framework/data/wcf/loading-deferred-content-wcf-data-services.md)   
+ [Loading Deferred Content](../../../../docs/framework/data/wcf/loading-deferred-content-wcf-data-services.md)  
  [How to: Load Related Entities](../../../../docs/framework/data/wcf/how-to-load-related-entities-wcf-data-services.md)

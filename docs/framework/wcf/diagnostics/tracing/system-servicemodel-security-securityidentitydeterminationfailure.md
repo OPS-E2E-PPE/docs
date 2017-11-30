@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Security.SecurityIdentityDeterminationFailure | Microsoft Docs"
+title: "System.ServiceModel.Security.SecurityIdentityDeterminationFailure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ System.ServiceModel.Security.SecurityIdentityDeterminationFailure
  An identity cannot be determined for an EndpointAddress.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

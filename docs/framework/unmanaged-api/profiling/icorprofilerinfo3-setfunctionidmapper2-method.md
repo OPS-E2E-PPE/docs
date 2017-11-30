@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo3::SetFunctionIDMapper2 Method | Microsoft Docs"
+title: "ICorProfilerInfo3::SetFunctionIDMapper2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo3::SetFunctionIDMapper2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetFunctionIDMapper2 method [.NET Framework profiling]"
   - "ICorProfilerInfo3::SetFunctionIDMapper2 method [.NET Framework profiling]"
@@ -65,7 +63,7 @@ HRESULT SetFunctionIDMapper2(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [SetFunctionIDMapper](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-setfunctionidmapper-method.md)   
- [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [SetFunctionIDMapper](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-setfunctionidmapper-method.md)  
+ [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

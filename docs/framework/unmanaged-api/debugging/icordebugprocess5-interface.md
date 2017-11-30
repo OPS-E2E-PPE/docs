@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess5 Interface | Microsoft Docs"
+title: "ICorDebugProcess5 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess5"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess5 interface [.NET Framework debugging]"
 ms.assetid: 30a39d79-1f10-4328-9c5d-094ed824e2ba
@@ -65,5 +63,5 @@ Extends the ICorDebugProcess interface to support access to the managed heap, to
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

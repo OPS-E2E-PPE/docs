@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Event Triggers to Control a Storyboard After It Starts | Microsoft Docs"
+title: "How to: Use Event Triggers to Control a Storyboard After It Starts"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "triggers, controlling Storyboards"
-  - "event triggers, controlling Storyboards"
-  - "Storyboards, controlling after start"
+  - "triggers [WPF], controlling Storyboards"
+  - "event triggers [WPF], controlling Storyboards"
+  - "Storyboards [WPF], controlling after start"
 ms.assetid: 3b115594-6a93-4972-b24d-61aa16f1c15f
 caps.latest.revision: 17
 author: dotnet-bot
@@ -41,17 +41,17 @@ This example shows how to control a <xref:System.Windows.Media.Animation.Storybo
   
  **Note:** To see an example of controlling a storyboard by using code, see [Control a Storyboard After It Starts Using Its Interactive Methods](../../../../docs/framework/wpf/graphics-multimedia/how-to-control-a-storyboard-after-it-starts.md).  
   
- [!code-xml[timingbehaviors_snip#ControlStoryboardExampleUsingWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/timingbehaviors_snip/CSharp/ControlStoryboardExample.xaml#controlstoryboardexampleusingwholepage)]  
+ [!code-xaml[timingbehaviors_snip#ControlStoryboardExampleUsingWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/timingbehaviors_snip/CSharp/ControlStoryboardExample.xaml#controlstoryboardexampleusingwholepage)]  
   
  For additional examples, see the [Animation Example Gallery](http://go.microsoft.com/fwlink/?LinkID=159969).  
   
 ## See Also  
- <xref:System.Windows.Media.Animation.ResumeStoryboard>   
- <xref:System.Windows.Media.Animation.SetStoryboardSpeedRatio>   
- <xref:System.Windows.Media.Animation.SkipStoryboardToFill>   
- <xref:System.Windows.Media.Animation.PauseStoryboard>   
- <xref:System.Windows.Media.Animation.StopStoryboard>   
- <xref:System.Windows.Media.Animation.SeekStoryboard>   
- [Control a Storyboard After It Starts Using Its Interactive Methods](../../../../docs/framework/wpf/graphics-multimedia/how-to-control-a-storyboard-after-it-starts.md)   
- [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)   
+ <xref:System.Windows.Media.Animation.ResumeStoryboard>  
+ <xref:System.Windows.Media.Animation.SetStoryboardSpeedRatio>  
+ <xref:System.Windows.Media.Animation.SkipStoryboardToFill>  
+ <xref:System.Windows.Media.Animation.PauseStoryboard>  
+ <xref:System.Windows.Media.Animation.StopStoryboard>  
+ <xref:System.Windows.Media.Animation.SeekStoryboard>  
+ [Control a Storyboard After It Starts Using Its Interactive Methods](../../../../docs/framework/wpf/graphics-multimedia/how-to-control-a-storyboard-after-it-starts.md)  
+ [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)  
  [Storyboards Overview](../../../../docs/framework/wpf/graphics-multimedia/storyboards-overview.md)

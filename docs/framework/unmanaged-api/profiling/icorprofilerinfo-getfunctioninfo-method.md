@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetFunctionInfo Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetFunctionInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetFunctionInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::GetFunctionInfo method [.NET Framework profiling]"
   - "GetFunctionInfo method [.NET Framework profiling]"

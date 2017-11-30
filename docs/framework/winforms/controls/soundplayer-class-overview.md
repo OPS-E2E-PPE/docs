@@ -1,5 +1,5 @@
 ---
-title: "SoundPlayer Class Overview | Microsoft Docs"
+title: "SoundPlayer Class Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "playing sounds, SoundPlayer class"
-  - "SoundPlayer class, about SoundPlayer class"
-  - "sounds, playing"
+  - "playing sounds [Windows Forms], SoundPlayer class"
+  - "SoundPlayer class [Windows Forms], about SoundPlayer class"
+  - "sounds [Windows Forms], playing"
 ms.assetid: fcebb938-62b9-4677-9cbe-6465bc863e22
 caps.latest.revision: 10
 author: dotnet-bot
@@ -43,5 +41,5 @@ The <xref:System.Media.SoundPlayer> class enables you to easily include sounds i
 |<xref:System.Media.SoundPlayer.LoadCompleted> event|Raised after the load of a sound is attempted.|  
   
 ## See Also  
- <xref:System.Media.SoundPlayer>   
+ <xref:System.Media.SoundPlayer>  
  <xref:System.Media.SystemSounds>

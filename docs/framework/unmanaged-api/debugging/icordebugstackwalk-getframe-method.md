@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStackWalk::GetFrame Method | Microsoft Docs"
+title: "ICorDebugStackWalk::GetFrame Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStackWalk::GetFrame"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetFrame method [.NET Framework debugging]"
   - "ICorDebugStackWalk::GetFrame method [.NET Framework debugging]"
@@ -69,6 +67,6 @@ HRESULT GetFrame([out] ICorDebugFrame ** pFrame);
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICorDebugStackWalk Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugstackwalk-interface.md)   
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [ICorDebugStackWalk Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugstackwalk-interface.md)  
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

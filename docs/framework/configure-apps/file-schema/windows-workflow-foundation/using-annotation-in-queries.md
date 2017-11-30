@@ -1,5 +1,5 @@
 ---
-title: "Using Annotation in Queries | Microsoft Docs"
+title: "Using Annotation in Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -34,8 +34,8 @@ Annotations allow you to arbitrarily tag tracking records with a value that can 
 >  These tracking query elements can be used to create a tracking profile. A tracking profile can be created either in configuration or using code.  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Tracking.Configuration.ProfileWorkflowElement>   
- <xref:System.Activities.Tracking.TrackingProfile>   
- [\<participants>](../../../../../docs/framework/configure-apps/file-schema/windows-workflow-foundation/participants.md)   
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.ProfileWorkflowElement>  
+ <xref:System.Activities.Tracking.TrackingProfile>  
+ [\<participants>](../../../../../docs/framework/configure-apps/file-schema/windows-workflow-foundation/participants.md)  
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

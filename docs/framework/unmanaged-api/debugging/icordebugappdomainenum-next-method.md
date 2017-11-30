@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomainEnum::Next Method | Microsoft Docs"
+title: "ICorDebugAppDomainEnum::Next Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomainEnum::Next method"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomainEnum::Next method [.NET Framework debugging]"
   - "Next method, ICorDebugAppDomainEnum interface [.NET Framework debugging]"

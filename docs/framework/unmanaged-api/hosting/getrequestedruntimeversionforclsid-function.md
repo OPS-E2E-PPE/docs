@@ -1,5 +1,5 @@
 ---
-title: "GetRequestedRuntimeVersionForCLSID Function | Microsoft Docs"
+title: "GetRequestedRuntimeVersionForCLSID Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetRequestedRuntimeVersionForCLSID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRequestedRuntimeVersionForCLSID function [.NET Framework hosting]"
 ms.assetid: 5bb12f9a-0612-434b-b4ed-2db636a20bec

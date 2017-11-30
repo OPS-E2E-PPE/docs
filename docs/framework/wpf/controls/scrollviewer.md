@@ -1,5 +1,5 @@
 ---
-title: "ScrollViewer | Microsoft Docs"
+title: "ScrollViewer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -35,5 +35,5 @@ The <xref:System.Windows.Controls.ScrollViewer> control creates a scrollable reg
  <xref:System.Windows.Controls.ScrollViewer>  
   
 ## See Also  
- [Panels Overview](../../../../docs/framework/wpf/controls/panels-overview.md)   
+ [Panels Overview](../../../../docs/framework/wpf/controls/panels-overview.md)  
  [Layout](../../../../docs/framework/wpf/advanced/layout.md)

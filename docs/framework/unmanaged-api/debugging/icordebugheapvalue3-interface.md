@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHeapValue3 Interface | Microsoft Docs"
+title: "ICorDebugHeapValue3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHeapValue3"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugHeapValue3 interface [.NET Framework debugging]"
 ms.assetid: 9c421bb0-e647-4b2d-a986-f3d578cc7f20
@@ -54,5 +52,5 @@ Exposes the monitor lock properties of objects. This interface extends the ICorD
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

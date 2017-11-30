@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper Interface1 | Microsoft Docs"
+title: "ICorDebugStepper Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStepper interface [.NET Framework debugging]"
 ms.assetid: ed8364eb-f01b-46f6-b5e3-5dda9cae2dfe

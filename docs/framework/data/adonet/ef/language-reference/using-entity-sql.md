@@ -1,5 +1,5 @@
 ---
-title: "USING (Entity SQL) | Microsoft Docs"
+title: "USING (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 20f58b8f-6070-4456-b7e8-5ff3d6269273
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -48,5 +43,5 @@ using SqlServer; RAND()
 ```  
   
 ## See Also  
- [Namespaces](../../../../../../docs/framework/data/adonet/ef/language-reference/namespaces-entity-sql.md)   
+ [Namespaces](../../../../../../docs/framework/data/adonet/ef/language-reference/namespaces-entity-sql.md)  
  [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)

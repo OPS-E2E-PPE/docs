@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValue::GetAddress Method | Microsoft Docs"
+title: "ICorDebugValue::GetAddress Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValue::GetAddress"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugValue::GetAddress method [.NET Framework debugging]"
   - "GetAddress method, ICorDebugValue interface [.NET Framework debugging]"

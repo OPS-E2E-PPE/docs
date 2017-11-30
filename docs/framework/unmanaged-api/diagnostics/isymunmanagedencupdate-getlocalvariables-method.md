@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedENCUpdate::GetLocalVariables Method | Microsoft Docs"
+title: "ISymUnmanagedENCUpdate::GetLocalVariables Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedENCUpdate::GetLocalVariables"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedENCUpdate::GetLocalVariables method [.NET Framework debugging]"
   - "GetLocalVariables method [.NET Framework debugging]"

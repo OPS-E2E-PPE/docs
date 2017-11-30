@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode2::GetCodeChunks Method | Microsoft Docs"
+title: "ICorDebugCode2::GetCodeChunks Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode2::GetCodeChunks"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCodeChunks method [.NET Framework debugging]"
   - "ICorDebugCode2::GetCodeChunks method [.NET Framework debugging]"

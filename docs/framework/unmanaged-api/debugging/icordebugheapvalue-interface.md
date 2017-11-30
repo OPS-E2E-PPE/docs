@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHeapValue Interface1 | Microsoft Docs"
+title: "ICorDebugHeapValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHeapValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugHeapValue interface [.NET Framework debugging]"
 ms.assetid: 1bca66db-0359-4ae8-846e-e35f7e547e8b

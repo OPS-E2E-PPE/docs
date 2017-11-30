@@ -1,5 +1,5 @@
 ---
-title: "How to: Delete or Hide Columns in the Windows Forms DataGrid Control | Microsoft Docs"
+title: "How to: Delete or Hide Columns in the Windows Forms DataGrid Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "data grids, deleting columns"
+  - "data grids [Windows Forms], deleting columns"
   - "DataGrid control [Windows Forms], deleting columns"
-  - "data grids, hiding columns"
+  - "data grids [Windows Forms], hiding columns"
   - "columns [Windows Forms], hiding"
   - "columns [Windows Forms], deleting in data grids"
   - "DataGrid control [Windows Forms], hiding columns"
@@ -39,7 +40,7 @@ manager: "wpickett"
   
 1.  In the declarations area of your form, declare a new instance of the <xref:System.Windows.Forms.DataGridTableStyle> class.  
   
-2.  Set the <xref:System.Windows.Forms.DataGridTableStyle.MappingName%2A?displayProperty=fullName> property to the table in your data source that you want to apply the style to. The following example uses the <xref:System.Windows.Forms.DataGrid.DataMember%2A?displayProperty=fullName> property, which it assumes is already set.  
+2.  Set the <xref:System.Windows.Forms.DataGridTableStyle.MappingName%2A?displayProperty=nameWithType> property to the table in your data source that you want to apply the style to. The following example uses the <xref:System.Windows.Forms.DataGrid.DataMember%2A?displayProperty=nameWithType> property, which it assumes is already set.  
   
 3.  Add the new <xref:System.Windows.Forms.DataGridTableStyle> object to the datagrid's table styles collection.  
   
@@ -86,11 +87,11 @@ manager: "wpickett"
   
 1.  In the declarations area of your form, declare a new instance of the <xref:System.Windows.Forms.DataGridTableStyle> class.  
   
-2.  Set the <xref:System.Windows.Forms.DataGridTableStyle.MappingName%2A> property of the <xref:System.Windows.Forms.DataGridTableStyle> to the table in your data source that you want to apply the style to. The following code example uses the <xref:System.Windows.Forms.DataGrid.DataMember%2A?displayProperty=fullName> property, which it assumes is already set.  
+2.  Set the <xref:System.Windows.Forms.DataGridTableStyle.MappingName%2A> property of the <xref:System.Windows.Forms.DataGridTableStyle> to the table in your data source that you want to apply the style to. The following code example uses the <xref:System.Windows.Forms.DataGrid.DataMember%2A?displayProperty=nameWithType> property, which it assumes is already set.  
   
 3.  Add the new <xref:System.Windows.Forms.DataGridTableStyle> object to the datagrid's table styles collection.  
   
-4.  Hide the column by setting its`Width` property to 0, specifying the column index of the column to hide.  
+4.  Hide the column by setting its `Width` property to 0, specifying the column index of the column to hide.  
   
     ```vb  
     ' Declare a new DataGridTableStyle in the  
@@ -130,5 +131,5 @@ manager: "wpickett"
     ```  
   
 ## See Also  
- [How to: Change Displayed Data at Run Time in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/change-displayed-data-at-run-time-wf-datagrid-control.md)   
+ [How to: Change Displayed Data at Run Time in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/change-displayed-data-at-run-time-wf-datagrid-control.md)  
  [How to: Add Tables and Columns to the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-add-tables-and-columns-to-the-windows-forms-datagrid-control.md)

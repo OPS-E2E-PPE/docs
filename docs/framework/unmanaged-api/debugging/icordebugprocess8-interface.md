@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess8 Interface | Microsoft Docs"
+title: "ICorDebugProcess8 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 7ab1a70f-ec11-46ff-8869-cd8ca679cc51
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -40,5 +38,5 @@ manager: "wpickett"
  **.NET Framework Versions:** [!INCLUDE[net_current_v46plus](../../../../includes/net-current-v46plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

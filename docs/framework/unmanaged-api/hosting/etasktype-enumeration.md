@@ -1,5 +1,5 @@
 ---
-title: "ETaskType Enumeration | Microsoft Docs"
+title: "ETaskType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ETaskType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ETaskType enumeration [.NET Framework hosting]"
 ms.assetid: aa527b31-89d4-41f2-ad6f-63b76950b7df

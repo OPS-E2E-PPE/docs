@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Windows Communication Foundation Client | Microsoft Docs"
+title: "How to: Create a Windows Communication Foundation Client"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "clients [WCF], running"
   - "WCF clients [WCF], running"
@@ -61,8 +58,8 @@ This is the fourth of six tasks required to create a [!INCLUDE[indigo1](../../..
  You have now created the proxy that the client application will use to call the calculator service. Proceed to the next topic in the series: [How to: Configure a Client](../../../docs/framework/wcf/how-to-configure-a-basic-wcf-client.md)  
   
 ## See Also  
- [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)   
- [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)   
- [Self-Host](../../../docs/framework/wcf/samples/self-host.md)   
- [How to: Publish Metadata for a Service Using a Configuration File](../../../docs/framework/wcf/feature-details/how-to-publish-metadata-for-a-service-using-a-configuration-file.md)   
+ [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)  
+ [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)  
+ [Self-Host](../../../docs/framework/wcf/samples/self-host.md)  
+ [How to: Publish Metadata for a Service Using a Configuration File](../../../docs/framework/wcf/feature-details/how-to-publish-metadata-for-a-service-using-a-configuration-file.md)  
  [How to: Use Svcutil.exe to Download Metadata Documents](../../../docs/framework/wcf/feature-details/how-to-use-svcutil-exe-to-download-metadata-documents.md)

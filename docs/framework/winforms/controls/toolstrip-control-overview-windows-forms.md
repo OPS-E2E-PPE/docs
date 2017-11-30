@@ -1,5 +1,5 @@
 ---
-title: "ToolStrip Control Overview (Windows Forms) | Microsoft Docs"
+title: "ToolStrip Control Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Toolstrip"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ToolStrip control [Windows Forms], about ToolStrip control"
   - "toolbars [Windows Forms], what's new in Windows Forms"
@@ -88,9 +86,9 @@ The Windows Forms <xref:System.Windows.Forms.ToolStrip> control and its associat
  For more information, see [ToolStrip Technology Summary](../../../../docs/framework/winforms/controls/toolstrip-technology-summary.md) and [ToolStrip Control Architecture](../../../../docs/framework/winforms/controls/toolstrip-control-architecture.md).  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStrip>   
- <xref:System.Windows.Forms.MenuStrip>   
- <xref:System.Windows.Forms.ContextMenuStrip>   
- <xref:System.Windows.Forms.StatusStrip>   
- <xref:System.Windows.Forms.ToolStripItem>   
+ <xref:System.Windows.Forms.ToolStrip>  
+ <xref:System.Windows.Forms.MenuStrip>  
+ <xref:System.Windows.Forms.ContextMenuStrip>  
+ <xref:System.Windows.Forms.StatusStrip>  
+ <xref:System.Windows.Forms.ToolStripItem>  
  <xref:System.Windows.Forms.ToolStripDropDown>

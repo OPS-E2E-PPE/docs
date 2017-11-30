@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Interpolation Mode to Control Image Quality During Scaling | Microsoft Docs"
+title: "How to: Use Interpolation Mode to Control Image Quality During Scaling"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "interpolation mode, controlling image quality"
+  - "interpolation mode [Windows Forms], controlling image quality"
   - "images [Windows Forms], scaling"
   - "images [Windows Forms], controlling quality"
 ms.assetid: fde9bccf-8aa5-4b0d-ba4b-788740627b02
@@ -52,5 +53,5 @@ The interpolation mode of a <xref:System.Drawing.Graphics> object influences the
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of the <xref:System.Windows.Forms.Control.Paint> event handler.  
   
 ## See Also  
- [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)   
+ [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)  
  [Working with Images, Bitmaps, Icons, and Metafiles](../../../../docs/framework/winforms/advanced/working-with-images-bitmaps-icons-and-metafiles.md)

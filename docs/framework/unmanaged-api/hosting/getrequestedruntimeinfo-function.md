@@ -1,5 +1,5 @@
 ---
-title: "GetRequestedRuntimeInfo Function | Microsoft Docs"
+title: "GetRequestedRuntimeInfo Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetRequestedRuntimeInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRequestedRuntimeInfo function [.NET Framework hosting]"
 ms.assetid: 0dfd7cdc-c116-4e25-b56a-ac7b0378c942
@@ -130,6 +128,6 @@ HRESULT GetRequestedRuntimeInfo (
  **.NET Framework Versions:** [!INCLUDE[net_current_v11plus](../../../../includes/net-current-v11plus-md.md)]  
   
 ## See Also  
- [GetRequestedRuntimeVersion Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeversion-function.md)   
- [GetVersionFromProcess Function](../../../../docs/framework/unmanaged-api/hosting/getversionfromprocess-function.md)   
+ [GetRequestedRuntimeVersion Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeversion-function.md)  
+ [GetVersionFromProcess Function](../../../../docs/framework/unmanaged-api/hosting/getversionfromprocess-function.md)  
  [Deprecated CLR Hosting Functions](../../../../docs/framework/unmanaged-api/hosting/deprecated-clr-hosting-functions.md)

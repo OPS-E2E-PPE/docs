@@ -1,5 +1,5 @@
 ---
-title: "Covariance and Contravariance in Generics | Microsoft Docs"
+title: "Covariance and Contravariance in Generics"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "generics, covariance and contravariance"
   - "generics, variance"
@@ -93,7 +96,7 @@ manager: "wpickett"
 ## Generic Interfaces with Contravariant Generic Type Parameters  
  Starting with the [!INCLUDE[net_v40_short](../../../includes/net-v40-short-md.md)], several generic interfaces have contravariant type parameters; for example: <xref:System.Collections.Generic.IComparer%601>, <xref:System.IComparable%601>, and <xref:System.Collections.Generic.IEqualityComparer%601>. These interfaces have only contravariant type parameters, so the type parameters are used only as parameter types in the members of the interfaces.  
   
- The following example illustrates contravariant type parameters. The example defines an abstract (`MustInherit` in Visual Basic) `Shape` class with an `Area` property. The example also defines a `ShapeAreaComparer` class that implements `IComparer<Shape>` (`IComparer(Of Shape)` in Visual Basic). The implementation of the <xref:System.Collections.Generic.IComparer%601.Compare%2A?displayProperty=fullName> method is based on the value of the `Area` property, so `ShapeAreaComparer` can be used to sort `Shape` objects by area.  
+ The following example illustrates contravariant type parameters. The example defines an abstract (`MustInherit` in Visual Basic) `Shape` class with an `Area` property. The example also defines a `ShapeAreaComparer` class that implements `IComparer<Shape>` (`IComparer(Of Shape)` in Visual Basic). The implementation of the <xref:System.Collections.Generic.IComparer%601.Compare%2A?displayProperty=nameWithType> method is based on the value of the `Area` property, so `ShapeAreaComparer` can be used to sort `Shape` objects by area.  
   
  The `Circle` class inherits `Shape` and overrides `Area`. The example creates a <xref:System.Collections.Generic.SortedSet%601> of `Circle` objects, using a constructor that takes an `IComparer<Circle>` (`IComparer(Of Circle)` in Visual Basic). However, instead of passing an `IComparer<Circle>`, the example passes a `ShapeAreaComparer` object, which implements `IComparer<Shape>`. The example can pass a comparer of a less derived type (`Shape`) when the code calls for a comparer of a more derived type (`Circle`), because the type parameter of the <xref:System.Collections.Generic.IComparer%601> generic interface is contravariant.  
   
@@ -188,5 +191,6 @@ manager: "wpickett"
 |<xref:System.Linq.IQueryable%601>|Yes||  
   
 ## See Also  
- [Covariance and Contravariance](http://msdn.microsoft.com/library/a58cc086-276f-4f91-a366-85b7f95f38b8)   
+ [Covariance and Contravariance (C#)](../../csharp/programming-guide/concepts/covariance-contravariance/index.md)  
+ [Covariance and Contravariance (Visual Basic)](../../visual-basic/programming-guide/concepts/covariance-contravariance/index.md)    
  [Variance in Delegates](http://msdn.microsoft.com/library/e3b98197-6c5b-4e55-9c6e-9739b60645ca)

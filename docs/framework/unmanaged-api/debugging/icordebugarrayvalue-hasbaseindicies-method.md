@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::HasBaseIndicies Method | Microsoft Docs"
+title: "ICorDebugArrayValue::HasBaseIndicies Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::HasBaseIndicies"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "HasBaseIndicies method [.NET Framework debugging]"
   - "ICorDebugArrayValue::HasBaseIndicies method [.NET Framework debugging]"

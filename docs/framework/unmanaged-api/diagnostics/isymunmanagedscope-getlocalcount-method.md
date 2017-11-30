@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope::GetLocalCount Method | Microsoft Docs"
+title: "ISymUnmanagedScope::GetLocalCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope::GetLocalCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetLocalCount method [.NET Framework debugging]"
   - "ISymUnmanagedScope::GetLocalCount method [.NET Framework debugging]"

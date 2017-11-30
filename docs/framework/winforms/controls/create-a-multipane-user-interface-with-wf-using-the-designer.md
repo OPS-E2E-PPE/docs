@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Multipane User Interface with Windows Forms Using the Designer | Microsoft Docs"
+title: "How to: Create a Multipane User Interface with Windows Forms Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "user interface, multipane"
+  - "user interface [Windows Forms], multipane"
   - "SplitContainer control [Windows Forms], using the designer"
   - "multipane user interface"
 ms.assetid: c3f9294d-a26c-4198-9242-f237f55f7573
@@ -55,5 +53,5 @@ In the following procedure, you will create a multipane user interface that is s
      At this point in application development, you have crafted a sophisticated user interface. The next step is proceeding with the programming of the application itself, perhaps by connecting the <xref:System.Windows.Forms.TreeView> control and <xref:System.Windows.Forms.ListView> controls to some kind of data source. For more information about connecting controls to data, see [Data Binding and Windows Forms](../../../../docs/framework/winforms/data-binding-and-windows-forms.md).  
   
 ## See Also  
- <xref:System.Windows.Forms.SplitContainer>   
+ <xref:System.Windows.Forms.SplitContainer>  
  [SplitContainer Control](../../../../docs/framework/winforms/controls/splitcontainer-control-windows-forms.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebug::DebugActiveProcess Method | Microsoft Docs"
+title: "ICorDebug::DebugActiveProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebug::DebugActiveProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DebugActiveProcess method [.NET Framework debugging]"
   - "ICorDebug::DebugActiveProcess method [.NET Framework debugging]"

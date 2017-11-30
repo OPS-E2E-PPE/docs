@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedAsyncMethod::GetAsyncStepInfoCount Method | Microsoft Docs"
+title: "ISymUnmanagedAsyncMethod::GetAsyncStepInfoCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 32a4e084-09b2-4946-a4a7-19a1fed9f7cc
 caps.latest.revision: 4
 author: "rpetrusha"

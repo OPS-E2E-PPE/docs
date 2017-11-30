@@ -1,5 +1,5 @@
 ---
-title: "Exposing Your Data as a Service (WCF Data Services) | Microsoft Docs"
+title: "Exposing Your Data as a Service (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -35,5 +35,5 @@ manager: "erikre"
  For an example of how to create a simple data service that is based on the Northwind sample database, see [Quickstart](../../../../docs/framework/data/wcf/quickstart-wcf-data-services.md).  
   
 ## See Also  
- [Getting Started](../../../../docs/framework/data/wcf/getting-started-with-wcf-data-services.md)   
+ [Getting Started](../../../../docs/framework/data/wcf/getting-started-with-wcf-data-services.md)  
  [Overview](../../../../docs/framework/data/wcf/wcf-data-services-overview.md)

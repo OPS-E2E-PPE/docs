@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Pen | Microsoft Docs"
+title: "How to: Create a Pen"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "graphics, creating pens"
-  - "pens, creating"
+  - "graphics [Windows Forms], creating pens"
+  - "pens [Windows Forms], creating"
   - "Pen object"
 ms.assetid: 7fbea8b7-7ac1-4413-9c17-733a850381e3
 caps.latest.revision: 12
@@ -33,6 +35,6 @@ This example creates a <xref:System.Drawing.Pen> object.
  After you have finished using objects that consume system resources, such as <xref:System.Drawing.Pen> objects, you should call <xref:System.Drawing.Pen.Dispose%2A> on them.  
   
 ## See Also  
- <xref:System.Drawing.Pen>   
- [Getting Started with Graphics Programming](../../../../docs/framework/winforms/advanced/getting-started-with-graphics-programming.md)   
+ <xref:System.Drawing.Pen>  
+ [Getting Started with Graphics Programming](../../../../docs/framework/winforms/advanced/getting-started-with-graphics-programming.md)  
  [Pens, Lines, and Rectangles in GDI+](../../../../docs/framework/winforms/advanced/pens-lines-and-rectangles-in-gdi.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Move a ToolStrip Out of a ToolStripContainer onto a Form | Microsoft Docs"
+title: "How to: Move a ToolStrip Out of a ToolStripContainer onto a Form"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ToolStrip control [Windows Forms], parenting to forms"
   - "Windows Forms, parenting ToolStrip controls"
@@ -39,6 +37,6 @@ Use the following procedure to move a <xref:System.Windows.Forms.ToolStrip> out 
 5.  Set the <xref:System.Windows.Forms.ToolStrip.Dock%2A> property of the <xref:System.Windows.Forms.ToolStrip> to **Top**.  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStrip>   
- <xref:System.Windows.Forms.ToolStripContainer>   
+ <xref:System.Windows.Forms.ToolStrip>  
+ <xref:System.Windows.Forms.ToolStripContainer>  
  [ToolStrip Control Overview](../../../../docs/framework/winforms/controls/toolstrip-control-overview-windows-forms.md)

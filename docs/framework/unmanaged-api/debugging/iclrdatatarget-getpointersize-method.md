@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget::GetPointerSize Method | Microsoft Docs"
+title: "ICLRDataTarget::GetPointerSize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget::GetPointerSize"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetPointerSize method [.NET Framework debugging]"
   - "ICLRDataTarget::GetPointerSize method [.NET Framework debugging]"

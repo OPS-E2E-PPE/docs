@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::EnableJITDebugging Method | Microsoft Docs"
+title: "ICorDebugModule::EnableJITDebugging Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::EnableJITDebugging"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::EnableJITDebugging method [.NET Framework debugging]"
   - "EnableJITDebugging method [.NET Framework debugging]"

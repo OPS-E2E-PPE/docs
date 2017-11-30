@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataFilter::IsTokenMarked Method | Microsoft Docs"
+title: "IMetaDataFilter::IsTokenMarked Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataFilter::IsTokenMarked"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataFilter::IsTokenMarked method [.NET Framework metadata]"
   - "IsTokenMarked method [.NET Framework metadata]"

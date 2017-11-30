@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Initialize Trace Sources | Microsoft Docs"
+title: "How to: Create and Initialize Trace Sources"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "trace sources"
   - "initializing trace sources"
@@ -75,7 +73,7 @@ The <xref:System.Diagnostics.TraceSource> class is used by applications to produ
   
      The configuration file initializes the settings for the trace source at the time the application is initialized. The application can dynamically change the properties set by the configuration file to override any settings specified by the user. For example, you might want to ensure that critical messages are always sent to a text file, regardless of the current configuration settings. The example code demonstrates how to override configuration file settings to ensure that critical messages are output to the trace listeners.  
   
-     Changing the configuration file settings while the application is executing does not change the initial settings. To change the settings, you must either restart the application or programmatically refresh the application by using the <xref:System.Diagnostics.Trace.Refresh%2A?displayProperty=fullName> method.  
+     Changing the configuration file settings while the application is executing does not change the initial settings. To change the settings, you must either restart the application or programmatically refresh the application by using the <xref:System.Diagnostics.Trace.Refresh%2A?displayProperty=nameWithType> method.  
   
 ### To initialize trace sources, listeners, and filters without a configuration file  
   
@@ -85,8 +83,8 @@ The <xref:System.Diagnostics.TraceSource> class is used by applications to produ
      [!code-vb[TraceSourceExample2#1](../../../samples/snippets/visualbasic/VS_Snippets_CLR/tracesourceexample2/vb/program.vb#1)]  
   
 ## See Also  
- <xref:System.Diagnostics.TraceSource>   
- <xref:System.Diagnostics.TextWriterTraceListener>   
- <xref:System.Diagnostics.ConsoleTraceListener>   
- <xref:System.Diagnostics.EventTypeFilter>   
+ <xref:System.Diagnostics.TraceSource>  
+ <xref:System.Diagnostics.TextWriterTraceListener>  
+ <xref:System.Diagnostics.ConsoleTraceListener>  
+ <xref:System.Diagnostics.EventTypeFilter>  
  [Tracing and Instrumenting Applications](../../../docs/framework/debug-trace-profile/tracing-and-instrumenting-applications.md)

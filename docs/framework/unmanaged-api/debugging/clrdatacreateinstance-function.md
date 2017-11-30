@@ -1,5 +1,5 @@
 ---
-title: "CLRDataCreateInstance Function | Microsoft Docs"
+title: "CLRDataCreateInstance Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CLRDataCreateInstance"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CLRDataCreateInstance function [.NET Framework debugging]"
 ms.assetid: 440bad90-5a88-45e7-9157-4596801d8d19

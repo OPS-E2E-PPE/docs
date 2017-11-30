@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::ControlCTrap Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::ControlCTrap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::ControlCTrap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugManagedCallback::ControlCTrap method [.NET Framework debugging]"
   - "ControlCTrap method [.NET Framework debugging]"

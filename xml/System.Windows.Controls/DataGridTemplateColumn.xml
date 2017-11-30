@@ -32,7 +32,7 @@
 ## Examples  
  The following example shows how to create a <xref:System.Windows.Controls.DataGridTemplateColumn>.  
   
- [!code-xml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
+ [!code-xaml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
   
  The following illustration shows the output from the previous XAML.  
   
@@ -40,6 +40,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.DataGrid" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -85,7 +86,7 @@
 ## Examples  
  The following example shows how to create the <xref:System.Windows.Controls.DataGridTemplateColumn.CellEditingTemplate%2A> for displaying and editing a column of dates.  
   
- [!code-xml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
+ [!code-xaml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
   
  The following illustration shows the output from the previous XAML.  
   
@@ -93,6 +94,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
       </Docs>
     </Member>
     <Member MemberName="CellEditingTemplateProperty">
@@ -175,7 +177,7 @@
 ## Examples  
  The following example shows how to create the <xref:System.Windows.Controls.DataGridTemplateColumn.CellTemplate%2A> for displaying a column of dates.  
   
- [!code-xml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
+ [!code-xaml[DataGrid_TemplateColumn#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datagrid_templatecolumn/CS/window1.xaml#1)]   
   
  The following illustration shows the output from the previous XAML.  
   
@@ -183,6 +185,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
       </Docs>
     </Member>
     <Member MemberName="CellTemplateProperty">

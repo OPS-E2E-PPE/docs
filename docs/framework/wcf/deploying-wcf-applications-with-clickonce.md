@@ -1,5 +1,5 @@
 ---
-title: "Deploying WCF Applications with ClickOnce | Microsoft Docs"
+title: "Deploying WCF Applications with ClickOnce"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -21,5 +21,5 @@ Client applications using [!INCLUDE[indigo1](../../../includes/indigo1-md.md)] m
  For information on configuring ClickOnce applications and trusted publishers, see [Configuring ClickOnce Trusted Publishers](http://go.microsoft.com/fwlink/?LinkId=94774).  
   
 ## See Also  
- [Trusted Application Deployment Overview](http://go.microsoft.com/fwlink/?LinkId=94775)   
+ [Trusted Application Deployment Overview](http://go.microsoft.com/fwlink/?LinkId=94775)  
  [ClickOnce Deployment for Windows Forms Applications](http://go.microsoft.com/fwlink/?LinkId=94776)

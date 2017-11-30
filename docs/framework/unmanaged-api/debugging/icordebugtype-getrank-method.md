@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugType::GetRank Method | Microsoft Docs"
+title: "ICorDebugType::GetRank Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugType::GetRank"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRank method, ICorDebugType interface [.NET Framework debugging]"
   - "ICorDebugType::GetRank method [.NET Framework debugging]"

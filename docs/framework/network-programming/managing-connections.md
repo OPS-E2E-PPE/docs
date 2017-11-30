@@ -1,5 +1,5 @@
 ---
-title: "Managing Connections | Microsoft Docs"
+title: "Managing Connections"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "Internet, connections"
   - "HTTP, classes for connecting"
@@ -71,5 +69,5 @@ sp.ConnectionLimit = newLimit
 ```  
   
 ## See Also  
- [Connection Grouping](../../../docs/framework/network-programming/connection-grouping.md)   
+ [Connection Grouping](../../../docs/framework/network-programming/connection-grouping.md)  
  [Using Application Protocols](../../../docs/framework/network-programming/using-application-protocols.md)

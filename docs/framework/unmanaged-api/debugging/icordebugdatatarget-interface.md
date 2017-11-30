@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugDataTarget Interface | Microsoft Docs"
+title: "ICorDebugDataTarget Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugDataTarget"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugDataTarget interface [.NET Framework debugging]"
 ms.assetid: df5f05be-bed7-4f3c-bc89-dbb435d79a0b
@@ -66,5 +64,5 @@ Provides a callback interface that provides access to a particular target proces
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

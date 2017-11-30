@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMDA::GetFlags Method | Microsoft Docs"
+title: "ICorDebugMDA::GetFlags Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugMDA::GetFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugMDA::GetFlags method [.NET Framework debugging]"
   - "GetFlags method [.NET Framework debugging]"
@@ -55,5 +53,5 @@ HRESULT GetFlags (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorDebugMDA Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmda-interface.md)   
+ [ICorDebugMDA Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmda-interface.md)  
  [Diagnosing Errors with Managed Debugging Assistants](../../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

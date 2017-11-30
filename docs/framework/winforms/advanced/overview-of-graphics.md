@@ -1,5 +1,5 @@
 ---
-title: "Overview of Graphics | Microsoft Docs"
+title: "Overview of Graphics"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "graphics, using managed interface"
-  - "graphics, about graphics"
+  - "graphics [Windows Forms], using managed interface"
+  - "graphics [Windows Forms], about graphics"
 ms.assetid: a602aef8-a8c8-4c36-9816-74e7bad96a68
 caps.latest.revision: 17
 author: dotnet-bot

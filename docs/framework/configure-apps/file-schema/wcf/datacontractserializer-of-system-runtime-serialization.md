@@ -1,5 +1,5 @@
 ---
-title: "&lt;dataContractSerializer&gt; of &lt;system.runtime.serialization&gt; | Microsoft Docs"
+title: "&lt;dataContractSerializer&gt; of &lt;system.runtime.serialization&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -67,6 +67,6 @@ Contains configuration data for the <xref:System.Runtime.Serialization.DataContr
  For more information about known types, see <xref:System.Runtime.Serialization.DataContractSerializer> and [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md).  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractSerializer>   
- <xref:System.ServiceModel.Description.DataContractSerializerOperationBehavior>   
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
+ <xref:System.ServiceModel.Description.DataContractSerializerOperationBehavior>  
  [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md)

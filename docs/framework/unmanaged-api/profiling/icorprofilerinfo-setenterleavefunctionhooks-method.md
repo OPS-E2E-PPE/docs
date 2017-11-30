@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::SetEnterLeaveFunctionHooks Method | Microsoft Docs"
+title: "ICorProfilerInfo::SetEnterLeaveFunctionHooks Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::SetEnterLeaveFunctionHooks"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetEnterLeaveFunctionHooks method [.NET Framework profiling]"
   - "ICorProfilerInfo::SetEnterLeaveFunctionHooks method [.NET Framework profiling]"

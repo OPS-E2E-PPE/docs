@@ -40,10 +40,20 @@
 ## Examples  
  The following example applies a <xref:System.Windows.Media.Animation.BounceEase> easing function to a <xref:System.Windows.Media.Animation.DoubleAnimation> to create a bouncing effect.  
   
- [!code-xml[BounceEase_Snippet#BounceEase](~/samples/snippets/csharp/VS_Snippets_Wpf/bounceease_snippet/CS/window1.xaml#bounceease)]   
+ [!code-xaml[BounceEase_Snippet#BounceEase](~/samples/snippets/csharp/VS_Snippets_Wpf/bounceease_snippet/CS/window1.xaml#bounceease)]   
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Media.Animation.PowerEase" />
+    <altmember cref="T:System.Windows.Media.Animation.BackEase" />
+    <altmember cref="T:System.Windows.Media.Animation.CircleEase" />
+    <altmember cref="T:System.Windows.Media.Animation.CubicEase" />
+    <altmember cref="T:System.Windows.Media.Animation.ElasticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.ExponentialEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuadraticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuarticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuinticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.SineEase" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">

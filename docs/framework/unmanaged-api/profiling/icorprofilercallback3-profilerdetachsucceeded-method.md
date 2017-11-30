@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback3::ProfilerDetachSucceeded Method | Microsoft Docs"
+title: "ICorProfilerCallback3::ProfilerDetachSucceeded Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback3::ProfilerDetachSucceeded"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ProfilerDetachSucceeded method [.NET Framework profiling]"
   - "ICorProfilerCallback3::ProfilerDetachSucceeded method [.NET Framework profiling]"
@@ -59,7 +57,7 @@ HRESULT ProfilerDetachSucceeded();
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)   
- [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)  
+ [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

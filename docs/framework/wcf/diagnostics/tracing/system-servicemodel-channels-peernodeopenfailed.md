@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Channels.PeerNodeOpenFailed | Microsoft Docs"
+title: "System.ServiceModel.Channels.PeerNodeOpenFailed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -25,6 +25,6 @@ An attempt to open a neighbor connection failed.
  Ensure that both nodes have valid addresses and are configured appropriately.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

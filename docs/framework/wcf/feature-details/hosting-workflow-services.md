@@ -1,5 +1,5 @@
 ---
-title: "Hosting Workflow Services | Microsoft Docs"
+title: "Hosting Workflow Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -57,8 +57,8 @@ A workflow service must be hosted for it to respond to incoming messages. Workfl
  References to custom activities must be added to the <`Assemblies`> section under <`System.Web.Compilation`> so that they are loaded into the Application Domain and the XAML deserializer is able to locate the types. These settings can be made at the application level or in the root Web.config if the settings should be applied to all applications on the machine.  
   
 ## Deployment  
- The Web Deployment tool has been created to make the job of deployment easier. The tool allows you to migrate applications between IIS 6.0 and IIS 7.0, synchronize server farms, and package, archive and deploy Web applications. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][MS Deployment Tool](http://go.microsoft.com/fwlink/?LinkId=178690)  
+ The Web Deployment tool has been created to make the job of deployment easier. The tool allows you to migrate applications between IIS 6.0 and IIS 7.0, synchronize server farms, and package, archive and deploy Web applications. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [MS Deployment Tool](http://go.microsoft.com/fwlink/?LinkId=178690)  
   
 ## See Also  
- [Workflow Service Host Internals](../../../../docs/framework/wcf/feature-details/workflow-service-host-internals.md)   
+ [Workflow Service Host Internals](../../../../docs/framework/wcf/feature-details/workflow-service-host-internals.md)  
  [Configuring WorkflowServiceHost](../../../../docs/framework/wcf/feature-details/configuring-workflowservicehost.md)

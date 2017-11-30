@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugLoadedModule::GetSize Method | Microsoft Docs"
+title: "ICorDebugLoadedModule::GetSize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: aaa0e5c0-be9d-4fe1-8418-5295b9b184d6
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -47,5 +45,5 @@ HRESULT GetSize(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugLoadedModule Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugloadedmodule-interface.md)   
+ [ICorDebugLoadedModule Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugloadedmodule-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

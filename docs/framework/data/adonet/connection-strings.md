@@ -1,5 +1,5 @@
 ---
-title: "Connection Strings in ADO.NET | Microsoft Docs"
+title: "Connection Strings in ADO.NET"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -44,5 +44,5 @@ The .NET Framework 2.0 introduced new capabilities for working with connection s
  Demonstrates techniques for protecting information used to connect to a data source.  
   
 ## See Also  
- [Connecting to a Data Source](/cpp/data/odbc/connecting-to-a-data-source)   
+ [Connecting to a Data Source](/cpp/data/odbc/connecting-to-a-data-source)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

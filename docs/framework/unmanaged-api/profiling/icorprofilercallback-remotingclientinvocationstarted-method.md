@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RemotingClientInvocationStarted Method | Microsoft Docs"
+title: "ICorProfilerCallback::RemotingClientInvocationStarted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RemotingClientInvocationStarted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RemotingClientInvocationStarted method [.NET Framework profiling]"
   - "ICorProfilerCallback::RemotingClientInvocationStarted method [.NET Framework profiling]"

@@ -1,5 +1,5 @@
 ---
-title: "Modeling and Mapping | Microsoft Docs"
+title: "Modeling and Mapping"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
-  - "jsharp"
 ms.assetid: ec8a9515-3708-4cde-a688-4d8e6975f150
 caps.latest.revision: 7
 author: "JennieHubbard"

@@ -293,7 +293,7 @@ WorkflowInvoker.Invoke(wf, wfParams);
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Activities.InArgument&lt;T&gt; op_Implicit (System.Activities.Activity&lt;T&gt; expression);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Activities.InArgument&lt;T&gt; (System.Activities.Activity&lt;T&gt; expression);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Activities.InArgument`1&lt;!T&gt; op_Implicit(class System.Activities.Activity`1&lt;!T&gt; expression) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.InArgument`1.op_Implicit(System.Activities.Activity{`0})~System.Activities.InArgument{`0}" />
       <MemberType>Method</MemberType>
@@ -308,14 +308,14 @@ WorkflowInvoker.Invoke(wf, wfParams);
         <Parameter Name="expression" Type="System.Activities.Activity&lt;T&gt;" />
       </Parameters>
       <Docs>
-        <param name="expression">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="expression">The value of the argument.</param>
+        <summary>Initializes and returns a new <see cref="T:System.Activities.InArgument`1" /> using the specified <see cref="T:System.Activities.Activity`1" />.</summary>
+        <returns>The new argument.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Activities.InArgument&lt;T&gt; op_Implicit (System.Activities.DelegateArgument delegateArgument);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Activities.InArgument&lt;T&gt; (System.Activities.DelegateArgument delegateArgument);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Activities.InArgument`1&lt;!T&gt; op_Implicit(class System.Activities.DelegateArgument delegateArgument) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.InArgument`1.op_Implicit(System.Activities.DelegateArgument)~System.Activities.InArgument{`0}" />
       <MemberType>Method</MemberType>
@@ -330,14 +330,14 @@ WorkflowInvoker.Invoke(wf, wfParams);
         <Parameter Name="delegateArgument" Type="System.Activities.DelegateArgument" />
       </Parameters>
       <Docs>
-        <param name="delegateArgument">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="delegateArgument">The value of the argument.</param>
+        <summary>Initializes and returns a new <see cref="T:System.Activities.InArgument`1" /> using the specified <see cref="T:System.Activities.DelegateArgument" />.</summary>
+        <returns>The new argument.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Activities.InArgument&lt;T&gt; op_Implicit (System.Activities.Variable variable);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Activities.InArgument&lt;T&gt; (System.Activities.Variable variable);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Activities.InArgument`1&lt;!T&gt; op_Implicit(class System.Activities.Variable variable) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.InArgument`1.op_Implicit(System.Activities.Variable)~System.Activities.InArgument{`0}" />
       <MemberType>Method</MemberType>
@@ -352,14 +352,14 @@ WorkflowInvoker.Invoke(wf, wfParams);
         <Parameter Name="variable" Type="System.Activities.Variable" />
       </Parameters>
       <Docs>
-        <param name="variable">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="variable">The value of the argument,</param>
+        <summary>Initializes and returns a new <see cref="T:System.Activities.InArgument`1" /> using the specified <see cref="T:System.Activities.Variable" />.</summary>
+        <returns>The new argument.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Activities.InArgument&lt;T&gt; op_Implicit (T constValue);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Activities.InArgument&lt;T&gt; (T constValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Activities.InArgument`1&lt;!T&gt; op_Implicit(!T constValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.InArgument`1.op_Implicit(`0)~System.Activities.InArgument{`0}" />
       <MemberType>Method</MemberType>
@@ -374,9 +374,9 @@ WorkflowInvoker.Invoke(wf, wfParams);
         <Parameter Name="constValue" Type="T" />
       </Parameters>
       <Docs>
-        <param name="constValue">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="constValue">The value of the argument.</param>
+        <summary>Initializes and returns a new <see cref="T:System.Activities.InArgument`1" /> using the specified value.</summary>
+        <returns>The new argument.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -403,5 +403,14 @@ WorkflowInvoker.Invoke(wf, wfParams);
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Activities</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Activities.InArgument`1" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

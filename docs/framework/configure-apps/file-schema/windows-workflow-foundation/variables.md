@@ -1,5 +1,5 @@
 ---
-title: "&lt;variables&gt; | Microsoft Docs"
+title: "&lt;variables&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -79,7 +79,7 @@ Represents a collection of variables associated with this activity query.
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Tracking.Configuration.VariableElementCollection?displayProperty=fullName>       
- <xref:System.Activities.Tracking.ActivityStateQuery?displayProperty=fullName>       
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.VariableElementCollection?displayProperty=nameWithType>       
+ <xref:System.Activities.Tracking.ActivityStateQuery?displayProperty=nameWithType>       
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

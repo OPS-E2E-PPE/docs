@@ -1,5 +1,5 @@
 ---
-title: "ICorPublish::GetProcess Method | Microsoft Docs"
+title: "ICorPublish::GetProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublish::GetProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorPublish::GetProcess method [.NET Framework debugging]"
   - "GetProcess method, ICorPublish interface [.NET Framework debugging]"

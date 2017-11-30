@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod Interface | Microsoft Docs"
+title: "ISymUnmanagedMethod Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedMethod interface [.NET Framework debugging]"
 ms.assetid: f204d74c-cc79-4092-83bb-60654be95649

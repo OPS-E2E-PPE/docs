@@ -1,5 +1,5 @@
 ---
-title: "How to: Draw Wrapped Text in a Rectangle | Microsoft Docs"
+title: "How to: Draw Wrapped Text in a Rectangle"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "Windows Forms, drawing text in a rectangle"
   - "text [Windows Forms], drawing in a rectangle"
@@ -50,7 +51,7 @@ You can draw wrapped text in a rectangle by using the <xref:System.Drawing.Graph
 -   <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- [How to: Draw Text with GDI](../../../../docs/framework/winforms/advanced/how-to-draw-text-with-gdi.md)   
- [Using Fonts and Text](../../../../docs/framework/winforms/advanced/using-fonts-and-text.md)   
- [How to: Construct Font Families and Fonts](../../../../docs/framework/winforms/advanced/how-to-construct-font-families-and-fonts.md)   
+ [How to: Draw Text with GDI](../../../../docs/framework/winforms/advanced/how-to-draw-text-with-gdi.md)  
+ [Using Fonts and Text](../../../../docs/framework/winforms/advanced/using-fonts-and-text.md)  
+ [How to: Construct Font Families and Fonts](../../../../docs/framework/winforms/advanced/how-to-construct-font-families-and-fonts.md)  
  [How to: Draw Text at a Specified Location](../../../../docs/framework/winforms/advanced/how-to-draw-text-at-a-specified-location.md)

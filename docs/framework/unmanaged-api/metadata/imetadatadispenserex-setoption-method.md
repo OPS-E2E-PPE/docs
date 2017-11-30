@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataDispenserEx::SetOption Method | Microsoft Docs"
+title: "IMetaDataDispenserEx::SetOption Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataDispenserEx::SetOption"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataDispenserEx::SetOption method [.NET Framework metadata]"
   - "SetOption method [.NET Framework metadata]"
@@ -78,5 +76,5 @@ HRESULT SetOption (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [IMetaDataDispenserEx Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatadispenserex-interface.md)   
+ [IMetaDataDispenserEx Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatadispenserex-interface.md)  
  [IMetaDataDispenser Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatadispenser-interface.md)

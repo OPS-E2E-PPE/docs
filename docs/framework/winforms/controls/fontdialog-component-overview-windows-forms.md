@@ -1,5 +1,5 @@
 ---
-title: "FontDialog Component Overview (Windows Forms) | Microsoft Docs"
+title: "FontDialog Component Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,10 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "FontDialog"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "Font dialog box, Windows Forms"
+  - "Font dialog box [Windows Forms], Windows Forms"
   - "Font dialog box"
   - "FontDialog component [Windows Forms], about FontDialog component"
 ms.assetid: daf46e57-1b4b-4b7a-bad0-b50ca7ba75dc
@@ -32,5 +30,5 @@ The Windows Forms <xref:System.Windows.Forms.FontDialog> component is a pre-conf
  The component has a number of properties that configure its appearance. The properties that set the dialog-box selections are <xref:System.Windows.Forms.FontDialog.Font%2A> and <xref:System.Windows.Forms.FontDialog.Color%2A>. The <xref:System.Windows.Forms.FontDialog.Font%2A> property sets the font, style, size, script, and effects; for example, `Arial, 10pt, style=Italic, Strikeout`.  
   
 ## See Also  
- <xref:System.Windows.Forms.FontDialog>   
+ <xref:System.Windows.Forms.FontDialog>  
  [FontDialog Component](../../../../docs/framework/winforms/controls/fontdialog-component-windows-forms.md)

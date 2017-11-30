@@ -1,5 +1,5 @@
 ---
-title: "How to: Handle Composite Keys in Queries | Microsoft Docs"
+title: "How to: Handle Composite Keys in Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: ce2f14fd-1038-458a-91e3-a078c61f0d10
 caps.latest.revision: 2
 author: "JennieHubbard"

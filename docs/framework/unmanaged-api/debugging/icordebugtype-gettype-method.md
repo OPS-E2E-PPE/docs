@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugType::GetType Method | Microsoft Docs"
+title: "ICorDebugType::GetType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugType::GetType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugType::GetType method [.NET Framework debugging]"
   - "GetType method, ICorDebugType interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Serialize and Deserialize JSON Data | Microsoft Docs"
+title: "How to: Serialize and Deserialize JSON Data"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -145,5 +145,5 @@ public class TestDuplicateDataDerived : TestDuplicateDataBase
 ```  
   
 ## See Also  
- [Stand-Alone JSON Serialization](../../../../docs/framework/wcf/feature-details/stand-alone-json-serialization.md)   
+ [Stand-Alone JSON Serialization](../../../../docs/framework/wcf/feature-details/stand-alone-json-serialization.md)  
  [Support for JSON and Other Data Transfer Formats](../../../../docs/framework/wcf/feature-details/support-for-json-and-other-data-transfer-formats.md)

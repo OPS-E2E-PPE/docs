@@ -1,5 +1,5 @@
 ---
-title: "How To: Write User Settings at Run Time with C# | Microsoft Docs"
+title: "How To: Write User Settings at Run Time with C#"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms], run time"
   - "application settings [Windows Forms], writing user settings"
@@ -43,6 +41,6 @@ Settings that are application-scoped are read-only, and can only be changed at d
      User settings are saved in a file within a subfolder of the user’s local hidden application data folder.  
   
 ## See Also  
- [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)   
- [How To: Read Settings at Run Time With C#](../../../../docs/framework/winforms/advanced/how-to-read-settings-at-run-time-with-csharp.md)   
+ [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)  
+ [How To: Read Settings at Run Time With C#](../../../../docs/framework/winforms/advanced/how-to-read-settings-at-run-time-with-csharp.md)  
  [Application Settings Overview](../../../../docs/framework/winforms/advanced/application-settings-overview.md)

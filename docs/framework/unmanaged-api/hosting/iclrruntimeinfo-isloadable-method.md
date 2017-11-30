@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeInfo::IsLoadable Method | Microsoft Docs"
+title: "ICLRRuntimeInfo::IsLoadable Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeInfo::IsLoadable"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsLoadable method [.NET Framework hosting]"
   - "ICLRRuntimeInfo::IsLoadable method [.NET Framework hosting]"
@@ -67,6 +65,6 @@ HRESULT IsLoadable(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICLRRuntimeInfo Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimeinfo-interface.md)   
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [ICLRRuntimeInfo Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimeinfo-interface.md)  
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

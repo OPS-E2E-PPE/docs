@@ -1,5 +1,5 @@
 ---
-title: "GetResolutionScope Method | Microsoft Docs"
+title: "GetResolutionScope Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetResolutionScope"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetResolutionScope method"
 ms.assetid: 5b48ca60-dacd-44b2-9979-4a5122f00812
@@ -63,6 +61,6 @@ HRESULT GetResolutionScope(
  Requires alink.h.  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

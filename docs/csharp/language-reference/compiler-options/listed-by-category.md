@@ -1,12 +1,10 @@
 ---
-title: "C# Compiler Options Listed by Category | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "C# Compiler Options Listed by Category"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
 ms.topic: "article"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "Visual C# compiler, options listed by category"
   - "compiler options [C#], listed by category"
@@ -15,20 +13,6 @@ ms.assetid: 96437ecc-6502-4cd3-b070-e9386a298e83
 caps.latest.revision: 17
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # C# Compiler Options Listed by Category
 The following compiler options are sorted by category. For an alphabetical list, see [C# Compiler Options Listed Alphabetically](../../../csharp/language-reference/compiler-options/listed-alphabetically.md).  
@@ -49,6 +33,8 @@ The following compiler options are sorted by category. For an alphabetical list,
 |[/pdb](../../../csharp/language-reference/compiler-options/pdb-compiler-option.md)|Specifies the file name and location of the .pdb file.|  
 |[/platform](../../../csharp/language-reference/compiler-options/platform-compiler-option.md)|Specify the output platform.|  
 |[/preferreduilang](../../../csharp/language-reference/compiler-options/preferreduilang-compiler-option.md)|Specify a language for compiler output.|  
+|[/refout](refout-compiler-option.md)|Generate a reference assembly in addition to the primary assembly.|  
+|[/refonly](refonly-compiler-option.md)|Generate a reference assembly instead of a primary assembly.|  
 |[/target](../../../csharp/language-reference/compiler-options/target-compiler-option.md)|Specifies the format of the output file using one of five options: [/target:appcontainerexe](../../../csharp/language-reference/compiler-options/target-appcontainerexe-compiler-option.md), [/target:exe](../../../csharp/language-reference/compiler-options/target-exe-compiler-option.md), [/target:library](../../../csharp/language-reference/compiler-options/target-library-compiler-option.md), [/target:module](../../../csharp/language-reference/compiler-options/target-module-compiler-option.md), [/target:winexe](../../../csharp/language-reference/compiler-options/target-winexe-compiler-option.md), or [/target:winmdobj](../../../csharp/language-reference/compiler-options/target-winmdobj-compiler-option.md).|  
 |/modulename:\<string>|Specify the name of the source module|  
   
@@ -124,6 +110,6 @@ The following compiler options are sorted by category. For an alphabetical list,
 |/incremental|Enables incremental compilation.|  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [C# Compiler Options Listed Alphabetically](../../../csharp/language-reference/compiler-options/listed-alphabetically.md)   
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [C# Compiler Options Listed Alphabetically](../../../csharp/language-reference/compiler-options/listed-alphabetically.md)  
  [How to: Set Environment Variables for the Visual Studio Command Line](../../../csharp/language-reference/compiler-options/how-to-set-environment-variables-for-the-visual-studio-command-line.md)

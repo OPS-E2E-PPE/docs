@@ -1,5 +1,5 @@
 ---
-title: "FunctionIDMapper Function | Microsoft Docs"
+title: "FunctionIDMapper Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "FunctionIDMapper"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FunctionIDMapper function [.NET Framework profiling]"
 ms.assetid: b8205b60-1893-4303-8cff-7ac5a00892aa
@@ -70,9 +68,9 @@ UINT_PTR __stdcall FunctionIDMapper (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [SetFunctionIDMapper Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-setfunctionidmapper-method.md)   
- [FunctionIDMapper2 Function](../../../../docs/framework/unmanaged-api/profiling/functionidmapper2-function.md)   
- [FunctionEnter2 Function](../../../../docs/framework/unmanaged-api/profiling/functionenter2-function.md)   
- [FunctionLeave2 Function](../../../../docs/framework/unmanaged-api/profiling/functionleave2-function.md)   
- [FunctionTailcall2 Function](../../../../docs/framework/unmanaged-api/profiling/functiontailcall2-function.md)   
+ [SetFunctionIDMapper Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-setfunctionidmapper-method.md)  
+ [FunctionIDMapper2 Function](../../../../docs/framework/unmanaged-api/profiling/functionidmapper2-function.md)  
+ [FunctionEnter2 Function](../../../../docs/framework/unmanaged-api/profiling/functionenter2-function.md)  
+ [FunctionLeave2 Function](../../../../docs/framework/unmanaged-api/profiling/functionleave2-function.md)  
+ [FunctionTailcall2 Function](../../../../docs/framework/unmanaged-api/profiling/functiontailcall2-function.md)  
  [Profiling Global Static Functions](../../../../docs/framework/unmanaged-api/profiling/profiling-global-static-functions.md)

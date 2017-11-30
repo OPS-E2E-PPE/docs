@@ -1,5 +1,5 @@
 ---
-title: "Blocking Application Execution by Ending an Async Operation | Microsoft Docs"
+title: "Blocking Application Execution by Ending an Async Operation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -18,6 +18,9 @@ caps.latest.revision: 8
 author: "rpetrusha"
 ms.author: "ronpet"
 manager: "wpickett"
+dev_langs:
+- "csharp"
+- "vb"
 ---
 # Blocking Application Execution by Ending an Async Operation
 Applications that cannot continue to do other work while waiting for the results of an asynchronous operation must block until the operation completes. Use one of the following options to block your application's main thread while waiting for an asynchronous operation to complete:  
@@ -35,5 +38,5 @@ Applications that cannot continue to do other work while waiting for the results
  [!code-vb[AsyncDesignPattern#1](../../../samples/snippets/visualbasic/VS_Snippets_CLR/AsyncDesignPattern/VB/Async_EndBlock.vb#1)]  
   
 ## See Also  
- [Event-based Asynchronous Pattern (EAP)](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap.md)   
+ [Event-based Asynchronous Pattern (EAP)](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap.md)  
  [Event-based Asynchronous Pattern Overview](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-overview.md)

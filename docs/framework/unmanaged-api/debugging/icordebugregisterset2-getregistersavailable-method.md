@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRegisterSet2::GetRegistersAvailable Method | Microsoft Docs"
+title: "ICorDebugRegisterSet2::GetRegistersAvailable Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRegisterSet2::GetRegistersAvailable"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRegistersAvailable method, ICorDebugRegisterSet2 interface [.NET Framework debugging]"
   - "ICorDebugRegisterSet2::GetRegistersAvailable method [.NET Framework debugging]"
@@ -70,5 +68,5 @@ HRESULT GetRegistersAvailable (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorDebugRegisterSet2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset2-interface.md)   
+ [ICorDebugRegisterSet2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset2-interface.md)  
  [ICorDebugRegisterSet Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset-interface.md)

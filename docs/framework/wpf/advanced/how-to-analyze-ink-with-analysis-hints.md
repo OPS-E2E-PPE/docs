@@ -1,5 +1,5 @@
 ---
-title: "How to: Analyze Ink with Analysis Hints | Microsoft Docs"
+title: "How to: Analyze Ink with Analysis Hints"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,14 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "ink, analyzing"
-  - "analyzing ink"
-  - "ink, AnalysisHintNode objects"
-  - "AnalysisHintNode objects"
+  - "ink [WPF], analyzing"
+  - "analyzing ink [WPF]"
+  - "ink [WPF], AnalysisHintNode objects [WPF]"
+  - "AnalysisHintNode objects [WPF]"
 ms.assetid: d4421ed4-77f5-4640-829e-9f1de50b2ff2
 caps.latest.revision: 4
 author: dotnet-bot
@@ -26,7 +29,7 @@ An [System.Windows.Ink.AnalysisHintNode](https://msdn.microsoft.com/library/syst
 ## Example  
  The following example is an application that uses multiple [System.Windows.Ink.AnalysisHintNode](https://msdn.microsoft.com/library/system.windows.ink.analysishintnode(v=vs.100).aspx) objects on a form that accepts ink input. The application uses the [System.Windows.Ink.AnalysisHintNode.Factoid%2A](https://msdn.microsoft.com/library/system.windows.ink.analysishintnode.factoid(v=vs.100)) property to provide context information for each entry on the form.  The application uses background analysis to analyze the ink and clears the form of all ink five seconds after the user stops adding ink.  
   
- [!code-xml[HowToAnalyzeInk#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/HowToAnalyzeInk/CSharp/FormAnalyzer.xaml#1)]  
+ [!code-xaml[HowToAnalyzeInk#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/HowToAnalyzeInk/CSharp/FormAnalyzer.xaml#1)]  
   
  [!code-csharp[HowToAnalyzeInk#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/HowToAnalyzeInk/CSharp/FormAnalyzer.xaml.cs#2)]
  [!code-vb[HowToAnalyzeInk#2](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/HowToAnalyzeInk/VisualBasic/FormAnalyzer.xaml.vb#2)]

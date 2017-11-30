@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.ExtensionCollectionNameNotFound | Microsoft Docs"
+title: "System.ServiceModel.ExtensionCollectionNameNotFound"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ System.ServiceModel.ExtensionCollectionNameNotFound
  The extension element is not associated with an extension collection.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

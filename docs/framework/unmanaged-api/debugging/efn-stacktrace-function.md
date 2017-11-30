@@ -1,5 +1,5 @@
 ---
-title: "_EFN_StackTrace Function | Microsoft Docs"
+title: "_EFN_StackTrace Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "_EFN_StackTrace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "_EFN_StackTrace function [.NET Framework debugging]"
 ms.assetid: caea7754-867c-4360-a65c-5ced4408fd9d

@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameFactory::ParseTypeName Method | Microsoft Docs"
+title: "ITypeNameFactory::ParseTypeName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ParseTypeName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameFactory::ParseTypeName method [.NET Framework hosting]"
   - "ParseTypeName method [.NET Framework hosting]"

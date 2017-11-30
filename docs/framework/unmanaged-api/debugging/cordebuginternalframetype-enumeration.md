@@ -1,5 +1,5 @@
 ---
-title: "CorDebugInternalFrameType Enumeration | Microsoft Docs"
+title: "CorDebugInternalFrameType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugInternalFrameType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugInternalFrameType enumeration [.NET Framework debugging]"
 ms.assetid: e4412dc2-c338-4cfb-94d8-f682095dd2b1

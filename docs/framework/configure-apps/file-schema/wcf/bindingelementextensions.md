@@ -1,5 +1,5 @@
 ---
-title: "&lt;bindingElementExtensions&gt; | Microsoft Docs"
+title: "&lt;bindingElementExtensions&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -48,5 +48,5 @@ This section enables the use of a custom binding element from a machine or appli
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.BindingElementExtensionElement>   
+ <xref:System.ServiceModel.Configuration.BindingElementExtensionElement>  
  [Extending Bindings](../../../../../docs/framework/wcf/extending/extending-bindings.md)

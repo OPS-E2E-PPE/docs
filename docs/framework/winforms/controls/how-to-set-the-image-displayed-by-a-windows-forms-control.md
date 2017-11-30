@@ -1,5 +1,5 @@
 ---
-title: "How to: Set the Image Displayed by a Windows Forms Control | Microsoft Docs"
+title: "How to: Set the Image Displayed by a Windows Forms Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "Button control [Windows Forms], images"
   - "Windows Forms controls, images"
@@ -61,6 +63,6 @@ Several Windows Forms controls can display images. These images can be icons tha
     ```  
   
 ## See Also  
- <xref:System.Drawing.Image.FromFile%2A>   
- <xref:System.Drawing.Image>   
+ <xref:System.Drawing.Image.FromFile%2A>  
+ <xref:System.Drawing.Image>  
  <xref:System.Windows.Forms.Control.BackgroundImage%2A>

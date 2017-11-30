@@ -1,5 +1,5 @@
 ---
-title: "LoggingLevelEnum Enumeration | Microsoft Docs"
+title: "LoggingLevelEnum Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "LoggingLevelEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "LoggingLevelEnum enumeration [.NET Framework debugging]"
 ms.assetid: 09daac08-005a-46b2-beab-408d0820c5e5
@@ -83,5 +81,5 @@ typedef enum LoggingLevelEnum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- <xref:System.Diagnostics.EventLog>   
+ <xref:System.Diagnostics.EventLog>  
  [Debugging Enumerations](../../../../docs/framework/unmanaged-api/debugging/debugging-enumerations.md)

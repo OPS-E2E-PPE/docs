@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope::GetParent Method | Microsoft Docs"
+title: "ISymUnmanagedScope::GetParent Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope::GetParent"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetParent method [.NET Framework debugging]"
   - "ISymUnmanagedScope::GetParent method [.NET Framework debugging]"
@@ -51,5 +49,5 @@ HRESULT GetParent(
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [ISymUnmanagedScope Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedscope-interface.md)   
+ [ISymUnmanagedScope Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedscope-interface.md)  
  [GetChildren Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedscope-getchildren-method.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetName Method | Microsoft Docs"
+title: "ICorDebugModule::GetName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::GetName method [.NET Framework debugging]"
   - "GetName method, ICorDebugModule interface [.NET Framework debugging]"

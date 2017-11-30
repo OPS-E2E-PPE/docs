@@ -1,5 +1,5 @@
 ---
-title: "ICLRDebugging::CanUnloadNow Method | Microsoft Docs"
+title: "ICLRDebugging::CanUnloadNow Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDebugging::CanUnloadNow"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CanUnloadNow method [.NET Framework debugging]"
   - "ICLRDebugging::CanUnloadNow method [.NET Framework debugging]"
@@ -67,5 +65,5 @@ HRESULT CanUnloadNow(HMODULE hModule);
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

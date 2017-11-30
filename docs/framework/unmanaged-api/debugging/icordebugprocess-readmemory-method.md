@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::ReadMemory Method | Microsoft Docs"
+title: "ICorDebugProcess::ReadMemory Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::ReadMemory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ReadMemory method [.NET Framework debugging]"
   - "ICorDebugProcess::ReadMemory method [.NET Framework debugging]"

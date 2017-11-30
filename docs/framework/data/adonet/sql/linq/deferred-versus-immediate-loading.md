@@ -1,5 +1,5 @@
 ---
-title: "Deferred versus Immediate Loading | Microsoft Docs"
+title: "Deferred versus Immediate Loading"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: d1d7247f-a3b7-460b-b342-5c1a2365aa1a
 caps.latest.revision: 2
 author: "JennieHubbard"

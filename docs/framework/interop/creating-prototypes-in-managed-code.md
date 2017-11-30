@@ -1,5 +1,5 @@
 ---
-title: "Creating Prototypes in Managed Code | Microsoft Docs"
+title: "Creating Prototypes in Managed Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,10 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "prototypes in managed code"
   - "COM interop, DLL functions"
@@ -37,7 +36,7 @@ This topic describes how to access unmanaged functions and introduces several at
  Before you can access an unmanaged DLL function from managed code, you need to know the name of the function and the name of the DLL that exports it. With this information, you can begin to write the managed definition for an unmanaged function that is implemented in a DLL. Furthermore, you can adjust the way that platform invoke creates the function and marshals data to and from the function.  
   
 > [!NOTE]
->  Win32 API functions that allocate a string enable you to free the string by using a method such as `LocalFree`. Platform invoke handles such parameters differently. For platform invoke calls, make the parameter an `IntPtr` type instead of a `String` type. Use methods that are provided by the <xref:System.Runtime.InteropServices.Marshal?displayProperty=fullName> class to convert the type to a string manually and free it manually.  
+>  Win32 API functions that allocate a string enable you to free the string by using a method such as `LocalFree`. Platform invoke handles such parameters differently. For platform invoke calls, make the parameter an `IntPtr` type instead of a `String` type. Use methods that are provided by the <xref:System.Runtime.InteropServices.Marshal?displayProperty=nameWithType> class to convert the type to a string manually and free it manually.  
   
 ## Declaration Basics  
  Managed definitions to unmanaged functions are language-dependent, as you can see in the following examples. For more complete code examples, see [Platform Invoke Examples](../../../docs/framework/interop/platform-invoke-examples.md).  
@@ -227,11 +226,11 @@ interface IDemandStubsItf
 ```  
   
 ## See Also  
- [Consuming Unmanaged DLL Functions](../../../docs/framework/interop/consuming-unmanaged-dll-functions.md)   
- [Specifying an Entry Point](../../../docs/framework/interop/specifying-an-entry-point.md)   
- [Specifying a Character Set](../../../docs/framework/interop/specifying-a-character-set.md)   
- [Platform Invoke Examples](../../../docs/framework/interop/platform-invoke-examples.md)   
- [Platform Invoke Security Considerations](http://msdn.microsoft.com/en-us/bbcc67f7-50b5-4917-88ed-cb15470409fb)   
- [Identifying Functions in DLLs](../../../docs/framework/interop/identifying-functions-in-dlls.md)   
- [Creating a Class to Hold DLL Functions](../../../docs/framework/interop/creating-a-class-to-hold-dll-functions.md)   
+ [Consuming Unmanaged DLL Functions](../../../docs/framework/interop/consuming-unmanaged-dll-functions.md)  
+ [Specifying an Entry Point](../../../docs/framework/interop/specifying-an-entry-point.md)  
+ [Specifying a Character Set](../../../docs/framework/interop/specifying-a-character-set.md)  
+ [Platform Invoke Examples](../../../docs/framework/interop/platform-invoke-examples.md)  
+ [Platform Invoke Security Considerations](http://msdn.microsoft.com/en-us/bbcc67f7-50b5-4917-88ed-cb15470409fb)  
+ [Identifying Functions in DLLs](../../../docs/framework/interop/identifying-functions-in-dlls.md)  
+ [Creating a Class to Hold DLL Functions](../../../docs/framework/interop/creating-a-class-to-hold-dll-functions.md)  
  [Calling a DLL Function](../../../docs/framework/interop/calling-a-dll-function.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Attach a ShortCut Menu to a TreeView Node | Microsoft Docs"
+title: "How to: Attach a ShortCut Menu to a TreeView Node"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "shortcut menus, adding to TreeView controls"
+  - "shortcut menus [Windows Forms], adding to TreeView controls"
   - "TreeView control [Windows Forms], adding shortcut menus"
-  - "tree nodes in TreeView control, shortcut menus"
+  - "tree nodes in TreeView control [Windows Forms], shortcut menus"
 ms.assetid: a23c6752-fd8f-44ad-b781-bab37962fc7c
 caps.latest.revision: 11
 author: dotnet-bot
@@ -41,5 +43,5 @@ The Windows Forms <xref:System.Windows.Forms.TreeView> control displays a hierar
  [!code-vb[System.Windows.Forms.TreeNodeContextMenuStrip#1](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/system.windows.forms.TreeNodeContextMenuStrip/VB/Form1.vb#1)]  
   
 ## See Also  
- <xref:System.Windows.Forms.ContextMenuStrip>   
+ <xref:System.Windows.Forms.ContextMenuStrip>  
  [TreeView Control](../../../../docs/framework/winforms/controls/treeview-control-windows-forms.md)

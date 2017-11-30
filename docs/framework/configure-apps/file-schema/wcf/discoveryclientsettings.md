@@ -1,5 +1,5 @@
 ---
-title: "&lt;discoveryClientSettings&gt; | Microsoft Docs"
+title: "&lt;discoveryClientSettings&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -69,5 +69,5 @@ Contains the settings needed by an application to participate in the service dis
 |[\<standardEndpoints>](../../../../../docs/framework/configure-apps/file-schema/wcf/standardendpoints.md)|Defines a standard endpoint that contains information to enable an application to function as a client program that can find the endpoint address dynamically at runtime.|  
   
 ## See Also  
- <xref:System.ServiceModel.Discovery.DiscoveryClientBindingElement>   
+ <xref:System.ServiceModel.Discovery.DiscoveryClientBindingElement>  
  <xref:System.ServiceModel.Discovery.Configuration.DiscoveryClientSettingsElement>

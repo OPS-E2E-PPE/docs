@@ -1,5 +1,5 @@
 ---
-title: "Secure Coding Guidelines | Microsoft Docs"
+title: "Secure Coding Guidelines"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "managed wrapper to native code implementation"
   - "secure coding"

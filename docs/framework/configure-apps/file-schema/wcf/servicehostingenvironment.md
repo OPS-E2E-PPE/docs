@@ -1,5 +1,5 @@
 ---
-title: "&lt;serviceHostingEnvironment&gt; | Microsoft Docs"
+title: "&lt;serviceHostingEnvironment&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 4f8a7c4f-e735-4987-979a-b74fcdae2652
 caps.latest.revision: 24
 author: "Erikre"
@@ -100,7 +97,7 @@ This element defines the type the service hosting environment instantiates for a
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>   
- <xref:System.ServiceModel.ServiceHostingEnvironment>   
- [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)   
+ <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>  
+ <xref:System.ServiceModel.ServiceHostingEnvironment>  
+ [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)  
  [WCF Services and ASP.NET](../../../../../docs/framework/wcf/feature-details/wcf-services-and-aspnet.md)

@@ -1,5 +1,5 @@
 ---
-title: "COR_IL_MAP Structure | Microsoft Docs"
+title: "COR_IL_MAP Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_IL_MAP"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_IL_MAP structure [.NET Framework debugging]"
 ms.assetid: 534ebc17-963d-4b26-8375-8cd940281db3
@@ -97,5 +95,5 @@ typedef struct _COR_IL_MAP {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

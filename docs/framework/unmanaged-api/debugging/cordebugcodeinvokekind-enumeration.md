@@ -1,5 +1,5 @@
 ---
-title: "CorDebugCodeInvokeKind Enumeration | Microsoft Docs"
+title: "CorDebugCodeInvokeKind Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "mscordbi.dll"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: e795e6a2-1008-4a81-af88-d777888e942e
 topic_type: 
   - "apiref"
@@ -63,5 +61,5 @@ typedef enum CorDebugCodeInvokeKind
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [Debugging Enumerations](../../../../docs/framework/unmanaged-api/debugging/debugging-enumerations.md)   
+ [Debugging Enumerations](../../../../docs/framework/unmanaged-api/debugging/debugging-enumerations.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

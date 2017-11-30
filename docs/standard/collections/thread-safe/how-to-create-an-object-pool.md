@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Object Pool by Using a ConcurrentBag | Microsoft Docs"
+title: "How to: Create an Object Pool by Using a ConcurrentBag"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "object pool, in .NET Framework"
 ms.assetid: 0480e7ff-b6f9-480e-a889-2ed4264d8372

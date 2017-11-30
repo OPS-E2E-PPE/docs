@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::NeedsVirtualAddressSpace Method | Microsoft Docs"
+title: "IHostMemoryManager::NeedsVirtualAddressSpace Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::NeedsVirtualAddressSpace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager::NeedsVirtualAddressSpace method [.NET Framework hosting]"
   - "NeedsVirtualAddressSpace method [.NET Framework hosting]"

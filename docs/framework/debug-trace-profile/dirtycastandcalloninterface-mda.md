@@ -1,5 +1,5 @@
 ---
-title: "dirtyCastAndCallOnInterface MDA | Microsoft Docs"
+title: "dirtyCastAndCallOnInterface MDA"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "managed debugging assistants (MDAs), early bound calls AutoDispatch"
   - "dispatch-only mode"
@@ -59,5 +54,5 @@ The `dirtyCastAndCallOnInterface` managed debugging assistant (MDA) is activated
 ```  
   
 ## See Also  
- <xref:System.Runtime.InteropServices.ClassInterfaceAttribute>   
+ <xref:System.Runtime.InteropServices.ClassInterfaceAttribute>  
  [Diagnosing Errors with Managed Debugging Assistants](../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

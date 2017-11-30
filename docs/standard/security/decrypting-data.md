@@ -1,5 +1,5 @@
 ---
-title: "Decrypting Data | Microsoft Docs"
+title: "Decrypting Data"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "data [.NET Framework], decryption"
   - "symmetric decryption"
@@ -207,6 +205,6 @@ SymmetricIV = RSA.Decrypt( EncryptedSymmetricIV , false);
 ```  
   
 ## See Also  
- [Generating Keys for Encryption and Decryption](../../../docs/standard/security/generating-keys-for-encryption-and-decryption.md)   
- [Encrypting Data](../../../docs/standard/security/encrypting-data.md)   
+ [Generating Keys for Encryption and Decryption](../../../docs/standard/security/generating-keys-for-encryption-and-decryption.md)  
+ [Encrypting Data](../../../docs/standard/security/encrypting-data.md)  
  [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)

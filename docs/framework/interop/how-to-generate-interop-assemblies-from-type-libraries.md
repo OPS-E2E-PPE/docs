@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate Interop Assemblies from Type Libraries | Microsoft Docs"
+title: "How to: Generate Interop Assemblies from Type Libraries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "importing type library"
   - "interop assemblies, generating"
@@ -51,5 +46,5 @@ tlbimp LoanLib.dll /out: LOANLib.dll
 ```  
   
 ## See Also  
- [Importing a Type Library as an Assembly](../../../docs/framework/interop/importing-a-type-library-as-an-assembly.md)   
+ [Importing a Type Library as an Assembly](../../../docs/framework/interop/importing-a-type-library-as-an-assembly.md)  
  [Exposing COM Components to the .NET Framework](../../../docs/framework/interop/exposing-com-components.md)

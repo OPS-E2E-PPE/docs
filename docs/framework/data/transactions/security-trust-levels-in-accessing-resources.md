@@ -1,5 +1,5 @@
 ---
-title: "Security Trust Levels in Accessing Resources | Microsoft Docs"
+title: "Security Trust Levels in Accessing Resources"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -50,7 +50,7 @@ This topic discusses how access is restricted on the types of resources that <xr
   
  `PermissionSetAttribute(SecurityAction.LinkDemand, Name := "FullTrust")`  
   
--   <xref:System.Transactions.Transaction.EnlistDurable%2A?displayProperty=fullName>  
+-   <xref:System.Transactions.Transaction.EnlistDurable%2A?displayProperty=nameWithType>  
   
 -   <xref:System.Transactions.Transaction.EnlistPromotableSinglePhase%2A>  
   

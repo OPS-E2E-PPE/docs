@@ -1,5 +1,5 @@
 ---
-title: "CorGCReferenceType Enumeration | Microsoft Docs"
+title: "CorGCReferenceType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorGCReferenceType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorGCReferenceType"
 ms.assetid: d9f16439-5a36-4474-8ffd-4f0b2c2bb686

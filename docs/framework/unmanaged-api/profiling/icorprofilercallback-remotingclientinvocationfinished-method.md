@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RemotingClientInvocationFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::RemotingClientInvocationFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RemotingClientInvocationFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RemotingClientInvocationFinished method [.NET Framework profiling]"
   - "ICorProfilerCallback::RemotingClientInvocationFinished method [.NET Framework profiling]"

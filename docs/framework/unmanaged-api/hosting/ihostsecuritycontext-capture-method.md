@@ -1,5 +1,5 @@
 ---
-title: "IHostSecurityContext::Capture Method | Microsoft Docs"
+title: "IHostSecurityContext::Capture Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostSecurityContext::Capture"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Capture method [.NET Framework hosting]"
   - "IHostSecurityContext::Capture method [.NET Framework hosting]"
@@ -69,5 +67,5 @@ HRESULT Capture (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostSecurityContext Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritycontext-interface.md)   
+ [IHostSecurityContext Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritycontext-interface.md)  
  [IHostSecurityManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritymanager-interface.md)

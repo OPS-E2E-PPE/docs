@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionOSHandlerLeave Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionOSHandlerLeave Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionOSHandlerLeave"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExceptionOSHandlerLeave method [.NET Framework profiling]"
   - "ICorProfilerCallback::ExceptionOSHandlerLeave method [.NET Framework profiling]"

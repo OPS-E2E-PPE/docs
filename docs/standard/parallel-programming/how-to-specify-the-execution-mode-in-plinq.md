@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Execution Mode in PLINQ | Microsoft Docs"
+title: "How to: Specify the Execution Mode in PLINQ"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "PLINQ queries, how to use execution mode"
 ms.assetid: e52ff26c-c5d3-4fab-9fec-c937fb387963
@@ -32,5 +35,5 @@ This example shows how to force PLINQ to bypass its default heuristics and paral
  Cut and paste this code into the [PLINQ Data Sample](../../../docs/standard/parallel-programming/plinq-data-sample.md) and call the method from `Main`.  
   
 ## See Also  
- <xref:System.Linq.ParallelEnumerable.AsSequential%2A>   
+ <xref:System.Linq.ParallelEnumerable.AsSequential%2A>  
  [Parallel LINQ (PLINQ)](../../../docs/standard/parallel-programming/parallel-linq-plinq.md)

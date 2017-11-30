@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue Interface1 | Microsoft Docs"
+title: "ICorDebugArrayValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue interface"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugArrayValue interface [.NET Framework debugging]"
 ms.assetid: dc437751-7093-44e2-bfdc-191d9ce3c192

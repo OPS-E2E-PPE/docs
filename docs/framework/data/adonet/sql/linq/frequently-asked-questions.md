@@ -1,5 +1,5 @@
 ---
-title: "Frequently Asked Questions | Microsoft Docs"
+title: "Frequently Asked Questions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 252ed666-0679-4eea-b71b-2f14117ef443
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -203,6 +206,6 @@ dlo.LoadWith<Order>(o => o.OrderDetails);
  A. Read-only mode turns off the ability of the context to track changes.  
   
 ## See Also  
- [Reference](../../../../../../docs/framework/data/adonet/sql/linq/reference.md)   
- [Troubleshooting](../../../../../../docs/framework/data/adonet/sql/linq/troubleshooting.md)   
+ [Reference](../../../../../../docs/framework/data/adonet/sql/linq/reference.md)  
+ [Troubleshooting](../../../../../../docs/framework/data/adonet/sql/linq/troubleshooting.md)  
  [Security in LINQ to SQL](../../../../../../docs/framework/data/adonet/sql/linq/security-in-linq-to-sql.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::CloseEnum Method | Microsoft Docs"
+title: "ICorRuntimeHost::CloseEnum Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::CloseEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CloseEnum method, ICorRuntimeHost interface [.NET Framework hosting]"
   - "ICorRuntimeHost::CloseEnum method [.NET Framework hosting]"
@@ -64,5 +62,5 @@ HRESULT CloseEnum (
  **.NET Framework Versions:** 1.0, 1.1  
   
 ## See Also  
- [CorBindToRuntimeEx Function](../../../../docs/framework/unmanaged-api/hosting/corbindtoruntimeex-function.md)   
+ [CorBindToRuntimeEx Function](../../../../docs/framework/unmanaged-api/hosting/corbindtoruntimeex-function.md)  
  [ICorRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-interface.md)

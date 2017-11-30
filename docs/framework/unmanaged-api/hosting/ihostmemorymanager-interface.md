@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager Interface | Microsoft Docs"
+title: "IHostMemoryManager Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager interface [.NET Framework hosting]"
 ms.assetid: a945d439-3b34-4aa4-b575-8413dd7806ce
@@ -60,5 +58,5 @@ Provides methods that allow the common language runtime (CLR) to make virtual me
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostMalloc Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmalloc-interface.md)   
+ [IHostMalloc Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmalloc-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

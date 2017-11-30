@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataConverter Interface | Microsoft Docs"
+title: "IMetaDataConverter Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataConverter"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataConverter interface [.NET Framework metadata]"
 ms.assetid: 9caea662-0167-4267-b14a-2fa42c3be4ea
@@ -50,5 +48,5 @@ Provides methods to map type libraries to their metadata signatures, and to conv
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)   
+ [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)  
  [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)

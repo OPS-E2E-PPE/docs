@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugClass2::SetJMCStatus Method | Microsoft Docs"
+title: "ICorDebugClass2::SetJMCStatus Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugClass2::SetJMCStatus"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugClass2::SetJMCStatus method [.NET Framework debugging]"
   - "SetJMCStatus method, ICorDebugClass2 interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Get Interface and Protocol Information | Microsoft Docs"
+title: "How to: Get Interface and Protocol Information"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Network"
 ms.assetid: fd88d26c-4063-495e-a253-736ac3e6b23f

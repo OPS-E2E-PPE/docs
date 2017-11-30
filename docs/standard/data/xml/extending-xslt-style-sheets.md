@@ -1,5 +1,5 @@
 ---
-title: "Extending XSLT Style Sheets | Microsoft Docs"
+title: "Extending XSLT Style Sheets"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: df4ba2bf-a99e-4d22-bbf3-04fc67669dbc
 caps.latest.revision: 2
 author: "mairaw"

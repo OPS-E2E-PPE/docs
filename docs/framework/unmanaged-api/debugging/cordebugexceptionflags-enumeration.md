@@ -1,5 +1,5 @@
 ---
-title: "CorDebugExceptionFlags Enumeration | Microsoft Docs"
+title: "CorDebugExceptionFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugExceptionFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugExceptionFlags enumeration [.NET Framework debugging]"
 ms.assetid: b22687a8-e9cf-4e65-a1b0-f92a81bc524e

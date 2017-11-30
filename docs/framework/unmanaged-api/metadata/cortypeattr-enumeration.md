@@ -1,5 +1,5 @@
 ---
-title: "CorTypeAttr Enumeration | Microsoft Docs"
+title: "CorTypeAttr Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorTypeAttr"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorTypeAttr enumeration [.NET Framework metadata]"
 ms.assetid: 9bede0ec-5fdf-42a2-b5b7-bee64056acb6

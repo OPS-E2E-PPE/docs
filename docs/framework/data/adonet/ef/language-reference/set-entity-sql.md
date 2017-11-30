@@ -1,5 +1,5 @@
 ---
-title: "SET (Entity SQL) | Microsoft Docs"
+title: "SET (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 28b4deac-c7e4-4f09-b428-4d352ef2dc94
 caps.latest.revision: 3
 author: "JennieHubbard"

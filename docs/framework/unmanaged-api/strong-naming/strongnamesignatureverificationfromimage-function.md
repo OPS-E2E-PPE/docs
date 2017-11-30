@@ -1,5 +1,5 @@
 ---
-title: "StrongNameSignatureVerificationFromImage Function | Microsoft Docs"
+title: "StrongNameSignatureVerificationFromImage Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameSignatureVerificationFromImage"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongnameSignatureVerificationFromImage function [.NET Framework strong naming]"
 ms.assetid: 9fb144d2-07e0-4a0e-8e05-907bbb6c9e03
@@ -88,5 +86,5 @@ BOOLEAN StrongNameSignatureVerificationFromImage (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StrongNameSignatureVerificationFromImage Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationfromimage-method.md)   
+ [StrongNameSignatureVerificationFromImage Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationfromimage-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

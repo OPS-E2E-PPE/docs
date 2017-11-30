@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionCLRCatcherFound Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionCLRCatcherFound Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionCLRCatcherFound"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::ExceptionCLRCatcherFound method [.NET Framework profiling]"
   - "ExceptionCLRCatcherFound method [.NET Framework profiling]"
@@ -49,5 +47,5 @@ HRESULT ExceptionCLRCatcherFound();
  **.NET Framework Version:** 1.0  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ExceptionCLRCatcherExecute Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-exceptionclrcatcherexecute-method.md)

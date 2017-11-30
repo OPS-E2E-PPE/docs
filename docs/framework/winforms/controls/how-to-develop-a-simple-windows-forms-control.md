@@ -1,5 +1,5 @@
 ---
-title: "How to: Develop a Simple Windows Forms Control | Microsoft Docs"
+title: "How to: Develop a Simple Windows Forms Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "controls [Windows Forms]"
   - "custom controls [Windows Forms], creating simple controls using code"
-  - "Control class, Windows Forms"
+  - "Control class [Windows Forms], Windows Forms"
 ms.assetid: 86cbe435-45b7-4cb4-9b5a-47418369758d
 caps.latest.revision: 17
 author: dotnet-bot
@@ -26,7 +27,7 @@ This section walks you through the key steps for authoring a custom Windows Form
   
 ### To create a simple custom control  
   
-1.  Define a class that derives from <xref:System.Windows.Forms.Control?displayProperty=fullName>.  
+1.  Define a class that derives from <xref:System.Windows.Forms.Control?displayProperty=nameWithType>.  
   
     ```vb  
     Public Class FirstControl  
@@ -39,7 +40,7 @@ This section walks you through the key steps for authoring a custom Windows Form
     public class FirstControl:Control{}  
     ```  
   
-2.  Define properties. (You are not required to define properties, because a control inherits many properties from the <xref:System.Windows.Forms.Control> class, but most custom controls generally do define additional properties.) The following code fragment defines a property named `TextAlignment` that`FirstControl` uses to format the display of the <xref:System.Windows.Forms.Control.Text%2A> property inherited from <xref:System.Windows.Forms.Control>. For more information about defining properties, see [Properties Overview](http://msdn.microsoft.com/library/8f1a1ff1-0f05-40e0-bfdf-80de8fff7d52).  
+2.  Define properties. (You are not required to define properties, because a control inherits many properties from the <xref:System.Windows.Forms.Control> class, but most custom controls generally do define additional properties.) The following code fragment defines a property named `TextAlignment` that `FirstControl` uses to format the display of the <xref:System.Windows.Forms.Control.Text%2A> property inherited from <xref:System.Windows.Forms.Control>. For more information about defining properties, see [Properties Overview](http://msdn.microsoft.com/library/8f1a1ff1-0f05-40e0-bfdf-80de8fff7d52).  
   
      [!code-csharp[System.Windows.Forms.FirstControl#3](../../../../samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.FirstControl/CS/FirstControl.cs#3)]
      [!code-vb[System.Windows.Forms.FirstControl#3](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.FirstControl/VB/FirstControl.vb#3)]  
@@ -74,7 +75,7 @@ This section walks you through the key steps for authoring a custom Windows Form
   
          The `/t:library` compiler option tells the compiler that the assembly you are creating is a library (and not an executable). The `/out` option specifies the path and name of the assembly. The`/r` option provides the name of the assemblies that are referenced by your code. In this example, you create a private assembly that only your applications can use. Hence, you have to save it in your application's directory. For more information about packaging and deploying a control for distribution, see [Deployment](../../../../docs/framework/deployment/index.md).  
   
- The following sample shows the code for `FirstControl`. The control is enclosed in the namespace `CustomWinControls`. A namespace provides a logical grouping of related types. You can create your control in a new or existing namespace. In C#, the `using` declaration (in Visual Basic, `Imports`) allows types to be accessed from a namespace without using the fully qualified name of the type. In the following example, the `using` declaration allows code to access the class <xref:System.Windows.Forms.Control> from <xref:System.Windows.Forms?displayProperty=fullName> as simply <xref:System.Windows.Forms.Control> instead of having to use the fully qualified name <xref:System.Windows.Forms.Control?displayProperty=fullName>.  
+ The following sample shows the code for `FirstControl`. The control is enclosed in the namespace `CustomWinControls`. A namespace provides a logical grouping of related types. You can create your control in a new or existing namespace. In C#, the `using` declaration (in Visual Basic, `Imports`) allows types to be accessed from a namespace without using the fully qualified name of the type. In the following example, the `using` declaration allows code to access the class <xref:System.Windows.Forms.Control> from <xref:System.Windows.Forms?displayProperty=nameWithType> as simply <xref:System.Windows.Forms.Control> instead of having to use the fully qualified name <xref:System.Windows.Forms.Control?displayProperty=nameWithType>.  
   
  [!code-csharp[System.Windows.Forms.FirstControl#1](../../../../samples/snippets/csharp/VS_Snippets_Winforms/System.Windows.Forms.FirstControl/CS/FirstControl.cs#1)]
  [!code-vb[System.Windows.Forms.FirstControl#1](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.FirstControl/VB/FirstControl.vb#1)]  
@@ -96,7 +97,7 @@ This section walks you through the key steps for authoring a custom Windows Form
     csc /r:CustomWinControls.dll /r:System.dll /r:System.Windows.Forms.dll /r:System.Drawing.dll SimpleForm.cs  
     ```  
   
-     CustomWinControls.dll is the assembly that contains the class`FirstControl`. This assembly must be in the same directory as the source file for the form that accesses it (SimpleForm.cs or SimpleForms.vb).  
+     CustomWinControls.dll is the assembly that contains the class `FirstControl`. This assembly must be in the same directory as the source file for the form that accesses it (SimpleForm.cs or SimpleForms.vb).  
   
 3.  Execute SimpleForm.exe using the following command.  
   
@@ -108,5 +109,5 @@ This section walks you through the key steps for authoring a custom Windows Form
  [!code-vb[System.Windows.Forms.FirstControl#10](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.FirstControl/VB/SimpleForm.vb#10)]  
   
 ## See Also  
- [Properties in Windows Forms Controls](../../../../docs/framework/winforms/controls/properties-in-windows-forms-controls.md)   
+ [Properties in Windows Forms Controls](../../../../docs/framework/winforms/controls/properties-in-windows-forms-controls.md)  
  [Events in Windows Forms Controls](../../../../docs/framework/winforms/controls/events-in-windows-forms-controls.md)

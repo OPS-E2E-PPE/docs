@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedSourceServerModule Interface | Microsoft Docs"
+title: "ISymUnmanagedSourceServerModule Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedSourceServerModule"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedSourceServerModule interface [.NET Framework debugging]"
 ms.assetid: a19b23bd-2061-476e-b67d-252f57404f8b

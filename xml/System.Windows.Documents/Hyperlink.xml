@@ -39,7 +39,7 @@
 ## Examples  
  The following example shows simple use of a <xref:System.Windows.Documents.Hyperlink> element.  
   
- [!code-xml[HyperlinkSnippets#_Hyperlink_NavUriXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/HyperlinkSnippets/CSharp/Window1.xaml#_hyperlink_navurixaml)]  
+ [!code-xaml[HyperlinkSnippets#_Hyperlink_NavUriXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/HyperlinkSnippets/CSharp/Window1.xaml#_hyperlink_navurixaml)]  
   
  The following example shows how to create a <xref:System.Windows.Documents.Hyperlink> programmatically.  
   
@@ -215,6 +215,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Documents.Hyperlink.DoClick" />
+        <altmember cref="M:System.Windows.Documents.Hyperlink.OnClick" />
       </Docs>
     </Member>
     <Member MemberName="ClickEvent">
@@ -513,7 +515,7 @@
 ## Examples  
  The following example shows how to use the <xref:System.Windows.Documents.Hyperlink.NavigateUri%2A> attribute of a <xref:System.Windows.Documents.Hyperlink> element.  
   
- [!code-xml[HyperlinkSnippets#_Hyperlink_NavUriXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/HyperlinkSnippets/CSharp/Window1.xaml#_hyperlink_navurixaml)]  
+ [!code-xaml[HyperlinkSnippets#_Hyperlink_NavUriXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/HyperlinkSnippets/CSharp/Window1.xaml#_hyperlink_navurixaml)]  
   
  The following example shows how to set the <xref:System.Windows.Documents.Hyperlink.NavigateUri%2A> property programmatically.  
   
@@ -522,7 +524,7 @@
   
  The following example shows how to use a **mailto:**[!INCLUDE[TLA#tla_uri](~/includes/tlasharptla-uri-md.md)] to open a new mail window that contains an email address, an email address and a subject, and an email address, subject, and body.  
   
- [!code-xml[HOWTONavigationMailToSnippet#MailToMARKUP](~/samples/snippets/csharp/VS_Snippets_Wpf/HOWTONavigationMailToSnippet/CS/HomePage.xaml#mailtomarkup)]   
+ [!code-xaml[HOWTONavigationMailToSnippet#MailToMARKUP](~/samples/snippets/csharp/VS_Snippets_Wpf/HOWTONavigationMailToSnippet/CS/HomePage.xaml#mailtomarkup)]   
   
  ]]></format>
         </remarks>
@@ -593,7 +595,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method overrides <xref:System.Windows.ContentElement.OnCreateAutomationPeer%2A?displayProperty=fullName>.  
+ This method overrides <xref:System.Windows.ContentElement.OnCreateAutomationPeer%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -626,7 +628,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method overrides <xref:System.Windows.ContentElement.OnKeyDown%2A?displayProperty=fullName>.  
+ This method overrides <xref:System.Windows.ContentElement.OnKeyDown%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -654,7 +656,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method overrides <xref:System.Windows.ContentElement.OnMouseLeftButtonDown%2A?displayProperty=fullName>.  
+ This method overrides <xref:System.Windows.ContentElement.OnMouseLeftButtonDown%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -687,7 +689,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method overrides <xref:System.Windows.ContentElement.OnMouseLeftButtonUp%2A?displayProperty=fullName>.  
+ This method overrides <xref:System.Windows.ContentElement.OnMouseLeftButtonUp%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -818,5 +820,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationFramework</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Documents.Hyperlink" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

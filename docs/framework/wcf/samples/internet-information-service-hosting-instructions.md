@@ -1,5 +1,5 @@
 ---
-title: "Internet Information Service Hosting Instructions | Microsoft Docs"
+title: "Internet Information Service Hosting Instructions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 959a21c8-9d9d-4757-b255-4e57793ae9d6
 caps.latest.revision: 30
 author: "Erikre"

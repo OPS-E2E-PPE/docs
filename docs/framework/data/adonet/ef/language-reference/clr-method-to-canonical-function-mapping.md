@@ -1,5 +1,5 @@
 ---
-title: "CLR Method to Canonical Function Mapping | Microsoft Docs"
+title: "CLR Method to Canonical Function Mapping"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: e3363261-2cb8-4b54-9555-2870be99b929
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -38,7 +34,7 @@ The Entity Framework provides a set of canonical functions that implement functi
 |Microsoft.VisualBasic.Strings.Trim(String `str`)|Trim(`str`)|  
 |Microsoft.VisualBasic.Strings.LTrim(String `str`)|Ltrim(`str`)|  
 |Microsoft.VisualBasic.Strings.RTrim(String `str`)|Rtrim(`str`)|  
-icrosoft.VisualBasic.Strings.Len(String `expression`)|Length(`expression`)|  
+|Microsoft.VisualBasic.Strings.Len(String `expression`)|Length(`expression`)|  
 |Microsoft.VisualBasic.Strings.Left(String `str`, Int32 `Length`)|Left(`str`, `Length`)|  
 |Microsoft.VisualBasic.Strings.Mid(String `str`, Int32 `Start`, Int32 `Length`)|Substring(`str`, `Start`, `Length`)|  
 |Microsoft.VisualBasic.Strings.Right(String `str`, Int32 `Length`)|Right(`str`, `Length`)|  

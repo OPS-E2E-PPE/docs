@@ -1,5 +1,5 @@
 ---
-title: "How to: Migrate Your XslTransform Code | Microsoft Docs"
+title: "How to: Migrate Your XslTransform Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 910beb2f-cfb3-4e8e-9936-f7e0c5f4064a
 caps.latest.revision: 2
 author: "mairaw"
@@ -98,5 +96,5 @@ The new XSLT classes have been designed to be very similar to the existing class
      [!code-vb[XML_Migration#18](../../../../samples/snippets/visualbasic/VS_Snippets_Data/XML_Migration/VB/migration.vb#18)]  
   
 ## See Also  
- [Migrating From the XslTransform Class](../../../../docs/standard/data/xml/migrating-from-the-xsltransform-class.md)   
+ [Migrating From the XslTransform Class](../../../../docs/standard/data/xml/migrating-from-the-xsltransform-class.md)  
  [Using the XslCompiledTransform Class](../../../../docs/standard/data/xml/using-the-xslcompiledtransform-class.md)

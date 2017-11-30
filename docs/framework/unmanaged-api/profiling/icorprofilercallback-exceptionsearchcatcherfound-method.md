@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionSearchCatcherFound Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionSearchCatcherFound Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionSearchCatcherFound"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExceptionSearchCatcherFound method [.NET Framework profiling]"
   - "ICorProfilerCallback::ExceptionSearchCatcherFound method [.NET Framework profiling]"

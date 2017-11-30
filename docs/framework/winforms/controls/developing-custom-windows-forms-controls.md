@@ -1,5 +1,5 @@
 ---
-title: "Developing Custom Windows Forms Controls with the .NET Framework | Microsoft Docs"
+title: "Developing Custom Windows Forms Controls with the .NET Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "custom controls [Windows Forms], developing using code"
-  - "Component class"
-  - "Control class, Windows Forms"
+  - "Control class [Windows Forms], Windows Forms"
 ms.assetid: 236cebc0-bd71-4f18-9fd6-5d0e592375df
 caps.latest.revision: 22
 author: dotnet-bot
@@ -29,7 +26,7 @@ Windows Forms controls are reusable components that encapsulate user interface f
  Highlights the essential elements of using controls in Windows Forms applications.  
   
  [Varieties of Custom Controls](../../../../docs/framework/winforms/controls/varieties-of-custom-controls.md)  
- Describes the different kinds of custom controls you can author with the <xref:System.Windows.Forms?displayProperty=fullName> namespace.  
+ Describes the different kinds of custom controls you can author with the <xref:System.Windows.Forms?displayProperty=nameWithType> namespace.  
   
  [Windows Forms Control Development Basics](../../../../docs/framework/winforms/controls/windows-forms-control-development-basics.md)  
  Discusses the first steps in developing a Windows Forms control.  
@@ -53,10 +50,10 @@ Windows Forms controls are reusable components that encapsulate user interface f
  Shows how to implement multithreaded controls.  
   
 ## Reference  
- <xref:System.Windows.Forms.Control?displayProperty=fullName>  
+ <xref:System.Windows.Forms.Control?displayProperty=nameWithType>  
  Describes this class and has links to all of its members.  
   
- <xref:System.Windows.Forms.UserControl?displayProperty=fullName>  
+ <xref:System.Windows.Forms.UserControl?displayProperty=nameWithType>  
  Describes this class and has links to all of its members.  
   
 ## Related Sections  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Export Metadata from Service Endpoints | Microsoft Docs"
+title: "How to: Export Metadata from Service Endpoints"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: b6c4dfd0-f270-43ec-961a-e16eb6af2f2c
 caps.latest.revision: 14
 author: "Erikre"
@@ -59,6 +62,6 @@ This topic explains how to export metadata from service endpoints.
  When compiling Program.cs reference System.ServiceModel.dll.  
   
 ## See Also  
- [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)   
- [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)   
+ [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)  
+ [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)  
  [Endpoints: Addresses, Bindings, and Contracts](../../../../docs/framework/wcf/feature-details/endpoints-addresses-bindings-and-contracts.md)

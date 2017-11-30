@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; of &lt;serviceActivations&gt; | Microsoft Docs"
+title: "&lt;add&gt; of &lt;serviceActivations&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -74,6 +74,6 @@ A configuration element that allows you to define virtual service activation set
  Configuration-based activation supports activation over both http and non-http protocol. It requires extensions in the relatativeAddress, i.e. .svc, .xoml or .xamlx. You can map your own extensions to the know buildProviders, which will then enable you to activate service over any extension. Upon conflict, the `<serviceActivations>` section overrides .svc registrations.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ServiceActivationElement>   
- <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>   
+ <xref:System.ServiceModel.Configuration.ServiceActivationElement>  
+ <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>  
  <xref:System.ServiceModel.ServiceHostingEnvironment>

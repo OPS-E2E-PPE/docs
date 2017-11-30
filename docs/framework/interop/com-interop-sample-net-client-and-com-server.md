@@ -1,5 +1,5 @@
 ---
-title: "COM Interop Sample: .NET Client and COM Server | Microsoft Docs"
+title: "COM Interop Sample: .NET Client and COM Server"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,10 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
+ - "cpp"
 helpviewer_keywords: 
   - "interoperation with unmanaged code, samples"
   - "COM interop, samples"

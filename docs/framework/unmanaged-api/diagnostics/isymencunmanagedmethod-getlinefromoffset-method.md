@@ -1,5 +1,5 @@
 ---
-title: "ISymENCUnmanagedMethod::GetLineFromOffset Method | Microsoft Docs"
+title: "ISymENCUnmanagedMethod::GetLineFromOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymENCUnmanagedMethod::GetLineFromOffset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetLineFromOffset method [.NET Framework debugging]"
   - "ISymENCUnmanagedMethod::GetLineFromOffset method [.NET Framework debugging]"

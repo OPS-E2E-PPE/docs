@@ -1,5 +1,5 @@
 ---
-title: "GetFileDef Method | Microsoft Docs"
+title: "GetFileDef Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetFileDef"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetFileDef method"
 ms.assetid: 4e3fbe6c-b82a-4181-ab17-7faa1263f5b3
@@ -59,6 +57,6 @@ HRESULT GetFileDef(
  Requires alink.h  
   
 ## See Also  
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

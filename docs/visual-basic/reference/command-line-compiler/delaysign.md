@@ -1,16 +1,12 @@
 ---
-title: "/delaysign | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "/delaysign"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "delaysign compiler option [Visual Basic]"
   - "/delaysign compiler option [Visual Basic]"
@@ -19,21 +15,6 @@ ms.assetid: c76e61a4-1884-4252-9fb2-377f99caa690
 caps.latest.revision: 19
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /delaysign
 Specifies whether the assembly will be fully or partially signed.  
@@ -66,7 +47,7 @@ Specifies whether the assembly will be fully or partially signed.
 3.  Set the value in the **Delay sign only** box.  
   
 ## See Also  
- [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)   
- [/keyfile](../../../visual-basic/reference/command-line-compiler/keyfile.md)   
- [/keycontainer](../../../visual-basic/reference/command-line-compiler/keycontainer.md)   
+ [Visual Basic Command-Line Compiler](../../../visual-basic/reference/command-line-compiler/index.md)  
+ [/keyfile](../../../visual-basic/reference/command-line-compiler/keyfile.md)  
+ [/keycontainer](../../../visual-basic/reference/command-line-compiler/keycontainer.md)  
  [Sample Compilation Command Lines](../../../visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md)

@@ -1,5 +1,5 @@
 ---
-title: "INTERSECT (Entity SQL) | Microsoft Docs"
+title: "INTERSECT (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 93c6fe33-f341-4b52-911e-adf503891951
 caps.latest.revision: 3
 author: "JennieHubbard"

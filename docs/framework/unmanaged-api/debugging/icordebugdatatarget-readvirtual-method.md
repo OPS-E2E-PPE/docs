@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugDataTarget::ReadVirtual Method | Microsoft Docs"
+title: "ICorDebugDataTarget::ReadVirtual Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugDataTarget::ReadVirtual"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugDataTarget::ReadVirtual method [.NET Framework debugging]"
   - "ReadVirtual method, ICorDebugDataTarget interface [.NET Framework debugging]"
@@ -70,6 +68,6 @@ HRESULT ReadVirtual(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICorDebugDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget-interface.md)   
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [ICorDebugDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget-interface.md)  
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

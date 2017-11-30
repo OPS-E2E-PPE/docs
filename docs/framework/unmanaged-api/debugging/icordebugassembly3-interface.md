@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly3 Interface | Microsoft Docs"
+title: "ICorDebugAssembly3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 17fc5d76-75a9-4933-83f0-594de7f973f3
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -42,5 +40,5 @@ Logically extends the ICorDebugAssembly interface to provide support for contain
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

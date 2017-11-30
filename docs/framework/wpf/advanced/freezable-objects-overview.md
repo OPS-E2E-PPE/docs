@@ -1,5 +1,5 @@
 ---
-title: "Freezable Objects Overview | Microsoft Docs"
+title: "Freezable Objects Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Freezable objects, description"
-  - "unfreezing Freezable objects"
-  - "classes, Freezable"
+  - "Freezable objects [WPF], description"
+  - "unfreezing Freezable objects [WPF]"
+  - "classes [WPF], Freezable"
 ms.assetid: 89c71692-4f43-4057-b611-67c6a8a863a2
 caps.latest.revision: 30
 author: dotnet-bot
@@ -22,9 +25,6 @@ manager: "wpickett"
 # Freezable Objects Overview
 This topic describes how to effectively use and create <xref:System.Windows.Freezable> objects, which provide special features that can help improve application performance. Examples of freezable objects include brushes, pens, transformations, geometries, and animations.  
   
- This topic contains the following sections:  
-  
-<a name="autoTopLevelSectionsOUTLINE0"></a>   
 <a name="whatisafreezable"></a>   
 ## What Is a Freezable?  
  A <xref:System.Windows.Freezable> is a special type of object that has two states: unfrozen and frozen. When unfrozen, a <xref:System.Windows.Freezable> appears to behave like any other object. When frozen, a <xref:System.Windows.Freezable> can no longer be modified.  
@@ -94,7 +94,7 @@ This topic describes how to effectively use and create <xref:System.Windows.Free
 ### Freezing from Markup  
  To freeze a <xref:System.Windows.Freezable> object declared in markup, you use the `PresentationOptions:Freeze` attribute. In the following example, a <xref:System.Windows.Media.SolidColorBrush> is declared as a page resource and frozen. It is then used to set the background of a button.  
   
- [!code-xml[FreezableSample#FreezeFromMarkupWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/FreezableSample/CS/FreezeFromMarkupExample.xaml#freezefrommarkupwholepage)]  
+ [!code-xaml[FreezableSample#FreezeFromMarkupWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/FreezableSample/CS/FreezeFromMarkupExample.xaml#freezefrommarkupwholepage)]  
   
  To use the `Freeze` attribute, you must map to the presentation options namespace: `http://schemas.microsoft.com/winfx/2006/xaml/presentation/options`. `PresentationOptions` is the recommended prefix for mapping this namespace:  
   
@@ -168,7 +168,7 @@ mc:Ignorable="PresentationOptions"
  For an example of a custom <xref:System.Windows.Freezable> class, see the [Custom Animation Sample](http://go.microsoft.com/fwlink/?LinkID=159981).  
   
 ## See Also  
- <xref:System.Windows.Freezable>   
- [Custom Animation Sample](http://go.microsoft.com/fwlink/?LinkID=159981)   
- [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md)   
+ <xref:System.Windows.Freezable>  
+ [Custom Animation Sample](http://go.microsoft.com/fwlink/?LinkID=159981)  
+ [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md)  
  [Custom Dependency Properties](../../../../docs/framework/wpf/advanced/custom-dependency-properties.md)

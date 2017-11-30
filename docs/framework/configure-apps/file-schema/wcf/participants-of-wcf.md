@@ -1,5 +1,5 @@
 ---
-title: "&lt;participants&gt; of WCF | Microsoft Docs"
+title: "&lt;participants&gt; of WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,9 +26,9 @@ Configure a list of tracking participants that listen to the tracking records be
   
 ## Syntax  
   
-```vb  
+```xml
    <tracking>    <participants>       <add name="String"            profileName="String"           type="String" />    </participants> </tracking>   
-```  
+```
   
 ## Attributes and Elements  
  The following sections describe attributes, child elements, and parent elements.  
@@ -86,7 +86,7 @@ Configure a list of tracking participants that listen to the tracking records be
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Tracking.Configuration.TrackingSection>   
- <xref:System.ServiceModel.Activities.Description.EtwTrackingBehavior>   
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.TrackingSection>  
+ <xref:System.ServiceModel.Activities.Description.EtwTrackingBehavior>  
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Participants](../../../../../docs/framework/windows-workflow-foundation/tracking-participants.md)

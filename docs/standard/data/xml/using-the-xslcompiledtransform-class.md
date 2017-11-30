@@ -1,5 +1,5 @@
 ---
-title: "Using the XslCompiledTransform Class | Microsoft Docs"
+title: "Using the XslCompiledTransform Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: f9b074f6-d6f4-49dd-a093-df510bf0cf7b
 caps.latest.revision: 3
 author: "mairaw"
@@ -48,5 +43,5 @@ The <xref:System.Xml.Xsl.XslCompiledTransform> class is the Microsoft .NET Frame
  Discusses how to migrate code from the <xref:System.Xml.Xsl.XslTransform> class  
   
 ## See Also  
- <xref:System.Xml.Xsl.XsltSettings>   
+ <xref:System.Xml.Xsl.XsltSettings>  
  <xref:System.Xml.Xsl.XsltMessageEncounteredEventArgs>

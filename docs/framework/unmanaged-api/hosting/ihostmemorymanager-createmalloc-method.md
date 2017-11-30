@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::CreateMAlloc Method | Microsoft Docs"
+title: "IHostMemoryManager::CreateMAlloc Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::CreateMAlloc"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAlloc method [.NET Framework hosting]"
   - "IHostMemoryManager::CreateMAlloc method [.NET Framework hosting]"
@@ -74,5 +72,5 @@ HRESULT CreateMalloc (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostMalloc Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmalloc-interface.md)   
+ [IHostMalloc Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmalloc-interface.md)  
  [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)

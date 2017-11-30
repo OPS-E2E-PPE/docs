@@ -1,5 +1,5 @@
 ---
-title: "GetRealProcAddress Function | Microsoft Docs"
+title: "GetRealProcAddress Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetRealProcAddress"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRealProcAddress function [.NET Framework hosting]"
 ms.assetid: f1f2fab1-400b-488f-95f2-d49c4fca3556

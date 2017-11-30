@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::GetResult Method | Microsoft Docs"
+title: "ICorDebugEval::GetResult Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::GetResult"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEval::GetResult method [.NET Framework debugging]"
   - "GetResult method [.NET Framework debugging]"

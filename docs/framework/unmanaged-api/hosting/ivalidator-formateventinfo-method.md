@@ -1,5 +1,5 @@
 ---
-title: "IValidator::FormatEventInfo Method | Microsoft Docs"
+title: "IValidator::FormatEventInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "FormatEventInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IValidator::FormatEventInfo method [.NET Framework hosting]"
   - "FormatEventInfo method, IValidator interface [.NET Framework hosting]"

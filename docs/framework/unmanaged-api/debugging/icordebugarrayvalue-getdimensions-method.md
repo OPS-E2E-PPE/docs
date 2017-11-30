@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetDimensions Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetDimensions Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetDimensions"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugArrayValue::GetDimensions method [.NET Framework debugging]"
   - "GetDimensions method [.NET Framework debugging]"

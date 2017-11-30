@@ -1,5 +1,5 @@
 ---
-title: "ToolStripStatusLabel Control Overview | Microsoft Docs"
+title: "ToolStripStatusLabel Control Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ToolStripStatusLabel"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ToolStripStatusLabel control [Windows Forms], aboutToolStripStatusLabel control"
   - "status bars"

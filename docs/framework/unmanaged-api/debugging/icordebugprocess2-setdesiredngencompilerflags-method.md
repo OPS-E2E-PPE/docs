@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess2::SetDesiredNGENCompilerFlags Method | Microsoft Docs"
+title: "ICorDebugProcess2::SetDesiredNGENCompilerFlags Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess2::SetDesiredNGENCompilerFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess2::SetDesiredNGENCompilerFlags method [.NET Framework debugging]"
   - "SetDesiredNGENCompilerFlags method [.NET Framework debugging]"
@@ -62,5 +60,5 @@ HRESULT SetDesiredNGENCompilerFlags (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
  [ICorDebugManagedCallback Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-interface.md)

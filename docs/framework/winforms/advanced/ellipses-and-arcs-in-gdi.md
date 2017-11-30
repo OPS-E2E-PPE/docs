@@ -1,5 +1,5 @@
 ---
-title: "Ellipses and Arcs in GDI+ | Microsoft Docs"
+title: "Ellipses and Arcs in GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,14 +10,15 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "arcs"
   - "GDI+, arcs"
-  - "drawing, ellipses"
+  - "drawing [Windows Forms], ellipses"
   - "GDI+, ellipses"
   - "ellipses"
-  - "drawing, arcs"
+  - "drawing [Windows Forms], arcs"
 ms.assetid: 34f35133-a835-4ca4-81f6-0dfedee8b683
 caps.latest.revision: 17
 author: dotnet-bot
@@ -53,9 +54,9 @@ You can easily draw ellipses and arcs using the <xref:System.Drawing.Graphics.Dr
  ![Ellipses and arcs](../../../../docs/framework/winforms/advanced/media/aboutgdip02-art06.gif "Aboutgdip02_art06")  
   
 ## See Also  
- <xref:System.Drawing.Graphics?displayProperty=fullName>   
- <xref:System.Drawing.Pen?displayProperty=fullName>   
- [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)   
- [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)   
- [How to: Create a Pen](../../../../docs/framework/winforms/advanced/how-to-create-a-pen.md)   
+ <xref:System.Drawing.Graphics?displayProperty=nameWithType>  
+ <xref:System.Drawing.Pen?displayProperty=nameWithType>  
+ [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)  
+ [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)  
+ [How to: Create a Pen](../../../../docs/framework/winforms/advanced/how-to-create-a-pen.md)  
  [How to: Draw an Outlined Shape](../../../../docs/framework/winforms/advanced/how-to-draw-an-outlined-shape.md)

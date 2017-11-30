@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::EnumerateObjects Method | Microsoft Docs"
+title: "ICorDebugProcess::EnumerateObjects Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::EnumerateObjects"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateObjects method [.NET Framework debugging]"
   - "ICorDebugProcess::EnumerateObjects method [.NET Framework debugging]"

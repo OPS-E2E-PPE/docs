@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::Deactivate Method | Microsoft Docs"
+title: "ICorDebugStepper::Deactivate Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::Deactivate"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Deactivate method [.NET Framework debugging]"
   - "ICorDebugStepper::Deactivate method [.NET Framework debugging]"

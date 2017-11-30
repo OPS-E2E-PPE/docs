@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReaderSymbolSearchInfo Interface | Microsoft Docs"
+title: "ISymUnmanagedReaderSymbolSearchInfo Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReaderSymbolSearchInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedReaderSymbolSearchInfo interface [.NET Framework debugging]"
 ms.assetid: fde7e21d-1169-4bed-a34d-792e69652bf9

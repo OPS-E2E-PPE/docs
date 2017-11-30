@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo4::RequestReJIT Method | Microsoft Docs"
+title: "ICorProfilerInfo4::RequestReJIT Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo4::RequestReJIT"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RequestReJIT method, ICorProfilerInfo4 interface [.NET Framework profiling]"
   - "ICorProfilerInfo4::RequestReJIT method [.NET Framework profiling]"
@@ -79,6 +77,6 @@ HRESULT RequestReJIT (
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorProfilerInfo4 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [ICorProfilerInfo4 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

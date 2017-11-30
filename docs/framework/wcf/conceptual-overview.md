@@ -1,5 +1,5 @@
 ---
-title: "Conceptual Overview | Microsoft Docs"
+title: "Conceptual Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "WCF [WCF], concepts"
   - "Windows Communication Foundation [WCF], concepts"

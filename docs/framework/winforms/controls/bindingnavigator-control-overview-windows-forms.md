@@ -1,5 +1,5 @@
 ---
-title: "BindingNavigator Control Overview (Windows Forms) | Microsoft Docs"
+title: "BindingNavigator Control Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,11 +11,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "DataNavigator"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "BindingNavigator control [Windows Forms], about BindingNavigator control"
-  - "records, navigating on a form"
+  - "records [Windows Forms], navigating on a form"
   - "data [Windows Forms], navigating"
   - "data navigation"
 ms.assetid: 4423eede-f8d1-4d02-822f-5bf8432680d0
@@ -50,6 +48,6 @@ You can use the <xref:System.Windows.Forms.BindingNavigator> control to create a
  If the default buttons are not suited to your application, or if you require additional buttons to support other types of functionality, you can supply your own <xref:System.Windows.Forms.ToolStrip> buttons. Also see [How to: Add Load, Save, and Cancel Buttons to the Windows Forms BindingNavigator Control](../../../../docs/framework/winforms/controls/load-save-and-cancel-bindingnavigator.md).  
   
 ## See Also  
- <xref:System.Windows.Forms.BindingNavigator>   
- <xref:System.Windows.Forms.BindingSource>   
+ <xref:System.Windows.Forms.BindingNavigator>  
+ <xref:System.Windows.Forms.BindingSource>  
  [BindingNavigator Control](../../../../docs/framework/winforms/controls/bindingnavigator-control-windows-forms.md)

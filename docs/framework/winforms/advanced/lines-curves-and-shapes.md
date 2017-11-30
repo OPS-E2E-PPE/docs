@@ -1,5 +1,5 @@
 ---
-title: "Lines, Curves, and Shapes | Microsoft Docs"
+title: "Lines, Curves, and Shapes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,12 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "shapes, filling"
-  - "splines, drawing"
+  - "shapes [Windows Forms], filling"
+  - "splines [Windows Forms], drawing"
   - "shapes. drawing"
-  - "lines, drawing"
-  - "curves, drawing"
+  - "lines [Windows Forms], drawing"
+  - "curves [Windows Forms], drawing"
 ms.assetid: ace6e8d4-4e94-486b-9681-758a6667dc7f
 caps.latest.revision: 15
 author: dotnet-bot

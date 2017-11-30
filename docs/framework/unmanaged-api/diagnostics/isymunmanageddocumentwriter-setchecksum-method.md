@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocumentWriter::SetCheckSum Method | Microsoft Docs"
+title: "ISymUnmanagedDocumentWriter::SetCheckSum Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocumentWriter::SetCheckSum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedDocumentWriter::SetCheckSum method [.NET Framework debugging]"
   - "SetCheckSum method [.NET Framework debugging]"

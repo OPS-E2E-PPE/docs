@@ -1,5 +1,5 @@
 ---
-title: "Drawing, Positioning, and Cloning Images in GDI+ | Microsoft Docs"
+title: "Drawing, Positioning, and Cloning Images in GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "raster images"
+  - "raster images [Windows Forms]"
   - "images [Windows Forms], positioning"
-  - "drawing, images"
-  - "drawing, raster images"
+  - "drawing [Windows Forms], images"
+  - "drawing [Windows Forms], raster images"
   - "images [Windows Forms], cloning"
   - "images [Windows Forms], drawing"
   - "GDI+, drawing images"
@@ -57,6 +58,6 @@ You can use the <xref:System.Drawing.Bitmap> class to load and display raster im
  ![Cropping](../../../../docs/framework/winforms/advanced/media/aboutgdip03-art05.gif "AboutGdip03_Art05")  
   
 ## See Also  
- [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)   
- [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)   
+ [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)  
+ [How to: Create Graphics Objects for Drawing](../../../../docs/framework/winforms/advanced/how-to-create-graphics-objects-for-drawing.md)  
  [Working with Images, Bitmaps, Icons, and Metafiles](../../../../docs/framework/winforms/advanced/working-with-images-bitmaps-icons-and-metafiles.md)

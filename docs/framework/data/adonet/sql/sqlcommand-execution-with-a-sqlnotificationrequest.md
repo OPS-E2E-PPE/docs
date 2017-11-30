@@ -1,5 +1,5 @@
 ---
-title: "SqlCommand Execution with a SqlNotificationRequest | Microsoft Docs"
+title: "SqlCommand Execution with a SqlNotificationRequest"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1776f48f-9bea-41f6-83a4-c990c7a2c991
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -74,5 +77,5 @@ command.ExecuteReader();
 ```  
   
 ## See Also  
- [Query Notifications in SQL Server](../../../../../docs/framework/data/adonet/sql/query-notifications-in-sql-server.md)   
+ [Query Notifications in SQL Server](../../../../../docs/framework/data/adonet/sql/query-notifications-in-sql-server.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

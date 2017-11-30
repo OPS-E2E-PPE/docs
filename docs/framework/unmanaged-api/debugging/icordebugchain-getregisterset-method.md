@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::GetRegisterSet Method | Microsoft Docs"
+title: "ICorDebugChain::GetRegisterSet Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugChain::GetRegisterSet"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugChain::GetRegisterSet method [.NET Framework debugging]"
   - "GetRegisterSet method, ICorDebugChain interface [.NET Framework debugging]"

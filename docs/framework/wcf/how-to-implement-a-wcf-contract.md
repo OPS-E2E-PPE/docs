@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement a Windows Communication Foundation Service Contract | Microsoft Docs"
+title: "How to: Implement a Windows Communication Foundation Service Contract"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "service contracts [WCF], implementing"
 ms.assetid: d5ab51ba-61ae-403e-b3c8-e2669e326806
@@ -78,7 +78,7 @@ This is the second of six tasks required to create a basic [!INCLUDE[indigo1](..
     }  
     ```  
   
-    ```  
+    ```vb
     ‘Service1.vb  
     Imports System  
     Imports System.ServiceModel  
@@ -128,7 +128,7 @@ This is the second of six tasks required to create a basic [!INCLUDE[indigo1](..
 ## Example  
  The following code shows both the interface that defines the contract and the implementation of the interface.  
   
-```  
+```csharp
 // IService1.cs  
 using System;  
 using System.Collections.Generic;  
@@ -154,7 +154,7 @@ namespace GettingStartedLib
 }  
 ```  
   
-```  
+```csharp
 // Service1.cs  
 using System;  
 using System.Collections.Generic;  
@@ -203,7 +203,7 @@ namespace GettingStartedLib
 }  
 ```  
   
-```  
+```vb
 ‘IService.vb  
 Imports System  
 Imports System.ServiceModel  
@@ -225,7 +225,7 @@ Namespace GettingStartedLib
 End Namespace  
 ```  
   
-```  
+```vb
 Imports System  
 Imports System.ServiceModel  
   
@@ -275,5 +275,5 @@ End Namespace
  If you are using Visual Studio, on the Build menu click Build Solution (or press CTRL+SHIFT+B).  
   
 ## See Also  
- [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)   
+ [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)  
  [Self-Host](../../../docs/framework/wcf/samples/self-host.md)

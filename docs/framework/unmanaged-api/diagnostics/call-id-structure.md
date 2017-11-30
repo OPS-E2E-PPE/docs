@@ -1,5 +1,5 @@
 ---
-title: "CALL_ID Structure | Microsoft Docs"
+title: "CALL_ID Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CALL_ID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CALL_ID structure [.NET Framework debugging]"
 ms.assetid: bfd46324-afec-4782-9c18-586d81fb4740
@@ -61,5 +59,5 @@ typedef struct tagCALL_ID
  **Header:** ProtocolNotify2.idl  
   
 ## See Also  
- [INotifySink2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysink2-interface.md)   
+ [INotifySink2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysink2-interface.md)  
  [Diagnostics Symbol Store Structures](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-structures.md)

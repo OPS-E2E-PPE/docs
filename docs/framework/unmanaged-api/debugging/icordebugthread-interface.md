@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread Interface1 | Microsoft Docs"
+title: "ICorDebugThread Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugThread interface [.NET Framework debugging]"
 ms.assetid: 3930fd9b-2bc3-4b72-80a0-b6eeb94d60c6

@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish Metadata for a Service Using a Configuration File | Microsoft Docs"
+title: "How to: Publish Metadata for a Service Using a Configuration File"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -268,9 +268,9 @@ namespace Metadata.Samples
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Description.ServiceMetadataBehavior>   
- [How to: Host a WCF Service in a Managed Application](../../../../docs/framework/wcf/how-to-host-a-wcf-service-in-a-managed-application.md)   
- [Self-Host](../../../../docs/framework/wcf/samples/self-host.md)   
- [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)   
- [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)   
+ <xref:System.ServiceModel.Description.ServiceMetadataBehavior>  
+ [How to: Host a WCF Service in a Managed Application](../../../../docs/framework/wcf/how-to-host-a-wcf-service-in-a-managed-application.md)  
+ [Self-Host](../../../../docs/framework/wcf/samples/self-host.md)  
+ [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)  
+ [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)  
  [How to: Publish Metadata for a Service Using Code](../../../../docs/framework/wcf/feature-details/how-to-publish-metadata-for-a-service-using-code.md)

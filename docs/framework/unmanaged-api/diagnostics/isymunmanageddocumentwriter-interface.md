@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocumentWriter Interface | Microsoft Docs"
+title: "ISymUnmanagedDocumentWriter Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocumentWriter"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedDocumentWriter interface [.NET Framework debugging]"
 ms.assetid: edc8a02b-a0ac-46e3-80c1-fb8b5cef6341

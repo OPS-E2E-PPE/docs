@@ -1,5 +1,5 @@
 ---
-title: "Handling Errors | Microsoft Docs"
+title: "Handling Errors"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "Internet, WebRequest and WebResponse classes exceptions"
   - "Status property"
@@ -174,5 +172,5 @@ End Try
  When a **SocketException** is thrown, the **SocketException** class sets the <xref:System.Net.Sockets.SocketException.ErrorCode%2A> property to the last operating system socket error that occurred. For more information about socket error codes, see the Winsock 2.0 API error code documentation in MSDN.  
   
 ## See Also  
- [Exception Handling Fundamentals](../../../docs/standard/exceptions/exception-handling-fundamentals.md)   
+ [Exception Handling Fundamentals](../../../docs/standard/exceptions/exception-handling-fundamentals.md)  
  [Requesting Data](../../../docs/framework/network-programming/requesting-data.md)

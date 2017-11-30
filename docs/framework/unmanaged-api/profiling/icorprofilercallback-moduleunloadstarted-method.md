@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ModuleUnloadStarted Method | Microsoft Docs"
+title: "ICorProfilerCallback::ModuleUnloadStarted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ModuleUnloadStarted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ModuleUnloadStarted method [.NET Framework profiling]"
   - "ICorProfilerCallback::ModuleUnloadStarted method [.NET Framework profiling]"
@@ -57,5 +55,5 @@ HRESULT ModuleUnloadStarted(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ModuleUnloadFinished Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-moduleunloadfinished-method.md)

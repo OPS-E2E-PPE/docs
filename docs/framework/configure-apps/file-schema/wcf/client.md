@@ -1,5 +1,5 @@
 ---
-title: "&lt;client&gt; | Microsoft Docs"
+title: "&lt;client&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,9 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.ServiceModel/client"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#client"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: bf0f7031-76c8-4e7e-a6c6-9ad9119134be
 caps.latest.revision: 18
 author: "Erikre"
@@ -80,7 +77,7 @@ The `client` element defines a list of endpoints that a client can connect to.
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ClientSection>   
- <xref:System.ServiceModel.Configuration.MetadataElement>   
- [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)   
+ <xref:System.ServiceModel.Configuration.ClientSection>  
+ <xref:System.ServiceModel.Configuration.MetadataElement>  
+ [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)  
  [Clients](../../../../../docs/framework/wcf/feature-details/clients.md)

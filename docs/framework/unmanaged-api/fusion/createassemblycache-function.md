@@ -1,5 +1,5 @@
 ---
-title: "CreateAssemblyCache Function | Microsoft Docs"
+title: "CreateAssemblyCache Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CreateAssemblyCache"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAssemblyCache function [.NET Framework fusion]"
 ms.assetid: 348c7c8c-8578-46ae-97cf-480d6015c3c6
@@ -60,6 +58,6 @@ HRESULT CreateAssemblyCache (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyCache Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycache-interface.md)   
- [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)   
+ [IAssemblyCache Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycache-interface.md)  
+ [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)  
  [Global Assembly Cache](../../../../docs/framework/app-domains/gac.md)

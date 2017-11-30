@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugGenericValue Interface1 | Microsoft Docs"
+title: "ICorDebugGenericValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugGenericValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugGenericValue interface [.NET Framework debugging]"
 ms.assetid: bc14f408-b359-4c8c-ade2-888ccdf7261b

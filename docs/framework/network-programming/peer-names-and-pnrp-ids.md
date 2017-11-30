@@ -1,5 +1,5 @@
 ---
-title: "Peer Names and PNRP IDs | Microsoft Docs"
+title: "Peer Names and PNRP IDs"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: afa538e8-948f-4a98-aa9f-305134004115
 caps.latest.revision: 5
 author: "mcleblanc"
@@ -40,5 +35,5 @@ A Peer Name represents an endpoint for communication, which can be a computer, a
  This combination of P2P ID and Service Location allows multiple PNRP IDs to be registered from a single computer.  
   
 ## See Also  
- <xref:System.Net.PeerToPeer.PeerName>   
+ <xref:System.Net.PeerToPeer.PeerName>  
  <xref:System.Net.PeerToPeer>

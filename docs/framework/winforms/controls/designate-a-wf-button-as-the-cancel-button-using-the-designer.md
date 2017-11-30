@@ -1,5 +1,5 @@
 ---
-title: "How to: Designate a Windows Forms Button as the Cancel Button Using the Designer | Microsoft Docs"
+title: "How to: Designate a Windows Forms Button as the Cancel Button Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "buttons, cancel buttons"
+  - "buttons [Windows Forms], cancel buttons"
   - "Button control [Windows Forms], designating as cancel button"
 ms.assetid: 30e77d9c-d565-4ab5-a84a-62c043af8822
 caps.latest.revision: 13
@@ -33,9 +31,9 @@ On any Windows Form, you can designate a <xref:System.Windows.Forms.Button> cont
 2.  In the **Properties** window, set the form's <xref:System.Windows.Forms.Form.CancelButton%2A> property to the <xref:System.Windows.Forms.Button> control's name.  
   
 ## See Also  
- <xref:System.Windows.Forms.Form.CancelButton%2A>   
- [Button Control Overview](../../../../docs/framework/winforms/controls/button-control-overview-windows-forms.md)   
- [Ways to Select a Windows Forms Button Control](../../../../docs/framework/winforms/controls/ways-to-select-a-windows-forms-button-control.md)   
- [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)   
- [How to: Designate a Windows Forms Button as the Accept Button Using the Designer](../../../../docs/framework/winforms/controls/designate-a-wf-button-as-the-accept-button-using-the-designer.md)   
+ <xref:System.Windows.Forms.Form.CancelButton%2A>  
+ [Button Control Overview](../../../../docs/framework/winforms/controls/button-control-overview-windows-forms.md)  
+ [Ways to Select a Windows Forms Button Control](../../../../docs/framework/winforms/controls/ways-to-select-a-windows-forms-button-control.md)  
+ [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)  
+ [How to: Designate a Windows Forms Button as the Accept Button Using the Designer](../../../../docs/framework/winforms/controls/designate-a-wf-button-as-the-accept-button-using-the-designer.md)  
  [Button Control](../../../../docs/framework/winforms/controls/button-control-windows-forms.md)

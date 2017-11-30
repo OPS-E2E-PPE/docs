@@ -1,5 +1,5 @@
 ---
-title: "CorValidatorModuleType Enumeration | Microsoft Docs"
+title: "CorValidatorModuleType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorValidatorModuleType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorValidatorModuleType enumeration [.NET Framework metadata]"
 ms.assetid: 748f1ab2-fbcb-4f55-89ec-8d23d81ebc80

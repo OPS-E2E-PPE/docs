@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::ForceGC Method | Microsoft Docs"
+title: "ICorProfilerInfo::ForceGC Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::ForceGC"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::ForceGC method [.NET Framework profiling]"
   - "ForceGC method [.NET Framework profiling]"

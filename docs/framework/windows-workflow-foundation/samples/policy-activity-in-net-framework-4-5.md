@@ -1,5 +1,5 @@
 ---
-title: "Policy Activity in .NET Framework 4.5 | Microsoft Docs"
+title: "Policy Activity in .NET Framework 4.5"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -82,6 +82,4 @@ public class Policy4Activity<TResult>: NativeActivity<TResult>
   
 3.  To compile the project, press CTRL+SHIFT+B.  
   
-4.  To run the project, press CTRL+F5.  
-  
-## See Also
+4.  To run the project, press CTRL+F5.

@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyCache::CreateAssemblyCacheItem Method | Microsoft Docs"
+title: "IAssemblyCache::CreateAssemblyCacheItem Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyCache::CreateAssemblyCacheItem"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IAssemblyCache::CreateAssemblyCacheItem method [.NET Framework fusion]"
   - "CreateAssemblyCacheItem method [.NET Framework fusion]"
@@ -69,5 +67,5 @@ HRESULT CreateAssemblyCacheItem (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyCache Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycache-interface.md)   
+ [IAssemblyCache Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycache-interface.md)  
  [IAssemblyCacheItem Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycacheitem-interface.md)

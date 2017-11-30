@@ -1,5 +1,5 @@
 ---
-title: "ICLRHostBindingPolicyManager Interface | Microsoft Docs"
+title: "ICLRHostBindingPolicyManager Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRHostBindingPolicyManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRHostBindingPolicyManager interface [.NET Framework hosting]"
 ms.assetid: f9da168b-366b-4b2b-bdb9-330b6bad5a6b
@@ -49,6 +47,6 @@ Provides methods for the host to evaluate current binding policy and communicate
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)   
- [IHostAssemblyStore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostassemblystore-interface.md)   
+ [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)  
+ [IHostAssemblyStore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostassemblystore-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

@@ -1,5 +1,5 @@
 ---
-title: "StrongNameSignatureVerification Function | Microsoft Docs"
+title: "StrongNameSignatureVerification Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameSignatureVerification"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameSignatureVerification function [.NET Framework strong naming]"
 ms.assetid: 933758dd-231e-4382-8819-242c0a13a4b7
@@ -81,6 +79,6 @@ BOOLEAN StrongNameSignatureVerification (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StrongNameSignatureVerification Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverification-method.md)   
- [StrongNameSignatureVerificationEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationex-method.md)   
+ [StrongNameSignatureVerification Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverification-method.md)  
+ [StrongNameSignatureVerificationEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationex-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

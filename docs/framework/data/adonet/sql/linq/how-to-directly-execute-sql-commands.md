@@ -1,5 +1,5 @@
 ---
-title: "How to: Directly Execute SQL Commands | Microsoft Docs"
+title: "How to: Directly Execute SQL Commands"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 04671bb0-40c0-4465-86e5-77986f454661
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -25,5 +28,5 @@ Assuming a <xref:System.Data.Linq.DataContext> connection, you can use <xref:Sys
  [!code-vb[DLinqCommunicatingWithDatabase#3](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqCommunicatingWithDatabase/vb/Module1.vb#3)]  
   
 ## See Also  
- [How to: Directly Execute SQL Queries](../../../../../../docs/framework/data/adonet/sql/linq/how-to-directly-execute-sql-queries.md)   
+ [How to: Directly Execute SQL Queries](../../../../../../docs/framework/data/adonet/sql/linq/how-to-directly-execute-sql-queries.md)  
  [Communicating with the Database](../../../../../../docs/framework/data/adonet/sql/linq/communicating-with-the-database.md)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod::GetToken Method | Microsoft Docs"
+title: "ISymUnmanagedMethod::GetToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod::GetToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedMethod::GetToken method [.NET Framework debugging]"
   - "GetToken method, ISymUnmanagedMethod interface [.NET Framework debugging]"

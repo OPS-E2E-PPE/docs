@@ -1,27 +1,18 @@
 ---
-title: "&lt;supportedRuntime&gt; Element | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/30/2017"
+title: "&lt;supportedRuntime&gt; Element"
+ms.date: "10/17/2017"
 ms.prod: ".net-framework"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "dotnet-clr"
-ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.custom: "updateeachrelease"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#supportedRuntime"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/startup/supportedRuntime"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "supportedRuntime element"
   - "<supportedRuntime> element"
-ms.assetid: 1ae16e23-afbe-4de4-b413-bc457f37b69f
-caps.latest.revision: 33
+ms.assetid: 1ae16e23-afbe-4de4-b413-bc457f37b69f 
 author: "mcleblanc"
 ms.author: "markl"
 manager: "markl"
@@ -74,12 +65,12 @@ The `runtime` attribute specifies the Common Language Runtime (CLR) version that
 |2.0|"v2.0.50727"|  
 |3.0|"v2.0.50727"|  
 |3.5|"v2.0.50727"|  
-|4.0-4.7|"v4.0"|  
+|4.0-4.7.1|"v4.0"|  
 
   
 <a name="sku"></a>   
 ## "sku id" values  
-The `sku` attribute indicates the version of the .NET Framework that the app targets and requires to run on, using a target framework moniker (TFM). The following table lists valid values that are supported by the `sku` attribute, starting with the .NET Framework 4.
+The `sku` attribute uses a target framework moniker (TFM) to indicate the version of the .NET Framework that the app targets and requires to run. The following table lists valid values that are supported by the `sku` attribute, starting with the .NET Framework 4.
   
 |.NET Framework version|`sku` attribute|  
 |----------------------------|---------------------|  
@@ -97,8 +88,9 @@ The `sku` attribute indicates the version of the .NET Framework that the app tar
 |4.6|".NETFramework,Version=v4.6"|  
 |4.6.1|".NETFramework,Version=v4.6.1"|  
 |4.6.2|".NETFramework,Version=v4.6.2"|  
-|4.7|".NETFramework,Version=4.7"|
-   
+|4.7|".NETFramework,Version=v4.7"|
+|4.7.1|".NETFramework,Version=4.7.1"|
+
 ## Example  
  The following example shows how to specify the supported runtime version in a configuration file. The configuration file indicates that the app targets the .NET Framework 4.7.  
   
@@ -114,6 +106,6 @@ The `sku` attribute indicates the version of the .NET Framework that the app tar
  This element can be used in the application configuration file.  
   
 ## See Also  
- [Startup Settings Schema](../../../../../docs/framework/configure-apps/file-schema/startup/index.md)   
- [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)   
+ [Startup Settings Schema](../../../../../docs/framework/configure-apps/file-schema/startup/index.md)  
+ [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)  
  [In-Process Side-by-Side Execution](../../../../../docs/framework/deployment/in-process-side-by-side-execution.md)

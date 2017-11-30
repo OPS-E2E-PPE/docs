@@ -1,5 +1,5 @@
 ---
-title: "&lt;iriParsing&gt; Element (Uri Settings) | Microsoft Docs"
+title: "&lt;iriParsing&gt; Element (Uri Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 953d0b53-445e-41f9-b302-77c4030852ce
 caps.latest.revision: 9
 author: "mcleblanc"
@@ -33,9 +28,9 @@ Specifies if International Resource Identifier (IRI) parsing is applied to a <xr
 ## Syntax  
   
 ```xml  
-<idn  
+<iriParsing  
   enabled="true|false"  
-/idn>  
+/>  
 ```  
   
 ## Attributes and Elements  
@@ -77,7 +72,7 @@ Specifies if International Resource Identifier (IRI) parsing is applied to a <xr
 ## Example  
   
 ### Description  
- The following code example shows a configuration used by the <xref:System.Uri> class to support IRI parsing and IDN names.  
+ The following example shows a configuration used by the <xref:System.Uri> class to support IRI parsing and IDN names.  
   
 ### Code  
   
@@ -91,6 +86,6 @@ Specifies if International Resource Identifier (IRI) parsing is applied to a <xr
 ```  
   
 ## See Also  
- <xref:System.Configuration.IriParsingElement?displayProperty=fullName>   
- <xref:System.Configuration.UriSection?displayProperty=fullName>   
+ <xref:System.Configuration.IriParsingElement?displayProperty=nameWithType>  
+ <xref:System.Configuration.UriSection?displayProperty=nameWithType>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

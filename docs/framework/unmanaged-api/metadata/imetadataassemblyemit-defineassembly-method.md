@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::DefineAssembly Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::DefineAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::DefineAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyEmit::DefineAssembly method [.NET Framework metadata]"
   - "DefineAssembly method [.NET Framework metadata]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugNativeFrame::SetIP Method | Microsoft Docs"
+title: "ICorDebugNativeFrame::SetIP Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugNativeFrame::SetIP"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugNativeFrame::SetIP method [.NET Framework debugging]"
   - "SetIP method, ICorDebugNativeFrame interface [.NET Framework debugging]"

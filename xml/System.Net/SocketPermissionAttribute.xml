@@ -32,10 +32,11 @@
 >  The properties of a <xref:System.Net.SocketPermissionAttribute> must have values that are not `null`. Also, once set, the values of the properties cannot be changed.  
   
 > [!NOTE]
->  For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+>  For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Net.SocketPermission" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -131,6 +132,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">One or more of the current instance's <see cref="P:System.Net.SocketPermissionAttribute.Access" />, <see cref="P:System.Net.SocketPermissionAttribute.Host" />, <see cref="P:System.Net.SocketPermissionAttribute.Transport" />, or <see cref="P:System.Net.SocketPermissionAttribute.Port" /> properties is <see langword="null" />.</exception>
+        <altmember cref="T:System.Net.SocketPermission" />
       </Docs>
     </Member>
     <Member MemberName="Host">

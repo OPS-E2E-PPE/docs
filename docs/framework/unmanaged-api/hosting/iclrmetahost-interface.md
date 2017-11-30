@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetaHost Interface | Microsoft Docs"
+title: "ICLRMetaHost Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetaHost"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRMetaHost interface [.NET Framework hosting]"
 ms.assetid: c627fcdd-fc4f-4b1c-8e91-df8536f627d8
@@ -63,5 +61,5 @@ HRESULT hr = CLRCreateInstance(CLSID_CLRMetaHost,
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::Initialize Method | Microsoft Docs"
+title: "ICorProfilerCallback::Initialize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::Initialize"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Initialize method, ICorProfilerCallback interface [.NET Framework profiling]"
   - "ICorProfilerCallback::Initialize method [.NET Framework profiling]"
@@ -57,5 +55,5 @@ HRESULT Initialize(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [Shutdown Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-shutdown-method.md)

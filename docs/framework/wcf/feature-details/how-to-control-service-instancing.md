@@ -1,5 +1,5 @@
 ---
-title: "How to: Control Service Instancing | Microsoft Docs"
+title: "How to: Control Service Instancing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: e0b12b34-8004-443a-a46d-83a5c00f2601
 caps.latest.revision: 19
 author: "Erikre"
@@ -19,7 +19,7 @@ ms.author: "erikre"
 manager: "erikre"
 ---
 # How to: Control Service Instancing
-Setting the instance mode of a service enables you to specify when a <xref:System.ServiceModel.InstanceContext?displayProperty=fullName> (and its associated user-defined service object) is created. See the <xref:System.ServiceModel.InstanceContextMode> enumeration for the possible modes. [!INCLUDE[crabout](../../../../includes/crabout-md.md)] behaviors, see [Configuring and Extending the Runtime with Behaviors](../../../../docs/framework/wcf/extending/configuring-and-extending-the-runtime-with-behaviors.md). For working examples, see [Behaviors](../../../../docs/framework/wcf/samples/behaviors.md).  
+Setting the instance mode of a service enables you to specify when a <xref:System.ServiceModel.InstanceContext?displayProperty=nameWithType> (and its associated user-defined service object) is created. See the <xref:System.ServiceModel.InstanceContextMode> enumeration for the possible modes. [!INCLUDE[crabout](../../../../includes/crabout-md.md)] behaviors, see [Configuring and Extending the Runtime with Behaviors](../../../../docs/framework/wcf/extending/configuring-and-extending-the-runtime-with-behaviors.md). For working examples, see [Behaviors](../../../../docs/framework/wcf/samples/behaviors.md).  
   
 ### To control the service instance lifetime using code  
   
@@ -37,7 +37,7 @@ Setting the instance mode of a service enables you to specify when a <xref:Syste
  [!code-vb[c_ControlServiceInstancing#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_controlserviceinstancing/vb/source.vb#2)]  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceBehaviorAttribute>   
- <xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A>   
- <xref:System.ServiceModel.InstanceContextMode>   
+ <xref:System.ServiceModel.ServiceBehaviorAttribute>  
+ <xref:System.ServiceModel.ServiceBehaviorAttribute.InstanceContextMode%2A>  
+ <xref:System.ServiceModel.InstanceContextMode>  
  [Service: Behaviors Samples](http://msdn.microsoft.com/en-us/4e3c6513-a7ff-4b35-8dcf-b5506c6f39a7)

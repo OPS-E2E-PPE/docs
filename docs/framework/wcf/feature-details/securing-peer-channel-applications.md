@@ -1,5 +1,5 @@
 ---
-title: "Securing Peer Channel Applications | Microsoft Docs"
+title: "Securing Peer Channel Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -48,5 +48,5 @@ Like other bindings under the [!INCLUDE[vstecwinfx](../../../../includes/vstecwi
  [Peer Channel Scenarios](../../../../docs/framework/wcf/feature-details/peer-channel-scenarios.md)  
   
 ## See Also  
- [Peer Channel Security](../../../../docs/framework/wcf/feature-details/peer-channel-security.md)   
+ [Peer Channel Security](../../../../docs/framework/wcf/feature-details/peer-channel-security.md)  
  [Building a Peer Channel Application](../../../../docs/framework/wcf/feature-details/building-a-peer-channel-application.md)

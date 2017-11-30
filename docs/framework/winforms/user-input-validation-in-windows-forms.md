@@ -1,5 +1,5 @@
 ---
-title: "User Input Validation in Windows Forms | Microsoft Docs"
+title: "User Input Validation in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,13 +9,11 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Windows Forms, validating user input"
-  - "validation, Windows Forms user input"
-  - "user input, validating in Windows Forms"
-  - "validating user input, Windows Forms"
+  - "validation [Windows Forms], Windows Forms user input"
+  - "user input [Windows Forms], validating in Windows Forms"
+  - "validating user input [Windows Forms], Windows Forms"
 ms.assetid: 4ec07681-1dee-4bf9-be5e-718f635a33a1
 caps.latest.revision: 15
 author: dotnet-bot
@@ -93,14 +91,14 @@ When users enter data into your application, you may want to verify that the dat
   
 -   By calling the <xref:System.Windows.Forms.Form.Close%2A> method programmatically.  
   
- However, in some cases, you might want to let the user close the form regardless of whether the values in the controls are valid. You can override validation and close a form that still contains invalid data by creating a handler for the form's <xref:System.Windows.Forms.Form.Closing> event. In the event, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property to `false`. This forces the form to close. For more information and an example, see <xref:System.Windows.Forms.Form.Closing?displayProperty=fullName>.  
+ However, in some cases, you might want to let the user close the form regardless of whether the values in the controls are valid. You can override validation and close a form that still contains invalid data by creating a handler for the form's <xref:System.Windows.Forms.Form.Closing> event. In the event, set the <xref:System.ComponentModel.CancelEventArgs.Cancel%2A> property to `false`. This forces the form to close. For more information and an example, see <xref:System.Windows.Forms.Form.Closing?displayProperty=nameWithType>.  
   
 > [!NOTE]
 >  If you force the form to close in this manner, any data in the form's controls that has not already been saved is lost. In addition, modal forms do not validate the contents of controls when they are closed. You can still use control validation to lock focus to a control, but you do not have to be concerned about the behavior associated with closing the form.  
   
 ## See Also  
- <xref:System.Windows.Forms.Control.Validating?displayProperty=fullName>   
- <xref:System.Windows.Forms.Form.Closing?displayProperty=fullName>   
- <xref:System.ComponentModel.CancelEventArgs?displayProperty=fullName>   
- [MaskedTextBox Control](../../../docs/framework/winforms/controls/maskedtextbox-control-windows-forms.md)   
+ <xref:System.Windows.Forms.Control.Validating?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.Form.Closing?displayProperty=nameWithType>  
+ <xref:System.ComponentModel.CancelEventArgs?displayProperty=nameWithType>  
+ [MaskedTextBox Control](../../../docs/framework/winforms/controls/maskedtextbox-control-windows-forms.md)  
  [Regular Expression Examples](../../../docs/standard/base-types/regular-expression-examples.md)

@@ -53,82 +53,82 @@
 <a name="xamlValues_Matrix"></a>   
 ## XAML Values  
  *M11*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the first row and first column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M11%2A> property.  
   
  *M12*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the first row and second column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M12%2A> property.  
   
  *M13*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the first row and third column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M13%2A> property.  
   
  *M14*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the first row and fourth column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M14%2A> property.  
   
  *M21*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the second row and first column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M21%2A> property.  
   
  *M22*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the second row and second column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M22%2A> property.  
   
  *M23*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the second row and third column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M23%2A> property.  
   
  *M24*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the second row and fourth column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M24%2A> property.  
   
  *M31*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the third row and first column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M31%2A> property.  
   
  *M32*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the third row and second column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M32%2A> property.  
   
  *M33*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the third row and third column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M34%2A> property.  
   
  *M34*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the third row and fourth column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M33%2A> property.  
   
  *M44*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the fourth row and fourth column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.M44%2A> property.  
   
  *offsetX*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the fourth row and first column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.OffsetX%2A> property.  
   
  *offsetY*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the fourth row and second column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.OffsetY%2A> property.  
   
  *offsetZ*  
- <xref:System.Double?displayProperty=fullName>  
+ <xref:System.Double?displayProperty=nameWithType>  
   
  The value in the fourth row and third column of this <xref:System.Windows.Media.Media3D.Matrix3D>. For more information, see the <xref:System.Windows.Media.Media3D.Matrix3D.OffsetZ%2A> property.  
   
@@ -778,7 +778,7 @@ P' = C.Transform(P);
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Media.Media3D.Matrix3D matrix1, valuetype System.Windows.Media.Media3D.Matrix3D matrix2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Matrix3D.op_Equality(System.Windows.Media.Media3D.Matrix3D,System.Windows.Media.Media3D.Matrix3D)" />
       <MemberType>Method</MemberType>
@@ -810,7 +810,7 @@ P' = C.Transform(P);
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Media.Media3D.Matrix3D matrix1, valuetype System.Windows.Media.Media3D.Matrix3D matrix2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Matrix3D.op_Inequality(System.Windows.Media.Media3D.Matrix3D,System.Windows.Media.Media3D.Matrix3D)" />
       <MemberType>Method</MemberType>
@@ -842,7 +842,7 @@ P' = C.Transform(P);
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Matrix3D op_Multiply (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Matrix3D operator * (System.Windows.Media.Media3D.Matrix3D matrix1, System.Windows.Media.Media3D.Matrix3D matrix2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Media.Media3D.Matrix3D op_Multiply(valuetype System.Windows.Media.Media3D.Matrix3D matrix1, valuetype System.Windows.Media.Media3D.Matrix3D matrix2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Matrix3D.op_Multiply(System.Windows.Media.Media3D.Matrix3D,System.Windows.Media.Media3D.Matrix3D)" />
       <MemberType>Method</MemberType>
@@ -1366,5 +1366,32 @@ P' = C.Transform(P);
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="ToString">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a string representation of this <see cref="T:System.Windows.Media.Media3D.Matrix3D" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Transform">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Transforms the specified <see cref="T:System.Windows.Media.Media3D.Point3D" />, array of Point3D objects, <see cref="T:System.Windows.Media.Media3D.Point4D" />, array of Point4D objects, <see cref="T:System.Windows.Media.Media3D.Vector3D" />, or array of Vector3D objects by the current <see cref="T:System.Windows.Media.Media3D.Matrix3D" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Tests equality between two matrices.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

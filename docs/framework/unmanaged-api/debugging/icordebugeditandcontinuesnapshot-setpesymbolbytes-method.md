@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueSnapshot::SetPESymbolBytes Method | Microsoft Docs"
+title: "ICorDebugEditAndContinueSnapshot::SetPESymbolBytes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueSnapshot::SetPESymbolBytes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetPESymbolBytes method [.NET Framework debugging]"
   - "ICorDebugEditAndContinueSnapshot::SetPESymbolBytes method [.NET Framework debugging]"

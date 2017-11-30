@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Add Discoverability to a WCF Service and Client | Microsoft Docs"
+title: "How to: Programmatically Add Discoverability to a WCF Service and Client"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -347,5 +347,5 @@ namespace DiscoveryClientApp
 ```  
 
 ## See Also  
- [WCF Discovery Overview](../../../../docs/framework/wcf/feature-details/wcf-discovery-overview.md)   
+ [WCF Discovery Overview](../../../../docs/framework/wcf/feature-details/wcf-discovery-overview.md)  
  [WCF Discovery Object Model](../../../../docs/framework/wcf/feature-details/wcf-discovery-object-model.md)

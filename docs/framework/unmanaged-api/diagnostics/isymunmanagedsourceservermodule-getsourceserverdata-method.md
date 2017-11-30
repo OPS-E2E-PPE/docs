@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedSourceServerModule::GetSourceServerData Method | Microsoft Docs"
+title: "ISymUnmanagedSourceServerModule::GetSourceServerData Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedSourceServerModule::GetSourceServerData"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedSourceServerModule::GetSourceServerData method [.NET Framework debugging]"
   - "GetSourceServerData method [.NET Framework debugging]"

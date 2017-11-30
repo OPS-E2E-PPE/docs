@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetMethodFromDocumentPosition Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetMethodFromDocumentPosition Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetMethodFromDocumentPosition"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMethodFromDocumentPosition method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetMethodFromDocumentPosition method [.NET Framework debugging]"

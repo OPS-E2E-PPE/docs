@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::EnumDomains Method | Microsoft Docs"
+title: "ICorRuntimeHost::EnumDomains Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::EnumDomains"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::EnumDomains method [.NET Framework hosting]"
   - "EnumDomains method [.NET Framework hosting]"

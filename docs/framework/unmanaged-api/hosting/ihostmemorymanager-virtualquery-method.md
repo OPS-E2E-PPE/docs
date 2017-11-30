@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::VirtualQuery Method | Microsoft Docs"
+title: "IHostMemoryManager::VirtualQuery Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::VirtualQuery"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager::VirtualQuery method [.NET Framework hosting]"
   - "VirtualQuery method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::Close Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::Close Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::Close"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Close method, ISymUnmanagedWriter interface [.NET Framework debugging]"
   - "ISymUnmanagedWriter::Close method [.NET Framework debugging]"

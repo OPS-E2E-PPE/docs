@@ -1,5 +1,5 @@
 ---
-title: "Antialiasing with Lines and Curves | Microsoft Docs"
+title: "Antialiasing with Lines and Curves"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "antialiasing"
-  - "antialiasing, smoothing modes"
+  - "antialiasing [Windows Forms], smoothing modes"
   - "GDI+, antialiasing"
 ms.assetid: 810da1a4-c136-4abf-88df-68e49efdd8d4
 caps.latest.revision: 16
@@ -50,6 +51,6 @@ When you use [!INCLUDE[ndptecgdiplus](../../../../includes/ndptecgdiplus-md.md)]
  [!code-vb[LinesCurvesAndShapes#81](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/LinesCurvesAndShapes/VB/Class1.vb#81)]  
   
 ## See Also  
- <xref:System.Drawing.Drawing2D.SmoothingMode?displayProperty=fullName>   
- [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)   
+ <xref:System.Drawing.Drawing2D.SmoothingMode?displayProperty=nameWithType>  
+ [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)  
  [How to: Use Antialiasing with Text](../../../../docs/framework/winforms/advanced/how-to-use-antialiasing-with-text.md)

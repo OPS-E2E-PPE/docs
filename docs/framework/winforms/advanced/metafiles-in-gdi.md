@@ -1,5 +1,5 @@
 ---
-title: "Metafiles in GDI+ | Microsoft Docs"
+title: "Metafiles in GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "images [Windows Forms], metafiles"
   - "GDI+, metafiles"

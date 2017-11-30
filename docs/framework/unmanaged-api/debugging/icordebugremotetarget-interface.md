@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRemoteTarget Interface | Microsoft Docs"
+title: "ICorDebugRemoteTarget Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRemoteTarget"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugRemoteTarget interface [.NET Framework debugging]"
 ms.assetid: bd9936a6-cc24-4869-8761-0988664464e6
@@ -66,6 +64,6 @@ interface ICorDebugRemoteTarget  : IUnknown
  **.NET Framework Versions:** 3.5 SP1  
   
 ## See Also  
- [ICorDebugRemote Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremote-interface.md)   
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebugRemote Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremote-interface.md)  
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

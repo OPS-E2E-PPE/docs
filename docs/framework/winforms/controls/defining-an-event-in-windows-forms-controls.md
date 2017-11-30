@@ -1,5 +1,5 @@
 ---
-title: "Defining an Event in Windows Forms Controls | Microsoft Docs"
+title: "Defining an Event in Windows Forms Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "events [Windows Forms], defining within Windows Forms custom controls"
   - "custom controls [Windows Forms], events using code"
@@ -83,6 +84,6 @@ public class FlashTrackBar : Control {
 ```  
   
 ## See Also  
- [Events in Windows Forms Controls](../../../../docs/framework/winforms/controls/events-in-windows-forms-controls.md)   
- [Events](../../../../docs/standard/events/index.md)   
+ [Events in Windows Forms Controls](../../../../docs/framework/winforms/controls/events-in-windows-forms-controls.md)  
+ [Events](../../../../docs/standard/events/index.md)  
  [Events](../../../../docs/standard/events/index.md)

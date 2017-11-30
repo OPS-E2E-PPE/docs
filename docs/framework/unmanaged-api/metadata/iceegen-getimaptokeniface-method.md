@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::GetIMapTokenIface Method | Microsoft Docs"
+title: "ICeeGen::GetIMapTokenIface Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::GetIMapTokenIface"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetIMapTokenIface method [.NET Framework metadata]"
   - "ICeeGen::GetIMapTokenIface method [.NET Framework metadata]"

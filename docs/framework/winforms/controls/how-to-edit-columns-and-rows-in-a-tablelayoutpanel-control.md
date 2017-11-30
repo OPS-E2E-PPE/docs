@@ -1,5 +1,5 @@
 ---
-title: "How to: Edit Columns and Rows in a TableLayoutPanel Control | Microsoft Docs"
+title: "How to: Edit Columns and Rows in a TableLayoutPanel Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "net.ComponentModel.StyleCollectionEditor"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "columns [Windows Forms], editing"
   - "TableLayoutPanel control [Windows Forms], editing"
@@ -52,5 +50,5 @@ You can use the collection editor of the <xref:System.Windows.Forms.TableLayoutP
 8.  To remove a row or column, click the **Remove** button to delete the currently selected item in the **Member** list.  
   
 ## See Also  
- <xref:System.Windows.Forms.SizeType>   
+ <xref:System.Windows.Forms.SizeType>  
  [TableLayoutPanel Control](../../../../docs/framework/winforms/controls/tablelayoutpanel-control-windows-forms.md)

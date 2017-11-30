@@ -1,5 +1,5 @@
 ---
-title: "How to: Detect Network Availability and Address Changes | Microsoft Docs"
+title: "How to: Detect Network Availability and Address Changes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Network"
 ms.assetid: d4377115-4a76-4848-ab23-4898d65c771c

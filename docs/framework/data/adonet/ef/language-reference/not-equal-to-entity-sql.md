@@ -1,5 +1,5 @@
 ---
-title: "!= (Not Equal To) (Entity SQL) | Microsoft Docs"
+title: "!= (Not Equal To) (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 3b4a02ad-ddfc-4c42-8dfa-676234461312
 caps.latest.revision: 3
 author: "JennieHubbard"

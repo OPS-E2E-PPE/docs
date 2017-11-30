@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::EndInprocDebugging Method | Microsoft Docs"
+title: "ICorProfilerInfo::EndInprocDebugging Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::EndInprocDebugging"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::EndInprocDebugging method [.NET Framework profiling]"
   - "EndInprocDebugging method [.NET Framework profiling]"

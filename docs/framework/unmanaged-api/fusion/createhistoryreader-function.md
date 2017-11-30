@@ -1,5 +1,5 @@
 ---
-title: "CreateHistoryReader Function | Microsoft Docs"
+title: "CreateHistoryReader Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CreateHistoryReader"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateHistoryReader function [.NET Framework fusion]"
 ms.assetid: 66a89acf-8c32-44c0-8787-960c99c7b3ec

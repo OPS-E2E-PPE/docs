@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameKeyInstall Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameKeyInstall Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameKeyInstall"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameKeyInstall method [.NET Framework hosting]"
   - "StrongNameKeyInstall method, ICLRStrongName interface [.NET Framework hosting]"
@@ -69,5 +67,5 @@ HRESULT StrongNameKeyInstall (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [StrongNameKeyDelete Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeydelete-method.md)   
+ [StrongNameKeyDelete Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeydelete-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

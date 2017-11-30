@@ -44,7 +44,7 @@
 ## Examples  
  You can use the <xref:System.Windows.Controls.AccessText> tag to create an <xref:System.Windows.Controls.AccessText.AccessKey%2A>; however, a tag is not necessary. The following example shows how to create an access key with and without the <xref:System.Windows.Controls.AccessText> tag.  
   
- [!code-xml[AccessText#2](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#2)]  
+ [!code-xaml[AccessText#2](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#2)]  
   
  ]]></format>
     </remarks>
@@ -147,10 +147,11 @@
 ## Examples  
  The following example shows how to set properties in order to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="BackgroundProperty">
@@ -201,6 +202,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="BaselineOffsetProperty">
@@ -258,10 +260,11 @@
 ## Examples  
  The following example shows how to set properties in order to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="FontFamilyProperty">
@@ -351,10 +354,11 @@
 ## Examples  
  The following example shows how to set properties to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="FontSizeProperty">
@@ -404,6 +408,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="FontStretchProperty">
@@ -457,10 +462,11 @@
 ## Examples  
  The following example shows how to set properties in order to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="FontStyleProperty">
@@ -513,10 +519,11 @@
 ## Examples  
  The following example shows how to set properties to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="FontWeightProperty">
@@ -569,10 +576,11 @@
 ## Examples  
  The following example shows how to set properties to change the appearance of the text in an <xref:System.Windows.Controls.AccessText> control.  
   
- [!code-xml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
+ [!code-xaml[AccessText#AccessTextProps](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessText/CS/pane1.xaml#accesstextprops)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="ForegroundProperty">
@@ -680,10 +688,12 @@
  `pt` is points; 1pt==(96/72) px  
   
  *Auto*  
- An automatic line height determination. If you programmatically set the *Auto* value, its value corresponds to <xref:System.Double.NaN?displayProperty=fullName>.  
+ An automatic line height determination. If you programmatically set the *Auto* value, its value corresponds to <xref:System.Double.NaN?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
+        <altmember cref="P:System.Windows.Controls.AccessText.LineStackingStrategy" />
       </Docs>
     </Member>
     <Member MemberName="LineHeightProperty">
@@ -912,10 +922,11 @@
 ## Examples  
  The following example creates an access key that customizes the first letter of the access key, which contains the mnemonic, and then sets the rest of the text by using the <xref:System.Windows.Controls.AccessText.Text%2A> property.  
   
- [!code-xml[AccessTextProps_snip#AccessTextText](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessTextProps_snip/CS/pane1.xaml#accesstexttext)]  
+ [!code-xaml[AccessTextProps_snip#AccessTextText](~/samples/snippets/csharp/VS_Snippets_Wpf/AccessTextProps_snip/CS/pane1.xaml#accesstexttext)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="TextAlignment">
@@ -1019,6 +1030,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="TextDecorationsProperty">
@@ -1090,6 +1102,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="TextEffectsProperty">
@@ -1157,6 +1170,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="TextTrimmingProperty">
@@ -1209,10 +1223,11 @@
 ## Examples  
  The following example uses the <xref:System.Windows.Controls.AccessText.TextWrapping%2A> property of <xref:System.Windows.Controls.AccessText> to make a multiple-line label.  
   
- [!code-xml[LabelSnippet#4](~/samples/snippets/csharp/VS_Snippets_Wpf/LabelSnippet/CS/Pane1.xaml#4)]   
+ [!code-xaml[LabelSnippet#4](~/samples/snippets/csharp/VS_Snippets_Wpf/LabelSnippet/CS/Pane1.xaml#4)]   
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
     <Member MemberName="TextWrappingProperty">
@@ -1248,6 +1263,7 @@
         <summary>Gets the number of child elements that are visual.</summary>
         <value>Returns an integer that represents the number of child elements that are visible.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.TextBlock" />
       </Docs>
     </Member>
   </Members>

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::EnableLogMessages Method | Microsoft Docs"
+title: "ICorDebugProcess::EnableLogMessages Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::EnableLogMessages"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess::EnableLogMessages method [.NET Framework debugging]"
   - "EnableLogMessages method [.NET Framework debugging]"

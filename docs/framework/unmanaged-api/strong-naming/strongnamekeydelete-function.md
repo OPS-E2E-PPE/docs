@@ -1,5 +1,5 @@
 ---
-title: "StrongNameKeyDelete Function | Microsoft Docs"
+title: "StrongNameKeyDelete Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameKeyDelete"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameKeyDelete function [.NET Framework strong naming]"
 ms.assetid: 313e71e4-1790-4d2f-b68b-5040ebd1c149
@@ -64,6 +62,6 @@ BOOLEAN StrongNameKeyDelete (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StrongNameKeyDelete Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeydelete-method.md)   
- [StrongNameKeyInstall Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeyinstall-method.md)   
+ [StrongNameKeyDelete Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeydelete-method.md)  
+ [StrongNameKeyInstall Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamekeyinstall-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

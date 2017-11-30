@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::OpenGenericArgument Method | Microsoft Docs"
+title: "ITypeNameBuilder::OpenGenericArgument Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "OpenGenericArgument"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameBuilder::OpenGenericArgument method [.NET Framework hosting]"
   - "OpenGenericArgument method [.NET Framework hosting]"

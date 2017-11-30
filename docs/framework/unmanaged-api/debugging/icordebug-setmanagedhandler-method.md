@@ -1,5 +1,5 @@
 ---
-title: "ICorDebug::SetManagedHandler Method | Microsoft Docs"
+title: "ICorDebug::SetManagedHandler Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebug::SetManagedHandler"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebug::SetManagedHandler method [.NET Framework debugging]"
   - "SetManagedHandler method [.NET Framework debugging]"

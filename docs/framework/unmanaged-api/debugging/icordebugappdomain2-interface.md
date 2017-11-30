@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain2 Interface1 | Microsoft Docs"
+title: "ICorDebugAppDomain2 Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain2 interface [.NET Framework debugging]"
 ms.assetid: 314d29f3-feb0-4a92-9530-b569c280cc31

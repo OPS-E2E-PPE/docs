@@ -1,5 +1,5 @@
 ---
-title: "Entity Framework Terminology | Microsoft Docs"
+title: "Entity Framework Terminology"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: fa2a1bd1-6118-487b-8673-eebc66b92945
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -86,7 +82,7 @@ This topic defines terms frequently referenced in [!INCLUDE[adonet_ef](../../../
 |table-per-type|A method of modeling a type hierarchy in a database that uses multiple tables with one-to-one relationships to model the various types.|  
   
 ## See Also  
- [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)   
- [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)   
- [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)   
+ [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)  
+ [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)  
+ [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)  
  [Entity Framework Resources](../../../../../docs/framework/data/adonet/ef/resources.md)

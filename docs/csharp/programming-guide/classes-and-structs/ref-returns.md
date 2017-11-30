@@ -1,7 +1,6 @@
 ---
-title: "Ref return values and ref locals (C# Guide) |  | Microsoft Docs"
+title: "Ref return values and ref locals (C# Guide)"
 description: "Learn how to define and use ref return and ref local values"
-keywords: "ref returns, C#", "reference return values, C#", "ref return values, C#", "ref locals, C#", "ref local values, C#" 
 author: "rpetrusha"
 ms.author: "ronpet"
 ms.date: "05/30/2017"
@@ -13,7 +12,7 @@ ms.assetid: "18cf7a4b-29f0-4b14-85b8-80af754aabd8"
 ---
 # Ref returns and ref locals
 
-Starting with C# 7, C# supports reference return values (ref returns). A reference return value allows a method to return a reference to an object, rather than a value, back to a caller. The caller can then choose to treat the returned object returned as if it were returned by value or by reference. A value returned by reference that the caller handles as a reference rather than a value is a ref local).
+Starting with C# 7, C# supports reference return values (ref returns). A reference return value allows a method to return a reference to an object, rather than a value, back to a caller. The caller can then choose to treat the returned object returned as if it were returned by value or by reference. A value returned by reference that the caller handles as a reference rather than a value is a ref local.
 
 ## What is a reference return value?
 
@@ -39,7 +38,7 @@ There are some restrictions on the value that a method can return as a reference
  
 - The return value cannot be a constant, an enumeration member, or a property of a `class` or `struct`. Attempting to return these generates compiler error CS8156, "An expression cannot be used in this context because it may not be returned by reference."
 
-In addition, because an asynchronous method may return before it has finished execution and its return value is known, reference return values are not allowed on `async` methods.
+In addition, because an asynchronous method may return before it has finished execution, while its return value is still unknown, reference return values are not allowed on async methods.
  
 ## Defining a ref return value
 
@@ -81,11 +80,11 @@ If `p` is not defined as a ref local by using the `ref` keyword, any changes mad
 
 The following example defines a `NumberStore` class that stores an array of integer values. The `FindNumber` method returns by reference the first number that is greater than or equal to the number passed as an argument. If no number is greater than or equal to the argument, the method returns the number in index 0. 
 
-[!CODE-cs[ref-returns](../../../../samples/snippets/csharp/programming-guide/ref-returns/ref-returns1.cs#1)]
+[!code-csharp[ref-returns](../../../../samples/snippets/csharp/programming-guide/ref-returns/ref-returns1.cs#1)]
 
 The following example calls the `NumberStore.FindNumber` method to retrieve the first value that is greater than or equal to 16. The caller then doubles the value returned by the method. As the output from the example shows, this change is reflected in the value of the array elements of the `NumberStore` instance.
 
-[!CODE-cs[ref-returns](../../../../samples/snippets/csharp/programming-guide/ref-returns/ref-returns1.cs#2)]
+[!code-csharp[ref-returns](../../../../samples/snippets/csharp/programming-guide/ref-returns/ref-returns1.cs#2)]
 
 Without support for reference return values, such an operation is usually performed by returning the index of the array element along with its value. The caller can then use this index to modify the value in a separate method call. However, the caller can also modify the index to access and possibly modify other array values.  
  

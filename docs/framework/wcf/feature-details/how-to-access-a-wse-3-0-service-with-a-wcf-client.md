@@ -1,5 +1,5 @@
 ---
-title: "How to: Access a WSE 3.0 Service with a WCF Client | Microsoft Docs"
+title: "How to: Access a WSE 3.0 Service with a WCF Client"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1f9bcd9b-8f8f-47fa-8f1e-0d47236eb800
 caps.latest.revision: 12
 author: "Erikre"
@@ -66,5 +69,5 @@ manager: "erikre"
   
   
 ## See Also  
- <xref:System.ServiceModel.Channels.Binding>   
+ <xref:System.ServiceModel.Channels.Binding>  
  [Interoperating with WSE](http://msdn.microsoft.com/en-us/f6816861-96a0-45f9-8736-8e4e82cd3a41)

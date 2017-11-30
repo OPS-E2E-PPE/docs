@@ -1,5 +1,5 @@
 ---
-title: "Concatenate Two Sequences | Microsoft Docs"
+title: "Concatenate Two Sequences"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 76767e7c-0607-4e1d-9ca2-a94f311f45eb
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -35,5 +38,5 @@ Use the <xref:System.Linq.Queryable.Concat%2A> operator to concatenate two seque
  [!code-vb[DLinqQueryExamples#40](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqQueryExamples/vb/Module1.vb#40)]  
   
 ## See Also  
- [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)   
+ [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)  
  [Standard Query Operator Translation](../../../../../../docs/framework/data/adonet/sql/linq/standard-query-operator-translation.md)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope2::GetConstantCount Method | Microsoft Docs"
+title: "ISymUnmanagedScope2::GetConstantCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope2::GetConstantCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedScope2::GetConstantCount method [.NET Framework debugging]"
   - "GetConstantCount method [.NET Framework debugging]"

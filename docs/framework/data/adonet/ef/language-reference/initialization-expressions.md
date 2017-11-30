@@ -1,5 +1,5 @@
 ---
-title: "Initialization Expressions | Microsoft Docs"
+title: "Initialization Expressions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 98daef1f-15d4-483e-985c-d78ea3abe8c8
 caps.latest.revision: 2
 author: "JennieHubbard"

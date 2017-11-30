@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::GetPrevious Method | Microsoft Docs"
+title: "ICorDebugChain::GetPrevious Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugChain::GetPrevious"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugChain::GetPrevious method [.NET Framework debugging]"
   - "GetPrevious method [.NET Framework debugging]"

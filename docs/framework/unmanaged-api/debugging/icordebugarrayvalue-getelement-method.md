@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetElement Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetElement Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetElement"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetElement method [.NET Framework debugging]"
   - "ICorDebugArrayValue::GetElement method [.NET Framework debugging]"

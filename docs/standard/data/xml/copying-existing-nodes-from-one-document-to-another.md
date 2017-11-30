@@ -1,5 +1,5 @@
 ---
-title: "Copying Existing Nodes from One Document to Another | Microsoft Docs"
+title: "Copying Existing Nodes from One Document to Another"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 3caa78c1-3448-4b7b-b83c-228ee857635e
 caps.latest.revision: 4
 author: "mairaw"

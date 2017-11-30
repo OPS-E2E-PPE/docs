@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetaHost::EnumerateInstalledRuntimes Method | Microsoft Docs"
+title: "ICLRMetaHost::EnumerateInstalledRuntimes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetaHost::EnumerateInstalledRuntimes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRMetaHost::EnumerateInstalledRuntimes method [.NET Framework hosting]"
   - "EnumerateInstalledRuntimes method [.NET Framework hosting]"
@@ -62,5 +60,5 @@ HRESULT EnumerateInstalledRuntimes (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)   
+ [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

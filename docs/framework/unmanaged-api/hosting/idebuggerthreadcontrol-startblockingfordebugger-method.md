@@ -1,5 +1,5 @@
 ---
-title: "IDebuggerThreadControl::StartBlockingForDebugger Method | Microsoft Docs"
+title: "IDebuggerThreadControl::StartBlockingForDebugger Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "StartBlockingForDebugger"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IDebuggerThreadControl::StartBlockingForDebugger method [.NET Framework hosting]"
   - "StartBlockingForDebugger method [.NET Framework hosting]"

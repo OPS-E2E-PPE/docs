@@ -1,5 +1,5 @@
 ---
-title: "IObjectHandle::Unwrap Method | Microsoft Docs"
+title: "IObjectHandle::Unwrap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "Unwrap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Unwrap method [.NET Framework hosting]"
   - "IObjectHandle::Unwrap method [.NET Framework hosting]"

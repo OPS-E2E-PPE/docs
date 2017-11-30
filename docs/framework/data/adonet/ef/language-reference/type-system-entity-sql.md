@@ -1,5 +1,5 @@
 ---
-title: "Type System (Entity SQL) | Microsoft Docs"
+title: "Type System (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 818a505b-a196-41dd-aaac-2ccd5f7a2f1a
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -60,7 +55,7 @@ from (select ref(o) as r from LOB.Orders as o) as o2
  If the reference value is null, or if the target of the reference does not exist, the result is null.  
   
 ## See Also  
- [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)   
- [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)   
- [CAST](../../../../../../docs/framework/data/adonet/ef/language-reference/cast-entity-sql.md)   
+ [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)  
+ [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)  
+ [CAST](../../../../../../docs/framework/data/adonet/ef/language-reference/cast-entity-sql.md)  
  [CSDL, SSDL, and MSL Specifications](../../../../../../docs/framework/data/adonet/ef/language-reference/csdl-ssdl-and-msl-specifications.md)

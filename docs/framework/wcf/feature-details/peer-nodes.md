@@ -1,5 +1,5 @@
 ---
-title: "Peer Nodes | Microsoft Docs"
+title: "Peer Nodes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,5 +22,5 @@ A PeerNode is a single endpoint in a Peer Channel mesh. An application can have 
  <xref:System.ServiceModel.PeerNode>  
   
 ## See Also  
- [Peer Meshes](../../../../docs/framework/wcf/feature-details/peer-meshes.md)   
+ [Peer Meshes](../../../../docs/framework/wcf/feature-details/peer-meshes.md)  
  [Peer Channel Concepts](../../../../docs/framework/wcf/feature-details/peer-channel-concepts.md)

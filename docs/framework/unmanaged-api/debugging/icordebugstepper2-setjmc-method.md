@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper2::SetJMC Method | Microsoft Docs"
+title: "ICorDebugStepper2::SetJMC Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper2::SetJMC"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStepper2::SetJMC method [.NET Framework debugging]"
   - "SetJMC method [.NET Framework debugging]"

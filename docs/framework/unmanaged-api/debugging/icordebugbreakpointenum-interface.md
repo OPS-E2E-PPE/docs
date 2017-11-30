@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugBreakpointEnum Interface1 | Microsoft Docs"
+title: "ICorDebugBreakpointEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugBreakpointEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugBreakpointEnum interface [.NET Framework debugging]"
 ms.assetid: 4c6f4f6e-52cc-402e-881b-7b8526544c90

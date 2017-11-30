@@ -1,5 +1,5 @@
 ---
-title: "Data and Data Objects | Microsoft Docs"
+title: "Data and Data Objects"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "data transfer [WPF], drag-and-drop"
   - "DataFormats class [WPF]"

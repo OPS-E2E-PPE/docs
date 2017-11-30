@@ -1,5 +1,5 @@
 ---
-title: "ICLRErrorReportingManager::GetBucketParametersForCurrentException Method | Microsoft Docs"
+title: "ICLRErrorReportingManager::GetBucketParametersForCurrentException Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRErrorReportingManager::GetBucketParametersForCurrentException"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRErrorReportingManager::GetBucketParametersForCurrentException method [.NET Framework hosting]"
   - "GetBucketParametersForCurrentException method [.NET Framework hosting]"

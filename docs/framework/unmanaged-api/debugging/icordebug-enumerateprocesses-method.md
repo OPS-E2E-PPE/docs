@@ -1,5 +1,5 @@
 ---
-title: "ICorDebug::EnumerateProcesses Method | Microsoft Docs"
+title: "ICorDebug::EnumerateProcesses Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EnumerateProcesses"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateProcesses method [.NET Framework debugging]"
   - "ICorDebug::EnumerateProcesses method [.NET Framework debugging]"

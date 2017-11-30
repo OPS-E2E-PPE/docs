@@ -1,5 +1,5 @@
 ---
-title: "Fault Handling in a Flowchart Activity Using TryCatch | Microsoft Docs"
+title: "Fault Handling in a Flowchart Activity Using TryCatch"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -51,5 +51,5 @@ This sample shows how the <xref:System.Activities.Statements.TryCatch> activity 
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Basic\Built-InActivities\FlowChartWithFaultHandling`  
   
 ## See Also  
- [Flowchart Workflows](../../../../docs/framework/windows-workflow-foundation/flowchart-workflows.md)   
+ [Flowchart Workflows](../../../../docs/framework/windows-workflow-foundation/flowchart-workflows.md)  
  [Exceptions](../../../../docs/framework/windows-workflow-foundation/exceptions.md)

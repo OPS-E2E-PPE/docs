@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget::SetTLSValue Method | Microsoft Docs"
+title: "ICLRDataTarget::SetTLSValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget::SetTLSValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget::SetTLSValue method [.NET Framework debugging]"
   - "SetTLSValue method [.NET Framework debugging]"

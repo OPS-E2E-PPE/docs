@@ -1,5 +1,5 @@
 ---
-title: "Query Expression Syntax Examples: Ordering | Microsoft Docs"
+title: "Query Expression Syntax Examples: Ordering"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: bcbc9625-7cf7-476e-85d2-058f12682f54
 caps.latest.revision: 3
 author: "JennieHubbard"

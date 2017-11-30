@@ -1,5 +1,5 @@
 ---
-title: "ICorThreadpool::CorRegisterWaitForSingleObject Method | Microsoft Docs"
+title: "ICorThreadpool::CorRegisterWaitForSingleObject Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorRegisterWaitForSingleObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorThreadpool::CorRegisterWaitForSingleObject method [.NET Framework hosting]"
   - "CorRegisterWaitForSingleObject method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "&lt;endpoint&gt; of &lt;client&gt; | Microsoft Docs"
+title: "&lt;endpoint&gt; of &lt;client&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: de6238ae-bbf8-48e9-a1b5-e24c0bea8afa
 caps.latest.revision: 22
 author: "Erikre"
@@ -79,10 +76,10 @@ Specifies contract, binding, and address properties of the channel endpoint, whi
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ChannelEndpointElement>   
- <xref:System.ServiceModel.Configuration.ClientSection>   
- <xref:System.ServiceModel.Configuration.ChannelEndpointElementCollection>   
- <xref:System.ServiceModel.Configuration.ClientSection.Endpoints%2A>   
- <xref:System.ServiceModel.Configuration.ChannelEndpointElement>   
- [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)   
+ <xref:System.ServiceModel.Configuration.ChannelEndpointElement>  
+ <xref:System.ServiceModel.Configuration.ClientSection>  
+ <xref:System.ServiceModel.Configuration.ChannelEndpointElementCollection>  
+ <xref:System.ServiceModel.Configuration.ClientSection.Endpoints%2A>  
+ <xref:System.ServiceModel.Configuration.ChannelEndpointElement>  
+ [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)  
  [Clients](../../../../../docs/framework/wcf/feature-details/clients.md)

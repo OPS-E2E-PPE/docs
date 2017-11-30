@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess3 Interface | Microsoft Docs"
+title: "ICorDebugProcess3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess3"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess3 interface [.NET Framework debugging]"
 ms.assetid: ced9c82e-d7b0-4806-a151-98b6611d3097
@@ -54,5 +52,5 @@ Controls custom debugger notifications.
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

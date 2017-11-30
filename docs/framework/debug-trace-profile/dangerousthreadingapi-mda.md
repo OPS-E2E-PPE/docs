@@ -1,5 +1,5 @@
 ---
-title: "dangerousThreadingAPI MDA | Microsoft Docs"
+title: "dangerousThreadingAPI MDA"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "suspending threads"
   - "DangerousThreadingAPI MDA"
@@ -29,7 +24,7 @@ ms.author: "mairaw"
 manager: "wpickett"
 ---
 # dangerousThreadingAPI MDA
-The `dangerousThreadingAPI` managed debugging assistant (MDA) is activated when the <xref:System.Threading.Thread.Suspend%2A?displayProperty=fullName> method is called on a thread other than the current thread.  
+The `dangerousThreadingAPI` managed debugging assistant (MDA) is activated when the <xref:System.Threading.Thread.Suspend%2A?displayProperty=nameWithType> method is called on a thread other than the current thread.  
   
 ## Symptoms  
  An application is unresponsive or hangs indefinitely. System or application data might be left in an unpredictable state temporarily or even after an application has been shut down. Some operations are not completing as expected.  
@@ -42,7 +37,7 @@ The `dangerousThreadingAPI` managed debugging assistant (MDA) is activated when 
  If synchronization primitives are held by the target thread, they remain held during suspension. This can lead to deadlocks should another thread, for example the thread performing the <xref:System.Threading.Thread.Suspend%2A>, attempt to acquire a lock on the primitive. In this situation, the problem manifests itself as a deadlock.  
   
 ## Resolution  
- Avoid designs that require the use of <xref:System.Threading.Thread.Suspend%2A> and <xref:System.Threading.Thread.Resume%2A>. For cooperation between threads, use synchronization primitives such as <xref:System.Threading.Monitor>, <xref:System.Threading.ReaderWriterLock>, <xref:System.Threading.Mutex>, or the C# `lock`statement. If you must use these methods, reduce the window of time and minimize the amount of code that executes while the thread is in a suspended state.  
+ Avoid designs that require the use of <xref:System.Threading.Thread.Suspend%2A> and <xref:System.Threading.Thread.Resume%2A>. For cooperation between threads, use synchronization primitives such as <xref:System.Threading.Monitor>, <xref:System.Threading.ReaderWriterLock>, <xref:System.Threading.Mutex>, or the C# `lock` statement. If you must use these methods, reduce the window of time and minimize the amount of code that executes while the thread is in a suspended state.  
   
 ## Effect on the Runtime  
  This MDA has no effect on the CLR. It only reports data about dangerous threading operations.  
@@ -77,6 +72,6 @@ Thread t = new Thread(delegate() { Thread.Sleep(1000); });
 ```  
   
 ## See Also  
- <xref:System.Threading.Thread>   
- [Diagnosing Errors with Managed Debugging Assistants](../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)   
+ <xref:System.Threading.Thread>  
+ [Diagnosing Errors with Managed Debugging Assistants](../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)  
  [lock Statement](~/docs/csharp/language-reference/keywords/lock-statement.md)

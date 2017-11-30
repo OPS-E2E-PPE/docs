@@ -1,5 +1,5 @@
 ---
-title: "Query Expressions (Entity SQL) | Microsoft Docs"
+title: "Query Expressions (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: c36f327b-e230-48d4-bbd5-78dc6478c447
 caps.latest.revision: 2
 author: "JennieHubbard"

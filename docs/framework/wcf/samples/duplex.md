@@ -1,5 +1,5 @@
 ---
-title: "Duplex | Microsoft Docs"
+title: "Duplex"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Duplex Service Contract"
 ms.assetid: bc5de6b6-1a63-42a3-919a-67d21bae24e0

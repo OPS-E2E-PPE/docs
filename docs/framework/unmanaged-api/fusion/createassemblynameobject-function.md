@@ -1,5 +1,5 @@
 ---
-title: "CreateAssemblyNameObject Function | Microsoft Docs"
+title: "CreateAssemblyNameObject Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CreateAssemblyNameObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAssemblyNameObject function [.NET Framework fusion]"
 ms.assetid: 55c8b41e-fbe4-4ae0-aa29-68fbb2311691
@@ -68,5 +66,5 @@ HRESULT CreateAssemblyNameObject (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)

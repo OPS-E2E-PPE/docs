@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugInternalFrame Interface1 | Microsoft Docs"
+title: "ICorDebugInternalFrame Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugInternalFrame"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugInternalFrame interface [.NET Framework debugging]"
 ms.assetid: bb4772ca-0d54-4185-b738-7a6ffe9ea85a

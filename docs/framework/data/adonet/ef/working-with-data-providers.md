@@ -1,5 +1,5 @@
 ---
-title: "Working with Data Providers | Microsoft Docs"
+title: "Working with Data Providers"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: b6ae53f4-34f8-4510-ad98-ff1e46621526
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -30,5 +26,5 @@ The topics in this section describe the services and providers that transform qu
  [Writing an Entity Framework Data Provider](../../../../../docs/framework/data/adonet/ef/writing-an-ef-data-provider.md)  
   
 ## See Also  
- [Entity SQL Language](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-language.md)   
+ [Entity SQL Language](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-language.md)  
  [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)

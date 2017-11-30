@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a SecurityBindingElement for a Specified Authentication Mode | Microsoft Docs"
+title: "How to: Create a SecurityBindingElement for a Specified Authentication Mode"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: a7c7747a-5b8c-463f-8493-7266dac75066
 caps.latest.revision: 9
 author: "BrucePerlerMS"
@@ -30,5 +33,5 @@ manager: "mbaldwin"
  [!code-vb[c_CustomBindingsAuthMode#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_custombindingsauthmode/vb/source.vb#2)]  
   
 ## See Also  
- [SecurityBindingElement Authentication Modes](../../../../docs/framework/wcf/feature-details/securitybindingelement-authentication-modes.md)   
+ [SecurityBindingElement Authentication Modes](../../../../docs/framework/wcf/feature-details/securitybindingelement-authentication-modes.md)  
  [How to: Create a Custom Binding Using the SecurityBindingElement](../../../../docs/framework/wcf/feature-details/how-to-create-a-custom-binding-using-the-securitybindingelement.md)

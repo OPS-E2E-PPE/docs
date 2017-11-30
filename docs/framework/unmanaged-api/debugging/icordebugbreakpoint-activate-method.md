@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugBreakpoint::Activate Method | Microsoft Docs"
+title: "ICorDebugBreakpoint::Activate Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugBreakpoint::Activate"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugBreakpoint::Activate method [.NET Framework debugging]"
   - "Activate method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICLRProfiling Interface | Microsoft Docs"
+title: "ICLRProfiling Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IClrProfiling"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IClrProfiling interface [.NET Framework profiling]"
 ms.assetid: 8b53ccc6-1b5e-4b30-a100-c9683d553f5a
@@ -50,5 +48,5 @@ Provides the [ICLRProfiling::AttachProfiler](../../../../docs/framework/unmanage
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)

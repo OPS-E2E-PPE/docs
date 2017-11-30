@@ -1,5 +1,5 @@
 ---
-title: "Putting Controls on Windows Forms | Microsoft Docs"
+title: "Putting Controls on Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ENV.Window.Toolbox"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Windows Forms controls, adding to form"
 ms.assetid: 997508f2-87e5-4bec-a78e-9eec8f1fb15b

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Figures from Lines, Curves, and Shapes | Microsoft Docs"
+title: "How to: Create Figures from Lines, Curves, and Shapes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "figures, creating from shapes"
-  - "figures, creating from lines"
+  - "figures [Windows Forms], creating from shapes"
+  - "figures [Windows Forms], creating from lines"
 ms.assetid: 82fd56c7-b443-4765-9b7c-62ce030656ec
 caps.latest.revision: 14
 author: dotnet-bot
@@ -40,6 +41,6 @@ To create a figure, construct a <xref:System.Drawing.Drawing2D.GraphicsPath>, an
  The previous examples are designed for use with Windows Forms, and they require <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of the <xref:System.Windows.Forms.Control.Paint> event handler.  
   
 ## See Also  
- <xref:System.Drawing.Drawing2D.GraphicsPath>   
- [Constructing and Drawing Paths](../../../../docs/framework/winforms/advanced/constructing-and-drawing-paths.md)   
+ <xref:System.Drawing.Drawing2D.GraphicsPath>  
+ [Constructing and Drawing Paths](../../../../docs/framework/winforms/advanced/constructing-and-drawing-paths.md)  
  [Using a Pen to Draw Lines and Shapes](../../../../docs/framework/winforms/advanced/using-a-pen-to-draw-lines-and-shapes.md)

@@ -1,5 +1,5 @@
 ---
-title: "IHostTaskManager::GetStackGuarantee Method | Microsoft Docs"
+title: "IHostTaskManager::GetStackGuarantee Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostTaskManager::GetStackGuarantee"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetStackGuarantee method [.NET Framework hosting]"
   - "IHostTaskManager::GetStackGuarantee method [.NET Framework hosting]"

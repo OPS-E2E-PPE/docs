@@ -1,5 +1,5 @@
 ---
-title: "FLockClrVersionCallback Function Pointer | Microsoft Docs"
+title: "FLockClrVersionCallback Function Pointer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "FLockClrVersionCallback"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FLockClrVersionCallback function pointer [.NET Framework hosting]"
 ms.assetid: 98a4762d-9ad2-45bd-9d03-39064a028b44
@@ -53,5 +51,5 @@ typedef HRESULT (__stdcall *FLockClrVersionCallback) ( );
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [LockClrVersion Function](../../../../docs/framework/unmanaged-api/hosting/lockclrversion-function.md)   
+ [LockClrVersion Function](../../../../docs/framework/unmanaged-api/hosting/lockclrversion-function.md)  
  [Deprecated CLR Hosting Functions](../../../../docs/framework/unmanaged-api/hosting/deprecated-clr-hosting-functions.md)

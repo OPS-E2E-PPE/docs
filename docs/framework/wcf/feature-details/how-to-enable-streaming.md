@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable Streaming | Microsoft Docs"
+title: "How to: Enable Streaming"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 6ca2cf4b-c7a1-49d8-a79b-843a90556ba4
 caps.latest.revision: 13
 author: "Erikre"
@@ -78,5 +81,5 @@ manager: "erikre"
      [!code-vb[c_HowTo_EnableStreaming#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_howto_enablestreaming/vb/service.vb#2)]  
   
 ## See Also  
- [Large Data and Streaming](../../../../docs/framework/wcf/feature-details/large-data-and-streaming.md)   
+ [Large Data and Streaming](../../../../docs/framework/wcf/feature-details/large-data-and-streaming.md)  
  [Stream](../../../../docs/framework/wcf/samples/stream.md)

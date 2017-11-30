@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugNativeFrame::GetLocalDoubleRegisterValue Method | Microsoft Docs"
+title: "ICorDebugNativeFrame::GetLocalDoubleRegisterValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugNativeFrame::GetLocalDoubleRegisterValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugNativeFrame::GetLocalDoubleRegisterValue method [.NET Framework debugging]"
   - "GetLocalDoubleRegisterValue method [.NET Framework debugging]"

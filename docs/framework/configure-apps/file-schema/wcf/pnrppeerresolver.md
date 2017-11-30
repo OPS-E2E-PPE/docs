@@ -1,5 +1,5 @@
 ---
-title: "&lt;pnrpPeerResolver&gt; | Microsoft Docs"
+title: "&lt;pnrpPeerResolver&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -55,11 +55,11 @@ Specifies that the PNRP (Peer Name Resolution Protocol) resolver is to be used a
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.PnrpPeerResolverElement>   
- <xref:System.ServiceModel.Channels.PnrpPeerResolverBindingElement>   
- <xref:System.ServiceModel.Channels.CustomBinding>   
- [Bindings](../../../../../docs/framework/wcf/bindings.md)   
- [Extending Bindings](../../../../../docs/framework/wcf/extending/extending-bindings.md)   
- [Custom Bindings](../../../../../docs/framework/wcf/extending/custom-bindings.md)   
- [\<customBinding>](../../../../../docs/framework/configure-apps/file-schema/wcf/custombinding.md)   
+ <xref:System.ServiceModel.Configuration.PnrpPeerResolverElement>  
+ <xref:System.ServiceModel.Channels.PnrpPeerResolverBindingElement>  
+ <xref:System.ServiceModel.Channels.CustomBinding>  
+ [Bindings](../../../../../docs/framework/wcf/bindings.md)  
+ [Extending Bindings](../../../../../docs/framework/wcf/extending/extending-bindings.md)  
+ [Custom Bindings](../../../../../docs/framework/wcf/extending/custom-bindings.md)  
+ [\<customBinding>](../../../../../docs/framework/configure-apps/file-schema/wcf/custombinding.md)  
  [Peer Resolvers](../../../../../docs/framework/wcf/feature-details/peer-resolvers.md)

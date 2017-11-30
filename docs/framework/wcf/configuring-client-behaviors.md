@@ -1,5 +1,5 @@
 ---
-title: "Configuring Client Behaviors | Microsoft Docs"
+title: "Configuring Client Behaviors"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: df5b32fa-e73b-4e8e-b66f-357c748e0173
 caps.latest.revision: 7
 author: "Erikre"

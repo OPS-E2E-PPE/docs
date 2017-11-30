@@ -1,5 +1,5 @@
 ---
-title: "Storeadm.exe (Isolated Storage Tool) | Microsoft Docs"
+title: "Storeadm.exe (Isolated Storage Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Storeadm.exe"
   - "listing stores for current user"
@@ -70,6 +65,6 @@ storeadm [/list][/machine][/remove][/roaming][/quiet]
  Whether roaming is actually enabled for the user does not affect the administration of Storeadm.exe. Running the tool without any options applies all actions to the local store. Running the tool with the **/roaming** option applies all actions to the store that is able to roam. Running the tool with the **/machine** option applies all actions to the machine store.  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [Isolated Storage](../../../docs/standard/io/isolated-storage.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Isolated Storage](../../../docs/standard/io/isolated-storage.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

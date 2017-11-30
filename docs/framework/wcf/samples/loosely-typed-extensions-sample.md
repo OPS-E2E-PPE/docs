@@ -1,5 +1,5 @@
 ---
-title: "Loosely-Typed Extensions Sample | Microsoft Docs"
+title: "Loosely-Typed Extensions Sample"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -162,5 +162,5 @@ foreach (SyndicationElementExtension extension in feed2.ElementExtensions.Where<
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Syndication\LooselyTypedExtensions`  
   
 ## See Also  
- [Strongly-Typed Extensions](../../../../docs/framework/wcf/samples/strongly-typed-extensions-sample.md)   
+ [Strongly-Typed Extensions](../../../../docs/framework/wcf/samples/strongly-typed-extensions-sample.md)  
  [WCF Syndication](../../../../docs/framework/wcf/feature-details/wcf-syndication.md)

@@ -1,5 +1,5 @@
 ---
-title: "Add-ins and Extensibility | Microsoft Docs"
+title: "Add-ins and Extensibility"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -116,12 +116,12 @@ Add-in pipeline
   
 <a name="reference"></a>   
 ## Reference  
- <xref:System.AddIn?displayProperty=fullName>  
+ <xref:System.AddIn?displayProperty=nameWithType>  
   
- <xref:System.AddIn.Contract?displayProperty=fullName>  
+ <xref:System.AddIn.Contract?displayProperty=nameWithType>  
   
- <xref:System.AddIn.Hosting?displayProperty=fullName>  
+ <xref:System.AddIn.Hosting?displayProperty=nameWithType>  
   
- <xref:System.AddIn.Pipeline?displayProperty=fullName>  
+ <xref:System.AddIn.Pipeline?displayProperty=nameWithType>  
   
  [Back to top](#top)

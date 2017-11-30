@@ -1,5 +1,5 @@
 ---
-title: "IEnumRAWINPUTDEVIC:Next | Microsoft Docs"
+title: "IEnumRAWINPUTDEVIC:Next"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Next method"
+  - "Next method [WPF]"
 ms.assetid: 3698b44d-510e-4d18-b32b-85f17188ee26
 caps.latest.revision: 10
 author: dotnet-bot

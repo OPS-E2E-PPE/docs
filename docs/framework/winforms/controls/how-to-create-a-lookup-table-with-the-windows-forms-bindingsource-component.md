@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Lookup Table with the Windows Forms BindingSource Component | Microsoft Docs"
+title: "How to: Create a Lookup Table with the Windows Forms BindingSource Component"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "lookup tables"
   - "tables [Windows Forms], creating lookup tables"
@@ -100,7 +98,7 @@ A lookup table is a table of data that has a column that displays data from reco
 8.  Bind the controls other than the <xref:System.Windows.Forms.ComboBox> and <xref:System.Windows.Forms.BindingNavigator> control to the details fields from the child table's <xref:System.Windows.Forms.BindingSource> (for example, `OrdersBindingSource`) that you want to display.  
   
 ## See Also  
- <xref:System.Windows.Forms.BindingSource>   
- [BindingSource Component](../../../../docs/framework/winforms/controls/bindingsource-component.md)   
- [ComboBox Control](../../../../docs/framework/winforms/controls/combobox-control-windows-forms.md)   
+ <xref:System.Windows.Forms.BindingSource>  
+ [BindingSource Component](../../../../docs/framework/winforms/controls/bindingsource-component.md)  
+ [ComboBox Control](../../../../docs/framework/winforms/controls/combobox-control-windows-forms.md)  
  [Bind controls to data in Visual Studio](/visualstudio/data-tools/bind-controls-to-data-in-visual-studio)

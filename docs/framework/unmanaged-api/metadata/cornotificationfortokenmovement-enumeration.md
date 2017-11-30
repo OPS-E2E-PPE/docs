@@ -1,5 +1,5 @@
 ---
-title: "CorNotificationForTokenMovement Enumeration | Microsoft Docs"
+title: "CorNotificationForTokenMovement Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorNotificationForTokenMovement"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorNotificationForTokenMovement enumeration [.NET Framework metadata]"
 ms.assetid: 1edd1670-976a-4fc8-bef7-7c41e60ad989

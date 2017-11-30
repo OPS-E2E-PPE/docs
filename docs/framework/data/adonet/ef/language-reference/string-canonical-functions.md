@@ -1,5 +1,5 @@
 ---
-title: "String Canonical Functions | Microsoft Docs"
+title: "String Canonical Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 5e2cbebd-5df3-47c7-b0e2-49a17ab22bfb
 caps.latest.revision: 2
 author: "JennieHubbard"

@@ -1,5 +1,5 @@
 ---
-title: "Replay Attacks | Microsoft Docs"
+title: "Replay Attacks"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -38,14 +38,14 @@ A *replay attack* occurs when an attacker copies a stream of messages between tw
   
  Mitigations include:  
   
--   Use message mode security with stateful security context tokens (with or without secure conversation enabled). [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][How to: Create a Security Context Token for a Secure Session](../../../../docs/framework/wcf/feature-details/how-to-create-a-security-context-token-for-a-secure-session.md).  
+-   Use message mode security with stateful security context tokens (with or without secure conversation enabled). [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [How to: Create a Security Context Token for a Secure Session](../../../../docs/framework/wcf/feature-details/how-to-create-a-security-context-token-for-a-secure-session.md).  
   
 -   Configure the service to use transport-level security.  
   
 ## See Also  
- [Security Considerations](../../../../docs/framework/wcf/feature-details/security-considerations-in-wcf.md)   
- [Information Disclosure](../../../../docs/framework/wcf/feature-details/information-disclosure.md)   
- [Elevation of Privilege](../../../../docs/framework/wcf/feature-details/elevation-of-privilege.md)   
- [Denial of Service](../../../../docs/framework/wcf/feature-details/denial-of-service.md)   
- [Tampering](../../../../docs/framework/wcf/feature-details/tampering.md)   
+ [Security Considerations](../../../../docs/framework/wcf/feature-details/security-considerations-in-wcf.md)  
+ [Information Disclosure](../../../../docs/framework/wcf/feature-details/information-disclosure.md)  
+ [Elevation of Privilege](../../../../docs/framework/wcf/feature-details/elevation-of-privilege.md)  
+ [Denial of Service](../../../../docs/framework/wcf/feature-details/denial-of-service.md)  
+ [Tampering](../../../../docs/framework/wcf/feature-details/tampering.md)  
  [Unsupported Scenarios](../../../../docs/framework/wcf/feature-details/unsupported-scenarios.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use MetadataExchangeClient to Retrieve Metadata | Microsoft Docs"
+title: "How to: Use MetadataExchangeClient to Retrieve Metadata"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -42,6 +42,6 @@ Use the <xref:System.ServiceModel.Description.MetadataExchangeClient> class to d
  To compile this code example, you must reference the System.ServiceModel.dll assembly and import the <xref:System.ServiceModel.Description> namespace.  
   
 ## See Also  
- <xref:System.ServiceModel.Description.MetadataResolver>   
- <xref:System.ServiceModel.Description.MetadataExchangeClient>   
+ <xref:System.ServiceModel.Description.MetadataResolver>  
+ <xref:System.ServiceModel.Description.MetadataExchangeClient>  
  <xref:System.ServiceModel.Description.WsdlImporter>

@@ -1,5 +1,5 @@
 ---
-title: "Specifying XML Values as Parameters | Microsoft Docs"
+title: "Specifying XML Values as Parameters"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 2c4d08b8-fc29-4614-97fa-29c8ff7ca5b3
 caps.latest.revision: 5
 author: "JennieHubbard"
@@ -163,6 +166,6 @@ class Class1
 ```  
   
 ## See Also  
- <xref:System.Data.SqlTypes.SqlXml>   
- [XML Data in SQL Server](../../../../../docs/framework/data/adonet/sql/xml-data-in-sql-server.md)   
+ <xref:System.Data.SqlTypes.SqlXml>  
+ [XML Data in SQL Server](../../../../../docs/framework/data/adonet/sql/xml-data-in-sql-server.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

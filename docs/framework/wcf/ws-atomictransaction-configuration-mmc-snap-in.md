@@ -1,5 +1,5 @@
 ---
-title: "WS-AtomicTransaction Configuration MMC Snap-in | Microsoft Docs"
+title: "WS-AtomicTransaction Configuration MMC Snap-in"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -93,6 +93,6 @@ regasm.exe /codebase WsatUI.dll
  [!INCLUDE[crabout](../../../includes/crabout-md.md)] tracing and logging, see [Administration and Diagnostics](../../../docs/framework/wcf/diagnostics/index.md).  
   
 ## See Also  
- [Configuring WS-Atomic Transaction Support](../../../docs/framework/wcf/feature-details/configuring-ws-atomic-transaction-support.md)   
- [WS-AtomicTransaction Configuration Utility (wsatConfig.exe)](../../../docs/framework/wcf/ws-atomictransaction-configuration-utility-wsatconfig-exe.md)   
+ [Configuring WS-Atomic Transaction Support](../../../docs/framework/wcf/feature-details/configuring-ws-atomic-transaction-support.md)  
+ [WS-AtomicTransaction Configuration Utility (wsatConfig.exe)](../../../docs/framework/wcf/ws-atomictransaction-configuration-utility-wsatconfig-exe.md)  
  [Administration and Diagnostics](../../../docs/framework/wcf/diagnostics/index.md)

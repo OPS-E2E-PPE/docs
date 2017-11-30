@@ -1,5 +1,5 @@
 ---
-title: "Basic Usage of SendParameters and ReceiveParameters Activities | Microsoft Docs"
+title: "Basic Usage of SendParameters and ReceiveParameters Activities"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -33,6 +33,4 @@ This sample shows the use of <xref:System.ServiceModel.Activities.SendParameters
   
 3.  Second, run the EchoWorkflowClient application generated in [solution base directory]\EchoWorkflowClient\bin\debug.  
   
-4.  The client calls Echo operation on the service and prints the results. When complete, press ENTER to exit the client and then the service.  
-  
-## See Also
+4.  The client calls Echo operation on the service and prints the results. When complete, press ENTER to exit the client and then the service.

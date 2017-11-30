@@ -1,5 +1,5 @@
 ---
-title: "Performing Catalog Operations | Microsoft Docs"
+title: "Performing Catalog Operations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: e60f542f-6271-495b-a9e4-48553481c2a3
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -49,6 +52,6 @@ command.ExecuteNonQuery();
 ```  
   
 ## See Also  
- [Using Commands to Modify Data](../../../../docs/framework/data/adonet/using-commands-to-modify-data.md)   
- [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)   
+ [Using Commands to Modify Data](../../../../docs/framework/data/adonet/using-commands-to-modify-data.md)  
+ [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

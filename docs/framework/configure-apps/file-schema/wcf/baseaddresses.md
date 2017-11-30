@@ -1,5 +1,5 @@
 ---
-title: "&lt;baseAddresses&gt; | Microsoft Docs"
+title: "&lt;baseAddresses&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -54,7 +54,7 @@ Represents a collection of `baseAddress` elements, which are base addresses for 
 |[\<host>](../../../../../docs/framework/configure-apps/file-schema/wcf/host.md)|A configuration element that specifies settings for a service host.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.HostElement>   
- <xref:System.ServiceModel.ServiceHost>   
- <xref:System.ServiceModel.ServiceHostBase.BaseAddresses%2A>   
+ <xref:System.ServiceModel.Configuration.HostElement>  
+ <xref:System.ServiceModel.ServiceHost>  
+ <xref:System.ServiceModel.ServiceHostBase.BaseAddresses%2A>  
  [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)

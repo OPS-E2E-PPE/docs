@@ -1,5 +1,5 @@
 ---
-title: "Choosing a Filter | Microsoft Docs"
+title: "Choosing a Filter"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -139,8 +139,8 @@ XPathMessageFilter xpath1=new XPathMessageFilter("//ns:element");
   
  Because XPath queries often contain unique namespaces, which are often lengthy or complex string values, the XPath filter allows you to use the namespace table to define unique prefixes for your namespaces. [!INCLUDE[crabout](../../../../includes/crabout-md.md)] the namespace table, see [Message Filters](../../../../docs/framework/wcf/feature-details/message-filters.md).  
   
- [!INCLUDE[crabout](../../../../includes/crabout-md.md)]designing XPath queries, see [XPath Syntax](http://go.microsoft.com/fwlink/?LinkId=164592) (http://go.microsoft.com/fwlink/?LinkId=164592).  
+ [!INCLUDE[crabout](../../../../includes/crabout-md.md)] designing XPath queries, see [XPath Syntax](http://go.microsoft.com/fwlink/?LinkId=164592).  
   
 ## See Also  
- [Message Filters](../../../../docs/framework/wcf/feature-details/message-filters.md)   
+ [Message Filters](../../../../docs/framework/wcf/feature-details/message-filters.md)  
  [How To: Use Filters](../../../../docs/framework/wcf/feature-details/how-to-use-filters.md)

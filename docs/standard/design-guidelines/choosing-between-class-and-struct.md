@@ -1,5 +1,5 @@
 ---
-title: "Choosing Between Class and Struct | Microsoft Docs"
+title: "Choosing Between Class and Struct"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "class library design guidelines [.NET Framework], structures"
   - "class library design guidelines [.NET Framework], classes"
@@ -62,5 +57,5 @@ One of the basic design decisions every framework designer faces is whether to d
  *Reprinted by permission of Pearson Education, Inc. from [Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries, 2nd Edition](http://www.informit.com/store/framework-design-guidelines-conventions-idioms-and-9780321545619) by Krzysztof Cwalina and Brad Abrams, published Oct 22, 2008 by Addison-Wesley Professional as part of the Microsoft Windows Development Series.*  
   
 ## See Also  
- [Type Design Guidelines](../../../docs/standard/design-guidelines/type.md)   
+ [Type Design Guidelines](../../../docs/standard/design-guidelines/type.md)  
  [Framework Design Guidelines](../../../docs/standard/design-guidelines/index.md)

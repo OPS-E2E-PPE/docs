@@ -1,5 +1,5 @@
 ---
-title: "IEnumReferenceIdentity Interface | Microsoft Docs"
+title: "IEnumReferenceIdentity Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IEnumReferenceIdentity"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IEnumReferenceIdentity interface [.NET Framework fusion]"
 ms.assetid: a17b3155-7216-4e16-8c9f-abce21f549e7
@@ -49,5 +47,5 @@ Serves as an enumerator for a collection of `IReferenceIdentity` objects.
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)   
+ [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)  
  [IReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ireferenceidentity-interface.md)

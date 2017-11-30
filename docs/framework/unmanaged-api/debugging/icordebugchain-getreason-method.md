@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::GetReason Method | Microsoft Docs"
+title: "ICorDebugChain::GetReason Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetReason"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetReason method [.NET Framework debugging]"
   - "ICorDebugChain::GetReason method [.NET Framework debugging]"

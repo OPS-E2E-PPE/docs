@@ -1,5 +1,5 @@
 ---
-title: "XAML and Custom Classes for WPF | Microsoft Docs"
+title: "XAML and Custom Classes for WPF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "custom classes in XAML"
-  - "XAML, custom classes"
-  - "classes, custom classes in XAML"
+  - "custom classes in XAML [WPF]"
+  - "XAML [WPF], custom classes"
+  - "classes [WPF], custom classes in XAML"
 ms.assetid: e7313137-581e-4a64-8453-d44e15a6164a
 caps.latest.revision: 22
 author: dotnet-bot
@@ -58,9 +58,9 @@ XAML as implemented in [!INCLUDE[TLA#tla_clr](../../../../includes/tlasharptla-c
 ### TypeConverter Enabled Attribute Syntax  
  If you provide a dedicated, attributed type converter at the class level, the applied type conversion enables attribute syntax for any property that needs to instantiate that type. A type converter does not enable object element usage of the type; only the presence of a default constructor for that type enables object element usage. Therefore, properties that are type-converter enabled are generally speaking not usable in property syntax, unless the type itself also supports object element syntax. The exception to this is that you can specify a property element syntax, but have the property element contain a string. That usage is really essentially equivalent to an attribute syntax usage, and such a usage is not common unless there is a need for more robust whitespace handling of the attribute value. For example, the following is a property element usage that takes a string, and the attribute usage equivalent:  
   
- [!code-xml[XamlOvwSupport#GoofyTCPE](../../../../samples/snippets/csharp/VS_Snippets_Wpf/XAMLOvwSupport/CSharp/page8.xaml#goofytcpe)]  
+ [!code-xaml[XamlOvwSupport#GoofyTCPE](../../../../samples/snippets/csharp/VS_Snippets_Wpf/XAMLOvwSupport/CSharp/page8.xaml#goofytcpe)]  
   
- [!code-xml[XamlOvwSupport#GoofyTCPE2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/XAMLOvwSupport/CSharp/page8.xaml#goofytcpe2)]  
+ [!code-xaml[XamlOvwSupport#GoofyTCPE2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/XAMLOvwSupport/CSharp/page8.xaml#goofytcpe2)]  
   
  Examples of properties where attribute syntax is allowed but property element syntax that contains an object element is disallowed through XAML are various properties that take the <xref:System.Windows.Input.Cursor> type. The <xref:System.Windows.Input.Cursor> class has a dedicated type converter <xref:System.Windows.Input.CursorConverter>, but does not expose a default constructor, so the <xref:System.Windows.FrameworkElement.Cursor%2A> property can only be set through attribute syntax even though the actual <xref:System.Windows.Input.Cursor> type is a reference type.  
   
@@ -108,7 +108,7 @@ XAML as implemented in [!INCLUDE[TLA#tla_clr](../../../../includes/tlasharptla-c
   
 <a name="XAMLCONtent"></a>   
 ## Declaring XAML Content Properties  
- The XAML language defines the concept of a [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] content property. Each class that is usable in object syntax can have exactly one XAML content property. To declare a property to be the XAML content property for your class, apply the <xref:System.Windows.Markup.ContentPropertyAttribute> as part of the class definition. Specify the name of the intended XAML content property as the <xref:System.Windows.Markup.ContentPropertyAttribute.Name%2A> in the attribute. The property is specified as a string by name, not as a reflection construct such as<xref:System.Reflection.PropertyInfo>.  
+ The XAML language defines the concept of a [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] content property. Each class that is usable in object syntax can have exactly one XAML content property. To declare a property to be the XAML content property for your class, apply the <xref:System.Windows.Markup.ContentPropertyAttribute> as part of the class definition. Specify the name of the intended XAML content property as the <xref:System.Windows.Markup.ContentPropertyAttribute.Name%2A> in the attribute. The property is specified as a string by name, not as a reflection construct such as <xref:System.Reflection.PropertyInfo>.  
   
  You can specify a collection property to be the XAML content property. This results in a usage for that property whereby the object element can have one or more child elements, without any intervening collection object elements or property element tags. These elements are then treated as the value for the XAML content property and added to the backing collection instance.  
   
@@ -119,8 +119,8 @@ XAML as implemented in [!INCLUDE[TLA#tla_clr](../../../../includes/tlasharptla-c
  For certain scenarios, such as if you are a control author, you may also want to assure that any object representation that can be instantiated in XAML can also be serialized back to equivalent XAML markup. Serialization requirements are not described in this topic. See [Control Authoring Overview](../../../../docs/framework/wpf/controls/control-authoring-overview.md) and [Element Tree and Serialization](../../../../docs/framework/wpf/advanced/element-tree-and-serialization.md).  
   
 ## See Also  
- [XAML Overview (WPF)](../../../../docs/framework/wpf/advanced/xaml-overview-wpf.md)   
- [Custom Dependency Properties](../../../../docs/framework/wpf/advanced/custom-dependency-properties.md)   
- [Control Authoring Overview](../../../../docs/framework/wpf/controls/control-authoring-overview.md)   
- [Base Elements Overview](../../../../docs/framework/wpf/advanced/base-elements-overview.md)   
+ [XAML Overview (WPF)](../../../../docs/framework/wpf/advanced/xaml-overview-wpf.md)  
+ [Custom Dependency Properties](../../../../docs/framework/wpf/advanced/custom-dependency-properties.md)  
+ [Control Authoring Overview](../../../../docs/framework/wpf/controls/control-authoring-overview.md)  
+ [Base Elements Overview](../../../../docs/framework/wpf/advanced/base-elements-overview.md)  
  [XAML Loading and Dependency Properties](../../../../docs/framework/wpf/advanced/xaml-loading-and-dependency-properties.md)

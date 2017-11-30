@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::SetMethodSourceRange Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::SetMethodSourceRange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::SetMethodSourceRange"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetMethodSourceRange method [.NET Framework debugging]"
   - "ISymUnmanagedWriter::SetMethodSourceRange method [.NET Framework debugging]"

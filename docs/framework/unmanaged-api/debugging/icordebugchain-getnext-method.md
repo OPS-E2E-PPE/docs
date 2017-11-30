@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::GetNext Method | Microsoft Docs"
+title: "ICorDebugChain::GetNext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugChain::GetNext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetNext method [.NET Framework debugging]"
   - "ICorDebugChain::GetNext method [.NET Framework debugging]"

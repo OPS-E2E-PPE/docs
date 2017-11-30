@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Workflow Unhandled Exception Behavior with WorkflowServiceHost | Microsoft Docs"
+title: "How to: Configure Workflow Unhandled Exception Behavior with WorkflowServiceHost"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -33,7 +33,7 @@ The <xref:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionB
     ```  
   
     > [!NOTE]
-    >  The preceding configuration sample is using simplified configuration. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md).  
+    >  The preceding configuration sample is using simplified configuration. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md).  
   
      This behavior can be configured in code as shown in the following example.  
   
@@ -58,5 +58,5 @@ The <xref:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionB
      [!INCLUDE[crabout](../../../../includes/crabout-md.md)] <xref:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior>, see [Workflow Service Host Extensibility](../../../../docs/framework/wcf/feature-details/workflow-service-host-extensibility.md).  
   
 ## See Also  
- [Workflow Service Host Extensibility](../../../../docs/framework/wcf/feature-details/workflow-service-host-extensibility.md)   
+ [Workflow Service Host Extensibility](../../../../docs/framework/wcf/feature-details/workflow-service-host-extensibility.md)  
  [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)

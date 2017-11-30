@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; Element for authenticationModules (Network Settings) | Microsoft Docs"
+title: "&lt;add&gt; Element for authenticationModules (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#add"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/authenticationModules/add"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "authenticationModules, add element"
   - "add element, authenticationModules"
@@ -38,9 +33,9 @@ Adds an authentication module to the application.
   
 ## Syntax  
   
-```  
-      <add   
-   type = "client type", System, Version="version number", Culture="culture", PublicKeyToken="token"   
+```xml  
+<add
+  type="type_fullname, assembly_fullname"   
 />  
 ```  
   
@@ -51,7 +46,7 @@ Adds an authentication module to the application.
   
 |**Attribute**|**Description**|  
 |-------------------|---------------------|  
-|`type`|The class name and specifics of the module that implements the authentication.|  
+|`type`|The fully qualified type name (indicated by the <xref:System.Type.FullName%2A> property) and the assembly name (indicated by the <xref:System.Reflection.Assembly.FullName%2A> property), separated by a comma.|  
   
 ### Child Elements  
  None.  
@@ -65,13 +60,13 @@ Adds an authentication module to the application.
 ## Remarks  
  The `add` element adds an authentication module to the end of the list of registered authentication modules. Authentication modules are called in the order in which they were added to the list.  
   
- The value for the `type` attribute should be a valid DLL name and corresponding class name, separated by a comma.  
+ The value for the `type` attribute should be a valid type name and corresponding assembly name, separated by a comma.  
   
 ## Configuration Files  
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example enables the default authentication modules. You should replace the values for Version and PublicKeyToken with the correct values for the specified module.  
+ The following example enables the default authentication modules. You should replace the values for Version and PublicKeyToken with the correct values for the specified module.  
   
 ```xml  
 <configuration>  
@@ -93,6 +88,6 @@ Adds an authentication module to the application.
 ```  
   
 ## See Also  
- <xref:System.Net.IAuthenticationModule>   
- <xref:System.Net.AuthenticationManager>   
+ <xref:System.Net.IAuthenticationModule>  
+ <xref:System.Net.AuthenticationManager>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

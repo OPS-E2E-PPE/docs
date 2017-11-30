@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::HasQueuedCallbacks Method | Microsoft Docs"
+title: "ICorDebugController::HasQueuedCallbacks Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::HasQueuedCallbacks"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "HasQueuedCallbacks method [.NET Framework debugging]"
   - "ICorDebugController::HasQueuedCallbacks method [.NET Framework debugging]"

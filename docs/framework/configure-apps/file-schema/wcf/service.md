@@ -1,5 +1,5 @@
 ---
-title: "&lt;service&gt; | Microsoft Docs"
+title: "&lt;service&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 13123dd6-c4a9-4a04-a984-df184b851788
 caps.latest.revision: 27
 author: "Erikre"
@@ -79,5 +76,5 @@ The `service` element contains the settings for a Windows Communication Foundati
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ServiceElement>   
+ <xref:System.ServiceModel.Configuration.ServiceElement>  
  [Configuring Services](../../../../../docs/framework/wcf/configuring-services.md)

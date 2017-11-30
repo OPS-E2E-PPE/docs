@@ -1,5 +1,5 @@
 ---
-title: "CVStruct Structure | Microsoft Docs"
+title: "CVStruct Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CVStruct"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CVStruct structure [.NET Framework metadata]"
 ms.assetid: e9e4e497-d5fb-464b-991c-3bdd824664fd

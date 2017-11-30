@@ -1,5 +1,5 @@
 ---
-title: "Federation and Issued Tokens | Microsoft Docs"
+title: "Federation and Issued Tokens"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -68,6 +68,6 @@ With [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)], you can create cli
  <xref:System.ServiceModel.WSFederationHttpBinding>  
   
 ## See Also  
- [Authorization](../../../../docs/framework/wcf/feature-details/authorization-in-wcf.md)   
- [Custom Tokens](../../../../docs/framework/wcf/extending/custom-tokens.md)   
+ [Authorization](../../../../docs/framework/wcf/feature-details/authorization-in-wcf.md)  
+ [Custom Tokens](../../../../docs/framework/wcf/extending/custom-tokens.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

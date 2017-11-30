@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Custom Information to a TreeView or ListView Control (Windows Forms) | Microsoft Docs"
+title: "How to: Add Custom Information to a TreeView or ListView Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,13 +9,14 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 f1_keywords: 
   - "ListItem"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "examples [Windows Forms], TreeView control"
-  - "Tag property"
   - "examples [Windows Forms], ListView control"
   - "ListView control [Windows Forms], adding custom information"
   - "TreeView control [Windows Forms], adding custom information"
@@ -136,5 +137,5 @@ You can create a derived node in a Windows Forms <xref:System.Windows.Forms.Tree
     ```  
   
 ## See Also  
- [TreeView Control](../../../../docs/framework/winforms/controls/treeview-control-windows-forms.md)   
+ [TreeView Control](../../../../docs/framework/winforms/controls/treeview-control-windows-forms.md)  
  [ListView Control](../../../../docs/framework/winforms/controls/listview-control-windows-forms.md)

@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_FUNCTION_ARGUMENT_INFO Structure | Microsoft Docs"
+title: "COR_PRF_FUNCTION_ARGUMENT_INFO Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_FUNCTION_ARGUMENT_INFO"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_FUNCTION_ARGUMENT_INFO structure [.NET Framework profiling]"
 ms.assetid: 07cf3bab-e193-4991-8205-3f41cf2d67b3

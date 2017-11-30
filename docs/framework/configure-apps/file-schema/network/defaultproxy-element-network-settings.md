@@ -1,5 +1,5 @@
 ---
-title: "&lt;defaultProxy&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;defaultProxy&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#defaultProxy"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/defaultProxy"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "defaultProxy element"
   - "<defaultProxy> element"
@@ -37,12 +32,12 @@ Configures the Hypertext Transfer Protocol (HTTP) proxy server.
   
 ```xml  
       <defaultProxy  
-  enabled="true|false"  
-  useDefaultCredentials="true|false"  
-  <bypasslist> … </bypasslist>  
-  <proxy> … </proxy>  
-  <module> … </module>  
-/>  
+        enabled="true|false"  
+        useDefaultCredentials="true|false">  
+           <bypasslist> … </bypasslist>  
+           <proxy> … </proxy>  
+           <module> … </module>  
+      </defaultProxy>
 ```  
   
 ## Attributes and Elements  
@@ -78,7 +73,7 @@ Configures the Hypertext Transfer Protocol (HTTP) proxy server.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example uses the defaults from the Internet Explorer proxy, specifies the proxy address, and bypasses the proxy for local access and contoso.com.  
+ The following example uses the defaults from the Internet Explorer proxy, specifies the proxy address, and bypasses the proxy for local access and contoso.com.  
   
 ```xml  
 <configuration>  
@@ -89,7 +84,7 @@ Configures the Hypertext Transfer Protocol (HTTP) proxy server.
         proxyaddress="http://192.168.1.10:3128"  
         bypassonlocal="true"  
       />  
-      <bypasslist  
+      <bypasslist>  
         <add address="[a-z]+\.contoso\.com" />  
       </bypasslist>  
     </defaultProxy>  
@@ -98,5 +93,5 @@ Configures the Hypertext Transfer Protocol (HTTP) proxy server.
 ```  
   
 ## See Also  
- <xref:System.Net.WebProxy?displayProperty=fullName>   
+ <xref:System.Net.WebProxy?displayProperty=nameWithType>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

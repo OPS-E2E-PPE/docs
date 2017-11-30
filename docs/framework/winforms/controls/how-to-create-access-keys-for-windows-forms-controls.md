@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Access Keys for Windows Forms Controls | Microsoft Docs"
+title: "How to: Create Access Keys for Windows Forms Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,20 +10,22 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "controls [Windows Forms], access keys"
   - "Button control [Windows Forms], access keys"
-  - "dialog box controls, mnemonics"
-  - "access keys, creating for controls"
-  - "mnemonics, adding to dialog box controls"
+  - "dialog box controls [Windows Forms], mnemonics"
+  - "access keys [Windows Forms], creating for controls"
+  - "mnemonics [Windows Forms], adding to dialog box controls"
   - "mnemonics"
   - "ampersand character in shortcut key"
   - "Windows Forms controls, access keys"
   - "examples [Windows Forms], controls"
-  - "Text property, specifying access keys for controls"
-  - "keyboard shortcuts, creating for controls"
-  - "access keys, Windows Forms"
+  - "Text property [Windows Forms], specifying access keys for controls"
+  - "keyboard shortcuts [Windows Forms], creating for controls"
+  - "access keys [Windows Forms], Windows Forms"
   - "ALT key"
 ms.assetid: 4faa0991-28ec-4eca-91db-51dc2cd6a7ac
 caps.latest.revision: 13
@@ -57,7 +59,7 @@ An *access key* is an underlined character in the text of a menu, menu item, or 
     >  To include an ampersand in a caption without creating an access key, include two ampersands (&&). A single ampersand is displayed in the caption and no characters are underlined.  
   
 ## See Also  
- <xref:System.Windows.Forms.Button>   
- [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)   
- [How to: Set the Text Displayed by a Windows Forms Control](../../../../docs/framework/winforms/controls/how-to-set-the-text-displayed-by-a-windows-forms-control.md)   
+ <xref:System.Windows.Forms.Button>  
+ [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)  
+ [How to: Set the Text Displayed by a Windows Forms Control](../../../../docs/framework/winforms/controls/how-to-set-the-text-displayed-by-a-windows-forms-control.md)  
  [Labeling Individual Windows Forms Controls and Providing Shortcuts to Them](../../../../docs/framework/winforms/controls/labeling-individual-windows-forms-controls-and-providing-shortcuts-to-them.md)

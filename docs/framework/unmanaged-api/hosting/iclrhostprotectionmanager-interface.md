@@ -1,5 +1,5 @@
 ---
-title: "ICLRHostProtectionManager Interface | Microsoft Docs"
+title: "ICLRHostProtectionManager Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRHostProtectionManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRHostProtectionManager interface [.NET Framework hosting]"
 ms.assetid: ce2770ae-23d0-45d9-8bcf-46504ac5020e
@@ -49,5 +47,5 @@ Enables the host to block specific managed classes, methods, properties, and fie
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [EApiCategories Enumeration](../../../../docs/framework/unmanaged-api/hosting/eapicategories-enumeration.md)   
+ [EApiCategories Enumeration](../../../../docs/framework/unmanaged-api/hosting/eapicategories-enumeration.md)  
  [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)

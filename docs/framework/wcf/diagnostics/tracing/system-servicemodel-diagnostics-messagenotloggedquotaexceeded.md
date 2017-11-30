@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Diagnostics.MessageNotLoggedQuotaExceeded | Microsoft Docs"
+title: "System.ServiceModel.Diagnostics.MessageNotLoggedQuotaExceeded"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ System.ServiceModel.Diagnostics.MessageNotLoggedQuotaExceeded
  Message not logged because its size exceeds the configured quota.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

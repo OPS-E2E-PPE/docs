@@ -1,14 +1,12 @@
 ---
-title: "-win32icon (C# Compiler Options) | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "-win32icon (C# Compiler Options)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
 ms.topic: "article"
 f1_keywords: 
   - "/win32icon"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "win32icon compiler option [C#]"
   - "/win32icon compiler option [C#]"
@@ -17,20 +15,6 @@ ms.assetid: 756d9b6d-ab07-41b7-ba58-5bd88f711138
 caps.latest.revision: 18
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /win32icon (C# Compiler Options)
 The **/win32icon** option inserts an .ico file in the output file, which gives the output file the desired appearance in the File Explorer.  
@@ -68,5 +52,5 @@ csc /win32icon:rf.ico in.cs
 ```  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [Managing Project and Solution Properties](/visualstudio/ide/managing-project-and-solution-properties)

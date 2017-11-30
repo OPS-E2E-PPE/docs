@@ -1,5 +1,5 @@
 ---
-title: "PasswordBox | Microsoft Docs"
+title: "PasswordBox"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -24,6 +24,6 @@ manager: "wpickett"
 The <xref:System.Windows.Controls.PasswordBox> control is used to input sensitive or private information.  
   
 ## See Also  
- <xref:System.Windows.Controls.TextBox>   
- <xref:System.Windows.Controls.RichTextBox>   
+ <xref:System.Windows.Controls.TextBox>  
+ <xref:System.Windows.Controls.RichTextBox>  
  [Control Library](../../../../docs/framework/wpf/controls/control-library.md)

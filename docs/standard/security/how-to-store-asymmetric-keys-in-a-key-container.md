@@ -1,5 +1,5 @@
 ---
-title: "How to: Store Asymmetric Keys in a Key Container | Microsoft Docs"
+title: "How to: Store Asymmetric Keys in a Key Container"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "cryptography [.NET Framework], asymmetric keys"
   - "storing asymmetric keys"
@@ -33,7 +31,7 @@ Asymmetric private keys should never be stored verbatim or in plain text on the 
   
 ### To create an asymmetric key and save it in a key container  
   
-1.  Create a new instance of a <xref:System.Security.Cryptography.CspParameters> class and pass the name that you want to call the key container to the <xref:System.Security.Cryptography.CspParameters.KeyContainerName?displayProperty=fullName> field.  
+1.  Create a new instance of a <xref:System.Security.Cryptography.CspParameters> class and pass the name that you want to call the key container to the <xref:System.Security.Cryptography.CspParameters.KeyContainerName?displayProperty=nameWithType> field.  
   
 2.  Create a new instance of a class that derives from the <xref:System.Security.Cryptography.AsymmetricAlgorithm> class (usually **RSACryptoServiceProvider** or **DSACryptoServiceProvider**) and pass the previously created **CspParameters** object to its constructor.  
   
@@ -228,7 +226,7 @@ Key deleted.
 ```  
   
 ## See Also  
- [Generating Keys for Encryption and Decryption](../../../docs/standard/security/generating-keys-for-encryption-and-decryption.md)   
- [Encrypting Data](../../../docs/standard/security/encrypting-data.md)   
- [Decrypting Data](../../../docs/standard/security/decrypting-data.md)   
+ [Generating Keys for Encryption and Decryption](../../../docs/standard/security/generating-keys-for-encryption-and-decryption.md)  
+ [Encrypting Data](../../../docs/standard/security/encrypting-data.md)  
+ [Decrypting Data](../../../docs/standard/security/decrypting-data.md)  
  [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)

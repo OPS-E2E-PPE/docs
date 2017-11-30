@@ -1,5 +1,5 @@
 ---
-title: "ISymENCUnmanagedMethod::GetDocumentsForMethodCount Method | Microsoft Docs"
+title: "ISymENCUnmanagedMethod::GetDocumentsForMethodCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymENCUnmanagedMethod::GetDocumentsForMethodCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetDocumentsForMethodCount method [.NET Framework debugging]"
   - "ISymENCUnmanagedMethod::GetDocumentsForMethodCount method [.NET Framework debugging]"

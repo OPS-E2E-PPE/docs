@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod::GetRanges Method | Microsoft Docs"
+title: "ISymUnmanagedMethod::GetRanges Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod::GetRanges"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedMethod::GetRanges method [.NET Framework debugging]"
   - "GetRanges method [.NET Framework debugging]"

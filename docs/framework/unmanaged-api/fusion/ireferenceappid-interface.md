@@ -1,5 +1,5 @@
 ---
-title: "IReferenceAppId Interface | Microsoft Docs"
+title: "IReferenceAppId Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IReferenceAppId"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IReferenceAppId interface [.NET Framework fusion]"
 ms.assetid: 8eb9e565-f358-43ce-900e-a8f8a5aa6cfb
@@ -50,6 +48,6 @@ Represents a reference to the unique identifier for the application in the curre
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)   
- [IEnumReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ienumreferenceidentity-interface.md)   
+ [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)  
+ [IEnumReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ienumreferenceidentity-interface.md)  
  [IReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ireferenceidentity-interface.md)

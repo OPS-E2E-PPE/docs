@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Basic Windows Forms ToolStrip with Standard Items Using the Designer | Microsoft Docs"
+title: "How to: Create a Basic Windows Forms ToolStrip with Standard Items Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ToolStrip control [Windows Forms], creating"
   - "toolbars [Windows Forms], creating"
@@ -37,8 +35,8 @@ The following procedure demonstrates how to create a <xref:System.Windows.Forms.
 3.  In the **ToolStrip Tasks** pane, choose **Insert Standard Items**.  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStrip>   
- [ToolStrip Control Overview](../../../../docs/framework/winforms/controls/toolstrip-control-overview-windows-forms.md)   
- [ToolStrip Control](../../../../docs/framework/winforms/controls/toolstrip-control-windows-forms.md)   
- [ToolStrip Control Architecture](../../../../docs/framework/winforms/controls/toolstrip-control-architecture.md)   
+ <xref:System.Windows.Forms.ToolStrip>  
+ [ToolStrip Control Overview](../../../../docs/framework/winforms/controls/toolstrip-control-overview-windows-forms.md)  
+ [ToolStrip Control](../../../../docs/framework/winforms/controls/toolstrip-control-windows-forms.md)  
+ [ToolStrip Control Architecture](../../../../docs/framework/winforms/controls/toolstrip-control-architecture.md)  
  [ToolStrip Technology Summary](../../../../docs/framework/winforms/controls/toolstrip-technology-summary.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Activity Template | Microsoft Docs"
+title: "How to: Create a Custom Activity Template"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -128,5 +128,5 @@ namespace DelayActivityTemplate
 ```  
   
 ## See Also  
- <xref:System.Activities.Presentation.IActivityTemplateFactory>   
+ <xref:System.Activities.Presentation.IActivityTemplateFactory>  
  [Customizing the Workflow Design Experience](../../../docs/framework/windows-workflow-foundation/customizing-the-workflow-design-experience.md)

@@ -1,5 +1,5 @@
 ---
-title: "CorDebugUserState Enumeration | Microsoft Docs"
+title: "CorDebugUserState Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugUserState"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugUserState enumeration [.NET Framework debugging]"
 ms.assetid: 5f6c2bcd-8102-4e3b-abc5-86ab0bd62def

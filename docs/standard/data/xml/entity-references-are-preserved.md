@@ -1,5 +1,5 @@
 ---
-title: "Entity References are Preserved | Microsoft Docs"
+title: "Entity References are Preserved"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 000a6cae-5972-40d6-bd6c-a9b7d9649b3c
 caps.latest.revision: 3
 author: "mairaw"

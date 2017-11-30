@@ -1,5 +1,5 @@
 ---
-title: "LINQ to Objects Activity | Microsoft Docs"
+title: "LINQ to Objects Activity"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -118,5 +118,5 @@ Activity sampleWorkflow = new Sequence
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Scenario\ActivityLibrary\Linq\LinqToObjects`  
   
 ## See Also  
- [Lambda Expressions (C# Programming Guide)](http://go.microsoft.com/fwlink/?LinkId=150381)   
+ [Lambda Expressions (C# Programming Guide)](http://go.microsoft.com/fwlink/?LinkId=150381)  
  [LINQ to Objects](http://go.microsoft.com/fwlink/?LinkID=150380)

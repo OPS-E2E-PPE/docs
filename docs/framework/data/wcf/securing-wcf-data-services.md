@@ -1,5 +1,5 @@
 ---
-title: "Securing WCF Data Services | Microsoft Docs"
+title: "Securing WCF Data Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "securing application [WCF Data Services]"
   - "WCF Data Services, security"
@@ -114,5 +117,5 @@ context.Credentials = _
 -   We recommend that client applications always validate user input as well as data accepted from untrusted services.  
   
 ## See Also  
- [Defining WCF Data Services](../../../../docs/framework/data/wcf/defining-wcf-data-services.md)   
+ [Defining WCF Data Services](../../../../docs/framework/data/wcf/defining-wcf-data-services.md)  
  [WCF Data Services Client Library](../../../../docs/framework/data/wcf/wcf-data-services-client-library.md)

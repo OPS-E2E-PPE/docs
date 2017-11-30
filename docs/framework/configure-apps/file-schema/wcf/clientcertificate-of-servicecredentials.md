@@ -1,5 +1,5 @@
 ---
-title: "&lt;clientCertificate&gt; of &lt;serviceCredentials&gt; | Microsoft Docs"
+title: "&lt;clientCertificate&gt; of &lt;serviceCredentials&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 90ad03aa-2317-43dd-8a72-6d24cdcad15c
 caps.latest.revision: 19
 author: "Erikre"
@@ -63,11 +60,11 @@ Defines an X.509 certificate used to sign and encrypt messages to a client form 
  The certificate set in this element is used to encrypt messages to the client only for bindings that are configured with `MutualCertificateDuplex` message security authentication mode.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement>   
- <xref:System.ServiceModel.Configuration.ServiceCredentialsElement.ClientCertificate%2A>   
- <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement>   
- <xref:System.ServiceModel.Description.ServiceCredentials.ClientCertificate%2A>   
- <xref:System.ServiceModel.Security.X509CertificateInitiatorServiceCredential>   
- [How to: Create a Duplex Contract](../../../../../docs/framework/wcf/feature-details/how-to-create-a-duplex-contract.md)   
- [Security Behaviors](../../../../../docs/framework/wcf/feature-details/security-behaviors-in-wcf.md)   
+ <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement>  
+ <xref:System.ServiceModel.Configuration.ServiceCredentialsElement.ClientCertificate%2A>  
+ <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement>  
+ <xref:System.ServiceModel.Description.ServiceCredentials.ClientCertificate%2A>  
+ <xref:System.ServiceModel.Security.X509CertificateInitiatorServiceCredential>  
+ [How to: Create a Duplex Contract](../../../../../docs/framework/wcf/feature-details/how-to-create-a-duplex-contract.md)  
+ [Security Behaviors](../../../../../docs/framework/wcf/feature-details/security-behaviors-in-wcf.md)  
  [Working with Certificates](../../../../../docs/framework/wcf/feature-details/working-with-certificates.md)

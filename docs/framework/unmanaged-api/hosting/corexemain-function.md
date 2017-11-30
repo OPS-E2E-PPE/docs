@@ -1,5 +1,5 @@
 ---
-title: "_CorExeMain Function | Microsoft Docs"
+title: "_CorExeMain Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -20,8 +20,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "_CorExeMain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "_CorExeMain function [.NET Framework hosting]"
 ms.assetid: 898f76e2-16f4-4a63-b7d9-dad2d3824d8a

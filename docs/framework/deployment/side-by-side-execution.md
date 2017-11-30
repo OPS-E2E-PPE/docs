@@ -1,5 +1,5 @@
 ---
-title: "Side-by-Side Execution in the .NET Framework | Microsoft Docs"
+title: "Side-by-Side Execution in the .NET Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "side-by-side execution"
 ms.assetid: 649f1342-766b-49e6-a90d-5b019a751e11

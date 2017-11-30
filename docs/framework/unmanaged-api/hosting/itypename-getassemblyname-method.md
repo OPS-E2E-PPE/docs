@@ -1,5 +1,5 @@
 ---
-title: "ITypeName::GetAssemblyName Method | Microsoft Docs"
+title: "ITypeName::GetAssemblyName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetAssemblyName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeName::GetAssemblyName method [.NET Framework hosting]"
   - "GetAssemblyName method [.NET Framework hosting]"

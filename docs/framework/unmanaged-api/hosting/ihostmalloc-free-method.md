@@ -1,5 +1,5 @@
 ---
-title: "IHostMAlloc::Free Method | Microsoft Docs"
+title: "IHostMAlloc::Free Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMAlloc::Free"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMAlloc::Free method [.NET Framework hosting]"
   - "Free method, IHostMAlloc interface [.NET Framework hosting]"
@@ -70,5 +68,5 @@ HRESULT Free (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)   
+ [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)  
  [IHostMalloc Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmalloc-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetSymAttribute Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetSymAttribute Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetSymAttribute"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSymAttribute method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetSymAttribute method [.NET Framework debugging]"

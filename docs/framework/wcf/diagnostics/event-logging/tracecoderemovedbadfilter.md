@@ -1,5 +1,5 @@
 ---
-title: "TraceCodeRemovedBadFilter | Microsoft Docs"
+title: "TraceCodeRemovedBadFilter"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 114
  This event indicates a bad message logging filter that was accessing the message body was removed. The event lists the XPath, process name and process ID.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

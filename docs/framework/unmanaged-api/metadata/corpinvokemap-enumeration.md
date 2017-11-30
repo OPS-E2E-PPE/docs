@@ -1,5 +1,5 @@
 ---
-title: "CorPinvokeMap Enumeration | Microsoft Docs"
+title: "CorPinvokeMap Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorPinvokeMap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorPinvokeMap enumeration [.NET Framework metadata]"
 ms.assetid: f14f986e-f6ce-42bc-aa23-18150c46d28c

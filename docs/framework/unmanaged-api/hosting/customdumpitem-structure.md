@@ -1,5 +1,5 @@
 ---
-title: "CustomDumpItem Structure | Microsoft Docs"
+title: "CustomDumpItem Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CustomDumpItem"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CustomDumpItem structure [.NET Framework hosting]"
 ms.assetid: fd9085ff-7beb-4c38-97f0-037cd8ba4f65

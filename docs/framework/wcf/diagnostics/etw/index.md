@@ -1,5 +1,5 @@
 ---
-title: "Analytic Tracing with ETW | Microsoft Docs"
+title: "Analytic Tracing with ETW"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -36,5 +36,5 @@ manager: "erikre"
  Shows a table of event IDs with their event levels, event messages and keywords.  
   
 ## See Also  
- [WCF Services and Event Tracing for Windows](../../../../../docs/framework/wcf/samples/wcf-services-and-event-tracing-for-windows.md)   
+ [WCF Services and Event Tracing for Windows](../../../../../docs/framework/wcf/samples/wcf-services-and-event-tracing-for-windows.md)  
  [Tracking Events into Event Tracing in Windows](../../../../../docs/framework/windows-workflow-foundation/samples/tracking-events-into-event-tracing-in-windows.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread::GetID Method | Microsoft Docs"
+title: "ICorDebugThread::GetID Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread::GetID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugThread::GetID method [.NET Framework debugging]"
   - "GetID method, ICorDebugThread interface [.NET Framework debugging]"

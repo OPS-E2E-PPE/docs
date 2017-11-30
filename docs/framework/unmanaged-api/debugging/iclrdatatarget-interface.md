@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget Interface | Microsoft Docs"
+title: "ICLRDataTarget Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget interface [.NET Framework debugging]"
 ms.assetid: e2f05155-9bef-4e11-b703-7f05890665ca
@@ -61,5 +59,5 @@ Provides methods for interaction with a target item of the common language runti
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/iclrdatatarget2-interface.md)   
+ [ICLRDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/iclrdatatarget2-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

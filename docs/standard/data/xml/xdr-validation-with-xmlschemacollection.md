@@ -1,5 +1,5 @@
 ---
-title: "XDR Validation with XmlSchemaCollection | Microsoft Docs"
+title: "XDR Validation with XmlSchemaCollection"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 00833027-1428-4586-83c1-42f5de3323d1
 caps.latest.revision: 3
 author: "mairaw"
@@ -162,6 +160,6 @@ namespace ValidationSample
 ```  
   
 ## See Also  
- <xref:System.Xml.XmlValidatingReader.ValidationType%2A>   
+ <xref:System.Xml.XmlValidatingReader.ValidationType%2A>  
  <!--zz <xref:System.Xml.XmlValidatingReader.Settings%2A>-->  `System.Xml.XmlValidatingReader.Settings`  
  [XmlSchemaCollection Schema Compilation](../../../../docs/standard/data/xml/xmlschemacollection-schema-compilation.md)

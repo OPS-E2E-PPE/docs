@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::GetFileProps Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::GetFileProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::GetFileProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetFileProps method [.NET Framework metadata]"
   - "IMetaDataAssemblyImport::GetFileProps method [.NET Framework metadata]"

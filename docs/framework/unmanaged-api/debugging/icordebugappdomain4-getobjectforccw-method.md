@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain4::GetObjectForCCW Method | Microsoft Docs"
+title: "ICorDebugAppDomain4::GetObjectForCCW Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 2cacdb85-e7b8-42e7-b310-c3e8c22e5d33
 caps.latest.revision: 6
 author: "rpetrusha"
@@ -48,5 +46,5 @@ HRESULT GetObjectForCCW(
  **.NET Framework Versions:** [!INCLUDE[net_current_v46plus](../../../../includes/net-current-v46plus-md.md)]  
   
 ## See Also  
- [ICorDebugAppDomain4 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugappdomain4-interface.md)   
+ [ICorDebugAppDomain4 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugappdomain4-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

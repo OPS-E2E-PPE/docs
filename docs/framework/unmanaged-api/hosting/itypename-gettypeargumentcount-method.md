@@ -1,5 +1,5 @@
 ---
-title: "ITypeName::GetTypeArgumentCount Method | Microsoft Docs"
+title: "ITypeName::GetTypeArgumentCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetTypeArgumentCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetTypeArgumentCount method [.NET Framework hosting]"
   - "ITypeName::GetTypeArgumentCount method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "Return the Set Union of Two Sequences | Microsoft Docs"
+title: "Return the Set Union of Two Sequences"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 8b8bd3cb-86d4-4a3b-9906-61f68726dd1f
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -27,5 +30,5 @@ Use the <xref:System.Linq.Queryable.Union%2A> operator to return the set union o
  In [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)], the <xref:System.Linq.Queryable.Union%2A> operator is defined for multisets as the unordered concatenation of the multisets (effectively the result of the `UNION ALL` clause in SQL).  
   
 ## See Also  
- [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)   
+ [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)  
  [Standard Query Operator Translation](../../../../../../docs/framework/data/adonet/sql/linq/standard-query-operator-translation.md)

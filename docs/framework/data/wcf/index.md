@@ -1,5 +1,5 @@
 ---
-title: "WCF Data Services 4.5 | Microsoft Docs"
+title: "WCF Data Services 4.5"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "HTML"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "Astoria"
   - "WCF Data Services, getting started"

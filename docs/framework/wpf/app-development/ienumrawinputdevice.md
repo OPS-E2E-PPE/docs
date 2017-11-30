@@ -1,5 +1,5 @@
 ---
-title: "IEnumRAWINPUTDEVICE | Microsoft Docs"
+title: "IEnumRAWINPUTDEVICE"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "IEnumRAWINPUTDEVICE interface"
+  - "IEnumRAWINPUTDEVICE interface [WPF]"
 ms.assetid: 88c8b389-a48b-46b9-b895-8ed7b1e26fea
 caps.latest.revision: 9
 author: dotnet-bot

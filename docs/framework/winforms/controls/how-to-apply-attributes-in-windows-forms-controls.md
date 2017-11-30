@@ -1,5 +1,5 @@
 ---
-title: "How to: Apply Attributes in Windows Forms Controls | Microsoft Docs"
+title: "How to: Apply Attributes in Windows Forms Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "controls [Windows Forms], applying attributes"
   - "attributes [Windows Forms], applying"
@@ -83,8 +84,8 @@ To develop components and controls that interact correctly with the design envir
 -   The form that hosts the `AttributesDemoControl` requires a reference to the `AttributesDemoControl` assembly in order to build.  
   
 ## See Also  
- <xref:System.IComparable>   
- <xref:System.Windows.Forms.DataGridView>   
- [Developing Custom Windows Forms Controls with the .NET Framework](../../../../docs/framework/winforms/controls/developing-custom-windows-forms-controls.md)   
- [Attributes in Windows Forms Controls](../../../../docs/framework/winforms/controls/attributes-in-windows-forms-controls.md)   
+ <xref:System.IComparable>  
+ <xref:System.Windows.Forms.DataGridView>  
+ [Developing Custom Windows Forms Controls with the .NET Framework](../../../../docs/framework/winforms/controls/developing-custom-windows-forms-controls.md)  
+ [Attributes in Windows Forms Controls](../../../../docs/framework/winforms/controls/attributes-in-windows-forms-controls.md)  
  [How to: Serialize Collections of Standard Types with the DesignerSerializationVisibilityAttribute](http://msdn.microsoft.com/library/7829fcdd-8205-405f-8231-a1282a9835c9)

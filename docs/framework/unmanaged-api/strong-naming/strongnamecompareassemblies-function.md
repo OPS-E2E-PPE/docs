@@ -1,5 +1,5 @@
 ---
-title: "StrongNameCompareAssemblies Function | Microsoft Docs"
+title: "StrongNameCompareAssemblies Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameCompareAssemblies"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameCompareAssemblies function [.NET Framework strong naming]"
 ms.assetid: 763f2375-efc6-4219-8806-a3b0567ef72b
@@ -78,5 +76,5 @@ BOOLEAN StrongNameCompareAssemblies (
  If the `StrongNameCompareAssemblies` function does not complete successfully, call the [StrongNameErrorInfo](../../../../docs/framework/unmanaged-api/strong-naming/strongnameerrorinfo-function.md) function to retrieve the last generated error.  
   
 ## See Also  
- [StrongNameCompareAssemblies Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamecompareassemblies-method.md)   
+ [StrongNameCompareAssemblies Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamecompareassemblies-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

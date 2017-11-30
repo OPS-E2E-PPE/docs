@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter3::Commit Method | Microsoft Docs"
+title: "ISymUnmanagedWriter3::Commit Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter3::Commit"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Commit method, ISymUnmanagedWriter3 interface [.NET Framework debugging]"
   - "ISymUnmanagedWriter3::Commit method [.NET Framework debugging]"

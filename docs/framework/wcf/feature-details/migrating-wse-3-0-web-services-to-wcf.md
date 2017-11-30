@@ -1,5 +1,5 @@
 ---
-title: "Migrating WSE 3.0 Web Services to WCF | Microsoft Docs"
+title: "Migrating WSE 3.0 Web Services to WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -129,7 +129,7 @@ The benefits of migrating WSE 3.0 Web services to [!INCLUDE[indigo1](../../../..
  The equivalent of a WSE 3.0 custom transport in [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] is a channel extension. For details about creating a channel extension, see [Extending the Channel Layer](../../../../docs/framework/wcf/extending/extending-the-channel-layer.md).  
   
 ## See Also  
- [Basic Programming Lifecycle](../../../../docs/framework/wcf/basic-programming-lifecycle.md)   
- [Custom Bindings](../../../../docs/framework/wcf/extending/custom-bindings.md)   
- [How to: Create a Custom Binding Using the SecurityBindingElement](../../../../docs/framework/wcf/feature-details/how-to-create-a-custom-binding-using-the-securitybindingelement.md)   
+ [Basic Programming Lifecycle](../../../../docs/framework/wcf/basic-programming-lifecycle.md)  
+ [Custom Bindings](../../../../docs/framework/wcf/extending/custom-bindings.md)  
+ [How to: Create a Custom Binding Using the SecurityBindingElement](../../../../docs/framework/wcf/feature-details/how-to-create-a-custom-binding-using-the-securitybindingelement.md)  
  [How to: Create a SecurityBindingElement for a Specified Authentication Mode](../../../../docs/framework/wcf/feature-details/how-to-create-a-securitybindingelement-for-a-specified-authentication-mode.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction::GetModule Method | Microsoft Docs"
+title: "ICorDebugFunction::GetModule Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction::GetModule"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunction::GetModule method [.NET Framework debugging]"
   - "GetModule method, ICorDebugFunction interface [.NET Framework debugging]"

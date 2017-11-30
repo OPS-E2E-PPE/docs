@@ -1,5 +1,5 @@
 ---
-title: "Batching Messages in a Transaction | Microsoft Docs"
+title: "Batching Messages in a Transaction"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -58,36 +58,36 @@ Queued applications use transactions to ensure correctness and reliable delivery
  The following example shows how to specify the `TransactedBatchingBehavior` in a configuration file.  
   
 ```xml  
-<behaviors>  
-      <endpointBehaviors>  
-        <behavior name="TransactedBatchingBehavior"  
-                  maxBatchSize="100"/>  
-      </endpointBehaviors>  
-    </behaviors>  
+<behaviors>
+  <endpointBehaviors>
+    <behavior name="TransactedBatchingBehavior"
+              maxBatchSize="100" />
+  </endpointBehaviors>
+</behaviors>
 ```  
   
  The following example shows how to specify the <xref:System.ServiceModel.Description.TransactedBatchingBehavior> in code.  
   
-```  
-using (ServiceHost serviceHost = new ServiceHost(typeof(OrderProcessorService)))  
-{  
-     ServiceEndpoint sep = ServiceHost.AddServiceEndpoint(typeof(IOrderProcessor), new NetMsmqBinding(), "net.msmq://localhost/private/ServiceModelSamplesTransacted");  
-                sep.Behaviors.Add(new TransactedBatchingBehavior(100));  
+```csharp
+using (ServiceHost serviceHost = new ServiceHost(typeof(OrderProcessorService)))
+{
+     ServiceEndpoint sep = ServiceHost.AddServiceEndpoint(typeof(IOrderProcessor), new NetMsmqBinding(), "net.msmq://localhost/private/ServiceModelSamplesTransacted");
+     sep.Behaviors.Add(new TransactedBatchingBehavior(100));
+     
+     // Open the ServiceHost to create listeners and start listening for messages.
+    serviceHost.Open();
   
-     // Open the ServiceHost to create listeners and start listening for messages.  
-    serviceHost.Open();  
+    // The service can now be accessed.
+    Console.WriteLine("The service is ready.");
+    Console.WriteLine("Press <ENTER> to terminate service.");
+    Console.WriteLine();
+    Console.ReadLine();
   
-    // The service can now be accessed.  
-    Console.WriteLine("The service is ready.");  
-    Console.WriteLine("Press <ENTER> to terminate service.");  
-    Console.WriteLine();  
-    Console.ReadLine();  
-  
-   // Close the ServiceHostB to shut down the service.  
-    serviceHost.Close();  
+    // Close the ServiceHostB to shut down the service.
+    serviceHost.Close();
 }  
 ```  
   
 ## See Also  
- [Queues Overview](../../../../docs/framework/wcf/feature-details/queues-overview.md)   
+ [Queues Overview](../../../../docs/framework/wcf/feature-details/queues-overview.md)  
  [Queuing in WCF](../../../../docs/framework/wcf/feature-details/queuing-in-wcf.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::CallFunction Method | Microsoft Docs"
+title: "ICorDebugEval::CallFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::CallFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEval::CallFunction method [.NET Framework debugging]"
   - "CallFunction method [.NET Framework debugging]"

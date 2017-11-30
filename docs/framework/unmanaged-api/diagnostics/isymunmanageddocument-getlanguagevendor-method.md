@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocument::GetLanguageVendor Method | Microsoft Docs"
+title: "ISymUnmanagedDocument::GetLanguageVendor Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocument::GetLanguageVendor"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetLanguageVendor method [.NET Framework debugging]"
   - "ISymUnmanagedDocument::GetLanguageVendor method [.NET Framework debugging]"

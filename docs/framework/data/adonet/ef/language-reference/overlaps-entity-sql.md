@@ -1,5 +1,5 @@
 ---
-title: "OVERLAPS (Entity SQL) | Microsoft Docs"
+title: "OVERLAPS (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 41743e89-79cb-4d7b-8a27-355b45024b61
 caps.latest.revision: 3
 author: "JennieHubbard"

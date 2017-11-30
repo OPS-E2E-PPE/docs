@@ -66,6 +66,8 @@
     <permission cref="T:System.Security.Permissions.FileIOPermission">for permission to inherit from this class. Associated enumeration: <see cref="F:System.Security.Permissions.PermissionState.Unrestricted" />  
   
  Security Action: Inheritance Demand</permission>
+    <altmember cref="T:System.IO.FileSystemWatcher" />
+    <altmember cref="T:System.IO.DriveInfo" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -98,6 +100,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -135,6 +138,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The specified <see cref="T:System.Runtime.Serialization.SerializationInfo" /> is null.</exception>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Attributes">
@@ -189,7 +193,9 @@
   
 -   <xref:System.IO.DirectoryInfo.EnumerateFileSystemInfos%2A>  
   
- To get the latest value, call the <xref:System.IO.FileSystemInfo.Refresh%2A> method.  
+ The value may be cached when either the value itself or other <xref:System.IO.FileSystemInfo> properties are accessed. To get the latest value, call the <xref:System.IO.FileSystemInfo.Refresh%2A> method.
+
+ If the path doesn't exist as of the last cached state, the return value is `(FileAttributes)(-1)`. <xref:System.IO.FileNotFoundException> or <xref:System.IO.DirectoryNotFoundException> can only be thrown when setting the value.
   
  The value of this property is a combination of the archive, compressed, directory, hidden, offline, read-only, system, and temporary file attribute flags.  
   
@@ -208,17 +214,18 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.IO.FileNotFoundException">The specified file does not exist.</exception>
-        <exception cref="T:System.IO.DirectoryNotFoundException">The specified path is invalid; for example, it is on an unmapped drive.</exception>
-        <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
+        <exception cref="T:System.IO.FileNotFoundException">The specified file doesn't exist. Only thrown when setting the property value.</exception>
+        <exception cref="T:System.IO.DirectoryNotFoundException">The specified path is invalid. For example, it's on an unmapped drive. Only thrown when setting the property value.</exception>
+        <exception cref="T:System.Security.SecurityException">The caller doesn't have the required permission.</exception>
         <exception cref="T:System.ArgumentException">The caller attempts to set an invalid file attribute.  
   
  -or-  
   
- The user attempts to set an attribute value but does not have write permission.</exception>
+ The user attempts to set an attribute value but doesn't have write permission.</exception>
         <exception cref="T:System.IO.IOException">
           <see cref="M:System.IO.FileSystemInfo.Refresh" /> cannot initialize the data.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for writing files and directories. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /> Security action: <see cref="F:System.Security.Permissions.SecurityAction.Demand" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="CreationTime">
@@ -291,6 +298,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid creation time.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the creation time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="CreationTimeUtc">
@@ -362,6 +370,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid access time.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the creation time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -392,6 +401,7 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The specified path is invalid; for example, it is on an unmapped drive.</exception>
         <exception cref="T:System.IO.IOException">There is an open handle on the file or directory, and the operating system is Windows XP or earlier. This open handle can result from enumerating directories and files. For more information, see [How to: Enumerate Directories and Files](~/docs/standard/io/how-to-enumerate-directories-and-files.md).</exception>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Exists">
@@ -428,6 +438,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Extension">
@@ -475,6 +486,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="FullName">
@@ -529,6 +541,7 @@
         <exception cref="T:System.IO.PathTooLongException">The fully qualified path and file name is 260 or more characters.</exception>
         <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for access to the path. Associated enumeration: <see cref="T:System.Security.Permissions.FileIOPermissionAccess" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="FullPath">
@@ -562,6 +575,7 @@
   
  For a list of common I/O tasks, see [Common I/O Tasks](~/docs/standard/io/common-i-o-tasks.md).</para>
         </block>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="GetObjectData">
@@ -616,6 +630,7 @@
   
  Security action: Link Demand</permission>
         <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="LastAccessTime">
@@ -682,6 +697,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid access time</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the last access time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="LastAccessTimeUtc">
@@ -750,6 +766,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid access time.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the last access time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="LastWriteTime">
@@ -818,6 +835,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid write time.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the last write time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="LastWriteTimeUtc">
@@ -886,6 +904,7 @@
         <exception cref="T:System.PlatformNotSupportedException">The current operating system is not Windows NT or later.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The caller attempts to set an invalid write time.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for setting the last write time. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Write" /></permission>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -923,6 +942,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="OriginalPath">
@@ -957,6 +977,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
     <Member MemberName="Refresh">
@@ -1000,7 +1021,18 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">A device such as a disk drive is not ready.</exception>
+        <altmember cref="T:System.IO.FileSystemWatcher" />
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.IO.FileSystem</AssemblyName>
+        <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.IO.FileSystemInfo" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

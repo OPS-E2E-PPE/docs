@@ -1,5 +1,5 @@
 ---
-title: "Security and Public Read-only Array Fields | Microsoft Docs"
+title: "Security and Public Read-only Array Fields"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "security [.NET Framework], public read-only array fields"
 ms.assetid: 3df28dee-2a9f-40ff-9852-bfdbe59c27f3

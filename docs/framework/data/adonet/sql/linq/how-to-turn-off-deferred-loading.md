@@ -1,5 +1,5 @@
 ---
-title: "How to: Turn Off Deferred Loading | Microsoft Docs"
+title: "How to: Turn Off Deferred Loading"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1b84b852-3cad-41a7-8077-149a70d50c8b
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -28,5 +31,5 @@ You can turn off deferred loading by setting <xref:System.Data.Linq.DataContext.
  [!code-vb[DLinqQuerying#3](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqQuerying/vb/Module1.vb#3)]  
   
 ## See Also  
- [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)   
+ [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)  
  [Querying the Database](../../../../../../docs/framework/data/adonet/sql/linq/querying-the-database.md)

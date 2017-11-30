@@ -1,5 +1,5 @@
 ---
-title: "Message Security with a User Name Client | Microsoft Docs"
+title: "Message Security with a User Name Client"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 36335cb9-76b8-4443-92c7-44f081eabb21
 caps.latest.revision: 15
 author: "BrucePerlerMS"
@@ -129,8 +132,8 @@ The following illustration shows an [!INCLUDE[indigo1](../../../../includes/indi
 ```  
   
 ## See Also  
- [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)   
- [Message Security User Name](../../../../docs/framework/wcf/samples/message-security-user-name.md)   
- [Service Identity and Authentication](../../../../docs/framework/wcf/feature-details/service-identity-and-authentication.md)   
- [\<identity>](../../../../docs/framework/configure-apps/file-schema/wcf/identity.md)   
+ [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)  
+ [Message Security User Name](../../../../docs/framework/wcf/samples/message-security-user-name.md)  
+ [Service Identity and Authentication](../../../../docs/framework/wcf/feature-details/service-identity-and-authentication.md)  
+ [\<identity>](../../../../docs/framework/configure-apps/file-schema/wcf/identity.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

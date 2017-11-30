@@ -1,5 +1,5 @@
 ---
-title: "How to: Ensure Multiple Controls Bound to the Same Data Source Remain Synchronized | Microsoft Docs"
+title: "How to: Ensure Multiple Controls Bound to the Same Data Source Remain Synchronized"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "controls [Windows Forms], binding multiple"
   - "controls [Windows Forms], synchronizing with data source"
@@ -46,7 +47,7 @@ Oftentimes when working with data binding in Windows Forms, multiple controls ar
 -   A form with the <xref:System.Windows.Forms.Form.Load> event handled and a call to the `InitializeControlsAndDataSource` method in the example from the form's <xref:System.Windows.Forms.Form.Load> event handler.  
   
 ## See Also  
- [How to: Share Bound Data Across Forms Using the BindingSource Component](../../../docs/framework/winforms/controls/how-to-share-bound-data-across-forms-using-the-bindingsource-component.md)   
- [Change Notification in Windows Forms Data Binding](../../../docs/framework/winforms/change-notification-in-windows-forms-data-binding.md)   
- [Interfaces Related to Data Binding](../../../docs/framework/winforms/interfaces-related-to-data-binding.md)   
+ [How to: Share Bound Data Across Forms Using the BindingSource Component](../../../docs/framework/winforms/controls/how-to-share-bound-data-across-forms-using-the-bindingsource-component.md)  
+ [Change Notification in Windows Forms Data Binding](../../../docs/framework/winforms/change-notification-in-windows-forms-data-binding.md)  
+ [Interfaces Related to Data Binding](../../../docs/framework/winforms/interfaces-related-to-data-binding.md)  
  [Windows Forms Data Binding](../../../docs/framework/winforms/windows-forms-data-binding.md)

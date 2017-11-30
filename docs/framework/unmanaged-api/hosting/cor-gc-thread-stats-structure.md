@@ -1,5 +1,5 @@
 ---
-title: "COR_GC_THREAD_STATS Structure | Microsoft Docs"
+title: "COR_GC_THREAD_STATS Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_GC_THREAD_STATS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_GC_THREAD_STATS structure [.NET Framework hosting]"
 ms.assetid: 01f9a59b-7679-4d42-9ced-4a8981625c3d
@@ -61,5 +59,5 @@ typedef struct _COR_GC_THREAD_STATS {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)   
+ [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)  
  [IHostTask Interface](../../../../docs/framework/unmanaged-api/hosting/ihosttask-interface.md)

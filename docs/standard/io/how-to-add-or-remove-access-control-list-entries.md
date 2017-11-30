@@ -1,5 +1,5 @@
 ---
-title: "How to: Add or Remove Access Control List Entries | Microsoft Docs"
+title: "How to: Add or Remove Access Control List Entries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "ACEs [.NET Framework]"
   - "ACLs [.NET Framework]"

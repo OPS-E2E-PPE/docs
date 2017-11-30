@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::DefineFile Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::DefineFile Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::DefineFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyEmit::DefineFile method [.NET Framework metadata]"
   - "DefineFile method [.NET Framework metadata]"

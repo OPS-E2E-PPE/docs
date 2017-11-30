@@ -1,5 +1,5 @@
 ---
-title: "Fusion Structures | Microsoft Docs"
+title: "Fusion Structures"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "fusion structures [.NET Framework]"
   - "structures [.NET Framework fusion]"

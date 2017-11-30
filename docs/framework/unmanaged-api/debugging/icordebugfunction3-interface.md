@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction3 Interface | Microsoft Docs"
+title: "ICorDebugFunction3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "mscordbi.dll"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: b22717b9-ead5-4eea-887e-789b52d613dc
 topic_type: 
   - "apiref"
@@ -48,6 +46,6 @@ manager: "wpickett"
  **.NET Framework Versions:** [!INCLUDE[net_current_v452plus](../../../../includes/net-current-v452plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
- [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
+ [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)  
  [ReJIT: A How-To Guide](http://blogs.msdn.com/b/davbr/archive/2011/10/12/rejit-a-how-to-guide.aspx)

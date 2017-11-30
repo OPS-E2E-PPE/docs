@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Client Identity Verifier | Microsoft Docs"
+title: "How to: Create a Custom Client Identity Verifier"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: f2d34e43-fa8b-46d2-91cf-d2960e13e16b
 caps.latest.revision: 15
 author: "Erikre"
@@ -85,9 +88,9 @@ The *identity* feature of [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)
  [!code-vb[c_HowToSetCustomClientIdentity#6](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_howtosetcustomclientidentity/vb/source.vb#6)]  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceAuthorizationManager>   
- <xref:System.ServiceModel.EndpointIdentity>   
- <xref:System.ServiceModel.Security.IdentityVerifier>   
- [Service Identity Sample](../../../../docs/framework/wcf/samples/service-identity-sample.md)   
- [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)   
+ <xref:System.ServiceModel.ServiceAuthorizationManager>  
+ <xref:System.ServiceModel.EndpointIdentity>  
+ <xref:System.ServiceModel.Security.IdentityVerifier>  
+ [Service Identity Sample](../../../../docs/framework/wcf/samples/service-identity-sample.md)  
+ [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)  
  [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)

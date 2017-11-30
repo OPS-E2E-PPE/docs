@@ -1,5 +1,5 @@
 ---
-title: "Polling in Console Applications | Microsoft Docs"
+title: "Polling in Console Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 4ff084d5-5956-4db1-8e18-c5a66b000882
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -194,5 +197,5 @@ class Class1
 ```  
   
 ## See Also  
- [Asynchronous Operations](../../../../../docs/framework/data/adonet/sql/asynchronous-operations.md)   
+ [Asynchronous Operations](../../../../../docs/framework/data/adonet/sql/asynchronous-operations.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "EHostBindingPolicyModifyFlags Enumeration | Microsoft Docs"
+title: "EHostBindingPolicyModifyFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EHostBindingPolicyModifyFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EHostBindingPolicyModifyFlags enumeration [.NET Framework hosting]"
 ms.assetid: 0339af16-ee1d-48ec-837d-a79d9a9c89f8
@@ -65,5 +63,5 @@ typedef enum _hostBindingPolicyModifyFlags {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRHostBindingPolicyManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrhostbindingpolicymanager-interface.md)   
+ [ICLRHostBindingPolicyManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrhostbindingpolicymanager-interface.md)  
  [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)

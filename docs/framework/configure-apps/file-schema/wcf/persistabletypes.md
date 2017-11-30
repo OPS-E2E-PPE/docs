@@ -1,5 +1,5 @@
 ---
-title: "&lt;persistableTypes&gt; | Microsoft Docs"
+title: "&lt;persistableTypes&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,8 @@ manager: "erikre"
 This section contains a collection of `persistableType` elements.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ComPersistableTypeElementCollection>   
- <xref:System.ServiceModel.Configuration.ComPersistableTypeElement>   
- [\<comContracts>](../../../../../docs/framework/configure-apps/file-schema/wcf/comcontracts.md)   
- [Integrating with COM+ Applications](../../../../../docs/framework/wcf/feature-details/integrating-with-com-plus-applications.md)   
+ <xref:System.ServiceModel.Configuration.ComPersistableTypeElementCollection>  
+ <xref:System.ServiceModel.Configuration.ComPersistableTypeElement>  
+ [\<comContracts>](../../../../../docs/framework/configure-apps/file-schema/wcf/comcontracts.md)  
+ [Integrating with COM+ Applications](../../../../../docs/framework/wcf/feature-details/integrating-with-com-plus-applications.md)  
  [How to: Configure COM+ Service Settings](../../../../../docs/framework/wcf/feature-details/how-to-configure-com-service-settings.md)

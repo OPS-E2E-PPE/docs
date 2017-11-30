@@ -1,5 +1,5 @@
 ---
-title: "UNION (Entity SQL) | Microsoft Docs"
+title: "UNION (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: df98a4db-b00d-4c8b-bd74-0d285f27e1df
 caps.latest.revision: 3
 author: "JennieHubbard"

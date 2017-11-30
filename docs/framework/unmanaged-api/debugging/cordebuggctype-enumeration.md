@@ -1,5 +1,5 @@
 ---
-title: "CorDebugGCType Enumeration | Microsoft Docs"
+title: "CorDebugGCType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugGCType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugGCType enumeration [.NET Framework debugging]"
 ms.assetid: 880ca92a-42d4-42a5-9b9c-c2848eb39c6a

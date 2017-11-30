@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedVariable Interface | Microsoft Docs"
+title: "ISymUnmanagedVariable Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedVariable"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedVariable interface [.NET Framework debugging]"
 ms.assetid: 704c69ba-77bc-40d7-8c0c-400061686321

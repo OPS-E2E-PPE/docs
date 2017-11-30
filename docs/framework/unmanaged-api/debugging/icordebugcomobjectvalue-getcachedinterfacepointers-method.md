@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugComObjectValue::GetCachedInterfacePointers Method | Microsoft Docs"
+title: "ICorDebugComObjectValue::GetCachedInterfacePointers Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "mscordbi.dll"
 f1_keywords: 
   - "ICorDebugComObjectValue::GetCachedInterfacePointers"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugComObjectValue::GetCachedInterfacePointers method [.NET Framework debugging]"
   - "GetCachedInterfacePointers method, ICorDebugComObjectValue interface [.NET Framework debugging]"
@@ -66,5 +64,5 @@ HRESULT GetCachedInterfacePointers(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugComObjectValue Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugcomobjectvalue-interface.md)   
+ [ICorDebugComObjectValue Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugcomobjectvalue-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

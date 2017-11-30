@@ -1,5 +1,5 @@
 ---
-title: "FLATTEN (Entity SQL) | Microsoft Docs"
+title: "FLATTEN (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 1a670c63-0a29-4738-80e6-101f66af05c3
 caps.latest.revision: 3
 author: "JennieHubbard"

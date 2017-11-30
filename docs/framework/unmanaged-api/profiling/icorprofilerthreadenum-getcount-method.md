@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerThreadEnum::GetCount Method | Microsoft Docs"
+title: "ICorProfilerThreadEnum::GetCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerThreadEnum::GetCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerThreadEnum::GetCount method [.NET Framework profiling]"
   - "GetCount method, ICorProfilerThreadEnum interface [.NET Framework profiling]"
@@ -54,5 +52,5 @@ HRESULT GetCount (    [out] ULONG * pcelt
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorProfilerThreadEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerthreadenum-interface.md)   
+ [ICorProfilerThreadEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerthreadenum-interface.md)  
  [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)

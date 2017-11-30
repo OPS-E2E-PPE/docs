@@ -1,5 +1,5 @@
 ---
-title: "Entity Framework Provider (WCF Data Services) | Microsoft Docs"
+title: "Entity Framework Provider (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -27,6 +27,6 @@ Like [!INCLUDE[ssAstoria](../../../../includes/ssastoria-md.md)], the ADO.NET En
  To learn more about the Entity Framework, see [Entity Framework Overview](../../../../docs/framework/data/adonet/ef/overview.md).  
   
 ## See Also  
- [Data Services Providers](../../../../docs/framework/data/wcf/data-services-providers-wcf-data-services.md)   
- [Reflection Provider](../../../../docs/framework/data/wcf/reflection-provider-wcf-data-services.md)   
+ [Data Services Providers](../../../../docs/framework/data/wcf/data-services-providers-wcf-data-services.md)  
+ [Reflection Provider](../../../../docs/framework/data/wcf/reflection-provider-wcf-data-services.md)  
  [Entity Data Model](../../../../docs/framework/data/adonet/entity-data-model.md)

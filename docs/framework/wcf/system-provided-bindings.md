@@ -1,5 +1,5 @@
 ---
-title: "System-Provided Bindings | Microsoft Docs"
+title: "System-Provided Bindings"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "bindings [WCF], system-provided"
 ms.assetid: 2c243746-45ce-4588-995e-c17126a579a6
@@ -96,6 +93,6 @@ Bindings specify the communication mechanism to use when talking to an endpoint 
 |Streaming|Specifies whether streaming is supported for incoming and outgoing messages. Use the `TransferMode` property on the binding to set the value. The allowable values include:<br /><br /> -   <xref:System.ServiceModel.TransferMode.Buffered>: The request and response messages are both buffered.<br />-   <xref:System.ServiceModel.TransferMode.Streamed>: The request and response messages are both streamed.<br />-   <xref:System.ServiceModel.TransferMode.StreamedRequest>: The request message is streamed and the response message is buffered.<br />-   <xref:System.ServiceModel.TransferMode.StreamedResponse>: The request message is buffered and the response message is streamed.|  
   
 ## See Also  
- [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md)   
- [Using Bindings to Configure Services and Clients](../../../docs/framework/wcf/using-bindings-to-configure-services-and-clients.md)   
+ [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md)  
+ [Using Bindings to Configure Services and Clients](../../../docs/framework/wcf/using-bindings-to-configure-services-and-clients.md)  
  [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)

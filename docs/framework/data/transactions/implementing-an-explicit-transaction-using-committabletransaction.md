@@ -1,5 +1,5 @@
 ---
-title: "Implementing an Explicit Transaction using CommittableTransaction | Microsoft Docs"
+title: "Implementing an Explicit Transaction using CommittableTransaction"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,6 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 29efe5e5-897b-46c2-a35f-e599a273acc8
 caps.latest.revision: 3
 author: "Erikre"
@@ -87,5 +90,5 @@ void OnCommitted(IAsyncResult asyncResult)
 ```  
   
 ## See Also  
- [Implementing an Implicit Transaction using Transaction Scope](../../../../docs/framework/data/transactions/implementing-an-implicit-transaction-using-transaction-scope.md)   
+ [Implementing an Implicit Transaction using Transaction Scope](../../../../docs/framework/data/transactions/implementing-an-implicit-transaction-using-transaction-scope.md)  
  [Transaction Processing](../../../../docs/framework/data/transactions/index.md)

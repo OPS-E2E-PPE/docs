@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::GetMethodBuffer Method | Microsoft Docs"
+title: "ICeeGen::GetMethodBuffer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::GetMethodBuffer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICeeGen::GetMethodBuffer method [.NET Framework metadata]"
   - "GetMethodBuffer method [.NET Framework metadata]"

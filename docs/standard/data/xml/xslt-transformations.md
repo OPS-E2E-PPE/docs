@@ -1,5 +1,5 @@
 ---
-title: "XSLT Transformations | Microsoft Docs"
+title: "XSLT Transformations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 202f8820-224c-494f-b61e-cd127eac6e03
 caps.latest.revision: 4
 author: "mairaw"

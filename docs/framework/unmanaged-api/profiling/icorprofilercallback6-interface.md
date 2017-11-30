@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback6 Interface | Microsoft Docs"
+title: "ICorProfilerCallback6 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -16,8 +16,6 @@ api_location:
   - "corprof.idl"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: edc420b7-96d1-4dec-ace0-36d907f644bc
 topic_type: 
   - "apiref"

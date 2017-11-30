@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Support for the Document Control Type | Microsoft Docs"
+title: "UI Automation Support for the Document Control Type"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -87,6 +87,6 @@ manager: "markl"
 |<xref:System.Windows.Automation.ValuePatternIdentifiers.ValueProperty> property-changed event.|Never|None|  
   
 ## See Also  
- <xref:System.Windows.Automation.ControlType.Document>   
- [UI Automation Control Types Overview](../../../docs/framework/ui-automation/ui-automation-control-types-overview.md)   
+ <xref:System.Windows.Automation.ControlType.Document>  
+ [UI Automation Control Types Overview](../../../docs/framework/ui-automation/ui-automation-control-types-overview.md)  
  [UI Automation Overview](../../../docs/framework/ui-automation/ui-automation-overview.md)

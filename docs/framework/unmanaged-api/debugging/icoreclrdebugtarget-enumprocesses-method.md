@@ -1,5 +1,5 @@
 ---
-title: "ICoreClrDebugTarget::EnumProcesses Method | Microsoft Docs"
+title: "ICoreClrDebugTarget::EnumProcesses Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICoreClrDebugTarget::EnumProcesses"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "remote debugging API [Silverlight]"
   - "EnumProcesses method, ICorClrDebugTarget interface [Silverlight debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorConfiguration::AddDebuggerSpecialThread Method | Microsoft Docs"
+title: "ICorConfiguration::AddDebuggerSpecialThread Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddDebuggerSpecialThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AddDebuggerSpecialThread method [.NET Framework hosting]"
   - "ICorConfiguration::AddDebuggerSpecialThread method [.NET Framework hosting]"

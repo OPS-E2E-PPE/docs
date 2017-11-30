@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RuntimeThreadSuspended Method | Microsoft Docs"
+title: "ICorProfilerCallback::RuntimeThreadSuspended Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RuntimeThreadSuspended"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RuntimeThreadSuspended method [.NET Framework profiling]"
   - "ICorProfilerCallback::RuntimeThreadSuspended method [.NET Framework profiling]"
@@ -59,5 +57,5 @@ HRESULT RuntimeThreadSuspended(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [RuntimeThreadResumed Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-runtimethreadresumed-method.md)

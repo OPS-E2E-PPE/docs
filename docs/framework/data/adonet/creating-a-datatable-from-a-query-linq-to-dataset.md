@@ -1,5 +1,5 @@
 ---
-title: "Creating a DataTable From a Query (LINQ to DataSet) | Microsoft Docs"
+title: "Creating a DataTable From a Query (LINQ to DataSet)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1b97afeb-03f8-41e2-8eb3-58aff65f7d18
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -78,6 +81,6 @@ Data binding is a common use of <xref:System.Data.DataTable> object. The <xref:S
  [!code-vb[DP Custom CopyToDataTable Examples#LoadScalarSequence](../../../../samples/snippets/visualbasic/VS_Snippets_ADO.NET/DP Custom CopyToDataTable Examples/VB/Module1.vb#loadscalarsequence)]  
   
 ## See Also  
- [Programming Guide](../../../../docs/framework/data/adonet/programming-guide-linq-to-dataset.md)   
- [Generic Field and SetField Methods](../../../../docs/framework/data/adonet/generic-field-and-setfield-methods-linq-to-dataset.md)   
+ [Programming Guide](../../../../docs/framework/data/adonet/programming-guide-linq-to-dataset.md)  
+ [Generic Field and SetField Methods](../../../../docs/framework/data/adonet/generic-field-and-setfield-methods-linq-to-dataset.md)  
  [LINQ to DataSet Examples](../../../../docs/framework/data/adonet/linq-to-dataset-examples.md)

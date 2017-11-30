@@ -1,5 +1,5 @@
 ---
-title: "How to: Resolve Conflicts by Overwriting Database Values | Microsoft Docs"
+title: "How to: Resolve Conflicts by Overwriting Database Values"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: fd6db0b8-c29c-48ff-b768-31d28e7a148c
 caps.latest.revision: 2
 author: "JennieHubbard"

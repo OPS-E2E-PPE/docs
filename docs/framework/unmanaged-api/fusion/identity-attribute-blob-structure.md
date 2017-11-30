@@ -1,5 +1,5 @@
 ---
-title: "IDENTITY_ATTRIBUTE_BLOB Structure | Microsoft Docs"
+title: "IDENTITY_ATTRIBUTE_BLOB Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
+dev_langs:
+- "cpp"
 api_name: 
   - "IDENTITY_ATTRIBUTE_BLOB"
 api_location: 
@@ -17,8 +19,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IDENTITY_ATTRIBUTE_BLOB"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IDENTITY_ATTRIBUTE_BLOB structure [.NET Framework fusion]"
 ms.assetid: af14ae5f-d226-47dd-ba90-8fc6e6605d4d
@@ -247,7 +247,7 @@ Exit:
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ireferenceidentity-interface.md)   
- [IEnumIDENTITY_ATTRIBUTE Interface](../../../../docs/framework/unmanaged-api/fusion/ienumidentity-attribute-interface.md)   
- [IDENTITY_ATTRIBUTE Structure](../../../../docs/framework/unmanaged-api/fusion/identity-attribute-structure.md)   
+ [IReferenceIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/ireferenceidentity-interface.md)  
+ [IEnumIDENTITY_ATTRIBUTE Interface](../../../../docs/framework/unmanaged-api/fusion/ienumidentity-attribute-interface.md)  
+ [IDENTITY_ATTRIBUTE Structure](../../../../docs/framework/unmanaged-api/fusion/identity-attribute-structure.md)  
  [Fusion Structures](../../../../docs/framework/unmanaged-api/fusion/fusion-structures.md)

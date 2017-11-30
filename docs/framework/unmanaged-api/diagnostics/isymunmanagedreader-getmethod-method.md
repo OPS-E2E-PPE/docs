@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetMethod Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetMethod Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetMethod"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMethod method, ISymUnmanagedReader interface [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetMethod method [.NET Framework debugging]"

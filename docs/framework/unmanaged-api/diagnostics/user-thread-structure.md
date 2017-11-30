@@ -1,5 +1,5 @@
 ---
-title: "USER_THREAD Structure | Microsoft Docs"
+title: "USER_THREAD Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "USER_THREAD"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "USER_THREAD structure [.NET Framework debugging]"
 ms.assetid: a57c7d71-c4b0-41f9-a964-0c5ee84a3124
@@ -55,5 +53,5 @@ typedef struct tagUSER_THREAD
  **Header:** ProtocolNotify2.idl  
   
 ## See Also  
- [SetNotifyFilter Method](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-setnotifyfilter-method.md)   
+ [SetNotifyFilter Method](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-setnotifyfilter-method.md)  
  [Diagnostics Symbol Store Structures](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-structures.md)

@@ -1,5 +1,5 @@
 ---
-title: "IGCThreadControl Interface | Microsoft Docs"
+title: "IGCThreadControl Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IGCThreadControl"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IGCThreadControl interface [.NET Framework hosting]"
 ms.assetid: 3ff04d75-85ac-4df9-886d-dbaa037c0552

@@ -1,5 +1,5 @@
 ---
-title: "How to: Make Entities Serializable | Microsoft Docs"
+title: "How to: Make Entities Serializable"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -34,5 +34,5 @@ sqlmetal /code:nwserializable.cs /language:csharp "c:\northwnd.mdf" /sprocs /fun
 ```  
   
 ## See Also  
- [Serialization](../../../../../../docs/framework/data/adonet/sql/linq/serialization.md)   
+ [Serialization](../../../../../../docs/framework/data/adonet/sql/linq/serialization.md)  
  [Creating the Object Model](../../../../../../docs/framework/data/adonet/sql/linq/creating-the-object-model.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue::GetVirtualMethod Method | Microsoft Docs"
+title: "ICorDebugObjectValue::GetVirtualMethod Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue::GetVirtualMethod"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetVirtualMethod method [.NET Framework debugging]"
   - "ICorDebugObjectValue::GetVirtualmethod method [.NET Framework debugging]"

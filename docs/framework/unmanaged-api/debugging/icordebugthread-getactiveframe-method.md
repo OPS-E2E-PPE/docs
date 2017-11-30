@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread::GetActiveFrame Method | Microsoft Docs"
+title: "ICorDebugThread::GetActiveFrame Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread::GetActiveFrame"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugThread::GetActiveFrame method [.NET Framework debugging]"
   - "GetActiveFrame method, ICorDebugThread interface [.NET Framework debugging]"

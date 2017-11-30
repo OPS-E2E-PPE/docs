@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRegisterSet2 Interface | Microsoft Docs"
+title: "ICorDebugRegisterSet2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRegisterSet2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugRegisterSet2 interface [.NET Framework debugging]"
 ms.assetid: d7fbccbf-3b6b-4db8-a96d-768e1cb6b1a6
@@ -55,5 +53,5 @@ Extends the capabilities of the [ICorDebugRegisterSet](../../../../docs/framewor
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [ICorDebugRegisterSet Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset-interface.md)

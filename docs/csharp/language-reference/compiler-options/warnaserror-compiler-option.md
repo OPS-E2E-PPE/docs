@@ -1,14 +1,12 @@
 ---
-title: "-warnaserror (C# Compiler Options) | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "-warnaserror (C# Compiler Options)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
 ms.topic: "article"
 f1_keywords: 
   - "/warnaserror"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "/warnaserror compiler option [C#]"
   - "-warnaserror compiler option [C#]"
@@ -17,20 +15,6 @@ ms.assetid: 04680ec3-08d6-4e2e-a274-38310e10e33c
 caps.latest.revision: 15
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /warnaserror (C# Compiler Options)
 The **/warnaserror+** option treats all warnings as errors  
@@ -69,5 +53,5 @@ csc /warnaserror:642,649,652 in.cs
 ```  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [Managing Project and Solution Properties](/visualstudio/ide/managing-project-and-solution-properties)

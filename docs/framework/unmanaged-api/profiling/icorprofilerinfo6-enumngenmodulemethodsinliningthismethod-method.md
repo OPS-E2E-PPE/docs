@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo6::EnumNgenModuleMethodsInliningThisMethod Method | Microsoft Docs"
+title: "ICorProfilerInfo6::EnumNgenModuleMethodsInliningThisMethod Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "C++"
 ms.assetid: b933dfe6-7833-40cb-aad8-40842dc3034f
 caps.latest.revision: 6
 author: "rpetrusha"

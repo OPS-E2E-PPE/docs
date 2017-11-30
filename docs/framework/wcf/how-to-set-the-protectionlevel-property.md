@@ -1,5 +1,5 @@
 ---
-title: "How to: Set the ProtectionLevel Property | Microsoft Docs"
+title: "How to: Set the ProtectionLevel Property"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, security"
   - "ProtectionLevel property"
@@ -74,7 +77,7 @@ You can set the protection level by applying an appropriate attribute and settin
   
 3.  Apply the <xref:System.ServiceModel.MessageHeaderAttribute> attribute to a field that will be expressed as a message header and set the `ProtectionLevel` property to <xref:System.Net.Security.ProtectionLevel.EncryptAndSign>.  
   
-4.  Apply the <xref:System.ServiceModel.MessageBodyMemberAttribute> to any field that will be expressed as part of the message body, and set the `ProtectionLevel`property to <xref:System.Net.Security.ProtectionLevel.EncryptAndSign>, as shown in the following example.  
+4.  Apply the <xref:System.ServiceModel.MessageBodyMemberAttribute> to any field that will be expressed as part of the message body, and set the `ProtectionLevel` property to <xref:System.Net.Security.ProtectionLevel.EncryptAndSign>, as shown in the following example.  
   
      [!code-csharp[C_ProtectionLevel#5](../../../samples/snippets/csharp/VS_Snippets_CFX/c_protectionlevel/cs/source.cs#5)]
      [!code-vb[C_ProtectionLevel#5](../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_protectionlevel/vb/source.vb#5)]  
@@ -92,9 +95,9 @@ You can set the protection level by applying an appropriate attribute and settin
  [!code-vb[C_ProtectionLevel#0](../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_protectionlevel/vb/source.vb#0)]  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceContractAttribute>   
- <xref:System.ServiceModel.OperationContractAttribute>   
- <xref:System.ServiceModel.FaultContractAttribute>   
- <xref:System.ServiceModel.MessageContractAttribute>   
- <xref:System.ServiceModel.MessageBodyMemberAttribute>   
+ <xref:System.ServiceModel.ServiceContractAttribute>  
+ <xref:System.ServiceModel.OperationContractAttribute>  
+ <xref:System.ServiceModel.FaultContractAttribute>  
+ <xref:System.ServiceModel.MessageContractAttribute>  
+ <xref:System.ServiceModel.MessageBodyMemberAttribute>  
  [Understanding Protection Level](../../../docs/framework/wcf/understanding-protection-level.md)

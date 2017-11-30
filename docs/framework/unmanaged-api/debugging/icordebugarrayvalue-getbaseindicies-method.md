@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetBaseIndicies Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetBaseIndicies Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetBaseIndicies"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugArrayValue::GetBaseIndicies method [.NET Framework debugging]"
   - "GetBaseIndicies method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode4::EnumerateVariableHomes Method | Microsoft Docs"
+title: "ICorDebugCode4::EnumerateVariableHomes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode4::EnumerateVariableHomes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateVariableHomes method [.NET Framework debugging]"
   - "ICorDebugCode4::EnumerateVariableHomes method [.NET Framework debugging]"
@@ -58,5 +56,5 @@ HRESULT EnumerateVariableHomes(
  **.NET Framework Versions:** [!INCLUDE[net_current_v462plus](../../../../includes/net-current-v462plus-md.md)]  
   
 ## See Also  
- [ICorDebugCode4 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugcode4-interface.md)   
+ [ICorDebugCode4 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugcode4-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

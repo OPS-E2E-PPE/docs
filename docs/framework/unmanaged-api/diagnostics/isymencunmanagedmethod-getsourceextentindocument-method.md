@@ -1,5 +1,5 @@
 ---
-title: "ISymENCUnmanagedMethod::GetSourceExtentInDocument Method | Microsoft Docs"
+title: "ISymENCUnmanagedMethod::GetSourceExtentInDocument Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymENCUnmanagedMethod::GetSourceExtentInDocument"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSourceExtentInDocument method [.NET Framework debugging]"
   - "ISymENCUnmanagedMethod::GetSourceExtentInDocument method [.NET Framework debugging]"

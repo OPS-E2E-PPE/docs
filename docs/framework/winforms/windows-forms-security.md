@@ -1,5 +1,5 @@
 ---
-title: "Windows Forms Security | Microsoft Docs"
+title: "Windows Forms Security"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,15 +9,13 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "designer access security"
-  - "permissions, Windows Forms"
+  - "designer access security [Windows Forms]"
+  - "permissions [Windows Forms], Windows Forms"
   - "Windows Forms, security"
   - "security [Windows Forms]"
-  - "access control, Windows Forms"
-  - "security policy, Windows Forms"
+  - "access control [Windows Forms], Windows Forms"
+  - "security policy [Windows Forms], Windows Forms"
 ms.assetid: 932d438a-5285-46d8-a958-8c93d0ad6cae
 caps.latest.revision: 8
 author: dotnet-bot

@@ -1,5 +1,5 @@
 ---
-title: "How to: Animate a Double by Using Key Frames | Microsoft Docs"
+title: "How to: Animate a Double by Using Key Frames"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Doubles, animating with key frames"
-  - "animation, Doubles with key frames"
-  - "key frames, animating Doubles with"
+  - "Doubles [WPF], animating with key frames"
+  - "animation [WPF], Doubles with key frames"
+  - "key frames [WPF], animating Doubles with"
 ms.assetid: 3a1a7dba-7694-4907-8a2f-3408baebfa82
 caps.latest.revision: 16
 author: dotnet-bot
@@ -33,17 +36,17 @@ This example shows how to animate the value of a property that takes a <xref:Sys
   
  [!code-csharp[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/keyframes_snip/CSharp/AltDoubleAnimationUsingKeyFramesExample.cs#altdoubleanimationusingkeyframeswholepage)]
  [!code-vb[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/keyframes_snip/visualbasic/altdoubleanimationusingkeyframesexample.vb#altdoubleanimationusingkeyframeswholepage)]
- [!code-xml[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/AltDoubleAnimationUsingKeyFramesExample.xaml#altdoubleanimationusingkeyframeswholepage)]  
+ [!code-xaml[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/AltDoubleAnimationUsingKeyFramesExample.xaml#altdoubleanimationusingkeyframeswholepage)]  
   
  For the complete sample, see [KeyFrame Animation Sample](http://go.microsoft.com/fwlink/?LinkID=160012).  
   
  For consistency with other animation examples, the code versions of this example use a <xref:System.Windows.Media.Animation.Storyboard> object to apply the <xref:System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames>. Alternatively, when applying a single animation in code, it is simpler to use the <xref:System.Windows.Media.Animation.Animatable.BeginAnimation%2A> method instead of using a <xref:System.Windows.Media.Animation.Storyboard>. For an example, see [Animate a Property Without Using a Storyboard](../../../../docs/framework/wpf/graphics-multimedia/how-to-animate-a-property-without-using-a-storyboard.md).  
   
 ## See Also  
- <xref:System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames>   
- <xref:System.Windows.Shapes.Rectangle>   
- <xref:System.Windows.Media.Animation.LinearDoubleKeyFrame>   
- <xref:System.Windows.Media.Animation.DiscreteDoubleKeyFrame>   
- <xref:System.Windows.Media.Animation.SplineDoubleKeyFrame>   
- [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)   
+ <xref:System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames>  
+ <xref:System.Windows.Shapes.Rectangle>  
+ <xref:System.Windows.Media.Animation.LinearDoubleKeyFrame>  
+ <xref:System.Windows.Media.Animation.DiscreteDoubleKeyFrame>  
+ <xref:System.Windows.Media.Animation.SplineDoubleKeyFrame>  
+ [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)  
  [Key-Frame How-to Topics](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animation-how-to-topics.md)

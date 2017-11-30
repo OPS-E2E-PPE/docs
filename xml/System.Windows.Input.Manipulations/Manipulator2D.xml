@@ -106,7 +106,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Input.Manipulations.Manipulator2D manipulator1, System.Windows.Input.Manipulations.Manipulator2D manipulator2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Input.Manipulations.Manipulator2D manipulator1, System.Windows.Input.Manipulations.Manipulator2D manipulator2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Input.Manipulations.Manipulator2D manipulator1, valuetype System.Windows.Input.Manipulations.Manipulator2D manipulator2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Input.Manipulations.Manipulator2D.op_Equality(System.Windows.Input.Manipulations.Manipulator2D,System.Windows.Input.Manipulations.Manipulator2D)" />
       <MemberType>Method</MemberType>
@@ -128,12 +128,12 @@
         <returns>
           <see langword="true" /> if the two <see cref="T:System.Windows.Input.Manipulations.Manipulator2D" /> objects have the same value; otherwise, <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Input.Manipulations.Manipulator2D.Equals%2A?displayProperty=fullName>]]>.</format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Input.Manipulations.Manipulator2D.Equals%2A?displayProperty=nameWithType>]]>.</format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Input.Manipulations.Manipulator2D manipulator1, System.Windows.Input.Manipulations.Manipulator2D manipulator2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Input.Manipulations.Manipulator2D manipulator1, System.Windows.Input.Manipulations.Manipulator2D manipulator2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Input.Manipulations.Manipulator2D manipulator1, valuetype System.Windows.Input.Manipulations.Manipulator2D manipulator2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Input.Manipulations.Manipulator2D.op_Inequality(System.Windows.Input.Manipulations.Manipulator2D,System.Windows.Input.Manipulations.Manipulator2D)" />
       <MemberType>Method</MemberType>
@@ -155,7 +155,7 @@
         <returns>
           <see langword="true" /> if the two <see cref="T:System.Windows.Input.Manipulations.Manipulator2D" /> objects have different values; otherwise, <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is the negation of <xref:System.Windows.Input.Manipulations.Manipulator2D.Equals%2A?displayProperty=fullName>]]>. </format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is the negation of <xref:System.Windows.Input.Manipulations.Manipulator2D.Equals%2A?displayProperty=nameWithType>]]>. </format>
         </remarks>
       </Docs>
     </Member>

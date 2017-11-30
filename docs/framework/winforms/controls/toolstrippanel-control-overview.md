@@ -1,5 +1,5 @@
 ---
-title: "ToolStripPanel Control Overview | Microsoft Docs"
+title: "ToolStripPanel Control Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ToolStripPanel"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "toolbars [Windows Forms]"
   - "ToolStripPanel control [Windows Forms], about ToolStripPanel control"
@@ -37,6 +35,6 @@ A <xref:System.Windows.Forms.ToolStripPanel> provides a single area for position
 |<xref:System.Windows.Forms.ToolStripPanel.Join%2A>|Adds a <xref:System.Windows.Forms.ToolStrip> to a <xref:System.Windows.Forms.ToolStripPanel>.|  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStripContainer>   
- <xref:System.Windows.Forms.ToolStripContentPanel>   
+ <xref:System.Windows.Forms.ToolStripContainer>  
+ <xref:System.Windows.Forms.ToolStripContentPanel>  
  [ToolStrip Sample](http://msdn.microsoft.com/en-us/b7352439-184a-4a3a-b2ad-07465d3af9ed)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRemoteTarget::GetHostName Method | Microsoft Docs"
+title: "ICorDebugRemoteTarget::GetHostName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRemoteTarget::GetHostName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugRemoteTarget::GetHostName method [.NET Framework debugging]"
   - "GetHostName method, ICorDebugRemoteTarget interface [.NET Framework debugging]"
@@ -73,5 +71,5 @@ HRESULT GetHostName (
  **.NET Framework Versions:** 3.5 SP1  
   
 ## See Also  
- [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)   
+ [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)  
  [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)

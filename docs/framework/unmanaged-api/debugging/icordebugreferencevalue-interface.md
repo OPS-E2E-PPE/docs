@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugReferenceValue Interface1 | Microsoft Docs"
+title: "ICorDebugReferenceValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugReferenceValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugReferenceValue interface [.NET Framework debugging]"
 ms.assetid: 2040e2be-119a-4cfb-ae52-b0b6f052665c

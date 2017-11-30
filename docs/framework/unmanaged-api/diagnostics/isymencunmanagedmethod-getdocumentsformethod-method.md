@@ -1,5 +1,5 @@
 ---
-title: "ISymENCUnmanagedMethod::GetDocumentsForMethod Method | Microsoft Docs"
+title: "ISymENCUnmanagedMethod::GetDocumentsForMethod Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymENCUnmanagedMethod::GetDocumentsForMethod"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetDocumentsForMethod method [.NET Framework debugging]"
   - "ISymENCUnmanagedMethod::GetDocumentsForMethod method [.NET Framework debugging]"

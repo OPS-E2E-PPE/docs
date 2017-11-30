@@ -1,5 +1,5 @@
 ---
-title: "AddFile2 Method | Microsoft Docs"
+title: "AddFile2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddFile2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AddFile2 method"
 ms.assetid: 03bc49bf-a89b-4fb6-a88d-97482e061195
@@ -68,6 +66,6 @@ HRESULT AddFile2(
  Requires alink.h.  
   
 ## See Also  
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

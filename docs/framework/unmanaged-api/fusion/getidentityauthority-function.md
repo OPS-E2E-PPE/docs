@@ -1,5 +1,5 @@
 ---
-title: "GetIdentityAuthority Function | Microsoft Docs"
+title: "GetIdentityAuthority Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetIdentityAuthority"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetIdentityAuthority function [.NET Framework fusion]"
 ms.assetid: 843cd5ab-d2b7-4ff6-86bd-e68c7a91c098
@@ -53,5 +51,5 @@ HRESULT GetIdentityAuthority (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IIdentityAuthority Interface](../../../../docs/framework/unmanaged-api/fusion/iidentityauthority-interface.md)   
+ [IIdentityAuthority Interface](../../../../docs/framework/unmanaged-api/fusion/iidentityauthority-interface.md)  
  [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)

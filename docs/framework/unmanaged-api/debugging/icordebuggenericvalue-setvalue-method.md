@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugGenericValue::SetValue Method | Microsoft Docs"
+title: "ICorDebugGenericValue::SetValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugGenericValue::SetValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugGenericValue::SetValue method [.NET Framework debugging]"
   - "SetValue method, ICorDebugGenericValue interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "Registering Assemblies with COM | Microsoft Docs"
+title: "Registering Assemblies with COM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "COM interop, registering assemblies"
   - "unregistering assemblies"
@@ -53,7 +48,7 @@ You can run a command-line tool called the [Assembly Registration Tool (Regasm.e
  For the `InprocServer32` subkey, a reference to Mscoree.dll appears in place of a traditional COM type library to indicate that the common language runtime creates the managed object.  
   
 ## See Also  
- [Exposing .NET Framework Components to COM](../../../docs/framework/interop/exposing-dotnet-components-to-com.md)   
- [How to: Reference .NET Types from COM](../../../docs/framework/interop/how-to-reference-net-types-from-com.md)   
- [Calling a .NET Object](http://msdn.microsoft.com/en-us/40c9626c-aea6-4bad-b8f0-c1de462efd33)   
+ [Exposing .NET Framework Components to COM](../../../docs/framework/interop/exposing-dotnet-components-to-com.md)  
+ [How to: Reference .NET Types from COM](../../../docs/framework/interop/how-to-reference-net-types-from-com.md)  
+ [Calling a .NET Object](http://msdn.microsoft.com/en-us/40c9626c-aea6-4bad-b8f0-c1de462efd33)  
  [Deploying an Application for COM Access](http://msdn.microsoft.com/en-us/fb63564c-c1b9-4655-a094-a235625882ce)

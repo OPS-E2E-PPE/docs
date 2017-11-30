@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::SetUserEntryPoint Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::SetUserEntryPoint Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::SetUserEntryPoint"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::SetUserEntryPoint method [.NET Framework debugging]"
   - "SetUserEntryPoint method [.NET Framework debugging]"

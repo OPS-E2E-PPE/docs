@@ -1,5 +1,5 @@
 ---
-title: "How to: Detect Whether the .NET Framework 3.0 Is Installed | Microsoft Docs"
+title: "How to: Detect Whether the .NET Framework 3.0 Is Installed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "WinFX Runtime user-agent string"
-  - "presence of WPT, detecting"
-  - "detecting WPF presence"
+  - "presence of WPT [WPF], detecting"
+  - "detecting WPF presence [WPF]"
 ms.assetid: 7f71d652-1749-4379-945a-aa2e3994cb43
 caps.latest.revision: 12
 author: dotnet-bot

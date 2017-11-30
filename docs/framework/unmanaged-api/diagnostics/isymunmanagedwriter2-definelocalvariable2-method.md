@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter2::DefineLocalVariable2 Method | Microsoft Docs"
+title: "ISymUnmanagedWriter2::DefineLocalVariable2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter2::DefineLocalVariable2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter2::DefineLocalVariable2 method [.NET Framework debugging]"
   - "DefineLocalVariable2 method [.NET Framework debugging]"
@@ -83,5 +81,5 @@ HRESULT DefineLocalVariable2(
  **Header:** CorSym.idl  
   
 ## See Also  
- [ISymUnmanagedWriter2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter2-interface.md)   
+ [ISymUnmanagedWriter2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter2-interface.md)  
  [DefineLocalVariable Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter-definelocalvariable-method.md)

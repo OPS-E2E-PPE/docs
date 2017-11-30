@@ -1,5 +1,5 @@
 ---
-title: "Strong Naming (Unmanaged API Reference) | Microsoft Docs"
+title: "Strong Naming (Unmanaged API Reference)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "strong naming [.NET Framework], using the unmanaged API"
   - "native API reference [.NET Framework], strong naming"
@@ -118,5 +116,5 @@ The strong naming API enables a client to administer strong name signing for ass
  Represents the public key of a public/private key pair in binary format.  
   
 ## See Also  
- [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)   
+ [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)  
  [Unmanaged API Reference](../../../../docs/framework/unmanaged-api/index.md)

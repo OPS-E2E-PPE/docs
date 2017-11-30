@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetDocumentVersion Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetDocumentVersion Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetDocumentVersion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetDocumentVersion method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetDocumentVersion method [.NET Framework debugging]"

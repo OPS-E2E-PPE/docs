@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThreadEnum Interface1 | Microsoft Docs"
+title: "ICorDebugThreadEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThreadEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugThreadEnum interface [.NET Framework debugging]"
 ms.assetid: 796de687-7dd4-4b7b-a10b-8bf22dc7779f

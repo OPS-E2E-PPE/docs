@@ -1,5 +1,5 @@
 ---
-title: "ICorThreadpool::CorSetMaxThreads Method | Microsoft Docs"
+title: "ICorThreadpool::CorSetMaxThreads Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorSetMaxThreads"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorThreadpool::CorSetMaxThreads method [.NET Framework hosting]"
   - "CorSetMaxThreads method [.NET Framework hosting]"

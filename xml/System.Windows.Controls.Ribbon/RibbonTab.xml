@@ -42,7 +42,7 @@
 ## Examples  
  The following example shows the markup for a simple ribbon tab.  
   
- [!code-xml[Ribbon_Snippets#RibbonTabDefault](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_snippets/cs/mainwindow.xaml#ribbontabdefault)]  
+ [!code-xaml[Ribbon_Snippets#RibbonTabDefault](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_snippets/cs/mainwindow.xaml#ribbontabdefault)]  
   
  ]]></format>
     </remarks>
@@ -438,6 +438,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Controls.Ribbon.RibbonTab.OnSelected(System.Windows.RoutedEventArgs)" />
+        <altmember cref="M:System.Windows.Controls.Ribbon.RibbonTab.OnUnselected(System.Windows.RoutedEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="IsSelectedProperty">

@@ -1,5 +1,5 @@
 ---
-title: "Alpha Blending Lines and Fills | Microsoft Docs"
+title: "Alpha Blending Lines and Fills"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,17 +9,15 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "lines, adding transparency"
+  - "lines [Windows Forms], adding transparency"
   - "examples [Windows Forms], alpha blending"
-  - "alpha blending, using with lines"
+  - "alpha blending [Windows Forms], using with lines"
   - "alpha blending"
-  - "lines, alpha blending"
-  - "fills, alpha blending"
-  - "alpha blending, using with fills"
-  - "shapes, adding transparency"
+  - "lines [Windows Forms], alpha blending"
+  - "fills [Windows Forms], alpha blending"
+  - "alpha blending [Windows Forms], using with fills"
+  - "shapes [Windows Forms], adding transparency"
 ms.assetid: 5440f48c-3ac9-44c3-b170-c1c110bdbab8
 caps.latest.revision: 13
 author: dotnet-bot

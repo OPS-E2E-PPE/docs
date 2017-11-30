@@ -1,5 +1,5 @@
 ---
-title: "Alternation Constructs in Regular Expressions | Microsoft Docs"
+title: "Alternation Constructs in Regular Expressions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "either/or matching"
   - "alternative matching patterns"

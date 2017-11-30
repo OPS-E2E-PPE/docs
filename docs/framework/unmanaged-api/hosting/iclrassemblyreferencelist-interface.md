@@ -1,5 +1,5 @@
 ---
-title: "ICLRAssemblyReferenceList Interface | Microsoft Docs"
+title: "ICLRAssemblyReferenceList Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRAssemblyReferenceList"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRAssemblyReferenceList interface [.NET Framework hosting]"
 ms.assetid: 5f890fdf-d22a-429e-a35f-135273d1a636
@@ -52,6 +50,6 @@ Manages a list of assemblies that are loaded by the common language runtime (CLR
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)   
- [IHostAssemblyStore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostassemblystore-interface.md)   
+ [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)  
+ [IHostAssemblyStore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostassemblystore-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

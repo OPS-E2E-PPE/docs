@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::GetSectionDataLen Method | Microsoft Docs"
+title: "ICeeGen::GetSectionDataLen Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::GetSectionDataLen"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICeeGen::GetSectionDataLen method [.NET Framework metadata]"
   - "GetSectionDataLen method [.NET Framework metadata]"

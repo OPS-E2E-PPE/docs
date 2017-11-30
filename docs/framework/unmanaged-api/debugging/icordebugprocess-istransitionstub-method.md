@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::IsTransitionStub Method | Microsoft Docs"
+title: "ICorDebugProcess::IsTransitionStub Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::IsTransitionStub"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess::IsTransitionStub method [.NET Framework debugging]"
   - "IsTransitionStub method [.NET Framework debugging]"

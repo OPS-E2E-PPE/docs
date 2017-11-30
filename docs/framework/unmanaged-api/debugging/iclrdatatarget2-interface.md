@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget2 Interface | Microsoft Docs"
+title: "ICLRDataTarget2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget2 interface [.NET Framework debugging]"
 ms.assetid: 94249397-861b-4294-a538-cf01466a66d3
@@ -52,5 +50,5 @@ A subclass of [ICLRDataTarget](../../../../docs/framework/unmanaged-api/debuggin
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/iclrdatatarget-interface.md)   
+ [ICLRDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/iclrdatatarget-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

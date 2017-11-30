@@ -1,5 +1,5 @@
 ---
-title: "SqlDependency in an ASP.NET Application | Microsoft Docs"
+title: "SqlDependency in an ASP.NET Application"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: ff226ce3-f6b5-47a1-8d22-dc78b67e07f5
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -61,5 +64,5 @@ The example in this section shows how to use <xref:System.Data.SqlClient.SqlDepe
  Now update the data in the database, using a Transact-SQL UPDATE command and refresh the page. The time displayed now indicates that the cache was refreshed with the new data from the database. Note that although the cache is updated, the time displayed on the page does not change until a postback event occurs.  
   
 ## See Also  
- [Query Notifications in SQL Server](../../../../../docs/framework/data/adonet/sql/query-notifications-in-sql-server.md)   
+ [Query Notifications in SQL Server](../../../../../docs/framework/data/adonet/sql/query-notifications-in-sql-server.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

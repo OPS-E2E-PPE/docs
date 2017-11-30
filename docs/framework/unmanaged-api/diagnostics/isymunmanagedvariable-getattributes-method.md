@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedVariable::GetAttributes Method | Microsoft Docs"
+title: "ISymUnmanagedVariable::GetAttributes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedVariable::GetAttributes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetAttributes method [.NET Framework debugging]"
   - "ISymUnmanagedVariable::GetAttributes method [.NET Framework debugging]"

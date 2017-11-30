@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Security Token Service | Microsoft Docs"
+title: "How to: Create a Security Token Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, federation"
   - "federation"
@@ -127,11 +130,11 @@ A security token service implements the protocol defined in the WS-Trust specifi
  For full code for a security token service, see [Federation Sample](../../../../docs/framework/wcf/samples/federation-sample.md).  
   
 ## See Also  
- <xref:System.IdentityModel.Tokens.SigningCredentials>   
- <xref:System.IdentityModel.Tokens.SecurityKey>   
- <xref:System.IdentityModel.Tokens.SecurityKeyIdentifier>   
- <xref:System.IdentityModel.Tokens.SamlSecurityToken>   
- <xref:System.IdentityModel.Tokens.SamlAssertion>   
- <xref:System.ServiceModel.Security.Tokens.BinarySecretSecurityToken>   
- <xref:System.IdentityModel.Tokens.SecurityKeyIdentifierClause>   
+ <xref:System.IdentityModel.Tokens.SigningCredentials>  
+ <xref:System.IdentityModel.Tokens.SecurityKey>  
+ <xref:System.IdentityModel.Tokens.SecurityKeyIdentifier>  
+ <xref:System.IdentityModel.Tokens.SamlSecurityToken>  
+ <xref:System.IdentityModel.Tokens.SamlAssertion>  
+ <xref:System.ServiceModel.Security.Tokens.BinarySecretSecurityToken>  
+ <xref:System.IdentityModel.Tokens.SecurityKeyIdentifierClause>  
  [Federation Sample](../../../../docs/framework/wcf/samples/federation-sample.md)

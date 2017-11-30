@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetBaseAddress Method | Microsoft Docs"
+title: "ICorDebugModule::GetBaseAddress Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetBaseAddress"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetBaseAddress method [.NET Framework debugging]"
   - "ICorDebugModule::GetBaseAddress method [.NET Framework debugging]"

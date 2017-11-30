@@ -1,5 +1,5 @@
 ---
-title: "WS-AtomicTransaction Configuration Utility (wsatConfig.exe) | Microsoft Docs"
+title: "WS-AtomicTransaction Configuration Utility (wsatConfig.exe)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -56,5 +56,5 @@ wsatConfig [Options]
 |-virtualServer:\<virtualServer>|Specifies the DTC resource cluster name.|  
   
 ## See Also  
- [Using WS-AtomicTransaction](../../../docs/framework/wcf/feature-details/using-ws-atomictransaction.md)   
+ [Using WS-AtomicTransaction](../../../docs/framework/wcf/feature-details/using-ws-atomictransaction.md)  
  [Configuring WS-Atomic Transaction Support](../../../docs/framework/wcf/feature-details/configuring-ws-atomic-transaction-support.md)

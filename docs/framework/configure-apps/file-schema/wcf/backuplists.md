@@ -1,5 +1,5 @@
 ---
-title: "&lt;backupLists&gt; | Microsoft Docs"
+title: "&lt;backupLists&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -24,13 +24,10 @@ Represents a configuration section for defining a set of backup services used in
   
 ## Syntax  
   
-```vb  
+```xml
    <routing>  <backupLists>    <backupList name="String">      <add endpointName="String" />    </backupList>    </backupLists></routing>  
-```  
-  
-```csharp  
-```  
-  
+```
+
 ## Attributes and Elements  
  The following sections describe attributes, child elements, and parent elements.  
   
@@ -50,4 +47,4 @@ Represents a configuration section for defining a set of backup services used in
 |[\<routing>](../../../../../docs/framework/configure-apps/file-schema/wcf/routing.md)|Represents a configuration section for defining a set of routing filters, which determine the type of [!INCLUDE[indigo1](../../../../../includes/indigo1-md.md)]<xref:System.ServiceModel.Dispatcher.MessageFilter> to be used when evaluating incoming messages, as well as routing tables that define the target endpoints to send messages to when a filter matches.|  
   
 ## See Also  
- <xref:System.ServiceModel.Routing.Configuration.BackupEndpointCollection?displayProperty=fullName>    
+ <xref:System.ServiceModel.Routing.Configuration.BackupEndpointCollection?displayProperty=nameWithType>    

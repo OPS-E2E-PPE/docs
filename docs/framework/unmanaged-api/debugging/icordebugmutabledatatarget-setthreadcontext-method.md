@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMutableDataTarget::SetThreadContext Method | Microsoft Docs"
+title: "ICorDebugMutableDataTarget::SetThreadContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 8c0d01d5-67e5-4522-9ccf-c8f3a78cb4fd
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -51,5 +49,5 @@ HRESULT SetThreadContext(
  **.NET Framework Versions:** [!INCLUDE[net_current_v46plus](../../../../includes/net-current-v46plus-md.md)]  
   
 ## See Also  
- [ICorDebugMutableDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmutabledatatarget-interface.md)   
+ [ICorDebugMutableDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmutabledatatarget-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

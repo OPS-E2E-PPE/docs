@@ -1,5 +1,5 @@
 ---
-title: "ImportTypes Method | Microsoft Docs"
+title: "ImportTypes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ImportTypes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ImportTypes method"
 ms.assetid: 351d4b4c-c939-486d-9471-51914a55f471
@@ -71,6 +69,6 @@ HRESULT ImportTypes(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

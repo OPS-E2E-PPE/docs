@@ -1,5 +1,5 @@
 ---
-title: "Socket Code Examples | Microsoft Docs"
+title: "Socket Code Examples"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "application protocols, sockets"
   - "sending data, sockets"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugBreakpoint::IsActive Method | Microsoft Docs"
+title: "ICorDebugBreakpoint::IsActive Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugBreakpoint::IsActive"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugBreakpoint::IsActive method [.NET Framework debugging]"
   - "IsActive method, ICorDebugBreakpoint interface [.NET Framework debugging]"

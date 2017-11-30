@@ -1,5 +1,5 @@
 ---
-title: "Process XML Data Using LINQ to XML | Microsoft Docs"
+title: "Process XML Data Using LINQ to XML"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 059d6b9d-63f7-4011-9ba8-8406f0bbae7d
 caps.latest.revision: 2
 author: "mairaw"
@@ -29,7 +24,7 @@ LINQ to XML is the new model in the .NET Framework version 3.5 for processing XM
  See [LINQ to XML](http://msdn.microsoft.com/library/f0fe21e9-ee43-4a55-b91a-0800e5782c13) for a detailed discussion of its use, and see [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/library/a73c4aec-5d15-4e98-b962-1274021ea93d) for an overview of the LINQ framework.  
   
 ## See Also  
- <xref:System.Xml.Linq>   
- <xref:System.Linq>   
- [LINQ to XML vs. DOM](http://msdn.microsoft.com/library/19b5ed02-feb2-455a-8897-f7f0fd76aca3)   
+ <xref:System.Xml.Linq>  
+ <xref:System.Linq>  
+ [LINQ to XML vs. DOM](http://msdn.microsoft.com/library/19b5ed02-feb2-455a-8897-f7f0fd76aca3)  
  [LINQ to XML vs. Other XML Technologies](http://msdn.microsoft.com/library/7ba1eecf-f09a-42de-bc80-22ca5b2e42d3)

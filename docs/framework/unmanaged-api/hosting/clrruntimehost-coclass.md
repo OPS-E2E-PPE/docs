@@ -1,5 +1,5 @@
 ---
-title: "CLRRuntimeHost Coclass | Microsoft Docs"
+title: "CLRRuntimeHost Coclass"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CLRRuntimeHost"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CLRRuntimeHost coclass [.NET Framework hosting]"
 ms.assetid: 2ac9cbf5-8a2d-4e4f-8831-0dad8ef0a897

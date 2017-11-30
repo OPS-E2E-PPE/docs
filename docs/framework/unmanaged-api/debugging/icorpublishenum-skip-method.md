@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishEnum::Skip Method | Microsoft Docs"
+title: "ICorPublishEnum::Skip Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishEnum::Skip"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorPublishEnum::Skip method [.NET Framework debugging]"
   - "Skip method, ICorDebugEnum interface [.NET Framework debugging]"

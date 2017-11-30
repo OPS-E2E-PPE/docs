@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugILFrame2::EnumerateTypeParameters Method | Microsoft Docs"
+title: "ICorDebugILFrame2::EnumerateTypeParameters Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugILFrame2::EnumerateTypeParameters"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateTypeParameters method, ICorDebugILFrame2 interface [.NET Framework debugging]"
   - "ICorDebugILFrame2::EnumerateTypeParameters method [.NET Framework debugging]"

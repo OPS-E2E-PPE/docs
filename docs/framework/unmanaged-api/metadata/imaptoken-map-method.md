@@ -1,5 +1,5 @@
 ---
-title: "IMapToken::Map Method | Microsoft Docs"
+title: "IMapToken::Map Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMapToken::Map"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMapToken::Map method [.NET Framework metadata]"
   - "Map method [.NET Framework metadata]"

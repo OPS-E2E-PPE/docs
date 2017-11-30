@@ -1,5 +1,5 @@
 ---
-title: "Literals (Entity SQL) | Microsoft Docs"
+title: "Literals (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 092ef693-6e5f-41b4-b868-5b9e82928abf
 caps.latest.revision: 4
 author: "JennieHubbard"

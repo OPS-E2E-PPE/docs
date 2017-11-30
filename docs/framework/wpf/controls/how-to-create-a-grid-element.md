@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Grid Element | Microsoft Docs"
+title: "How to: Create a Grid Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Grid control, creating, grid instance"
+  - "Grid control [WPF], creating [WPF], grid instance"
 ms.assetid: b2f07626-9df8-43b8-8d36-492f3cb42837
 caps.latest.revision: 13
 author: dotnet-bot
@@ -23,8 +26,8 @@ manager: "wpickett"
   
  [!code-csharp[Grid#3](../../../../samples/snippets/csharp/VS_Snippets_Wpf/Grid/CSharp/Grid_Code.cs#3)]
  [!code-vb[Grid#3](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/Grid/VisualBasic/grid_vb.vb#3)]
- [!code-xml[Grid#3](../../../../samples/snippets/xaml/VS_Snippets_Wpf/Grid/XAML/default.xaml#3)]  
+ [!code-xaml[Grid#3](../../../../samples/snippets/xaml/VS_Snippets_Wpf/Grid/XAML/default.xaml#3)]  
   
 ## See Also  
- <xref:System.Windows.Controls.Grid>   
+ <xref:System.Windows.Controls.Grid>  
  [Panels Overview](../../../../docs/framework/wpf/controls/panels-overview.md)

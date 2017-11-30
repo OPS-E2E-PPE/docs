@@ -1,5 +1,5 @@
 ---
-title: "Configuring Caching in Network Applications | Microsoft Docs"
+title: "Configuring Caching in Network Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "cache [.NET Framework], configuring"
 ms.assetid: 3f694a1c-de5d-47cf-a6eb-cfc369fb8a9f
@@ -34,7 +29,7 @@ To configure caching, you must specify a cache policy at the application or <xre
  You can also configure cache policy using application or machine configuration files. For more information, see &#124; [\<requestCaching> Element (Network Settings)](../../../docs/framework/configure-apps/file-schema/network/requestcaching-element-network-settings.md).  
   
 ## See Also  
- [Cache Management for Network Applications](../../../docs/framework/network-programming/cache-management-for-network-applications.md)   
- [Cache Policy](../../../docs/framework/network-programming/cache-policy.md)   
- [Location-Based Cache Policies](../../../docs/framework/network-programming/location-based-cache-policies.md)   
+ [Cache Management for Network Applications](../../../docs/framework/network-programming/cache-management-for-network-applications.md)  
+ [Cache Policy](../../../docs/framework/network-programming/cache-policy.md)  
+ [Location-Based Cache Policies](../../../docs/framework/network-programming/location-based-cache-policies.md)  
  [Time-Based Cache Policies](../../../docs/framework/network-programming/time-based-cache-policies.md)

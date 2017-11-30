@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RuntimeSuspendAborted Method | Microsoft Docs"
+title: "ICorProfilerCallback::RuntimeSuspendAborted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RuntimeSuspendAborted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::RuntimeSuspendAborted method [.NET Framework profiling]"
   - "RuntimeSuspendAborted method [.NET Framework profiling]"

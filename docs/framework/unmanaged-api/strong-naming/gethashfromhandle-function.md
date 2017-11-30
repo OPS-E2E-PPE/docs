@@ -1,5 +1,5 @@
 ---
-title: "GetHashFromHandle Function | Microsoft Docs"
+title: "GetHashFromHandle Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetHashFromHandle"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHashFromHandle function [.NET Framework strong naming]"
 ms.assetid: 9e00337f-b307-4602-9bc3-965a8dbf02cd
@@ -72,5 +70,5 @@ HRESULT GetHashFromHandle (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [GetHashFromHandle Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromhandle-method.md)   
+ [GetHashFromHandle Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromhandle-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

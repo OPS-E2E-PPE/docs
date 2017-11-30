@@ -1,5 +1,5 @@
 ---
-title: "How to: Draw Text on a Windows Form | Microsoft Docs"
+title: "How to: Draw Text on a Windows Form"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "forms, drawing text"
-  - "text, drawing"
+  - "forms [Windows Forms], drawing text"
+  - "text [Windows Forms], drawing"
 ms.assetid: 5d2447a9-21a1-4adc-b954-5516f2bb9b2c
 caps.latest.revision: 11
 author: dotnet-bot
@@ -37,11 +39,11 @@ The following code example shows how to use the <xref:System.Drawing.Graphics.Dr
 -   The Arial font is not installed.  
   
 ## See Also  
- <xref:System.Drawing.Graphics.DrawString%2A>   
- <xref:System.Windows.Forms.TextRenderer.DrawText%2A>   
- <xref:System.Drawing.StringFormat.FormatFlags%2A>   
- <xref:System.Drawing.StringFormatFlags>   
- <xref:System.Windows.Forms.TextFormatFlags>   
- <xref:System.Windows.Forms.Control.OnPaint%2A>   
- [Getting Started with Graphics Programming](../../../../docs/framework/winforms/advanced/getting-started-with-graphics-programming.md)   
+ <xref:System.Drawing.Graphics.DrawString%2A>  
+ <xref:System.Windows.Forms.TextRenderer.DrawText%2A>  
+ <xref:System.Drawing.StringFormat.FormatFlags%2A>  
+ <xref:System.Drawing.StringFormatFlags>  
+ <xref:System.Windows.Forms.TextFormatFlags>  
+ <xref:System.Windows.Forms.Control.OnPaint%2A>  
+ [Getting Started with Graphics Programming](../../../../docs/framework/winforms/advanced/getting-started-with-graphics-programming.md)  
  [How to: Draw Text with GDI](../../../../docs/framework/winforms/advanced/how-to-draw-text-with-gdi.md)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedENCUpdate::GetLocalVariableCount Method | Microsoft Docs"
+title: "ISymUnmanagedENCUpdate::GetLocalVariableCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedENCUpdate::GetLocalVariableCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedENCUpdate::GetLocalVariableCount method [.NET Framework debugging]"
   - "GetLocalVariableCount method [.NET Framework debugging]"

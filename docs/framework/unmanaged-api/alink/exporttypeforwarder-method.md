@@ -1,5 +1,5 @@
 ---
-title: "ExportTypeForwarder Method | Microsoft Docs"
+title: "ExportTypeForwarder Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ExportTypeForwarder"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExportTypeForwarder method"
 ms.assetid: 55989fa9-ab43-4f08-8eb6-2eb56fa7ca76
@@ -63,6 +61,6 @@ HRESULT ExportTypeForwarder(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

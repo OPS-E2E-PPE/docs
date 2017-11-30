@@ -1,5 +1,5 @@
 ---
-title: "COR_GC_STATS Structure | Microsoft Docs"
+title: "COR_GC_STATS Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_GC_STATS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_GC_STATS structure [.NET Framework hosting]"
 ms.assetid: 8d4ff73e-739b-40f6-9349-359fbc99c2f9
@@ -93,6 +91,6 @@ pCLRGCManager->GetStats(&GCStats);
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)   
- [Automatic Memory Management](../../../../docs/standard/automatic-memory-management.md)   
+ [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)  
+ [Automatic Memory Management](../../../../docs/standard/automatic-memory-management.md)  
  [Garbage Collection](../../../../docs/standard/garbage-collection/index.md)

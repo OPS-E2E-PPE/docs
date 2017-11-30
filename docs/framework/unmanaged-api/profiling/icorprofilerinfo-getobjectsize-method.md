@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetObjectSize Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetObjectSize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetObjectSize"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetObjectSize method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetObjectSize method [.NET Framework profiling]"

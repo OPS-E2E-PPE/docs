@@ -1,5 +1,5 @@
 ---
-title: "AJAX Integration and JSON Support | Microsoft Docs"
+title: "AJAX Integration and JSON Support"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -36,5 +36,5 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] support for ASP.NET 
  Describes how to migrate an AJAX-enabled ASP.NET Web service to a [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] Web service.  
   
 ## See Also  
- <xref:System.ServiceModel.Activation.WebScriptServiceHostFactory>   
+ <xref:System.ServiceModel.Activation.WebScriptServiceHostFactory>  
  [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)

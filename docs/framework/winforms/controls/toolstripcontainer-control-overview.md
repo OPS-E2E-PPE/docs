@@ -1,5 +1,5 @@
 ---
-title: "ToolStripContainer Control Overview | Microsoft Docs"
+title: "ToolStripContainer Control Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ToolStripContainer"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "toolbars [Windows Forms], built-in rafting"
   - "ToolStripContainer control [Windows Forms], about ToolStripContainer control"
@@ -41,5 +39,5 @@ A <xref:System.Windows.Forms.ToolStripContainer> has panels on its left, right, 
 |<xref:System.Windows.Forms.ToolStripContainer.TopToolStripPanelVisible%2A>|Gets or sets a value indicating whether the top panel of the <xref:System.Windows.Forms.ToolStripContainer> is visible.|  
   
 ## See Also  
- <xref:System.Windows.Forms.ToolStripContainer>   
+ <xref:System.Windows.Forms.ToolStripContainer>  
  <xref:System.Windows.Forms.ToolStripContentPanel>

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedENCUpdate::UpdateSymbolStore2 Method | Microsoft Docs"
+title: "ISymUnmanagedENCUpdate::UpdateSymbolStore2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedENCUpdate::UpdateSymbolStore2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedENCUpdate::UpdateSymbolStore2 method [.NET Framework debugging]"
   - "UpdateSymbolStore2 method [.NET Framework debugging]"

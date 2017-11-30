@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerObjectEnum::Skip Method | Microsoft Docs"
+title: "ICorProfilerObjectEnum::Skip Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerObjectEnum::Skip"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerObjectEnum::Skip method [.NET Framework profiling]"
   - "Skip method, ICorProfilerObjectEnum interface [.NET Framework profiling]"

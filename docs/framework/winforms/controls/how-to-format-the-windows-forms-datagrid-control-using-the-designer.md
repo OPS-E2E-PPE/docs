@@ -1,5 +1,5 @@
 ---
-title: "How to: Format the Windows Forms DataGrid Control Using the Designer | Microsoft Docs"
+title: "How to: Format the Windows Forms DataGrid Control Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "columns [Windows Forms], DataGrid controls"
-  - "colors, applying to DataGrid controls"
+  - "colors [Windows Forms], applying to DataGrid controls"
   - "DataGrid control [Windows Forms], formatting"
   - "DataGrid control [Windows Forms], default styles"
   - "tables [Windows Forms], formatting in DataGrid control"
@@ -106,8 +104,8 @@ manager: "wpickett"
     >  For more information about formatting strings, see [Formatting Types](../../../../docs/standard/base-types/formatting-types.md).  
   
 ## See Also  
- <xref:System.Windows.Forms.GridTableStylesCollection>   
- <xref:System.Windows.Forms.GridColumnStylesCollection>   
- <xref:System.Windows.Forms.DataGrid>   
- [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)   
+ <xref:System.Windows.Forms.GridTableStylesCollection>  
+ <xref:System.Windows.Forms.GridColumnStylesCollection>  
+ <xref:System.Windows.Forms.DataGrid>  
+ [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)  
  [DataGrid Control](../../../../docs/framework/winforms/controls/datagrid-control-windows-forms.md)

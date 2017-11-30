@@ -1,5 +1,5 @@
 ---
-title: "IGCHost::GetStats Method | Microsoft Docs"
+title: "IGCHost::GetStats Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetStats"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetStats method, IGCHost interface [.NET Framework hosting]"
   - "IGCHost::GetStats method [.NET Framework hosting]"

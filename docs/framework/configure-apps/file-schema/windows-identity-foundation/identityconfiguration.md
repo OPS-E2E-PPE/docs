@@ -1,5 +1,5 @@
 ---
-title: "&lt;identityConfiguration&gt; | Microsoft Docs"
+title: "&lt;identityConfiguration&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -99,5 +99,5 @@ Specifies service-level identity settings.
 ```  
   
 ## See Also  
- <xref:System.IdentityModel.Configuration.IdentityConfiguration>   
+ <xref:System.IdentityModel.Configuration.IdentityConfiguration>  
  <xref:System.IdentityModel.Configuration.IdentityConfigurationElement>

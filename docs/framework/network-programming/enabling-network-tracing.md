@@ -1,5 +1,5 @@
 ---
-title: "Enabling Network Tracing | Microsoft Docs"
+title: "Enabling Network Tracing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "trace destinations"
   - "sending traces to log file"
@@ -55,6 +50,6 @@ Network tracing provides access to information about method invocations and netw
 ```  
   
 ## See Also  
- [Interpreting Network Tracing](../../../docs/framework/network-programming/interpreting-network-tracing.md)   
- [Network Tracing in the .NET Framework](../../../docs/framework/network-programming/network-tracing.md)   
+ [Interpreting Network Tracing](../../../docs/framework/network-programming/interpreting-network-tracing.md)  
+ [Network Tracing in the .NET Framework](../../../docs/framework/network-programming/network-tracing.md)  
  [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)

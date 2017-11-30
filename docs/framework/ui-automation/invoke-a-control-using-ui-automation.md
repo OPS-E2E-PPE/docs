@@ -1,5 +1,5 @@
 ---
-title: "Invoke a Control Using UI Automation | Microsoft Docs"
+title: "Invoke a Control Using UI Automation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "invoking controls"
   - "UI Automation, invoking controls"

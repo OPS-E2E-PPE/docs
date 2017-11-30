@@ -1,5 +1,5 @@
 ---
-title: "How to: Host a Workflow Service with Windows Server App Fabric | Microsoft Docs"
+title: "How to: Host a Workflow Service with Windows Server App Fabric"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -97,7 +97,7 @@ Hosting workflow services in App Fabric is similar to hosting under IIS/WAS. The
      For more information about Windows Server App Fabric features and how to use them see [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkID=193143&clcid=0x409)  
   
 ## See Also  
- [Creating a Long-running Workflow Service](../../../../docs/framework/wcf/feature-details/creating-a-long-running-workflow-service.md)   
- [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=193143)   
- [Installing Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkId=193136)   
+ [Creating a Long-running Workflow Service](../../../../docs/framework/wcf/feature-details/creating-a-long-running-workflow-service.md)  
+ [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=193143)  
+ [Installing Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkId=193136)  
  [Windows Server App Fabric Documentation](http://go.microsoft.com/fwlink/?LinkID=193037&clcid=0x409)

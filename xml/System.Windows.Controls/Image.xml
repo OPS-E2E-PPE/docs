@@ -162,6 +162,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.ExceptionRoutedEventArgs" />
       </Docs>
     </Member>
     <Member MemberName="ImageFailedEvent">
@@ -230,7 +231,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method overrides <xref:System.Windows.ContentElement.OnCreateAutomationPeer?displayProperty=fullName>.  
+ This method overrides <xref:System.Windows.ContentElement.OnCreateAutomationPeer?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -314,7 +315,7 @@
 <a name="xamlValues_Source"></a>   
 ## XAML Values  
  *imageUri*  
- <xref:System.String?displayProperty=fullName>  
+ <xref:System.String?displayProperty=nameWithType>  
   
  A [!INCLUDE[TLA2#tla_uri](~/includes/tla2sharptla-uri-md.md)] of the image file.  
   
@@ -334,7 +335,7 @@
  [!code-cpp[StackPanelOvw4#3](~/samples/snippets/cpp/VS_Snippets_Wpf/StackPanelOvw4/CPP/StackPanel_Ovw_Sample4.cpp#3)]
  [!code-csharp[StackPanelOvw4#3](~/samples/snippets/csharp/VS_Snippets_Wpf/StackPanelOvw4/CSharp/StackPanel_Ovw_Sample4.cs#3)]
  [!code-vb[StackPanelOvw4#3](~/samples/snippets/visualbasic/VS_Snippets_Wpf/StackPanelOvw4/VisualBasic/StackPanelSamp.vb#3)]
- [!code-xml[StackPanelOvw4#3](~/samples/snippets/xaml/VS_Snippets_Wpf/StackPanelOvw4/XAML/default.xaml#3)]  
+ [!code-xaml[StackPanelOvw4#3](~/samples/snippets/xaml/VS_Snippets_Wpf/StackPanelOvw4/XAML/default.xaml#3)]  
   
  ]]></format>
         </remarks>
@@ -396,6 +397,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Image.StretchDirection" />
       </Docs>
     </Member>
     <Member MemberName="StretchDirection">
@@ -436,6 +438,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Image.Stretch" />
       </Docs>
     </Member>
     <Member MemberName="StretchDirectionProperty">

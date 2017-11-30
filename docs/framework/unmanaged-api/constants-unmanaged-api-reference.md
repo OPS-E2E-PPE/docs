@@ -1,5 +1,5 @@
 ---
-title: "Constants (Unmanaged API Reference) | Microsoft Docs"
+title: "Constants (Unmanaged API Reference)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "constants for unmanaged API [.NET Framework]"
   - "native API reference [.NET Framework], constants"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Ping a Host | Microsoft Docs"
+title: "How to: Ping a Host"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Ping"
 ms.assetid: bbf20f5b-eca1-4661-af04-cb8837f9af05

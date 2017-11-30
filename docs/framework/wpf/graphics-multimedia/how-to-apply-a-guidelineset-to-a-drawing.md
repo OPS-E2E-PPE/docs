@@ -1,5 +1,5 @@
 ---
-title: "How to: Apply a GuidelineSet to a Drawing | Microsoft Docs"
+title: "How to: Apply a GuidelineSet to a Drawing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "GuidelineSet property, applying to drawings"
+  - "GuidelineSet property [WPF], applying to drawings"
   - "graphics [WPF], GuidelineSet property"
 ms.assetid: 45f3e0b4-8820-45a7-b865-b8ea5b17b0c8
 caps.latest.revision: 6
@@ -31,9 +31,9 @@ This example shows how to apply a <xref:System.Windows.Media.GuidelineSet> to a 
  ![A DrawingGroup with and without a GuidelineSet](../../../../docs/framework/wpf/graphics-multimedia/media/graphicsmm-drawinggroup-guidelineset.png "graphicsmm_drawinggroup_guidelineset")  
   
  [!code-csharp[DrawingMiscSnippets_snip#GraphicsMMDrawingGroupGuidelineSetExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DrawingMiscSnippets_snip/CSharp/DrawingGroupGuidelineSetExample.cs#graphicsmmdrawinggroupguidelinesetexamplewholepage)]
- [!code-xml[DrawingMiscSnippets_snip#GraphicsMMDrawingGroupGuidelineSetExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/DrawingMiscSnippets_snip/XAML/DrawingGroupGuidelineSetExample.xaml#graphicsmmdrawinggroupguidelinesetexamplewholepage)]  
+ [!code-xaml[DrawingMiscSnippets_snip#GraphicsMMDrawingGroupGuidelineSetExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/DrawingMiscSnippets_snip/XAML/DrawingGroupGuidelineSetExample.xaml#graphicsmmdrawinggroupguidelinesetexamplewholepage)]  
   
 ## See Also  
- <xref:System.Windows.Media.DrawingGroup>   
- <xref:System.Windows.Media.GuidelineSet>   
+ <xref:System.Windows.Media.DrawingGroup>  
+ <xref:System.Windows.Media.GuidelineSet>  
  [Drawing Objects Overview](../../../../docs/framework/wpf/graphics-multimedia/drawing-objects-overview.md)

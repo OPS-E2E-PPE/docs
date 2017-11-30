@@ -1,5 +1,5 @@
 ---
-title: "ISOF (Entity SQL) | Microsoft Docs"
+title: "ISOF (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 5b2b0d34-d0a7-4bcd-baf2-58aa8456d00b
 caps.latest.revision: 4
 author: "JennieHubbard"

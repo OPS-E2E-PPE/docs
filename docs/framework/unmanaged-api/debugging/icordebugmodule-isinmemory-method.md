@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::IsInMemory Method | Microsoft Docs"
+title: "ICorDebugModule::IsInMemory Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::IsInMemory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsInMemory method [.NET Framework debugging]"
   - "ICorDebugModule::IsInMemory method [.NET Framework debugging]"

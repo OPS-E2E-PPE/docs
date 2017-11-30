@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::NewObjectNoConstructor Method | Microsoft Docs"
+title: "ICorDebugEval::NewObjectNoConstructor Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::NewObjectNoConstructor"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "NewObjectNoConstructor method [.NET Framework debugging]"
   - "ICorDebugEval::NewObjectNoConstructor method [.NET Framework debugging]"

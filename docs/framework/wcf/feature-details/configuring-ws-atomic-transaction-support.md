@@ -1,5 +1,5 @@
 ---
-title: "Configuring WS-Atomic Transaction Support | Microsoft Docs"
+title: "Configuring WS-Atomic Transaction Support"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -125,5 +125,5 @@ This topic describes how you can configure WS-AtomicTransaction (WS-AT) support 
 -   31: verbose  
   
 ## See Also  
- [WS-AtomicTransaction Configuration Utility (wsatConfig.exe)](../../../../docs/framework/wcf/ws-atomictransaction-configuration-utility-wsatconfig-exe.md)   
+ [WS-AtomicTransaction Configuration Utility (wsatConfig.exe)](../../../../docs/framework/wcf/ws-atomictransaction-configuration-utility-wsatconfig-exe.md)  
  [WS-AtomicTransaction Configuration MMC Snap-in](../../../../docs/framework/wcf/ws-atomictransaction-configuration-mmc-snap-in.md)

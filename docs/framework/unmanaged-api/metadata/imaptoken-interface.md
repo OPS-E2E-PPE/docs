@@ -1,5 +1,5 @@
 ---
-title: "IMapToken Interface | Microsoft Docs"
+title: "IMapToken Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMapToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMapToken interface [.NET Framework metadata]"
 ms.assetid: 4c5c4df0-43f3-4830-a01b-8d029806f2c4

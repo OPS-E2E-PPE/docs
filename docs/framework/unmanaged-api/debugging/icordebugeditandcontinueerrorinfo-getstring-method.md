@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueErrorInfo::GetString Method | Microsoft Docs"
+title: "ICorDebugEditAndContinueErrorInfo::GetString Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueErrorInfo::GetString"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEditAndContinueErrorInfo::GetString method [.NET Framework debugging]"
   - "GetString method, ICorDebugEditAndContinueErrorInfo interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionOSHandlerEnter Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionOSHandlerEnter Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionOSHandlerEnter"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExceptionOSHandlerEnter method [.NET Framework profiling]"
   - "ICorProfilerCallback::ExceptionOSHandlerEnter method [.NET Framework profiling]"

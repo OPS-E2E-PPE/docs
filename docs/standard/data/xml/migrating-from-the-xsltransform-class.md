@@ -1,5 +1,5 @@
 ---
-title: "Migrating From the XslTransform Class | Microsoft Docs"
+title: "Migrating From the XslTransform Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 9404d758-679f-4ffb-995d-3d07d817659e
 caps.latest.revision: 3
 author: "mairaw"
@@ -122,5 +120,5 @@ using (XmlWriter writer = doc.CreateNavigator().AppendChild()) {
 -   Schema-related XPath extension functions: These functions are not supported natively by <xref:System.Xml.Xsl.XslCompiledTransform>. However, they can be implemented as extension functions.  
   
 ## See Also  
- [XSLT Transformations](../../../../docs/standard/data/xml/xslt-transformations.md)   
+ [XSLT Transformations](../../../../docs/standard/data/xml/xslt-transformations.md)  
  [Using the XslCompiledTransform Class](../../../../docs/standard/data/xml/using-the-xslcompiledtransform-class.md)

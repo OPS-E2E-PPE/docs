@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Generated SQL | Microsoft Docs"
+title: "How to: Display Generated SQL"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 626492c0-5ee3-4675-88e8-8c40379510b6
 caps.latest.revision: 2
 author: "JennieHubbard"

@@ -1,5 +1,5 @@
 ---
-title: "NumericUpDown Control (Windows Forms) | Microsoft Docs"
+title: "NumericUpDown Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Windows Forms controls, NumericUpDown control"
-  - "spin button control, up-down controls"
-  - "up-down controls, spin button control"
+  - "spin button control [Windows Forms], up-down controls"
+  - "up-down controls [Windows Forms], spin button control"
   - "up-down controls"
   - "spin button control"
   - "NumericUpDown control [Windows Forms]"

@@ -1,5 +1,5 @@
 ---
-title: "InitDbgTransportManager Function | Microsoft Docs"
+title: "InitDbgTransportManager Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "InitDbgTransportManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "remote debugging API [Silverlight]"
   - "InitDbgTransportManager function"

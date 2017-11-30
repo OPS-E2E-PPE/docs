@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetInprocInspectionIThisThread Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetInprocInspectionIThisThread Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetInprocInspectionIThisThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::GetInprocInspectionIThisThread method [.NET Framework profiling]"
   - "GetInprocInspectionIThisThread method [.NET Framework profiling]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::AppDomainCreationFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::AppDomainCreationFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::AppDomainCreationFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AppDomainCreationFinished method [.NET Framework profiling]"
   - "ICorProfilerCallback::AppDomainCreationFinished method [.NET Framework profiling]"

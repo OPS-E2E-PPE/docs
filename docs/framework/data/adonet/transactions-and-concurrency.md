@@ -1,5 +1,5 @@
 ---
-title: "Transactions and Concurrency | Microsoft Docs"
+title: "Transactions and Concurrency"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -41,9 +41,9 @@ A transaction consists of a single command or a group of commands that execute a
  Describes optimistic and pessimistic concurrency, and how you can test for concurrency violations.  
   
 ## See Also  
- [Transaction Fundamentals](http://msdn.microsoft.com/en-us/2a476b63-b94f-443f-992d-53943fdf4e5d)   
- [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)   
- [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)   
- [DataAdapters and DataReaders](../../../../docs/framework/data/adonet/dataadapters-and-datareaders.md)   
- [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)   
+ [Transaction Fundamentals](../../../../docs/framework/data/transactions/transaction-fundamentals.md)  
+ [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)  
+ [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)  
+ [DataAdapters and DataReaders](../../../../docs/framework/data/adonet/dataadapters-and-datareaders.md)  
+ [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

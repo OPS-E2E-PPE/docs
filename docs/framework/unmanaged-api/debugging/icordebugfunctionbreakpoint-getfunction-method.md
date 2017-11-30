@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunctionBreakpoint::GetFunction Method | Microsoft Docs"
+title: "ICorDebugFunctionBreakpoint::GetFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunctionBreakpoint::GetFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunctionBreakpoint::GetFunction method [.NET Framework debugging]"
   - "GetFunction method, ICorDebugFunctionBreakpoint interface [.NET Framework debugging]"

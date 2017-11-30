@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Application Icons to the TaskBar with the Windows Forms NotifyIcon Component | Microsoft Docs"
+title: "How to: Add Application Icons to the TaskBar with the Windows Forms NotifyIcon Component"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,15 +9,17 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 f1_keywords: 
   - "TrayIcon"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "status area icons"
-  - "icons, adding to taskbar"
+  - "icons [Windows Forms], adding to taskbar"
   - "NotifyIcon component"
-  - "taskbar, adding icons"
+  - "taskbar [Windows Forms], adding icons"
 ms.assetid: d28c0fe6-aaf2-4df7-ad74-928d861a8510
 caps.latest.revision: 11
 author: dotnet-bot
@@ -76,8 +78,8 @@ The Windows Forms <xref:System.Windows.Forms.NotifyIcon> component displays a si
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.NotifyIcon>   
- <xref:System.Windows.Forms.NotifyIcon.Icon%2A>   
- [How to: Associate a Shortcut Menu with a Windows Forms NotifyIcon Component](../../../../docs/framework/winforms/controls/how-to-associate-a-shortcut-menu-with-a-windows-forms-notifyicon-component.md)   
- [NotifyIcon Component](../../../../docs/framework/winforms/controls/notifyicon-component-windows-forms.md)   
+ <xref:System.Windows.Forms.NotifyIcon>  
+ <xref:System.Windows.Forms.NotifyIcon.Icon%2A>  
+ [How to: Associate a Shortcut Menu with a Windows Forms NotifyIcon Component](../../../../docs/framework/winforms/controls/how-to-associate-a-shortcut-menu-with-a-windows-forms-notifyicon-component.md)  
+ [NotifyIcon Component](../../../../docs/framework/winforms/controls/notifyicon-component-windows-forms.md)  
  [NotifyIcon Component Overview](../../../../docs/framework/winforms/controls/notifyicon-component-overview-windows-forms.md)

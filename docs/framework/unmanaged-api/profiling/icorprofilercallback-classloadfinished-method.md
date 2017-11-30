@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ClassLoadFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::ClassLoadFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ClassLoadFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ClassLoadFinished method [.NET Framework profiling]"
   - "ICorProfilerCallback::ClassLoadFinished method [.NET Framework profiling]"
@@ -63,5 +61,5 @@ HRESULT ClassLoadFinished(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ClassLoadStarted Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-classloadstarted-method.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorThreadpool::CorBindIoCompletionCallback Method | Microsoft Docs"
+title: "ICorThreadpool::CorBindIoCompletionCallback Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorBindIoCompletionCallback"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorBindIoCompletionCallback method [.NET Framework hosting]"
   - "ICorThreadpool::CorBindIoCompletionCallback method [.NET Framework hosting]"

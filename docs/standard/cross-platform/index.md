@@ -1,5 +1,5 @@
 ---
-title: "Developing for Multiple Platforms with the .NET Framework | Microsoft Docs"
+title: "Developing for Multiple Platforms with the .NET Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: b153baaa-130c-4169-860b-e580591de91e
 caps.latest.revision: 13
 author: "mairaw"

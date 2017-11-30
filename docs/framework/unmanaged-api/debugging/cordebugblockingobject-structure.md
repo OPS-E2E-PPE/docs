@@ -1,5 +1,5 @@
 ---
-title: "CorDebugBlockingObject Structure | Microsoft Docs"
+title: "CorDebugBlockingObject Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugBlockingObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugBlockingObject structure [.NET Framework debugging]"
 ms.assetid: 5944edd1-0914-4efa-aba0-d5a277c38b1a
@@ -63,5 +61,5 @@ CorDebugBlockingReason blockingReason;
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

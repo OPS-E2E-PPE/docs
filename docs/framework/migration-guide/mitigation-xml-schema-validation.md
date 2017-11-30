@@ -1,5 +1,5 @@
 ---
-title: "Mitigation: XML Schema Validation | Microsoft Docs"
+title: "Mitigation: XML Schema Validation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: b73dd4f4-f2dc-47a2-9425-3896e92321fb
 caps.latest.revision: 7
 author: "rpetrusha"

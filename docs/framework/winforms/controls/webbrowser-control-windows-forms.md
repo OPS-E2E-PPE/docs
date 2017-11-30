@@ -1,5 +1,5 @@
 ---
-title: "WebBrowser Control (Windows Forms) | Microsoft Docs"
+title: "WebBrowser Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "WebBrowser control [Windows Forms]"
-  - "Web pages, hosting in applications"
-  - "Web pages, Windows Forms controls"
+  - "Web pages [Windows Forms], hosting in applications"
+  - "Web pages [Windows Forms], Windows Forms controls"
 ms.assetid: 12667861-5b5b-46bc-8fb5-675e25264c9f
 caps.latest.revision: 14
 author: dotnet-bot

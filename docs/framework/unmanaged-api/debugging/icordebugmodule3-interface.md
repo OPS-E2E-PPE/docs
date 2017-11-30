@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule3 Interface | Microsoft Docs"
+title: "ICorDebugModule3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule3"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule3 interface [.NET Framework debugging]"
 ms.assetid: 0b69f945-263a-4e11-8512-89d27f6ea296
@@ -67,7 +65,7 @@ interface ICorDebugModule3 : IUnknown
  **.NET Framework Versions:**4.5, 4, 3.5 SP1  
   
 ## See Also  
- [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)   
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)  
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
     
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

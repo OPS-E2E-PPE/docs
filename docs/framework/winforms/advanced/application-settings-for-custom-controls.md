@@ -1,5 +1,5 @@
 ---
-title: "Application Settings for Custom Controls | Microsoft Docs"
+title: "Application Settings for Custom Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "custom controls [Windows Forms], application settings"
   - "application settings [Windows Forms], custom controls"
@@ -54,6 +52,6 @@ You must complete certain tasks to give your custom controls the ability to pers
  Any instances of a control that do not supply a value for <xref:System.Configuration.ApplicationSettingsBase.SettingsKey%2A> will share the same settings.  
   
 ## See Also  
- <xref:System.Configuration.ApplicationSettingsBase>   
- <xref:System.Configuration.IPersistComponentSettings>   
+ <xref:System.Configuration.ApplicationSettingsBase>  
+ <xref:System.Configuration.IPersistComponentSettings>  
  [Application Settings Architecture](../../../../docs/framework/winforms/advanced/application-settings-architecture.md)

@@ -1,5 +1,5 @@
 ---
-title: "Adding a Service Reference in a Workflow Solution | Microsoft Docs"
+title: "Adding a Service Reference in a Workflow Solution"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -21,6 +21,6 @@ Adding a service reference in a workflow application works a little differently 
  Adding two or more service references to services that contain the same operation name will cause a problem. The generated activities will call only the first service operation. To work around this issue rename the service operations so they are different or change the endpoint configuration name within each generated activity.  
   
 ## See Also  
- [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)   
- [How to: Create a Workflow Service That Calls Another Workflow Service](../../../../docs/framework/wcf/feature-details/how-to-create-a-workflow-service-that-calls-another-workflow-service.md)   
+ [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)  
+ [How to: Create a Workflow Service That Calls Another Workflow Service](../../../../docs/framework/wcf/feature-details/how-to-create-a-workflow-service-that-calls-another-workflow-service.md)  
  [Calling a WCF Service from a Workflow in a Web Project](http://go.microsoft.com/fwlink/?LinkId=207725)

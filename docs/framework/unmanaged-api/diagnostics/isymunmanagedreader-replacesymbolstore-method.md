@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::ReplaceSymbolStore Method | Microsoft Docs"
+title: "ISymUnmanagedReader::ReplaceSymbolStore Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::ReplaceSymbolStore"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ReplaceSymbolStore method [.NET Framework debugging]"
   - "ISymUnmanagedReader::ReplaceSymbolStore method [.NET Framework debugging]"

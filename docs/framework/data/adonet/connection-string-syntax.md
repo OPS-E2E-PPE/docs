@@ -1,5 +1,5 @@
 ---
-title: "Connection String Syntax | Microsoft Docs"
+title: "Connection String Syntax"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -52,7 +52,7 @@ Each .NET Framework data provider has a `Connection` object that inherits from <
 >  `Integrated Security=true` throws an exception when used with the `OleDb` provider.  
   
 ## SqlClient Connection Strings  
- The syntax for a <xref:System.Data.SqlClient.SqlConnection> connection string is documented in the <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=fullName> property. You can use the <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A> property to get or set a connection string for a SQL Server database. If you need to connect to an earlier version of SQL Server, you must use the .NET Framework Data Provider for OleDb (<xref:System.Data.OleDb>). Most connection string keywords also map to properties in the <xref:System.Data.SqlClient.SqlConnectionStringBuilder>.  
+ The syntax for a <xref:System.Data.SqlClient.SqlConnection> connection string is documented in the <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=nameWithType> property. You can use the <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A> property to get or set a connection string for a SQL Server database. If you need to connect to an earlier version of SQL Server, you must use the .NET Framework Data Provider for OleDb (<xref:System.Data.OleDb>). Most connection string keywords also map to properties in the <xref:System.Data.SqlClient.SqlConnectionStringBuilder>.  
   
  Each of the following forms of syntax will use Windows Authentication to connect to the **AdventureWorks** database on a local server.  
   
@@ -73,7 +73,7 @@ Each .NET Framework data provider has a `Connection` object that inherits from <
 ```  
   
 > [!IMPORTANT]
->  The default setting for the`Persist``Security Info` keyword is `false`. Setting it to `true` or `yes` allows security-sensitive information, including the user ID and password, to be obtained from the connection after the connection has been opened. Keep `Persist``Security Info` set to `false` to ensure that an untrusted source does not have access to sensitive connection string information.  
+>  The default setting for the `Persist Security Info` keyword is `false`. Setting it to `true` or `yes` allows security-sensitive information, including the user ID and password, to be obtained from the connection after the connection has been opened. Keep `Persist Security Info` set to `false` to ensure that an untrusted source does not have access to sensitive connection string information.  
   
  To connect to a named instance of SQL Server, use the *server name\instance name* syntax.  
   
@@ -87,7 +87,7 @@ Data Source=MySqlServer\MSSQL1;"
 >  Windows authentication takes precedence over SQL Server logins. If you specify both Integrated Security=true as well as a user name and password, the user name and password will be ignored and Windows authentication will be used.  
   
 ### Type System Version Changes  
- The `Type System Version` keyword in a <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=fullName> specifies the client-side representation of [!INCLUDE[ssNoVersion](../../../../includes/ssnoversion-md.md)] types. See <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=fullName> for more information about the `Type System Version` keyword.  
+ The `Type System Version` keyword in a <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=nameWithType> specifies the client-side representation of [!INCLUDE[ssNoVersion](../../../../includes/ssnoversion-md.md)] types. See <xref:System.Data.SqlClient.SqlConnection.ConnectionString%2A?displayProperty=nameWithType> for more information about the `Type System Version` keyword.  
   
 ## Connecting and Attaching to SQL Server Express User Instances  
  User instances are a feature in SQL Server Express. They allow a user running on a least-privileged local Windows account to attach and run a SQL Server database without requiring administrative privileges. A user instance executes with the user's Windows credentials, not as a service.  
@@ -197,6 +197,6 @@ Data Source=Oracle9i;User ID=*****;Password=*****;
  For more information on ODBC connection string syntax, see <xref:System.Data.OracleClient.OracleConnection.ConnectionString%2A>.  
   
 ## See Also  
- [Connection Strings](../../../../docs/framework/data/adonet/connection-strings.md)   
- [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)   
+ [Connection Strings](../../../../docs/framework/data/adonet/connection-strings.md)  
+ [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Build a Single-File Assembly | Microsoft Docs"
+title: "How to: Build a Single-File Assembly"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "assembly manifest, single-file assemblies"
   - "library assemblies"
@@ -89,7 +92,7 @@ vbc /out:myCodeLibrary.dll /t:library myCode.vb
 ```  
   
 ## See Also  
- [Creating Assemblies](../../../docs/framework/app-domains/create-assemblies.md)   
- [Multifile Assemblies](../../../docs/framework/app-domains/multifile-assemblies.md)   
- [How to: Build a Multifile Assembly](../../../docs/framework/app-domains/how-to-build-a-multifile-assembly.md)   
+ [Creating Assemblies](../../../docs/framework/app-domains/create-assemblies.md)  
+ [Multifile Assemblies](../../../docs/framework/app-domains/multifile-assemblies.md)  
+ [How to: Build a Multifile Assembly](../../../docs/framework/app-domains/how-to-build-a-multifile-assembly.md)  
  [Programming with Assemblies](../../../docs/framework/app-domains/programming-with-assemblies.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetTokenAndMetadataFromFunction Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetTokenAndMetadataFromFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetTokenAndMetadataFromFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::GetTokenAndMetadataFromFunction method [.NET Framework profiling]"
   - "GetTokenAndMetadataFromFunction method [.NET Framework profiling]"

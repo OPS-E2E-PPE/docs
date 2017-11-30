@@ -1,5 +1,5 @@
 ---
-title: "Creating User-Defined Bindings | Microsoft Docs"
+title: "Creating User-Defined Bindings"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -41,10 +41,10 @@ There are several ways to create bindings not provided by the system:
   
 |Layer|Options|Required|  
 |-----------|-------------|--------------|  
-|Transaction Flow|<xref:System.ServiceModel.Channels.TransactionFlowBindingElement?displayProperty=fullName>|No|  
-|Reliability|<xref:System.ServiceModel.Channels.ReliableSessionBindingElement?displayProperty=fullName>|No|  
-|Security|<xref:System.ServiceModel.Channels.SecurityBindingElement?displayProperty=fullName>|No|  
-|Composite Duplex|<xref:System.ServiceModel.Channels.CompositeDuplexBindingElement?displayProperty=fullName>|No|  
+|Transaction Flow|<xref:System.ServiceModel.Channels.TransactionFlowBindingElement?displayProperty=nameWithType>|No|  
+|Reliability|<xref:System.ServiceModel.Channels.ReliableSessionBindingElement?displayProperty=nameWithType>|No|  
+|Security|<xref:System.ServiceModel.Channels.SecurityBindingElement?displayProperty=nameWithType>|No|  
+|Composite Duplex|<xref:System.ServiceModel.Channels.CompositeDuplexBindingElement?displayProperty=nameWithType>|No|  
 |Encoding|Text, Binary, MTOM, Custom|Yes*|  
 |Transport|TCP, Named Pipes, HTTP, HTTPS, MSMQ, Custom|Yes|  
   
@@ -125,5 +125,5 @@ public override BindingElementCollection CreateBindingElements()
  Instead of creating an entirely new binding class, it may be possible for you to extend one of the existing system-provided bindings. Much like the preceding case, you must override the <xref:System.ServiceModel.Channels.Binding.CreateBindingElements%2A> method and the <xref:System.ServiceModel.Channels.Binding.Scheme%2A> property.  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.Binding>   
+ <xref:System.ServiceModel.Channels.Binding>  
  [Custom Bindings](../../../../docs/framework/wcf/extending/custom-bindings.md)

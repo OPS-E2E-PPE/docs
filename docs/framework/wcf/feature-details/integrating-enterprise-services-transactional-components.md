@@ -1,5 +1,5 @@
 ---
-title: "Integrating Enterprise Services Transactional Components | Microsoft Docs"
+title: "Integrating Enterprise Services Transactional Components"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -99,5 +99,5 @@ static void Main()
 ```  
   
 ## See Also  
- [Integrating with COM+ Applications](../../../../docs/framework/wcf/feature-details/integrating-with-com-plus-applications.md)   
+ [Integrating with COM+ Applications](../../../../docs/framework/wcf/feature-details/integrating-with-com-plus-applications.md)  
  [Integrating with COM Applications](../../../../docs/framework/wcf/feature-details/integrating-with-com-applications.md)

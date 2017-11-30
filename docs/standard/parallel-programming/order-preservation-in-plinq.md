@@ -1,5 +1,5 @@
 ---
-title: "Order Preservation in PLINQ | Microsoft Docs"
+title: "Order Preservation in PLINQ"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "PLINQ queries, order preservation"
 ms.assetid: 10d202bc-19e1-4b5c-bbf1-9a977322a9ca
@@ -122,5 +125,5 @@ In PLINQ, the goal is to maximize performance while maintaining correctness. A q
  Unordered results are not actively shuffled; they simply do not have any special ordering logic applied to them. In some cases, an unordered query may retain the ordering of the source sequence. For queries that use the indexed Select operator, PLINQ guarantees that the output elements will come out in the order of increasing indices, but makes no guarantees about which indices will be assigned to which elements.  
   
 ## See Also  
- [Parallel LINQ (PLINQ)](../../../docs/standard/parallel-programming/parallel-linq-plinq.md)   
+ [Parallel LINQ (PLINQ)](../../../docs/standard/parallel-programming/parallel-linq-plinq.md)  
  [Parallel Programming](../../../docs/standard/parallel-programming/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Append a MenuStrip to an MDI Parent Window (Windows Forms) | Microsoft Docs"
+title: "How to: Append a MenuStrip to an MDI Parent Window (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "MenuStrip control [Windows Forms], merging"
   - "MenuStrip control [Windows Forms], appending"
-  - "MDI, merging menu items"
+  - "MDI [Windows Forms], merging menu items"
 ms.assetid: ab70c936-b452-4653-b417-17be57bb795b
 caps.latest.revision: 17
 author: dotnet-bot
@@ -91,4 +92,4 @@ In some applications, the kind of a multiple-document interface (MDI) child wind
   
 -   A <xref:System.Windows.Forms.MenuStrip> control on `Form1` named `menuStrip1`, and a <xref:System.Windows.Forms.MenuStrip> control on `Form2` named `menuStrip2`.  
   
--   References to the <xref:System?displayProperty=fullName> and <xref:System.Windows.Forms?displayProperty=fullName> assemblies.
+-   References to the <xref:System?displayProperty=nameWithType> and <xref:System.Windows.Forms?displayProperty=nameWithType> assemblies.

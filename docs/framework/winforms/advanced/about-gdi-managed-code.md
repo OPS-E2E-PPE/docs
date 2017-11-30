@@ -1,5 +1,5 @@
 ---
-title: "About GDI+ Managed Code | Microsoft Docs"
+title: "About GDI+ Managed Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "GDI+, about GDI+"
   - "GDI+"
-  - "graphics, GDI+"
+  - "graphics [Windows Forms], GDI+"
 ms.assetid: a98a76ab-e455-49c9-891c-0491ac932f2c
 caps.latest.revision: 21
 author: dotnet-bot
@@ -39,31 +37,31 @@ manager: "wpickett"
  Discusses how to transform graphics with [!INCLUDE[ndptecgdiplus](../../../../includes/ndptecgdiplus-md.md)].  
   
 ## Reference  
- <xref:System.Drawing.Graphics?displayProperty=fullName>  
+ <xref:System.Drawing.Graphics?displayProperty=nameWithType>  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Image?displayProperty=fullName>  
+ <xref:System.Drawing.Image?displayProperty=nameWithType>  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Bitmap?displayProperty=fullName>,  
+ <xref:System.Drawing.Bitmap?displayProperty=nameWithType>,  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Imaging.Metafile?displayProperty=fullName>,  
+ <xref:System.Drawing.Imaging.Metafile?displayProperty=nameWithType>,  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Font?displayProperty=fullName>,  
+ <xref:System.Drawing.Font?displayProperty=nameWithType>,  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Brush?displayProperty=fullName>,  
+ <xref:System.Drawing.Brush?displayProperty=nameWithType>,  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Color?displayProperty=fullName>,  
+ <xref:System.Drawing.Color?displayProperty=nameWithType>,  
  Describes this class and has links to all its members.  
   
- <xref:System.Drawing.Drawing2D.Matrix?displayProperty=fullName>  
+ <xref:System.Drawing.Drawing2D.Matrix?displayProperty=nameWithType>  
  Describes this class and has links to all its members.  
   
- <xref:System.Windows.Forms.TextRenderer?displayProperty=fullName>  
+ <xref:System.Windows.Forms.TextRenderer?displayProperty=nameWithType>  
  Describes this class and has links to all its members.  
   
 ## Related Sections  

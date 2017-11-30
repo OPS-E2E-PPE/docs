@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify the Size or Placement of a Picture at Run Time (Windows Forms) | Microsoft Docs"
+title: "How to: Modify the Size or Placement of a Picture at Run Time (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "images [Windows Forms], controlling placement in PictureBox control [Windows Forms]"
   - "examples [Windows Forms], PictureBox control"
   - "PictureBox control [Windows Forms], picture size and alignment"
-  - "pictures, controlling placement in PictureBox control [Windows Forms]"
+  - "pictures [Windows Forms], controlling placement in PictureBox control [Windows Forms]"
 ms.assetid: d0b332a3-fae2-4891-957c-dc3e17743326
 caps.latest.revision: 12
 author: dotnet-bot
@@ -87,8 +89,8 @@ If you use the Windows Forms <xref:System.Windows.Forms.PictureBox> control on a
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.PictureBox>   
- [How to: Load a Picture Using the Designer](../../../../docs/framework/winforms/controls/how-to-load-a-picture-using-the-designer-windows-forms.md)   
- [PictureBox Control Overview](../../../../docs/framework/winforms/controls/picturebox-control-overview-windows-forms.md)   
- [How to: Set Pictures at Run Time](../../../../docs/framework/winforms/controls/how-to-set-pictures-at-run-time-windows-forms.md)   
+ <xref:System.Windows.Forms.PictureBox>  
+ [How to: Load a Picture Using the Designer](../../../../docs/framework/winforms/controls/how-to-load-a-picture-using-the-designer-windows-forms.md)  
+ [PictureBox Control Overview](../../../../docs/framework/winforms/controls/picturebox-control-overview-windows-forms.md)  
+ [How to: Set Pictures at Run Time](../../../../docs/framework/winforms/controls/how-to-set-pictures-at-run-time-windows-forms.md)  
  [PictureBox Control](../../../../docs/framework/winforms/controls/picturebox-control-windows-forms.md)

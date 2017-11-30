@@ -1,5 +1,5 @@
 ---
-title: "IDefinitionAppId Interface | Microsoft Docs"
+title: "IDefinitionAppId Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IDefinitionAppId"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IDefinitionAppId interface [.NET Framework fusion]"
 ms.assetid: e72f2550-bdec-4a20-a2f4-2e14847266c1

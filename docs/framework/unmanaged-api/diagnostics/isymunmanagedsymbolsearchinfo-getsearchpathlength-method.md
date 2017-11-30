@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedSymbolSearchInfo::GetSearchPathLength Method | Microsoft Docs"
+title: "ISymUnmanagedSymbolSearchInfo::GetSearchPathLength Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedSymbolSearchInfo::GetSearchPathLength"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSearchPathLength method [.NET Framework debugging]"
   - "ISymUnmanagedSymbolSearchInfo::GetSearchPathLength method [.NET Framework debugging]"

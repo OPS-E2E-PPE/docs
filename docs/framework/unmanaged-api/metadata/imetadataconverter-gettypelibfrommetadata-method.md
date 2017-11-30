@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataConverter::GetTypeLibFromMetaData Method | Microsoft Docs"
+title: "IMetaDataConverter::GetTypeLibFromMetaData Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataConverter::GetTypeLibFromMetaData"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetTypeLibFromMetaData method [.NET Framework metadata]"
   - "IMetaDataConverter::GetTypeLibFromMetaData method [.NET Framework metadata]"

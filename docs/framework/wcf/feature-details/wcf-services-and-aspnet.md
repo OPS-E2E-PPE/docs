@@ -1,5 +1,5 @@
 ---
-title: "WCF Services and ASP.NET | Microsoft Docs"
+title: "WCF Services and ASP.NET"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -107,5 +107,5 @@ This topic discusses hosting [!INCLUDE[indigo1](../../../../includes/indigo1-md.
  For more information about enabling ASP.NET compatibility mode for [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] services, see <xref:System.ServiceModel.Activation.AspNetCompatibilityRequirementsMode> and the [ASP.NET Compatibility](../../../../docs/framework/wcf/samples/aspnet-compatibility.md) sample.  
   
 ## See Also  
- <xref:System.ServiceModel.Activation.AspNetCompatibilityRequirementsAttribute>   
+ <xref:System.ServiceModel.Activation.AspNetCompatibilityRequirementsAttribute>  
  [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=201276)

@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyCacheItem::AbortItem Method | Microsoft Docs"
+title: "IAssemblyCacheItem::AbortItem Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyCacheItem::AbortItem"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AbortItem method [.NET Framework fusion]"
   - "IAssemblyCacheItem::AbortItem method [.NET Framework fusion]"

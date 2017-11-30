@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::Stop Method | Microsoft Docs"
+title: "ICorDebugController::Stop Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::Stop"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Stop method, ICorDebugController interface [.NET Framework debugging]"
   - "ICorDebugController::Stop method [.NET Framework debugging]"

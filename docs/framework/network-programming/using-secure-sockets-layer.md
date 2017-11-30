@@ -1,5 +1,5 @@
 ---
-title: "Using Secure Sockets Layer | Microsoft Docs"
+title: "Using Secure Sockets Layer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "Networking"
   - "SSL"
@@ -69,6 +67,6 @@ FtpWebResponse response = (FtpWebResponse)request.GetResponse();
 -   References to the **System.Net** namespace.  
   
 ## See Also  
- [Security in Network Programming](../../../docs/framework/network-programming/security-in-network-programming.md)   
- [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)   
+ [Security in Network Programming](../../../docs/framework/network-programming/security-in-network-programming.md)  
+ [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)  
  [Certificate Selection and Validation](../../../docs/framework/network-programming/certificate-selection-and-validation.md)

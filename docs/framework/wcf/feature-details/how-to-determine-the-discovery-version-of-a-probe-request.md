@@ -1,5 +1,5 @@
 ---
-title: "How to:Determine the Discovery Version of a Probe Request | Microsoft Docs"
+title: "How to:Determine the Discovery Version of a Probe Request"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -29,6 +29,6 @@ A discovery proxy may expose multiple discovery endpoints using different discov
     ```  
   
 ## See Also  
- <xref:System.ServiceModel.Discovery.Configuration.AnnouncementEndpointElement.DiscoveryVersion%2A>   
- [Implementing a Discovery Proxy](../../../../docs/framework/wcf/feature-details/implementing-a-discovery-proxy.md)   
+ <xref:System.ServiceModel.Discovery.Configuration.AnnouncementEndpointElement.DiscoveryVersion%2A>  
+ [Implementing a Discovery Proxy](../../../../docs/framework/wcf/feature-details/implementing-a-discovery-proxy.md)  
  [Discovery Proxy Sample](../../../../docs/framework/wcf/samples/discovery-proxy-sample.md)

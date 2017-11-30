@@ -1,5 +1,5 @@
 ---
-title: "ITypeName::GetModifiers Method | Microsoft Docs"
+title: "ITypeName::GetModifiers Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetModifiers"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeName::GetModifiers method [.NET Framework hosting]"
   - "GetModifiers method [.NET Framework hosting]"

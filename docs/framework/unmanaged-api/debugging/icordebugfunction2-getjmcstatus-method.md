@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction2::GetJMCStatus Method | Microsoft Docs"
+title: "ICorDebugFunction2::GetJMCStatus Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction2::GetJMCStatus"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunction2::GetJMCStatus method [.NET Framework debugging]"
   - "GetJMCStatus method [.NET Framework debugging]"

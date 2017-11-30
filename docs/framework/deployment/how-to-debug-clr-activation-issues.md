@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug CLR Activation Issues | Microsoft Docs"
+title: "How to: Debug CLR Activation Issues"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "CLR activation, debugging issues"
 ms.assetid: 4fe17546-d56e-4344-a930-6d8e4a545914
@@ -126,5 +121,5 @@ If you encounter problems in getting your application to run with the correct ve
     ```  
   
 ## See Also  
- [Deployment](../../../docs/framework/deployment/index.md)   
+ [Deployment](../../../docs/framework/deployment/index.md)  
  [How to: Configure an App to Support .NET Framework 4 or 4.5](../../../docs/framework/migration-guide/how-to-configure-an-app-to-support-net-framework-4-or-4-5.md)

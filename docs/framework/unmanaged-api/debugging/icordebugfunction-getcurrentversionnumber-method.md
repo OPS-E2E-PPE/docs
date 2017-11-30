@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction::GetCurrentVersionNumber Method | Microsoft Docs"
+title: "ICorDebugFunction::GetCurrentVersionNumber Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction::GetCurrentVersionNumber"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCurrentVersionNumber method [.NET Framework debugging]"
   - "ICorDebugFunction::GetCurrentVersionNumber method [.NET Framework debugging]"

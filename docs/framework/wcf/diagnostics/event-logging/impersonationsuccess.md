@@ -1,5 +1,5 @@
 ---
-title: "ImpersonationSuccess | Microsoft Docs"
+title: "ImpersonationSuccess"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 175
  This event indicates that impersonation succeeded, listing the method name, client identity and activity Id.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

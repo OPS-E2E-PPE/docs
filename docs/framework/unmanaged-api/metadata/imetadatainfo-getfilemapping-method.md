@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataInfo::GetFileMapping Method | Microsoft Docs"
+title: "IMetaDataInfo::GetFileMapping Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataInfo::GetFileMapping"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataInfo::GetFileMapping method [.NET Framework metadata]"
   - "GetFileMapping method [.NET Framework metadata]"
@@ -80,5 +78,5 @@ HRESULT GetFileMapping (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [IMetaDataInfo Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatainfo-interface.md)   
+ [IMetaDataInfo Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatainfo-interface.md)  
  [CorFileMapping Enumeration](../../../../docs/framework/unmanaged-api/metadata/corfilemapping-enumeration.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetMetaDataInterface Method | Microsoft Docs"
+title: "ICorDebugModule::GetMetaDataInterface Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetMetaDataInterface"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::GetMetaDatainterface method [.NET Framework debugging]"
   - "GetMetaDatainterface method [.NET Framework debugging]"

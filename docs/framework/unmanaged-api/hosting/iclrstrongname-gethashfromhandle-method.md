@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::GetHashFromHandle Method | Microsoft Docs"
+title: "ICLRStrongName::GetHashFromHandle Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::GetHashFromHandle"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHashFromHandle method, ICLRStrongName interface [.NET Framework hosting]"
   - "ICLRStrongName::GetHashFromHandle method [.NET Framework hosting]"

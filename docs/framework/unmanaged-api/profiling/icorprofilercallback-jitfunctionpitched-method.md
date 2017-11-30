@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::JITFunctionPitched Method | Microsoft Docs"
+title: "ICorProfilerCallback::JITFunctionPitched Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::JITFunctionPitched"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "JITFunctionPitched method [.NET Framework profiling]"
   - "ICorProfilerCallback::JITFunctionPitched method [.NET Framework profiling]"

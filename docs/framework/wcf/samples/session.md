@@ -1,5 +1,5 @@
 ---
-title: "Session | Microsoft Docs"
+title: "Session"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Sessions"
 ms.assetid: 36e1db50-008c-4b32-8d09-b56e790b8417

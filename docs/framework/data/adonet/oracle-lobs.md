@@ -1,5 +1,5 @@
 ---
-title: "Oracle LOBs | Microsoft Docs"
+title: "Oracle LOBs"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -254,5 +254,5 @@ tx.Commit();
 ```  
   
 ## See Also  
- [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)   
+ [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

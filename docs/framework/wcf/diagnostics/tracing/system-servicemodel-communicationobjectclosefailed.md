@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.CommunicationObjectCloseFailed | Microsoft Docs"
+title: "System.ServiceModel.CommunicationObjectCloseFailed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ A communication object failed to close.
  A communication object failed to close because an exception was thrown during the execution of its Close method. Another nearby trace might contain details about the exception.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

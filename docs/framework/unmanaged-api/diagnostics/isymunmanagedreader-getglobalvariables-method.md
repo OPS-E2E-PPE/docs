@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetGlobalVariables Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetGlobalVariables Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetGlobalVariables"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetGlobalVariables method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetGlobalVariables method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataEnumMemoryRegionsCallback::EnumMemoryRegion Method | Microsoft Docs"
+title: "ICLRDataEnumMemoryRegionsCallback::EnumMemoryRegion Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataEnumMemoryRegionsCallback::EnumMemoryRegion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumMemoryRegion method [.NET Framework debugging]"
   - "ICLRDataEnumMemoryRegionsCallback::EnumMemoryRegion method [.NET Framework debugging]"

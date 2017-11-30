@@ -1,5 +1,5 @@
 ---
-title: "Configuring HTTP and HTTPS | Microsoft Docs"
+title: "Configuring HTTP and HTTPS"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -24,7 +24,7 @@ WCF services and clients can communicate over HTTP and HTTPS. The HTTP/HTTPS set
   
  The tool used to configure HTTP settings depends on the operating system the computer is running.  
   
- When running [!INCLUDE[ws2003](../../../../includes/ws2003-md.md)] or [!INCLUDE[wxp](../../../../includes/wxp-md.md)], use the HttpCfg.exe tool. [!INCLUDE[ws2003](../../../../includes/ws2003-md.md)] automatically installs this tool. When running [!INCLUDE[wxp](../../../../includes/wxp-md.md)], you can download the tool at [Windows XP Service Pack 2 Support Tools](http://go.microsoft.com/fwlink/?LinkId=88606). [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][Httpcfg Overview](http://go.microsoft.com/fwlink/?LinkId=88605).  
+ When running [!INCLUDE[ws2003](../../../../includes/ws2003-md.md)] or [!INCLUDE[wxp](../../../../includes/wxp-md.md)], use the HttpCfg.exe tool. [!INCLUDE[ws2003](../../../../includes/ws2003-md.md)] automatically installs this tool. When running [!INCLUDE[wxp](../../../../includes/wxp-md.md)], you can download the tool at [Windows XP Service Pack 2 Support Tools](http://go.microsoft.com/fwlink/?LinkId=88606). [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Httpcfg Overview](http://go.microsoft.com/fwlink/?LinkId=88605).  
   
  When running [!INCLUDE[wv](../../../../includes/wv-md.md)]or Windows 7, you configure these settings with the Netsh.exe tool.  
   
@@ -97,5 +97,5 @@ netsh http add iplisten ipaddress=0.0.0.0:8000
  IIS does not support port sharing on [!INCLUDE[wxp](../../../../includes/wxp-md.md)]. If IIS is running and a [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] service attempts to use a namespace with the same port, the [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] service fails to start. IIS and [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] both default to using port 80. Either change the port assignment for one of the services or use the IP Listen List to assign the [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] service to a network adapter not used by IIS. IIS 6.0 and later have been redesigned to use the HTTP Server APIs.  
   
 ## See Also  
- <xref:System.ServiceModel.WSDualHttpBinding>   
+ <xref:System.ServiceModel.WSDualHttpBinding>  
  [How to: Configure a Port with an SSL Certificate](../../../../docs/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate.md)

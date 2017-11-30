@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::CloseNamespace Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::CloseNamespace Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::CloseNamespace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::CloseNamespace method [.NET Framework debugging]"
   - "CloseNamespace method [.NET Framework debugging]"
@@ -46,5 +44,5 @@ HRESULT CloseNamespace();
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [ISymUnmanagedWriter Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter-interface.md)   
+ [ISymUnmanagedWriter Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter-interface.md)  
  [OpenNamespace Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter-opennamespace-method.md)

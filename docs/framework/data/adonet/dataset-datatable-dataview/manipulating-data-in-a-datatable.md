@@ -1,5 +1,5 @@
 ---
-title: "Manipulating Data in a DataTable | Microsoft Docs"
+title: "Manipulating Data in a DataTable"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -44,6 +44,6 @@ After creating a <xref:System.Data.DataTable> in a <xref:System.Data.DataSet>, y
  Explains how to accept or reject the changes made to a row.  
   
 ## See Also  
- [DataTables](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatables.md)   
- [Handling DataTable Events](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events.md)   
+ [DataTables](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatables.md)  
+ [Handling DataTable Events](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

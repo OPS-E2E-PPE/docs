@@ -1,5 +1,5 @@
 ---
-title: "Namespaces and DTDs in the DOM | Microsoft Docs"
+title: "Namespaces and DTDs in the DOM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 1e9b55c4-76ad-4f54-8d96-7ce4b4cf1e05
 caps.latest.revision: 3
 author: "mairaw"

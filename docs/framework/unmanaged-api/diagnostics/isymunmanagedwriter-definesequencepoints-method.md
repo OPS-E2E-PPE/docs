@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::DefineSequencePoints Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::DefineSequencePoints Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::DefineSequencePoints"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DefineSequencePoints method [.NET Framework debugging]"
   - "ISymUnmanagedWriter::DefineSequencePoints method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Stored Procedures Mapped for Multiple Result Shapes | Microsoft Docs"
+title: "How to: Use Stored Procedures Mapped for Multiple Result Shapes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: c2b84dfe-7fec-489a-92de-45215cec4518
 caps.latest.revision: 2
 author: "JennieHubbard"

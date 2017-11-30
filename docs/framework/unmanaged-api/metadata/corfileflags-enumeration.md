@@ -1,5 +1,5 @@
 ---
-title: "CorFileFlags Enumeration | Microsoft Docs"
+title: "CorFileFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorFileFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorFileFlags enumeration [.NET Framework metadata]"
 ms.assetid: d16703fd-518f-412e-92cb-74433d11032e

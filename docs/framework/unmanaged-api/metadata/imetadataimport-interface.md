@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport Interface | Microsoft Docs"
+title: "IMetaDataImport Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataImport interface [.NET Framework metadata]"
 ms.assetid: 0adbbd35-5e8d-4fec-8268-dc70a07c5975
@@ -120,5 +118,5 @@ Provides methods for importing and manipulating existing metadata from a portabl
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)   
+ [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)  
  [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)

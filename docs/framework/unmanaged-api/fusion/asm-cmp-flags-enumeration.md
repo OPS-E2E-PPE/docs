@@ -1,5 +1,5 @@
 ---
-title: "ASM_CMP_FLAGS Enumeration | Microsoft Docs"
+title: "ASM_CMP_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ASM_CMP_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ASM_CMP_FLAGS enumeration [.NET Framework fusion]"
 ms.assetid: 4d1e6700-d4be-4fbd-8796-bfb4c07abbc8
@@ -83,5 +81,5 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Enumerations](../../../../docs/framework/unmanaged-api/fusion/fusion-enumerations.md)

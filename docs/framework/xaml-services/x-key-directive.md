@@ -1,5 +1,5 @@
 ---
-title: "x:Key Directive | Microsoft Docs"
+title: "x:Key Directive"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -62,7 +62,7 @@ Uniquely identifies elements that are created and referenced in a XAML-defined d
   
  Child elements of a parent element that is an <xref:System.Collections.IDictionary> implementation must typically include an `x:Key` attribute that specifies a unique key value within that dictionary. Frameworks might implement aliased key properties to substitute for `x:Key` on particular types; types that define such properties should be attributed with <xref:System.Windows.Markup.DictionaryKeyPropertyAttribute>.  
   
- The code equivalent of specifying `x:Key` is the key that is used for the underlying <xref:System.Collections.IDictionary>. For example, an `x:Key` that is applied in markup for a resource in WPF is equivalent to the value of the `key` parameter of <xref:System.Windows.ResourceDictionary.Add%2A?displayProperty=fullName> when you add the resource to a WPF <xref:System.Windows.ResourceDictionary> in code.  
+ The code equivalent of specifying `x:Key` is the key that is used for the underlying <xref:System.Collections.IDictionary>. For example, an `x:Key` that is applied in markup for a resource in WPF is equivalent to the value of the `key` parameter of <xref:System.Windows.ResourceDictionary.Add%2A?displayProperty=nameWithType> when you add the resource to a WPF <xref:System.Windows.ResourceDictionary> in code.  
   
 ## WPF Usage Notes  
  Child objects of a parent object that is an <xref:System.Collections.IDictionary> implementation, such as the WPF <xref:System.Windows.ResourceDictionary>, must typically include an `x:Key` attribute, and the key value must be unique within that dictionary. There are two notable exceptions:  
@@ -117,6 +117,6 @@ keyObject
  `x:Key` for Silverlight is documented separately. For more information, see [XAML Namespace (x:) Language Features (Silverlight)](http://go.microsoft.com/fwlink/?LinkId=199081).  
   
 ## See Also  
- [XAML Resources](../../../docs/framework/wpf/advanced/xaml-resources.md)   
- [Resources and Code](../../../docs/framework/wpf/advanced/resources-and-code.md)   
+ [XAML Resources](../../../docs/framework/wpf/advanced/xaml-resources.md)  
+ [Resources and Code](../../../docs/framework/wpf/advanced/resources-and-code.md)  
  [StaticResource Markup Extension](../../../docs/framework/wpf/advanced/staticresource-markup-extension.md)

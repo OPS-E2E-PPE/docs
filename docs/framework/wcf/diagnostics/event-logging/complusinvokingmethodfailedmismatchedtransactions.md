@@ -1,5 +1,5 @@
 ---
-title: "ComPlusInvokingMethodFailedMismatchedTransactions | Microsoft Docs"
+title: "ComPlusInvokingMethodFailedMismatchedTransactions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 135
  ComPlus: Method call transaction mismatch.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

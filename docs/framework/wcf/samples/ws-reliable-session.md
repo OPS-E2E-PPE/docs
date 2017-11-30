@@ -1,5 +1,5 @@
 ---
-title: "WS Reliable Session | Microsoft Docs"
+title: "WS Reliable Session"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Reliable session"
 ms.assetid: 86e914f2-060b-432b-bd17-333695317745

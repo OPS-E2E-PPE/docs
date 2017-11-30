@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValueEnum Interface1 | Microsoft Docs"
+title: "ICorDebugValueEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValueEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugValueEnum interface [.NET Framework debugging]"
 ms.assetid: 88989482-a09f-4bd0-9adb-16f47b0291fd

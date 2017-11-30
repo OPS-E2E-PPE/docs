@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope::GetNamespaces Method | Microsoft Docs"
+title: "ISymUnmanagedScope::GetNamespaces Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope::GetNamespaces"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetNamespaces method, ISymUnmanagedScope interface [.NET Framework debugging]"
   - "ISymUnmanagedScope::GetNamespaces method [.NET Framework debugging]"

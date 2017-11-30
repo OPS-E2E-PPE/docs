@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedBinder::GetReaderForFile Method | Microsoft Docs"
+title: "ISymUnmanagedBinder::GetReaderForFile Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedBinder::GetReaderForFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedBinder::GetReaderForFile method [.NET Framework debugging]"
   - "GetReaderForFile method [.NET Framework debugging]"
@@ -65,5 +63,5 @@ HRESULT GetReaderForFile(
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [ISymUnmanagedBinder Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedbinder-interface.md)   
+ [ISymUnmanagedBinder Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedbinder-interface.md)  
  [GetReaderForFile2 Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedbinder2-getreaderforfile2-method.md)

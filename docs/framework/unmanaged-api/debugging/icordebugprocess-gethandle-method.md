@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::GetHandle Method | Microsoft Docs"
+title: "ICorDebugProcess::GetHandle Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::GetHandle"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHandle method, ICorDebugProcess interface [.NET Framework debugging]"
   - "ICorDebugProcess::GetHandle method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICLRSyncManager::CreateRWLockOwnerIterator Method | Microsoft Docs"
+title: "ICLRSyncManager::CreateRWLockOwnerIterator Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRSyncManager::CreateRWLockOwnerIterator"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRSyncManager::CreateRWLockOwnerIterator method [.NET Framework hosting]"
   - "CreateRWLockOwnerIterator method [.NET Framework hosting]"
@@ -81,5 +79,5 @@ HRESULT CreateRWLockOwnerIterator (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)   
+ [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)  
  [IHostSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsyncmanager-interface.md)

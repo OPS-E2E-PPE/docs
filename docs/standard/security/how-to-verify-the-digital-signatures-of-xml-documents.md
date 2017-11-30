@@ -1,5 +1,5 @@
 ---
-title: "How to: Verify the Digital Signatures of XML Documents | Microsoft Docs"
+title: "How to: Verify the Digital Signatures of XML Documents"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "System.Security.Cryptography.SignedXml class"
   - "signatures, cryptographic"
@@ -89,5 +87,5 @@ You can use the classes in the <xref:System.Security.Cryptography.Xml> namespace
  Never embed a private key directly into your source code.  Embedded keys can be easily read from an assembly using the [Ildasm.exe (IL Disassembler)](../../../docs/framework/tools/ildasm-exe-il-disassembler.md) or by opening the assembly in a text editor such as Notepad.  
   
 ## See Also  
- <xref:System.Security.Cryptography.Xml>   
+ <xref:System.Security.Cryptography.Xml>  
  [How to: Sign XML Documents with Digital Signatures](../../../docs/standard/security/how-to-sign-xml-documents-with-digital-signatures.md)

@@ -34,7 +34,7 @@
   
  Use the <xref:System.ComponentModel.LicenseProviderAttribute.LicenseProvider%2A> property to get the <xref:System.Type> of the <xref:System.ComponentModel.LicenseProvider>.  
   
- For more information about attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87). For more information about licensing, see [How to: License Components and Controls](http://msdn.microsoft.com/library/8e66c1ed-a445-4b26-8185-990b6e2bbd57).  
+ For more information about attributes, see [Attributes](~/docs/standard/attributes/index.md). For more information about licensing, see [How to: License Components and Controls](http://msdn.microsoft.com/library/8e66c1ed-a445-4b26-8185-990b6e2bbd57).  
   
 > [!NOTE]
 >  The <xref:System.Security.Permissions.HostProtectionAttribute> attribute applied to this class has the following <xref:System.Security.Permissions.HostProtectionAttribute.Resources%2A> property value: <xref:System.Security.Permissions.HostProtectionResource.SharedState>. The <xref:System.Security.Permissions.HostProtectionAttribute> does not affect desktop applications (which are typically started by double-clicking an icon, typing a command, or entering a URL in a browser). For more information, see the <xref:System.Security.Permissions.HostProtectionAttribute> class or [SQL Server Programming and Host Protection Attributes](~/docs/framework/performance/sql-server-programming-and-host-protection-attributes.md).  
@@ -56,6 +56,13 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.ComponentModel.License" />
+    <altmember cref="T:System.ComponentModel.LicenseContext" />
+    <altmember cref="T:System.ComponentModel.LicenseException" />
+    <altmember cref="T:System.ComponentModel.LicenseManager" />
+    <altmember cref="T:System.ComponentModel.LicenseProvider" />
+    <altmember cref="T:System.ComponentModel.LicFileLicenseProvider" />
+    <altmember cref="T:System.ComponentModel.LicenseUsageMode" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -276,5 +283,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+        <AssemblyVersion>2.0.5.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.ComponentModel.LicenseProviderAttribute" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

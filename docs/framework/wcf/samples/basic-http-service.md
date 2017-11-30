@@ -1,5 +1,5 @@
 ---
-title: "Basic HTTP Service | Microsoft Docs"
+title: "Basic HTTP Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -49,5 +49,5 @@ This sample demonstrates how to implement an HTTP-based, RPC-based service - pop
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Web\BasicHttpService`  
   
 ## See Also  
- [Automatic Format Selection](../../../../docs/framework/wcf/samples/automatic-format-selection.md)   
+ [Automatic Format Selection](../../../../docs/framework/wcf/samples/automatic-format-selection.md)  
  [Basic Resource Service](../../../../docs/framework/wcf/samples/basic-resource-service.md)

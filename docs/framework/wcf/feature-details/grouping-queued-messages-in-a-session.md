@@ -1,5 +1,5 @@
 ---
-title: "Grouping Queued Messages in a Session | Microsoft Docs"
+title: "Grouping Queued Messages in a Session"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "queues [WCF]. grouping messages"
 ms.assetid: 63b23b36-261f-4c37-99a2-cc323cd72a1a
@@ -54,7 +54,7 @@ manager: "erikre"
     [OperationBehavior(TransactionScopeRequired = true, TransactionAutoComplete = true)]   
     ```  
   
-5.  Configure an endpoint that uses the system-provided `NetProfileMsmqBinding` binding.  
+5.  Configure an endpoint that uses the system-provided `NetMsmqBinding` binding.  
   
 6.  Create a transactional queue using <xref:System.Messaging>. You can also create the queue by using Message Queuing (MSMQ) or MMC. If you do, create a transactional queue.  
   
@@ -92,5 +92,5 @@ manager: "erikre"
   
   
 ## See Also  
- [Sessions and Queues](../../../../docs/framework/wcf/samples/sessions-and-queues.md)   
+ [Sessions and Queues](../../../../docs/framework/wcf/samples/sessions-and-queues.md)  
  [Queues Overview](../../../../docs/framework/wcf/feature-details/queues-overview.md)

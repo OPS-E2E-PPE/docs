@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain::EnumerateBreakpoints Method | Microsoft Docs"
+title: "ICorDebugAppDomain::EnumerateBreakpoints Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain::EnumerateBreakpoints"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain::EnumerateBreakpoints method [.NET Framework debugging]"
   - "EnumerateBreakpoints method [.NET Framework debugging]"

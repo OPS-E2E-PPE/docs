@@ -1,5 +1,5 @@
 ---
-title: "Implementing Service Contracts | Microsoft Docs"
+title: "Implementing Service Contracts"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "implementing service contracts [WCF]"
 ms.assetid: aefb6f56-47e3-4f24-ab0a-9bc07bf9885f
@@ -62,12 +59,12 @@ class MathService
   
  Note that the preceding services expose different contracts because the contract names are different. In the first case, the exposed contract is named "`IMath`" while in the second case the contract is named "`MathService`".  
   
- You can set a few things at the service and operation implementation levels, such as concurrency and instancing. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)][Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md).  
+ You can set a few things at the service and operation implementation levels, such as concurrency and instancing. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)] [Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md).  
   
- After implementing a service contract, you must create one or more endpoints for the service. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)][Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md). [!INCLUDE[crabout](../../../includes/crabout-md.md)] how to run a service, see [Hosting Services](../../../docs/framework/wcf/hosting-services.md).  
+ After implementing a service contract, you must create one or more endpoints for the service. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)] [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md). [!INCLUDE[crabout](../../../includes/crabout-md.md)] how to run a service, see [Hosting Services](../../../docs/framework/wcf/hosting-services.md).  
   
 ## See Also  
- [Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md)   
- [How to: Create a Service with a Contract Class](../../../docs/framework/wcf/feature-details/how-to-create-a-wcf-contract-with-a-class.md)   
- [How to: Create a Service with a Contract Interface](../../../docs/framework/wcf/feature-details/how-to-create-a-service-with-a-contract-interface.md)   
+ [Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md)  
+ [How to: Create a Service with a Contract Class](../../../docs/framework/wcf/feature-details/how-to-create-a-wcf-contract-with-a-class.md)  
+ [How to: Create a Service with a Contract Interface](../../../docs/framework/wcf/feature-details/how-to-create-a-service-with-a-contract-interface.md)  
  [Specifying Service Run-Time Behavior](../../../docs/framework/wcf/specifying-service-run-time-behavior.md)

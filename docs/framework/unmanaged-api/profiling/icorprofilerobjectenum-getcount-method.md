@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerObjectEnum::GetCount Method | Microsoft Docs"
+title: "ICorProfilerObjectEnum::GetCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerObjectEnum::GetCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerObjectEnum::GetCount method [.NET Framework profiling]"
   - "GetCount method, ICorProfilerObjectEnum interface [.NET Framework profiling]"

@@ -1,5 +1,5 @@
 ---
-title: "Comparing DataRows (LINQ to DataSet) | Microsoft Docs"
+title: "Comparing DataRows (LINQ to DataSet)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 8fe0eadf-297b-487c-8d4b-7816753c2883
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -42,6 +45,6 @@ manager: "jhubbard"
  [!code-vb[DP LINQ to DataSet Examples#CompareDifferentRows](../../../../samples/snippets/visualbasic/VS_Snippets_ADO.NET/DP LINQ to DataSet Examples/VB/Module1.vb#comparedifferentrows)]  
   
 ## See Also  
- <xref:System.Data.DataRowComparer>   
- [Loading Data Into a DataSet](../../../../docs/framework/data/adonet/loading-data-into-a-dataset.md)   
+ <xref:System.Data.DataRowComparer>  
+ [Loading Data Into a DataSet](../../../../docs/framework/data/adonet/loading-data-into-a-dataset.md)  
  [LINQ to DataSet Examples](../../../../docs/framework/data/adonet/linq-to-dataset-examples.md)

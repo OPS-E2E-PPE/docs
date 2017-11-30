@@ -1,5 +1,5 @@
 ---
-title: "Entity SQL Language | Microsoft Docs"
+title: "Entity SQL Language"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 9e7d8837-28c5-429d-a824-7bafb59724cf
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -90,5 +86,5 @@ Entity SQL is a storage-independent query language that is similar to SQL. Entit
  [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)  
   
 ## See Also  
- [ADO.NET Entity Framework](../../../../../../docs/framework/data/adonet/ef/index.md)   
+ [ADO.NET Entity Framework](../../../../../../docs/framework/data/adonet/ef/index.md)  
  [Language Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/index.md)

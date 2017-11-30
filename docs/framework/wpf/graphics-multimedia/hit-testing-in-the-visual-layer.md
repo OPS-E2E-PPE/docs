@@ -1,5 +1,5 @@
 ---
-title: "Hit Testing in the Visual Layer | Microsoft Docs"
+title: "Hit Testing in the Visual Layer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "hit testing functionality"
-  - "visual layer, hit testing functionality"
+  - "hit testing functionality [WPF]"
+  - "visual layer [WPF], hit testing functionality"
 ms.assetid: b1a64b61-14be-4d75-b89a-5c67bebb2c7b
 caps.latest.revision: 42
 author: dotnet-bot
@@ -142,12 +145,12 @@ Pruning a visual tree
  [!code-vb[HitTestingOverview#108](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/HitTestingOverview/visualbasic/window1.xaml.vb#108)]  
   
 ## See Also  
- <xref:System.Windows.Media.VisualTreeHelper.HitTest%2A>   
- <xref:System.Windows.Media.HitTestResult>   
- <xref:System.Windows.Media.HitTestResultCallback>   
- <xref:System.Windows.Media.HitTestFilterCallback>   
- <xref:System.Windows.UIElement.IsHitTestVisible%2A>   
- [Hit Test Using DrawingVisuals Sample](http://go.microsoft.com/fwlink/?LinkID=159994)   
- [Hit Test with Win32 Interoperation Sample](http://go.microsoft.com/fwlink/?LinkID=159995)   
- [Hit Test Geometry in a Visual](../../../../docs/framework/wpf/graphics-multimedia/how-to-hit-test-geometry-in-a-visual.md)   
+ <xref:System.Windows.Media.VisualTreeHelper.HitTest%2A>  
+ <xref:System.Windows.Media.HitTestResult>  
+ <xref:System.Windows.Media.HitTestResultCallback>  
+ <xref:System.Windows.Media.HitTestFilterCallback>  
+ <xref:System.Windows.UIElement.IsHitTestVisible%2A>  
+ [Hit Test Using DrawingVisuals Sample](http://go.microsoft.com/fwlink/?LinkID=159994)  
+ [Hit Test with Win32 Interoperation Sample](http://go.microsoft.com/fwlink/?LinkID=159995)  
+ [Hit Test Geometry in a Visual](../../../../docs/framework/wpf/graphics-multimedia/how-to-hit-test-geometry-in-a-visual.md)  
  [Hit Test Using a Win32 Host Container](../../../../docs/framework/wpf/graphics-multimedia/how-to-hit-test-using-a-win32-host-container.md)

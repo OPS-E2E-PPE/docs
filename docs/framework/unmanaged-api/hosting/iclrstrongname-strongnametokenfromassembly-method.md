@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameTokenFromAssembly Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameTokenFromAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameTokenFromAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameTokenFromAssembly method [.NET Framework hosting]"
   - "StrongNameTokenFromAssembly method, ICLRStrongName interface [.NET Framework hosting]"
@@ -71,5 +69,5 @@ HRESULT StrongNameTokenFromAssembly (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [StrongNameTokenFromAssemblyEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnametokenfromassemblyex-method.md)   
+ [StrongNameTokenFromAssemblyEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnametokenfromassemblyex-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

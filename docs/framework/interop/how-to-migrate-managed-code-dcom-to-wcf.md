@@ -1,5 +1,5 @@
 ---
-title: "How to: Migrate Managed-Code DCOM to WCF | Microsoft Docs"
+title: "How to: Migrate Managed-Code DCOM to WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 52961ffc-d1c7-4f83-832c-786444b951ba
 caps.latest.revision: 6
 author: "mairaw"
@@ -431,7 +426,7 @@ if (sessionBoundObject.GetCurrentValue() == "Hello")
 ```  
   
 ## See Also  
- [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)   
- [Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md)   
- [Building Clients](../../../docs/framework/wcf/building-clients.md)   
+ [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)  
+ [Designing and Implementing Services](../../../docs/framework/wcf/designing-and-implementing-services.md)  
+ [Building Clients](../../../docs/framework/wcf/building-clients.md)  
  [Duplex Services](../../../docs/framework/wcf/feature-details/duplex-services.md)

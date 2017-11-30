@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetInprocInspectionInterface Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetInprocInspectionInterface Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetInprocInspectionInterface"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetInprocInspectionInterface method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetInprocInspectionInterface method [.NET Framework profiling]"

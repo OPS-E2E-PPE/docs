@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval2::CallParameterizedFunction Method | Microsoft Docs"
+title: "ICorDebugEval2::CallParameterizedFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval2::CallParameterizedFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEval2::CallParameterizedFunction method [.NET Framework debugging]"
   - "CallParameterizedFunction method [.NET Framework debugging]"

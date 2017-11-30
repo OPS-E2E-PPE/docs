@@ -1,5 +1,5 @@
 ---
-title: "Caspol.exe (Code Access Security Policy Tool) | Microsoft Docs"
+title: "Caspol.exe (Code Access Security Policy Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "permission sets, modifying security policy"
   - "security policy [.NET Framework], Code Access Security Policy tool"
@@ -256,5 +251,5 @@ caspol -all -resolveperm testassembly
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

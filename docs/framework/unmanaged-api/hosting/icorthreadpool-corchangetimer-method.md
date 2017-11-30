@@ -1,5 +1,5 @@
 ---
-title: "ICorThreadpool::CorChangeTimer Method | Microsoft Docs"
+title: "ICorThreadpool::CorChangeTimer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorChangeTimer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorChangeTimer method [.NET Framework hosting]"
   - "ICorThreadpool::CorChangeTimer method [.NET Framework hosting]"

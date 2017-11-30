@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetUserEntryPoint Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetUserEntryPoint Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetUserEntryPoint"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetUserEntryPoint method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetUserEntryPoint method [.NET Framework debugging]"

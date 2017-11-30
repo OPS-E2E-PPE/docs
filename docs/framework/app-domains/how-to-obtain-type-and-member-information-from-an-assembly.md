@@ -1,5 +1,5 @@
 ---
-title: "How to: Obtain Type and Member Information from an Assembly | Microsoft Docs"
+title: "How to: Obtain Type and Member Information from an Assembly"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,10 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "obtaining assembly information"
   - "assemblies [.NET Framework], obtaining information from"
@@ -29,6 +33,6 @@ The <xref:System.Reflection> namespace contains many methods for obtaining infor
  [!code-vb[Conceptual.Types.ViewInfo#8](../../../samples/snippets/visualbasic/VS_Snippets_CLR/conceptual.types.viewinfo/vb/source6.vb#8)]  
   
 ## See Also  
- [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131)   
- [Reflection](../../../docs/framework/reflection-and-codedom/reflection.md)   
+ [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131)  
+ [Reflection](../../../docs/framework/reflection-and-codedom/reflection.md)  
  [Using Application Domains](../../../docs/framework/app-domains/use.md)

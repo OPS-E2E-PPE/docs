@@ -1,5 +1,5 @@
 ---
-title: "&lt;clear&gt; Element for webRequestModules (Network Settings) | Microsoft Docs"
+title: "&lt;clear&gt; Element for webRequestModules (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/webRequestModules/clear"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#clear"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<clear> element, webRequestModules"
   - "<webRequestModules>, clear element"
@@ -64,7 +59,7 @@ Removes all registered Web request modules from the application.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example clears all Web request modules and then registers a Web request module for HTTP.  
+ The following example clears all Web request modules and then registers a Web request module for HTTP.  
   
 ```xml  
 <configuration>  
@@ -81,5 +76,5 @@ Removes all registered Web request modules from the application.
 ```  
   
 ## See Also  
- <xref:System.Net.WebRequest>   
+ <xref:System.Net.WebRequest>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

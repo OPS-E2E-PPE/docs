@@ -1,5 +1,5 @@
 ---
-title: "COR_FIELD Structure | Microsoft Docs"
+title: "COR_FIELD Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_FIELD"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_FIELD structure [.NET Framework debugging]"
 ms.assetid: c0822423-a9df-4961-950d-50dcc152f863
@@ -64,5 +62,5 @@ typedef struct COR_FIELD{
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

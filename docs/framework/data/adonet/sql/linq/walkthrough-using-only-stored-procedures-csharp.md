@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using Only Stored Procedures (C#) | Microsoft Docs"
+title: "Walkthrough: Using Only Stored Procedures (C#)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -194,5 +194,5 @@ This walkthrough provides a basic end-to-end [!INCLUDE[vbtecdlinq](../../../../.
  You can enhance this project by making some changes. For example, you could list available stored procedures in a list box and have the user select which procedures to execute. You could also stream the output of the reports to a text file.  
   
 ## See Also  
- [Learning by Walkthroughs](../../../../../../docs/framework/data/adonet/sql/linq/learning-by-walkthroughs.md)   
+ [Learning by Walkthroughs](../../../../../../docs/framework/data/adonet/sql/linq/learning-by-walkthroughs.md)  
  [Stored Procedures](../../../../../../docs/framework/data/adonet/sql/linq/stored-procedures.md)

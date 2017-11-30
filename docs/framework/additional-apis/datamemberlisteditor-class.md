@@ -1,5 +1,5 @@
 ---
-title: "DataMemberListEditor Class | Microsoft Docs"
+title: "DataMemberListEditor Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -41,7 +41,7 @@ internal class DataMemberListEditor : UITypeEditor
   
 ## Requirements
 
-**Namespace:** <xref:System.Windows.Forms.Design?displayProperty=fullName>  
+**Namespace:** <xref:System.Windows.Forms.Design?displayProperty=nameWithType>  
   
 **Assembly:** System.Design (in System.Design.dll)  
   
@@ -49,4 +49,4 @@ internal class DataMemberListEditor : UITypeEditor
   
 ## See also
 
-<xref:System.Windows.Forms.Design?displayProperty=fullName>
+<xref:System.Windows.Forms.Design?displayProperty=nameWithType>

@@ -1,5 +1,5 @@
 ---
-title: "Loading Data Into a DataSet | Microsoft Docs"
+title: "Loading Data Into a DataSet"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: a53e5dc1-9669-49d4-828d-efa633237066
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -27,6 +30,6 @@ A <xref:System.Data.DataSet> object must first be populated before you can query
  [!code-vb[DP LINQ to DataSet Examples#FillDataSet](../../../../samples/snippets/visualbasic/VS_Snippets_ADO.NET/DP LINQ to DataSet Examples/VB/Module1.vb#filldataset)]  
   
 ## See Also  
- [LINQ to DataSet Overview](../../../../docs/framework/data/adonet/linq-to-dataset-overview.md)   
- [Querying DataSets](../../../../docs/framework/data/adonet/querying-datasets-linq-to-dataset.md)   
+ [LINQ to DataSet Overview](../../../../docs/framework/data/adonet/linq-to-dataset-overview.md)  
+ [Querying DataSets](../../../../docs/framework/data/adonet/querying-datasets-linq-to-dataset.md)  
  [LINQ to DataSet Examples](../../../../docs/framework/data/adonet/linq-to-dataset-examples.md)

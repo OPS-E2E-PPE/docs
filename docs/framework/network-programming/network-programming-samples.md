@@ -1,5 +1,5 @@
 ---
-title: "Network Programming Samples | Microsoft Docs"
+title: "Network Programming Samples"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 8efacc29-7367-47c2-8638-a4f66385ad91
 caps.latest.revision: 7
 author: "mcleblanc"
@@ -74,6 +69,6 @@ This section contains descriptions and links to downloadable network programming
  <xref:System.Net.Sockets>  
   
 ## See Also  
- [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)   
- [Network Programming How-to Topics](../../../docs/framework/network-programming/network-programming-how-to-topics.md)   
+ [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)  
+ [Network Programming How-to Topics](../../../docs/framework/network-programming/network-programming-how-to-topics.md)  
  [Networking Samples for .NET](http://code.msdn.microsoft.com/Wiki/View.aspx?ProjectName=nclsamples)

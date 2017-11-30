@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::ToString Method | Microsoft Docs"
+title: "ITypeNameBuilder::ToString Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ToString"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ToString method [.NET Framework hosting]"
   - "ITypeNameBuilder::ToString method [.NET Framework hosting]"

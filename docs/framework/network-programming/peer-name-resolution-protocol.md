@@ -1,5 +1,5 @@
 ---
-title: "Peer Name Resolution Protocol | Microsoft Docs"
+title: "Peer Name Resolution Protocol"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 11940511-c124-4d91-ae31-d4ed6e81ee58
 caps.latest.revision: 14
 author: "mcleblanc"
@@ -68,7 +63,7 @@ In peer-to-peer environments, peers use specific name resolution systems to reso
 -  
   
 ## See Also  
- <xref:System.ServiceModel.PeerResolvers>   
- <xref:System.Net.PeerToPeer>   
- [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)   
+ <xref:System.ServiceModel.PeerResolvers>  
+ <xref:System.Net.PeerToPeer>  
+ [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)  
  [PeerToPeer Technology Sample](http://go.microsoft.com/fwlink/?LinkID=179571)

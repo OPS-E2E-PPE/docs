@@ -1,5 +1,5 @@
 ---
-title: "XAML Namespaces and Namespace Mapping for WPF XAML | Microsoft Docs"
+title: "XAML Namespaces and Namespace Mapping for WPF XAML"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,15 +9,18 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "custom classes, mapping namespaces to"
-  - "XAML, namespaces"
-  - "namespace mapping"
-  - "assemblies, mapping namespaces to"
-  - "mapping namespaces"
-  - "XAML, namespace mapping"
-  - "classes, mapping namespaces to"
-  - "namespaces"
+  - "custom classes [WPF], mapping namespaces to"
+  - "XAML [WPF], namespaces"
+  - "namespace mapping [WPF]"
+  - "assemblies [WPF], mapping namespaces to"
+  - "mapping namespaces [WPF]"
+  - "XAML [WPF], namespace mapping"
+  - "classes [WPF], mapping namespaces to"
+  - "namespaces [WPF]"
 ms.assetid: 5c0854e3-7470-435d-9fe2-93eec9d3634e
 caps.latest.revision: 23
 author: dotnet-bot
@@ -125,13 +128,13 @@ End Namespace
   
 1.  Iterate through the <xref:System.AppDomain>, looking for an already-loaded assembly that matches all aspects of the name, starting from the most recently loaded assembly.  
   
-2.  If the name is qualified, call <xref:System.Reflection.Assembly.Load%28System.String%29?displayProperty=fullName> on the qualified name.  
+2.  If the name is qualified, call <xref:System.Reflection.Assembly.Load%28System.String%29?displayProperty=nameWithType> on the qualified name.  
   
 3.  If the short name + public key token of a qualified name matches the assembly that the markup was loaded from, return that assembly.  
   
-4.  Use the short name + public key token to call <xref:System.Reflection.Assembly.Load%28System.String%29?displayProperty=fullName>.  
+4.  Use the short name + public key token to call <xref:System.Reflection.Assembly.Load%28System.String%29?displayProperty=nameWithType>.  
   
-5.  If the name is unqualified, call <xref:System.Reflection.Assembly.LoadWithPartialName%2A?displayProperty=fullName>.  
+5.  If the name is unqualified, call <xref:System.Reflection.Assembly.LoadWithPartialName%2A?displayProperty=nameWithType>.  
   
  Loose XAML does not use Step 3; there is no loaded-from assembly.  
   
@@ -140,5 +143,5 @@ End Namespace
  Compiled BAML (generated via PresentationBuildTask) uses all steps, although BAML also should not contain unqualified assembly names.  
   
 ## See Also  
- [Understanding XML Namespaces](http://go.microsoft.com/fwlink/?LinkId=98069)   
+ [Understanding XML Namespaces](http://go.microsoft.com/fwlink/?LinkId=98069)  
  [XAML Overview (WPF)](../../../../docs/framework/wpf/advanced/xaml-overview-wpf.md)

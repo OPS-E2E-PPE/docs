@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Diagnostics.DiagnosticsFailedMessageTrace | Microsoft Docs"
+title: "System.ServiceModel.Diagnostics.DiagnosticsFailedMessageTrace"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ System.ServiceModel.Diagnostics.DiagnosticsFailedMessageTrace
  Failed to trace a message.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

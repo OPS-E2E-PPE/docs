@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::SetRangeIL Method | Microsoft Docs"
+title: "ICorDebugStepper::SetRangeIL Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::SetRangeIL"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetRangeIL method [.NET Framework debugging]"
   - "ICorDebugStepper::SetRangeIL method [.NET Framework debugging]"

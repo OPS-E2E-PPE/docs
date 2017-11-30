@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetCount Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugArrayValue::GetCount method [.NET Framework debugging]"
   - "GetCount method, ICorDebugArrayValue interface [.NET Framework debugging]"

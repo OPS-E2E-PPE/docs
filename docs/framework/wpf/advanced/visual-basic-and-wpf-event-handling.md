@@ -1,5 +1,5 @@
 ---
-title: "Visual Basic and WPF Event Handling | Microsoft Docs"
+title: "Visual Basic and WPF Event Handling"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,8 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "Visual Basic, event handlers"
-  - "event handlers, Visual Basic"
+  - "Visual Basic [WPF], event handlers"
+  - "event handlers [WPF], Visual Basic"
 ms.assetid: ad4eb9aa-3afc-4a71-8cf6-add3fbea54a1
 caps.latest.revision: 12
 author: dotnet-bot
@@ -35,7 +35,7 @@ For the [!INCLUDE[TLA#tla_visualbnet](../../../../includes/tlasharptla-visualbne
 ## Limitations of "Handles" for Adding Handlers  
  `Handles` cannot reference handlers for attached events. You must use the `add` accessor method for that attached event, or *typename.eventname* event attributes in [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)]. For details, see [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md).  
   
- For routed events, you can only use `Handles` to assign handlers for instances where that event exists in the instance members table. However, with routed events in general, a parent element can be a listener for an event from child elements, even if the parent element does not have that event in its members table. In attribute syntax, you can specify this through a *typename.membername* attribute form that qualifies which type actually defines the event you want to handle. For instance, a parent `Page` (with no `Clic`k event defined) can listen for button-click events by assigning an attribute handler in the form `Button.Click`. But `Handles` does not support the *typename.membername* form, because it must support a conflicting *Instance.Event* form. For details, see [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md).  
+ For routed events, you can only use `Handles` to assign handlers for instances where that event exists in the instance members table. However, with routed events in general, a parent element can be a listener for an event from child elements, even if the parent element does not have that event in its members table. In attribute syntax, you can specify this through a *typename.membername* attribute form that qualifies which type actually defines the event you want to handle. For instance, a parent `Page` (with no `Click` event defined) can listen for button-click events by assigning an attribute handler in the form `Button.Click`. But `Handles` does not support the *typename.membername* form, because it must support a conflicting *Instance.Event* form. For details, see [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md).  
   
  `Handles` cannot attach handlers that are invoked for events that are already marked handled. Instead, you must use code and call the `handledEventsToo` overload of <xref:System.Windows.UIElement.AddHandler%28System.Windows.RoutedEvent%2CSystem.Delegate%2CSystem.Boolean%29>.  
   
@@ -49,7 +49,7 @@ For the [!INCLUDE[TLA#tla_visualbnet](../../../../includes/tlasharptla-visualbne
 >  Within [!INCLUDE[TLA#tla_visualstu](../../../../includes/tlasharptla-visualstu-md.md)], [!INCLUDE[TLA2#tla_intellisense](../../../../includes/tla2sharptla-intellisense-md.md)] can show you completion for which elements are available for a `Handles` reference in a page. However, this might take one compile pass so that the intermediate file can populate all the `Friends` references.  
   
 ## See Also  
- <xref:System.Windows.UIElement.AddHandler%2A>   
- [Marking Routed Events as Handled, and Class Handling](../../../../docs/framework/wpf/advanced/marking-routed-events-as-handled-and-class-handling.md)   
- [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md)   
+ <xref:System.Windows.UIElement.AddHandler%2A>  
+ [Marking Routed Events as Handled, and Class Handling](../../../../docs/framework/wpf/advanced/marking-routed-events-as-handled-and-class-handling.md)  
+ [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md)  
  [XAML Overview (WPF)](../../../../docs/framework/wpf/advanced/xaml-overview-wpf.md)

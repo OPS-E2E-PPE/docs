@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedVariable::GetAddressKind Method | Microsoft Docs"
+title: "ISymUnmanagedVariable::GetAddressKind Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedVariable::GetAddressKind"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetAddressKind method [.NET Framework debugging]"
   - "ISymUnmanagedVariable::GetAddressKind method [.NET Framework debugging]"

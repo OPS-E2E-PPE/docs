@@ -1,5 +1,5 @@
 ---
-title: "Custom Composite Designers - Workflow Item Presenter | Microsoft Docs"
+title: "Custom Composite Designers - Workflow Item Presenter"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -85,5 +85,5 @@ The <xref:System.Activities.Presentation.WorkflowItemPresenter> is a key type in
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Basic\CustomActivities\CustomActivityDesigners\WorkflowItemPresenter`  
   
 ## See Also  
- <xref:System.Activities.Presentation.WorkflowItemPresenter>   
+ <xref:System.Activities.Presentation.WorkflowItemPresenter>  
  [Developing Applications with the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)

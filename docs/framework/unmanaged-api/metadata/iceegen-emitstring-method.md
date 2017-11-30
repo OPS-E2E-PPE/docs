@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::EmitString Method | Microsoft Docs"
+title: "ICeeGen::EmitString Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::EmitString"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EmitString method [.NET Framework metadata]"
   - "ICeeGen::EmitString method [.NET Framework metadata]"

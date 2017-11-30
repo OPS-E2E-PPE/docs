@@ -1,5 +1,5 @@
 ---
-title: "Removing Attributes from an Element Node in the DOM | Microsoft Docs"
+title: "Removing Attributes from an Element Node in the DOM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 7ede6f9e-a3ac-49a4-8488-ab8360a44aa4
 caps.latest.revision: 3
 author: "mairaw"

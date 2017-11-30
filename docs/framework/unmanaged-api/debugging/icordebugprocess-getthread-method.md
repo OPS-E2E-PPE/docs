@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::GetThread Method | Microsoft Docs"
+title: "ICorDebugProcess::GetThread Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::GetThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess::GetThread method [.NET Framework debugging]"
   - "GetThread method, ICorDebugProcess interface [.NET Framework debugging]"

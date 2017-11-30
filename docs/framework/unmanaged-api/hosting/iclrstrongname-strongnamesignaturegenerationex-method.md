@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameSignatureGenerationEx Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameSignatureGenerationEx Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameSignatureGenerationEx"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameSignatureGenerationEx method [.NET Framework hosting]"
   - "StrongNameSignatureGenerationEx method, ICLRStrongName interface [.NET Framework hosting]"
@@ -101,5 +99,5 @@ HRESULT StrongNameSignatureGenerationEx (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [StrongNameSignatureGeneration Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignaturegeneration-method.md)   
+ [StrongNameSignatureGeneration Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignaturegeneration-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;persistenceProvider&gt; | Microsoft Docs"
+title: "&lt;persistenceProvider&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -54,5 +54,5 @@ Specifies the type of the persistence provider implementation to use, as well as
  This element specifies the persistence provider to be used to serialize the state of a WCF service. It should be used together with the `wsHttpContextBinding` which passes state information in HTTP headers.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.PersistenceProviderElement>   
+ <xref:System.ServiceModel.Configuration.PersistenceProviderElement>  
  <xref:System.ServiceModel.Persistence.PersistenceProvider>

@@ -98,7 +98,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Activities.CodeActivityPublicEnvironmentAccessor left, System.Activities.CodeActivityPublicEnvironmentAccessor right);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Activities.CodeActivityPublicEnvironmentAccessor left, System.Activities.CodeActivityPublicEnvironmentAccessor right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Activities.CodeActivityPublicEnvironmentAccessor left, valuetype System.Activities.CodeActivityPublicEnvironmentAccessor right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.CodeActivityPublicEnvironmentAccessor.op_Equality(System.Activities.CodeActivityPublicEnvironmentAccessor,System.Activities.CodeActivityPublicEnvironmentAccessor)" />
       <MemberType>Method</MemberType>
@@ -123,7 +123,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Activities.CodeActivityPublicEnvironmentAccessor left, System.Activities.CodeActivityPublicEnvironmentAccessor right);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Activities.CodeActivityPublicEnvironmentAccessor left, System.Activities.CodeActivityPublicEnvironmentAccessor right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Activities.CodeActivityPublicEnvironmentAccessor left, valuetype System.Activities.CodeActivityPublicEnvironmentAccessor right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.CodeActivityPublicEnvironmentAccessor.op_Inequality(System.Activities.CodeActivityPublicEnvironmentAccessor,System.Activities.CodeActivityPublicEnvironmentAccessor)" />
       <MemberType>Method</MemberType>
@@ -149,7 +149,7 @@
     </Member>
     <Member MemberName="TryGetAccessToPublicLocation">
       <MemberSignature Language="C#" Value="public bool TryGetAccessToPublicLocation (System.Activities.LocationReference publicLocation, System.Activities.ArgumentDirection accessDirection, out System.Activities.LocationReference equivalentLocation);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetAccessToPublicLocation(class System.Activities.LocationReference publicLocation, valuetype System.Activities.ArgumentDirection accessDirection, class System.Activities.LocationReference equivalentLocation) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetAccessToPublicLocation(class System.Activities.LocationReference publicLocation, valuetype System.Activities.ArgumentDirection accessDirection, [out] class System.Activities.LocationReference&amp; equivalentLocation) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.CodeActivityPublicEnvironmentAccessor.TryGetAccessToPublicLocation(System.Activities.LocationReference,System.Activities.ArgumentDirection,System.Activities.LocationReference@)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -176,7 +176,7 @@
     </Member>
     <Member MemberName="TryGetReferenceToPublicLocation">
       <MemberSignature Language="C#" Value="public bool TryGetReferenceToPublicLocation (System.Activities.LocationReference publicReference, out System.Activities.LocationReference equivalentReference);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetReferenceToPublicLocation(class System.Activities.LocationReference publicReference, class System.Activities.LocationReference equivalentReference) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetReferenceToPublicLocation(class System.Activities.LocationReference publicReference, [out] class System.Activities.LocationReference&amp; equivalentReference) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.CodeActivityPublicEnvironmentAccessor.TryGetReferenceToPublicLocation(System.Activities.LocationReference,System.Activities.LocationReference@)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

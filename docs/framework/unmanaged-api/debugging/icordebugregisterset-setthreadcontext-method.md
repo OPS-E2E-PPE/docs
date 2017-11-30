@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRegisterSet::SetThreadContext Method | Microsoft Docs"
+title: "ICorDebugRegisterSet::SetThreadContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRegisterSet::SetThreadContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugRegisterSet::SetThreadContext method [.NET Framework debugging]"
   - "SetThreadContext method, ICorDebugRegisterSet interface [.NET Framework debugging]"
@@ -56,5 +54,5 @@ HRESULT SetThreadContext (
  **.NET Framework Versions:** 1.1, 1.0  
   
 ## See Also  
- [ICorDebugRegisterSet Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset-interface.md)   
+ [ICorDebugRegisterSet Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset-interface.md)  
  [ICorDebugRegisterSet2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugregisterset2-interface.md)

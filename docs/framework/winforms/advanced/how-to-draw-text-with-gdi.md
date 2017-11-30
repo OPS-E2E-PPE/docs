@@ -1,5 +1,5 @@
 ---
-title: "How to: Draw Text with GDI | Microsoft Docs"
+title: "How to: Draw Text with GDI"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "GDI, drawing text [Windows Forms]"
-  - "text, drawing with TextRenderer"
-  - "drawing, text"
+  - "GDI [Windows Forms], drawing text [Windows Forms]"
+  - "text [Windows Forms], drawing with TextRenderer"
+  - "drawing [Windows Forms], text"
   - "Windows Forms, drawing text with GDI"
 ms.assetid: 2a19fe5d-2ace-451c-94db-01cb1118ef7b
 caps.latest.revision: 10
@@ -42,8 +43,8 @@ With the <xref:System.Windows.Forms.TextRenderer.DrawText%2A> method in the <xre
  The preceding code example is designed for use with Windows Forms, and it requires the <xref:System.Windows.Forms.PaintEventArgs>`e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- <xref:System.Windows.Forms.TextRenderer>   
- <xref:System.Drawing.Font>   
- <xref:System.Drawing.Color>   
- <xref:System.Drawing.Color>   
+ <xref:System.Windows.Forms.TextRenderer>  
+ <xref:System.Drawing.Font>  
+ <xref:System.Drawing.Color>  
+ <xref:System.Drawing.Color>  
  [Using Fonts and Text](../../../../docs/framework/winforms/advanced/using-fonts-and-text.md)

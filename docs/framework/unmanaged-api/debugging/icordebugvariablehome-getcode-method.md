@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugVariableHome::GetCode Method | Microsoft Docs"
+title: "ICorDebugVariableHome::GetCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugVariableHome::GetCode"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugVariableHome::GetCode method [.NET Framework debugging]"
   - "GetCode method, ICorDebugVariableHome interface [.NET Framework debugging]"
@@ -55,5 +53,5 @@ HRESULT GetCode(
  **.NET Framework Versions:** [!INCLUDE[net_current_v462plus](../../../../includes/net-current-v462plus-md.md)]  
   
 ## See Also  
- [ICorDebugVariableHome Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvariablehome-interface.md)   
+ [ICorDebugVariableHome Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvariablehome-interface.md)  
  

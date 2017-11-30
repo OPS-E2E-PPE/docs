@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHeapValue::IsValid Method | Microsoft Docs"
+title: "ICorDebugHeapValue::IsValid Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHeapValue::IsValid"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsValid method [.NET Framework debugging]"
   - "ICorDebugHeapValue::IsValid method [.NET Framework debugging]"

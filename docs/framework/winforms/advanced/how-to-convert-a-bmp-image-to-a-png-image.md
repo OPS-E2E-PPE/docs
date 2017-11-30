@@ -1,5 +1,5 @@
 ---
-title: "How to: Convert a BMP image to a PNG image | Microsoft Docs"
+title: "How to: Convert a BMP image to a PNG image"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "BMP images, converting to PNG"
-  - "image formats, converting between"
+  - "BMP images [Windows Forms], converting to PNG"
+  - "image formats [Windows Forms], converting between"
 ms.assetid: 9d4a692d-73ac-4ce3-9e05-9ec321e8fbd6
 caps.latest.revision: 10
 author: dotnet-bot
@@ -37,6 +38,6 @@ Oftentimes, you will want to convert from one image file format to another. You 
 -   A reference to the `System.Drawing.Imaging` namespace.  
   
 ## See Also  
- [How to: List Installed Encoders](../../../../docs/framework/winforms/advanced/how-to-list-installed-encoders.md)   
- [Using Image Encoders and Decoders in Managed GDI+](../../../../docs/framework/winforms/advanced/using-image-encoders-and-decoders-in-managed-gdi.md)   
+ [How to: List Installed Encoders](../../../../docs/framework/winforms/advanced/how-to-list-installed-encoders.md)  
+ [Using Image Encoders and Decoders in Managed GDI+](../../../../docs/framework/winforms/advanced/using-image-encoders-and-decoders-in-managed-gdi.md)  
  [Types of Bitmaps](../../../../docs/framework/winforms/advanced/types-of-bitmaps.md)

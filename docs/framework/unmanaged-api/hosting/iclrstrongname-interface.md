@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName Interface | Microsoft Docs"
+title: "ICLRStrongName Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName interface [.NET Framework hosting]"
 ms.assetid: 2fac66fd-6b3b-4dbd-8baf-86038bd85526
@@ -75,5 +73,5 @@ Provides basic global static functions for signing assemblies with strong names.
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

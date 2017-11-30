@@ -1,5 +1,5 @@
 ---
-title: "Unsupported Expressions (Entity SQL) | Microsoft Docs"
+title: "Unsupported Expressions (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 5e79da7e-e78a-413c-8fb0-f3f9cd84f579
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -42,5 +37,5 @@ exists(select 0 from employees as e where sal > e.salary)
  [!INCLUDE[tsql](../../../../../../includes/tsql-md.md)] supports the use of the * operator in the SELECT clause to indicate that all columns should be projected out. This is not supported in [!INCLUDE[esql](../../../../../../includes/esql-md.md)].  
   
 ## See Also  
- [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)   
+ [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)  
  [How Entity SQL Differs from Transact-SQL](../../../../../../docs/framework/data/adonet/ef/language-reference/how-entity-sql-differs-from-transact-sql.md)

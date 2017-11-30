@@ -1,5 +1,5 @@
 ---
-title: "DbConnection, DbCommand and DbException | Microsoft Docs"
+title: "DbConnection, DbCommand and DbException"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 58aab611-7e6f-4749-b983-28ab7ae87dbe
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -67,7 +70,7 @@ finally
 ```  
   
 ## See Also  
- [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)   
- [Obtaining a DbProviderFactory](../../../../docs/framework/data/adonet/obtaining-a-dbproviderfactory.md)   
- [Modifying Data with a DbDataAdapter](../../../../docs/framework/data/adonet/modifying-data-with-a-dbdataadapter.md)   
+ [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)  
+ [Obtaining a DbProviderFactory](../../../../docs/framework/data/adonet/obtaining-a-dbproviderfactory.md)  
+ [Modifying Data with a DbDataAdapter](../../../../docs/framework/data/adonet/modifying-data-with-a-dbdataadapter.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

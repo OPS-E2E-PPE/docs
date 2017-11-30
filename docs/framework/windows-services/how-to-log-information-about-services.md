@@ -1,5 +1,5 @@
 ---
-title: "How to: Log Information About Services | Microsoft Docs"
+title: "How to: Log Information About Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "AutoLog property"
   - "services, logging information"

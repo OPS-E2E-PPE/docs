@@ -1,5 +1,5 @@
 ---
-title: "Group Elements in a Sequence | Microsoft Docs"
+title: "Group Elements in a Sequence"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1d50c8b4-f550-4775-bbb6-eab6e874cb43
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -76,5 +79,5 @@ The <xref:System.Linq.Enumerable.GroupBy%2A> operator groups the elements of a s
  [!code-vb[DLinqQueryExamples#35](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqQueryExamples/vb/Module1.vb#35)]  
   
 ## See Also  
- [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)   
+ [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)  
  [Downloading Sample Databases](../../../../../../docs/framework/data/adonet/sql/linq/downloading-sample-databases.md)

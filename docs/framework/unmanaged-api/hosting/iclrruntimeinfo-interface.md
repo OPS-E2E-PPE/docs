@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeInfo Interface | Microsoft Docs"
+title: "ICLRRuntimeInfo Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRRuntimeInfo interface [.NET Framework hosting]"
 ms.assetid: 287e5ede-b3a7-4ef8-a756-4fca3f285a82
@@ -59,5 +57,5 @@ Provides methods that return information about a specific common language runtim
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

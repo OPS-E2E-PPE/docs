@@ -1,5 +1,5 @@
 ---
-title: "IHostSecurityManager::SetThreadToken Method | Microsoft Docs"
+title: "IHostSecurityManager::SetThreadToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostSecurityManager::SetThreadToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetThreadToken method [.NET Framework hosting]"
   - "IHostSecurityManager::SetThreadToken method [.NET Framework hosting]"
@@ -71,5 +69,5 @@ HRESULT SetThreadToken (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostSecurityManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritymanager-interface.md)   
+ [IHostSecurityManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritymanager-interface.md)  
  [IHostThreadPoolManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-interface.md)

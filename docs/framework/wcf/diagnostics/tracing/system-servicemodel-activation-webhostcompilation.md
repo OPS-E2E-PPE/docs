@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Activation.WebHostCompilation | Microsoft Docs"
+title: "System.ServiceModel.Activation.WebHostCompilation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ System.ServiceModel.Activation.WebHostCompilation
  Occurs when an Internet Information Service (IIS) or Windows Process Activation Service (WAS) hosted service is compiled from inline code that is present in the .svc file.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

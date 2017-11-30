@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValue::CreateBreakpoint Method | Microsoft Docs"
+title: "ICorDebugValue::CreateBreakpoint Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValue::CreateBreakpoint"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateBreakpoint method, ICorDebugValue interface [.NET Framework debugging]"
   - "ICorDebugValue::CreateBreakpoint method [.NET Framework debugging]"

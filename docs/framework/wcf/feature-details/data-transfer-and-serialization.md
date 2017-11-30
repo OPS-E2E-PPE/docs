@@ -1,5 +1,5 @@
 ---
-title: "Data Transfer and Serialization | Microsoft Docs"
+title: "Data Transfer and Serialization"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -67,5 +67,5 @@ In a connected system, services and clients depend on the exchange of data to ac
  [Extending Encoders and Serializers](../../../../docs/framework/wcf/extending/extending-encoders-and-serializers.md)  
   
 ## See Also  
- [Best Practices: Data Contract Versioning](../../../../docs/framework/wcf/best-practices-data-contract-versioning.md)   
+ [Best Practices: Data Contract Versioning](../../../../docs/framework/wcf/best-practices-data-contract-versioning.md)  
  [Service Versioning](../../../../docs/framework/wcf/service-versioning.md)

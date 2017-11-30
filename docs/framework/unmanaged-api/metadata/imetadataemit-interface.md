@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataEmit Interface | Microsoft Docs"
+title: "IMetaDataEmit Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataEmit"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataEmit interface [.NET Framework metadata]"
 ms.assetid: 3b48fd47-7397-4e2c-8bec-8157aa08978c
@@ -96,5 +94,5 @@ Provides methods to create, modify, and save metadata about the assembly in the 
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)   
+ [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)  
  [IMetaDataEmit2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit2-interface.md)

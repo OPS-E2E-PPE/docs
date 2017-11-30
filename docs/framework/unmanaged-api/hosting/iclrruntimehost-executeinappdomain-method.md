@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeHost::ExecuteInAppDomain Method | Microsoft Docs"
+title: "ICLRRuntimeHost::ExecuteInAppDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeHost::ExecuteInAppDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRRuntimeHost::ExecuteInAppDomain method [.NET Framework hosting]"
   - "ExecuteInAppDomain method [.NET Framework hosting]"

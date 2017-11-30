@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::CanCommitChanges Method | Microsoft Docs"
+title: "ICorDebugController::CanCommitChanges Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::CanCommitChanges"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugController::CanCommitChanges method [.NET Framework debugging]"
   - "CanCommitChanges method [.NET Framework debugging]"

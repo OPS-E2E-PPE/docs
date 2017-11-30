@@ -1,5 +1,5 @@
 ---
-title: "Create a Client-Side UI Automation Provider | Microsoft Docs"
+title: "Create a Client-Side UI Automation Provider"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "UI Automation, creating client-side provider"
   - "client-side UI Automation provider, creating"
@@ -31,5 +34,5 @@ manager: "markl"
  [!code-vb[UIAClientSideProvider_snip#101](../../../samples/snippets/visualbasic/VS_Snippets_Wpf/UIAClientSideProvider_snip/visualbasic/csproviderprogram.vb#101)]  
   
 ## See Also  
- [UI Automation Providers Overview](../../../docs/framework/ui-automation/ui-automation-providers-overview.md)   
+ [UI Automation Providers Overview](../../../docs/framework/ui-automation/ui-automation-providers-overview.md)  
  [Register a Client-Side Provider Assembly](../../../docs/framework/ui-automation/register-a-client-side-provider-assembly.md)

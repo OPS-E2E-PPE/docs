@@ -1,5 +1,5 @@
 ---
-title: "Conversion of XML Data Types | Microsoft Docs"
+title: "Conversion of XML Data Types"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: a2aa99ba-8239-4818-9281-f1d72ee40bde
 caps.latest.revision: 3
 author: "mairaw"
@@ -71,5 +69,5 @@ writer.WriteElementString("TestInt32",XmlConvert.ToString(vInt32));
 ```  
   
 ## See Also  
- [Converting Strings to .NET Framework Data Types](../../../../docs/standard/data/xml/converting-strings-to-dotnet-data-types.md)   
+ [Converting Strings to .NET Framework Data Types](../../../../docs/standard/data/xml/converting-strings-to-dotnet-data-types.md)  
  [Converting .NET Framework Types to Strings](../../../../docs/standard/data/xml/converting-dotnet-types-to-strings.md)

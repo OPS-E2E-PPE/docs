@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo5 Interface | Microsoft Docs"
+title: "ICorProfilerInfo5 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "mscorwks.dll"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: 7bd48c34-37ed-4230-9eec-39a17280f05d
 topic_type: 
   - "apiref"

@@ -32,10 +32,13 @@
 ## Examples  
  The following example shows how to create a <xref:System.Windows.Controls.ToolBar> inside a <xref:System.Windows.Controls.ToolBarTray>.  The example uses the <xref:System.Windows.Controls.ToolBar.BandIndex%2A> property to place tool bars inside tool bar trays.  
   
- [!code-xml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
+ [!code-xaml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+    <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+    <altmember cref="T:System.Windows.Controls.ToolBarTray" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -108,10 +111,13 @@
 ## Examples  
  The following example uses the <xref:System.Windows.Controls.ToolBarTray.Background%2A> property to set the brush for the background color of a <xref:System.Windows.Controls.ToolBarTray>.  
   
- [!code-xml[ToolBarExample#ToolBarTrayIsLocked](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#toolbartrayislocked)]  
+ [!code-xaml[ToolBarExample#ToolBarTrayIsLocked](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#toolbartrayislocked)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="BackgroundProperty">
@@ -220,10 +226,13 @@
 ## Examples  
  The following example shows how to create a <xref:System.Windows.Controls.ToolBarTray> that does not allow a <xref:System.Windows.Controls.ToolBar> to move inside it.  
   
- [!code-xml[ToolBarExample#ToolBarTrayIsLocked](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#toolbartrayislocked)]  
+ [!code-xaml[ToolBarExample#ToolBarTrayIsLocked](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#toolbartrayislocked)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="IsLockedProperty">
@@ -337,10 +346,13 @@
 ## Examples  
  The following example shows how to use the <xref:System.Windows.Controls.Orientation> property to set the orientation of the tool bar tray; this determines the orientation of the tool bar.  
   
- [!code-xml[ToolBarExample#4](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#4)]  
+ [!code-xaml[ToolBarExample#4](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#4)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="OrientationProperty">
@@ -475,6 +487,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="VisualChildrenCount">

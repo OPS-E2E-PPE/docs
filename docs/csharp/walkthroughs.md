@@ -1,16 +1,10 @@
 ---
-title: "C# Walkthroughs | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "C# Walkthroughs"
+ms.date: 07/20/2015
 ms.prod: .net
-
-
 ms.technology: 
   - "devlang-csharp"
-
 ms.topic: "article"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "walkthroughs [C#]"
   - "walkthroughs [Visual Studio], Visual C#"
@@ -19,21 +13,6 @@ ms.assetid: 2d07b972-ef69-4676-9aef-e1784728e1ff
 caps.latest.revision: 28
 author: "BillWagner"
 ms.author: "wiwagn"
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # C# Walkthroughs
 Walkthroughs give step-by-step instructions for common scenarios, which makes them a good place to start learning about the product or a particular feature area.  
@@ -84,13 +63,13 @@ Walkthroughs give step-by-step instructions for common scenarios, which makes th
  [Querying Across Relationships (C#) (LINQ to SQL)](https://msdn.microsoft.com/library/bb386951.aspx)  
  Demonstrates the use of [!INCLUDE[vbtecdlinq](~/includes/vbtecdlinq-md.md)] associations to represent foreign-key relationships in a database.  
 
- [Writing a Visualizer in C#](https://docs.microsoft.com/visualstudio/debugger/walkthrough-writing-a-visualizer-in-csharp)  
+ [Writing a Visualizer in C#](/visualstudio/debugger/walkthrough-writing-a-visualizer-in-csharp)  
  Shows how to write a simple visualizer by using C#.  
   
 ## Related Sections  
- [Deployment Samples and Walkthroughs](https://docs.microsoft.com/visualstudio/deployment/clickonce-deployment-samples-and-walkthroughs)  
+ [Deployment Samples and Walkthroughs](/visualstudio/deployment/clickonce-deployment-samples-and-walkthroughs)  
  Provides step-by-step examples of common deployment scenarios.  
   
 ## See Also  
- [C# Programming Guide](../csharp/programming-guide/index.md)   
- [Visual Studio Samples](https://docs.microsoft.com/visualstudio/ide/visual-studio-samples)
+ [C# Programming Guide](../csharp/programming-guide/index.md)  
+ [Visual Studio Samples](/visualstudio/ide/visual-studio-samples)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetSymbolStoreFileName Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetSymbolStoreFileName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetSymbolStoreFileName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSymbolStoreFileName method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetSymbolStoreFileName method [.NET Framework debugging]"

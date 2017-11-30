@@ -1,5 +1,5 @@
 ---
-title: "Transport Security with Certificate Authentication | Microsoft Docs"
+title: "Transport Security with Certificate Authentication"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "vb"
 ms.assetid: 3d726b71-4d8b-4581-a3bb-02b9af51d11b
 caps.latest.revision: 20
 author: "BrucePerlerMS"
@@ -142,5 +144,5 @@ cc.Close();
 ```  
   
 ## See Also  
- [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)   
+ [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

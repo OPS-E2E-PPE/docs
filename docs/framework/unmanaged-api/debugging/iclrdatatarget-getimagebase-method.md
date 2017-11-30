@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget::GetImageBase Method | Microsoft Docs"
+title: "ICLRDataTarget::GetImageBase Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget::GetImageBase"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget::GetImageBase method [.NET Framework debugging]"
   - "GetImageBase method [.NET Framework debugging]"

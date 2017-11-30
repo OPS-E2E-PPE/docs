@@ -1,5 +1,5 @@
 ---
-title: "Node Sets in Transformations | Microsoft Docs"
+title: "Node Sets in Transformations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: ad034f0e-ff8b-4a71-9a4c-528c754263c4
 caps.latest.revision: 4
 author: "mairaw"
@@ -82,6 +77,6 @@ History of Trenton Vol 3
 ```  
   
 ## See Also  
- <xref:System.Xml.XPath.XPathNodeIterator>   
- [XSLT Transformations with the XslTransform Class](../../../../docs/standard/data/xml/xslt-transformations-with-the-xsltransform-class.md)   
+ <xref:System.Xml.XPath.XPathNodeIterator>  
+ [XSLT Transformations with the XslTransform Class](../../../../docs/standard/data/xml/xslt-transformations-with-the-xsltransform-class.md)  
  [XslTransform Class Implements the XSLT Processor](../../../../docs/standard/data/xml/xsltransform-class-implements-the-xslt-processor.md)

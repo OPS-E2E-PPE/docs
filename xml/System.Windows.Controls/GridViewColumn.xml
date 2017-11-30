@@ -50,10 +50,14 @@
 ## Examples  
  The following example shows how to define <xref:System.Windows.Controls.GridViewColumn> objects for a <xref:System.Windows.Controls.GridView>.  
   
- [!code-xml[ListViewSnips#GridViewColumnContent](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#gridviewcolumncontent)]  
+ [!code-xaml[ListViewSnips#GridViewColumnContent](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#gridviewcolumncontent)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.GridView" />
+    <altmember cref="T:System.Windows.Controls.GridViewColumnHeader" />
+    <altmember cref="T:System.Windows.Controls.GridViewColumnCollection" />
+    <altmember cref="T:System.Windows.Controls.ListView" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -90,9 +94,9 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- You can use this property to get the current width of the <xref:System.Windows.Controls.GridViewColumn> when the <xref:System.Windows.Controls.GridViewColumn.Width%2A> property is set to <xref:System.Double.NaN?displayProperty=fullName>. A value of <xref:System.Double.NaN?displayProperty=fullName> for the <xref:System.Windows.Controls.GridViewColumn.Width%2A> property specifies that the column size accommodate the largest visible item that is not the column header.  
+ You can use this property to get the current width of the <xref:System.Windows.Controls.GridViewColumn> when the <xref:System.Windows.Controls.GridViewColumn.Width%2A> property is set to <xref:System.Double.NaN?displayProperty=nameWithType>. A value of <xref:System.Double.NaN?displayProperty=nameWithType> for the <xref:System.Windows.Controls.GridViewColumn.Width%2A> property specifies that the column size accommodate the largest visible item that is not the column header.  
   
- Unlike <xref:System.Windows.FrameworkElement.ActualWidth%2A?displayProperty=fullName>, <xref:System.Windows.Controls.GridViewColumn.ActualWidth%2A?displayProperty=fullName> is not a dependency property.  
+ Unlike <xref:System.Windows.FrameworkElement.ActualWidth%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.GridViewColumn.ActualWidth%2A?displayProperty=nameWithType> is not a dependency property.  
   
  ]]></format>
         </remarks>
@@ -159,12 +163,14 @@
 ## Examples  
  The following example shows how to specify a <xref:System.Windows.DataTemplate> to use to display a <xref:System.Windows.Controls.GridViewColumn>.  
   
- [!code-xml[ListViewTemplate#GridViewCellTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcelltemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewCellTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcelltemplate)]  
   
- [!code-xml[ListViewTemplate#CellTemplateProperty](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#celltemplateproperty)]  
+ [!code-xaml[ListViewTemplate#CellTemplateProperty](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#celltemplateproperty)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.CellTemplateSelector" />
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.DisplayMemberBinding" />
       </Docs>
     </Member>
     <Member MemberName="CellTemplateProperty">
@@ -265,7 +271,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Controls.GridViewColumn.CellTemplateSelector%2A> property.  
   
- [!code-xml[ListViewSnips#GridViewColumnContent](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#gridviewcolumncontent)]  
+ [!code-xaml[ListViewSnips#GridViewColumnContent](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#gridviewcolumncontent)]  
   
  ]]></format>
         </remarks>
@@ -331,7 +337,7 @@
   
  [!code-csharp[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewcolumnproperties)]
  [!code-vb[ListViewCode#GridViewColumnProperties](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewcolumnproperties)]
- [!code-xml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
+ [!code-xaml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
   
  ]]></format>
         </remarks>
@@ -394,10 +400,13 @@
   
  [!code-csharp[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewcolumnproperties)]
  [!code-vb[ListViewCode#GridViewColumnProperties](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewcolumnproperties)]
- [!code-xml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
+ [!code-xaml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.GridViewColumnHeader" />
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.HeaderTemplate" />
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.HeaderTemplateSelector" />
       </Docs>
     </Member>
     <Member MemberName="HeaderContainerStyle">
@@ -459,18 +468,20 @@
 ## Examples  
  The following example shows how to define a <xref:System.Windows.Controls.GridViewColumn.HeaderContainerStyle%2A> that specifies display properties for a column header.  
   
- [!code-xml[ListViewTemplate#GridViewHeaderStyle](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheaderstyle)]  
+ [!code-xaml[ListViewTemplate#GridViewHeaderStyle](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheaderstyle)]  
   
- [!code-xml[ListViewTemplate#GridViewColumnTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumntemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumntemplate)]  
   
  The following example shows how to define a <xref:System.Windows.Controls.GridViewColumn.HeaderContainerStyle%2A> that defines display properties by using a <xref:System.Windows.Controls.ControlTemplate>.  
   
- [!code-xml[ListViewTemplate#GridViewColumnHCTwithControlTemplatePart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnhctwithcontroltemplatepart1)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnHCTwithControlTemplatePart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnhctwithcontroltemplatepart1)]  
   
- [!code-xml[ListViewTemplate#GridViewColumnHCTwithControlTemplatePart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnhctwithcontroltemplatepart2)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnHCTwithControlTemplatePart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnhctwithcontroltemplatepart2)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.HeaderTemplate" />
+        <altmember cref="P:System.Windows.Controls.GridView.ColumnHeaderContainerStyle" />
       </Docs>
     </Member>
     <Member MemberName="HeaderContainerStyleProperty">
@@ -540,15 +551,15 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- If the <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A?displayProperty=fullName>, <xref:System.Windows.Controls.GridViewColumn.HeaderTemplate%2A?displayProperty=fullName>, or <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderTemplate%2A?displayProperty=fullName> property is set, this property is ignored.  
+ If the <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.GridViewColumn.HeaderTemplate%2A?displayProperty=nameWithType>, or <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderTemplate%2A?displayProperty=nameWithType> property is set, this property is ignored.  
   
  You can use several properties to specify the format of the column headers.  If more than one property is set, the column header is formatted with the value of the property that has the highest priority. The format for a column can be set on several types. The following list shows the properties that can be used to format the column headers, ordered from lowest to highest priority:  
   
--   <xref:System.Windows.Controls.GridView.ColumnHeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridView.ColumnHeaderStringFormat%2A?displayProperty=nameWithType>  
   
--   <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderStringFormat%2A?displayProperty=nameWithType>  
   
--   <xref:System.Windows.Controls.GridViewColumn.HeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridViewColumn.HeaderStringFormat%2A?displayProperty=nameWithType>  
   
 <a name="dependencyPropertyInfo_HeaderStringFormat"></a>   
 ## Dependency Property Information  
@@ -602,7 +613,7 @@
   
  After a <xref:System.Windows.Controls.GridViewColumn.HeaderTemplate%2A> or <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A> is specified for a <xref:System.Windows.Controls.GridViewColumn>, it cannot be changed.  
   
- You can also define the display of a column header by specifying a <xref:System.Windows.Controls.ControlTemplate> as part of a <xref:System.Windows.Controls.GridViewColumn.HeaderContainerStyle%2A?displayProperty=fullName>.  
+ You can also define the display of a column header by specifying a <xref:System.Windows.Controls.ControlTemplate> as part of a <xref:System.Windows.Controls.GridViewColumn.HeaderContainerStyle%2A?displayProperty=nameWithType>.  
   
  Properties that define the content, layout, and style of a column header are found on many related classes, and some of these properties have functionality that is similar or the same. For more information, see [GridView Column Header Styles and Templates Overview](~/docs/framework/wpf/controls/gridview-column-header-styles-and-templates-overview.md).  
   
@@ -640,12 +651,15 @@
 ## Examples  
  The following example shows how to specify a template to use to display the header of a <xref:System.Windows.Controls.GridViewColumn>.  
   
- [!code-xml[ListViewTemplate#GridViewHeaderTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheadertemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewHeaderTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheadertemplate)]  
   
- [!code-xml[ListViewTemplate#GridViewColumnTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumntemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumntemplate)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.HeaderTemplateSelector" />
+        <altmember cref="P:System.Windows.Controls.GridView.ColumnHeaderTemplate" />
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.HeaderContainerStyle" />
       </Docs>
     </Member>
     <Member MemberName="HeaderTemplateProperty">
@@ -852,7 +866,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- To get the exact width when this property is set to <xref:System.Double?displayProperty=fullName>, use the <xref:System.Windows.Controls.GridViewColumn.ActualWidth%2A> property.  
+ To get the exact width when this property is set to <xref:System.Double.NaN?displayProperty=nameWithType>, use the <xref:System.Windows.Controls.GridViewColumn.ActualWidth%2A> property.  
   
 <a name="xamlAttributeUsage_Width"></a>   
 ## XAML Attribute Usage  
@@ -901,10 +915,11 @@
   
  [!code-csharp[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewcolumnproperties)]
  [!code-vb[ListViewCode#GridViewColumnProperties](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewcolumnproperties)]
- [!code-xml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
+ [!code-xaml[ListViewCode#GridViewColumnProperties](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumnproperties)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridViewColumn.ActualWidth" />
       </Docs>
     </Member>
     <Member MemberName="WidthProperty">

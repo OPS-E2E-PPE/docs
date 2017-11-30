@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocument::GetDocumentType Method | Microsoft Docs"
+title: "ISymUnmanagedDocument::GetDocumentType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocument::GetDocumentType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedDocument::GetDocumentType method [.NET Framework debugging]"
   - "GetDocumentType method [.NET Framework debugging]"

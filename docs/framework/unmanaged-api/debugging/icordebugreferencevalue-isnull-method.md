@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugReferenceValue::IsNull Method | Microsoft Docs"
+title: "ICorDebugReferenceValue::IsNull Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugReferenceValue::IsNull"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsNull method, ICorDebugReferenceValue interface [.NET Framework debugging]"
   - "ICorDebugReferenceValue::IsNull method [.NET Framework debugging]"

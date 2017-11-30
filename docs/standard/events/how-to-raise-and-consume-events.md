@@ -1,5 +1,5 @@
 ---
-title: "How to: Raise and Consume Events | Microsoft Docs"
+title: "How to: Raise and Consume Events"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "events [.NET Framework], raising"
   - "raising events"

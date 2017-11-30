@@ -1,5 +1,5 @@
 ---
-title: "Securing ADO.NET Applications | Microsoft Docs"
+title: "Securing ADO.NET Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -58,5 +58,5 @@ Writing a secure ADO.NET application involves more than avoiding common coding p
  Provides links to external resources available online and in print.  
   
 ## See Also  
- [ADO.NET](../../../../docs/framework/data/adonet/index.md)   
+ [ADO.NET](../../../../docs/framework/data/adonet/index.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

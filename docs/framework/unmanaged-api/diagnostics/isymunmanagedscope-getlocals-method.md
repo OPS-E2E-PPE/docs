@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope::GetLocals Method | Microsoft Docs"
+title: "ISymUnmanagedScope::GetLocals Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope::GetLocals"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetLocals method [.NET Framework debugging]"
   - "ISymUnmanagedScope::GetLocals method [.NET Framework debugging]"

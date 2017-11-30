@@ -1,5 +1,5 @@
 ---
-title: "&lt;trustedIssuers&gt; | Microsoft Docs"
+title: "&lt;trustedIssuers&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -82,5 +82,5 @@ Configures the list of trusted issuer certificates used by the configuration-bas
 ```  
   
 ## See Also  
- <xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry>   
+ <xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry>  
  <xref:System.IdentityModel.Tokens.IssuerNameRegistry>

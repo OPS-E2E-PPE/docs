@@ -1,5 +1,5 @@
 ---
-title: "Stand-Alone Diagnostics Feed Sample | Microsoft Docs"
+title: "Stand-Alone Diagnostics Feed Sample"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -100,5 +100,5 @@ foreach (SyndicationItem i in feed.Items)
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Syndication\DiagnosticsFeed`  
   
 ## See Also  
- [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)   
+ [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)  
  [WCF Syndication](../../../../docs/framework/wcf/feature-details/wcf-syndication.md)

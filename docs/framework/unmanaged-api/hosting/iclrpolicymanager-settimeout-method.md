@@ -1,5 +1,5 @@
 ---
-title: "ICLRPolicyManager::SetTimeout Method | Microsoft Docs"
+title: "ICLRPolicyManager::SetTimeout Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRPolicyManager::SetTimeout"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetTimeout method [.NET Framework hosting]"
   - "ICLRPolicyManager::SetTimeout method [.NET Framework hosting]"
@@ -79,6 +77,6 @@ HRESULT SetTimeout (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [EClrOperation Enumeration](../../../../docs/framework/unmanaged-api/hosting/eclroperation-enumeration.md)   
- [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)   
+ [EClrOperation Enumeration](../../../../docs/framework/unmanaged-api/hosting/eclroperation-enumeration.md)  
+ [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)  
  [ICLRPolicyManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrpolicymanager-interface.md)

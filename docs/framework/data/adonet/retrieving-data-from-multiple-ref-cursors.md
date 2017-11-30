@@ -1,5 +1,5 @@
 ---
-title: "Retrieving Data from Multiple REF CURSORs Using an OracleDataReader | Microsoft Docs"
+title: "Retrieving Data from Multiple REF CURSORs Using an OracleDataReader"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "vb"
 ms.assetid: 361e9bd4-447d-44b7-8629-3c11f1a7ffbb
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -55,5 +57,5 @@ End Sub
 ```  
   
 ## See Also  
- [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)   
+ [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

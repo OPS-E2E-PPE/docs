@@ -1,5 +1,5 @@
 ---
-title: "Connection Events | Microsoft Docs"
+title: "Connection Events"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 5a29de74-acfc-4134-8616-829dd7ce0710
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -109,5 +112,5 @@ protected static void OnStateChange(object sender,
 ```  
   
 ## See Also  
- [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)   
+ [Connecting to a Data Source](../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

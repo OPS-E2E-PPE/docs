@@ -1,5 +1,5 @@
 ---
-title: "UnknownListenerAdapterError | Microsoft Docs"
+title: "UnknownListenerAdapterError"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 161
  This event indicates that an unexpected error occurred in the listener adapter while handling a Windows Process Activation Service (WAS) notification. The process is terminated. The event lists the protocol, exception, process name and process ID.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

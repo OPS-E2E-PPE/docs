@@ -1,5 +1,5 @@
 ---
-title: "&lt;workflow&gt; | Microsoft Docs"
+title: "&lt;workflow&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -115,7 +115,7 @@ A configuration element that contains all queries for a specific workflow identi
   
  Tracking profiles are structured as declarative subscriptions for tracking records that allow you to query the workflow runtime for specific tracking records. There are a handful of query types that allow you subscribe to different classes of tracking records. For a complete list of queries, see the child element list of this topic and [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md).  
   
- The following example shows a tracking profile in a configuration file that allows a tracking participant to subscribe to the `Started`and `Completed` workflow events.  
+ The following example shows a tracking profile in a configuration file that allows a tracking participant to subscribe to the `Started` and `Completed` workflow events.  
   
 ```xml  
 <system.serviceModel>  
@@ -138,7 +138,7 @@ A configuration element that contains all queries for a specific workflow identi
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Tracking.Configuration.ProfileWorkflowElement>   
- <xref:System.Activities.Tracking.TrackingProfile>   
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.ProfileWorkflowElement>  
+ <xref:System.Activities.Tracking.TrackingProfile>  
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

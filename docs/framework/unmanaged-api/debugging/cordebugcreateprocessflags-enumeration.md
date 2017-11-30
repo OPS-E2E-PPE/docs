@@ -1,5 +1,5 @@
 ---
-title: "CorDebugCreateProcessFlags Enumeration | Microsoft Docs"
+title: "CorDebugCreateProcessFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugCreateProcessFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugCreateProcessFlags enumeration [.NET Framework debugging]"
 ms.assetid: e709acce-6a17-4346-b38a-467dba567358

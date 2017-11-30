@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetCurrentThreadID Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetCurrentThreadID Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetCurrentThreadID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCurrentThreadID method, ICorProfilerInfo interface [.NET Framework profiling]"
   - "ICorProfilerInfo::GetCurrentThreadID method [.NET Framework profiling]"

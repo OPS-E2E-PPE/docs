@@ -1,5 +1,5 @@
 ---
-title: "System.ServiceModel.Channels.PeerNeighborStateChangeFailed | Microsoft Docs"
+title: "System.ServiceModel.Channels.PeerNeighborStateChangeFailed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,6 +22,6 @@ A neighbor's state was corrupted.
  This trace occurs upon a failed attempt to change a neighbor's state. This indicates an unexpected internal error, or corrupted memory.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

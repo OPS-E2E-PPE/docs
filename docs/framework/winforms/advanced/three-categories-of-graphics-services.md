@@ -1,5 +1,5 @@
 ---
-title: "Three Categories of Graphics Services | Microsoft Docs"
+title: "Three Categories of Graphics Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "imaging"
-  - "graphics, categories"
+  - "graphics [Windows Forms], categories"
   - "2-D vector graphics"
   - "vector graphics"
   - "typography"
@@ -48,6 +46,6 @@ The graphics offerings in Windows Forms fall into the following three broad cate
  In addition, Windows Forms offers the option to draw text with [!INCLUDE[ndptecgdi](../../../../includes/ndptecgdi-md.md)] capabilities in its <xref:System.Windows.Forms.TextRenderer> class.  
   
 ## See Also  
- [Graphics Overview](../../../../docs/framework/winforms/advanced/graphics-overview-windows-forms.md)   
- [About GDI+ Managed Code](../../../../docs/framework/winforms/advanced/about-gdi-managed-code.md)   
+ [Graphics Overview](../../../../docs/framework/winforms/advanced/graphics-overview-windows-forms.md)  
+ [About GDI+ Managed Code](../../../../docs/framework/winforms/advanced/about-gdi-managed-code.md)  
  [Using Managed Graphics Classes](../../../../docs/framework/winforms/advanced/using-managed-graphics-classes.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorConfiguration::SetDebuggerThreadControl Method | Microsoft Docs"
+title: "ICorConfiguration::SetDebuggerThreadControl Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SetDebuggerThreadControl"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetDebuggerThreadControl method [.NET Framework hosting]"
   - "ICorConfiguration::SetDebuggerThreadControl method [.NET Framework hosting]"

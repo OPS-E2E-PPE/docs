@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_MONITOR Enumeration | Microsoft Docs"
+title: "COR_PRF_MONITOR Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_MONITOR"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_MONITOR enumeration [.NET Framework profiling]"
 ms.assetid: 9294d702-b4e5-441c-a930-e63d27b86bfd
@@ -200,6 +198,6 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Profiling Enumerations](../../../../docs/framework/unmanaged-api/profiling/profiling-enumerations.md)   
- [GetEventMask Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-geteventmask-method.md)   
+ [Profiling Enumerations](../../../../docs/framework/unmanaged-api/profiling/profiling-enumerations.md)  
+ [GetEventMask Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-geteventmask-method.md)  
  [SetEventMask Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-seteventmask-method.md)

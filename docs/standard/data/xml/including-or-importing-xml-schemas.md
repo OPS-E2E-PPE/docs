@@ -1,5 +1,5 @@
 ---
-title: "Including or Importing XML Schemas | Microsoft Docs"
+title: "Including or Importing XML Schemas"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 ms.assetid: fe1b4a11-37f4-4e1a-93c9-239f4fe736c0
 caps.latest.revision: 2
 author: "mairaw"
@@ -101,12 +100,12 @@ An XML schema may contain `<xs:import />`, `<xs:include />`, and `<xs:redefine /
 </schema>  
 ```  
   
- For more information about the `<xs:import />`, `<xs:include />`, and `<xs:redefine />` elements and the <xref:System.Xml.Schema.XmlSchemaImport>, <xref:System.Xml.Schema.XmlSchemaInclude> and <xref:System.Xml.Schema.XmlSchemaRedefine> classes, see the [W3C XML Schema](http://go.microsoft.com/fwlink/?LinkId=45242) and the <xref:System.Xml.Schema?displayProperty=fullName> namespace class reference documentation.  
+ For more information about the `<xs:import />`, `<xs:include />`, and `<xs:redefine />` elements and the <xref:System.Xml.Schema.XmlSchemaImport>, <xref:System.Xml.Schema.XmlSchemaInclude> and <xref:System.Xml.Schema.XmlSchemaRedefine> classes, see the [W3C XML Schema](http://go.microsoft.com/fwlink/?LinkId=45242) and the <xref:System.Xml.Schema?displayProperty=nameWithType> namespace class reference documentation.  
   
 ## See Also  
- [XML Schema Object Model Overview](../../../../docs/standard/data/xml/xml-schema-object-model-overview.md)   
- [Reading and Writing XML Schemas](../../../../docs/standard/data/xml/reading-and-writing-xml-schemas.md)   
- [Building XML Schemas](../../../../docs/standard/data/xml/building-xml-schemas.md)   
- [Traversing XML Schemas](../../../../docs/standard/data/xml/traversing-xml-schemas.md)   
- [Editing XML Schemas](../../../../docs/standard/data/xml/editing-xml-schemas.md)   
+ [XML Schema Object Model Overview](../../../../docs/standard/data/xml/xml-schema-object-model-overview.md)  
+ [Reading and Writing XML Schemas](../../../../docs/standard/data/xml/reading-and-writing-xml-schemas.md)  
+ [Building XML Schemas](../../../../docs/standard/data/xml/building-xml-schemas.md)  
+ [Traversing XML Schemas](../../../../docs/standard/data/xml/traversing-xml-schemas.md)  
+ [Editing XML Schemas](../../../../docs/standard/data/xml/editing-xml-schemas.md)  
  [XmlSchemaSet for Schema Compilation](../../../../docs/standard/data/xml/xmlschemaset-for-schema-compilation.md)

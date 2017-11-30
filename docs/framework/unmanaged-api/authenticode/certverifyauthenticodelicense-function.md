@@ -1,5 +1,5 @@
 ---
-title: "CertVerifyAuthenticodeLicense Function | Microsoft Docs"
+title: "CertVerifyAuthenticodeLicense Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "clr.dll"
 api_type: 
   - "DLLExport"
-dev_langs: 
-  - "C++"
 ms.assetid: 00118de7-33c6-41c4-8e1f-5d5e35e0da83
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -72,6 +70,6 @@ HRESULT CertVerifyAuthenticodeLicense (
  Returns `S_OK` if successful. Otherwise, returns an error code.  
   
 ## See Also  
- [Authenticode](../../../../docs/framework/unmanaged-api/authenticode/index.md)   
- [GetHashFromHandle Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromhandle-method.md)   
+ [Authenticode](../../../../docs/framework/unmanaged-api/authenticode/index.md)  
+ [GetHashFromHandle Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromhandle-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

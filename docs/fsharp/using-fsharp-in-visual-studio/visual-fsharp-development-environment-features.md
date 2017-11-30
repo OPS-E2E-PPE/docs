@@ -1,6 +1,6 @@
 ---
-title: F# Development Environment Features | Microsoft Docs
-description: F# Development Environment Features
+title: F# Development Environment Features
+description: Learn which features of Visual Studio 2012 are supported in F#.
 keywords: visual f#, f#, functional programming
 author: cartermp
 ms.author: phcart
@@ -19,11 +19,8 @@ This article is not up to date with the latest Visual Studio.  It will be update
 
 This topic includes information about which features of Visual Studio 2012 are supported in F#.
 
-
 ## Project Features
 The following table summarizes the templates that are available for use in F# projects. For information about project and item templates, see [NIB Creating Projects from Templates](https://msdn.microsoft.com/library/7c36d86a-6b79-4480-8228-0f925f1204b2).
-
-
 
 |Template type|Description|Supported templates|
 |-------------|-----------|-------------------|
@@ -34,8 +31,6 @@ To create an application that can run as a standalone executable, choose the F# 
 For more information about the item templates for data access, see [Type Providers](../tutorials/type-providers/index.md).
 
 The following table summarizes project-properties features supported and not supported in F#. For more information, see [Configuring Projects](configuring-projects.md) and [Introduction to the Project Designer](https://msdn.microsoft.com/library/898dd854-c98d-430c-ba1b-a913ce3c73d7).
-
-
 
 |Project setting|Supported in F#?|Notes|
 |---------------|----------------|-----|
@@ -53,8 +48,6 @@ The following table summarizes project-properties features supported and not sup
 ## Code and Text Editor Features
 The following features of the Visual Studiocode and text editors are supported in F#. For general information about editing code in Visual Studio, and features of the text editor, see [Writing Code in the Code and Text Editor](https://msdn.microsoft.com/library/efc4xwkb.aspx).
 
-
-
 |Feature|Description|Supported in F#?|
 |-------|-----------|----------------|
 |Automatically comment|Enables you to comment or uncomment sections of code.|Yes|
@@ -65,16 +58,14 @@ The following features of the Visual Studiocode and text editors are supported i
 |Go to definition for .NET Framework API|When the cursor is positioned on a .NET Framework API, shows code generated from .NET Framework metadata.|No|
 |Go to definition for user-defined API|When the cursor is on a program entity that you defined, moves the cursor to the location in your code where the entity is defined.|Yes|
 |Go To Line|Enables you to go to a specific line in a file, by line number.|Yes|
-|Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|No|
-|Outlining. See [Outlining](https://msdn.microsoft.com/library/td6a5x4s.aspx).|Enables you to collapse sections of your code to create a more compact view.|No|
+|Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|Yes|
+|Outlining. See [Outlining](https://msdn.microsoft.com/library/td6a5x4s.aspx).|Enables you to collapse sections of your code to create a more compact view.|Yes|
 |Tabify|Converts spaces to tabs.|Yes|
-|Type colorization|Shows defined type names in a special color.|No|
-|Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes, but only to find F# files, not to search within files|
+|Type colorization|Shows defined type names in a special color.|Yes|
+|Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes|
 
 ## IntelliSense Features
 The following table summarizes IntelliSense features supported and not supported in F#. For general information about IntelliSense, see [Using IntelliSense](https://msdn.microsoft.com/library/hcw1s69b.aspx).
-
-
 
 |Feature|Description|Supported in F#?|
 |-------|-----------|----------------|
@@ -85,15 +76,12 @@ The following table summarizes IntelliSense features supported and not supported
 |Generate code elements|Enables you to generate stub code for a variety of constructs.|No|
 |List Members|When you type the member access operator (.), shows members for a type.|Yes|
 |Organize Usings/Open|Organizes namespaces referenced by **using** statements in C# or **open** directives in F#.|No|
-|Parameter Info|Shows helpful information about parameters as you type a function call.|Yes.|
+|Parameter Info|Shows helpful information about parameters as you type a function call.|Yes|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
 Refactoring of F# code isn't supported in Visual Studio 2012.
 
-
 ## Debugging Features
 The following table summarizes features that are available when you debug F# code. For general information about the Visual Studio debugger, see [Debugging in Visual Studio](https://msdn.microsoft.com/library/sc65sadd.aspx).
-
-
 
 |Feature|Description|Supported in F#?|
 |-------|-----------|----------------|
@@ -129,6 +117,5 @@ The following table summarizes the support for F# in Visual Studio tools.
 |Toolbox|Displays tabs that contain draggable objects such as controls and sections of text or code.|Yes|
 
 ## See Also
-[Getting Started with F# in Visual Studio](../tutorials/getting-started/getting-started-visual-studio.md)
-
-[Configuring Projects](configuring-projects.md)
+ [Get Started with F# in Visual Studio](../get-started/get-started-visual-studio.md)  
+ [Configuring Projects](configuring-projects.md)  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize Feeds with the Reflection Provider (WCF Data Services) | Microsoft Docs"
+title: "How to: Customize Feeds with the Reflection Provider (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF Data Services, customizing"
   - "WCF Data Services, customizing feeds"

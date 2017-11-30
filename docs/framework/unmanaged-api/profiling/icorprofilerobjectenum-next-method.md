@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerObjectEnum::Next Method | Microsoft Docs"
+title: "ICorProfilerObjectEnum::Next Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerObjectEnum::Next"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Next method, ICorProfilerObjectEnum interface [.NET Framework profiling]"
   - "ICorProfilerObjectEnum::Next method [.NET Framework profiling]"

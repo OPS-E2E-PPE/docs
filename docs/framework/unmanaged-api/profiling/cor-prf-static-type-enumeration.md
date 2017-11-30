@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_STATIC_TYPE Enumeration | Microsoft Docs"
+title: "COR_PRF_STATIC_TYPE Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_STATIC_TYPE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_STATIC_TYPE enumeration [.NET Framework profiling]"
 ms.assetid: 441d7809-5b65-41a5-ba64-2910a8008315

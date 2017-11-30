@@ -1,5 +1,5 @@
 ---
-title: "&lt;connectionManagement&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;connectionManagement&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/connectionManagement"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#connectionManagement"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<connectionManagement> element"
   - "connectionManagement element"
@@ -36,7 +31,7 @@ Specifies the maximum number of connections to a network host.
 ## Syntax  
   
 ```xml  
-      <connectionManagement>   
+<connectionManagement>   
 </connectionManagement>  
 ```  
   
@@ -67,7 +62,7 @@ Specifies the maximum number of connections to a network host.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example configures an application to use four connections to the server www.contoso.com and two connections to all other servers.  
+ The following example configures an application to use four connections to the server www.contoso.com and two connections to all other servers.  
   
 ```xml  
 <configuration>  
@@ -81,6 +76,6 @@ Specifies the maximum number of connections to a network host.
 ```  
   
 ## See Also  
- <xref:System.Net.ServicePoint>   
- <xref:System.Net.ServicePointManager>   
+ <xref:System.Net.ServicePoint>  
+ <xref:System.Net.ServicePointManager>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

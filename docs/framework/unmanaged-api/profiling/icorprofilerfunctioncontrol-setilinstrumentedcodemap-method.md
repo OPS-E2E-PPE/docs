@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerFunctionControl::SetILInstrumentedCodeMap Method | Microsoft Docs"
+title: "ICorProfilerFunctionControl::SetILInstrumentedCodeMap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerFunctionControl::SetILInstrumentedCodeMap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerFunctionControl::SetILInstrumentedCodeMap method [.NET Framework profiling]"
   - "SetIILInstrumentedCodeMap method, ICorProfilerFunctionControl interface [.NET Framework profiling]"

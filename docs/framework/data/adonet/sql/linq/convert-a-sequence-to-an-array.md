@@ -1,5 +1,5 @@
 ---
-title: "Convert a Sequence to an Array | Microsoft Docs"
+title: "Convert a Sequence to an Array"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: bf0af444-890d-43e2-aeca-98589dd74ddf
 caps.latest.revision: 2
 author: "JennieHubbard"

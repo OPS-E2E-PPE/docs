@@ -1,5 +1,5 @@
 ---
-title: "Cropping and Scaling Images in GDI+ | Microsoft Docs"
+title: "Cropping and Scaling Images in GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,16 +10,17 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "GDI+, scaling images"
   - "GDI+, cropping images"
   - "images [Windows Forms], cropping"
-  - "compressing data, images"
+  - "compressing data [Windows Forms], images"
   - "images [Windows Forms], expansion"
   - "images [Windows Forms], scaling"
-  - "rectangles, source"
-  - "rectangles, destination"
+  - "rectangles [Windows Forms], source"
+  - "rectangles [Windows Forms], destination"
   - "images [Windows Forms], compression"
 ms.assetid: ad5daf26-005f-45bc-a2af-e0e97777a21a
 caps.latest.revision: 13
@@ -52,5 +53,5 @@ You can use the <xref:System.Drawing.Graphics.DrawImage%2A> method of the <xref:
  ![Cropping and Scaling](../../../../docs/framework/winforms/advanced/media/aboutgdip03-art07.gif "AboutGdip03_Art07")  
   
 ## See Also  
- [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)   
+ [Images, Bitmaps, and Metafiles](../../../../docs/framework/winforms/advanced/images-bitmaps-and-metafiles.md)  
  [Working with Images, Bitmaps, Icons, and Metafiles](../../../../docs/framework/winforms/advanced/working-with-images-bitmaps-icons-and-metafiles.md)

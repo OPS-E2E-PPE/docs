@@ -1,5 +1,5 @@
 ---
-title: "Mathematical Functions | Microsoft Docs"
+title: "Mathematical Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: b040c7cb-156d-40f2-9152-61065b18148c
 caps.latest.revision: 2
 author: "JennieHubbard"

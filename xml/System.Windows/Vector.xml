@@ -61,6 +61,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="Overload:System.Windows.Vector.Add" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -123,6 +124,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Vector.Add" />
       </Docs>
     </Member>
     <Member MemberName="Add">
@@ -156,6 +158,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Vector.Add" />
       </Docs>
     </Member>
     <Member MemberName="AngleBetween">
@@ -290,6 +293,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Division(System.Windows.Vector,System.Double)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Equals">
@@ -344,6 +348,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Equality(System.Windows.Vector,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -381,6 +386,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Equality(System.Windows.Vector,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -420,6 +426,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Equality(System.Windows.Vector,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -547,6 +554,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Multiply">
@@ -580,6 +588,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Multiply">
@@ -613,6 +622,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Multiply">
@@ -648,6 +658,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Negate">
@@ -675,6 +686,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_UnaryNegation(System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Normalize">
@@ -710,7 +722,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Windows.Point op_Addition (System.Windows.Vector vector, System.Windows.Point point);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Point operator + (System.Windows.Vector vector, System.Windows.Point point);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Point op_Addition(valuetype System.Windows.Vector vector, valuetype System.Windows.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Addition(System.Windows.Vector,System.Windows.Point)" />
       <MemberType>Method</MemberType>
@@ -741,10 +753,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Vector.Add" />
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Addition (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator + (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Addition(valuetype System.Windows.Vector vector1, valuetype System.Windows.Vector vector2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Addition(System.Windows.Vector,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -775,10 +788,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Vector.Add" />
       </Docs>
     </Member>
     <Member MemberName="op_Division">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Division (System.Windows.Vector vector, double scalar);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator / (System.Windows.Vector vector, double scalar);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Division(valuetype System.Windows.Vector vector, float64 scalar) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Division(System.Windows.Vector,System.Double)" />
       <MemberType>Method</MemberType>
@@ -809,10 +823,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Divide(System.Windows.Vector,System.Double)" />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Vector vector1, valuetype System.Windows.Vector vector2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Equality(System.Windows.Vector,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -849,10 +864,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Vector.Equals" />
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Windows.Point op_Explicit (System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Windows.Point (System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Point op_Explicit(valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Explicit(System.Windows.Vector)~System.Windows.Point" />
       <MemberType>Method</MemberType>
@@ -867,14 +883,24 @@
         <Parameter Name="vector" Type="System.Windows.Vector" />
       </Parameters>
       <Docs>
-        <param name="vector">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="vector">The vector to convert.</param>
+        <summary>Creates a <see cref="T:System.Windows.Point" /> with the <see cref="P:System.Windows.Vector.X" /> and <see cref="P:System.Windows.Vector.Y" /> values of this vector.</summary>
+        <returns>A point with <see cref="P:System.Windows.Point.X" />- and <see cref="P:System.Windows.Point.Y" />-coordinate values equal to the <see cref="P:System.Windows.Vector.X" /> and <see cref="P:System.Windows.Vector.Y" /> offset values of <paramref name="vector" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to convert a <xref:System.Windows.Vector> into a <xref:System.Windows.Point>.  
+  
+ [!code-csharp[VectorExamples_snip#OverloadedExplicitOperatorExample2](~/samples/snippets/csharp/VS_Snippets_Wpf/VectorExamples_snip/CSharp/VectorExample.cs#overloadedexplicitoperatorexample2)]
+ [!code-vb[VectorExamples_snip#OverloadedExplicitOperatorExample2](~/samples/snippets/visualbasic/VS_Snippets_Wpf/VectorExamples_snip/visualbasic/vectorexample.vb#overloadedexplicitoperatorexample2)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Windows.Size op_Explicit (System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Windows.Size (System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Size op_Explicit(valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Explicit(System.Windows.Vector)~System.Windows.Size" />
       <MemberType>Method</MemberType>
@@ -889,14 +915,24 @@
         <Parameter Name="vector" Type="System.Windows.Vector" />
       </Parameters>
       <Docs>
-        <param name="vector">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="vector">The vector to convert.</param>
+        <summary>Creates a <see cref="T:System.Windows.Size" /> from the offsets of this vector.</summary>
+        <returns>A <see cref="T:System.Windows.Size" /> with a <see cref="P:System.Windows.Size.Width" /> equal to the absolute value of this vector's <see cref="P:System.Windows.Vector.X" /> property and a <see cref="P:System.Windows.Size.Height" /> equal to the absolute value of this vector's <see cref="P:System.Windows.Vector.Y" /> property.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to explicitly convert a <xref:System.Windows.Vector> into a <xref:System.Windows.Size>.  
+  
+ [!code-csharp[VectorExamples_snip#OverloadedExplicitOperatorExample1](~/samples/snippets/csharp/VS_Snippets_Wpf/VectorExamples_snip/CSharp/VectorExample.cs#overloadedexplicitoperatorexample1)]
+ [!code-vb[VectorExamples_snip#OverloadedExplicitOperatorExample1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/VectorExamples_snip/visualbasic/vectorexample.vb#overloadedexplicitoperatorexample1)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Vector vector1, valuetype System.Windows.Vector vector2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Inequality(System.Windows.Vector,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -936,7 +972,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Multiply (double scalar, System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator * (double scalar, System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Multiply(float64 scalar, valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Multiply(System.Double,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -967,10 +1003,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Multiply (System.Windows.Vector vector, double scalar);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator * (System.Windows.Vector vector, double scalar);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Multiply(valuetype System.Windows.Vector vector, float64 scalar) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Multiply(System.Windows.Vector,System.Double)" />
       <MemberType>Method</MemberType>
@@ -1001,10 +1038,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Multiply (System.Windows.Vector vector, System.Windows.Media.Matrix matrix);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator * (System.Windows.Vector vector, System.Windows.Media.Matrix matrix);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Multiply(valuetype System.Windows.Vector vector, valuetype System.Windows.Media.Matrix matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Multiply(System.Windows.Vector,System.Windows.Media.Matrix)" />
       <MemberType>Method</MemberType>
@@ -1035,10 +1073,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static double op_Multiply (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
+      <MemberSignature Language="C#" Value="public static double operator * (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname float64 op_Multiply(valuetype System.Windows.Vector vector1, valuetype System.Windows.Vector vector2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Multiply(System.Windows.Vector,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -1071,10 +1110,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Multiply(System.Double,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Subtraction (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator - (System.Windows.Vector vector1, System.Windows.Vector vector2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Subtraction(valuetype System.Windows.Vector vector1, valuetype System.Windows.Vector vector2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_Subtraction(System.Windows.Vector,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -1105,10 +1145,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Subtract(System.Windows.Vector,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_UnaryNegation">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_UnaryNegation (System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator - (System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_UnaryNegation(valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Vector.op_UnaryNegation(System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -1137,6 +1178,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.Negate" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -1169,6 +1211,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.String" />
       </Docs>
     </Member>
     <Member MemberName="Subtract">
@@ -1203,6 +1246,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Vector.op_Subtraction(System.Windows.Vector,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="System.IFormattable.ToString">
@@ -1264,6 +1308,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.String" />
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -1286,6 +1331,7 @@
         <summary>Returns the string representation of this <see cref="T:System.Windows.Vector" /> structure with the specified formatting information.</summary>
         <returns>A string that represents the <see cref="P:System.Windows.Vector.X" /> and <see cref="P:System.Windows.Vector.Y" /> values of this <see cref="T:System.Windows.Vector" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.String" />
       </Docs>
     </Member>
     <Member MemberName="X">
@@ -1314,6 +1360,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Vector.Y" />
       </Docs>
     </Member>
     <Member MemberName="Y">
@@ -1342,7 +1389,62 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Vector.X" />
       </Docs>
     </Member>
+    <MemberGroup MemberName="Add">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Adds a vector to a point or to another vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Multiply">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Multiplies the specified vector by the specified <see cref="T:System.Double" />, <see cref="T:System.Windows.Media.Matrix" />, or <see cref="T:System.Windows.Vector" /> and returns the result as a <see cref="T:System.Windows.Vector" /> or <see cref="T:System.Double" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Explicit">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Converts a vector into a <see cref="T:System.Windows.Size" /> or a <see cref="T:System.Windows.Point" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Addition">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Adds a vector to a point or to another vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Multiply">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Multiplies the specified <see cref="T:System.Windows.Vector" /> by the specified <see cref="T:System.Double" />, <see cref="T:System.Windows.Media.Matrix" />, or <see cref="T:System.Windows.Vector" /> and returns the result.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="ToString">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Returns the string representation of this <see cref="T:System.Windows.Vector" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

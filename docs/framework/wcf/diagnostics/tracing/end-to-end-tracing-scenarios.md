@@ -1,5 +1,5 @@
 ---
-title: "End-To-End Tracing Scenarios | Microsoft Docs"
+title: "End-To-End Tracing Scenarios"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -45,5 +45,5 @@ This section contains topics that describe different scenarios for using tracing
 -   [COM+](../../../../../docs/framework/wcf/diagnostics/tracing/com.md)  
   
 ## See Also  
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [End-to-End Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/end-to-end-tracing.md)

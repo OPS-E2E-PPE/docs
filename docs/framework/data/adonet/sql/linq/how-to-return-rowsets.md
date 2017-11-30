@@ -1,5 +1,5 @@
 ---
-title: "How to: Return Rowsets | Microsoft Docs"
+title: "How to: Return Rowsets"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 725718f5-da29-4841-9f53-aafef64ba977
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -40,5 +43,5 @@ END
  [!code-vb[DLinqSprox#1](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqSprox/vb/northwind-sprox.vb#1)]  
   
 ## See Also  
- [Stored Procedures](../../../../../../docs/framework/data/adonet/sql/linq/stored-procedures.md)   
+ [Stored Procedures](../../../../../../docs/framework/data/adonet/sql/linq/stored-procedures.md)  
  [Downloading Sample Databases](../../../../../../docs/framework/data/adonet/sql/linq/downloading-sample-databases.md)

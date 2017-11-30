@@ -1,5 +1,5 @@
 ---
-title: "Regular Expression Activities | Microsoft Docs"
+title: "Regular Expression Activities"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -14,7 +14,7 @@ ms.author: "erikre"
 manager: "erikre"
 ---
 # Regular Expression Activities
-This sample demonstrates how to create a set of activities that expose the regular expression functionality of the <xref:System.Text.RegularExpressions> namespace. These custom activities can be used within a workflow application. [!INCLUDE[crabout](../../../../includes/crabout-md.md)]regular expressions, see [N:System.Text.RegularExpressions](http://go.microsoft.com/fwlink/?LinkId=150434) Namespace.  
+This sample demonstrates how to create a set of activities that expose the regular expression functionality of the <xref:System.Text.RegularExpressions> namespace. These custom activities can be used within a workflow application. [!INCLUDE[crabout](../../../../includes/crabout-md.md)] regular expressions, see [N:System.Text.RegularExpressions](http://go.microsoft.com/fwlink/?LinkId=150434) Namespace.  
   
  The following table details the custom activities in this sample.  
   
@@ -117,6 +117,4 @@ new Replace
 >   
 >  If this directory does not exist, go to [Windows Communication Foundation (WCF) and Windows Workflow Foundation (WF) Samples for .NET Framework 4](http://go.microsoft.com/fwlink/?LinkId=150780) to download all [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] and [!INCLUDE[wf1](../../../../includes/wf1-md.md)] samples. This sample is located in the following directory.  
 >   
->  `<InstallDrive>:\WF_WCF_Samples\WF\Scenario\ActivityLibrary\Regex`  
-  
-## See Also
+>  `<InstallDrive>:\WF_WCF_Samples\WF\Scenario\ActivityLibrary\Regex`

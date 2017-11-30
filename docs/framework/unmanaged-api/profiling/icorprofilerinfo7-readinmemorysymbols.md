@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo7::ReadInMemorySymbols | Microsoft Docs"
+title: "ICorProfilerInfo7::ReadInMemorySymbols"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_location:
   - "CorGuids.lib"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: 1745a0b9-8332-4777-a670-b549bff3b901
 caps.latest.revision: 3
 author: "rpetrusha"

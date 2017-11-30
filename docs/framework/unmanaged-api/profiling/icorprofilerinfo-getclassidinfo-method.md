@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetClassIDInfo Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetClassIDInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetClassIDInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetClassIDInfo method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetClassIDInfo method [.NET Framework profiling]"

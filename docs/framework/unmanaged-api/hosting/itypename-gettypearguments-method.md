@@ -1,5 +1,5 @@
 ---
-title: "ITypeName::GetTypeArguments Method | Microsoft Docs"
+title: "ITypeName::GetTypeArguments Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetTypeArguments"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeName::GetTypeArguments method [.NET Framework hosting]"
   - "GetTypeArguments method [.NET Framework hosting]"

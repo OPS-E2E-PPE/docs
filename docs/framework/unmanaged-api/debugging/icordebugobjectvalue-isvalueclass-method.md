@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue::IsValueClass Method | Microsoft Docs"
+title: "ICorDebugObjectValue::IsValueClass Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue::IsValueClass"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugObjectValue::IsValueClass method [.NET Framework debugging]"
   - "IsValueClass method [.NET Framework debugging]"

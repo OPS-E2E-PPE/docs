@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback2::GarbageCollectionStarted Method | Microsoft Docs"
+title: "ICorProfilerCallback2::GarbageCollectionStarted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback2::GarbageCollectionStarted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GarbageCollectionStarted method [.NET Framework profiling]"
   - "ICorProfilerCallback2::GarbageCollectionStarted method [.NET Framework profiling]"
@@ -69,5 +67,5 @@ HRESULT GarbageCollectionStarted(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ICorProfilerCallback2 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback2-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "COR_FIELD_OFFSET Structure | Microsoft Docs"
+title: "COR_FIELD_OFFSET Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_FIELD_OFFSET"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_FIELD_OFFSET structure [.NET Framework metadata]"
 ms.assetid: cced5298-277f-4a5a-8ecf-a0050c1096ea
@@ -59,6 +57,6 @@ typedef struct COR_FIELD_OFFSET {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Structures](../../../../docs/framework/unmanaged-api/metadata/metadata-structures.md)   
- [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)   
+ [Metadata Structures](../../../../docs/framework/unmanaged-api/metadata/metadata-structures.md)  
+ [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)  
  [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)

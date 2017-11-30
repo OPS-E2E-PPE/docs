@@ -1,5 +1,5 @@
 ---
-title: "How to: Draw with Opaque and Semitransparent Brushes | Microsoft Docs"
+title: "How to: Draw with Opaque and Semitransparent Brushes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "semi-transparent shapes, drawing"
-  - "transparency, semi-transparent shapes"
-  - "alpha blending, brush"
-  - "brushes, using semi-transparent"
+  - "semi-transparent shapes [Windows Forms], drawing"
+  - "transparency [Windows Forms], semi-transparent shapes"
+  - "alpha blending [Windows Forms], brush"
+  - "brushes [Windows Forms], using semi-transparent"
 ms.assetid: a4f6f6b8-3bc8-440a-84af-d62ef0f8ff40
 caps.latest.revision: 16
 author: dotnet-bot
@@ -41,7 +42,7 @@ When you fill a shape, you must pass a <xref:System.Drawing.Brush> object to one
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs>`e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)   
- [Alpha Blending Lines and Fills](../../../../docs/framework/winforms/advanced/alpha-blending-lines-and-fills.md)   
- [How to: Give Your Control a Transparent Background](../../../../docs/framework/winforms/controls/how-to-give-your-control-a-transparent-background.md)   
+ [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)  
+ [Alpha Blending Lines and Fills](../../../../docs/framework/winforms/advanced/alpha-blending-lines-and-fills.md)  
+ [How to: Give Your Control a Transparent Background](../../../../docs/framework/winforms/controls/how-to-give-your-control-a-transparent-background.md)  
  [How to: Draw Opaque and Semitransparent Lines](../../../../docs/framework/winforms/advanced/how-to-draw-opaque-and-semitransparent-lines.md)

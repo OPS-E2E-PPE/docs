@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugGenericValue::GetValue Method | Microsoft Docs"
+title: "ICorDebugGenericValue::GetValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugGenericValue::GetValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugGenericValue::GetValue method [.NET Framework debugging]"
   - "GetValue method, ICorDebugGenericValue interface [.NET Framework debugging]"

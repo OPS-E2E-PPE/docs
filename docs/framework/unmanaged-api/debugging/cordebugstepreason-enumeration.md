@@ -1,5 +1,5 @@
 ---
-title: "CorDebugStepReason Enumeration | Microsoft Docs"
+title: "CorDebugStepReason Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugStepReason"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugStepReason enumeration [.NET Framework debugging]"
 ms.assetid: fe248069-b33c-48e1-a777-06ac9b239c54
@@ -68,5 +66,5 @@ typedef enum CorDebugStepReason {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StepComplete Method](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-stepcomplete-method.md)   
+ [StepComplete Method](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-stepcomplete-method.md)  
  [Debugging Enumerations](../../../../docs/framework/unmanaged-api/debugging/debugging-enumerations.md)

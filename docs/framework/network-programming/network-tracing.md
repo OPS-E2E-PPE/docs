@@ -1,5 +1,5 @@
 ---
-title: "Network Tracing in the .NET Framework | Microsoft Docs"
+title: "Network Tracing in the .NET Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "debugging [.NET Framework], network tracing"
   - "methods, network tracing"
@@ -45,7 +40,7 @@ Network tracing in the .NET Framework provides access to information about metho
 >  This member outputs trace information when you enable network tracing in your application. For more information, see Network Tracing.  
   
 ## See Also  
- [Enabling Network Tracing](../../../docs/framework/network-programming/enabling-network-tracing.md)   
- [How to: Configure Network Tracing](../../../docs/framework/network-programming/how-to-configure-network-tracing.md)   
- [Interpreting Network Tracing](../../../docs/framework/network-programming/interpreting-network-tracing.md)   
+ [Enabling Network Tracing](../../../docs/framework/network-programming/enabling-network-tracing.md)  
+ [How to: Configure Network Tracing](../../../docs/framework/network-programming/how-to-configure-network-tracing.md)  
+ [Interpreting Network Tracing](../../../docs/framework/network-programming/interpreting-network-tracing.md)  
  [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)

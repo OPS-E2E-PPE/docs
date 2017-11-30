@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::JITInlining Method | Microsoft Docs"
+title: "ICorProfilerCallback::JITInlining Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::JITInlining"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "JITInlining method [.NET Framework profiling]"
   - "ICorProfilerCallback::JITInlining method [.NET Framework profiling]"

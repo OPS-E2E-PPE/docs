@@ -13,6 +13,8 @@
   <Docs>
     <summary>An abstract base class for perspective and orthographic projection cameras.</summary>
     <remarks>To be added.</remarks>
+    <altmember cref="T:System.Windows.Media.Media3D.PerspectiveCamera" />
+    <altmember cref="T:System.Windows.Media.Media3D.OrthographicCamera" />
   </Docs>
   <Members>
     <Member MemberName="Clone">
@@ -37,7 +39,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -65,7 +67,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -154,7 +156,7 @@
 ## Examples  
  The following excerpt sets this property on a PerspectiveCamera.  
   
- [!code-xml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
+ [!code-xaml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
   
  ]]></format>
         </remarks>
@@ -260,7 +262,7 @@
    
   
 ## Examples  
- [!code-xml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
+ [!code-xaml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
   
  ]]></format>
         </remarks>
@@ -316,7 +318,7 @@
 ## Examples  
  The following excerpt sets this property on a PerspectiveCamera.  
   
- [!code-xml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
+ [!code-xaml[animate3drotation#Animate3DRotation3DN2](~/samples/snippets/csharp/VS_Snippets_Wpf/Animate3DRotation/CS/Window1.xaml#animate3drotation3dn2)]  
   
  ]]></format>
         </remarks>

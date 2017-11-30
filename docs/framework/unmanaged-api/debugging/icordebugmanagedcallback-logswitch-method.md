@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::LogSwitch Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::LogSwitch Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::LogSwitch"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "LogSwitch method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::LogSwitch method [.NET Framework debugging]"

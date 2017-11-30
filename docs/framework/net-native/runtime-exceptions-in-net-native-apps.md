@@ -1,5 +1,5 @@
 ---
-title: "Runtime Exceptions in .NET Native Apps | Microsoft Docs"
+title: "Runtime Exceptions in .NET Native Apps"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -64,5 +64,5 @@ Additional information: Value does not fall within the expected range.
  To get the full stack, run the debug build instead.  
   
 ## See Also  
- [Debugging .NET Native Windows Universal Apps](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/29/debugging-net-native-windows-universal-apps.aspx)   
+ [Debugging .NET Native Windows Universal Apps](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/29/debugging-net-native-windows-universal-apps.aspx)  
  [Getting Started](../../../docs/framework/net-native/getting-started-with-net-native.md)

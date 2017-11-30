@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess5::EnumerateHeapRegions Method | Microsoft Docs"
+title: "ICorDebugProcess5::EnumerateHeapRegions Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess5::EnumerateHeapRegions"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateHeapRegions method, ICorDebugProcess5 interface [.NET Framework debugging]"
   - "ICorDebugProcess5::EnumerateHeapRegions method [.NET Framework debugging]"
@@ -62,5 +60,5 @@ HRESULT EnumerateHeapRegions(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)   
+ [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

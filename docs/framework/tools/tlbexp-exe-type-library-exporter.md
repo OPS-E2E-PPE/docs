@@ -1,5 +1,5 @@
 ---
-title: "Tlbexp.exe (Type Library Exporter) | Microsoft Docs"
+title: "Tlbexp.exe (Type Library Exporter)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "exporting type library [.NET Framework]"
   - "exporter tool [.NET Framework]"
@@ -139,9 +134,9 @@ tlbexp Sample.dll
 ```  
   
 ## See Also  
- <xref:System.Runtime.InteropServices.TypeLibExporterFlags>   
- [Tools](../../../docs/framework/tools/index.md)   
- [Regasm.exe (Assembly Registration Tool)](../../../docs/framework/tools/regasm-exe-assembly-registration-tool.md)   
- [Assembly to Type Library Conversion Summary](http://msdn.microsoft.com/en-us/3a37eefb-a76c-4000-9080-7dbbf66a4896)   
- [Tlbimp.exe (Type Library Importer)](../../../docs/framework/tools/tlbimp-exe-type-library-importer.md)   
+ <xref:System.Runtime.InteropServices.TypeLibExporterFlags>  
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Regasm.exe (Assembly Registration Tool)](../../../docs/framework/tools/regasm-exe-assembly-registration-tool.md)  
+ [Assembly to Type Library Conversion Summary](http://msdn.microsoft.com/en-us/3a37eefb-a76c-4000-9080-7dbbf66a4896)  
+ [Tlbimp.exe (Type Library Importer)](../../../docs/framework/tools/tlbimp-exe-type-library-importer.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

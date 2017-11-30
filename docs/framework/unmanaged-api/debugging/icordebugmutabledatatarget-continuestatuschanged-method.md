@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMutableDataTarget::ContinueStatusChanged Method | Microsoft Docs"
+title: "ICorDebugMutableDataTarget::ContinueStatusChanged Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 5a66d3f4-dd16-4d62-9dcc-0eab7041d894
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -48,5 +46,5 @@ HRESULT ContinueStatusChanged(
  **.NET Framework Versions:** [!INCLUDE[net_current_v46plus](../../../../includes/net-current-v46plus-md.md)]  
   
 ## See Also  
- [ICorDebugMutableDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmutabledatatarget-interface.md)   
+ [ICorDebugMutableDataTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmutabledatatarget-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

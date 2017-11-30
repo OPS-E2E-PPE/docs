@@ -1,5 +1,5 @@
 ---
-title: "PublicKeyBlob Structure | Microsoft Docs"
+title: "PublicKeyBlob Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "PublicKeyBlob"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "PublicKeyBlob structure [.NET Framework strong naming]"
 ms.assetid: b9240712-829c-4c8d-9a09-a6e7aa63f63a
@@ -65,6 +63,6 @@ typedef struct {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StrongNameGetPublicKey Function](../../../../docs/framework/unmanaged-api/strong-naming/strongnamegetpublickey-function.md)   
- [StrongNameSignatureGeneration Function](../../../../docs/framework/unmanaged-api/strong-naming/strongnamesignaturegeneration-function.md)   
+ [StrongNameGetPublicKey Function](../../../../docs/framework/unmanaged-api/strong-naming/strongnamegetpublickey-function.md)  
+ [StrongNameSignatureGeneration Function](../../../../docs/framework/unmanaged-api/strong-naming/strongnamesignaturegeneration-function.md)  
  [Strong Naming Structures](http://msdn.microsoft.com/en-us/4b041a2f-fd12-4b91-aacd-bc3b34a5124d)

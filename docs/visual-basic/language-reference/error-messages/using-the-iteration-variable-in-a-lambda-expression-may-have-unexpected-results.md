@@ -1,40 +1,21 @@
 ---
-title: "Using the iteration variable in a lambda expression may have unexpected results | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "Using the iteration variable in a lambda expression may have unexpected results"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
 f1_keywords: 
   - "vbc42324"
   - "bc42324"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "BC42324"
 ms.assetid: b5c2c4bd-3b2a-4a73-aaeb-55728eb03b68
 caps.latest.revision: 8
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Using the iteration variable in a lambda expression may have unexpected results
 Using the iteration variable in a lambda expression may have unexpected results. Instead, create a local variable within the loop and assign it the value of the iteration variable.  
@@ -79,7 +60,7 @@ End Module
   
  `5`  
   
- By default, this message is a warning. For more information about hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](https://docs.microsoft.com/visualstudio/ide/configuring-warnings-in-visual-basic).  
+ By default, this message is a warning. For more information about hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](/visualstudio/ide/configuring-warnings-in-visual-basic).  
   
  **Error ID:** BC42324  
   

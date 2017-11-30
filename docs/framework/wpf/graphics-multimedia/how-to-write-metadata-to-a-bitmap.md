@@ -1,5 +1,5 @@
 ---
-title: "How to: Write Metadata to a Bitmap | Microsoft Docs"
+title: "How to: Write Metadata to a Bitmap"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,15 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "image metadata"
-  - "metadata, writing to a bitmap"
-  - "metadata, in images"
-  - "bitmaps, writing metadata to"
+  - "image metadata [WPF]"
+  - "metadata [WPF], writing to a bitmap"
+  - "metadata [WPF], in images"
+  - "bitmaps [WPF], writing metadata to"
 ms.assetid: 68f0dc4b-c0fe-43be-94f2-9d7399378fb3
 caps.latest.revision: 6
 author: dotnet-bot

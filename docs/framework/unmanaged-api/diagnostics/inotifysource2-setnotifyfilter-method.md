@@ -1,5 +1,5 @@
 ---
-title: "INotifySource2::SetNotifyFilter Method | Microsoft Docs"
+title: "INotifySource2::SetNotifyFilter Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "INotifySource2::SetNotifyFilter"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "INotifySource2::SetNotifyFilter method [.NET Framework debugging]"
   - "SetNotifyFilter method [.NET Framework debugging]"
@@ -57,6 +55,6 @@ HRESULT SetNotifyFilter
  **Header:** ProtocolNotify2.idl  
   
 ## See Also  
- [INotifySource2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-interface.md)   
- [INotifyConnection2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifyconnection2-interface.md)   
+ [INotifySource2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-interface.md)  
+ [INotifyConnection2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifyconnection2-interface.md)  
  [INotifySink2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysink2-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "CorMethodAttr Enumeration | Microsoft Docs"
+title: "CorMethodAttr Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorMethodAttr"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorMethodAttr enumeration [.NET Framework metadata]"
 ms.assetid: 4e0c3521-e54d-43c1-9857-cc76b49b8ffc

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Display Data from a SQL Server Database in a DataGrid Control | Microsoft Docs"
+title: "Walkthrough: Display Data from a SQL Server Database in a DataGrid Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "DataGrid [WPF], displaying data from SQL Server"
   - "controls [WPF], DataGrid"
@@ -26,7 +29,7 @@ In this walkthrough, you retrieve data from a SQL Server database and display th
   
 -   [!INCLUDE[vs_dev11_long](../../../../includes/vs-dev11-long-md.md)].  
   
--   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT2008 sample database attached to it. You can download the AdventureWorksLT2008 database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?LinkId=159848).  
+-   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorks sample database attached to it. You can download the AdventureWorks database from the [GitHub](https://github.com/Microsoft/sql-server-samples/releases).  
   
 ### To create entity classes  
   
@@ -52,7 +55,7 @@ In this walkthrough, you retrieve data from a SQL Server database and display th
   
      ![Provide connection to database](../../../../docs/framework/wpf/controls/media/datagrid-sql-ef-step3.png "DataGrid_SQL_EF_Step3")  
   
-7.  Make sure that the name is`AdventureWorksLT2008Entities` and that the **Save entity connection settings in App.Config as** check box is selected, and then click **Next**.  
+7.  Make sure that the name is `AdventureWorksLT2008Entities` and that the **Save entity connection settings in App.Config as** check box is selected, and then click **Next**.  
   
 8.  In the Choose Your Database Objects screen, expand the Tables node, and select the **Product** and **ProductCategory** tables.  
   
@@ -74,7 +77,7 @@ In this walkthrough, you retrieve data from a SQL Server database and display th
   
 3.  In the XAML editor, add the following <xref:System.Windows.Controls.DataGrid> tag between the `<Grid>` and `</Grid>` tags to add a <xref:System.Windows.Controls.DataGrid> named `dataGrid1`.  
   
-     [!code-xml[DataGrid_SQL_EF_Walkthrough#3](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DataGrid_SQL_EF_Walkthrough/CS/MainWindow.xaml#3)]  
+     [!code-xaml[DataGrid_SQL_EF_Walkthrough#3](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DataGrid_SQL_EF_Walkthrough/CS/MainWindow.xaml#3)]  
   
      ![Window with DataGrid](../../../../docs/framework/wpf/controls/media/datagrid-sql-ef-step6.png "DataGrid_SQL_EF_Step6")  
   
@@ -87,7 +90,7 @@ In this walkthrough, you retrieve data from a SQL Server database and display th
     > [!NOTE]
     >  If you are using Visual Basic, in the first line of MainWindow.xaml, replace `x:Class="DataGridSQLExample.MainWindow"` with `x:Class="MainWindow"`.  
   
-     [!code-xml[DataGrid_SQL_EF_Walkthrough#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DataGrid_SQL_EF_Walkthrough/CS/MainWindow.xaml#1)]  
+     [!code-xaml[DataGrid_SQL_EF_Walkthrough#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DataGrid_SQL_EF_Walkthrough/CS/MainWindow.xaml#1)]  
   
 6.  Open the code-behind file (MainWindow.xaml.vb or MainWindow.xaml.cs) for the <xref:System.Windows.Window>.  
   
@@ -105,5 +108,5 @@ In this walkthrough, you retrieve data from a SQL Server database and display th
 ## Next Steps  
   
 ## See Also  
- <xref:System.Windows.Controls.DataGrid>   
+ <xref:System.Windows.Controls.DataGrid>  
  [How Do I: Get Started with Entity Framework in WPF Applications?](http://go.microsoft.com/fwlink/?LinkId=159868)

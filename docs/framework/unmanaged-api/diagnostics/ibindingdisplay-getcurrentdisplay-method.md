@@ -1,5 +1,5 @@
 ---
-title: "IBindingDisplay::GetCurrentDisplay Method | Microsoft Docs"
+title: "IBindingDisplay::GetCurrentDisplay Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IBindingDisplay::GetCurrentDisplay"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IBindingDisplay::GetCurrentDisplay method [.NET Framework debugging]"
   - "GetCurrentDisplay method [.NET Framework debugging]"
@@ -60,5 +58,5 @@ HRESULT GetCurrentDisplay (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IBindingDisplay Interface](../../../../docs/framework/unmanaged-api/diagnostics/ibindingdisplay-interface.md)   
+ [IBindingDisplay Interface](../../../../docs/framework/unmanaged-api/diagnostics/ibindingdisplay-interface.md)  
  [InitializeForProcess Method](../../../../docs/framework/unmanaged-api/diagnostics/ibindingdisplay-initializeforprocess-method.md)

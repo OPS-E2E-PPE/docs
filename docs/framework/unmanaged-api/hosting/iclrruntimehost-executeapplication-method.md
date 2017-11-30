@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeHost::ExecuteApplication Method | Microsoft Docs"
+title: "ICLRRuntimeHost::ExecuteApplication Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeHost::ExecuteApplication"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRRuntimeHost::ExecuteApplication method [.NET Framework hosting]"
   - "ExecuteApplication method [.NET Framework hosting]"
@@ -94,9 +92,9 @@ HRESULT ExecuteApplication(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- <xref:System.ActivationContext>   
- <xref:System.AppDomainManager>   
- <xref:System.ApplicationIdentity>   
- [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)   
- [SetAppDomainManager Method](../../../../docs/framework/unmanaged-api/hosting/ihostcontrol-setappdomainmanager-method.md)   
+ <xref:System.ActivationContext>  
+ <xref:System.AppDomainManager>  
+ <xref:System.ApplicationIdentity>  
+ [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)  
+ [SetAppDomainManager Method](../../../../docs/framework/unmanaged-api/hosting/ihostcontrol-setappdomainmanager-method.md)  
  [Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer](/visualstudio/deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer)

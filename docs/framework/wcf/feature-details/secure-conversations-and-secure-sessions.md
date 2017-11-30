@@ -1,5 +1,5 @@
 ---
-title: "Secure Conversations and Secure Sessions | Microsoft Docs"
+title: "Secure Conversations and Secure Sessions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -23,5 +23,5 @@ A feature of [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] is the abil
  [!INCLUDE[crabout](../../../../includes/crabout-md.md)] sessions, see [Using Sessions](../../../../docs/framework/wcf/using-sessions.md).  
   
 ## See Also  
- [Sessions, Instancing, and Concurrency](../../../../docs/framework/wcf/feature-details/sessions-instancing-and-concurrency.md)   
+ [Sessions, Instancing, and Concurrency](../../../../docs/framework/wcf/feature-details/sessions-instancing-and-concurrency.md)  
  [How to: Create a Service That Requires Sessions](../../../../docs/framework/wcf/feature-details/how-to-create-a-service-that-requires-sessions.md)

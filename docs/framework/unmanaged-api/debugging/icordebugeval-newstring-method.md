@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::NewString Method | Microsoft Docs"
+title: "ICorDebugEval::NewString Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::NewString"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "NewString method [.NET Framework debugging]"
   - "ICorDebugEval::NewString method [.NET Framework debugging]"

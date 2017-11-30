@@ -1,5 +1,5 @@
 ---
-title: "XML Document Object Model (DOM) | Microsoft Docs"
+title: "XML Document Object Model (DOM)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: b5e52844-4820-47c0-a61d-de2da33e9f54
 caps.latest.revision: 4
 author: "mairaw"
@@ -84,5 +79,5 @@ XML document structure
  The DOM is most useful for reading XML data into memory to change its structure, to add or remove nodes, or to modify the data held by a node as in the text contained by an element. However, other classes are available that are faster than the DOM in other scenarios. For fast, non-cached, forward-only stream access to XML, use the **XmlReader** and **XmlWriter**. If you need random access with a cursor model and **XPath**, use the **XPathNavigator** class.  
   
 ## See Also  
- [Types of XML Nodes](../../../../docs/standard/data/xml/types-of-xml-nodes.md)   
+ [Types of XML Nodes](../../../../docs/standard/data/xml/types-of-xml-nodes.md)  
  [Mapping the Object Hierarchy to XML Data](../../../../docs/standard/data/xml/mapping-the-object-hierarchy-to-xml-data.md)

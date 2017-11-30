@@ -1,5 +1,5 @@
 ---
-title: .NET Microservices. Architecture for Containerized .NET Applications | Microsoft Docs 
+title: .NET Microservices. Architecture for Containerized .NET Applications
 description: .NET Microservices Architecture for Containerized .NET Applications | Front Matter
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,6 +7,7 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 
 ![](./media/cover.png)
@@ -123,7 +124,7 @@ This guide does not focus on the application lifecycle, DevOps, CI/CD pipelines,
 
 ### Additional resources
 
--   **Containerized Docker Application Lifecycle with Microsoft Platform and Tools** (downloadable eBook)
+-   **Containerized Docker Application Lifecycle with Microsoft Platform and Tools** (downloadable e-book)
     [*https://aka.ms/dockerlifecycleebook*](https://aka.ms/dockerlifecycleebook)
 
 ## Who should use this guide

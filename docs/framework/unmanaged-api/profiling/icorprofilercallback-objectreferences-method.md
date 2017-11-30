@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ObjectReferences Method | Microsoft Docs"
+title: "ICorProfilerCallback::ObjectReferences Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ObjectReferences"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ObjectReferences method [.NET Framework profiling]"
   - "ICorProfilerCallback::ObjectReferences method [.NET Framework profiling]"

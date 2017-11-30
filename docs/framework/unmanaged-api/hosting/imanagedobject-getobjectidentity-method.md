@@ -1,5 +1,5 @@
 ---
-title: "IManagedObject::GetObjectIdentity Method | Microsoft Docs"
+title: "IManagedObject::GetObjectIdentity Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetObjectIdentity"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetObjectIdentity method [.NET Framework hosting]"
   - "IManagedObject::GetObjectIdentity method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_GC_ROOT_KIND Enumeration | Microsoft Docs"
+title: "COR_PRF_GC_ROOT_KIND Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_GC_ROOT_KIND"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_GC_ROOT_KIND enumeration [.NET Framework profiling]"
 ms.assetid: b9fb1c03-417f-41d4-aed4-02cb4ade8def

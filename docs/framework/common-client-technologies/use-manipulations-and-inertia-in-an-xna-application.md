@@ -1,5 +1,5 @@
 ---
-title: "Using Manipulations and Inertia in an XNA Application | Microsoft Docs"
+title: "Using Manipulations and Inertia in an XNA Application"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -36,5 +36,5 @@ This article describes how you can use manipulations and inertia processing in a
  [Full Code Listings](../../../docs/framework/common-client-technologies/full-code-listings.md)  
   
 ## See Also  
- <xref:System.Windows.Input.Manipulations>   
+ <xref:System.Windows.Input.Manipulations>  
  [Manipulations and Inertia Overview](../../../docs/framework/common-client-technologies/manipulations-and-inertia-overview.md)

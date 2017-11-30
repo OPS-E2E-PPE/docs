@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetCodeInfo Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetCodeInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetCodeInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCodeInfo method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetCodeInfo method [.NET Framework profiling]"
@@ -69,6 +67,6 @@ HRESULT GetCodeInfo(
  **.NET Framework Versions:** 1.0  
   
 ## See Also  
- [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

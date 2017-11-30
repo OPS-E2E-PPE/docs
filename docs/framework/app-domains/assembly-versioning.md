@@ -1,5 +1,5 @@
 ---
-title: "Assembly Versioning | Microsoft Docs"
+title: "Assembly Versioning"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -72,10 +72,10 @@ Resolving an assembly binding request
 > [!NOTE]
 >  Although you can specify any text, a warning message appears on compilation if the string is not in the format used by the assembly version number, or if it is in that format but contains wildcards. This warning is harmless.  
   
- The informational version is represented using the custom attribute <xref:System.Reflection.AssemblyInformationalVersionAttribute?displayProperty=fullName>. For more information about the informational version attribute, see [Setting Assembly Attributes](../../../docs/framework/app-domains/set-assembly-attributes.md).  
+ The informational version is represented using the custom attribute <xref:System.Reflection.AssemblyInformationalVersionAttribute?displayProperty=nameWithType>. For more information about the informational version attribute, see [Setting Assembly Attributes](../../../docs/framework/app-domains/set-assembly-attributes.md).  
   
 ## See Also  
- [How the Runtime Locates Assemblies](../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)   
- [Configuring Apps](../../../docs/framework/configure-apps/index.md)   
- [Setting Assembly Attributes](../../../docs/framework/app-domains/set-assembly-attributes.md)   
+ [How the Runtime Locates Assemblies](../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)  
+ [Configuring Apps](../../../docs/framework/configure-apps/index.md)  
+ [Setting Assembly Attributes](../../../docs/framework/app-domains/set-assembly-attributes.md)  
  [Assemblies in the Common Language Runtime](../../../docs/framework/app-domains/assemblies-in-the-common-language-runtime.md)

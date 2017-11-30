@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameSignatureVerification Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameSignatureVerification Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameSignatureVerification"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameSignatureVerification method [.NET Framework hosting]"
   - "StrongNameSignatureVerification method, ICLRStrongName interface [.NET Framework hosting]"
@@ -80,5 +78,5 @@ HRESULT StrongNameSignatureVerification (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [StrongNameSignatureVerificationEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationex-method.md)   
+ [StrongNameSignatureVerificationEx Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamesignatureverificationex-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

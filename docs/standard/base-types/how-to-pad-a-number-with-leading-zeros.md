@@ -1,5 +1,5 @@
 ---
-title: "How to: Pad a Number with Leading Zeros | Microsoft Docs"
+title: "How to: Pad a Number with Leading Zeros"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "numeric format strings [.NET Framework]"
   - "formatting [.NET Framework], numbers"
@@ -93,6 +96,6 @@ You can add leading zeros to an integer by using the "D" [standard numeric forma
  [!code-vb[Formatting.HowTo.PadNumber#4](../../../samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.HowTo.PadNumber/vb/Pad1.vb#4)]  
   
 ## See Also  
- [Custom Numeric Format Strings](../../../docs/standard/base-types/custom-numeric-format-strings.md)   
- [Standard Numeric Format Strings](../../../docs/standard/base-types/standard-numeric-format-strings.md)   
+ [Custom Numeric Format Strings](../../../docs/standard/base-types/custom-numeric-format-strings.md)  
+ [Standard Numeric Format Strings](../../../docs/standard/base-types/standard-numeric-format-strings.md)  
  [Composite Formatting](../../../docs/standard/base-types/composite-formatting.md)

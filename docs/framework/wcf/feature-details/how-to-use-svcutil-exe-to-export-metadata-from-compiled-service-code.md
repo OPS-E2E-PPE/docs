@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Svcutil.exe to Export Metadata from Compiled Service Code | Microsoft Docs"
+title: "How to: Use Svcutil.exe to Export Metadata from Compiled Service Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -169,5 +169,5 @@ public class MyService : IPersonFinder
 ```  
   
 ## See Also  
- [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)   
+ [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)  
  [Exporting and Importing Metadata](../../../../docs/framework/wcf/feature-details/exporting-and-importing-metadata.md)

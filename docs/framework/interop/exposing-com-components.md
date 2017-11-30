@@ -1,5 +1,5 @@
 ---
-title: "Exposing COM Components to the .NET Framework | Microsoft Docs"
+title: "Exposing COM Components to the .NET Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "exposing COM components to .NET Framework"
   - "interoperation with unmanaged code, exposing COM components"
@@ -48,8 +43,8 @@ This section summarizes the process needed to expose an existing COM component t
      Interop applications are best deployed as [strong-named](../../../docs/framework/app-domains/strong-named-assemblies.md), signed assemblies in the global assembly cache.  
   
 ## See Also  
- [Interoperating with Unmanaged Code](../../../docs/framework/interop/index.md)   
- [Design Considerations for Interoperation](http://msdn.microsoft.com/en-us/b59637f6-fe35-40d6-ae72-901e7a707689)   
- [COM Interop Sample: .NET Client and COM Server](../../../docs/framework/interop/com-interop-sample-net-client-and-com-server.md)   
- [Language Independence and Language-Independent Components](../../../docs/standard/language-independence-and-language-independent-components.md)   
+ [Interoperating with Unmanaged Code](../../../docs/framework/interop/index.md)  
+ [Design Considerations for Interoperation](http://msdn.microsoft.com/en-us/b59637f6-fe35-40d6-ae72-901e7a707689)  
+ [COM Interop Sample: .NET Client and COM Server](../../../docs/framework/interop/com-interop-sample-net-client-and-com-server.md)  
+ [Language Independence and Language-Independent Components](../../../docs/standard/language-independence-and-language-independent-components.md)  
  [Gacutil.exe (Global Assembly Cache Tool)](../../../docs/framework/tools/gacutil-exe-gac-tool.md)

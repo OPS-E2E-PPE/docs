@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::IsRunning Method | Microsoft Docs"
+title: "ICorDebugController::IsRunning Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::IsRunning"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsRunning method [.NET Framework debugging]"
   - "ICorDebugController::IsRunning method [.NET Framework debugging]"

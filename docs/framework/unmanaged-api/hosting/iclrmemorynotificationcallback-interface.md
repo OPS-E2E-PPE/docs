@@ -1,5 +1,5 @@
 ---
-title: "ICLRMemoryNotificationCallback Interface | Microsoft Docs"
+title: "ICLRMemoryNotificationCallback Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMemoryNotificationCallback"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRMemoryNotificationCallback interface [.NET Framework hosting]"
 ms.assetid: 873639e2-4837-4568-83b3-4493e67e4174
@@ -51,5 +49,5 @@ Allows the host to report memory pressure conditions using an approach similar t
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)   
+ [IHostMemoryManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostmemorymanager-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

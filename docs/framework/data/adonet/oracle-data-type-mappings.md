@@ -1,5 +1,5 @@
 ---
-title: "Oracle Data Type Mappings1 | Microsoft Docs"
+title: "Oracle Data Type Mappings1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -75,5 +75,5 @@ The following table lists Oracle data types and their mappings to the <xref:Syst
  The **InputOutput**, **Output**, and **ReturnValue** **ParameterDirection** values used by the <xref:System.Data.OracleClient.OracleParameter.Value%2A> property of the <xref:System.Data.OracleClient.OracleParameter> object are .NET Framework data types, unless the input value is an Oracle data type (for example, <xref:System.Data.OracleClient.OracleNumber> or <xref:System.Data.OracleClient.OracleString>). This does not apply to **REF CURSOR**, **BFILE**, or **LOB** data types.  
   
 ## See Also  
- [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)   
+ [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

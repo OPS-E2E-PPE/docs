@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyEnum::GetNextAssembly Method | Microsoft Docs"
+title: "IAssemblyEnum::GetNextAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyEnum::GetNextAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetNextAssembly method [.NET Framework fusion]"
   - "IAssemblyEnum::GetNextAssembly method [.NET Framework fusion]"
@@ -61,5 +59,5 @@ HRESULT GetNextAssembly (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [IAssemblyEnum Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyenum-interface.md)

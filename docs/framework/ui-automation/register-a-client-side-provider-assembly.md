@@ -1,5 +1,5 @@
 ---
-title: "Register a Client-Side Provider Assembly | Microsoft Docs"
+title: "Register a Client-Side Provider Assembly"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "registering client-side provider assemblies"
   - "client-side provider assemblies, registering"

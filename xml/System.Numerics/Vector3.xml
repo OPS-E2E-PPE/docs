@@ -684,6 +684,7 @@
         <summary>Returns the length of this vector object.</summary>
         <returns>The vector's length.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.Numerics.Vector3.LengthSquared" />
       </Docs>
     </Member>
     <Member MemberName="LengthSquared">
@@ -721,6 +722,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Numerics.Vector3.Length" />
       </Docs>
     </Member>
     <Member MemberName="Lerp">
@@ -1031,7 +1033,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Addition (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator + (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Addition(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Addition(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1073,7 +1075,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Division">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Division (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator / (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Division(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Division(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1115,7 +1117,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Division">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Division (System.Numerics.Vector3 value1, float value2);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator / (System.Numerics.Vector3 value1, float value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Division(valuetype System.Numerics.Vector3 value1, float32 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Division(System.Numerics.Vector3,System.Single)" />
       <MemberType>Method</MemberType>
@@ -1157,7 +1159,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Equality(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1200,7 +1202,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Inequality(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1236,7 +1238,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Multiply (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator * (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Multiply(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Multiply(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1278,7 +1280,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Multiply (System.Numerics.Vector3 left, float right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator * (System.Numerics.Vector3 left, float right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Multiply(valuetype System.Numerics.Vector3 left, float32 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Multiply(System.Numerics.Vector3,System.Single)" />
       <MemberType>Method</MemberType>
@@ -1320,7 +1322,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Multiply (float left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator * (float left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Multiply(float32 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Multiply(System.Single,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1362,7 +1364,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_Subtraction (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator - (System.Numerics.Vector3 left, System.Numerics.Vector3 right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_Subtraction(valuetype System.Numerics.Vector3 left, valuetype System.Numerics.Vector3 right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_Subtraction(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1404,7 +1406,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_UnaryNegation">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 op_UnaryNegation (System.Numerics.Vector3 value);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Vector3 operator - (System.Numerics.Vector3 value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector3 op_UnaryNegation(valuetype System.Numerics.Vector3 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector3.op_UnaryNegation(System.Numerics.Vector3)" />
       <MemberType>Method</MemberType>
@@ -1577,7 +1579,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method returns a string in which each element of the vector is formatted using the "G" (general) format string and the formatting conventions of the current thread culture. The "\<" and ">" characters are used to begin and end the string, and the current culture's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=fullName> property followed by a space is used to separate each element.  
+ This method returns a string in which each element of the vector is formatted using the "G" (general) format string and the formatting conventions of the current thread culture. The "\<" and ">" characters are used to begin and end the string, and the current culture's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=nameWithType> property followed by a space is used to separate each element.  
   
  ]]></format>
         </remarks>
@@ -1617,7 +1619,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method returns a string in which each element of the vector is formatted using `format` and the current culture's formatting conventions. The "\<" and ">" characters are used to begin and end the string, and the current culture's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=fullName> property followed by a space is used to separate each element.  
+ This method returns a string in which each element of the vector is formatted using `format` and the current culture's formatting conventions. The "\<" and ">" characters are used to begin and end the string, and the current culture's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=nameWithType> property followed by a space is used to separate each element.  
   
  ]]></format>
         </remarks>
@@ -1659,7 +1661,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method returns a string in which each element of the vector is formatted using `format` and `formatProvider`. The "\<" and ">" characters are used to begin and end the string, and the format provider's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=fullName> property followed by a space is used to separate each element.  
+ This method returns a string in which each element of the vector is formatted using `format` and `formatProvider`. The "\<" and ">" characters are used to begin and end the string, and the format provider's <xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=nameWithType> property followed by a space is used to separate each element.  
   
  ]]></format>
         </remarks>
@@ -1970,5 +1972,104 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="Multiply">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a multiplication operation on a vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Returns a value that indicates whether this instance and a specified <see cref="T:System.Numerics.Vector3" /> instance or a specified object are equal.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Multiply">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a multiplication operation on a vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="CopyTo">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Copies the elements of a vector to an array.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Divide">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a division operation on a vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a new instance of the <see cref="T:System.Numerics.Vector3" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Transform">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Transforms a vector.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="ToString">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Returns the string representation of the current <see cref="T:System.Numerics.Vector3" /> instance.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Division">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a division operation on a vector.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

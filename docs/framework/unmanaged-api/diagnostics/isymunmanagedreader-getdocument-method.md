@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetDocument Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetDocument Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetDocument"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedReader::GetDocument method [.NET Framework debugging]"
   - "GetDocument method [.NET Framework debugging]"

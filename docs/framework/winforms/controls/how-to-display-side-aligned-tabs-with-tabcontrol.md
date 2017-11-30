@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Side-Aligned Tabs with TabControl | Microsoft Docs"
+title: "How to: Display Side-Aligned Tabs with TabControl"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "tab pages, displaying side-aligned tabs"
-  - "tabs, displaying side-aligned tabs"
+  - "tab pages [Windows Forms], displaying side-aligned tabs"
+  - "tabs [Windows Forms], displaying side-aligned tabs"
   - "TabControl control [Windows Forms], displaying side-aligned tabs"
 ms.assetid: 110d5abd-3ae3-4ded-95bf-778aaac798a0
 caps.latest.revision: 10

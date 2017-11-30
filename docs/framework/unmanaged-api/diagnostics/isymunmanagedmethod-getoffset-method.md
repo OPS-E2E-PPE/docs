@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod::GetOffset Method | Microsoft Docs"
+title: "ISymUnmanagedMethod::GetOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod::GetOffset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetOffset method, ISymUnmanagedMethod interface [.NET Framework debugging]"
   - "ISymUnmanagedMethod::GetOffset method [.NET Framework debugging]"

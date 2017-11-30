@@ -1,5 +1,5 @@
 ---
-title: "Debugging Enumerations | Microsoft Docs"
+title: "Debugging Enumerations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "debugging enumerations [.NET Framework]"
   - "unmanaged enumerations [.NET Framework], debugging"

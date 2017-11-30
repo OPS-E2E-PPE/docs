@@ -1,5 +1,5 @@
 ---
-title: "streamWriterBufferedDataLost MDA | Microsoft Docs"
+title: "streamWriterBufferedDataLost MDA"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "StreamWriter class, data buffering problems"
   - "managed debugging assistants (MDAs), StreamWriter data buffering"
@@ -114,5 +109,5 @@ static WriteToFile()
 ```  
   
 ## See Also  
- <xref:System.IO.StreamWriter>   
+ <xref:System.IO.StreamWriter>  
  [Diagnosing Errors with Managed Debugging Assistants](../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

@@ -1,5 +1,5 @@
 ---
-title: "Callback Functions | Microsoft Docs"
+title: "Callback Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "callback function"
   - "platform invoke, calling unmanaged functions"
@@ -36,5 +31,5 @@ Callback function and implementation
  Callback functions are ideal for use in situations in which a task is performed repeatedly. Another common usage is with enumeration functions, such as **EnumFontFamilies**, **EnumPrinters**, and **EnumWindows** in the Win32 API. The **EnumWindows** function enumerates through all existing windows on your computer, calling the callback function to perform a task on each window. For instructions and an example, see [How to: Implement Callback Functions](../../../docs/framework/interop/how-to-implement-callback-functions.md).  
   
 ## See Also  
- [How to: Implement Callback Functions](../../../docs/framework/interop/how-to-implement-callback-functions.md)   
+ [How to: Implement Callback Functions](../../../docs/framework/interop/how-to-implement-callback-functions.md)  
  [Calling a DLL Function](../../../docs/framework/interop/calling-a-dll-function.md)

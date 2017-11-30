@@ -30,7 +30,7 @@
 ## Examples  
  The following example shows how to define a <xref:System.Windows.Documents.List> using [!INCLUDE[TLA#tla_titlexaml](~/includes/tlasharptla-titlexaml-md.md)].  
   
- [!code-xml[ListSnippets#_ListXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/ListSnippets/CSharp/Window1.xaml#_listxaml)]  
+ [!code-xaml[ListSnippets#_ListXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/ListSnippets/CSharp/Window1.xaml#_listxaml)]  
   
  The following example shows how to create and populate a <xref:System.Windows.Documents.List> programmatically.  
   
@@ -43,7 +43,7 @@
   
  The following example shows how to define a nested <xref:System.Windows.Documents.List> (lists within lists) using [!INCLUDE[TLA#tla_titlexaml](~/includes/tlasharptla-titlexaml-md.md)].  
   
- [!code-xml[ListSnippets#_NestedListXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/ListSnippets/CSharp/Window1.xaml#_nestedlistxaml)]  
+ [!code-xaml[ListSnippets#_NestedListXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/ListSnippets/CSharp/Window1.xaml#_nestedlistxaml)]  
   
  The following figure shows how this example renders.  
   
@@ -160,7 +160,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.BorderBrush%2A> attribute of a <xref:System.Windows.Documents.Block> element (<xref:System.Windows.Documents.Paragraph>).  
   
- [!code-xml[BlockSnippets#_Block_BordersXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_bordersxaml)]  
+ [!code-xaml[BlockSnippets#_Block_BordersXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_bordersxaml)]  
   
  The following figure shows how this example renders.  
   
@@ -173,6 +173,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.BorderThickness" />
       </Docs>
     </Member>
     <Member MemberName="BorderBrushProperty">
@@ -264,7 +265,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.BorderThickness%2A> attribute of a <xref:System.Windows.Documents.Block> element (<xref:System.Windows.Documents.Paragraph>).  
   
- [!code-xml[BlockSnippets#_Block_BordersXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_bordersxaml)]  
+ [!code-xaml[BlockSnippets#_Block_BordersXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_bordersxaml)]  
   
  The following figure shows how this example renders.  
   
@@ -277,6 +278,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.BorderBrush" />
       </Docs>
     </Member>
     <Member MemberName="BorderThicknessProperty">
@@ -335,7 +337,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.FlowDirection%2A> attribute of a <xref:System.Windows.Documents.Block> element (<xref:System.Windows.Documents.Paragraph>).  
   
- [!code-xml[BlockSnippets#_Block_FlowDirectionXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_flowdirectionxaml)]  
+ [!code-xaml[BlockSnippets#_Block_FlowDirectionXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_flowdirectionxaml)]  
   
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.FlowDirection%2A> property programmatically.  
   
@@ -419,7 +421,7 @@
  `pt` is points; 1pt==(96/72) px  
   
  Auto  
- Causes the line height to be determined automatically from the current font characteristics.  Equivalent to a property value of <xref:System.Double.NaN?displayProperty=fullName>.  
+ Causes the line height to be determined automatically from the current font characteristics.  Equivalent to a property value of <xref:System.Double.NaN?displayProperty=nameWithType>.  
   
 <a name="dependencyPropertyInfo_LineHeight"></a>   
 ## Dependency Property Information  
@@ -434,13 +436,13 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.LineHeight%2A> attribute of a <xref:System.Windows.Documents.Block> element.  
   
- [!code-xml[BlockSnippets#_Block_LineHeightXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_lineheightxaml)]  
+ [!code-xaml[BlockSnippets#_Block_LineHeightXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_lineheightxaml)]  
   
  The following figure shows how the previous example renders.  
   
  ![Screenshot: FlowDocument LineHeight](~/add/media/flowdocument-lineheight.png "Screenshot: FlowDocument LineHeight")  
   
- The following figure shows how the same example renders with the default setting of <xref:System.Windows.Documents.ListItem.LineHeight%2A>=<xref:System.Double.NaN?displayProperty=fullName>.  
+ The following figure shows how the same example renders with the default setting of <xref:System.Windows.Documents.ListItem.LineHeight%2A>=<xref:System.Double.NaN?displayProperty=nameWithType>.  
   
  ![Screenshot: FlowDocument LineHeight default](~/add/media/flowdocument-lineheightdefault.png "Screenshot: FlowDocument LineHeight default")  
   
@@ -503,7 +505,7 @@
 ## Examples  
  The following example shows how to use the <xref:System.Windows.Controls.TextBlock.LineStackingStrategy%2A> property to determine how the line boxes are created for text lines of a <xref:System.Windows.Controls.TextBlock>. The first <xref:System.Windows.Controls.TextBlock> has a <xref:System.Windows.Controls.TextBlock.LineStackingStrategy%2A> value of <xref:System.Windows.LineStackingStrategy.MaxHeight> and the second <xref:System.Windows.Controls.TextBlock> has a value of <xref:System.Windows.LineStackingStrategy.BlockLineHeight>.  
   
- [!code-xml[FlowMiscSnippets_snip#LineStackingStrategyExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/linestackingstrategyexample.xaml#linestackingstrategyexamplewholepage)]  
+ [!code-xaml[FlowMiscSnippets_snip#LineStackingStrategyExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/linestackingstrategyexample.xaml#linestackingstrategyexamplewholepage)]  
   
  The following illustration shows the result of the preceding code.  
   
@@ -621,7 +623,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.Margin%2A> attribute of a <xref:System.Windows.Documents.Block> element (<xref:System.Windows.Documents.Paragraph>).  
   
- [!code-xml[BlockSnippets#_Block_MarginPaddingXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_marginpaddingxaml)]  
+ [!code-xaml[BlockSnippets#_Block_MarginPaddingXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_marginpaddingxaml)]  
   
  The following figure shows how this example renders.  Exaggerated thicknesses and colors are used for illustration.  
   
@@ -634,6 +636,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.Padding" />
       </Docs>
     </Member>
     <Member MemberName="MarginProperty">
@@ -669,6 +672,8 @@
         <summary>Gets the next <see cref="T:System.Windows.Documents.ListItem" /> in the containing <see cref="T:System.Windows.Documents.List" />.</summary>
         <value>The next <see cref="T:System.Windows.Documents.ListItem" /> in the <see cref="T:System.Windows.Documents.List" />, or <see langword="null" /> if there is no next <see cref="T:System.Windows.Documents.ListItem" />.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.PreviousListItem" />
+        <altmember cref="P:System.Windows.Documents.ListItem.SiblingListItems" />
       </Docs>
     </Member>
     <Member MemberName="Padding">
@@ -744,7 +749,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.ListItem.Padding%2A> attribute of a <xref:System.Windows.Documents.Block> element (<xref:System.Windows.Documents.Paragraph>).  
   
- [!code-xml[BlockSnippets#_Block_MarginPaddingXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_marginpaddingxaml)]  
+ [!code-xaml[BlockSnippets#_Block_MarginPaddingXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_marginpaddingxaml)]  
   
  The following figure shows how this example renders.  Exaggerated thicknesses and colors are used for illustration.  
   
@@ -757,6 +762,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.Margin" />
       </Docs>
     </Member>
     <Member MemberName="PaddingProperty">
@@ -792,6 +798,8 @@
         <summary>Gets the previous <see cref="T:System.Windows.Documents.ListItem" /> in the containing <see cref="T:System.Windows.Documents.List" />.</summary>
         <value>The previous <see cref="T:System.Windows.Documents.ListItem" /> in the <see cref="T:System.Windows.Documents.List" />, or <see langword="null" /> if there is no previous <see cref="T:System.Windows.Documents.ListItem" />.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.NextListItem" />
+        <altmember cref="P:System.Windows.Documents.ListItem.SiblingListItems" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeBlocks">
@@ -847,6 +855,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.ListItem.NextListItem" />
+        <altmember cref="P:System.Windows.Documents.ListItem.PreviousListItem" />
       </Docs>
     </Member>
     <Member MemberName="TextAlignment">
@@ -882,7 +892,7 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Documents.Block.TextAlignment%2A> attribute of a <xref:System.Windows.Documents.Block> element.  
   
- [!code-xml[BlockSnippets#_Block_TextAlignmentXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_textalignmentxaml)]  
+ [!code-xaml[BlockSnippets#_Block_TextAlignmentXAML](~/samples/snippets/csharp/VS_Snippets_Wpf/BlockSnippets/CSharp/Window1.xaml#_block_textalignmentxaml)]  
   
  The following figure shows how the previous example renders with <xref:System.Windows.TextAlignment.Left> text alignment (the default).  
   
@@ -922,5 +932,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationFramework</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Documents.ListItem" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

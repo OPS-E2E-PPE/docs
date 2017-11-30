@@ -1,5 +1,5 @@
 ---
-title: "How to: Host Multiple Versions of a Workflow Side-by-Side | Microsoft Docs"
+title: "How to: Host Multiple Versions of a Workflow Side-by-Side"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,6 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 09c575df-e0a3-4f3b-9e01-a7ac59d65287
 caps.latest.revision: 10
 author: "Erikre"
@@ -556,7 +559,7 @@ manager: "erikre"
   
 2.  Start a new workflow by clicking **New Game**. The version of the workflow is displayed under the status window and reflects the updated version from the associated `WorkflowIdentity`. Make a note of the `InstanceId` so you can view the tracking file for the workflow when it completes, and then enter guesses until the game is complete. Note how the user's guess is displayed in the information displayed in the status window based on the updates to the `WriteLine` activities.  
   
- **Please enter a number between 1 and 10**   
+ **Please enter a number between 1 and 10**  
 **5 is too high.**   
 **Please enter a number between 1 and 10**   
 **3 is too high.**   
@@ -569,7 +572,7 @@ manager: "erikre"
   
 3.  Open Windows Explorer and navigate to the **NumberGuessWorkflowHost\bin\debug** folder (or **bin\release** depending on your project settings) and open the tracking file using Notepad that corresponds to the completed workflow. If you did not make a note of the `InstanceId`, you can identify the correct tracking file by using the **Date modified** information in Windows Explorer.  
   
- **Please enter a number between 1 and 10**   
+ **Please enter a number between 1 and 10**  
 **5 is too high.**   
 **Please enter a number between 1 and 10**   
 **3 is too high.**   

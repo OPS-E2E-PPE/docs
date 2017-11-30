@@ -1,5 +1,5 @@
 ---
-title: "SqlClient for Entity FrameworkTypes | Microsoft Docs"
+title: "SqlClient for Entity FrameworkTypes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: f2a95ead-c845-4e97-9fb3-04b444f7ed81
 caps.latest.revision: 9
 author: "JennieHubbard"

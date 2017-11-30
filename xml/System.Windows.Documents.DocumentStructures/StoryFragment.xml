@@ -149,10 +149,12 @@
 ## Examples  
  The following example shows the `<StoryFragment>` part of an [!INCLUDE[TLA#tla_xps](~/includes/tlasharptla-xps-md.md)] document.  
   
- [!code-xml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
+ [!code-xaml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Documents.DocumentStructures.StoryBreak" />
+    <altmember cref="T:System.Windows.Documents.DocumentStructures.StoryFragments" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -215,6 +217,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.DocumentStructures.StoryFragment.FragmentType" />
+        <altmember cref="P:System.Windows.Documents.DocumentStructures.StoryFragment.StoryName" />
       </Docs>
     </Member>
     <Member MemberName="FragmentType">
@@ -245,10 +249,11 @@
 ## Examples  
  The following example shows the `FragmentType` attribute of the `<StoryFragment>` part of an [!INCLUDE[TLA#tla_xps](~/includes/tlasharptla-xps-md.md)] document.  
   
- [!code-xml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
+ [!code-xaml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.DocumentStructures.StoryFragment.FragmentName" />
       </Docs>
     </Member>
     <Member MemberName="StoryName">
@@ -279,10 +284,11 @@
 ## Examples  
  The following example shows the `StoryName` attribute of the `<StoryFragment>` part of an [!INCLUDE[TLA#tla_xps](~/includes/tlasharptla-xps-md.md)] document.  
   
- [!code-xml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
+ [!code-xaml[DocumentStructure#DocStructStoryFragContent1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructstoryfragcontent1)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Documents.DocumentStructures.StoryFragment.FragmentName" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Windows.Documents.DocumentStructures.BlockElement&gt;.GetEnumerator">

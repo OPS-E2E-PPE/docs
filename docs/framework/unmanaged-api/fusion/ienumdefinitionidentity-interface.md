@@ -1,5 +1,5 @@
 ---
-title: "IEnumDefinitionIdentity Interface | Microsoft Docs"
+title: "IEnumDefinitionIdentity Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IEnumDefinitionIdentity"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IEnumDefinitionIdentity interface [.NET Framework fusion]"
 ms.assetid: 8263e75d-251b-4abc-8a1a-c62884142232
@@ -74,5 +72,5 @@ IEnumDefinitionIdentity : IUnknown {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)   
+ [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)  
  [IDefinitionIdentity Interface](../../../../docs/framework/unmanaged-api/fusion/idefinitionidentity-interface.md)

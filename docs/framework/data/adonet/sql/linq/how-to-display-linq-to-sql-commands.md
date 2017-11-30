@@ -1,5 +1,5 @@
 ---
-title: "How to: Display LINQ to SQL Commands | Microsoft Docs"
+title: "How to: Display LINQ to SQL Commands"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 1decb05e-37ad-4ed6-ab2f-071eb4c4f628
 caps.latest.revision: 2
 author: "JennieHubbard"

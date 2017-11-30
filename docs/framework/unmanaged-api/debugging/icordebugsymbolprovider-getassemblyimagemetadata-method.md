@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugSymbolProvider::GetAssemblyImageMetadata Method | Microsoft Docs"
+title: "ICorDebugSymbolProvider::GetAssemblyImageMetadata Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: c3c9de67-b865-4ecf-b887-1f1d0719a0c0
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -47,5 +45,5 @@ HRESULT GetAssemblyImageMetadata(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)   
+ [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

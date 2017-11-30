@@ -1,5 +1,5 @@
 ---
-title: "DataTable Schema Definition | Microsoft Docs"
+title: "DataTable Schema Definition"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -42,5 +42,5 @@ The schema, or structure, of a table is represented by columns and constraints. 
  Describes how to define foreign key and unique constraints for columns in a table.  
   
 ## See Also  
- [DataTables](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatables.md)   
+ [DataTables](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatables.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

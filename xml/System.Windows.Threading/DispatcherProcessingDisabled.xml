@@ -44,6 +44,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="M:System.Windows.Threading.Dispatcher.DisableProcessing" />
   </Docs>
   <Members>
     <Member MemberName="Dispose">
@@ -77,6 +78,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Threading.Dispatcher.DisableProcessing" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -122,7 +124,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Threading.DispatcherProcessingDisabled left, System.Windows.Threading.DispatcherProcessingDisabled right);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Threading.DispatcherProcessingDisabled left, System.Windows.Threading.DispatcherProcessingDisabled right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Threading.DispatcherProcessingDisabled left, valuetype System.Windows.Threading.DispatcherProcessingDisabled right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Threading.DispatcherProcessingDisabled.op_Equality(System.Windows.Threading.DispatcherProcessingDisabled,System.Windows.Threading.DispatcherProcessingDisabled)" />
       <MemberType>Method</MemberType>
@@ -144,10 +146,11 @@
         <returns>
           <see langword="true" /> if the <see cref="T:System.Windows.Threading.DispatcherProcessingDisabled" /> objects are equal; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.Windows.Threading.DispatcherProcessingDisabled.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Threading.DispatcherProcessingDisabled left, System.Windows.Threading.DispatcherProcessingDisabled right);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Threading.DispatcherProcessingDisabled left, System.Windows.Threading.DispatcherProcessingDisabled right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Threading.DispatcherProcessingDisabled left, valuetype System.Windows.Threading.DispatcherProcessingDisabled right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Threading.DispatcherProcessingDisabled.op_Inequality(System.Windows.Threading.DispatcherProcessingDisabled,System.Windows.Threading.DispatcherProcessingDisabled)" />
       <MemberType>Method</MemberType>
@@ -169,6 +172,8 @@
         <returns>
           <see langword="true" /> if the <see cref="T:System.Windows.Threading.DispatcherProcessingDisabled" /> objects are not equal; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.Windows.Threading.DispatcherProcessingDisabled.op_Equality(System.Windows.Threading.DispatcherProcessingDisabled,System.Windows.Threading.DispatcherProcessingDisabled)" />
+        <altmember cref="M:System.Windows.Threading.DispatcherProcessingDisabled.Equals(System.Object)" />
       </Docs>
     </Member>
   </Members>

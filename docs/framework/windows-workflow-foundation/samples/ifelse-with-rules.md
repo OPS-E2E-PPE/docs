@@ -1,5 +1,5 @@
 ---
-title: "IfElse With Rules | Microsoft Docs"
+title: "IfElse With Rules"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -40,7 +40,7 @@ This sample shows the use of a rule condition with an <xref:System.Workflow.Acti
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Basic\Rules\IfElseWithRules`  
   
 ## See Also  
- <xref:System.Workflow.Activities.Rules>   
- <xref:System.Workflow.Activities.IfElseActivity>   
- <xref:System.Workflow.Activities.CodeActivity>   
+ <xref:System.Workflow.Activities.Rules>  
+ <xref:System.Workflow.Activities.IfElseActivity>  
+ <xref:System.Workflow.Activities.CodeActivity>  
  <xref:System.Workflow.Activities.Rules.RuleDefinitions>

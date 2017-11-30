@@ -1,5 +1,5 @@
 ---
-title: "Unsupported Functionality | Microsoft Docs"
+title: "Unsupported Functionality"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,7 +22,7 @@ In LINQ to SQL, the following SQL functionality cannot be exposed through transl
   
 -   `LIKE`  
   
-     Although `LIKE` is not supported through direct translation, similar functionality exists in the <xref:System.Data.Linq.SqlClient.SqlMethods> class. For more information, see <xref:System.Data.Linq.SqlClient.SqlMethods.Like%2A?displayProperty=fullName>.  
+     Although `LIKE` is not supported through direct translation, similar functionality exists in the <xref:System.Data.Linq.SqlClient.SqlMethods> class. For more information, see <xref:System.Data.Linq.SqlClient.SqlMethods.Like%2A?displayProperty=nameWithType>.  
   
 -   `DATEDIFF`  
   

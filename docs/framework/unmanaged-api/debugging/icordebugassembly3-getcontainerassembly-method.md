@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly3::GetContainerAssembly Method | Microsoft Docs"
+title: "ICorDebugAssembly3::GetContainerAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: f5fddeb6-b82e-4ebb-b432-849ce8513c77
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -51,5 +49,5 @@ HRESULT GetContainerAssembly(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugAssembly3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugassembly3-interface.md)   
+ [ICorDebugAssembly3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugassembly3-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

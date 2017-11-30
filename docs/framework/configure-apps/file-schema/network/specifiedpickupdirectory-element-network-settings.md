@@ -1,5 +1,5 @@
 ---
-title: "&lt;specifiedPickupDirectory&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;specifiedPickupDirectory&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#specifiedPickupDirectory"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/mailSettings/smtp/specifiedPickupDirectory"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "specifiedPickupDirectory element"
   - "<specifiedPickupDirectory> element"
@@ -38,7 +33,7 @@ Configures the local directory for a Simple Mail Transport Protocol (SMTP) serve
 ## Syntax  
   
 ```xml  
-      <specifiedPickupDirectory  
+<specifiedPickupDirectory  
   pickupDirectoryLocation="directory"   
 />  
 ```  
@@ -65,7 +60,7 @@ Configures the local directory for a Simple Mail Transport Protocol (SMTP) serve
  The `specifiedPickupDirectory` attribute sets the directory where applications save mail messages to be processed by the SMTP server.  
   
 ## Example  
- The following code example specifies c:\maildrop as the mail pickup directory.  
+ The following example specifies c:\maildrop as the mail pickup directory.  
   
 ```xml  
 <configuration>  
@@ -82,7 +77,7 @@ Configures the local directory for a Simple Mail Transport Protocol (SMTP) serve
 ```  
   
 ## See Also  
- <xref:System.Net.Mail.SmtpClient?displayProperty=fullName>   
- <xref:System.Net.Configuration.SmtpSection?displayProperty=fullName>   
- <xref:System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement?displayProperty=fullName>   
+ <xref:System.Net.Mail.SmtpClient?displayProperty=nameWithType>  
+ <xref:System.Net.Configuration.SmtpSection?displayProperty=nameWithType>  
+ <xref:System.Net.Configuration.SmtpSpecifiedPickupDirectoryElement?displayProperty=nameWithType>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFrame::GetCode Method | Microsoft Docs"
+title: "ICorDebugFrame::GetCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFrame::GetCode"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCode method, ICorDebugFrame interface [.NET Framework debugging]"
   - "ICorDebugFrame::GetCode method [.NET Framework debugging]"

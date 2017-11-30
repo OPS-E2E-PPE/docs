@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Text Pattern | Microsoft Docs"
+title: "UI Automation Text Pattern"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -36,5 +36,5 @@ manager: "markl"
  <xref:System.Windows.Automation.Text>  
   
 ## See Also  
- [UI Automation Control Patterns](../../../docs/framework/ui-automation/ui-automation-control-patterns.md)   
+ [UI Automation Control Patterns](../../../docs/framework/ui-automation/ui-automation-control-patterns.md)  
  [UI Automation Control Patterns for Clients](../../../docs/framework/ui-automation/ui-automation-control-patterns-for-clients.md)

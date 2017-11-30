@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedVariable::GetSignature Method | Microsoft Docs"
+title: "ISymUnmanagedVariable::GetSignature Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedVariable::GetSignature"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSignature method, ISymUnmanagedVariable interface [.NET Framework debugging]"
   - "ISymUnmanagedVariable::GetSignature method [.NET Framework debugging]"

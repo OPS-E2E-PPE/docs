@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeHost::UnloadAppDomain Method | Microsoft Docs"
+title: "ICLRRuntimeHost::UnloadAppDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeHost::UnloadAppDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRRuntimeHost::UnloadAppDomain method [.NET Framework hosting]"
   - "UnloadAppDomain method [.NET Framework hosting]"

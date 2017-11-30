@@ -1,5 +1,5 @@
 ---
-title: "Snapshot Isolation in SQL Server | Microsoft Docs"
+title: "Snapshot Isolation in SQL Server"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 43ae5dd3-50f5-43a8-8d01-e37a61664176
 caps.latest.revision: 6
 author: "JennieHubbard"
@@ -145,5 +148,5 @@ SELECT * FROM TestSnapshotUpdate WITH (UPDLOCK)
  If your application has many conflicts, snapshot isolation may not be the best choice. Hints should only be used when really needed. Your application should not be designed so that it constantly relies on lock hints for its operation.  
   
 ## See Also  
- [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)   
+ [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

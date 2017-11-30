@@ -1,5 +1,5 @@
 ---
-title: "DataView Performance | Microsoft Docs"
+title: "DataView Performance"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 90820e49-9d46-41f6-9a3d-6c0741bbd8eb
 caps.latest.revision: 2
 author: "JennieHubbard"

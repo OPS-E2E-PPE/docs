@@ -1,5 +1,5 @@
 ---
-title: "ICoreClrDebugTarget::EnumRuntimes Method | Microsoft Docs"
+title: "ICoreClrDebugTarget::EnumRuntimes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICoreClrDebugTarget::EnumRuntimes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "remote debugging API [Silverlight]"
   - "ICorClrDebugTarget::EnumRuntimes method [Silverlight debugging]"

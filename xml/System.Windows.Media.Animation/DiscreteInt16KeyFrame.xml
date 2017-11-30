@@ -37,12 +37,14 @@
   
  [!code-csharp[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/keyframes_snip/CSharp/AltDoubleAnimationUsingKeyFramesExample.cs#altdoubleanimationusingkeyframeswholepage)]
  [!code-vb[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](~/samples/snippets/visualbasic/VS_Snippets_Wpf/keyframes_snip/visualbasic/altdoubleanimationusingkeyframesexample.vb#altdoubleanimationusingkeyframeswholepage)]
- [!code-xml[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/AltDoubleAnimationUsingKeyFramesExample.xaml#altdoubleanimationusingkeyframeswholepage)]  
+ [!code-xaml[keyframes_snip#AltDoubleAnimationUsingKeyFramesWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/AltDoubleAnimationUsingKeyFramesExample.xaml#altdoubleanimationusingkeyframeswholepage)]  
   
  Not every \<Type>AnimationUsingKeyFrames class supports all interpolation methods. For more information, see the [Key-Frame Animations Overview](~/docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md).  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Media.Animation.Int16AnimationUsingKeyFrames" />
+    <altmember cref="T:System.Windows.Media.Animation.Int16KeyFrameCollection" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -115,6 +117,7 @@
         <summary>Creates a new instance of <see cref="T:System.Windows.Media.Animation.DiscreteInt16KeyFrame" />.</summary>
         <returns>A new instance of <see cref="T:System.Windows.Media.Animation.DiscreteInt16KeyFrame" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.Windows.Freezable.CreateInstanceCore" />
       </Docs>
     </Member>
     <Member MemberName="InterpolateValueCore">
@@ -141,5 +144,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.Animation.DiscreteInt16KeyFrame" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

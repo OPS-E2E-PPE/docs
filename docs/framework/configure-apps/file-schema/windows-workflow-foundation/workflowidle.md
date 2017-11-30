@@ -1,5 +1,5 @@
 ---
-title: "&lt;workflowIdle&gt; | Microsoft Docs"
+title: "&lt;workflowIdle&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -55,5 +55,5 @@ A service behavior that controls when idle workflow instances are unloaded and p
 |[\<behavior> of \<serviceBehaviors>](../../../../../docs/framework/configure-apps/file-schema/windows-workflow-foundation/behavior-of-servicebehaviors-of-workflow.md)|Specifies a behavior element.|  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Description.WorkflowIdleBehavior>   
+ <xref:System.ServiceModel.Activities.Description.WorkflowIdleBehavior>  
  <xref:System.ServiceModel.Activities.Configuration.WorkflowIdleElement>

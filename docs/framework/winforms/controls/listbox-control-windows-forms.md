@@ -1,5 +1,5 @@
 ---
-title: "ListBox Control (Windows Forms) | Microsoft Docs"
+title: "ListBox Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,12 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ListBox control [Windows Forms]"
-  - "list controls, Windows Forms"
+  - "list controls [Windows Forms], Windows Forms"
   - "list box controls"
-  - "list boxes, Windows Forms controls"
-  - "list items, Windows Forms controls that display"
+  - "list boxes [Windows Forms], Windows Forms controls"
+  - "list items [Windows Forms], Windows Forms controls that display"
   - "list boxes"
 ms.assetid: b0172473-c5f2-411e-aaa4-c8f17cb5eed4
 caps.latest.revision: 13

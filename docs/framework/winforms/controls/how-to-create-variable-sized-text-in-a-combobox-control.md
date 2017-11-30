@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Variable Sized Text in a ComboBox Control | Microsoft Docs"
+title: "How to: Create Variable Sized Text in a ComboBox Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "vb"
 helpviewer_keywords: 
-  - "text, drawing in combo boxes"
+  - "text [Windows Forms], drawing in combo boxes"
   - "examples [Windows Forms], ComboBox control"
-  - "combo boxes, drawing text"
+  - "combo boxes [Windows Forms], drawing text"
   - "ComboBox control [Windows Forms], examples [C#]"
   - "ComboBox control [Windows Forms], drawing custom text"
 ms.assetid: ce39b9ea-e626-49fe-bd5a-f567f6d157df
@@ -71,12 +71,12 @@ End Sub
     > [!NOTE]
     >  This technique is also applicable to the <xref:System.Windows.Forms.ListBox> control — you can substitute a <xref:System.Windows.Forms.ListBox> for the <xref:System.Windows.Forms.ComboBox>.  
   
--   References to the <xref:System.Windows.Forms?displayProperty=fullName> and <xref:System.Drawing?displayProperty=fullName> namespaces.  
+-   References to the <xref:System.Windows.Forms?displayProperty=nameWithType> and <xref:System.Drawing?displayProperty=nameWithType> namespaces.  
   
 ## See Also  
- <xref:System.Windows.Forms.ComboBox.DrawItem>   
- <xref:System.Windows.Forms.DrawItemEventArgs>   
- <xref:System.Windows.Forms.ComboBox.MeasureItem>   
- [Controls with Built-In Owner-Drawing Support](../../../../docs/framework/winforms/controls/controls-with-built-in-owner-drawing-support.md)   
- [ListBox Control](../../../../docs/framework/winforms/controls/listbox-control-windows-forms.md)   
+ <xref:System.Windows.Forms.ComboBox.DrawItem>  
+ <xref:System.Windows.Forms.DrawItemEventArgs>  
+ <xref:System.Windows.Forms.ComboBox.MeasureItem>  
+ [Controls with Built-In Owner-Drawing Support](../../../../docs/framework/winforms/controls/controls-with-built-in-owner-drawing-support.md)  
+ [ListBox Control](../../../../docs/framework/winforms/controls/listbox-control-windows-forms.md)  
  [ComboBox Control](../../../../docs/framework/winforms/controls/combobox-control-windows-forms.md)

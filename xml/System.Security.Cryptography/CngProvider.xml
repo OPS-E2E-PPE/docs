@@ -235,7 +235,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Security.Cryptography.CngProvider left, System.Security.Cryptography.CngProvider right);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Security.Cryptography.CngProvider left, System.Security.Cryptography.CngProvider right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class System.Security.Cryptography.CngProvider left, class System.Security.Cryptography.CngProvider right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngProvider.op_Equality(System.Security.Cryptography.CngProvider,System.Security.Cryptography.CngProvider)" />
       <MemberType>Method</MemberType>
@@ -270,7 +270,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Security.Cryptography.CngProvider left, System.Security.Cryptography.CngProvider right);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Security.Cryptography.CngProvider left, System.Security.Cryptography.CngProvider right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class System.Security.Cryptography.CngProvider left, class System.Security.Cryptography.CngProvider right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngProvider.op_Inequality(System.Security.Cryptography.CngProvider,System.Security.Cryptography.CngProvider)" />
       <MemberType>Method</MemberType>
@@ -361,5 +361,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
+        <AssemblyVersion>4.2.0.0</AssemblyVersion>
+        <AssemblyVersion>4.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Compares two <see cref="T:System.Security.Cryptography.CngProvider" /> objects.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

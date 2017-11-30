@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyCache::CreateAssemblyScavenger Method | Microsoft Docs"
+title: "IAssemblyCache::CreateAssemblyScavenger Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyCache::CreateAssemblyScavenger"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAssemblyScavenger method [.NET Framework fusion]"
   - "IAssemblyCache::CreateAssemblyScavanger method [.NET Framework fusion]"

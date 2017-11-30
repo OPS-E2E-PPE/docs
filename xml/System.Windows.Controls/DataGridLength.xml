@@ -330,7 +330,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Controls.DataGridLength gl1, System.Windows.Controls.DataGridLength gl2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Controls.DataGridLength gl1, System.Windows.Controls.DataGridLength gl2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Controls.DataGridLength gl1, valuetype System.Windows.Controls.DataGridLength gl2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.DataGridLength.op_Equality(System.Windows.Controls.DataGridLength,System.Windows.Controls.DataGridLength)" />
       <MemberType>Method</MemberType>
@@ -355,7 +355,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Windows.Controls.DataGridLength op_Implicit (double value);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Windows.Controls.DataGridLength (double value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Controls.DataGridLength op_Implicit(float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.DataGridLength.op_Implicit(System.Double)~System.Windows.Controls.DataGridLength" />
       <MemberType>Method</MemberType>
@@ -370,14 +370,14 @@
         <Parameter Name="value" Type="System.Double" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="value">The absolute pixel value (96 pixels-per-inch) to initialize the length to.</param>
+        <summary>Converts a <see cref="T:System.Double" /> to an instance of the <see cref="T:System.Windows.Controls.DataGridLength" /> class.</summary>
+        <returns>An object that represents the specified length.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Controls.DataGridLength gl1, System.Windows.Controls.DataGridLength gl2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Controls.DataGridLength gl1, System.Windows.Controls.DataGridLength gl2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Controls.DataGridLength gl1, valuetype System.Windows.Controls.DataGridLength gl2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.DataGridLength.op_Inequality(System.Windows.Controls.DataGridLength,System.Windows.Controls.DataGridLength)" />
       <MemberType>Method</MemberType>
@@ -506,5 +506,23 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationFramework</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.DataGridLength" /> class.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>PresentationFramework</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Determines whether an object is equal to the current <see cref="T:System.Windows.Controls.DataGridLength" />.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

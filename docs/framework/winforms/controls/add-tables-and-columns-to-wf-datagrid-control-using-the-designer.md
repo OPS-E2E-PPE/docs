@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Tables and Columns to the Windows Forms DataGrid Control Using the Designer | Microsoft Docs"
+title: "How to: Add Tables and Columns to the Windows Forms DataGrid Control Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "columns [Windows Forms], adding to DataGrid control"
   - "tables [Windows Forms], adding to DataGrid control"
@@ -65,5 +63,5 @@ manager: "wpickett"
 5.  In the **Properties** box of the collection editor, select the <xref:System.Windows.Forms.DataGridColumnStyle.MappingName%2A> value for the column you want to display.  
   
 ## See Also  
- [DataGrid Control](../../../../docs/framework/winforms/controls/datagrid-control-windows-forms.md)   
+ [DataGrid Control](../../../../docs/framework/winforms/controls/datagrid-control-windows-forms.md)  
  [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)

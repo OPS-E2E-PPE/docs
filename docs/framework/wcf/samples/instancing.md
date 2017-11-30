@@ -1,5 +1,5 @@
 ---
-title: "Instancing | Microsoft Docs"
+title: "Instancing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "service behaviors, instancing sample"
   - "Instancing Sample [Windows Communication Foundation]"

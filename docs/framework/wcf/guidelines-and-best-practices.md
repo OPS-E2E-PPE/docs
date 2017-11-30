@@ -1,5 +1,5 @@
 ---
-title: "Guidelines and Best Practices | Microsoft Docs"
+title: "Guidelines and Best Practices"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "WCF, guidelines"
   - "best practices [WCF], application design"
@@ -54,7 +51,7 @@ This section contains topics that provide guidelines for creating [!INCLUDE[indi
  [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)  
   
 ## See Also  
- [What Is Windows Communication Foundation](../../../docs/framework/wcf/whats-wcf.md)   
- [Windows Communication Foundation Samples](http://msdn.microsoft.com/en-us/8ec9d192-5d81-4f64-bfd3-90c5e5858c91)   
- [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)   
+ [What Is Windows Communication Foundation](../../../docs/framework/wcf/whats-wcf.md)  
+ [Windows Communication Foundation Samples](http://msdn.microsoft.com/en-us/8ec9d192-5d81-4f64-bfd3-90c5e5858c91)  
+ [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)  
  [Building Clients](../../../docs/framework/wcf/building-clients.md)

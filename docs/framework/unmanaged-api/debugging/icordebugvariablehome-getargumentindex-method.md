@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugVariableHome::GetArgumentIndex Method | Microsoft Docs"
+title: "ICorDebugVariableHome::GetArgumentIndex Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugVariableHome::GetArgumentIndex"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugVariableHome::GetArgumentiIndex method [.NET Framework debugging]"
   - "GetArgumentIndex method, ICorDebugVariableHome interface [.NET Framework debugging]"

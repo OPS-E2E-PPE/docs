@@ -1,5 +1,5 @@
 ---
-title: "&lt;issuerNameRegistry&gt; | Microsoft Docs"
+title: "&lt;issuerNameRegistry&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -83,5 +83,5 @@ Configures the issuer name registry that is used by handlers in the token handle
 ```  
   
 ## See Also  
- <xref:System.IdentityModel.Tokens.IssuerNameRegistry>   
+ <xref:System.IdentityModel.Tokens.IssuerNameRegistry>  
  <xref:System.IdentityModel.Tokens.ConfigurationBasedIssuerNameRegistry>

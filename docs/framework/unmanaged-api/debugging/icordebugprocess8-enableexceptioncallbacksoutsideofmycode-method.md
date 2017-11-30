@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess8::EnableExceptionCallbacksOutsideOfMyCode Method | Microsoft Docs"
+title: "ICorDebugProcess8::EnableExceptionCallbacksOutsideOfMyCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
+dev_langs:
+ - "cpp"
 ms.assetid: b3af44ec-7d41-425b-aed9-0c4379e5cbe9
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -24,7 +24,7 @@ manager: "wpickett"
   
 ## Syntax  
   
-```vb  
+```cpp
 HRESULT EnableExceptionCallbacksOutsideOfMyCode(  
    [in] BOOL enableExceptionsOutsideOfJMC  
 );  
@@ -53,5 +53,5 @@ HRESULT EnableExceptionCallbacksOutsideOfMyCode(
  **.NET Framework Versions:** [!INCLUDE[net_current_v46plus](../../../../includes/net-current-v46plus-md.md)]  
   
 ## See Also  
- [ICorDebugProcess8 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess8-interface.md)   
+ [ICorDebugProcess8 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess8-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

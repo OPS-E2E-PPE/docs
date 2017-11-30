@@ -1,5 +1,5 @@
 ---
-title: "ASSEMBLYMETADATA Structure | Microsoft Docs"
+title: "ASSEMBLYMETADATA Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ASSEMBLYMETADATA"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ASSEMBLYMETADATA structure [.NET Framework metadata]"
 ms.assetid: 1af98e57-9145-4d35-bb78-77d1da7c91a5
@@ -74,6 +72,6 @@ typedef struct {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Structures](../../../../docs/framework/unmanaged-api/metadata/metadata-structures.md)   
- [IMetaDataAssemblyEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataassemblyemit-interface.md)   
+ [Metadata Structures](../../../../docs/framework/unmanaged-api/metadata/metadata-structures.md)  
+ [IMetaDataAssemblyEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataassemblyemit-interface.md)  
  [OSINFO Structure](../../../../docs/framework/unmanaged-api/metadata/osinfo-structure.md)

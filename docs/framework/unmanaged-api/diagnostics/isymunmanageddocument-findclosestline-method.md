@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocument::FindClosestLine Method | Microsoft Docs"
+title: "ISymUnmanagedDocument::FindClosestLine Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocument::FindClosestLine"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FindClosestLine method [.NET Framework debugging]"
   - "ISymUnmanagedDocument::FindClosestLine method [.NET Framework debugging]"

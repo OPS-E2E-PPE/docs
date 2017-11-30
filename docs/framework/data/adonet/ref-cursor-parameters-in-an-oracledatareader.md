@@ -1,5 +1,5 @@
 ---
-title: "REF CURSOR Parameters in an OracleDataReader | Microsoft Docs"
+title: "REF CURSOR Parameters in an OracleDataReader"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "vb"
 ms.assetid: 801dff0f-2508-45aa-9416-f45d6887740c
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -48,5 +50,5 @@ End Sub
 ```  
   
 ## See Also  
- [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)   
+ [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

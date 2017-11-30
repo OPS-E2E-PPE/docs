@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetaHost::ExitProcess Method | Microsoft Docs"
+title: "ICLRMetaHost::ExitProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetaHost::ExitProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRMetaHost::ExitProcess method [.NET Framework hosting]"
   - "ExitProcess method, ICLRMetaHost interface [.NET Framework hosting]"
@@ -59,5 +57,5 @@ HRESULT ExitProcess (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)   
+ [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::GetHashFromFileW Method | Microsoft Docs"
+title: "ICLRStrongName::GetHashFromFileW Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::GetHashFromFileW"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHashFromFileW method, ICLRStrongName interface [.NET Framework hosting]"
   - "ICLRStrongName::GetHashFromFileW method [.NET Framework hosting]"
@@ -77,5 +75,5 @@ HRESULT GetHashFromFileW (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [GetHashFromFile Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromfile-method.md)   
+ [GetHashFromFile Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-gethashfromfile-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

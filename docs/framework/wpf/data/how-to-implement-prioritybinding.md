@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement PriorityBinding | Microsoft Docs"
+title: "How to: Implement PriorityBinding"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "classes, PriorityBinding"
-  - "data binding, PriorityBinding class"
-  - "PriorityBinding class"
+  - "data binding [WPF], PriorityBinding class"
 ms.assetid: d63b65ab-b3e9-4322-9aa8-1450f8d89532
 caps.latest.revision: 13
 author: dotnet-bot
@@ -39,7 +40,7 @@ manager: "wpickett"
   
  The <xref:System.Windows.Controls.TextBlock.Text%2A> property binds to the above `AsyncDS` using <xref:System.Windows.Data.PriorityBinding>:  
   
- [!code-xml[PriorityBinding#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/PriorityBinding/CSharp/Window1.xaml#2)]  
+ [!code-xaml[PriorityBinding#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/PriorityBinding/CSharp/Window1.xaml#2)]  
   
  When the binding engine processes the <xref:System.Windows.Data.Binding> objects, it starts with the first <xref:System.Windows.Data.Binding>, which is bound to the `SlowestDP` property. When this <xref:System.Windows.Data.Binding> is processed, it does not return a value successfully because it is sleeping for 5 seconds, so the next <xref:System.Windows.Data.Binding> element is processed. The next <xref:System.Windows.Data.Binding> does not return a value successfully because it is sleeping for 3 seconds. The binding engine then moves onto the next <xref:System.Windows.Data.Binding> element, which is bound to the `FastDP` property. This <xref:System.Windows.Data.Binding> returns the value "Fast Value". The <xref:System.Windows.Controls.TextBlock> now displays the value "Fast Value".  
   
@@ -50,6 +51,6 @@ manager: "wpickett"
  See <xref:System.Windows.Data.PriorityBinding> for information about what is considered a successful return value from a binding.  
   
 ## See Also  
- <xref:System.Windows.Data.Binding.IsAsync%2A?displayProperty=fullName>   
- [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)   
+ <xref:System.Windows.Data.Binding.IsAsync%2A?displayProperty=nameWithType>  
+ [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)  
  [How-to Topics](../../../../docs/framework/wpf/data/data-binding-how-to-topics.md)

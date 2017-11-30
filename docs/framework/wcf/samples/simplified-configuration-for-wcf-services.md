@@ -1,5 +1,5 @@
 ---
-title: "Simplified Configuration for WCF Services | Microsoft Docs"
+title: "Simplified Configuration for WCF Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -85,5 +85,5 @@ This sample demonstrates how to implement and configure a typical service and cl
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Services\ConfigSimplificationIn40`  
   
 ## See Also  
- [AppFabric Management Samples](http://go.microsoft.com/fwlink/?LinkId=193960)   
+ [AppFabric Management Samples](http://go.microsoft.com/fwlink/?LinkId=193960)  
  [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md)

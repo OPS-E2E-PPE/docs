@@ -21,10 +21,15 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+ For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.ServiceProcess.ServiceController" />
+    <altmember cref="T:System.ServiceProcess.ServiceControllerPermission" />
+    <altmember cref="T:System.ServiceProcess.ServiceControllerPermissionAccess" />
+    <altmember cref="T:System.ServiceProcess.ServiceControllerPermissionEntry" />
+    <altmember cref="T:System.ServiceProcess.ServiceControllerPermissionEntryCollection" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -43,6 +48,7 @@
         <param name="action">One of the <see cref="T:System.Security.Permissions.SecurityAction" /> values.</param>
         <summary>Initializes a new instance of the <see cref="T:System.ServiceProcess.ServiceControllerPermissionAttribute" /> class.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Security.Permissions.SecurityAction" />
       </Docs>
     </Member>
     <Member MemberName="CreatePermission">

@@ -1,5 +1,5 @@
 ---
-title: "INotifyConnection2::RegisterNotifySource Method | Microsoft Docs"
+title: "INotifyConnection2::RegisterNotifySource Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "INotifyConnection2::RegisterNotifySource"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "INotifyConnection2::RegisterNotifySource method [.NET Framework debugging]"
   - "RegisterNotifySource method [.NET Framework debugging]"
@@ -57,7 +55,7 @@ HRESULT RegisterNotifySource
  **Header:** ProtocolNotify2.idl  
   
 ## See Also  
- [INotifyConnection2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifyconnection2-interface.md)   
- [INotifySource2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-interface.md)   
- [INotifySink2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysink2-interface.md)   
+ [INotifyConnection2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifyconnection2-interface.md)  
+ [INotifySource2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysource2-interface.md)  
+ [INotifySink2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/inotifysink2-interface.md)  
  [UnregisterNotifySource Method](../../../../docs/framework/unmanaged-api/diagnostics/inotifyconnection2-unregisternotifysource-method.md)

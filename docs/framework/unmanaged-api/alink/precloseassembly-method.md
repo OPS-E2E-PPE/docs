@@ -1,5 +1,5 @@
 ---
-title: "PreCloseAssembly Method | Microsoft Docs"
+title: "PreCloseAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "PreCloseAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "PreCloseAssembly method"
 ms.assetid: 6d23ac54-15ea-4027-a172-9ebef43e8f56
@@ -51,6 +49,6 @@ HRESULT PreCloseAssembly(
  Requires alink.h.  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

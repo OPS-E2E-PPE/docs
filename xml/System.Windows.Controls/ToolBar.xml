@@ -41,10 +41,13 @@
 ## Examples  
  The following example shows how to create a <xref:System.Windows.Controls.ToolBar> inside a <xref:System.Windows.Controls.ToolBarTray>.  
   
- [!code-xml[ToolBarExample#1](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#1)]  
+ [!code-xaml[ToolBarExample#1](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#1)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+    <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+    <altmember cref="T:System.Windows.Controls.ToolBarTray" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -81,7 +84,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The position of the <xref:System.Windows.Controls.ToolBar> in a <xref:System.Windows.Controls.ToolBarTray> depends on the values of the <xref:System.Windows.Controls.ToolBarTray.Orientation%2A?displayProperty=fullName>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A> properties. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is set to <xref:System.Windows.Controls.Orientation.Horizontal>, a band represents a row in the <xref:System.Windows.Controls.ToolBarTray>. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is <xref:System.Windows.Controls.Orientation.Vertical>, a band represents a column of the <xref:System.Windows.Controls.ToolBarTray>. The following table describes the relationship between <xref:System.Windows.Controls.ToolBarTray.Orientation%2A>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A>.  
+ The position of the <xref:System.Windows.Controls.ToolBar> in a <xref:System.Windows.Controls.ToolBarTray> depends on the values of the <xref:System.Windows.Controls.ToolBarTray.Orientation%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A> properties. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is set to <xref:System.Windows.Controls.Orientation.Horizontal>, a band represents a row in the <xref:System.Windows.Controls.ToolBarTray>. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is <xref:System.Windows.Controls.Orientation.Vertical>, a band represents a column of the <xref:System.Windows.Controls.ToolBarTray>. The following table describes the relationship between <xref:System.Windows.Controls.ToolBarTray.Orientation%2A>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A>.  
   
 |Orientation|Band|BandIndex|  
 |-----------------|----------|---------------|  
@@ -101,10 +104,13 @@
 ## Examples  
  The following example shows how use this property to place <xref:System.Windows.Controls.ToolBar> controls inside a <xref:System.Windows.Controls.ToolBarTray>.  
   
- [!code-xml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
+ [!code-xaml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="BandIndex">
@@ -128,7 +134,7 @@
 ## Remarks  
  If you do not explicitly set this property, its value is determined by the order in which the <xref:System.Windows.Controls.ToolBar> is set in the <xref:System.Windows.Controls.ToolBarTray>. For example, if you put two toolbars in a <xref:System.Windows.Controls.ToolBarTray> without setting the <xref:System.Windows.Controls.ToolBar.Band%2A> and <xref:System.Windows.Controls.ToolBar.BandIndex%2A> properties, the value of <xref:System.Windows.Controls.ToolBar.Band%2A> will be 0 for both toolbars. The value of <xref:System.Windows.Controls.ToolBar.BandIndex%2A> will be 0 for the first toolbar and 1 for the second toolbar.  
   
- The position of the <xref:System.Windows.Controls.ToolBar> in a <xref:System.Windows.Controls.ToolBarTray> depends on the values of the <xref:System.Windows.Controls.ToolBarTray.Orientation%2A?displayProperty=fullName>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A> properties. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is set to <xref:System.Windows.Controls.Orientation.Horizontal>, a band represents a row in the <xref:System.Windows.Controls.ToolBarTray>. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is <xref:System.Windows.Controls.Orientation.Vertical>, a band represents a column of the <xref:System.Windows.Controls.ToolBarTray>. The following table describes the relationship between <xref:System.Windows.Controls.ToolBarTray.Orientation%2A>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A>.  
+ The position of the <xref:System.Windows.Controls.ToolBar> in a <xref:System.Windows.Controls.ToolBarTray> depends on the values of the <xref:System.Windows.Controls.ToolBarTray.Orientation%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A> properties. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is set to <xref:System.Windows.Controls.Orientation.Horizontal>, a band represents a row in the <xref:System.Windows.Controls.ToolBarTray>. When <xref:System.Windows.Controls.ToolBarTray.Orientation%2A> is <xref:System.Windows.Controls.Orientation.Vertical>, a band represents a column of the <xref:System.Windows.Controls.ToolBarTray>. The following table describes the relationship between <xref:System.Windows.Controls.ToolBarTray.Orientation%2A>, <xref:System.Windows.Controls.ToolBar.Band%2A>, and <xref:System.Windows.Controls.ToolBar.BandIndex%2A>.  
   
 |Orientation|Band|BandIndex|  
 |-----------------|----------|---------------|  
@@ -148,10 +154,13 @@
 ## Examples  
  The following example shows how use this property to place <xref:System.Windows.Controls.ToolBar> controls inside a <xref:System.Windows.Controls.ToolBarTray>.  
   
- [!code-xml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
+ [!code-xaml[ToolBarExample#2](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBarExample/CS/Pane1.xaml#2)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="BandIndexProperty">
@@ -218,7 +227,7 @@
 ## Examples  
  The following example shows how to use this property to apply a <xref:System.Windows.Style> to <xref:System.Windows.Controls.Button> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarButtonStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarbuttonstylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarButtonStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarbuttonstylekey)]  
   
  ]]></format>
         </remarks>
@@ -254,7 +263,7 @@
 ## Examples  
  The following example uses this property to apply a <xref:System.Windows.Style> to <xref:System.Windows.Controls.CheckBox> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarCheckBoxStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarcheckboxstylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarCheckBoxStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarcheckboxstylekey)]  
   
  ]]></format>
         </remarks>
@@ -377,6 +386,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="HasOverflowItemsProperty">
@@ -458,6 +470,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="IsOverflowOpenProperty">
@@ -529,7 +544,7 @@
 ## Examples  
  The following example uses this property to apply a <xref:System.Windows.Style> to <xref:System.Windows.Controls.Menu> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarMenuStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarmenustylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarMenuStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarmenustylekey)]  
   
  ]]></format>
         </remarks>
@@ -676,6 +691,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarOverflowPanel" />
+        <altmember cref="T:System.Windows.Controls.Primitives.ToolBarPanel" />
+        <altmember cref="T:System.Windows.Controls.ToolBarTray" />
       </Docs>
     </Member>
     <Member MemberName="OrientationProperty">
@@ -765,7 +783,7 @@
 ## Examples  
  The following example uses this property to apply a <xref:System.Windows.Style> to <xref:System.Windows.Controls.RadioButton> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarRadioButtonStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarradiobuttonstylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarRadioButtonStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarradiobuttonstylekey)]  
   
  ]]></format>
         </remarks>
@@ -801,7 +819,7 @@
 ## Examples  
  The following example uses this property to apply a <xref:System.Windows.Style> to <xref:System.Windows.Controls.Separator> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarSeparatorStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarseparatorstylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarSeparatorStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbarseparatorstylekey)]  
   
  ]]></format>
         </remarks>
@@ -867,7 +885,7 @@
 ## Examples  
  The following example uses this property to create a <xref:System.Windows.Style> for <xref:System.Windows.Controls.TextBox> controls on a <xref:System.Windows.Controls.ToolBar>.  
   
- [!code-xml[ToolBar_snip#ToolBarTextBoxStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbartextboxstylekey)]  
+ [!code-xaml[ToolBar_snip#ToolBarTextBoxStyleKey](~/samples/snippets/csharp/VS_Snippets_Wpf/ToolBar_snip/CS/pane1.xaml#toolbartextboxstylekey)]  
   
  ]]></format>
         </remarks>

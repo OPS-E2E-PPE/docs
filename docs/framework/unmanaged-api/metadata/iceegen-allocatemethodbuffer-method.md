@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::AllocateMethodBuffer Method | Microsoft Docs"
+title: "ICeeGen::AllocateMethodBuffer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::AllocateMethodBuffer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AllocateMethodBuffer method [.NET Framework metadata]"
   - "ICeeGen::AllocateMethodBuffer method [.NET Framework metadata]"

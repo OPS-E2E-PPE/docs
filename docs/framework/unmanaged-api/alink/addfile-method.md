@@ -1,5 +1,5 @@
 ---
-title: "AddFile Method1 | Microsoft Docs"
+title: "AddFile Method1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AddFile method"
 ms.assetid: 9e707abb-f905-4568-9356-12aa21d1b11c
@@ -68,6 +66,6 @@ HRESULT AddFile(
  Requires alink.h.  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

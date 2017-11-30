@@ -1,5 +1,5 @@
 ---
-title: "CorpubPublish Coclass | Microsoft Docs"
+title: "CorpubPublish Coclass"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorpubPublish"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorpubPublish coclass [.NET Framework debugging]"
 ms.assetid: 191015da-f54a-4bac-a28a-1de7ab3c3428

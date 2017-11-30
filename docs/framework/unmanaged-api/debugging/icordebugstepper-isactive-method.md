@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::IsActive Method | Microsoft Docs"
+title: "ICorDebugStepper::IsActive Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::IsActive"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsActive method, ICorDebugStepper interface [.NET Framework debugging]"
   - "ICorDebugStepper::IsActive method [.NET Framework debugging]"

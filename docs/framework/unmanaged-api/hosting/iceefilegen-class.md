@@ -1,5 +1,5 @@
 ---
-title: "ICeeFileGen Class | Microsoft Docs"
+title: "ICeeFileGen Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeFileGen"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICeeFileGen class [.NET Framework hosting]"
 ms.assetid: 90368606-506e-40df-be1f-8d595159203f

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction::GetILCode Method | Microsoft Docs"
+title: "ICorDebugFunction::GetILCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction::GetILCode"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunction::GetILCode method [.NET Framework debugging]"
   - "GetILCode method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Hosting an ActiveX Control in WPF | Microsoft Docs"
+title: "Walkthrough: Hosting an ActiveX Control in WPF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "ActiveX controls [WPF interoperability]"
-  - "hosting ActiveX controls"
+  - "hosting ActiveX controls [WPF]"
 ms.assetid: 1931d292-0dd1-434f-963c-dcda7638d75a
 caps.latest.revision: 30
 author: dotnet-bot
@@ -91,7 +94,7 @@ To enable improved interaction with browsers, you can use [!INCLUDE[TLA#tla_actx
   
 5.  Name the <xref:System.Windows.Controls.Grid> element `grid1`.  
   
-     [!code-xml[HostingAxInWpf#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/HostingAxInWpf/CSharp/HostingAxInWpf/window1.xaml#1)]  
+     [!code-xaml[HostingAxInWpf#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/HostingAxInWpf/CSharp/HostingAxInWpf/window1.xaml#1)]  
   
 6.  In Design view or XAML view, select the <xref:System.Windows.Window> element.  
   
@@ -109,8 +112,8 @@ To enable improved interaction with browsers, you can use [!INCLUDE[TLA#tla_actx
 10. Press F5 to build and run the application.  
   
 ## See Also  
- <xref:System.Windows.Forms.Integration.ElementHost>   
- <xref:System.Windows.Forms.Integration.WindowsFormsHost>   
- [WPF Designer](http://msdn.microsoft.com/en-us/c6c65214-8411-4e16-b254-163ed4099c26)   
- [Walkthrough: Hosting a Windows Forms Composite Control in WPF](../../../../docs/framework/wpf/advanced/walkthrough-hosting-a-windows-forms-composite-control-in-wpf.md)   
+ <xref:System.Windows.Forms.Integration.ElementHost>  
+ <xref:System.Windows.Forms.Integration.WindowsFormsHost>  
+ [WPF Designer](http://msdn.microsoft.com/en-us/c6c65214-8411-4e16-b254-163ed4099c26)  
+ [Walkthrough: Hosting a Windows Forms Composite Control in WPF](../../../../docs/framework/wpf/advanced/walkthrough-hosting-a-windows-forms-composite-control-in-wpf.md)  
  [Walkthrough: Hosting a WPF Composite Control in Windows Forms](../../../../docs/framework/wpf/advanced/walkthrough-hosting-a-wpf-composite-control-in-windows-forms.md)

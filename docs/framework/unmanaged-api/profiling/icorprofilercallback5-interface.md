@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback5 Interface | Microsoft Docs"
+title: "ICorProfilerCallback5 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback5"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback5 interface [.NET Framework profiling]"
 ms.assetid: 61d2e9ef-5f1f-4771-8847-239616e35d84
@@ -50,5 +48,5 @@ Supplements information to help a profiler identify the full closure of live obj
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [ICorProfilerCallback2 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback2-interface.md)

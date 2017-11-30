@@ -1,14 +1,12 @@
 ---
-title: "-filealign (C# Compiler Options) | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "-filealign (C# Compiler Options)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
 ms.topic: "article"
 f1_keywords: 
   - "/filealign"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "/alignment compiler option [C#]"
   - "filealign compiler option [C#]"
@@ -25,20 +23,6 @@ ms.assetid: 15cf1c98-3798-4ced-9f08-60619308a073
 caps.latest.revision: 14
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /filealign (C# Compiler Options)
 The **/filealign** option lets you specify the size of sections in your output file.  
@@ -58,7 +42,7 @@ The **/filealign** option lets you specify the size of sections in your output f
   
  By specifying the section size, you affect the size of the output file. Modifying section size may be useful for programs that will run on smaller devices.  
   
- Use [DUMPBIN](https://docs.microsoft.com/cpp/build/reference/dumpbin-options) to see information about sections in your output file.  
+ Use [DUMPBIN](/cpp/build/reference/dumpbin-options) to see information about sections in your output file.  
   
 ### To set this compiler option in the Visual Studio development environment  
   
@@ -73,5 +57,5 @@ The **/filealign** option lets you specify the size of sections in your output f
  For information on how to set this compiler option programmatically, see <xref:VSLangProj80.CSharpProjectConfigurationProperties3.FileAlignment%2A>.  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [Managing Project and Solution Properties](/visualstudio/ide/managing-project-and-solution-properties)

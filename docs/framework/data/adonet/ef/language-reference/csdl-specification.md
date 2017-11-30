@@ -1,5 +1,5 @@
 ---
-title: "CSDL Specification | Microsoft Docs"
+title: "CSDL Specification"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 6bb94c37-87da-447a-8dfd-83d1c4b5a2d2
 caps.latest.revision: 5
 author: "JennieHubbard"

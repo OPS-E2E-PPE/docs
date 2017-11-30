@@ -1,5 +1,5 @@
 ---
-title: "Event Handling in an XML Document Using the XmlNodeChangedEventArgs | Microsoft Docs"
+title: "Event Handling in an XML Document Using the XmlNodeChangedEventArgs"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 0fe844e3-5b6f-4fe7-ad15-22459501738b
 caps.latest.revision: 4
 author: "mairaw"

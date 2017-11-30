@@ -1,5 +1,5 @@
 ---
-title: "ICorDebug::CreateProcess Method | Microsoft Docs"
+title: "ICorDebug::CreateProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebug::CreateProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebug::CreateProcess method [.NET Framework debugging]"
   - "CreateProcess method, ICorDebugProcess interface [.NET Framework debugging]"

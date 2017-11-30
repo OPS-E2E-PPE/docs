@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement a Custom Layout Engine | Microsoft Docs"
+title: "How to: Implement a Custom Layout Engine"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,13 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "layout engines, custom"
+  - "layout engines [Windows Forms], custom"
   - "TableLayoutPanel control [Windows Forms], layout engine"
-  - "layout engines, implementing"
+  - "layout engines [Windows Forms], implementing"
   - "FlowLayoutPanel control [Windows Forms], layout engine"
-  - "LayoutEngine class"
 ms.assetid: f91aa91c-29f4-4089-95ca-5d48b774b00e
 caps.latest.revision: 7
 author: dotnet-bot
@@ -32,5 +33,5 @@ The following code example demonstrates how to create a custom layout engine tha
  [!code-vb[System.Windows.Forms.Layout.LayoutEngine#1](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.Layout.LayoutEngine/VB/DemoFlowLayout.vb#1)]  
   
 ## See Also  
- <xref:System.Windows.Forms.Layout.LayoutEngine>   
- <xref:System.Windows.Forms.Control.LayoutEngine%2A?displayProperty=fullName>
+ <xref:System.Windows.Forms.Layout.LayoutEngine>  
+ <xref:System.Windows.Forms.Control.LayoutEngine%2A?displayProperty=nameWithType>

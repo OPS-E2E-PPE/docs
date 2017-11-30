@@ -1,5 +1,5 @@
 ---
-title: "How to: Call User-Defined Functions Inline | Microsoft Docs"
+title: "How to: Call User-Defined Functions Inline"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: f80d4327-b6a5-4aa8-a743-e95d09a2a02e
 caps.latest.revision: 2
 author: "JennieHubbard"

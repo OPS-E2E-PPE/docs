@@ -1,5 +1,5 @@
 ---
-title: "Configuring Services | Microsoft Docs"
+title: "Configuring Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -62,6 +62,6 @@ Once you have designed and implemented your service contract, you are ready to c
  [Administration and Diagnostics](../../../docs/framework/wcf/diagnostics/index.md)  
   
 ## See Also  
- [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)   
- [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)   
+ [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)  
+ [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)  
  [WCF Feature Details](../../../docs/framework/wcf/feature-details/index.md)

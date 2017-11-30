@@ -1,5 +1,5 @@
 ---
-title: "Using Transformations in Managed GDI+ | Microsoft Docs"
+title: "Using Transformations in Managed GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "transformations"
   - "examples [Windows Forms], transformations"

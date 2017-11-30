@@ -1,5 +1,5 @@
 ---
-title: "Configuring Tracking for a Workflow | Microsoft Docs"
+title: "Configuring Tracking for a Workflow"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -258,5 +258,5 @@ invoker.Invoke();
         ```  
   
 ## See Also  
- [Windows Server App Fabric Monitoring](http://go.microsoft.com/fwlink/?LinkId=201273)   
+ [Windows Server App Fabric Monitoring](http://go.microsoft.com/fwlink/?LinkId=201273)  
  [Monitoring Applications with App Fabric](http://go.microsoft.com/fwlink/?LinkId=201275)

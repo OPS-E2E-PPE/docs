@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement CopyToDataTable&lt;T&gt; Where the Generic Type T Is Not a DataRow | Microsoft Docs"
+title: "How to: Implement CopyToDataTable&lt;T&gt; Where the Generic Type T Is Not a DataRow"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: b27b52cf-6172-485f-a75c-70ff9c5a2bd4
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -71,5 +74,5 @@ public class ObjectShredder<T>
 ```
   
 ## See Also  
- [Creating a DataTable From a Query](../../../../docs/framework/data/adonet/creating-a-datatable-from-a-query-linq-to-dataset.md)   
+ [Creating a DataTable From a Query](../../../../docs/framework/data/adonet/creating-a-datatable-from-a-query-linq-to-dataset.md)  
  [Programming Guide](../../../../docs/framework/data/adonet/programming-guide-linq-to-dataset.md)

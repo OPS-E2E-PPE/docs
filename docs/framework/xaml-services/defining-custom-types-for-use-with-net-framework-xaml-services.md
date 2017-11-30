@@ -1,5 +1,5 @@
 ---
-title: "Defining Custom Types for Use with .NET Framework XAML Services | Microsoft Docs"
+title: "Defining Custom Types for Use with .NET Framework XAML Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -116,10 +116,10 @@ When you define custom types that are business objects or are types that do not 
  For an application that loads XAML under partial trust, you can control the access level characteristics by using the <xref:System.Xaml.Permissions.XamlAccessLevel> API. Also, deferral mechanisms (such as the WPF template system) must be able to propagate any access level permissions and preserve them for the eventual run time evaluations; this is handled internally by passing the <xref:System.Xaml.Permissions.XamlAccessLevel> information.  
   
 ### WPF Implementation  
- WPF XAML uses a partial-trust access model where if BAML is loaded under partial trust, access is restricted to <xref:System.Xaml.Permissions.XamlAccessLevel.AssemblyAccessTo%2A> for the assembly that is the BAML source. For deferral, WPF uses <xref:System.Xaml.IXamlObjectWriterFactory.GetParentSettings%2A?displayProperty=fullName> as a mechanism for passing the access level information.  
+ WPF XAML uses a partial-trust access model where if BAML is loaded under partial trust, access is restricted to <xref:System.Xaml.Permissions.XamlAccessLevel.AssemblyAccessTo%2A> for the assembly that is the BAML source. For deferral, WPF uses <xref:System.Xaml.IXamlObjectWriterFactory.GetParentSettings%2A?displayProperty=nameWithType> as a mechanism for passing the access level information.  
   
  In WPF XAML terminology, an *internal type* is a type that is defined by the same assembly that also includes the referencing XAML. Such a type can be mapped through a XAML namespace that deliberately omits the assembly= portion of a mapping, for example, `xmlns:local="clr-namespace:WPFApplication1"`.  If BAML references an internal type and that type has `internal` access level, this generates a `GeneratedInternalTypeHelper` class for the assembly. If you want to avoid `GeneratedInternalTypeHelper`, you either must use `public` access level, or must factor the relevant class into a separate assembly and make that assembly dependent.  
   
 ## See Also  
- [XAML-Related CLR Attributes for Custom Types and Libraries](../../../docs/framework/xaml-services/xaml-related-clr-attributes-for-custom-types-and-libraries.md)   
+ [XAML-Related CLR Attributes for Custom Types and Libraries](../../../docs/framework/xaml-services/xaml-related-clr-attributes-for-custom-types-and-libraries.md)  
  [XAML Services](../../../docs/framework/xaml-services/index.md)

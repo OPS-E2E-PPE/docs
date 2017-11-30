@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedBinder::GetReaderFromStream Method | Microsoft Docs"
+title: "ISymUnmanagedBinder::GetReaderFromStream Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedBinder::GetReaderFromStream"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedBinder::GetReaderFromStream method [.NET Framework debugging]"
   - "GetReaderFromStream method [.NET Framework debugging]"
@@ -31,7 +29,7 @@ ms.author: "mairaw"
 manager: "wpickett"
 ---
 # ISymUnmanagedBinder::GetReaderFromStream Method
-Given a metadata interface and a stream that contains the symbol store, returns the correct <<!--zz xref:ISymUnmanagedReader --> `ISymUnmanagedReader`> structure that will read the debugging symbols from the given symbol store.  
+Given a metadata interface and a stream that contains the symbol store, returns the correct [ISymUnmanagedReader](isymunmanagedreader-interface.md) structure that will read the debugging symbols from the given symbol store.  
   
 ## Syntax  
   
@@ -50,7 +48,7 @@ HRESULT GetReaderFromStream(
  [in] A pointer to the stream that contains the symbol store.  
   
  `pRetVal`  
- [out] A pointer that is set to the returned <<!--zz xref:ISymUnmanagedReader --> `ISymUnmanagedReader`> interface.  
+ [out] A pointer that is set to the returned [ISymUnmanagedReader](isymunmanagedreader-interface.md) interface.  
   
 ## Return Value  
  S_OK if the method succeeds; otherwise, E_FAIL or some other error code.  

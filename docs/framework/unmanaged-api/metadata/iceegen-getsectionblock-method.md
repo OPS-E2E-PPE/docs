@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::GetSectionBlock Method | Microsoft Docs"
+title: "ICeeGen::GetSectionBlock Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::GetSectionBlock"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSectionBlock method [.NET Framework metadata]"
   - "ICeeGen::GetSectionBlock method [.NET Framework metadata]"

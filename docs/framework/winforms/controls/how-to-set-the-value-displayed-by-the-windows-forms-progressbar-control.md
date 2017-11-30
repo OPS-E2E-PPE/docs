@@ -1,5 +1,5 @@
 ---
-title: "How to: Set the Value Displayed by the Windows Forms ProgressBar Control | Microsoft Docs"
+title: "How to: Set the Value Displayed by the Windows Forms ProgressBar Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,14 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Increment method"
-  - "Value property"
-  - "PerformStep method"
-  - "Step property"
   - "ProgressBar control [Windows Forms], setting value displayed"
-  - "progress controls, setting value displayed"
+  - "progress controls [Windows Forms], setting value displayed"
 ms.assetid: 0e5010ad-1e9a-4271-895e-5a3d24d37a26
 caps.latest.revision: 14
 author: dotnet-bot
@@ -47,7 +44,7 @@ manager: "wpickett"
     > [!NOTE]
     >  If you set the <xref:System.Windows.Forms.ProgressBar.Value%2A> property outside the boundaries established by the <xref:System.Windows.Forms.ProgressBar.Minimum%2A> and <xref:System.Windows.Forms.ProgressBar.Maximum%2A> properties, the control throws an <xref:System.ArgumentException> exception.  
   
-     The following code example illustrates how to set the <xref:System.Windows.Forms.ProgressBar> value directly. The code reads records from a data source and updates the progress bar and label every time a data record is read. This example requires that your form has a <xref:System.Windows.Forms.Label> control, a <xref:System.Windows.Forms.ProgressBar> control, and a data table with a row called`CustomerRow` with`FirstName` and`Last Name` fields.  
+     The following code example illustrates how to set the <xref:System.Windows.Forms.ProgressBar> value directly. The code reads records from a data source and updates the progress bar and label every time a data record is read. This example requires that your form has a <xref:System.Windows.Forms.Label> control, a <xref:System.Windows.Forms.ProgressBar> control, and a data table with a row called `CustomerRow` with `FirstName` and `LastName` fields.  
   
     ```vb  
     Public Sub CreateNewRecords()  
@@ -234,7 +231,7 @@ manager: "wpickett"
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.ProgressBar>   
- <xref:System.Windows.Forms.ToolStripProgressBar>   
- [ProgressBar Control Overview](../../../../docs/framework/winforms/controls/progressbar-control-overview-windows-forms.md)   
+ <xref:System.Windows.Forms.ProgressBar>  
+ <xref:System.Windows.Forms.ToolStripProgressBar>  
+ [ProgressBar Control Overview](../../../../docs/framework/winforms/controls/progressbar-control-overview-windows-forms.md)  
  [ProgressBar Control](../../../../docs/framework/winforms/controls/progressbar-control-windows-forms.md)

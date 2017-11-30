@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMergedAssemblyRecord::GetIndex Method | Microsoft Docs"
+title: "ICorDebugMergedAssemblyRecord::GetIndex Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 98701444-b9bc-4978-9548-89ac3394147d
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -48,5 +46,5 @@ HRESULT GetIndex(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugMergedAssemblyRecord Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmergedassemblyrecord-interface.md)   
+ [ICorDebugMergedAssemblyRecord Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmergedassemblyrecord-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

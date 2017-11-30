@@ -1,5 +1,5 @@
 ---
-title: "ICLRHostBindingPolicyManager::EvaluatePolicy Method | Microsoft Docs"
+title: "ICLRHostBindingPolicyManager::EvaluatePolicy Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRHostBindingPolicyManager::EvaluatePolicy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRHostBindingPolicyManager::EvaluatePolicy method [.NET Framework hosting]"
   - "EvaluatePolicy method [.NET Framework hosting]"

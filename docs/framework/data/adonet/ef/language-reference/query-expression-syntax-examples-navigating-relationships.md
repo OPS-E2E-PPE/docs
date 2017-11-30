@@ -1,5 +1,5 @@
 ---
-title: "Query Expression Syntax Examples: Navigating Relationships | Microsoft Docs"
+title: "Query Expression Syntax Examples: Navigating Relationships"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 0d4a7f41-c758-4059-8f83-d2e9c2745593
 caps.latest.revision: 2
 author: "JennieHubbard"

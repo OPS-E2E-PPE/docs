@@ -1,5 +1,5 @@
 ---
-title: "&lt;= (Less Than or Equal To) (Entity SQL) | Microsoft Docs"
+title: "&lt;= (Less Than or Equal To) (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 7c46da5c-fa09-4d90-adcc-c7e1b769d8e6
 caps.latest.revision: 3
 author: "JennieHubbard"

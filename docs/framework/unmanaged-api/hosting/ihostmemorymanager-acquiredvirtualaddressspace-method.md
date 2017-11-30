@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::AcquiredVirtualAddressSpace Method | Microsoft Docs"
+title: "IHostMemoryManager::AcquiredVirtualAddressSpace Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::AcquiredVirtualAddressSpace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager::AcquiredVirtualAddressSpace method [.NET Framework hosting]"
   - "AcquiredVirtualAddressSpace method [.NET Framework hosting]"

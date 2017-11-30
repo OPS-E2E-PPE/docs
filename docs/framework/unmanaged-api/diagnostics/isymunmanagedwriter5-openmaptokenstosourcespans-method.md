@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter5::OpenMapTokensToSourceSpans Method | Microsoft Docs"
+title: "ISymUnmanagedWriter5::OpenMapTokensToSourceSpans Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 93ad2517-b0dc-464c-8688-a58a30eda18d
 caps.latest.revision: 4
 author: "rpetrusha"

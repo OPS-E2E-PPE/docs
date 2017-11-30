@@ -1,5 +1,5 @@
 ---
-title: "How to: Flatten a Curved Path into a Line | Microsoft Docs"
+title: "How to: Flatten a Curved Path into a Line"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,15 +9,12 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "graphics, flattening curves into lines"
-  - "curves, flattening"
-  - "Flatten method"
+  - "graphics [Windows Forms], flattening curves into lines"
+  - "curves [Windows Forms], flattening"
   - "GraphicsPath object"
-  - "paths, flattening"
-  - "drawing, flattening curves"
+  - "paths [Windows Forms], flattening"
+  - "drawing [Windows Forms], flattening curves"
 ms.assetid: e654b8de-25f4-4735-9208-42e4514a589c
 caps.latest.revision: 14
 author: dotnet-bot
@@ -34,6 +31,6 @@ A <xref:System.Drawing.Drawing2D.GraphicsPath> object stores a sequence of lines
 -   call the <xref:System.Drawing.Drawing2D.GraphicsPath.Flatten%2A> method of a <xref:System.Drawing.Drawing2D.GraphicsPath> object. The <xref:System.Drawing.Drawing2D.GraphicsPath.Flatten%2A> method receives a flatness argument that specifies the maximum distance between the flattened path and the original path.  
   
 ## See Also  
- <xref:System.Drawing.Drawing2D.GraphicsPath?displayProperty=fullName>   
- [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)   
+ <xref:System.Drawing.Drawing2D.GraphicsPath?displayProperty=nameWithType>  
+ [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)  
  [Constructing and Drawing Paths](../../../../docs/framework/winforms/advanced/constructing-and-drawing-paths.md)

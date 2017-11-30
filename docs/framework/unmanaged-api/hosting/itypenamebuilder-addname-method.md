@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::AddName Method | Microsoft Docs"
+title: "ITypeNameBuilder::AddName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameBuilder::AddName method [.NET Framework hosting]"
   - "AddName method [.NET Framework hosting]"

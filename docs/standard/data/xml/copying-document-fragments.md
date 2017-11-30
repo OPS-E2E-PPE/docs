@@ -1,5 +1,5 @@
 ---
-title: "Copying Document Fragments | Microsoft Docs"
+title: "Copying Document Fragments"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: cf424bbe-81b7-40d2-9978-9b727da94d80
 caps.latest.revision: 3
 author: "mairaw"

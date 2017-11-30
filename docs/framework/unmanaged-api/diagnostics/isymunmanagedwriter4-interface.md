@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter4 Interface | Microsoft Docs"
+title: "ISymUnmanagedWriter4 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 4af5e8c0-987d-405e-b934-8b9e70fcae6e
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -37,5 +35,5 @@ ISymUnmanagedWriter4 interface.
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [Diagnostics Symbol Store Interfaces](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-interfaces.md)   
+ [Diagnostics Symbol Store Interfaces](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-interfaces.md)  
  [ISymUnmanagedWriter3 Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter3-interface.md)

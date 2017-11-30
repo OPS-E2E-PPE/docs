@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetILFunctionBodyAllocator Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetILFunctionBodyAllocator Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetILFunctionBodyAllocator"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetILFunctionBodyAllocator method [.NET Framework profiling]"
   - "ICorProfilerInfo::GetILFunctionBodyAllocator method [.NET Framework profiling]"

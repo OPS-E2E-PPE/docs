@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetILToNativeMapping Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetILToNativeMapping Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetILToNativeMapping"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetILToNativeMapping method, ICorProfilerInfo interface [.NET Framework profiling]"
   - "ICorProfilerInfo::GetILToNativeMapping method [.NET Framework profiling]"
@@ -74,7 +72,7 @@ HRESULT GetILToNativeMapping(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)   
- [GetILToNativeMapping2 Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-getiltonativemapping2-method.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)  
+ [GetILToNativeMapping2 Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-getiltonativemapping2-method.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

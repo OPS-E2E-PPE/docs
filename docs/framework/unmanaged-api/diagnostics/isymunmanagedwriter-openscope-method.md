@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::OpenScope Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::OpenScope Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::OpenScope"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "OpenScope method, ISymUnmanagedWriter interface [.NET Framework debugging]"
   - "ISymUnmanagedWriter::OpenScope method [.NET Framework debugging]"

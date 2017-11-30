@@ -1,5 +1,5 @@
 ---
-title: "&lt;activityStateQueries&gt; of WCF | Microsoft Docs"
+title: "&lt;activityStateQueries&gt; of WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -28,7 +28,7 @@ Represents a collection of queries that are used to track life cycle changes of 
   
 ## Syntax  
   
-```vb  
+```xml  
 <tracking>   <trackingProfile name="Name">       <workflow>          <activityStateQueries>             <activityStateQuery activityName="String" />                <arguments>                   <argument name="String"/>                </arguments>                <states>                   <state name="String"/>                </states>                <variables>                   <variable name="String"/>                </variables>          </activityStateQueries>       </workflow>   </trackingProfile></tracking>  
 ```  
   
@@ -53,5 +53,5 @@ Represents a collection of queries that are used to track life cycle changes of 
 ## See Also  
  <xref:System.ServiceModel.Activities.Tracking.Configuration.ActivityStateQueryElementCollection>    
  <xref:System.Activities.Tracking.ActivityStateQuery>    
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

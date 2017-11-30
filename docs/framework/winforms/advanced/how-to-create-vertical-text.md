@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Vertical Text | Microsoft Docs"
+title: "How to: Create Vertical Text"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "text [Windows Forms], drawing vertical"
   - "Windows Forms, drawing vertical text"
   - "strings [Windows Forms], drawing vertical"
-  - "vertical text, drawing"
+  - "vertical text [Windows Forms], drawing"
 ms.assetid: 50c69046-4188-47d9-b949-cc2610ffd337
 caps.latest.revision: 9
 author: dotnet-bot

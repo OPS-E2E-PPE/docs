@@ -1,5 +1,5 @@
 ---
-title: "MALLOC_TYPE Enumeration | Microsoft Docs"
+title: "MALLOC_TYPE Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "MALLOC_TYPE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "MALLOC_TYPE Enumeration"
 ms.assetid: c02476f9-23a2-4af7-9282-aa9c42c7429b

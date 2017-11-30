@@ -1,5 +1,5 @@
 ---
-title: "IHostControl::GetHostManager Method | Microsoft Docs"
+title: "IHostControl::GetHostManager Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostControl::GetHostManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHostManager method [.NET Framework hosting]"
   - "IHostControl::GetHostManager method [.NET Framework hosting]"

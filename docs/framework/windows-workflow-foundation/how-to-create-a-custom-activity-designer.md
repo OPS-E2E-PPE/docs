@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Activity Designer | Microsoft Docs"
+title: "How to: Create a Custom Activity Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -347,9 +347,9 @@ Custom activity designers are typically implemented so that their associated act
     ```  
   
 ## See Also  
- <xref:System.Activities.Presentation.ActivityDesigner>   
- <xref:System.Activities.Presentation.WorkflowItemPresenter>   
- <xref:System.Activities.Presentation.WorkflowItemsPresenter>   
- <xref:System.Activities.Presentation.WorkflowViewElement>   
- <xref:System.Activities.Presentation.Model.ModelItem>   
+ <xref:System.Activities.Presentation.ActivityDesigner>  
+ <xref:System.Activities.Presentation.WorkflowItemPresenter>  
+ <xref:System.Activities.Presentation.WorkflowItemsPresenter>  
+ <xref:System.Activities.Presentation.WorkflowViewElement>  
+ <xref:System.Activities.Presentation.Model.ModelItem>  
  [Customizing the Workflow Design Experience](../../../docs/framework/windows-workflow-foundation/customizing-the-workflow-design-experience.md)

@@ -1,5 +1,5 @@
 ---
-title: "What You Can Do With LINQ to SQL | Microsoft Docs"
+title: "What You Can Do With LINQ to SQL"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 061d98b2-baa7-4336-8ad2-c14de8134d91
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -54,6 +57,6 @@ manager: "jhubbard"
  [!code-vb[DLinqGettingStarted#4](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqGettingStarted/vb/Module1.vb#4)]  
   
 ## See Also  
- [Programming Guide](../../../../../../docs/framework/data/adonet/sql/linq/programming-guide.md)   
- [The LINQ to SQL Object Model](../../../../../../docs/framework/data/adonet/sql/linq/the-linq-to-sql-object-model.md)   
+ [Programming Guide](../../../../../../docs/framework/data/adonet/sql/linq/programming-guide.md)  
+ [The LINQ to SQL Object Model](../../../../../../docs/framework/data/adonet/sql/linq/the-linq-to-sql-object-model.md)  
  [Getting Started](../../../../../../docs/framework/data/adonet/sql/linq/getting-started.md)

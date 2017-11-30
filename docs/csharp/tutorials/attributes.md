@@ -1,5 +1,5 @@
 ---
-title: Attributes - C# | Microsoft Docs
+title: Attributes - C#
 description: Learn how attributes work in C#.
 keywords: .NET, .NET Core, C#, attributes
 author: mgroves
@@ -39,6 +39,8 @@ Now that you've installed all the tools, create a new .NET Core application. To 
 `dotnet new console`
 
 This command will create barebones .NET core project files. You will need to execute `dotnet restore` to restore the dependencies needed to compile this project.
+
+[!INCLUDE[DotNet Restore Note](~/includes/dotnet-restore-note.md)]
 
 To execute the program, use `dotnet run`. You should see "Hello, World" output to the console.
 

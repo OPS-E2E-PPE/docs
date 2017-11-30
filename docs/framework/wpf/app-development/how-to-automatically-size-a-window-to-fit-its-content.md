@@ -1,5 +1,5 @@
 ---
-title: "How to: Automatically Size a Window to Fit Its Content | Microsoft Docs"
+title: "How to: Automatically Size a Window to Fit Its Content"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "resizing windows to fit content"
-  - "windows, resizing to fit content"
-  - "sizing windows to fit content"
+  - "resizing windows to fit content [WPF]"
+  - "windows [WPF], resizing to fit content"
+  - "sizing windows to fit content [WPF]"
 ms.assetid: 333ca72a-c2f3-4414-9303-3fdabaaa1b32
 caps.latest.revision: 5
 author: dotnet-bot

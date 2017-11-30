@@ -1,5 +1,5 @@
 ---
-title: "Bulk Copy Operations in SQL Server | Microsoft Docs"
+title: "Bulk Copy Operations in SQL Server"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -45,5 +45,5 @@ Microsoft SQL Server includes a popular command-line utility named **bcp** for q
  Describes how to perform a bulk copy operation within a transaction, including how to commit or rollback the transaction.  
   
 ## See Also  
- [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)   
+ [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

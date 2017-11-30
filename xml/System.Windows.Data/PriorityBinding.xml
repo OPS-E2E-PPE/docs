@@ -35,7 +35,7 @@
   
 3.  The resulting value is valid for the target property.  
   
- The value <xref:System.Windows.DependencyProperty.UnsetValue?displayProperty=fullName> is not considered a successful return value.  
+ The value <xref:System.Windows.DependencyProperty.UnsetValue?displayProperty=nameWithType> is not considered a successful return value.  
   
  The priority of the bindings is determined by their order in the list. The binding that appears first in the list has the highest priority.  
   
@@ -45,6 +45,8 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Data.PriorityBindingExpression" />
+    <altmember cref="T:System.Windows.Data.IValueConverter" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -109,7 +111,7 @@
 ## Examples  
  In the following example, \<PriorityBinding.Bindings> is implicit. The <xref:System.Windows.Data.Binding> objects that are established for the <xref:System.Windows.Data.PriorityBinding> are implicitly added to the <xref:System.Windows.Data.BindingBase> collection. For more information, see the "Property Value" section earlier in this topic.  
   
- [!code-xml[PriorityBinding#2](~/samples/snippets/csharp/VS_Snippets_Wpf/PriorityBinding/CSharp/Window1.xaml#2)]  
+ [!code-xaml[PriorityBinding#2](~/samples/snippets/csharp/VS_Snippets_Wpf/PriorityBinding/CSharp/Window1.xaml#2)]  
   
  ]]></format>
         </remarks>

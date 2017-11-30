@@ -1,5 +1,5 @@
 ---
-title: "How to: Use a Pen to Draw Rectangles | Microsoft Docs"
+title: "How to: Use a Pen to Draw Rectangles"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "rectangles, drawing"
-  - "pens, drawing rectangles"
+  - "rectangles [Windows Forms], drawing"
+  - "pens [Windows Forms], drawing rectangles"
 ms.assetid: 54a7fa14-3ad8-4d64-b424-2a12005b250c
 caps.latest.revision: 13
 author: dotnet-bot

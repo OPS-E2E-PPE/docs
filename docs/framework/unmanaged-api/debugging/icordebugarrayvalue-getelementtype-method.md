@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetElementType Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetElementType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetElementType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugArrayValue::GetElementType method [.NET Framework debugging]"
   - "GetElementType method [.NET Framework debugging]"

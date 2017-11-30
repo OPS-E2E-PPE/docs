@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain::GetModuleFromMetaDataInterface Method | Microsoft Docs"
+title: "ICorDebugAppDomain::GetModuleFromMetaDataInterface Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain::GetModuleFromMetaDataInterface"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain::GetModuleFromMetaDatainterface method [.NET Framework debugging]"
   - "GetModuleFromMetaDatainterface method [.NET Framework debugging]"

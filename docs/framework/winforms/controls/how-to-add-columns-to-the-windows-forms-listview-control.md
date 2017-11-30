@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Columns to the Windows Forms ListView Control | Microsoft Docs"
+title: "How to: Add Columns to the Windows Forms ListView Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "ListView control [Windows Forms], adding column headers"
   - "columns [Windows Forms], adding to ListView controls"
-  - "list views, adding columns"
+  - "list views [Windows Forms], adding columns"
 ms.assetid: 79174274-12ee-4a5d-80db-6ec02976d010
 caps.latest.revision: 16
 author: dotnet-bot
@@ -34,6 +35,6 @@ In the Details view, the <xref:System.Windows.Forms.ListView> control can displa
      [!code-vb[System.Windows.Forms.ListViewLegacyTopics#31](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.ListViewLegacyTopics/VB/Class1.vb#31)]  
   
 ## See Also  
- <xref:System.Windows.Forms.ListView>   
- [ListView Control](../../../../docs/framework/winforms/controls/listview-control-windows-forms.md)   
+ <xref:System.Windows.Forms.ListView>  
+ [ListView Control](../../../../docs/framework/winforms/controls/listview-control-windows-forms.md)  
  [ListView Control Overview](../../../../docs/framework/winforms/controls/listview-control-overview-windows-forms.md)

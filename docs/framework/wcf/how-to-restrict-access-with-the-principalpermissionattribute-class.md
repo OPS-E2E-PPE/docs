@@ -1,5 +1,5 @@
 ---
-title: "How to: Restrict Access with the PrincipalPermissionAttribute Class | Microsoft Docs"
+title: "How to: Restrict Access with the PrincipalPermissionAttribute Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "PrincipalPermissionAttribute class"
   - "WCF, authorization"
@@ -64,7 +64,7 @@ Controlling the access to resources on a Windows-domain computer is a basic secu
   
 1.  Apply the <xref:System.Security.Permissions.PrincipalPermissionAttribute> class to the method you want to restrict access to.  
   
-2.  Set the action of the attribute to <xref:System.Security.Permissions.SecurityAction.Demand?displayProperty=fullName>.  
+2.  Set the action of the attribute to <xref:System.Security.Permissions.SecurityAction.Demand?displayProperty=nameWithType>.  
   
 3.  Set the `Name` property to a string that consists of the subject name and the certificate's thumbprint. Separate the two values with a semicolon and a space, as shown in the following example:  
   
@@ -91,10 +91,10 @@ Controlling the access to resources on a Windows-domain computer is a basic secu
      [!code-vb[c_PrincipalPermissionAttribute#3](../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_principalpermissionattribute/vb/source.vb#3)]  
   
 ## See Also  
- <xref:System.Security.Permissions.PrincipalPermissionAttribute>   
- <xref:System.Security.Permissions.PrincipalPermissionAttribute>   
- <xref:System.Security.Permissions.SecurityAction.Demand>   
- <xref:System.Security.Permissions.PrincipalPermissionAttribute.Role%2A>   
- [Authorizing Access to Service Operations](../../../docs/framework/wcf/samples/authorizing-access-to-service-operations.md)   
- [Security Overview](../../../docs/framework/wcf/feature-details/security-overview.md)   
+ <xref:System.Security.Permissions.PrincipalPermissionAttribute>  
+ <xref:System.Security.Permissions.PrincipalPermissionAttribute>  
+ <xref:System.Security.Permissions.SecurityAction.Demand>  
+ <xref:System.Security.Permissions.PrincipalPermissionAttribute.Role%2A>  
+ [Authorizing Access to Service Operations](../../../docs/framework/wcf/samples/authorizing-access-to-service-operations.md)  
+ [Security Overview](../../../docs/framework/wcf/feature-details/security-overview.md)  
  [Implementing Service Contracts](../../../docs/framework/wcf/implementing-service-contracts.md)

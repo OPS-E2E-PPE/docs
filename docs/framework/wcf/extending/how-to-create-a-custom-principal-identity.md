@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Principal Identity | Microsoft Docs"
+title: "How to: Create a Custom Principal Identity"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "IPrincipal"
   - "IAuthorizationPolicy"
@@ -53,8 +56,8 @@ The <xref:System.Security.Permissions.PrincipalPermissionAttribute> is a declara
 -   <xref:System.IdentityModel.Policy>  
   
 ## See Also  
- <xref:System.ServiceModel.Description.PrincipalPermissionMode>   
- <xref:System.ServiceModel.Description.PrincipalPermissionMode>   
- <xref:System.Security.Permissions.PrincipalPermissionAttribute>   
- [How to: Use the ASP.NET Role Provider with a Service](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-role-provider-with-a-service.md)   
+ <xref:System.ServiceModel.Description.PrincipalPermissionMode>  
+ <xref:System.ServiceModel.Description.PrincipalPermissionMode>  
+ <xref:System.Security.Permissions.PrincipalPermissionAttribute>  
+ [How to: Use the ASP.NET Role Provider with a Service](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-role-provider-with-a-service.md)  
  [How to: Restrict Access with the PrincipalPermissionAttribute Class](../../../../docs/framework/wcf/how-to-restrict-access-with-the-principalpermissionattribute-class.md)

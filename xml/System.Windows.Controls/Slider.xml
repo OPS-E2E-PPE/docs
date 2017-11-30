@@ -73,14 +73,18 @@
   
  The following example defines a <xref:System.Windows.Controls.Slider> control that is named `RectangeHeight` that can have a <xref:System.Windows.Controls.Primitives.RangeBase.Value%2A> between 0 and 200.  
   
- [!code-xml[SliderwithDataBinding#Minimum](~/samples/snippets/csharp/VS_Snippets_Wpf/SliderwithDataBinding/CS/Pane1.xaml#minimum)]   
+ [!code-xaml[SliderwithDataBinding#Minimum](~/samples/snippets/csharp/VS_Snippets_Wpf/SliderwithDataBinding/CS/Pane1.xaml#minimum)]   
   
  The following example shows how to define a <xref:System.Windows.Shapes.Rectangle> that binds its <xref:System.Windows.FrameworkElement.Height%2A> property to the <xref:System.Windows.Controls.Primitives.RangeBase.Value%2A> of the <xref:System.Windows.Controls.Slider> control. (In the complete sample, a similar binding is created for the <xref:System.Windows.FrameworkElement.Width%2A> property.)  
   
- [!code-xml[SliderwithDataBinding#BindingRectangle](~/samples/snippets/csharp/VS_Snippets_Wpf/SliderwithDataBinding/CS/Pane1.xaml#bindingrectangle)]   
+ [!code-xaml[SliderwithDataBinding#BindingRectangle](~/samples/snippets/csharp/VS_Snippets_Wpf/SliderwithDataBinding/CS/Pane1.xaml#bindingrectangle)]   
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Primitives.Track" />
+    <altmember cref="T:System.Windows.Controls.Primitives.Thumb" />
+    <altmember cref="T:System.Windows.Controls.Primitives.TickBar" />
+    <altmember cref="T:System.Windows.Controls.Primitives.TickPlacement" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -163,7 +167,7 @@
   
  [!code-csharp[Slider#Basic](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#basic)]
  [!code-vb[Slider#Basic](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#basic)]
- [!code-xml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
+ [!code-xaml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
   
  ]]></format>
         </remarks>
@@ -237,7 +241,7 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
@@ -570,7 +574,7 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
@@ -647,7 +651,7 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
@@ -730,10 +734,12 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Slider.SelectionStart" />
+        <altmember cref="P:System.Windows.Controls.Slider.SelectionEnd" />
       </Docs>
     </Member>
     <Member MemberName="IsSelectionRangeEnabledProperty">
@@ -805,7 +811,7 @@
   
  [!code-csharp[Slider#Basic](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#basic)]
  [!code-vb[Slider#Basic](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#basic)]
- [!code-xml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
+ [!code-xaml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
   
  ]]></format>
         </remarks>
@@ -1324,7 +1330,7 @@
   
  [!code-csharp[Slider#Basic](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#basic)]
  [!code-vb[Slider#Basic](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#basic)]
- [!code-xml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
+ [!code-xaml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
   
  ]]></format>
         </remarks>
@@ -1398,10 +1404,12 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Slider.SelectionStart" />
+        <altmember cref="P:System.Windows.Controls.Slider.IsSelectionRangeEnabled" />
       </Docs>
     </Member>
     <Member MemberName="SelectionEndProperty">
@@ -1472,10 +1480,12 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Slider.SelectionEnd" />
+        <altmember cref="P:System.Windows.Controls.Slider.IsSelectionRangeEnabled" />
       </Docs>
     </Member>
     <Member MemberName="SelectionStartProperty">
@@ -1550,10 +1560,11 @@
   
  [!code-csharp[Slider#Basic](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#basic)]
  [!code-vb[Slider#Basic](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#basic)]
- [!code-xml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
+ [!code-xaml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Slider.TickPlacement" />
       </Docs>
     </Member>
     <Member MemberName="TickFrequencyProperty">
@@ -1616,10 +1627,11 @@
   
  [!code-csharp[Slider#Basic](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#basic)]
  [!code-vb[Slider#Basic](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#basic)]
- [!code-xml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
+ [!code-xaml[Slider#Basic](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#basic)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Slider.TickFrequency" />
       </Docs>
     </Member>
     <Member MemberName="TickPlacementProperty">
@@ -1692,7 +1704,7 @@
   
  [!code-csharp[Slider#SelectionRange](~/samples/snippets/csharp/VS_Snippets_Wpf/Slider/CSharp/Pane1.xaml.cs#selectionrange)]
  [!code-vb[Slider#SelectionRange](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Slider/VisualBasic/Pane1.xaml.vb#selectionrange)]
- [!code-xml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
+ [!code-xaml[Slider#SelectionRange](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#selectionrange)]  
   
  ]]></format>
         </remarks>

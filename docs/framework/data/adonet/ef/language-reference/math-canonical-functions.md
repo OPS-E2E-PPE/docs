@@ -1,5 +1,5 @@
 ---
-title: "Math Canonical Functions | Microsoft Docs"
+title: "Math Canonical Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 6f6cddc6-b561-4ebe-84b6-841ef5b4113b
 caps.latest.revision: 2
 author: "JennieHubbard"

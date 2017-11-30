@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::Break Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::Break Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::Break"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Break method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::Break method [.NET Framework debugging]"

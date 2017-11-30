@@ -1,5 +1,5 @@
 ---
-title: "Calling Asynchronous Methods Using IAsyncResult | Microsoft Docs"
+title: "Calling Asynchronous Methods Using IAsyncResult"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -34,5 +34,5 @@ Types in the .NET Framework and third-party class libraries can provide methods 
 -   [Using an AsyncCallback Delegate to End an Asynchronous Operation](../../../docs/standard/asynchronous-programming-patterns/using-an-asynccallback-delegate-to-end-an-asynchronous-operation.md).  
   
 ## See Also  
- [Event-based Asynchronous Pattern (EAP)](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap.md)   
+ [Event-based Asynchronous Pattern (EAP)](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap.md)  
  [Event-based Asynchronous Pattern Overview](../../../docs/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-overview.md)

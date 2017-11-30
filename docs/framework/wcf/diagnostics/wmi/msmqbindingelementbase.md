@@ -1,5 +1,5 @@
 ---
-title: "MsmqBindingElementBase | Microsoft Docs"
+title: "MsmqBindingElementBase"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -127,5 +127,5 @@ class MsmqBindingElementBase : TransportBindingElement
 |Namespace|Defined in root\ServiceModel|  
   
 ## See Also  
- <xref:System.ServiceModel.NetMsmqBinding>   
+ <xref:System.ServiceModel.NetMsmqBinding>  
  <xref:System.ServiceModel.MsmqBindingBase>

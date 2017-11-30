@@ -1,5 +1,5 @@
 ---
-title: "&lt;listeners&gt; Element for &lt;source&gt; | Microsoft Docs"
+title: "&lt;listeners&gt; Element for &lt;source&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,11 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.diagnostics/sources/source/listeners"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "listeners element for <source>"
   - "<listeners> element for <source>"
@@ -99,6 +94,6 @@ Adds or removes listeners in the <xref:System.Diagnostics.TraceSource.Listeners%
 ```  
   
 ## See Also  
- <xref:System.Diagnostics.TraceListener>   
- [Trace and Debug Settings Schema](../../../../../docs/framework/configure-apps/file-schema/trace-debug/index.md)   
+ <xref:System.Diagnostics.TraceListener>  
+ [Trace and Debug Settings Schema](../../../../../docs/framework/configure-apps/file-schema/trace-debug/index.md)  
  [Trace Listeners](../../../../../docs/framework/debug-trace-profile/trace-listeners.md)

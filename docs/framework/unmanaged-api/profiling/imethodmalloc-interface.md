@@ -1,5 +1,5 @@
 ---
-title: "IMethodMalloc Interface | Microsoft Docs"
+title: "IMethodMalloc Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMethodMalloc"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMethodMalloc interface [.NET Framework profiling]"
 ms.assetid: 8c8ab5dc-557c-473a-82f2-6e403eca7dac

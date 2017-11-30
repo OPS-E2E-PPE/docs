@@ -1,5 +1,5 @@
 ---
-title: "IsFrameworkAssembly Function | Microsoft Docs"
+title: "IsFrameworkAssembly Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IsFrameworkAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsFrameworkAssembly function [.NET Framework fusion]"
 ms.assetid: b0c6f19b-d4fd-4971-88f0-12ffb5793da3

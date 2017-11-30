@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueErrorInfo::GetErrorCode Method | Microsoft Docs"
+title: "ICorDebugEditAndContinueErrorInfo::GetErrorCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueErrorInfo::GetErrorCode"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetErrorCode method [.NET Framework debugging]"
   - "ICorDebugEditAndContinueErrorInfo::GetErrorCode method [.NET Framework debugging]"

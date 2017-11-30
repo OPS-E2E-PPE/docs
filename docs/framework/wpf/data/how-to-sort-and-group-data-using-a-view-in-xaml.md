@@ -1,5 +1,5 @@
 ---
-title: "How to: Sort and Group Data Using a View in XAML | Microsoft Docs"
+title: "How to: Sort and Group Data Using a View in XAML"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,14 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "data binding, grouping data in views in XAML"
-  - "XAML, sorting data in views"
-  - "grouping data in views in XAML"
-  - "data binding, sorting data in views in XAML"
-  - "sorting data in views in XAML"
-  - "XAML, grouping data in views"
-  - "views, sorting data"
-  - "views, grouping data"
+  - "data binding [WPF], grouping data in views in XAML"
+  - "XAML [WPF], sorting data in views"
+  - "grouping data in views in XAML [WPF]"
+  - "data binding [WPF], sorting data in views in XAML"
+  - "sorting data in views in XAML [WPF]"
+  - "XAML [WPF], grouping data in views"
+  - "views [WPF], sorting data"
+  - "views [WPF], grouping data"
 ms.assetid: 145c8c3f-dbdd-4d0d-816f-90b35eba7eda
 caps.latest.revision: 15
 author: dotnet-bot
@@ -32,20 +32,20 @@ This example shows how to create a view of a data collection in [!INCLUDE[TLA#tl
   
  The following example creates a view of the data collection that is sorted by the city name and grouped by the state.  
   
- [!code-xml[CollectionViewSource#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#1)]  
+ [!code-xaml[CollectionViewSource#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#1)]  
   
  The view can then be a binding source, as in the following example:  
   
- [!code-xml[CollectionViewSource#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#2)]  
+ [!code-xaml[CollectionViewSource#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#2)]  
   
  For bindings to XML data defined in an <xref:System.Windows.Data.XmlDataProvider> resource, precede the XML name with an @ symbol.  
   
- [!code-xml[CollectionViewSource#XDPChunk](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#xdpchunk)]  
+ [!code-xaml[CollectionViewSource#XDPChunk](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#xdpchunk)]  
   
- [!code-xml[CollectionViewSource#Attribute](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#attribute)]  
+ [!code-xaml[CollectionViewSource#Attribute](../../../../samples/snippets/csharp/VS_Snippets_Wpf/CollectionViewSource/CS/window1.xaml#attribute)]  
   
 ## See Also  
- <xref:System.Windows.Data.CollectionViewSource>   
- [Get the Default View of a Data Collection](../../../../docs/framework/wpf/data/how-to-get-the-default-view-of-a-data-collection.md)   
- [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)   
+ <xref:System.Windows.Data.CollectionViewSource>  
+ [Get the Default View of a Data Collection](../../../../docs/framework/wpf/data/how-to-get-the-default-view-of-a-data-collection.md)  
+ [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)  
  [How-to Topics](../../../../docs/framework/wpf/data/data-binding-how-to-topics.md)

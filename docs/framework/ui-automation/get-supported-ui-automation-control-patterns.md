@@ -1,5 +1,5 @@
 ---
-title: "Get Supported UI Automation Control Patterns | Microsoft Docs"
+title: "Get Supported UI Automation Control Patterns"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "control patterns, getting"
   - "UI Automation, getting control patterns"

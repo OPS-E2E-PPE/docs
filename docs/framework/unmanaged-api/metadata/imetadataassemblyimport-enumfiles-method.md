@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::EnumFiles Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::EnumFiles Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::EnumFiles"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyImport::EnumFiles method [.NET Framework metadata]"
   - "EnumFiles method [.NET Framework metadata]"

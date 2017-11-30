@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget::GetThreadContext Method | Microsoft Docs"
+title: "ICLRDataTarget::GetThreadContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget::GetThreadContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget::GetThreadContext method [.NET Framework debugging]"
   - "GetThreadContext method, ICLRDataTarget interface [.NET Framework debugging]"

@@ -50,10 +50,11 @@
 ## Examples  
  The following example shows how to create a <xref:System.Windows.Controls.TreeView>.  
   
- [!code-xml[TreeViewSimple#1](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSimple/CS/Window1.xaml#1)]  
+ [!code-xaml[TreeViewSimple#1](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSimple/CS/Window1.xaml#1)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.TreeViewItem" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -305,7 +306,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The event data that the parameter `e` provides contains an <xref:System.Windows.DependencyPropertyChangedEventArgs.OldValue%2A?displayProperty=fullName> and a <xref:System.Windows.Ink.PropertyDataChangedEventArgs.NewValue%2A?displayProperty=fullName>. The <xref:System.Windows.DependencyPropertyChangedEventArgs.OldValue%2A?displayProperty=fullName> is set to the item that was previously selected, or is set to `null` if there is no previously selected item. Similarly, the <xref:System.Windows.Ink.PropertyDataChangedEventArgs.NewValue%2A?displayProperty=fullName> is set to the newly selected item, or is set to `null` if no new item is selected.  
+ The event data that the parameter `e` provides contains an <xref:System.Windows.DependencyPropertyChangedEventArgs.OldValue%2A?displayProperty=nameWithType> and a <xref:System.Windows.Ink.PropertyDataChangedEventArgs.NewValue%2A?displayProperty=nameWithType>. The <xref:System.Windows.DependencyPropertyChangedEventArgs.OldValue%2A?displayProperty=nameWithType> is set to the item that was previously selected, or is set to `null` if there is no previously selected item. Similarly, the <xref:System.Windows.Ink.PropertyDataChangedEventArgs.NewValue%2A?displayProperty=nameWithType> is set to the newly selected item, or is set to `null` if no new item is selected.  
   
  ]]></format>
         </remarks>
@@ -364,6 +365,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedValue" />
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedValuePath" />
       </Docs>
     </Member>
     <Member MemberName="SelectedItemChanged">
@@ -411,7 +414,7 @@
 ## Examples  
  The following example shows how to specify an event handler for the <xref:System.Windows.Controls.TreeView.SelectedItemChanged> event.  
   
- [!code-xml[TreeViewSnips#SelectedItemChanged](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#selecteditemchanged)]  
+ [!code-xaml[TreeViewSnips#SelectedItemChanged](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#selecteditemchanged)]  
   
  The following example shows how to define the event handler.  
   
@@ -506,10 +509,12 @@
 ## Examples  
  The following example shows a <xref:System.Windows.Controls.TreeView> that uses a <xref:System.Windows.HierarchicalDataTemplate> to display the `EmployeeName` and `EmployeeWorkDay` properties of an `Employee` and sets the <xref:System.Windows.Controls.TreeView.SelectedValue%2A> property to the `EmployeeNumber`. When you select an `EmployeeName` in the <xref:System.Windows.Controls.TreeView>, the <xref:System.Windows.Controls.TreeView.SelectedValue%2A> is set to the `EmployeeNumber`.  
   
- [!code-xml[TreeViewSelectedValue#SelectedValuePath](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSelectedValue/CS/Window1.xaml#selectedvaluepath)]  
+ [!code-xaml[TreeViewSelectedValue#SelectedValuePath](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSelectedValue/CS/Window1.xaml#selectedvaluepath)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedValuePath" />
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedItem" />
       </Docs>
     </Member>
     <Member MemberName="SelectedValuePath">
@@ -554,10 +559,12 @@
 ## Examples  
  The following example shows a <xref:System.Windows.Controls.TreeView> that uses a <xref:System.Windows.HierarchicalDataTemplate> to display the `EmployeeName` and `EmployeeWorkDay` properties of an `Employee` and sets the <xref:System.Windows.Controls.TreeView.SelectedValue%2A> property to the `EmployeeNumber`. When you select an `EmployeeName` in the <xref:System.Windows.Controls.TreeView>, the <xref:System.Windows.Controls.TreeView.SelectedValue%2A> is set to the `EmployeeNumber`.  
   
- [!code-xml[TreeViewSelectedValue#SelectedValuePath](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSelectedValue/CS/Window1.xaml#selectedvaluepath)]  
+ [!code-xaml[TreeViewSelectedValue#SelectedValuePath](~/samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSelectedValue/CS/Window1.xaml#selectedvaluepath)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedValue" />
+        <altmember cref="P:System.Windows.Controls.TreeView.SelectedItem" />
       </Docs>
     </Member>
     <Member MemberName="SelectedValuePathProperty">

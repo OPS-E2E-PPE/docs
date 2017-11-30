@@ -1,5 +1,5 @@
 ---
-title: "TrackBar Control Overview (Windows Forms) | Microsoft Docs"
+title: "TrackBar Control Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,12 +11,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "TrackBar"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "sliders, about sliders"
+  - "sliders [Windows Forms], about sliders"
   - "TrackBar control [Windows Forms], about TrackBar control"
-  - "slider controls, about slider controls"
+  - "slider controls [Windows Forms], about slider controls"
 ms.assetid: 95910ecb-8a4c-4776-89fa-206c89ed6973
 caps.latest.revision: 7
 author: dotnet-bot
@@ -32,5 +30,5 @@ The Windows Forms <xref:System.Windows.Forms.TrackBar> control (also sometimes c
  Two other important properties are <xref:System.Windows.Forms.TrackBar.SmallChange%2A> and <xref:System.Windows.Forms.TrackBar.LargeChange%2A>. The value of the <xref:System.Windows.Forms.TrackBar.SmallChange%2A> property is the number of positions the thumb moves in response to having the LEFT or RIGHT ARROW key pressed. The value of the <xref:System.Windows.Forms.TrackBar.LargeChange%2A> property is the number of positions the thumb moves in response to having the PAGE UP or PAGE DOWN key pressed, or in response to mouse clicks on the track bar on either side of the thumb.  
   
 ## See Also  
- <xref:System.Windows.Forms.TrackBar>   
+ <xref:System.Windows.Forms.TrackBar>  
  [TrackBar Control](../../../../docs/framework/winforms/controls/trackbar-control-windows-forms.md)

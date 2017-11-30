@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess2::GetDesiredNGENCompilerFlags Method | Microsoft Docs"
+title: "ICorDebugProcess2::GetDesiredNGENCompilerFlags Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess2::GetDesiredNGENCompilerFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess2::GetDesiredNGENCompilerFlags method [.NET Framework debugging]"
   - "GetDesiredNGENCompilerFlags method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::DefineManifestResource Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::DefineManifestResource Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::DefineManifestResource"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DefineManifestResource method [.NET Framework metadata]"
   - "IMetaDataAssemblyEmit::DefineManifestResource method [.NET Framework metadata]"

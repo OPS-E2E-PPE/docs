@@ -1,5 +1,5 @@
 ---
-title: "How to: Split a Window Horizontally | Microsoft Docs"
+title: "How to: Split a Window Horizontally"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "SplitContainer control [Windows Forms], horizontal splitter"
-  - "splitter windows, changing splitter orientation"
-  - "splitter windows, horizontal"
-  - "windows, splitting horizontally"
+  - "splitter windows [Windows Forms], changing splitter orientation"
+  - "splitter windows [Windows Forms], horizontal"
+  - "windows [Windows Forms], splitting horizontally"
 ms.assetid: a1f74f29-048c-4723-85fa-b9d375ab8f4b
 caps.latest.revision: 15
 author: dotnet-bot
@@ -61,5 +62,5 @@ The following code example makes the splitter that divides the <xref:System.Wind
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.SplitContainer>   
+ <xref:System.Windows.Forms.SplitContainer>  
  [SplitContainer Control](../../../../docs/framework/winforms/controls/splitcontainer-control-windows-forms.md)

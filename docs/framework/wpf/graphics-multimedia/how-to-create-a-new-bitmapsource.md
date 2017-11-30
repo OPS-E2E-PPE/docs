@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a new BitmapSource | Microsoft Docs"
+title: "How to: Create a new BitmapSource"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "creating new BitmapSource objects"
-  - "BitmapSource objects, creating"
+  - "creating new BitmapSource objects [WPF]"
+  - "BitmapSource objects [WPF], creating"
 ms.assetid: 0adf447e-014f-4ceb-97b2-f21affe6d55b
 caps.latest.revision: 5
 author: dotnet-bot

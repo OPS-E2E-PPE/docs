@@ -1,5 +1,5 @@
 ---
-title: "Security Considerations (Entity Framework) | Microsoft Docs"
+title: "Security Considerations (Entity Framework)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 84758642-9b72-4447-86f9-f831fef46962
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -172,6 +168,6 @@ This topic describes security considerations that are specific to developing, de
  Applications should not accept instances of the <xref:System.Data.Metadata.Edm.MetadataWorkspace> class from untrusted sources. Instead, you should explicitly construct and populate a workspace from such a source.  
   
 ## See Also  
- [Securing ADO.NET Applications](../../../../../docs/framework/data/adonet/securing-ado-net-applications.md)   
- [Deployment Considerations](../../../../../docs/framework/data/adonet/ef/deployment-considerations.md)   
+ [Securing ADO.NET Applications](../../../../../docs/framework/data/adonet/securing-ado-net-applications.md)  
+ [Deployment Considerations](../../../../../docs/framework/data/adonet/ef/deployment-considerations.md)  
  [Migration Considerations](../../../../../docs/framework/data/adonet/ef/migration-considerations.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Traverse a Binary Tree with Parallel Tasks | Microsoft Docs"
+title: "How to: Traverse a Binary Tree with Parallel Tasks"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "tasks, how to traverse a tree"
 ms.assetid: 4265d169-6c69-4f36-b10d-b7ae7f72f4df

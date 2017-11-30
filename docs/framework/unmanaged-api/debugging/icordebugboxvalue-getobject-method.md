@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugBoxValue::GetObject Method | Microsoft Docs"
+title: "ICorDebugBoxValue::GetObject Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugBoxValue::GetObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugBoxValue::GetObject method [.NET Framework debugging]"
   - "GetObject method, ICorDebugBoxValue interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "dataContractSerializer | Microsoft Docs"
+title: "dataContractSerializer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -57,8 +57,8 @@ Contains configuration data for the <xref:System.Runtime.Serialization.DataContr
 >  The `<dataContractSerializer>` behavior element (if present) should always appear before the `<enableWebScript>` behavior element in the configuration file. Otherwise, the resulting behavior is undefined.  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractSerializer>   
- <xref:System.ServiceModel.Description.DataContractSerializerOperationBehavior>   
- <xref:System.ServiceModel.Configuration.DataContractSerializerElement>   
- [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md)   
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
+ <xref:System.ServiceModel.Description.DataContractSerializerOperationBehavior>  
+ <xref:System.ServiceModel.Configuration.DataContractSerializerElement>  
+ [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md)  
  [Data Transfer and Serialization](../../../../../docs/framework/wcf/feature-details/data-transfer-and-serialization.md)

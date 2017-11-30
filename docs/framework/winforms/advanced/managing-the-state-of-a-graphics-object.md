@@ -1,5 +1,5 @@
 ---
-title: "Managing the State of a Graphics Object | Microsoft Docs"
+title: "Managing the State of a Graphics Object"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "graphics, managing state"
-  - "graphics, clipping"
+  - "graphics [Windows Forms], managing state"
+  - "graphics [Windows Forms], clipping"
 ms.assetid: 6207cad1-7a34-4bd6-bfc1-db823ca7a73e
 caps.latest.revision: 14
 author: dotnet-bot
@@ -156,5 +157,5 @@ graphics.DrawLine(pen, 40, 20, 190, 150);
  ![Limited Clip Region](../../../../docs/framework/winforms/advanced/media/graphicsascon2.png "graphicsascon2")  
   
 ## See Also  
- [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)   
+ [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)  
  [Using Nested Graphics Containers](../../../../docs/framework/winforms/advanced/using-nested-graphics-containers.md)

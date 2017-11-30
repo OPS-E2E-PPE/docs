@@ -1,5 +1,5 @@
 ---
-title: "Modifying Nodes, Content, and Values in an XML Document | Microsoft Docs"
+title: "Modifying Nodes, Content, and Values in an XML Document"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 761773e0-db72-4986-b9f5-a522213d8397
 caps.latest.revision: 3
 author: "mairaw"

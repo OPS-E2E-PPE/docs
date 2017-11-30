@@ -1,5 +1,5 @@
 ---
-title: "TypeNameFactory Coclass | Microsoft Docs"
+title: "TypeNameFactory Coclass"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "TypeNameFactory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "TypeNameFactory coclass [.NET Framework hosting]"
 ms.assetid: c853bb58-c9c5-476b-8e80-608aa53ea18d

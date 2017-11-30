@@ -1,5 +1,5 @@
 ---
-title: "Out-of-Order Message Processing | Microsoft Docs"
+title: "Out-of-Order Message Processing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -41,6 +41,6 @@ WorkflowService service = new WorkflowService
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.ReceiveContext>   
- [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)   
+ <xref:System.ServiceModel.Channels.ReceiveContext>  
+ [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)  
  [Queues and Reliable Sessions](../../../../docs/framework/wcf/feature-details/queues-and-reliable-sessions.md)

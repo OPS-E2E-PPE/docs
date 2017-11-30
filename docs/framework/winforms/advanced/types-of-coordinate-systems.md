@@ -1,5 +1,5 @@
 ---
-title: "Types of Coordinate Systems | Microsoft Docs"
+title: "Types of Coordinate Systems"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,10 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "transformations, page"
+  - "transformations [Windows Forms], page"
   - "unit of measure"
   - "world coordinate system"
   - "page coordinate system"
@@ -20,7 +21,7 @@ helpviewer_keywords:
   - "device coordinate system"
   - "world transformation"
   - "coordinate systems"
-  - "transformations, world"
+  - "transformations [Windows Forms], world"
 ms.assetid: c61ff50a-eb1d-4e6c-83cd-f7e9764cfa9f
 caps.latest.revision: 15
 author: dotnet-bot
@@ -100,5 +101,5 @@ manager: "wpickett"
 |Device|(192, 48) to (384, 144)|  
   
 ## See Also  
- [Coordinate Systems and Transformations](../../../../docs/framework/winforms/advanced/coordinate-systems-and-transformations.md)   
+ [Coordinate Systems and Transformations](../../../../docs/framework/winforms/advanced/coordinate-systems-and-transformations.md)  
  [Matrix Representation of Transformations](../../../../docs/framework/winforms/advanced/matrix-representation-of-transformations.md)

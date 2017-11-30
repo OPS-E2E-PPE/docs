@@ -1,5 +1,5 @@
 ---
-title: "Return the Set Difference Between Two Sequences | Microsoft Docs"
+title: "Return the Set Difference Between Two Sequences"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 62efb546-c898-408f-af21-36e7c6fed217
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -27,5 +30,5 @@ Use the <xref:System.Linq.Queryable.Except%2A> operator to return the set differ
  In [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)], the <xref:System.Linq.Queryable.Except%2A> operation is well defined only on sets. The semantics for multisets is undefined.  
   
 ## See Also  
- [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)   
+ [Query Examples](../../../../../../docs/framework/data/adonet/sql/linq/query-examples.md)  
  [Standard Query Operator Translation](../../../../../../docs/framework/data/adonet/sql/linq/standard-query-operator-translation.md)

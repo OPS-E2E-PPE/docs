@@ -1,5 +1,5 @@
 ---
-title: "How to: Inherit Forms Using the Inheritance Picker Dialog Box | Microsoft Docs"
+title: "How to: Inherit Forms Using the Inheritance Picker Dialog Box"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "inheritance, forms"
+  - "inheritance [Windows Forms], forms"
   - "Inheritance Picker dialog box"
-  - "inherited forms, creating"
+  - "inherited forms [Windows Forms], creating"
 ms.assetid: 969b4c04-12aa-4297-93a2-0ae747447823
 caps.latest.revision: 11
 author: dotnet-bot
@@ -65,7 +63,7 @@ The easiest way to inherit a form or other object is to use the **Inheritance Pi
     >  When you combine inherited controls and components with standard controls and components on Windows Forms, you might encounter conflicts with the z-ordering. You can correct this by modifying the z-order, which is done by clicking in the **Format** menu, pointing to **Order**, and then clicking **Bring To Front** or **Send To Back**. For more information about the z-order of controls, see [How to: Layer Objects on Windows Forms](../../../../docs/framework/winforms/controls/how-to-layer-objects-on-windows-forms.md).  
   
 ## See Also  
- [Inherits Statement](~/docs/visual-basic/language-reference/statements/inherits-statement.md)   
- [using](~/docs/csharp/language-reference/keywords/using.md)   
- [Effects of Modifying a Base Form's Appearance](../../../../docs/framework/winforms/advanced/effects-of-modifying-base-form-appearance.md)   
+ [Inherits Statement](~/docs/visual-basic/language-reference/statements/inherits-statement.md)  
+ [using](~/docs/csharp/language-reference/keywords/using.md)  
+ [Effects of Modifying a Base Form's Appearance](../../../../docs/framework/winforms/advanced/effects-of-modifying-base-form-appearance.md)  
  [Windows Forms Visual Inheritance](../../../../docs/framework/winforms/advanced/windows-forms-visual-inheritance.md)

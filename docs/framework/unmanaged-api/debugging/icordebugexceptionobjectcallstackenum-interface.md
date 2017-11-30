@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugExceptionObjectCallStackEnum Interface | Microsoft Docs"
+title: "ICorDebugExceptionObjectCallStackEnum Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugExceptionObjectCallStackEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugExceptionObjectCallStackEnum interface [.NET Framework debugging]"
 ms.assetid: 39dffa18-c71b-48c4-b11d-e814631ab1e9
@@ -53,5 +51,5 @@ Provides an enumerator for call stack information that is embedded in an excepti
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

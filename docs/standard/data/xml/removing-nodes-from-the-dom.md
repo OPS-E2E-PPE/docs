@@ -1,5 +1,5 @@
 ---
-title: "Removing Nodes from the DOM | Microsoft Docs"
+title: "Removing Nodes from the DOM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 0a98e0ca-0555-45c1-ab69-0d8d20ca1abd
 caps.latest.revision: 3
 author: "mairaw"

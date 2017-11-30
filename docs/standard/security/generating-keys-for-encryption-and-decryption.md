@@ -1,5 +1,5 @@
 ---
-title: "Generating Keys for Encryption and Decryption | Microsoft Docs"
+title: "Generating Keys for Encryption and Decryption"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "keys, encryption and decryption"
   - "keys, asymmetric"
@@ -93,7 +91,7 @@ RSAParameters RSAKeyInfo = RSA.ExportParameters(false);
 ```  
   
 ## See Also  
- [Encrypting Data](../../../docs/standard/security/encrypting-data.md)   
- [Decrypting Data](../../../docs/standard/security/decrypting-data.md)   
- [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)   
+ [Encrypting Data](../../../docs/standard/security/encrypting-data.md)  
+ [Decrypting Data](../../../docs/standard/security/decrypting-data.md)  
+ [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)  
  [How to: Store Asymmetric Keys in a Key Container](../../../docs/standard/security/how-to-store-asymmetric-keys-in-a-key-container.md)

@@ -1,5 +1,5 @@
 ---
-title: Using Enumeration classes instead of enum types | Microsoft Docs 
+title: Using Enumeration classes instead of enum types
 description: .NET Microservices Architecture for Containerized .NET Applications | Using Enumeration classes instead of enum types
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,6 +7,7 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 # Using Enumeration classes instead of enum types
 

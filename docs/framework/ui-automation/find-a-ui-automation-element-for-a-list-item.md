@@ -1,5 +1,5 @@
 ---
-title: "Find a UI Automation Element for a List Item | Microsoft Docs"
+title: "Find a UI Automation Element for a List Item"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "list items, finding elements for"
   - "elements, finding for list items"

@@ -1,5 +1,5 @@
 ---
-title: "Power Management in Windows Forms | Microsoft Docs"
+title: "Power Management in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "battery states"
   - "power states"
@@ -38,7 +39,7 @@ Your Windows Forms applications can take advantage of the power management featu
  [!code-vb[PowerMode#2](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/powermode/vb/form1.vb#2)]  
   
 ## See Also  
- <xref:Microsoft.Win32.SystemEvents.PowerModeChanged>   
- <xref:System.Windows.Forms.SystemInformation.PowerStatus%2A>   
- <xref:System.Windows.Forms.Application.SetSuspendState%2A>   
+ <xref:Microsoft.Win32.SystemEvents.PowerModeChanged>  
+ <xref:System.Windows.Forms.SystemInformation.PowerStatus%2A>  
+ <xref:System.Windows.Forms.Application.SetSuspendState%2A>  
  <xref:Microsoft.Win32.SystemEvents.SessionSwitch>

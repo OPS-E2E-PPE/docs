@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread::GetDebugState Method | Microsoft Docs"
+title: "ICorDebugThread::GetDebugState Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread::GetDebugState"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetDebugState method [.NET Framework debugging]"
   - "ICorDebugThread::GetDebugState method [.NET Framework debugging]"

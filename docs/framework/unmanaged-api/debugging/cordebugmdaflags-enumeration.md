@@ -1,5 +1,5 @@
 ---
-title: "CorDebugMDAFlags Enumeration | Microsoft Docs"
+title: "CorDebugMDAFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugMDAFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugMDAFlags enumeration [.NET Framework debugging]"
 ms.assetid: 7c0c92fe-8bd2-477f-b307-aca0143732ca

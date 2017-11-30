@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyName::GetName Method | Microsoft Docs"
+title: "IAssemblyName::GetName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyName::GetName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetName method, IAssemblyName interface [.NET Framework debugging]"
   - "IAssemblyName::GetName method [.NET Framework fusion]"

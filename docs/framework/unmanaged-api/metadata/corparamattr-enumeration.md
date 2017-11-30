@@ -1,5 +1,5 @@
 ---
-title: "CorParamAttr Enumeration | Microsoft Docs"
+title: "CorParamAttr Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorParamAttr"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorParamAttr enumeration [.NET Framework metadata]"
 ms.assetid: a7ff90ad-dad8-48e8-917d-4aa9a118cbc8

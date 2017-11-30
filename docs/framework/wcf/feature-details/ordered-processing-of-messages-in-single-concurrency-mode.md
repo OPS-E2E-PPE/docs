@@ -1,5 +1,5 @@
 ---
-title: "Ordered Processing of Messages in Single Concurrency Mode | Microsoft Docs"
+title: "Ordered Processing of Messages in Single Concurrency Mode"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -32,5 +32,5 @@ WCF makes no guarantees about the order in which messages are processed, unless 
  If <xref:System.ServiceModel.ServiceBehaviorAttribute.ConcurrencyMode%2A> is set to any other value, an <xref:System.InvalidOperationException> is thrown.  
   
 ## See Also  
- [Sessions, Instancing, and Concurrency](../../../../docs/framework/wcf/feature-details/sessions-instancing-and-concurrency.md)   
+ [Sessions, Instancing, and Concurrency](../../../../docs/framework/wcf/feature-details/sessions-instancing-and-concurrency.md)  
  [Concurrency](../../../../docs/framework/wcf/samples/concurrency.md)

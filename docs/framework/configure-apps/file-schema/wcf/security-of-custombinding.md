@@ -1,5 +1,5 @@
 ---
-title: "&lt;security&gt; of &lt;customBinding&gt; | Microsoft Docs"
+title: "&lt;security&gt; of &lt;customBinding&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 243a5148-bbd1-447f-a8a5-6e7792c0a3f1
 caps.latest.revision: 24
 author: "BrucePerlerMS"
@@ -59,7 +56,7 @@ messageProtectionOrder="SignBeforeEncrypt/SignBeforeEncryptAndEncryptSignature/E
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|allowSerializedSigningTokenOnReply|Optional. A Boolean value that specifies if a serialized token can be used on reply. The default value is `false`. When using a dual binding, the setting defaults to `true`and any setting made will be ignored.|  
+|allowSerializedSigningTokenOnReply|Optional. A Boolean value that specifies if a serialized token can be used on reply. The default value is `false`. When using a dual binding, the setting defaults to `true` and any setting made will be ignored.|  
 |authenticationMode|Optional. Specifies the authentication mode used between the initiator and the responder. See below for all values.<br /><br /> The default is `sspiNegotiated`.|  
 |defaultAlgorithmSuite|Optional. Sets the message encryption and key-wrap algorithms. The algorithms and the key sizes are determined by the <xref:System.ServiceModel.Security.SecurityAlgorithmSuite> class. These algorithms map to those specified in the Security Policy Language (WS-SecurityPolicy) specification.<br /><br /> Possible values are shown below. The default value is `Basic256`.<br /><br /> This attribute is used when working with a different platform that opts for a set of algorithms different than the default. You should be aware of the strengths and weaknesses of the relevant algorithms when making modifications to this setting. This attribute is of type <xref:System.ServiceModel.Security.SecurityAlgorithmSuite>.|  
 |includeTimestamp|A Boolean value that specifies whether time stamps are included in each message. The default is `true`.|  
@@ -178,12 +175,12 @@ messageProtectionOrder="SignBeforeEncrypt/SignBeforeEncryptAndEncryptSignature/E
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.SecurityElement>   
- <xref:System.ServiceModel.Channels.SecurityBindingElement>   
- <xref:System.ServiceModel.Channels.CustomBinding>   
- [Bindings](../../../../../docs/framework/wcf/bindings.md)   
- [Extending Bindings](../../../../../docs/framework/wcf/extending/extending-bindings.md)   
- [Custom Bindings](../../../../../docs/framework/wcf/extending/custom-bindings.md)   
- [\<customBinding>](../../../../../docs/framework/configure-apps/file-schema/wcf/custombinding.md)   
- [How to: Create a Custom Binding Using the SecurityBindingElement](../../../../../docs/framework/wcf/feature-details/how-to-create-a-custom-binding-using-the-securitybindingelement.md)   
+ <xref:System.ServiceModel.Configuration.SecurityElement>  
+ <xref:System.ServiceModel.Channels.SecurityBindingElement>  
+ <xref:System.ServiceModel.Channels.CustomBinding>  
+ [Bindings](../../../../../docs/framework/wcf/bindings.md)  
+ [Extending Bindings](../../../../../docs/framework/wcf/extending/extending-bindings.md)  
+ [Custom Bindings](../../../../../docs/framework/wcf/extending/custom-bindings.md)  
+ [\<customBinding>](../../../../../docs/framework/configure-apps/file-schema/wcf/custombinding.md)  
+ [How to: Create a Custom Binding Using the SecurityBindingElement](../../../../../docs/framework/wcf/feature-details/how-to-create-a-custom-binding-using-the-securitybindingelement.md)  
  [Custom Binding Security](../../../../../docs/framework/wcf/samples/custom-binding-security.md)

@@ -1,5 +1,5 @@
 ---
-title: "Using Application Domains | Microsoft Docs"
+title: "Using Application Domains"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -50,7 +50,7 @@ Application domains provide a unit of isolation for the common language runtime.
  Explains how you can receive a notification that an exception has been thrown, before the common language runtime has begun searching for exception handlers.  
   
  [Resolving Assembly Loads](../../../docs/framework/app-domains/resolve-assembly-loads.md)  
- Provides guidance on using the <xref:System.AppDomain.AssemblyResolve?displayProperty=fullName> event to resolve assembly load failures.  
+ Provides guidance on using the <xref:System.AppDomain.AssemblyResolve?displayProperty=nameWithType> event to resolve assembly load failures.  
   
 ## Reference  
  <xref:System.AppDomain>  

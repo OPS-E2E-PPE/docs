@@ -1,5 +1,5 @@
 ---
-title: "Restricting the Drawing Surface in GDI+ | Microsoft Docs"
+title: "Restricting the Drawing Surface in GDI+"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "GDI+, clipping"
-  - "clipping, using GDI+"
+  - "clipping [Windows Forms], using GDI+"
   - "GDI+, restricting drawing surface"
 ms.assetid: 8b5f71d9-d2f0-4540-9c41-740f90fd4c26
 caps.latest.revision: 14
@@ -37,7 +38,7 @@ Clipping involves restricting drawing to a certain rectangle or region. The foll
  [!code-vb[LinesCurvesAndShapes#91](../../../../samples/snippets/visualbasic/VS_Snippets_Winforms/LinesCurvesAndShapes/VB/Class1.vb#91)]  
   
 ## See Also  
- <xref:System.Drawing.Graphics?displayProperty=fullName>   
- <xref:System.Drawing.Region?displayProperty=fullName>   
- [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)   
+ <xref:System.Drawing.Graphics?displayProperty=nameWithType>  
+ <xref:System.Drawing.Region?displayProperty=nameWithType>  
+ [Lines, Curves, and Shapes](../../../../docs/framework/winforms/advanced/lines-curves-and-shapes.md)  
  [Using Regions](../../../../docs/framework/winforms/advanced/using-regions.md)

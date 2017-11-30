@@ -1,5 +1,5 @@
 ---
-title: "How to: Expose a Contract to SOAP and Web Clients | Microsoft Docs"
+title: "How to: Expose a Contract to SOAP and Web Clients"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: bb765a48-12f2-430d-a54d-6f0c20f2a23a
 caps.latest.revision: 21
 author: "Erikre"
@@ -103,10 +106,10 @@ By default, [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] makes endpoi
  When compiling Service.cs, reference System.ServiceModel.dll and System.ServiceModel.Web.dll.  
   
 ## See Also  
- <xref:System.ServiceModel.WebHttpBinding>   
- <xref:System.ServiceModel.Web.WebGetAttribute>   
- <xref:System.ServiceModel.Web.WebInvokeAttribute>   
- <xref:System.ServiceModel.Web.WebServiceHost>   
- <xref:System.ServiceModel.ChannelFactory>   
- <xref:System.ServiceModel.Description.WebHttpBehavior>   
+ <xref:System.ServiceModel.WebHttpBinding>  
+ <xref:System.ServiceModel.Web.WebGetAttribute>  
+ <xref:System.ServiceModel.Web.WebInvokeAttribute>  
+ <xref:System.ServiceModel.Web.WebServiceHost>  
+ <xref:System.ServiceModel.ChannelFactory>  
+ <xref:System.ServiceModel.Description.WebHttpBehavior>  
  [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)

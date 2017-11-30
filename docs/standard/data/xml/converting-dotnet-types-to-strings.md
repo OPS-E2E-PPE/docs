@@ -1,5 +1,5 @@
 ---
-title: "Converting .NET Framework Types to Strings | Microsoft Docs"
+title: "Converting .NET Framework Types to Strings"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: dc2e2b65-f623-4dc3-938b-d2a054d6832c
 caps.latest.revision: 3
 author: "mairaw"
@@ -33,5 +28,5 @@ If you want to convert a .NET Framework type to a string, use the **ToString** m
 |Timespan|Format is PnYnMnTnHnMnS, for example, `P2Y10M15DT10H30M20S` is a duration of 2 years, 10 months, 15 days, 10hours, 30 minutes and 20 seconds.|  
   
 ## See Also  
- [Conversion of XML Data Types](../../../../docs/standard/data/xml/conversion-of-xml-data-types.md)   
+ [Conversion of XML Data Types](../../../../docs/standard/data/xml/conversion-of-xml-data-types.md)  
  [Converting Strings to .NET Framework Data Types](../../../../docs/standard/data/xml/converting-strings-to-dotnet-data-types.md)

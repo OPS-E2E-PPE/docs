@@ -1,5 +1,5 @@
 ---
-title: "System Information and Windows Forms | Microsoft Docs"
+title: "System Information and Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "domain names, retrieving"
+  - "domain names [Windows Forms], retrieving"
   - "SystemInformation class [Windows Forms]"
-  - "user names, retrieving"
+  - "user names [Windows Forms], retrieving"
   - "system information [Windows Forms]"
 ms.assetid: 30cf43a3-8cb2-4ff3-862b-6c34576616a8
 caps.latest.revision: 7
@@ -48,5 +49,5 @@ MessageBox.Show("Good morning " + User + ". You are connected to " _
  Some of the more useful members of the <xref:System.Windows.Forms.SystemInformation> class include <xref:System.Windows.Forms.SystemInformation.ComputerName%2A>, <xref:System.Windows.Forms.SystemInformation.DbcsEnabled%2A>, <xref:System.Windows.Forms.SystemInformation.PowerStatus%2A>, and <xref:System.Windows.Forms.SystemInformation.TerminalServerSession%2A>.  
   
 ## See Also  
- <xref:System.Windows.Forms.SystemInformation>   
+ <xref:System.Windows.Forms.SystemInformation>  
  [Power Management in Windows Forms](../../../../docs/framework/winforms/advanced/power-management-in-windows-forms.md)

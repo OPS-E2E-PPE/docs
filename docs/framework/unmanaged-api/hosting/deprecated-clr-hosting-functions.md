@@ -1,5 +1,5 @@
 ---
-title: "Deprecated CLR Hosting Functions | Microsoft Docs"
+title: "Deprecated CLR Hosting Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - ".NET Framework 1.1, hosting global static functions"
   - "global static functions [.NET Framework hosting], version 2.0"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHandleValue::Dispose Method | Microsoft Docs"
+title: "ICorDebugHandleValue::Dispose Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHandleValue::Dispose"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugHandleValue::Dispose method [.NET Framework debugging]"
   - "Dispose method [.NET Framework debugging]"

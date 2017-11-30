@@ -1,5 +1,5 @@
 ---
-title: "XmlDictionaryReaderQuotas | Microsoft Docs"
+title: "XmlDictionaryReaderQuotas"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -79,5 +79,5 @@ class XmlDictionaryReaderQuotas
 |Namespace|Defined in root\ServiceModel|  
   
 ## See Also  
- <xref:System.Xml.XmlDictionaryReaderQuotas>   
+ <xref:System.Xml.XmlDictionaryReaderQuotas>  
  <xref:System.ServiceModel.Configuration.XmlDictionaryReaderQuotasElement>

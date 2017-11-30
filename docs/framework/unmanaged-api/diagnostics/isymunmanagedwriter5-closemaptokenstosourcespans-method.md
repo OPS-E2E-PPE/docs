@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter5::CloseMapTokensToSourceSpans Method | Microsoft Docs"
+title: "ISymUnmanagedWriter5::CloseMapTokensToSourceSpans Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: f8a0c0a2-a11d-436c-aa85-bc110215cfd6
 caps.latest.revision: 4
 author: "rpetrusha"

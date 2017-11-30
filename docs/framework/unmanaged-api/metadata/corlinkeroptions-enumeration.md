@@ -1,5 +1,5 @@
 ---
-title: "CorLinkerOptions Enumeration | Microsoft Docs"
+title: "CorLinkerOptions Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorLinkerOptions"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorLinkerOptions enumeration [.NET Framework metadata]"
 ms.assetid: a656aad6-cc7e-4994-8251-004a6a45e18f

@@ -1,5 +1,5 @@
 ---
-title: "COUNINITIEE Enumeration | Microsoft Docs"
+title: "COUNINITIEE Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COUNINITIEE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COUNINITIEE enumeration [.NET Framework metadata]"
 ms.assetid: c42baa79-f469-4330-95a2-baf7f021c2fc

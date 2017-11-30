@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugArrayValue::GetElementAtPosition Method | Microsoft Docs"
+title: "ICorDebugArrayValue::GetElementAtPosition Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugArrayValue::GetElementAtPosition"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetElementAtPosition method [.NET Framework debugging]"
   - "ICorDebugArrayValue::GetElementAtPosition method [.NET Framework debugging]"

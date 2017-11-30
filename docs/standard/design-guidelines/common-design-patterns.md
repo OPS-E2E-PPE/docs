@@ -1,5 +1,5 @@
 ---
-title: "Common Design Patterns | Microsoft Docs"
+title: "Common Design Patterns"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "design patterns in class libraries"
   - "class library design guidelines [.NET Framework], design patterns"

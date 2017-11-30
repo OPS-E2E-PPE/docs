@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ModuleAttachedToAssembly Method | Microsoft Docs"
+title: "ICorProfilerCallback::ModuleAttachedToAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ModuleAttachedToAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::ModuleAttachedToAssembly method [.NET Framework profiling]"
   - "ModuleAttachedToAssembly method [.NET Framework profiling]"

@@ -1,5 +1,5 @@
 ---
-title: "Query Notifications in SQL Server | Microsoft Docs"
+title: "Query Notifications in SQL Server"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -68,5 +68,5 @@ Built upon the Service Broker infrastructure, query notifications allow applicat
  Describes the <xref:System.Web.Caching.SqlCacheDependency> class and all of its members.  
   
 ## See Also  
- [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)   
+ [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

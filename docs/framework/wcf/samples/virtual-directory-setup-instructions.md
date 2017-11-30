@@ -1,5 +1,5 @@
 ---
-title: "Virtual Directory Setup Instructions | Microsoft Docs"
+title: "Virtual Directory Setup Instructions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 3c62cab5-81a4-48b6-ac8c-9ce33a85a157
 caps.latest.revision: 36
 author: "Erikre"

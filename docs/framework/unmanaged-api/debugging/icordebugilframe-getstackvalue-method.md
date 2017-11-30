@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugILFrame::GetStackValue Method | Microsoft Docs"
+title: "ICorDebugILFrame::GetStackValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugILFrame::GetStackValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetStackValue method [.NET Framework debugging]"
   - "ICorDebugILFrame::GetStackValue method [.NET Framework debugging]"

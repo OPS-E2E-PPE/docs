@@ -1,5 +1,5 @@
 ---
-title: "&lt;settings&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;settings&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#settings"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/settings"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "settings element"
   - "<settings> element"
@@ -27,7 +22,7 @@ ms.author: "markl"
 manager: "markl"
 ---
 # &lt;settings&gt; Element (Network Settings)
-Configures basic network options for the <xref:System.Net?displayProperty=fullName> namespace.  
+Configures basic network options for the <xref:System.Net?displayProperty=nameWithType> namespace.  
   
  \<configuration>  
 \<system.net>  
@@ -36,14 +31,14 @@ Configures basic network options for the <xref:System.Net?displayProperty=fullNa
 ## Syntax  
   
 ```xml  
-      <settings>  
-..<httpListener> … </httpListener>  
-..<httpWebRequest> … </httpWebRequest>  
-..<ipv6> … </ipv6>  
-..<performanceCounters> … </performanceCounters>  
+<settings>  
+  <httpListener> … </httpListener>  
+  <httpWebRequest> … </httpWebRequest>  
+  <ipv6> … </ipv6>  
+  <performanceCounters> … </performanceCounters>  
   <servicePointManager> … </servicePointManager>  
-..<socket> … </socket>  
-..<webProxyScript> … </webProxyScript>  
+  <socket> … </socket>  
+  <webProxyScript> … </webProxyScript>  
 </settings>  
 ```  
   
@@ -77,5 +72,5 @@ Configures basic network options for the <xref:System.Net?displayProperty=fullNa
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## See Also  
- <xref:System.Net?displayProperty=fullName>   
+ <xref:System.Net?displayProperty=nameWithType>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

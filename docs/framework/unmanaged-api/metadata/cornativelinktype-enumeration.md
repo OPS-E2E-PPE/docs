@@ -1,5 +1,5 @@
 ---
-title: "CorNativeLinkType Enumeration | Microsoft Docs"
+title: "CorNativeLinkType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorNativeLinkType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorNativeLinkType enumeration [.NET Framework metadata]"
 ms.assetid: 4f86ff37-2dab-4e64-819a-76b3bfe828ff

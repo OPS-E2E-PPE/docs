@@ -1,5 +1,5 @@
 ---
-title: "Generating and Compiling Source Code from a CodeDOM Graph | Microsoft Docs"
+title: "Generating and Compiling Source Code from a CodeDOM Graph"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,10 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "code compilers"
   - "CodeDOM, generating source code"
@@ -94,7 +98,7 @@ The <xref:System.CodeDom.Compiler> namespace provides interfaces for generating 
  The .NET Framework provides code compilers and code generators for the following languages: C#, Visual Basic, C++, and JScript. CodeDOM support can be extended to other languages by implementing language-specific code generators and code compilers.  
   
 ## See Also  
- <xref:System.CodeDom>   
- <xref:System.CodeDom.Compiler>   
- [Dynamic Source Code Generation and Compilation](../../../docs/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation.md)   
+ <xref:System.CodeDom>  
+ <xref:System.CodeDom.Compiler>  
+ [Dynamic Source Code Generation and Compilation](../../../docs/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation.md)  
  [CodeDOM Quick Reference](http://msdn.microsoft.com/en-us/c77b8bfd-0a32-4e36-b59a-4f687f32c524)

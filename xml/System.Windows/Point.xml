@@ -117,6 +117,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Addition(System.Windows.Point,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -154,6 +155,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Equality(System.Windows.Point,System.Windows.Point)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -184,6 +186,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Equality(System.Windows.Point,System.Windows.Point)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -223,6 +226,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Equality(System.Windows.Point,System.Windows.Point)" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -284,6 +288,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Multiply(System.Windows.Point,System.Windows.Media.Matrix)" />
       </Docs>
     </Member>
     <Member MemberName="Offset">
@@ -330,7 +335,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Windows.Point op_Addition (System.Windows.Point point, System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Point operator + (System.Windows.Point point, System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Point op_Addition(valuetype System.Windows.Point point, valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Addition(System.Windows.Point,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -361,10 +366,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.Add(System.Windows.Point,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Point point1, System.Windows.Point point2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Point point1, System.Windows.Point point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Point point1, valuetype System.Windows.Point point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Equality(System.Windows.Point,System.Windows.Point)" />
       <MemberType>Method</MemberType>
@@ -401,10 +407,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Point.Equals" />
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Windows.Size op_Explicit (System.Windows.Point point);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Windows.Size (System.Windows.Point point);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Size op_Explicit(valuetype System.Windows.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Explicit(System.Windows.Point)~System.Windows.Size" />
       <MemberType>Method</MemberType>
@@ -419,14 +426,29 @@
         <Parameter Name="point" Type="System.Windows.Point" />
       </Parameters>
       <Docs>
-        <param name="point">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="point">The point to convert.</param>
+        <summary>Creates a <see cref="T:System.Windows.Size" /> structure with a <see cref="P:System.Windows.Size.Width" /> equal to this point's <see cref="P:System.Windows.Point.X" /> value and a <see cref="P:System.Windows.Size.Height" /> equal to this point's <see cref="P:System.Windows.Point.Y" /> value.</summary>
+        <returns>A <see cref="T:System.Windows.Size" /> structure with a <see cref="P:System.Windows.Size.Width" /> equal to this point's <see cref="P:System.Windows.Point.X" /> value and a <see cref="P:System.Windows.Size.Height" /> equal to this point's <see cref="P:System.Windows.Point.Y" /> value.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Because a <xref:System.Windows.Size> structure cannot be negative, the absolute values of the point's <xref:System.Windows.Point.X%2A> and <xref:System.Windows.Point.Y%2A> properties are used.  
+  
+   
+  
+## Examples  
+ The following example shows how to explicitly convert a <xref:System.Windows.Point> into a <xref:System.Windows.Size>.  
+  
+ [!code-csharp[PointExamples_snip#OverloadedExplicitOperatorSizeExample](~/samples/snippets/csharp/VS_Snippets_Wpf/PointExamples_snip/CSharp/PointExample.cs#overloadedexplicitoperatorsizeexample)]
+ [!code-vb[PointExamples_snip#OverloadedExplicitOperatorSizeExample](~/samples/snippets/visualbasic/VS_Snippets_Wpf/PointExamples_snip/visualbasic/pointexample.vb#overloadedexplicitoperatorsizeexample)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Explicit (System.Windows.Point point);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Windows.Vector (System.Windows.Point point);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Explicit(valuetype System.Windows.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Explicit(System.Windows.Point)~System.Windows.Vector" />
       <MemberType>Method</MemberType>
@@ -441,14 +463,24 @@
         <Parameter Name="point" Type="System.Windows.Point" />
       </Parameters>
       <Docs>
-        <param name="point">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="point">The point to convert.</param>
+        <summary>Creates a <see cref="T:System.Windows.Vector" /> structure with an <see cref="P:System.Windows.Vector.X" /> value equal to the point's <see cref="P:System.Windows.Point.X" /> value and a <see cref="P:System.Windows.Vector.Y" /> value equal to the point's <see cref="P:System.Windows.Point.Y" /> value.</summary>
+        <returns>A vector with an <see cref="P:System.Windows.Vector.X" /> value equal to the point's <see cref="P:System.Windows.Point.X" /> value and a <see cref="P:System.Windows.Vector.Y" /> value equal to the point's <see cref="P:System.Windows.Point.Y" /> value.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to explicitly convert a <xref:System.Windows.Point> into a <xref:System.Windows.Vector>.  
+  
+ [!code-csharp[PointExamples_snip#OverloadedExplicitOperatorVectorExample](~/samples/snippets/csharp/VS_Snippets_Wpf/PointExamples_snip/CSharp/PointExample.cs#overloadedexplicitoperatorvectorexample)]
+ [!code-vb[PointExamples_snip#OverloadedExplicitOperatorVectorExample](~/samples/snippets/visualbasic/VS_Snippets_Wpf/PointExamples_snip/visualbasic/pointexample.vb#overloadedexplicitoperatorvectorexample)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Point point1, System.Windows.Point point2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Point point1, System.Windows.Point point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Point point1, valuetype System.Windows.Point point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Inequality(System.Windows.Point,System.Windows.Point)" />
       <MemberType>Method</MemberType>
@@ -488,7 +520,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Point op_Multiply (System.Windows.Point point, System.Windows.Media.Matrix matrix);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Point operator * (System.Windows.Point point, System.Windows.Media.Matrix matrix);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Point op_Multiply(valuetype System.Windows.Point point, valuetype System.Windows.Media.Matrix matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Multiply(System.Windows.Point,System.Windows.Media.Matrix)" />
       <MemberType>Method</MemberType>
@@ -519,10 +551,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.Multiply(System.Windows.Point,System.Windows.Media.Matrix)" />
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Windows.Vector op_Subtraction (System.Windows.Point point1, System.Windows.Point point2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Vector operator - (System.Windows.Point point1, System.Windows.Point point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Vector op_Subtraction(valuetype System.Windows.Point point1, valuetype System.Windows.Point point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Subtraction(System.Windows.Point,System.Windows.Point)" />
       <MemberType>Method</MemberType>
@@ -553,10 +586,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.Subtract(System.Windows.Point,System.Windows.Point)" />
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Windows.Point op_Subtraction (System.Windows.Point point, System.Windows.Vector vector);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Point operator - (System.Windows.Point point, System.Windows.Vector vector);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Point op_Subtraction(valuetype System.Windows.Point point, valuetype System.Windows.Vector vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Point.op_Subtraction(System.Windows.Point,System.Windows.Vector)" />
       <MemberType>Method</MemberType>
@@ -587,6 +621,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.Subtract(System.Windows.Point,System.Windows.Vector)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -661,6 +696,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Point.op_Subtraction(System.Windows.Point,System.Windows.Point)" />
       </Docs>
     </Member>
     <Member MemberName="Subtract">
@@ -695,6 +731,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Point.Subtract" />
       </Docs>
     </Member>
     <Member MemberName="System.IFormattable.ToString">
@@ -806,6 +843,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Point.Y" />
       </Docs>
     </Member>
     <Member MemberName="Y">
@@ -834,7 +872,53 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Point.X" />
       </Docs>
     </Member>
+    <MemberGroup MemberName="Subtract">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Subtracts the specified <see cref="T:System.Windows.Point" /> or <see cref="T:System.Windows.Vector" /> from the specified <see cref="T:System.Windows.Point" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Subtraction">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Subtracts the specified <see cref="T:System.Windows.Vector" /> or <see cref="T:System.Windows.Point" /> from the specified <see cref="T:System.Windows.Point" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Explicit">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Converts a <see cref="T:System.Windows.Point" /> into a <see cref="T:System.Windows.Size" /> or a <see cref="T:System.Windows.Vector" />.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Compares two <see cref="T:System.Windows.Point" /> structures for equality.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="ToString">
+      <AssemblyInfo>
+        <AssemblyName>WindowsBase</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a <see cref="T:System.String" /> representation of this <see cref="T:System.Windows.Point" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

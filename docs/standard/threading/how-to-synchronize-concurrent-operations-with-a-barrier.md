@@ -1,5 +1,5 @@
 ---
-title: "How to: Synchronize Concurrent Operations with a Barrier | Microsoft Docs"
+title: "How to: Synchronize Concurrent Operations with a Barrier"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "Barrier, how to use"
 ms.assetid: e1a253ff-e0fb-4df8-95ff-d01a90d4cb19

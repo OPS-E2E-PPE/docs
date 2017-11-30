@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a One-Way Contract | Microsoft Docs"
+title: "How to: Create a One-Way Contract"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 85084cd9-31cc-4e95-b667-42ef01336622
 caps.latest.revision: 23
 author: "Erikre"
@@ -38,9 +38,9 @@ This topic shows the basic steps to create methods that use a one-way contract. 
  [!code-vb[S_Service_Session#1](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/s_service_session/vb/service.vb#1)]  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceContractAttribute>   
- <xref:System.ServiceModel.OperationContractAttribute>   
- [Designing and Implementing Services](../../../../docs/framework/wcf/designing-and-implementing-services.md)   
- [How to: Define a Service Contract](../../../../docs/framework/wcf/how-to-define-a-wcf-service-contract.md)   
- [Session](../../../../docs/framework/wcf/samples/session.md)   
+ <xref:System.ServiceModel.ServiceContractAttribute>  
+ <xref:System.ServiceModel.OperationContractAttribute>  
+ [Designing and Implementing Services](../../../../docs/framework/wcf/designing-and-implementing-services.md)  
+ [How to: Define a Service Contract](../../../../docs/framework/wcf/how-to-define-a-wcf-service-contract.md)  
+ [Session](../../../../docs/framework/wcf/samples/session.md)  
  [How to: Create a Duplex Contract](../../../../docs/framework/wcf/feature-details/how-to-create-a-duplex-contract.md)

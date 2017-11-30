@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Standard Windows Forms Print Jobs | Microsoft Docs"
+title: "How to: Create Standard Windows Forms Print Jobs"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "printing [Windows Forms]"
   - "printing [Windows Forms], creating print jobs"
@@ -81,5 +83,5 @@ The foundation of printing in Windows Forms is the <xref:System.Drawing.Printing
      For more information about the specifics of Windows Forms print jobs, including how to create a print job programmatically, see <xref:System.Drawing.Printing.PrintPageEventArgs>.  
   
 ## See Also  
- <xref:System.Drawing.Printing.PrintDocument>   
+ <xref:System.Drawing.Printing.PrintDocument>  
  [Windows Forms Print Support](../../../../docs/framework/winforms/advanced/windows-forms-print-support.md)

@@ -1,5 +1,5 @@
 ---
-title: "StackOverflowType Enumeration | Microsoft Docs"
+title: "StackOverflowType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "StackOverflowType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StackOverflowType enumeration [.NET Framework hosting]"
 ms.assetid: dab648ad-972b-479c-b129-b4c1dcbd932e

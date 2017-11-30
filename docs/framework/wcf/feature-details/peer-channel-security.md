@@ -1,5 +1,5 @@
 ---
-title: "Peer Channel Security | Microsoft Docs"
+title: "Peer Channel Security"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -40,6 +40,6 @@ Peer Channel enables a variety of distributed application types that depend on m
  Peer Channel does not require a specific identity model as long as the application chooses one of the supported token types. Applications completely own the life cycle of these identities and authentication decisions.  
   
 ## See Also  
- [Securing Peer Channel Applications](../../../../docs/framework/wcf/feature-details/securing-peer-channel-applications.md)   
- [Peer Channel Concepts](../../../../docs/framework/wcf/feature-details/peer-channel-concepts.md)   
+ [Securing Peer Channel Applications](../../../../docs/framework/wcf/feature-details/securing-peer-channel-applications.md)  
+ [Peer Channel Concepts](../../../../docs/framework/wcf/feature-details/peer-channel-concepts.md)  
  [Building a Peer Channel Application](../../../../docs/framework/wcf/feature-details/building-a-peer-channel-application.md)

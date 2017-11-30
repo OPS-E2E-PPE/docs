@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetToken Method | Microsoft Docs"
+title: "ICorDebugModule::GetToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::GetToken method [.NET Framework debugging]"
   - "GetToken method, ICorDebugModule interface [.NET Framework debugging]"

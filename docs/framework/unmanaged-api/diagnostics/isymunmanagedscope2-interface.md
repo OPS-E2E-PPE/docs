@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope2 Interface | Microsoft Docs"
+title: "ISymUnmanagedScope2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedScope2 interface [.NET Framework debugging]"
 ms.assetid: 2ed6a387-ba45-483e-9a1e-b0c69f67998b
@@ -43,5 +41,5 @@ Represents a lexical scope within a method. This interface extends the [ISymUnma
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [Diagnostics Symbol Store Interfaces](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-interfaces.md)   
+ [Diagnostics Symbol Store Interfaces](../../../../docs/framework/unmanaged-api/diagnostics/diagnostics-symbol-store-interfaces.md)  
  [ISymUnmanagedScope Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedscope-interface.md)

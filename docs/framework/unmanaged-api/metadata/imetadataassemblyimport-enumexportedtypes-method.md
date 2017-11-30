@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::EnumExportedTypes Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::EnumExportedTypes Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::EnumExportedTypes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumExportedTypes method [.NET Framework metadata]"
   - "IMetaDataAssemblyImport::EnumExportedTypes method [.NET Framework metadata]"

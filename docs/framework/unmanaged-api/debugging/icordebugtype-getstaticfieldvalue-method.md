@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugType::GetStaticFieldValue Method | Microsoft Docs"
+title: "ICorDebugType::GetStaticFieldValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugType::GetStaticFieldValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetStaticFieldValue method, ICorDebugType interface [.NET Framework debugging]"
   - "ICorDebugType::GetStaticFieldValue method [.NET Framework debugging]"

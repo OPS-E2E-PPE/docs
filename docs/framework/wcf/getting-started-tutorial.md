@@ -1,5 +1,5 @@
 ---
-title: "Getting Started Tutorial1 | Microsoft Docs"
+title: "Getting Started Tutorial1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "WCF [WCF], getting started"
   - "Windows Communication Foundation [WCF], getting started"
@@ -68,7 +65,7 @@ The topics contained in this section are intended to give you quick exposure to 
  [Basic Programming Lifecycle](../../../docs/framework/wcf/basic-programming-lifecycle.md)  
   
 ## See Also  
- [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)   
- [Guide to the Documentation](../../../docs/framework/wcf/guide-to-the-documentation.md)   
- [What Is Windows Communication Foundation](../../../docs/framework/wcf/whats-wcf.md)   
+ [Conceptual Overview](../../../docs/framework/wcf/conceptual-overview.md)  
+ [Guide to the Documentation](../../../docs/framework/wcf/guide-to-the-documentation.md)  
+ [What Is Windows Communication Foundation](../../../docs/framework/wcf/whats-wcf.md)  
  [WCF Feature Details](../../../docs/framework/wcf/feature-details/index.md)

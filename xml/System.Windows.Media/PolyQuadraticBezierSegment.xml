@@ -23,13 +23,14 @@
 ## Examples  
  The following example shows how to use <xref:System.Windows.Media.PolyQuadraticBezierSegment> to create two quadratic Bezier curve segments.  
   
- [!code-xml[GeometriesMiscSnippets_snip#PolyQuadraticBezierSegmentExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/PolyQuadraticBezierSegmentExample.xaml#polyquadraticbeziersegmentexamplewholepage)]  
+ [!code-xaml[GeometriesMiscSnippets_snip#PolyQuadraticBezierSegmentExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/PolyQuadraticBezierSegmentExample.xaml#polyquadraticbeziersegmentexamplewholepage)]  
   
  [!code-csharp[GeometriesMiscSnippets_procedural_snip#PolyQuadraticBezierSegmentCodeExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/GeometriesMiscSnippets_procedural_snip/CSharp/PolyQuadraticBezierSegmentExample.cs#polyquadraticbeziersegmentcodeexamplewholepage)]
  [!code-vb[GeometriesMiscSnippets_procedural_snip#PolyQuadraticBezierSegmentCodeExampleWholePage](~/samples/snippets/visualbasic/VS_Snippets_Wpf/GeometriesMiscSnippets_procedural_snip/visualbasic/polyquadraticbeziersegmentexample.vb#polyquadraticbeziersegmentcodeexamplewholepage)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Media.QuadraticBezierSegment" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -90,7 +91,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -118,7 +119,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -177,7 +178,7 @@
 ## Examples  
  The following example shows how to use <xref:System.Windows.Media.PolyQuadraticBezierSegment> to create two quadratic Bezier curves. The control and end points of the curves are specified by setting the <xref:System.Windows.Media.PolyQuadraticBezierSegment.Points%2A> property.  
   
- [!code-xml[GeometriesMiscSnippets_snip#PolyQuadraticBezierSegmentExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/PolyQuadraticBezierSegmentExample.xaml#polyquadraticbeziersegmentexamplewholepage)]  
+ [!code-xaml[GeometriesMiscSnippets_snip#PolyQuadraticBezierSegmentExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/PolyQuadraticBezierSegmentExample.xaml#polyquadraticbeziersegmentexamplewholepage)]  
   
  [!code-csharp[GeometriesMiscSnippets_procedural_snip#PolyQuadraticBezierSegmentCodeExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/GeometriesMiscSnippets_procedural_snip/CSharp/PolyQuadraticBezierSegmentExample.cs#polyquadraticbeziersegmentcodeexamplewholepage)]
  [!code-vb[GeometriesMiscSnippets_procedural_snip#PolyQuadraticBezierSegmentCodeExampleWholePage](~/samples/snippets/visualbasic/VS_Snippets_Wpf/GeometriesMiscSnippets_procedural_snip/visualbasic/polyquadraticbeziersegmentexample.vb#polyquadraticbeziersegmentcodeexamplewholepage)]  
@@ -203,5 +204,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.PolyQuadraticBezierSegment" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

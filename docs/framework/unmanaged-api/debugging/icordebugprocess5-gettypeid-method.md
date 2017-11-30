@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess5::GetTypeID Method | Microsoft Docs"
+title: "ICorDebugProcess5::GetTypeID Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
+dev_langs:
+ - "cpp"
 api_name: 
   - "ICorDebugProcess5.GetTypeID"
 api_location: 
@@ -17,8 +19,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess5::GetTypeID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess5::GetTypeID method [.NET Framework debugging]"
   - "GetTypeID method, ICorDebugProcess5 interface [.NET Framework debugging]"
@@ -35,7 +35,7 @@ Converts an object address to a [COR_TYPEID](../../../../docs/framework/unmanage
   
 ## Syntax  
   
-```vb  
+```cpp
 HRESULT GetTypeID(  
     [in] CORDB_ADDRESS obj,  
     [out] COR_TYPEID *pId  
@@ -61,5 +61,5 @@ HRESULT GetTypeID(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)   
+ [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

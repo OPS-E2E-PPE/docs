@@ -1,10 +1,10 @@
 ---
-title: C# Tutorials | Microsoft Docs
-description: C# Tutorials
+title: C# Tutorials
+description: Explore these C# tutorials to learn how to build C# programs and learn C# language features.
 keywords: .NET, .NET Core
 author: BillWagner
 ms.author: wiwagn
-ms.date: 06/20/2016
+ms.date: 09/07/2017
 ms.topic: article
 ms.prod: .net
 ms.technology: devlang-csharp
@@ -26,8 +26,6 @@ features in the C# language.
 * [Working with LINQ](working-with-linq.md): demonstrates many of the features of LINQ and the language elements that support it.
 
 * [Microservices hosted in Docker](microservices.md): demonstrates building an ASP.NET Core microservice and hosting it in Docker.
-
-* [Inheritance](inheritance.md): demonstrates how class and interface inheritance provide code reuse in C#.
 
 * [String Interpolation](string-interpolation.md): demonstrates many of the uses for the `$` string interpolation in C#.
 

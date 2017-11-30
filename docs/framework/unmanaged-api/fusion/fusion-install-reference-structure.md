@@ -1,5 +1,5 @@
 ---
-title: "FUSION_INSTALL_REFERENCE Structure | Microsoft Docs"
+title: "FUSION_INSTALL_REFERENCE Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "FUSION_INSTALL_REFERENCE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FUSION_INSTALL_REFERENCE structure [.NET Framework fusion]"
 ms.assetid: ae181ec8-36bf-4ed1-9a02-ca27d417c80b
@@ -62,5 +60,5 @@ typedef struct _FUSION_INSTALL_REFERENCE_ {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Fusion Structures](../../../../docs/framework/unmanaged-api/fusion/fusion-structures.md)   
+ [Fusion Structures](../../../../docs/framework/unmanaged-api/fusion/fusion-structures.md)  
  [Global Assembly Cache](../../../../docs/framework/app-domains/gac.md)

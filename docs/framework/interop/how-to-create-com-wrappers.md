@@ -1,5 +1,5 @@
 ---
-title: "How to: Create COM Wrappers | Microsoft Docs"
+title: "How to: Create COM Wrappers"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "COM,wrappers creating"
   - "COM,wrappers Visual Studio"
@@ -82,5 +77,5 @@ You can create Component Object Model (COM) wrappers by using [!INCLUDE[vsprvsex
  You can run Regasm.exe on an assembly located in any directory, and then run the [Gacutil.exe (Global Assembly Cache Tool)](../../../docs/framework/tools/gacutil-exe-gac-tool.md) to move it to the global assembly cache. Moving the assembly does not invalidate location registry entries, because the global assembly cache is always examined if the assembly is not found elsewhere.  
   
 ## See Also  
- [Runtime Callable Wrapper](../../../docs/framework/interop/runtime-callable-wrapper.md)   
+ [Runtime Callable Wrapper](../../../docs/framework/interop/runtime-callable-wrapper.md)  
  [COM Callable Wrapper](../../../docs/framework/interop/com-callable-wrapper.md)

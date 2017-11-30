@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode::GetEnCRemapSequencePoints Method | Microsoft Docs"
+title: "ICorDebugCode::GetEnCRemapSequencePoints Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode::GetEnCRemapSequencePoints"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetEnCRemapSequencePoints method [.NET Framework debugging]"
   - "ICorDebugCode::GetEnCRemapSequencePoints method [.NET Framework debugging]"

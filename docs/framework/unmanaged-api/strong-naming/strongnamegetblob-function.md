@@ -1,5 +1,5 @@
 ---
-title: "StrongNameGetBlob Function | Microsoft Docs"
+title: "StrongNameGetBlob Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameGetBlob"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameGetBlob function [.NET Framework strong naming]"
 ms.assetid: 15d09166-be00-4696-913f-2c1fbc7ac2e1
@@ -70,6 +68,6 @@ BOOLEAN StrongNameGetBlob (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [StrongNameGetBlob Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamegetblob-method.md)   
- [StrongNameGetBlobFromImage Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamegetblobfromimage-method.md)   
+ [StrongNameGetBlob Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamegetblob-method.md)  
+ [StrongNameGetBlobFromImage Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamegetblobfromimage-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

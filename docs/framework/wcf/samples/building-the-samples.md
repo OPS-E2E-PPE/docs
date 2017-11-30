@@ -1,5 +1,5 @@
 ---
-title: "Building the Windows Communication Foundation Samples | Microsoft Docs"
+title: "Building the Windows Communication Foundation Samples"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -87,5 +87,5 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] samples can be built
     >  To skip the generation of client configuration add the **/noConfig** option.  
   
 ## See Also  
- [Running the Windows Communication Foundation Samples](../../../../docs/framework/wcf/samples/running-the-samples.md)   
+ [Running the Windows Communication Foundation Samples](../../../../docs/framework/wcf/samples/running-the-samples.md)  
  [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)

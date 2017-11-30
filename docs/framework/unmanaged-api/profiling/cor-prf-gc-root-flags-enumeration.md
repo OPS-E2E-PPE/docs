@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_GC_ROOT_FLAGS Enumeration | Microsoft Docs"
+title: "COR_PRF_GC_ROOT_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_GC_ROOT_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_GC_ROOT_FLAGS enumeration [.NET Framework profiling]"
 ms.assetid: 4611ee6f-0f05-4d84-91e1-e83d5e7dd7e4

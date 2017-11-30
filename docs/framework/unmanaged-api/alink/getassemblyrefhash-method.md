@@ -1,5 +1,5 @@
 ---
-title: "GetAssemblyRefHash Method | Microsoft Docs"
+title: "GetAssemblyRefHash Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetAssemblyRefHash"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetAssemblyRefHash method"
 ms.assetid: 091a18bd-e901-46f6-b999-74d71c8a7c41
@@ -59,6 +57,6 @@ HRESULT GetAssemblyRefHash(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

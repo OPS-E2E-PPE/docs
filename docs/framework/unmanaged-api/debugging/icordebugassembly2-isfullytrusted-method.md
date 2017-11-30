@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly2::IsFullyTrusted Method | Microsoft Docs"
+title: "ICorDebugAssembly2::IsFullyTrusted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAssembly2::IsFullyTrusted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAssembly2::IsFullyTrusted method [.NET Framework debugging]"
   - "IsFullyTrusted method [.NET Framework debugging]"

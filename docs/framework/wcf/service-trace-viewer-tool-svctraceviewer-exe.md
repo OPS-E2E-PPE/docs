@@ -1,5 +1,5 @@
 ---
-title: "Service Trace Viewer Tool (SvcTraceViewer.exe) | Microsoft Docs"
+title: "Service Trace Viewer Tool (SvcTraceViewer.exe)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 9027efd3-df8d-47ed-8bcd-f53d55ed803c
 caps.latest.revision: 55
 author: "Erikre"
@@ -459,6 +456,6 @@ manager: "erikre"
  If you open a trace log created using an Arabic operating system, you may notice that the time filter does not work. For example, year 2005 corresponds to year 1427 in Arabic calendar. However, the time range supported by the Service Trace Viewer tool filter does not support a date earlier than 1752. This can imply that you are not able to select a correct date in the filter. To resolve this problem, you can create a custom filter (**View/Custom Filters**) using an XPath expression to include a specific time range.  
   
 ## See Also  
- [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](../../../docs/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting.md)   
- [Configuring Tracing](../../../docs/framework/wcf/diagnostics/tracing/configuring-tracing.md)   
+ [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](../../../docs/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting.md)  
+ [Configuring Tracing](../../../docs/framework/wcf/diagnostics/tracing/configuring-tracing.md)  
  [Activity Tracing and Propagation for End-To-End Trace Correlation](http://msdn.microsoft.com/en-us/2c11a905-64f8-47b5-bae5-a74fc666137e)

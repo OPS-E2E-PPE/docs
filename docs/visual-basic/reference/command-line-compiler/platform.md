@@ -1,16 +1,12 @@
 ---
-title: "/platform (Visual Basic) | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "/platform (Visual Basic)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "platform compiler option [Visual Basic]"
   - "/platform compiler option [Visual Basic]"
@@ -19,21 +15,6 @@ ms.assetid: f9bc61e6-e854-4ae1-87b9-d6244de23fd1
 caps.latest.revision: 34
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /platform (Visual Basic)
 Specifies which platform version of common language runtime (CLR) can run the output file.  
@@ -96,7 +77,7 @@ Specifies which platform version of common language runtime (CLR) can run the ou
   
 2.  On the **Compile** tab, select or clear the **Prefer 32-bit** check box, or, in the **Target CPU** list, choose a value.  
   
-     For more information, see [Compile Page, Project Designer (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/compile-page-project-designer-visual-basic).  
+     For more information, see [Compile Page, Project Designer (Visual Basic)](/visualstudio/ide/reference/compile-page-project-designer-visual-basic).  
   
 ## Example  
  The following example illustrates how to use the `/platform` compiler option.  
@@ -106,6 +87,6 @@ vbc /platform:x86 myFile.vb
 ```  
   
 ## See Also  
- [/target (Visual Basic)](target.md)   
- [Visual Basic Command-Line Compiler](index.md)   
+ [/target (Visual Basic)](target.md)  
+ [Visual Basic Command-Line Compiler](index.md)  
  [Sample Compilation Command Lines](sample-compilation-command-lines.md)

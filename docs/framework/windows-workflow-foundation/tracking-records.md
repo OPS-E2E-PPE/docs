@@ -1,5 +1,5 @@
 ---
-title: "Tracking Records | Microsoft Docs"
+title: "Tracking Records"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -65,5 +65,5 @@ The workflow runtime is instrumented to emit tracking records to follow the exec
 5.  <xref:System.Activities.Tracking.WorkflowInstanceRecord> indicates that the workflow is completing.  
   
 ## See Also  
- [Windows Server App Fabric Monitoring](http://go.microsoft.com/fwlink/?LinkId=201273)   
+ [Windows Server App Fabric Monitoring](http://go.microsoft.com/fwlink/?LinkId=201273)  
  [Monitoring Applications with App Fabric](http://go.microsoft.com/fwlink/?LinkId=201275)

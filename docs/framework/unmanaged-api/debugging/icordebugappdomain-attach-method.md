@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain::Attach Method | Microsoft Docs"
+title: "ICorDebugAppDomain::Attach Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain::Attach"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain::Attach method [.NET Framework debugging]"
   - "Attach method [.NET Framework debugging]"

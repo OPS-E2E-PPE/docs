@@ -1,5 +1,5 @@
 ---
-title: "ICatalogServices::NotAutodone Method | Microsoft Docs"
+title: "ICatalogServices::NotAutodone Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "NotAutodone"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICatalogServices::NotAutodone method [.NET Framework hosting]"
   - "NotAutodone method [.NET Framework hosting]"

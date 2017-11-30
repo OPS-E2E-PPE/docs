@@ -1,5 +1,5 @@
 ---
-title: "&lt;binding&gt; | Microsoft Docs"
+title: "&lt;binding&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,9 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 666183d6-4d1f-45c7-ac64-bdf93ee8f36f
 caps.latest.revision: 13
 author: "Erikre"
@@ -44,9 +41,9 @@ You can use the `binding` element to configure different types of predefined bin
  Custom bindings are identified by their `name` attribute.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.BindingsSection>   
- <xref:System.ServiceModel.Channels.Binding>   
- <xref:System.ServiceModel.Channels.BindingElement>   
- [Bindings](../../../docs/framework/wcf/bindings.md)   
- [Custom Bindings](../../../docs/framework/wcf/extending/custom-bindings.md)   
+ <xref:System.ServiceModel.Configuration.BindingsSection>  
+ <xref:System.ServiceModel.Channels.Binding>  
+ <xref:System.ServiceModel.Channels.BindingElement>  
+ [Bindings](../../../docs/framework/wcf/bindings.md)  
+ [Custom Bindings](../../../docs/framework/wcf/extending/custom-bindings.md)  
  [\<customBinding>](../../../docs/framework/configure-apps/file-schema/wcf/custombinding.md)

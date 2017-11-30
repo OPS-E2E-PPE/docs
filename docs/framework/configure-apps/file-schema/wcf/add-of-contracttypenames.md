@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; of &lt;contractTypeNames&gt; | Microsoft Docs"
+title: "&lt;add&gt; of &lt;contractTypeNames&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -49,6 +49,6 @@ A configuration element that specifies the contract name of the services being s
 |[\<contractTypeNames>](../../../../../docs/framework/configure-apps/file-schema/wcf/contracttypenames.md)|A collection of contract type names.|  
   
 ## See Also  
- <xref:System.ServiceModel.Discovery.FindCriteria>   
- <xref:System.ServiceModel.Discovery.Configuration.FindCriteriaElement>   
+ <xref:System.ServiceModel.Discovery.FindCriteria>  
+ <xref:System.ServiceModel.Discovery.Configuration.FindCriteriaElement>  
  <xref:System.ServiceModel.Discovery.Configuration.ContractTypeNameElement>

@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeHost::Start Method | Microsoft Docs"
+title: "ICLRRuntimeHost::Start Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeHost::Start"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRRuntimeHost::Start method [.NET Framework hosting]"
   - "Start method, ICLRRuntimeHost interface [.NET Framework hosting]"
@@ -63,5 +61,5 @@ HRESULT Start();
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- <xref:System.AppDomain>   
+ <xref:System.AppDomain>  
  [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)

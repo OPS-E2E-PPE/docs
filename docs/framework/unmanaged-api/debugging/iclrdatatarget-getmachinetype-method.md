@@ -1,5 +1,5 @@
 ---
-title: "ICLRDataTarget::GetMachineType Method | Microsoft Docs"
+title: "ICLRDataTarget::GetMachineType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDataTarget::GetMachineType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDataTarget::GetMachineType method [.NET Framework debugging]"
   - "GetMachineType method [.NET Framework debugging]"

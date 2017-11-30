@@ -1,5 +1,5 @@
 ---
-title: "How to: Resize Windows Forms | Microsoft Docs"
+title: "How to: Resize Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "resizing Windows Forms"
   - "Windows Forms, resizing"
@@ -117,5 +119,5 @@ You can specify the size of your Windows Form in several ways. You can change bo
     ```  
   
 ## See Also  
- [Getting Started with Windows Forms](../../../docs/framework/winforms/getting-started-with-windows-forms.md)   
+ [Getting Started with Windows Forms](../../../docs/framework/winforms/getting-started-with-windows-forms.md)  
  [Enhancing Windows Forms Applications](../../../docs/framework/winforms/advanced/index.md)

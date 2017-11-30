@@ -36,9 +36,9 @@
   
 |<xref:System.Windows.Controls.Primitives.Track> property|<xref:System.Windows.Controls.Primitives.ScrollBar> property|  
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-|<xref:System.Windows.Controls.Primitives.Track.Maximum%2A?displayProperty=fullName>|<xref:System.Windows.Controls.Primitives.RangeBase.Maximum%2A?displayProperty=fullName>|  
-|<xref:System.Windows.Controls.Primitives.Track.Minimum%2A?displayProperty=fullName>|<xref:System.Windows.Controls.Primitives.RangeBase.Minimum%2A?displayProperty=fullName>|  
-|<xref:System.Windows.Controls.Primitives.Track.Value%2A?displayProperty=fullName>|<xref:System.Windows.Controls.Primitives.RangeBase.Value%2A?displayProperty=fullName>|  
+|<xref:System.Windows.Controls.Primitives.Track.Maximum%2A?displayProperty=nameWithType>|<xref:System.Windows.Controls.Primitives.RangeBase.Maximum%2A?displayProperty=nameWithType>|  
+|<xref:System.Windows.Controls.Primitives.Track.Minimum%2A?displayProperty=nameWithType>|<xref:System.Windows.Controls.Primitives.RangeBase.Minimum%2A?displayProperty=nameWithType>|  
+|<xref:System.Windows.Controls.Primitives.Track.Value%2A?displayProperty=nameWithType>|<xref:System.Windows.Controls.Primitives.RangeBase.Value%2A?displayProperty=nameWithType>|  
   
  You can access the <xref:System.Windows.Controls.Primitives.Track> control of a <xref:System.Windows.Controls.Primitives.ScrollBar> control by using the <xref:System.Windows.Controls.Primitives.ScrollBar.Track%2A> property.  
   
@@ -57,10 +57,14 @@
 ## Examples  
  The following example shows how to create a horizontal <xref:System.Windows.Controls.Primitives.ScrollBar> that has a range of values between 0 and 100.  
   
- [!code-xml[ScrollBarSnips#ScrollBar](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#scrollbar)]  
+ [!code-xaml[ScrollBarSnips#ScrollBar](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#scrollbar)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Primitives.RangeBase" />
+    <altmember cref="T:System.Windows.Controls.Primitives.Track" />
+    <altmember cref="T:System.Windows.Controls.Primitives.Thumb" />
+    <altmember cref="T:System.Windows.Controls.ScrollViewer" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -98,7 +102,7 @@
 ## Remarks  
  When the user drags the thumb of a <xref:System.Windows.Controls.Primitives.ScrollBar>, the <xref:System.Windows.Controls.Primitives.ScrollBar> calls <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> for the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToHorizontalOffsetCommand>. If <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> returns `true`, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes that command.  If <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> returns `false`, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.ScrollToHorizontalOffsetCommand>.  
   
- The <xref:System.Windows.Controls.ScrollViewer> uses this command to enable deferred scrolling. When <xref:System.Windows.Controls.ScrollViewer.IsDeferredScrollingEnabled%2A?displayProperty=fullName> is `true` and a user drags the <xref:System.Windows.Controls.Primitives.Thumb> of the <xref:System.Windows.Controls.Primitives.ScrollBar>, the content of the <xref:System.Windows.Controls.ScrollViewer> does not change until the user releases the <xref:System.Windows.Controls.Primitives.Thumb>. If deferred scrolling is enabled, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToHorizontalOffsetCommand> for a horizontal <xref:System.Windows.Controls.Primitives.ScrollBar> when the user drags the <xref:System.Windows.Controls.Primitives.Thumb>.  
+ The <xref:System.Windows.Controls.ScrollViewer> uses this command to enable deferred scrolling. When <xref:System.Windows.Controls.ScrollViewer.IsDeferredScrollingEnabled%2A?displayProperty=nameWithType> is `true` and a user drags the <xref:System.Windows.Controls.Primitives.Thumb> of the <xref:System.Windows.Controls.Primitives.ScrollBar>, the content of the <xref:System.Windows.Controls.ScrollViewer> does not change until the user releases the <xref:System.Windows.Controls.Primitives.Thumb>. If deferred scrolling is enabled, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToHorizontalOffsetCommand> for a horizontal <xref:System.Windows.Controls.Primitives.ScrollBar> when the user drags the <xref:System.Windows.Controls.Primitives.Thumb>.  
   
  ]]></format>
         </remarks>
@@ -124,7 +128,7 @@
 ## Remarks  
  When the user drags the thumb of a <xref:System.Windows.Controls.Primitives.ScrollBar>, the <xref:System.Windows.Controls.Primitives.ScrollBar> calls <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> for the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToVerticalOffsetCommand>. If <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> returns `true`, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes that command.  If <xref:System.Windows.Input.RoutedCommand.CanExecute%2A> returns `false`, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.ScrollToVerticalOffsetCommand>.  
   
- The <xref:System.Windows.Controls.ScrollViewer> uses this command to enable deferred scrolling. When <xref:System.Windows.Controls.ScrollViewer.IsDeferredScrollingEnabled%2A?displayProperty=fullName> is `true` and a user drags the <xref:System.Windows.Controls.Primitives.Thumb> of the <xref:System.Windows.Controls.Primitives.ScrollBar>, the content of the <xref:System.Windows.Controls.ScrollViewer> does not change until the user releases the <xref:System.Windows.Controls.Primitives.Thumb>. If deferred scrolling is enabled, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToVerticalOffsetCommand> for a vertical <xref:System.Windows.Controls.Primitives.ScrollBar> when the user drags the <xref:System.Windows.Controls.Primitives.Thumb>.  
+ The <xref:System.Windows.Controls.ScrollViewer> uses this command to enable deferred scrolling. When <xref:System.Windows.Controls.ScrollViewer.IsDeferredScrollingEnabled%2A?displayProperty=nameWithType> is `true` and a user drags the <xref:System.Windows.Controls.Primitives.Thumb> of the <xref:System.Windows.Controls.Primitives.ScrollBar>, the content of the <xref:System.Windows.Controls.ScrollViewer> does not change until the user releases the <xref:System.Windows.Controls.Primitives.Thumb>. If deferred scrolling is enabled, the <xref:System.Windows.Controls.Primitives.ScrollBar> executes the <xref:System.Windows.Controls.Primitives.ScrollBar.DeferScrollToVerticalOffsetCommand> for a vertical <xref:System.Windows.Controls.Primitives.ScrollBar> when the user drags the <xref:System.Windows.Controls.Primitives.Thumb>.  
   
  ]]></format>
         </remarks>
@@ -189,10 +193,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.LineDownCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#LineDownCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#linedowncommand)]  
+ [!code-xaml[ScrollBarTemplateExample#LineDownCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#linedowncommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineLeftCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineRightCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineUpCommand" />
       </Docs>
     </Member>
     <Member MemberName="LineLeftCommand">
@@ -228,10 +235,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.LineLeftCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#LineLeftCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#lineleftcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#LineLeftCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#lineleftcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineRightCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineUpCommand" />
       </Docs>
     </Member>
     <Member MemberName="LineRightCommand">
@@ -267,10 +277,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.LineRightCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#LineRightCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#linerightcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#LineRightCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#linerightcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineLeftCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineUpCommand" />
       </Docs>
     </Member>
     <Member MemberName="LineUpCommand">
@@ -306,10 +319,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.LineUpCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#LineUpCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#lineupcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#LineUpCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#lineupcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineLeftCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.LineRightCommand" />
       </Docs>
     </Member>
     <Member MemberName="OnApplyTemplate">
@@ -508,10 +524,11 @@
   
  [!code-csharp[ScrollBarSnips#Orientation](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml.cs#orientation)]
  [!code-vb[ScrollBarSnips#Orientation](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ScrollBarSnips/visualbasic/window1.xaml.vb#orientation)]
- [!code-xml[ScrollBarSnips#Orientation](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#orientation)]  
+ [!code-xaml[ScrollBarSnips#Orientation](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#orientation)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Orientation" />
       </Docs>
     </Member>
     <Member MemberName="OrientationProperty">
@@ -564,10 +581,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.PageDownCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#PageDownCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pagedowncommand)]  
+ [!code-xaml[ScrollBarTemplateExample#PageDownCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pagedowncommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageUpCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageLeftCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageRightCommand" />
       </Docs>
     </Member>
     <Member MemberName="PageLeftCommand">
@@ -605,10 +625,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.PageLeftCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#PageLeftCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pageleftcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#PageLeftCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pageleftcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageUpCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageRightCommand" />
       </Docs>
     </Member>
     <Member MemberName="PageRightCommand">
@@ -646,10 +669,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.PageRightCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#PageRightCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pagerightcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#PageRightCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pagerightcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageUpCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageLeftCommand" />
       </Docs>
     </Member>
     <Member MemberName="PageUpCommand">
@@ -685,10 +711,13 @@
 ## Examples  
  The following example shows how to specify the <xref:System.Windows.Controls.Primitives.ScrollBar.PageUpCommand> in a custom <xref:System.Windows.Controls.Primitives.ScrollBar> style template.  
   
- [!code-xml[ScrollBarTemplateExample#PageUpCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pageupcommand)]  
+ [!code-xaml[ScrollBarTemplateExample#PageUpCommand](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarTemplateExample/CS/Window1.xaml#pageupcommand)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageDownCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageLeftCommand" />
+        <altmember cref="F:System.Windows.Controls.Primitives.ScrollBar.PageRightCommand" />
       </Docs>
     </Member>
     <Member MemberName="Scroll">
@@ -732,13 +761,14 @@
 ## Examples  
  The following example shows how assign an event handler for the <xref:System.Windows.Controls.Primitives.ScrollBar.Scroll> event to a <xref:System.Windows.Controls.Primitives.ScrollBar> control, and how to define the event handler in code.  
   
- [!code-xml[ScrollBarSnips#Scroll](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#scroll)]  
+ [!code-xaml[ScrollBarSnips#Scroll](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#scroll)]  
   
  [!code-csharp[ScrollBarSnips#ScrollHandler](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml.cs#scrollhandler)]
  [!code-vb[ScrollBarSnips#ScrollHandler](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ScrollBarSnips/visualbasic/window1.xaml.vb#scrollhandler)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.ScrollEventArgs" />
       </Docs>
     </Member>
     <Member MemberName="ScrollEvent">
@@ -1102,7 +1132,7 @@
   
  [!code-csharp[ScrollBarSnips#Viewport](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml.cs#viewport)]
  [!code-vb[ScrollBarSnips#Viewport](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ScrollBarSnips/visualbasic/window1.xaml.vb#viewport)]
- [!code-xml[ScrollBarSnips#Viewport](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#viewport)]  
+ [!code-xaml[ScrollBarSnips#Viewport](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollBarSnips/CSharp/Window1.xaml#viewport)]  
   
  ]]></format>
         </remarks>

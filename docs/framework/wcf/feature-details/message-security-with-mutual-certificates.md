@@ -1,5 +1,5 @@
 ---
-title: "Message Security with Mutual Certificates | Microsoft Docs"
+title: "Message Security with Mutual Certificates"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 99d7a528-7ae4-4d39-a0f9-3066ea237de0
 caps.latest.revision: 18
 author: "BrucePerlerMS"
@@ -162,6 +165,6 @@ The following scenario shows a [!INCLUDE[indigo1](../../../../includes/indigo1-m
 ```  
   
 ## See Also  
- [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)   
- [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)   
+ [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)  
+ [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)  
  [How to: Create and Install Temporary Certificates in WCF for Transport Security During Development](http://go.microsoft.com/fwlink/?LinkId=244264)

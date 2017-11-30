@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::LoadAssembly Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::LoadAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::LoadAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "LoadAssembly method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::LoadAssembly method [.NET Framework debugging]"
@@ -59,5 +57,5 @@ HRESULT LoadAssembly (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [UnloadAssembly Method](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-unloadassembly-method.md)   
+ [UnloadAssembly Method](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-unloadassembly-method.md)  
  [ICorDebugManagedCallback Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-interface.md)

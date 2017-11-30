@@ -1,5 +1,5 @@
 ---
-title: "CLR User-Defined Types | Microsoft Docs"
+title: "CLR User-Defined Types"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -31,5 +31,5 @@ Microsoft SQL Server provides support for user-defined types (UDTs) implemented 
 1.  [CLR User-Defined Types](http://go.microsoft.com/fwlink/?LinkId=98366)  
   
 ## See Also  
- [Creating SQL Server 2005 Objects In Managed Code](http://msdn.microsoft.com/en-us/5358a825-e19b-49aa-8214-674ce5fed1da)   
+ [Creating SQL Server 2005 Objects In Managed Code](http://msdn.microsoft.com/en-us/5358a825-e19b-49aa-8214-674ce5fed1da)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

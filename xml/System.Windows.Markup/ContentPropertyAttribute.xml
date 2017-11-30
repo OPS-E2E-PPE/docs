@@ -90,7 +90,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Assuming CLR backing, the provided `name` should match the <xref:System.Reflection.MemberInfo.Name%2A?displayProperty=fullName> of the relevant property in the CLR type system.  
+ Assuming CLR backing, the provided `name` should match the <xref:System.Reflection.MemberInfo.Name%2A?displayProperty=nameWithType> of the relevant property in the CLR type system.  
   
  ]]></format>
         </remarks>
@@ -114,5 +114,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Xaml</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Markup.ContentPropertyAttribute" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyCache::QueryAssemblyInfo Method | Microsoft Docs"
+title: "IAssemblyCache::QueryAssemblyInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyCache::QueryAssemblyInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IAssemblyCache::QueryAssemblyInfo method [.NET Framework fusion]"
   - "QueryAssemblyInfo method [.NET Framework fusion]"

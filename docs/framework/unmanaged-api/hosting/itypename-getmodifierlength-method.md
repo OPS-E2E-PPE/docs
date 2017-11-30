@@ -1,5 +1,5 @@
 ---
-title: "ITypeName::GetModifierLength Method | Microsoft Docs"
+title: "ITypeName::GetModifierLength Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetModifierLength"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeName::GetModifierLength method [.NET Framework hosting]"
   - "GetModifierLength method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "METAHOST_CONFIG_FLAGS Enumeration | Microsoft Docs"
+title: "METAHOST_CONFIG_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "METAHOST_CONFIG_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "METAHOST_CONFIG_FLAGS enumeration [.NET Framework hosting]"
 ms.assetid: 6f1e389f-ed99-4d6a-a0ba-72d7d869a01d
@@ -64,6 +62,6 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)   
- [GetRequestedRuntime Method](../../../../docs/framework/unmanaged-api/hosting/iclrmetahostpolicy-getrequestedruntime-method.md)   
+ [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)  
+ [GetRequestedRuntime Method](../../../../docs/framework/unmanaged-api/hosting/iclrmetahostpolicy-getrequestedruntime-method.md)  
  [\<startup> Element](../../../../docs/framework/configure-apps/file-schema/startup/startup-element.md)

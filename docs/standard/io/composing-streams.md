@@ -1,5 +1,5 @@
 ---
-title: "Composing Streams | Microsoft Docs"
+title: "Composing Streams"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "streams, base streams"
   - "I/O [.NET Framework], composing streams"
@@ -38,10 +42,10 @@ A backing store is a storage medium, such as a disk or memory. Each different ba
  [!code-vb[System.IO.StreamReader#21](../../../samples/snippets/visualbasic/VS_Snippets_CLR_System/system.IO.StreamReader/VB/source3.vb#21)]  
   
 ## See Also  
- <xref:System.IO.StreamReader>   
- <xref:System.IO.StreamReader.ReadLine%2A?displayProperty=fullName>   
- <xref:System.IO.StreamReader.Peek%2A?displayProperty=fullName>   
- <xref:System.IO.FileStream>   
- <xref:System.IO.BinaryReader>   
- <xref:System.IO.BinaryReader.ReadByte%2A?displayProperty=fullName>   
- <xref:System.IO.BinaryReader.PeekChar%2A?displayProperty=fullName>
+ <xref:System.IO.StreamReader>  
+ <xref:System.IO.StreamReader.ReadLine%2A?displayProperty=nameWithType>  
+ <xref:System.IO.StreamReader.Peek%2A?displayProperty=nameWithType>  
+ <xref:System.IO.FileStream>  
+ <xref:System.IO.BinaryReader>  
+ <xref:System.IO.BinaryReader.ReadByte%2A?displayProperty=nameWithType>  
+ <xref:System.IO.BinaryReader.PeekChar%2A?displayProperty=nameWithType>

@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::EnumAssemblyRefs Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::EnumAssemblyRefs Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::EnumAssemblyRefs"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyImport::EnumAssemblyRefs method [.NET Framework metadata]"
   - "EnumAssemblyRefs method [.NET Framework metadata]"

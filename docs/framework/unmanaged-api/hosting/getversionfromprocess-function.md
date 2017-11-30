@@ -1,5 +1,5 @@
 ---
-title: "GetVersionFromProcess Function | Microsoft Docs"
+title: "GetVersionFromProcess Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetVersionFromProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetVersionFromProcess function [.NET Framework hosting]"
 ms.assetid: a9f7f824-64a1-408d-8607-91c7f19d21fe
@@ -79,6 +77,6 @@ HRESULT GetVersionFromProcess (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [GetRequestedRuntimeInfo Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeinfo-function.md)   
- [GetRequestedRuntimeVersion Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeversion-function.md)   
+ [GetRequestedRuntimeInfo Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeinfo-function.md)  
+ [GetRequestedRuntimeVersion Function](../../../../docs/framework/unmanaged-api/hosting/getrequestedruntimeversion-function.md)  
  [Deprecated CLR Hosting Functions](../../../../docs/framework/unmanaged-api/hosting/deprecated-clr-hosting-functions.md)

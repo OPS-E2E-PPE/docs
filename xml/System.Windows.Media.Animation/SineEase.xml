@@ -45,10 +45,20 @@
 ## Examples  
  The following example applies a <xref:System.Windows.Media.Animation.SineEase> easing function to a <xref:System.Windows.Media.Animation.DoubleAnimation> to create a decelerating animation.  
   
- [!code-xml[SineEase#SineEase](~/samples/snippets/csharp/VS_Snippets_Wpf/sineease/CS/window1.xaml#sineease)]   
+ [!code-xaml[SineEase#SineEase](~/samples/snippets/csharp/VS_Snippets_Wpf/sineease/CS/window1.xaml#sineease)]   
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Media.Animation.PowerEase" />
+    <altmember cref="T:System.Windows.Media.Animation.BackEase" />
+    <altmember cref="T:System.Windows.Media.Animation.BounceEase" />
+    <altmember cref="T:System.Windows.Media.Animation.CircleEase" />
+    <altmember cref="T:System.Windows.Media.Animation.CubicEase" />
+    <altmember cref="T:System.Windows.Media.Animation.ElasticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.ExponentialEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuadraticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuarticEase" />
+    <altmember cref="T:System.Windows.Media.Animation.QuinticEase" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">

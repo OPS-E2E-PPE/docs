@@ -1,5 +1,5 @@
 ---
-title: "&lt;behaviors&gt; of workflow | Microsoft Docs"
+title: "&lt;behaviors&gt; of workflow"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -46,7 +46,7 @@ This element contains the **serviceBehaviors** collection.  Each element in the 
 |[\<system.serviceModel>](../../../../../docs/framework/configure-apps/file-schema/wcf/system-servicemodel.md)|The root element of all workflow configuration elements.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.BehaviorsSection>   
- <xref:System.ServiceModel.Configuration.ServiceBehaviorElementCollection>   
- <xref:System.ServiceModel.Configuration.ServiceBehaviorElement>   
+ <xref:System.ServiceModel.Configuration.BehaviorsSection>  
+ <xref:System.ServiceModel.Configuration.ServiceBehaviorElementCollection>  
+ <xref:System.ServiceModel.Configuration.ServiceBehaviorElement>  
  [Configuring and Extending the Runtime with Behaviors](../../../../../docs/framework/wcf/extending/configuring-and-extending-the-runtime-with-behaviors.md)

@@ -1,5 +1,5 @@
 ---
-title: "Entity Data Model: Primitive Data Types | Microsoft Docs"
+title: "Entity Data Model: Primitive Data Types"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -45,5 +45,5 @@ The Entity Data Model (EDM) supports a set of abstract primitive data types (suc
 |Time|Contains a time of day.|Precision, Nullable, Default|  
   
 ## See Also  
- [Entity Data Model Key Concepts](../../../../docs/framework/data/adonet/entity-data-model-key-concepts.md)   
+ [Entity Data Model Key Concepts](../../../../docs/framework/data/adonet/entity-data-model-key-concepts.md)  
  [Entity Data Model](../../../../docs/framework/data/adonet/entity-data-model.md)

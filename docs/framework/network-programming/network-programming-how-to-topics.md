@@ -1,5 +1,5 @@
 ---
-title: "Network Programming How-to Topics | Microsoft Docs"
+title: "Network Programming How-to Topics"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "network resources"
   - "networks [.NET Framework], programming how-tos"
@@ -87,6 +82,6 @@ The following list includes links to the How-to topics found in the conceptual d
 -   [How to: Ping a Host](../../../docs/framework/network-programming/how-to-ping-a-host.md)  
   
 ## See Also  
- [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)   
- [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)   
+ [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)  
+ [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)  
  [Networking Samples for .NET on MSDN Code Gallery](http://code.msdn.microsoft.com/Wiki/View.aspx?ProjectName=nclsamples)

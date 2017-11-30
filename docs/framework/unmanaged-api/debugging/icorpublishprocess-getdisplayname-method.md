@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishProcess::GetDisplayName Method | Microsoft Docs"
+title: "ICorPublishProcess::GetDisplayName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishProcess::GetDisplayName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorPublishProcess::GetDisplayName method [.NET Framework debugging]"
   - "GetDisplayName method, ICorPublishProcess interface [.NET Framework debugging]"

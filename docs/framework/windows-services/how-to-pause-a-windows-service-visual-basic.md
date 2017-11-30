@@ -1,5 +1,5 @@
 ---
-title: "How to: Pause a Windows Service (Visual Basic) | Microsoft Docs"
+title: "How to: Pause a Windows Service (Visual Basic)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "vb"
 f1_keywords: 
   - "ServiceController.Pause"
 helpviewer_keywords: 
@@ -51,7 +53,7 @@ This example uses the <xref:System.ServiceProcess.ServiceController> component t
  Access to service information may be restricted by using the <xref:System.Security.Permissions.PermissionState> to set permissions in the <xref:System.Security.Permissions.SecurityPermission>.  
   
 ## See Also  
- <xref:System.ServiceProcess.ServiceController>   
- <xref:System.ServiceProcess.ServiceControllerStatus>   
- <xref:System.ServiceProcess.ServiceController.WaitForStatus%2A>   
+ <xref:System.ServiceProcess.ServiceController>  
+ <xref:System.ServiceProcess.ServiceControllerStatus>  
+ <xref:System.ServiceProcess.ServiceController.WaitForStatus%2A>  
  [How to: Continue a Windows Service (Visual Basic)](../../../docs/framework/windows-services/how-to-continue-a-windows-service-visual-basic.md)

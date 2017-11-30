@@ -1,39 +1,21 @@
 ---
-title: "COM Interoperability in .NET Framework Applications (Visual Basic) | Microsoft Docs"
+title: "COM Interoperability in .NET Framework Applications (Visual Basic)"
 ms.custom: ""
-ms.date: "2015-07-20"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "interoperability, COM and .NET framework objects"
-  - "COM interop"
+  - "COM interop [Visual Basic]"
   - "shared components"
 ms.assetid: f5a72143-c268-4dff-a019-974ad940e17d
 caps.latest.revision: 15
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # COM Interoperability in .NET Framework Applications (Visual Basic)
 When you want to use COM objects and .NET Framework objects in the same application, you need to address the differences in how the objects exist in memory. A .NET Framework object is located in managed memory—the memory controlled by the common language runtime—and may be moved by the runtime as needed. A COM object is located in unmanaged memory and is not expected to move to another memory location. [!INCLUDE[vsprvs](~/includes/vsprvs-md.md)] and the [!INCLUDE[dnprdnshort](~/includes/dnprdnshort-md.md)] provide tools to control the interaction of these managed and unmanaged components. For more information about managed code, see [Common Language Runtime](../../../standard/clr.md).  
@@ -46,7 +28,7 @@ When you want to use COM objects and .NET Framework objects in the same applicat
  [COM Interop](../../../visual-basic/programming-guide/com-interop/index.md)  
  Provides links to topics covering COM interoperability in Visual Basic, including COM objects, ActiveX controls, Win32 DLLs, managed objects, and inheritance of COM objects.  
   
- [COM Interop Wrapper Error](https://docs.microsoft.com/cpp/misc/com-interop-wrapper-error)  
+ [COM Interop Wrapper Error](/cpp/misc/com-interop-wrapper-error)  
  Describes the consequences and options if the project system cannot create a COM interoperability wrapper for a particular component.  
   
  [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/sd10k43k)  

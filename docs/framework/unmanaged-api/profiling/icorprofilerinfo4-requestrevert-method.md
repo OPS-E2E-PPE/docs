@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo4::RequestRevert Method | Microsoft Docs"
+title: "ICorProfilerInfo4::RequestRevert Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo4::RequestRevert"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RequestRevert method, ICorProfilerInfo4 interface [.NET Framework profiling]"
   - "ICorProfilerInfo4::RequestRevert method [.NET Framework profiling]"
@@ -91,6 +89,6 @@ HRESULT RequestRevert (
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorProfilerInfo4 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [ICorProfilerInfo4 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo4-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

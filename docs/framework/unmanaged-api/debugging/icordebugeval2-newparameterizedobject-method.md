@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval2::NewParameterizedObject Method | Microsoft Docs"
+title: "ICorDebugEval2::NewParameterizedObject Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval2::NewParameterizedObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "NewParameterizedObject method [.NET Framework debugging]"
   - "ICorDebugEval2::NewParameterizedObject method [.NET Framework debugging]"

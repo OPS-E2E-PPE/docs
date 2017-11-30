@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugGCReferenceEnum Interface | Microsoft Docs"
+title: "ICorDebugGCReferenceEnum Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugGCReferenceEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugGCReferenceEnum interface [.NET Framework debugging]"
 ms.assetid: 5f3c91c9-c035-454f-96cc-011cab1ea06b

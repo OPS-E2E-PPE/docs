@@ -1,5 +1,5 @@
 ---
-title: "IManagedObject::GetSerializedBuffer Method | Microsoft Docs"
+title: "IManagedObject::GetSerializedBuffer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetSerializedBuffer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IManagedObject::GetSerializedBuffer method [.NET Framework hosting]"
   - "GetSerializedBuffer method [.NET Framework hosting]"

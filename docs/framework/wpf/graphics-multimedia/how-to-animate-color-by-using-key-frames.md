@@ -1,5 +1,5 @@
 ---
-title: "How to: Animate Color by Using Key Frames | Microsoft Docs"
+title: "How to: Animate Color by Using Key Frames"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "colors, animating with key frames"
-  - "animation, colors with key frames"
-  - "key frames, animating colors with"
+  - "colors [WPF], animating with key frames"
+  - "animation [WPF], colors with key frames"
+  - "key frames [WPF], animating colors with"
 ms.assetid: ab04ffa6-4de9-4d5b-a3b4-4e35d5b2ef35
 caps.latest.revision: 11
 author: dotnet-bot
@@ -33,13 +36,13 @@ This example shows how to animate the <xref:System.Windows.Media.SolidColorBrush
   
  [!code-csharp[keyframes_snip#ColorAnimationUsingKeyFramesWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/keyframes_snip/CSharp/ColorAnimationUsingKeyFramesExample.cs#coloranimationusingkeyframeswholepage)]
  [!code-vb[keyframes_snip#ColorAnimationUsingKeyFramesWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/keyframes_snip/visualbasic/coloranimationusingkeyframesexample.vb#coloranimationusingkeyframeswholepage)]
- [!code-xml[keyframes_snip#ColorAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/ColorAnimationUsingKeyFramesExample.xaml#coloranimationusingkeyframeswholepage)]  
+ [!code-xaml[keyframes_snip#ColorAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/ColorAnimationUsingKeyFramesExample.xaml#coloranimationusingkeyframeswholepage)]  
   
  For the complete sample, see [KeyFrame Animation Sample](http://go.microsoft.com/fwlink/?LinkID=160012).  
   
 ## See Also  
- <xref:System.Windows.Media.SolidColorBrush.Color%2A>   
- <xref:System.Windows.Media.SolidColorBrush>   
- <xref:System.Windows.Media.Animation.ColorAnimationUsingKeyFrames>   
- [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)   
+ <xref:System.Windows.Media.SolidColorBrush.Color%2A>  
+ <xref:System.Windows.Media.SolidColorBrush>  
+ <xref:System.Windows.Media.Animation.ColorAnimationUsingKeyFrames>  
+ [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)  
  [Key-Frame How-to Topics](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animation-how-to-topics.md)

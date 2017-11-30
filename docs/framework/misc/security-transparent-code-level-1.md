@@ -1,5 +1,5 @@
 ---
-title: "Security-Transparent Code, Level 1 | Microsoft Docs"
+title: "Security-Transparent Code, Level 1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "transparent"
   - "SecurityTreatAsSafeAttribute"
@@ -140,5 +135,5 @@ public class B
  The previous code is transparent except for the `Critical` method, which is explicitly marked as security-critical. Transparency is the default setting, even with the assembly-level <xref:System.Security.SecurityCriticalAttribute> attribute.  
   
 ## See Also  
- [Security-Transparent Code, Level 2](../../../docs/framework/misc/security-transparent-code-level-2.md)   
+ [Security-Transparent Code, Level 2](../../../docs/framework/misc/security-transparent-code-level-2.md)  
  [Security Changes](../../../docs/framework/security/security-changes.md)

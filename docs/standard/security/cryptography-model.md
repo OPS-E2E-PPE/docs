@@ -1,5 +1,5 @@
 ---
-title: ".NET Framework Cryptography Model | Microsoft Docs"
+title: ".NET Framework Cryptography Model"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "cryptography [.NET Framework], model"
   - "encryption [.NET Framework], model"
@@ -95,5 +90,5 @@ The .NET Framework provides implementations of many standard cryptographic algor
     -   <xref:System.Security.Cryptography.Rfc2898DeriveBytes>  
   
 ## See Also  
- [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)   
- [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)
+ [Cryptographic Services](../../../docs/standard/security/cryptographic-services.md)  
+ 

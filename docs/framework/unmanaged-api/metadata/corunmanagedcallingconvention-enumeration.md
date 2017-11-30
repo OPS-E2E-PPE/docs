@@ -1,5 +1,5 @@
 ---
-title: "CorUnmanagedCallingConvention Enumeration | Microsoft Docs"
+title: "CorUnmanagedCallingConvention Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorUnmanagedCallingConvention"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorUnmanagedCallingConvention enumeration [.NET Framework metadata]"
 ms.assetid: 83058790-160b-4703-a5eb-74b66acbdfa9

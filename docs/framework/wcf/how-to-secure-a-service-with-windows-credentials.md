@@ -1,5 +1,5 @@
 ---
-title: "How to: Secure a Service with Windows Credentials | Microsoft Docs"
+title: "How to: Secure a Service with Windows Credentials"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, security"
 ms.assetid: d171b5ca-96ef-47ff-800c-c138023cf76e
@@ -130,7 +133,7 @@ This topic shows how to enable transport security on a [!INCLUDE[indigo1](../../
   
 ##### To use a binding in a client with configuration  
   
-1.  Use the SvcUtil.exe tool to generate the proxy code and configuration file from the service's metadata. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)][How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md).  
+1.  Use the SvcUtil.exe tool to generate the proxy code and configuration file from the service's metadata. [!INCLUDE[crdefault](../../../includes/crdefault-md.md)] [How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md).  
   
 2.  Replace the [\<bindings>](../../../docs/framework/configure-apps/file-schema/wcf/bindings.md) section of the generated configuration file with the configuration code from the preceding section.  
   
@@ -151,8 +154,8 @@ This topic shows how to enable transport security on a [!INCLUDE[indigo1](../../
  [!code-vb[c_SecureWindowsClient#0](../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_securewindowsclient/vb/secureclient.vb#0)]      
   
 ## See Also  
- <xref:System.ServiceModel.WSHttpBinding>   
- [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)   
- [How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md)   
- [Securing Services](../../../docs/framework/wcf/securing-services.md)   
+ <xref:System.ServiceModel.WSHttpBinding>  
+ [ServiceModel Metadata Utility Tool (Svcutil.exe)](../../../docs/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe.md)  
+ [How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md)  
+ [Securing Services](../../../docs/framework/wcf/securing-services.md)  
  [Security Overview](../../../docs/framework/wcf/feature-details/security-overview.md)

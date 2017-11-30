@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValue3::GetSize64 Method | Microsoft Docs"
+title: "ICorDebugValue3::GetSize64 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValue3::GetSize64"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSize64 method, ICorDebugValue3 interface [.NET Framework debugging]"
   - "ICorDebugValue3::GetSize64 method [.NET Framework debugging]"
@@ -60,5 +58,5 @@ HRESULT GetSize64(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugValue3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvalue3-interface.md)   
+ [ICorDebugValue3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvalue3-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

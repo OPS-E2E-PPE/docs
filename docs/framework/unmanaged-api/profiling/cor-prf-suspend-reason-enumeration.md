@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_SUSPEND_REASON Enumeration | Microsoft Docs"
+title: "COR_PRF_SUSPEND_REASON Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_SUSPEND_REASON"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_SUSPEND_REASON enumeration [.NET Framework profiling]"
 ms.assetid: 75594833-bed3-47b2-a426-b75c5fe6fbcf

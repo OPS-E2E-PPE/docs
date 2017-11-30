@@ -1,5 +1,5 @@
 ---
-title: "Windows Applications Using Callbacks | Microsoft Docs"
+title: "Windows Applications Using Callbacks"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: ae2ea457-0764-4b06-8977-713c77e85bd2
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -382,5 +385,5 @@ private void Form1_Load(object sender, System.EventArgs e)
 ```  
   
 ## See Also  
- [Asynchronous Operations](../../../../../docs/framework/data/adonet/sql/asynchronous-operations.md)   
+ [Asynchronous Operations](../../../../../docs/framework/data/adonet/sql/asynchronous-operations.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

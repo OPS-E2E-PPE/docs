@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::AddPointer Method | Microsoft Docs"
+title: "ITypeNameBuilder::AddPointer Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddPointer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameBuilder::AddPointer method [.NET Framework hosting]"
   - "AddPointer method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "ICLRControl::GetCLRManager Method | Microsoft Docs"
+title: "ICLRControl::GetCLRManager Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRControl::GetCLRManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCLRManager method [.NET Framework hosting]"
   - "ICLRControl::GetCLRManager method [.NET Framework hosting]"
@@ -85,5 +83,5 @@ HRESULT GetCLRManager (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)   
+ [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)  
  [IHostControl Interface](../../../../docs/framework/unmanaged-api/hosting/ihostcontrol-interface.md)

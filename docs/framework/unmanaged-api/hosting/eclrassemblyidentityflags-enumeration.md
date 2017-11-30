@@ -1,5 +1,5 @@
 ---
-title: "ECLRAssemblyIdentityFlags Enumeration | Microsoft Docs"
+title: "ECLRAssemblyIdentityFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ECLRAssemblyIdentityFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ECLRAssemblyIdentityFlags enumeration [.NET Framework hosting]"
 ms.assetid: d1e0b654-ccaf-4fa2-9aa3-8e007813c84d

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback2::FunctionRemapOpportunity Method | Microsoft Docs"
+title: "ICorDebugManagedCallback2::FunctionRemapOpportunity Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback2::FunctionRemapOpportunity"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FunctionRemapOpportunity method [.NET Framework debugging]"
   - "ICorDebugManagedCallback2::FunctionRemapOpportunity method [.NET Framework debugging]"
@@ -76,5 +74,5 @@ HRESULT FunctionRemapOpportunity (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorDebugManagedCallback2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback2-interface.md)   
+ [ICorDebugManagedCallback2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback2-interface.md)  
  [ICorDebugManagedCallback Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmanagedcallback-interface.md)

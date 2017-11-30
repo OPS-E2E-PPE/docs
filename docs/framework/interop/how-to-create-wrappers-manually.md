@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Wrappers Manually | Microsoft Docs"
+title: "How to: Create Wrappers Manually"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "wrappers, creating manually"
 ms.assetid: cc2a70d8-6a58-4071-a8cf-ce28c018c09b
@@ -95,9 +90,9 @@ namespace SAServer
  }   
  [ComImport]  
  [Guid("116CCA1E-7E39-4515-9849-90790DA6431E")]  
- [ClassInterface(ClassInterfaceType.None)]   
+ [ClassInterface(ClassInterfaceType.None)]  
  [TypeLibType(TypeLibTypeFlags.FCanCreate)]  
- public class SATest : ISATest   
+ public class SATest : ISATest  
  {  
   [DispId(1)]  
   [MethodImpl(MethodImplOptions.InternalCall,   
@@ -109,9 +104,9 @@ namespace SAServer
 ```  
   
 ## See Also  
- [Customizing Runtime Callable Wrappers](http://msdn.microsoft.com/en-us/4652beaf-77d0-4f37-9687-ca193288c0be)   
- [COM Data Types](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)   
- [How to: Edit Interop Assemblies](http://msdn.microsoft.com/en-us/16aacb20-2269-42bf-a812-b6a7df17e277)   
- [Type Library to Assembly Conversion Summary](http://msdn.microsoft.com/en-us/bf3f90c5-4770-4ab8-895c-3ba1055cc958)   
- [Tlbimp.exe (Type Library Importer)](../../../docs/framework/tools/tlbimp-exe-type-library-importer.md)   
+ [Customizing Runtime Callable Wrappers](http://msdn.microsoft.com/en-us/4652beaf-77d0-4f37-9687-ca193288c0be)  
+ [COM Data Types](http://msdn.microsoft.com/en-us/f93ae35d-a416-4218-8700-c8218cc90061)  
+ [How to: Edit Interop Assemblies](http://msdn.microsoft.com/en-us/16aacb20-2269-42bf-a812-b6a7df17e277)  
+ [Type Library to Assembly Conversion Summary](http://msdn.microsoft.com/en-us/bf3f90c5-4770-4ab8-895c-3ba1055cc958)  
+ [Tlbimp.exe (Type Library Importer)](../../../docs/framework/tools/tlbimp-exe-type-library-importer.md)  
  [Tlbexp.exe (Type Library Exporter)](../../../docs/framework/tools/tlbexp-exe-type-library-exporter.md)

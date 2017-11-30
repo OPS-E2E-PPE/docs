@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEnum::Reset Method | Microsoft Docs"
+title: "ICorDebugEnum::Reset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEnum::Reset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEnum::Reset method [.NET Framework debugging]"
   - "Reset method, ICorDebugEnum interface [.NET Framework debugging]"

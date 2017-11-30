@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Authorization Manager for a Service | Microsoft Docs"
+title: "How to: Create a Custom Authorization Manager for a Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "Windows Communication Foundation, extending"
   - "OperationRequirement class"
@@ -121,6 +124,6 @@ The Identity Model infrastructure in [!INCLUDE[indigo1](../../../../includes/ind
  [!code-vb[c_CustomAuthMgr#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_customauthmgr/vb/c_customauthmgr.vb#2)]  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceAuthorizationManager>   
- [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)   
+ <xref:System.ServiceModel.ServiceAuthorizationManager>  
+ [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)  
  [Authorization Policy](../../../../docs/framework/wcf/samples/authorization-policy.md)

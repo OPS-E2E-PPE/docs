@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; Element for connectionManagement (Network Settings) | Microsoft Docs"
+title: "&lt;add&gt; Element for connectionManagement (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#add"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/connectionManagement/add"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<add> element, connectionManagement"
   - "<connectionManagement>, add element"
@@ -39,9 +34,9 @@ Adds an IP address or DNS name to the connection management list.
 ## Syntax  
   
 ```xml  
-      <add   
-   address = "address expression"   
-   maxconnection = integer   
+<add   
+  address="address expression"   
+  maxconnection="integer"   
 />  
 ```  
   
@@ -73,20 +68,20 @@ Adds an IP address or DNS name to the connection management list.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example configures an application to use four connections to the server www.contoso.com and two connections to all other servers.  
+ The following example configures an application to use four connections to the server www.contoso.com and two connections to all other servers.  
   
 ```xml  
 <configuration>  
   <system.net>  
     <connectionManagement>  
-      <add address = "http://www.contoso.com" maxconnection = "4" />  
-      <add address = "*" maxconnection = "2" />  
+      <add address="http://www.contoso.com" maxconnection="4" />  
+      <add address="*" maxconnection="2" />  
     </connectionManagement>  
   </system.net>  
 </configuration>  
 ```  
   
 ## See Also  
- <xref:System.Net.ServicePoint>   
- <xref:System.Net.ServicePointManager>   
+ <xref:System.Net.ServicePoint>  
+ <xref:System.Net.ServicePointManager>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use EdmGen.exe to Generate Object-Layer Code | Microsoft Docs"
+title: "How to: Use EdmGen.exe to Generate Object-Layer Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
-  - "jsharp"
 ms.assetid: c44d2ebe-f66f-42cb-9741-4a3f0c2dcffb
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -51,8 +45,8 @@ This topic shows how to use the [EDM Generator (EdmGen.exe)](../../../../../docs
     ```  
   
 ## See Also  
- [Modeling and Mapping](../../../../../docs/framework/data/adonet/ef/modeling-and-mapping.md)   
- [How to: Manually Configure an Entity Framework Project](http://msdn.microsoft.com/en-us/73f6ae1d-b3b2-4577-aebd-ad5a75954e9e)   
- [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)   
- [How to: Pre-Generate Views to Improve Query Performance](http://msdn.microsoft.com/en-us/b18a9d16-e10b-4043-ba91-b632f85a2579)   
+ [Modeling and Mapping](../../../../../docs/framework/data/adonet/ef/modeling-and-mapping.md)  
+ [How to: Manually Configure an Entity Framework Project](http://msdn.microsoft.com/en-us/73f6ae1d-b3b2-4577-aebd-ad5a75954e9e)  
+ [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)  
+ [How to: Pre-Generate Views to Improve Query Performance](http://msdn.microsoft.com/en-us/b18a9d16-e10b-4043-ba91-b632f85a2579)  
  [How to: Use EdmGen.exe to Generate the Model and Mapping Files](../../../../../docs/framework/data/adonet/ef/how-to-use-edmgen-exe-to-generate-the-model-and-mapping-files.md)

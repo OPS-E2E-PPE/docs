@@ -1,5 +1,5 @@
 ---
-title: "Convert a Type to a Generic IEnumerable | Microsoft Docs"
+title: "Convert a Type to a Generic IEnumerable"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 64774fb5-7447-4296-ad3b-8a94346f99a1
 caps.latest.revision: 2
 author: "JennieHubbard"

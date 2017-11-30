@@ -1,5 +1,5 @@
 ---
-title: "IALink3 Interface | Microsoft Docs"
+title: "IALink3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "IALink3"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IALink3 interface"
 ms.assetid: a96bf3cc-75a0-49c9-bf5e-4d7ad5dab716

@@ -28,11 +28,6 @@
       <InterfaceName>System.Collections.Generic.ISet&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("Count = {Count}")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a hash set that mutates with little or no memory allocations and that can produce or build on immutable hash set instances very efficiently.  
   
@@ -41,7 +36,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Although <xref:System.Collections.Immutable.ImmutableHashSet%601.Union%2A?displayProperty=fullName> and other methods already provide fast bulk change operations on a collection, the <xref:System.Collections.Immutable.ImmutableHashSet%601.Builder> class allows multiple combinations of changes to be made to a set with equal efficiency.  
+ Although <xref:System.Collections.Immutable.ImmutableHashSet%601.Union%2A?displayProperty=nameWithType> and other methods already provide fast bulk change operations on a collection, the <xref:System.Collections.Immutable.ImmutableHashSet%601.Builder> class allows multiple combinations of changes to be made to a set with equal efficiency.  
   
  ]]></format>
     </remarks>

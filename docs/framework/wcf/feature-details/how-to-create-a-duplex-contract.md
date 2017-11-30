@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Duplex Contract | Microsoft Docs"
+title: "How to: Create a Duplex Contract"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "duplex contracts [WCF]"
 ms.assetid: 500a75b6-998a-47d5-8e3b-24e3aba2a434
@@ -74,10 +74,10 @@ This topic shows the basic steps to create methods that use a duplex (two-way) c
 -   Endpoints exposing duplex services must be secured. When a service receives a duplex message, it looks at the ReplyTo in that incoming message to determine where to send the reply. If the channel is not secured, then an untrusted client could send a malicious message with a target machine's ReplyTo, leading to a denial of service of the target machine. With regular request-reply messages, this is not an issue, because the ReplyTo is ignored and the response is sent on the channel the original message came in on.  
   
 ## See Also  
- <xref:System.ServiceModel.ServiceContractAttribute>   
- <xref:System.ServiceModel.OperationContractAttribute>   
- [How to: Access Services with a Duplex Contract](../../../../docs/framework/wcf/feature-details/how-to-access-services-with-a-duplex-contract.md)   
- [Duplex](../../../../docs/framework/wcf/samples/duplex.md)   
- [Designing and Implementing Services](../../../../docs/framework/wcf/designing-and-implementing-services.md)   
- [How to: Define a Service Contract](../../../../docs/framework/wcf/how-to-define-a-wcf-service-contract.md)   
+ <xref:System.ServiceModel.ServiceContractAttribute>  
+ <xref:System.ServiceModel.OperationContractAttribute>  
+ [How to: Access Services with a Duplex Contract](../../../../docs/framework/wcf/feature-details/how-to-access-services-with-a-duplex-contract.md)  
+ [Duplex](../../../../docs/framework/wcf/samples/duplex.md)  
+ [Designing and Implementing Services](../../../../docs/framework/wcf/designing-and-implementing-services.md)  
+ [How to: Define a Service Contract](../../../../docs/framework/wcf/how-to-define-a-wcf-service-contract.md)  
  [Session](../../../../docs/framework/wcf/samples/session.md)

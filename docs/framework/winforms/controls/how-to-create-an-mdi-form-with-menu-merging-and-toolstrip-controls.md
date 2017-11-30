@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an MDI Form with Menu Merging and ToolStrip Controls | Microsoft Docs"
+title: "How to: Create an MDI Form with Menu Merging and ToolStrip Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "toolbars [Windows Forms]"
   - "ToolStripPanel control [Windows Forms]"
@@ -23,7 +24,7 @@ ms.author: dotnetcontent
 manager: "wpickett"
 ---
 # How to: Create an MDI Form with Menu Merging and ToolStrip Controls
-The <xref:System.Windows.Forms?displayProperty=fullName> namespace supports multiple document interface (MDI) applications, and the <xref:System.Windows.Forms.MenuStrip> control supports menu merging. MDI forms can also <xref:System.Windows.Forms.ToolStrip> controls.  
+The <xref:System.Windows.Forms?displayProperty=nameWithType> namespace supports multiple document interface (MDI) applications, and the <xref:System.Windows.Forms.MenuStrip> control supports menu merging. MDI forms can also <xref:System.Windows.Forms.ToolStrip> controls.  
   
  There is extensive support for this feature in [!INCLUDE[vsprvs](../../../../includes/vsprvs-md.md)].  
   

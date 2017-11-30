@@ -1,5 +1,5 @@
 ---
-title: "ContextMenuStrip Control | Microsoft Docs"
+title: "ContextMenuStrip Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "context menus"
   - "ContextMenuStrip control [Windows Forms]"

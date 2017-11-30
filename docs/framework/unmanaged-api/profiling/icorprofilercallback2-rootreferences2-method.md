@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback2::RootReferences2 Method | Microsoft Docs"
+title: "ICorProfilerCallback2::RootReferences2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback2::RootReferences2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RootReferences2 method [.NET Framework profiling]"
   - "ICorProfilerCallback2::RootReferences2 method [.NET Framework profiling]"
@@ -81,5 +79,5 @@ HRESULT RootReferences2(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ICorProfilerCallback2 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback2-interface.md)

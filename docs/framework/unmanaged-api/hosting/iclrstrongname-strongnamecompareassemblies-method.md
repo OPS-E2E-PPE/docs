@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameCompareAssemblies Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameCompareAssemblies Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameCompareAssemblies"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameCompareAssemblies method [.NET Framework hosting]"
   - "StrongNameCompareAssemblies method, ICLRStrongName interface [.NET Framework hosting]"

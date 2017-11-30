@@ -29,10 +29,14 @@
  [!code-cpp[scrollviewer#1](~/samples/snippets/cpp/VS_Snippets_Wpf/ScrollViewer/CPP/ScrollViewer_wcp.cpp#1)]
  [!code-csharp[scrollviewer#1](~/samples/snippets/csharp/VS_Snippets_Wpf/ScrollViewer/CSharp/ScrollViewer_wcp.cs#1)]
  [!code-vb[scrollviewer#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ScrollViewer/VisualBasic/ScrollViewer.vb#1)]
- [!code-xml[scrollviewer#1](~/samples/snippets/xaml/VS_Snippets_Wpf/ScrollViewer/XAML/Pane1.xaml#1)]  
+ [!code-xaml[scrollviewer#1](~/samples/snippets/xaml/VS_Snippets_Wpf/ScrollViewer/XAML/Pane1.xaml#1)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Windows.Controls.ScrollViewer.VerticalScrollBarVisibility" />
+    <altmember cref="P:System.Windows.Controls.ScrollViewer.HorizontalScrollBarVisibility" />
+    <altmember cref="T:System.Windows.Controls.Primitives.ScrollBar" />
+    <altmember cref="T:System.Windows.Controls.ScrollViewer" />
   </Docs>
   <Members>
     <Member MemberName="Auto">

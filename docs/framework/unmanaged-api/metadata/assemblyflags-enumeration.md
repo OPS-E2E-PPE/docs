@@ -1,5 +1,5 @@
 ---
-title: "AssemblyFlags Enumeration | Microsoft Docs"
+title: "AssemblyFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AssemblyFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AssemblyFlags enumeration [.NET Framework metadata]"
 ms.assetid: 40f9bd9e-16ec-447e-81b0-168c875e9866
@@ -67,5 +65,5 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Enumerations](../../../../docs/framework/unmanaged-api/metadata/metadata-enumerations.md)   
+ [Metadata Enumerations](../../../../docs/framework/unmanaged-api/metadata/metadata-enumerations.md)  
  [IMetaDataAssemblyEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataassemblyemit-interface.md)

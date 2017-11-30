@@ -1,5 +1,5 @@
 ---
-title: "Debugging Structures | Microsoft Docs"
+title: "Debugging Structures"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "unmanaged structures [.NET Framework], debugging"
   - "debugging structures [.NET Framework]"

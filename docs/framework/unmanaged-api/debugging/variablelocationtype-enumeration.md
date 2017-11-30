@@ -1,5 +1,5 @@
 ---
-title: "VariableLocationType Enumeration | Microsoft Docs"
+title: "VariableLocationType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "VariableLocationType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "VariableLocationType enumeration [.NET Framework debugging]"
 ms.assetid: 8635ee3a-c84b-4626-876c-416bee54f787

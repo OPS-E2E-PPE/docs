@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataEmit2::DefineMethodSpec Method | Microsoft Docs"
+title: "IMetaDataEmit2::DefineMethodSpec Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataEmit2::DefineMethodSpec"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DefineMethodSpec method [.NET Framework metadata]"
   - "IMetaDataEmit2::DefineMethodSpec method [.NET Framework metadata]"
@@ -67,5 +65,5 @@ HRESULT DefineMethodSpec (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IMetaDataEmit2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit2-interface.md)   
+ [IMetaDataEmit2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit2-interface.md)  
  [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)

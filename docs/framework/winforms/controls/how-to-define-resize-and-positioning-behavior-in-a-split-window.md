@@ -1,5 +1,5 @@
 ---
-title: "How to: Define Resize and Positioning Behavior in a Split Window | Microsoft Docs"
+title: "How to: Define Resize and Positioning Behavior in a Split Window"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "split windows, resizing"
-  - "splitter windows, resizing"
+  - "split windows [Windows Forms], resizing"
+  - "splitter windows [Windows Forms], resizing"
   - "SplitContainer control [Windows Forms], resizing"
 ms.assetid: 9bf73f36-ed2d-4a02-b15a-0770eff4fdfa
 caps.latest.revision: 13
@@ -69,5 +70,5 @@ The panels of the <xref:System.Windows.Forms.SplitContainer> control lend themse
      Moving the splitter slightly to the left or right will have no discernible effect; however, when the mouse pointer goes 10 pixels in either direction, the splitter will snap to the new position.  
   
 ## See Also  
- <xref:System.Windows.Forms.SplitContainer>   
+ <xref:System.Windows.Forms.SplitContainer>  
  <xref:System.Windows.Forms.SplitContainer.SplitterIncrement%2A>

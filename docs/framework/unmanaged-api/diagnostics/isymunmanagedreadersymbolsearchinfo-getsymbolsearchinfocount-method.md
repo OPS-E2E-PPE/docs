@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReaderSymbolSearchInfo::GetSymbolSearchInfoCount Method | Microsoft Docs"
+title: "ISymUnmanagedReaderSymbolSearchInfo::GetSymbolSearchInfoCount Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReaderSymbolSearchInfo::GetSymbolSearchInfoCount"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSymbolSearchInfoCount method [.NET Framework debugging]"
   - "ISymUnmanagedReaderSymbolSearchInfo::GetSymbolSearchInfoCount method [.NET Framework debugging]"

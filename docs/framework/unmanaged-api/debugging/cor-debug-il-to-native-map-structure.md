@@ -1,5 +1,5 @@
 ---
-title: "COR_DEBUG_IL_TO_NATIVE_MAP Structure | Microsoft Docs"
+title: "COR_DEBUG_IL_TO_NATIVE_MAP Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_DEBUG_IL_TO_NATIVE_MAP"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_DEBUG_IL_TO_NATIVE_MAP structure [.NET Framework debugging]"
 ms.assetid: 06f3b504-085f-4142-934a-25381fe23d4c
@@ -60,7 +58,7 @@ typedef struct COR_DEBUG_IL_TO_NATIVE_MAP {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-getiltonativemapping-method.md)   
- [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode-getiltonativemapping-method.md)   
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-getiltonativemapping-method.md)  
+ [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode-getiltonativemapping-method.md)  
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

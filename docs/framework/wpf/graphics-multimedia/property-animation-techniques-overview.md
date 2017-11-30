@@ -1,5 +1,5 @@
 ---
-title: "Property Animation Techniques Overview | Microsoft Docs"
+title: "Property Animation Techniques Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "animation, properties, methods for"
-  - "properties, methods for animating"
+  - "animation [WPF], properties [WPF], methods for"
+  - "properties [WPF], methods for animating"
 ms.assetid: 74f61413-f8c0-4e75-bf04-951886426c8b
 caps.latest.revision: 12
 author: dotnet-bot
@@ -21,7 +25,6 @@ manager: "wpickett"
 # Property Animation Techniques Overview
 This topic describes the different approaches for animating properties: storyboards, local animations, clocks, and per-frame animations.  
   
-<a name="autoTopLevelSectionsOUTLINE0"></a>   
 <a name="prerequisites"></a>   
 ## Prerequisites  
  To understand this topic, you should be familiar with the basic animation features described in the [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md).  
@@ -125,7 +128,7 @@ This topic describes the different approaches for animating properties: storyboa
  For more information, see the <xref:System.Windows.Media.CompositionTarget.Rendering> page.  
   
 ## See Also  
- [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)   
- [Storyboards Overview](../../../../docs/framework/wpf/graphics-multimedia/storyboards-overview.md)   
- [Animation and Timing System Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-and-timing-system-overview.md)   
+ [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)  
+ [Storyboards Overview](../../../../docs/framework/wpf/graphics-multimedia/storyboards-overview.md)  
+ [Animation and Timing System Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-and-timing-system-overview.md)  
  [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md)

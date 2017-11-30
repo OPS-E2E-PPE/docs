@@ -1,6 +1,6 @@
 ---
-title: "-doc (C# Compiler Options) | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "-doc (C# Compiler Options)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
@@ -8,8 +8,6 @@ ms.topic: "article"
 f1_keywords: 
   - "FileProperties.BuildAction"
   - "/doc"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "comments, C# code"
   - "XML documentation [C#], comments in source files"
@@ -21,20 +19,6 @@ ms.assetid: 849eea59-c936-4311-bad8-d07404480f2a
 caps.latest.revision: 19
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /doc (C# Compiler Options)
 The **/doc** option allows you to place documentation comments in an XML file.  
@@ -58,7 +42,7 @@ The **/doc** option allows you to place documentation comments in an XML file.
   
  The source code file that contains Main is output first into the XML.  
   
- To use the generated .xml file for use with the [IntelliSense](https://docs.microsoft.com/visualstudio/ide/using-intellisense) feature, let the file name of the .xml file be the same as the assembly you want to support and then make sure the .xml file is in the same directory as the assembly. Thus, when the assembly is referenced in the Visual Studio project, the .xml file is found as well. See [Supplying Code Comments](https://docs.microsoft.com/visualstudio/ide/supplying-xml-code-comments) and for more information.  
+ To use the generated .xml file for use with the [IntelliSense](/visualstudio/ide/using-intellisense) feature, let the file name of the .xml file be the same as the assembly you want to support and then make sure the .xml file is in the same directory as the assembly. Thus, when the assembly is referenced in the Visual Studio project, the .xml file is found as well. See [Supplying Code Comments](/visualstudio/ide/supplying-xml-code-comments) and for more information.  
   
  Unless you compile with [/target:module](../../../csharp/language-reference/compiler-options/target-module-compiler-option.md), `file` will contain \<assembly>\</assembly> tags specifying the name of the file containing the assembly manifest for the output file of the compilation.  
   
@@ -78,5 +62,5 @@ The **/doc** option allows you to place documentation comments in an XML file.
  For information on how to set this compiler option programmatically, see <xref:VSLangProj80.CSharpProjectConfigurationProperties3.DocumentationFile%2A>.  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [Managing Project and Solution Properties](/visualstudio/ide/managing-project-and-solution-properties)

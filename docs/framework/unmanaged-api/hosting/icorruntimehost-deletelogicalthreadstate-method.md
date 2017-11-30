@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::DeleteLogicalThreadState Method | Microsoft Docs"
+title: "ICorRuntimeHost::DeleteLogicalThreadState Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::DeleteLogicalThreadState"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::DeleteLogicalThreadState method [.NET Framework hosting]"
   - "DeleteLogicalThreadState method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::ReleasedVirtualAddressSpace Method | Microsoft Docs"
+title: "IHostMemoryManager::ReleasedVirtualAddressSpace Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::ReleasedVirtualAddressSpace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ReleasedVirtualAddressSpace method [.NET Framework hosting]"
   - "IHostMemoryManager::ReleasedVirtualAddressSpace method [.NET Framework hosting]"

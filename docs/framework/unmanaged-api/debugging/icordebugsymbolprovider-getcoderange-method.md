@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugSymbolProvider::GetCodeRange Method | Microsoft Docs"
+title: "ICorDebugSymbolProvider::GetCodeRange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 49a2451f-d250-4e73-aa96-9ff49d9f11c6
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -55,5 +53,5 @@ HRESULT GetCodeRange(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)   
+ [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

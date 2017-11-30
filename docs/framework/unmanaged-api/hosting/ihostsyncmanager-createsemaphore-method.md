@@ -1,5 +1,5 @@
 ---
-title: "IHostSyncManager::CreateSemaphore Method | Microsoft Docs"
+title: "IHostSyncManager::CreateSemaphore Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostSyncManager::CreateSemaphore"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateSemaphore method [.NET Framework hosting]"
   - "IHostSyncManager::CreateSemaphore method [.NET Framework hosting]"
@@ -78,6 +76,6 @@ HRESULT CreateSemaphore (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)   
- [IHostSemaphore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsemaphore-interface.md)   
+ [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)  
+ [IHostSemaphore Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsemaphore-interface.md)  
  [IHostSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsyncmanager-interface.md)

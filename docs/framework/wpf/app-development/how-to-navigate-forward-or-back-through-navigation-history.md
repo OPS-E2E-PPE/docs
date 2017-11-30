@@ -1,5 +1,5 @@
 ---
-title: "How to: Navigate Forward or Back Through Navigation History | Microsoft Docs"
+title: "How to: Navigate Forward or Back Through Navigation History"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "history, navigation, navigating forward"
-  - "navigation, through navigation history (forward)"
+  - "history [WPF], navigating forward"
+  - "navigation [WPF], through navigation history (forward)"
 ms.assetid: 5939d574-5f53-469e-85f5-1f2b13607caa
 caps.latest.revision: 11
 author: dotnet-bot

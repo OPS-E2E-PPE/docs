@@ -1,5 +1,5 @@
 ---
-title: "XML Document Creation | Microsoft Docs"
+title: "XML Document Creation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 877e9c62-b082-4bfb-bc5b-f47297eb30ef
 caps.latest.revision: 4
 author: "mairaw"

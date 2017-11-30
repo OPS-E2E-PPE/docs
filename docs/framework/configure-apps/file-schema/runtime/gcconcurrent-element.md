@@ -1,5 +1,5 @@
 ---
-title: "&lt;gcConcurrent&gt; Element | Microsoft Docs"
+title: "&lt;gcConcurrent&gt; Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/runtime/gcConcurrent"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#gcConcurrent"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "container tags, <gcConcurrent> element"
   - "gcConcurrent element"
@@ -99,6 +94,6 @@ Specifies whether the common language runtime runs garbage collection on a separ
 ```  
   
 ## See Also  
- [Runtime Settings Schema](../../../../../docs/framework/configure-apps/file-schema/runtime/index.md)   
- [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)   
+ [Runtime Settings Schema](../../../../../docs/framework/configure-apps/file-schema/runtime/index.md)  
+ [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)  
  [Fundamentals of Garbage Collection](../../../../../docs/standard/garbage-collection/fundamentals.md)

@@ -1,5 +1,5 @@
 ---
-title: "How To: Change the Value of a Setting Between Application Sessions | Microsoft Docs"
+title: "How To: Change the Value of a Setting Between Application Sessions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms], changing"
   - "application settings [Windows Forms], between application sessions"
@@ -38,5 +36,5 @@ At times, you might want to change the value of a setting between application se
 3.  Type a new value for your setting and save the file.  
   
 ## See Also  
- [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)   
+ [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)  
  [Application Settings Overview](../../../../docs/framework/winforms/advanced/application-settings-overview.md)

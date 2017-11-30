@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedNamespace::GetVariables Method | Microsoft Docs"
+title: "ISymUnmanagedNamespace::GetVariables Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedNamespace::GetVariables"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedNamespace::GetVariables method [.NET Framework debugging]"
   - "GetVariables method, ISymUnmanagedNamespace interface [.NET Framework debugging]"

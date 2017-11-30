@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishEnum::Clone Method | Microsoft Docs"
+title: "ICorPublishEnum::Clone Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishEnum::Clone"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Clone method, ICorPublishEnum interface [.NET Framework debugging]"
   - "ICorPublishEnum::Clone method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Connect to a Database | Microsoft Docs"
+title: "How to: Connect to a Database"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: c33d74b3-530d-421b-a121-96786dd263a5
 caps.latest.revision: 2
 author: "JennieHubbard"

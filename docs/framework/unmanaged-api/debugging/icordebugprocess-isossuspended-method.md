@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::IsOSSuspended Method | Microsoft Docs"
+title: "ICorDebugProcess::IsOSSuspended Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::IsOSSuspended"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsOSSuspended method [.NET Framework debugging]"
   - "ICorDebugProcess::IsOSSuspended method [.NET Framework debugging]"

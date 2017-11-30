@@ -1,5 +1,5 @@
 ---
-title: "How to: Change Displayed Data at Run Time in the Windows Forms DataGrid Control | Microsoft Docs"
+title: "How to: Change Displayed Data at Run Time in the Windows Forms DataGrid Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "DataGrid control [Windows Forms], dynamically changing at run time"
   - "DataGrid control [Windows Forms], data binding"
-  - "cells, changing DataGrid cell values"
+  - "cells [Windows Forms], changing DataGrid cell values"
 ms.assetid: 0c7a6d00-30de-416e-8223-0a81ddb4c1f8
 caps.latest.revision: 16
 author: dotnet-bot
@@ -34,7 +36,7 @@ manager: "wpickett"
     > [!NOTE]
     >  To specify the first table of the <xref:System.Data.DataSet> or the first row of the table, use 0.  
   
-     The following example shows how to change the second entry of the first row of the first table of a dataset by clicking`Button1`. The <xref:System.Data.DataSet> (`ds`) and Tables (`0` and`1`) were previously created.  
+     The following example shows how to change the second entry of the first row of the first table of a dataset by clicking `Button1`. The <xref:System.Data.DataSet> (`ds`) and Tables (`0` and `1`) were previously created.  
   
     ```vb  
     Protected Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click  
@@ -98,7 +100,7 @@ manager: "wpickett"
     ```  
   
 ## See Also  
- [ADO.NET DataSets](../../../../docs/framework/data/adonet/ado-net-datasets.md)   
- [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)   
- [How to: Add Tables and Columns to the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-add-tables-and-columns-to-the-windows-forms-datagrid-control.md)   
+ [ADO.NET DataSets](../../../../docs/framework/data/adonet/ado-net-datasets.md)  
+ [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)  
+ [How to: Add Tables and Columns to the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-add-tables-and-columns-to-the-windows-forms-datagrid-control.md)  
  [How to: Bind the Windows Forms DataGrid Control to a Data Source](../../../../docs/framework/winforms/controls/how-to-bind-the-windows-forms-datagrid-control-to-a-data-source.md)

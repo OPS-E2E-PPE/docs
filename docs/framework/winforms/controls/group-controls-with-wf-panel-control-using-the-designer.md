@@ -1,5 +1,5 @@
 ---
-title: "How to: Group Controls with the Windows Forms Panel Control Using the Designer | Microsoft Docs"
+title: "How to: Group Controls with the Windows Forms Panel Control Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Panel control [Windows Forms], grouping controls"
   - "controls [Windows Forms], grouping"
@@ -38,6 +36,6 @@ Windows Forms <xref:System.Windows.Forms.Panel> controls are used to group other
 3.  (Optional) If you want to add a border to a panel, set its <xref:System.Windows.Forms.BorderStyle> property. There are three choices: <xref:System.Windows.Forms.BorderStyle.Fixed3D>, <xref:System.Windows.Forms.BorderStyle.FixedSingle>, and <xref:System.Windows.Forms.BorderStyle.None>.  
   
 ## See Also  
- [Panel Control](../../../../docs/framework/winforms/controls/panel-control-windows-forms.md)   
- [Panel Control Overview](../../../../docs/framework/winforms/controls/panel-control-overview-windows-forms.md)   
+ [Panel Control](../../../../docs/framework/winforms/controls/panel-control-windows-forms.md)  
+ [Panel Control Overview](../../../../docs/framework/winforms/controls/panel-control-overview-windows-forms.md)  
  [How to: Set the Background of a Panel](../../../../docs/framework/winforms/controls/how-to-set-the-background-of-a-windows-forms-panel.md)

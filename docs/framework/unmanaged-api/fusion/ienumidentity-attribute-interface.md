@@ -1,5 +1,5 @@
 ---
-title: "IEnumIDENTITY_ATTRIBUTE Interface | Microsoft Docs"
+title: "IEnumIDENTITY_ATTRIBUTE Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IEnumIDENTITY_ATTRIBUTE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IEnumIDENTITY_ATTRIBUTE interface [.NET Framework fusion]"
 ms.assetid: c2ec2748-e9ae-4e1b-80db-6fcec5cb81a1

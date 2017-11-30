@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::DefineField Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::DefineField Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::DefineField"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::DefineField method [.NET Framework debugging]"
   - "DefineField method, ISymUnmanagedWriter interface [.NET Framework debugging]"

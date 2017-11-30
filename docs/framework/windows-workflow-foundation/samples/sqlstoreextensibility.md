@@ -1,5 +1,5 @@
 ---
-title: "SQLStoreExtensibility | Microsoft Docs"
+title: "SQLStoreExtensibility"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -82,6 +82,6 @@ This sample demonstrates the use and configuration of promoted properties in the
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Basic\Persistence\SQLStoreExtensibility`  
   
 ## See Also  
- [Workflow Persistence](../../../../docs/framework/windows-workflow-foundation/workflow-persistence.md)   
- [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)   
+ [Workflow Persistence](../../../../docs/framework/windows-workflow-foundation/workflow-persistence.md)  
+ [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)  
  [AppFabric Hosting and Persistence Samples](http://go.microsoft.com/fwlink/?LinkId=193961)

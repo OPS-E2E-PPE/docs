@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute a Parameterized Entity SQL Query Using EntityCommand | Microsoft Docs"
+title: "How to: Execute a Parameterized Entity SQL Query Using EntityCommand"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: e93fea43-7e03-4d7d-9fee-2517b8b88cba
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -40,5 +37,5 @@ This topic shows how to execute an [!INCLUDE[esql](../../../../../includes/esql-
  [!code-vb[DP EntityServices Concepts#ParameterizedQueryWithEntityCommand](../../../../../samples/snippets/visualbasic/VS_Snippets_Data/dp entityservices concepts/vb/source.vb#parameterizedquerywithentitycommand)]  
   
 ## See Also  
- [How to: Execute a Parameterized Query](http://msdn.microsoft.com/en-us/42048f03-c65c-4d98-b50a-3e7d537a63e8)   
+ [How to: Execute a Parameterized Query](http://msdn.microsoft.com/en-us/42048f03-c65c-4d98-b50a-3e7d537a63e8)  
  [Entity SQL Language](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-language.md)

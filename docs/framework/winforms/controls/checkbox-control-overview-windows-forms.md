@@ -1,5 +1,5 @@
 ---
-title: "CheckBox Control Overview (Windows Forms) | Microsoft Docs"
+title: "CheckBox Control Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,14 +11,10 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "CheckBox"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "bound controls, check boxes"
   - "CheckBox control [Windows Forms], about CheckBox control"
-  - "data binding, checkbox controls"
-  - "data-bound controls, check boxes"
-  - "check boxes, about check boxes"
+  - "data binding [Windows Forms], checkbox controls"
+  - "check boxes [Windows Forms], about check boxes"
 ms.assetid: 085a4e0b-9046-473f-b141-d0edddfb2ebb
 caps.latest.revision: 8
 author: dotnet-bot
@@ -35,7 +31,7 @@ The Windows Forms <xref:System.Windows.Forms.CheckBox> control indicates whether
  The <xref:System.Windows.Forms.CheckBox> control has two important properties, <xref:System.Windows.Forms.CheckBox.Checked%2A> and <xref:System.Windows.Forms.CheckBox.CheckState%2A>. The <xref:System.Windows.Forms.CheckBox.Checked%2A> property returns either `true` or `false`. The <xref:System.Windows.Forms.CheckBox.CheckState%2A> property returns either <xref:System.Windows.Forms.CheckState.Checked> or <xref:System.Windows.Forms.CheckState.Unchecked>; or, if the <xref:System.Windows.Forms.CheckBox.ThreeState%2A> property is set to `true`, <xref:System.Windows.Forms.CheckBox.CheckState%2A> may also return <xref:System.Windows.Forms.CheckState.Indeterminate>. In the indeterminate state, the box is displayed with a dimmed appearance to indicate the option is unavailable.  
   
 ## See Also  
- <xref:System.Windows.Forms.CheckBox>   
- [How to: Set Options with Windows Forms CheckBox Controls](../../../../docs/framework/winforms/controls/how-to-set-options-with-windows-forms-checkbox-controls.md)   
- [How to: Respond to Windows Forms CheckBox Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-checkbox-clicks.md)   
+ <xref:System.Windows.Forms.CheckBox>  
+ [How to: Set Options with Windows Forms CheckBox Controls](../../../../docs/framework/winforms/controls/how-to-set-options-with-windows-forms-checkbox-controls.md)  
+ [How to: Respond to Windows Forms CheckBox Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-checkbox-clicks.md)  
  [CheckBox Control](../../../../docs/framework/winforms/controls/checkbox-control-windows-forms.md)

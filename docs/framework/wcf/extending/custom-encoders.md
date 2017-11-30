@@ -1,5 +1,5 @@
 ---
-title: "Custom Encoders | Microsoft Docs"
+title: "Custom Encoders"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -98,9 +98,9 @@ This topic discusses how to create custom encoders.
  There are two samples provided with [!INCLUDE[indigo2](../../../../includes/indigo2-md.md)] that illustrate this process with sample code: [Custom Message Encoder: Custom Text Encoder](../../../../docs/framework/wcf/samples/custom-message-encoder-custom-text-encoder.md) and [Custom Message Encoder: Compression Encoder](../../../../docs/framework/wcf/samples/custom-message-encoder-compression-encoder.md).  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.MessageEncodingBindingElement>   
- <xref:System.ServiceModel.Channels.MessageEncoderFactory>   
- <xref:System.ServiceModel.Channels.MessageEncoder>   
- [Data Transfer Architectural Overview](../../../../docs/framework/wcf/feature-details/data-transfer-architectural-overview.md)   
- [Choosing a Message Encoder](../../../../docs/framework/wcf/feature-details/choosing-a-message-encoder.md)   
+ <xref:System.ServiceModel.Channels.MessageEncodingBindingElement>  
+ <xref:System.ServiceModel.Channels.MessageEncoderFactory>  
+ <xref:System.ServiceModel.Channels.MessageEncoder>  
+ [Data Transfer Architectural Overview](../../../../docs/framework/wcf/feature-details/data-transfer-architectural-overview.md)  
+ [Choosing a Message Encoder](../../../../docs/framework/wcf/feature-details/choosing-a-message-encoder.md)  
  [Choosing a Transport](../../../../docs/framework/wcf/feature-details/choosing-a-transport.md)

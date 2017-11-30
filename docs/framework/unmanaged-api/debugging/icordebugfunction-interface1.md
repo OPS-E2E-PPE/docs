@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction Interface1 | Microsoft Docs"
+title: "ICorDebugFunction Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunction interface [.NET Framework debugging]"
 ms.assetid: 783faea9-8083-41c1-b04a-51a81ac4c8f3

@@ -1,5 +1,5 @@
 ---
-title: "IHostThreadPoolManager::GetMaxThreads Method | Microsoft Docs"
+title: "IHostThreadPoolManager::GetMaxThreads Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostThreadPoolManager::GetMaxThreads"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostThreadPoolManager::GetMaxThreads method [.NET Framework hosting]"
   - "GetMaxThreads method, IHostThreadPoolManager interface [.NET Framework hosting]"
@@ -72,8 +70,8 @@ HRESULT GetMaxThreads (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- <xref:System.Threading.ThreadPool.GetMaxThreads%2A>   
- <xref:System.Threading.ThreadPool>   
- [GetMinThreads Method](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-getminthreads-method.md)   
- [SetMaxThreads Method](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-setmaxthreads-method.md)   
+ <xref:System.Threading.ThreadPool.GetMaxThreads%2A>  
+ <xref:System.Threading.ThreadPool>  
+ [GetMinThreads Method](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-getminthreads-method.md)  
+ [SetMaxThreads Method](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-setmaxthreads-method.md)  
  [IHostThreadPoolManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostthreadpoolmanager-interface.md)

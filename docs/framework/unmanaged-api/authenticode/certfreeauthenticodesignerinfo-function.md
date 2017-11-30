@@ -1,5 +1,5 @@
 ---
-title: "CertFreeAuthenticodeSignerInfo Function | Microsoft Docs"
+title: "CertFreeAuthenticodeSignerInfo Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "clr.dll"
 api_type: 
   - "DLLExport"
-dev_langs: 
-  - "C++"
 ms.assetid: 8029633c-b6e4-4665-a7c2-89607c3247ef
 caps.latest.revision: 8
 author: "rpetrusha"

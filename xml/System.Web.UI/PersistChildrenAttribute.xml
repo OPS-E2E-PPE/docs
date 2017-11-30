@@ -21,7 +21,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The <xref:System.Web.UI.PersistChildrenAttribute> is used in combination with the <xref:System.Web.UI.ParseChildrenAttribute> to determine how nested content of a control is interpreted. If <xref:System.Web.UI.PersistChildrenAttribute> is `true` and <xref:System.Web.UI.ParseChildrenAttribute> is `false`, the nested content contained within an ASP.NET server control is persisted as controls. If <xref:System.Web.UI.PersistChildrenAttribute> is `false` and <xref:System.Web.UI.ParseChildrenAttribute> is `true`, the nested content is persisted as properties of the server control. For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+ The <xref:System.Web.UI.PersistChildrenAttribute> is used in combination with the <xref:System.Web.UI.ParseChildrenAttribute> to determine how nested content of a control is interpreted. If <xref:System.Web.UI.PersistChildrenAttribute> is `true` and <xref:System.Web.UI.ParseChildrenAttribute> is `false`, the nested content contained within an ASP.NET server control is persisted as controls. If <xref:System.Web.UI.PersistChildrenAttribute> is `false` and <xref:System.Web.UI.ParseChildrenAttribute> is `true`, the nested content is persisted as properties of the server control. For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
    
   
@@ -35,11 +35,13 @@
   
  The following code example demonstrates how to use the `CollectionPropertyControl` and `Employee` classes in an ASP.NET page.  
   
- <!-- TODO: review snippet reference [!code-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]  -->
- <!-- TODO: review snippet reference [!code-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  -->  
+ [!code-aspx-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]
+ [!code-aspx-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Attribute" />
+    <altmember cref="T:System.Web.UI.ParseChildrenAttribute" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -71,6 +73,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Web.UI.Control" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -117,6 +120,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Web.UI.PersistChildrenAttribute.Yes" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -186,11 +190,12 @@
   
  This code example is part of a larger example provided for the <xref:System.Web.UI.PersistChildrenAttribute> class.  
   
- <!-- TODO: review snippet reference [!code-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]  -->
- <!-- TODO: review snippet reference [!code-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  -->  
+ [!code-aspx-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]
+ [!code-aspx-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Web.UI.PersistChildrenAttribute.Default" />
       </Docs>
     </Member>
     <Member MemberName="No">
@@ -215,6 +220,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Web.UI.PersistChildrenAttribute.Yes" />
       </Docs>
     </Member>
     <Member MemberName="Persist">
@@ -241,11 +247,13 @@
   
  This code example is part of a larger example provided for the <xref:System.Web.UI.PersistChildrenAttribute> class.  
   
- <!-- TODO: review snippet reference [!code-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]  -->
- <!-- TODO: review snippet reference [!code-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  -->  
+ [!code-aspx-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]
+ [!code-aspx-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Web.UI.PersistChildrenAttribute.UsesCustomPersistence" />
+        <altmember cref="M:System.Web.UI.PersistChildrenAttribute.IsDefaultAttribute" />
       </Docs>
     </Member>
     <Member MemberName="UsesCustomPersistence">
@@ -277,11 +285,12 @@
   
  This code example is part of a larger example provided for the <xref:System.Web.UI.PersistChildrenAttribute> class.  
   
- <!-- TODO: review snippet reference [!code-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]  -->
- <!-- TODO: review snippet reference [!code-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  -->  
+ [!code-aspx-csharp[PersistChildrenAttribute_Sample#3](~/samples/snippets/csharp/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/CS/persistchildren.aspx#3)]
+ [!code-aspx-vb[PersistChildrenAttribute_Sample#3](~/samples/snippets/visualbasic/VS_Snippets_WebNet/PersistChildrenAttribute_Sample/VB/persistchildren.aspx#3)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Web.UI.PersistChildrenAttribute.#ctor(System.Boolean,System.Boolean)" />
       </Docs>
     </Member>
     <Member MemberName="Yes">
@@ -306,7 +315,17 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Web.UI.PersistChildrenAttribute.No" />
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Web</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Web.UI.PersistChildrenAttribute" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

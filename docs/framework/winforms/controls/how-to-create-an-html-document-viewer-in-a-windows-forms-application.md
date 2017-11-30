@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an HTML Document Viewer in a Windows Forms Application | Microsoft Docs"
+title: "How to: Create an HTML Document Viewer in a Windows Forms Application"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "WebBrowser control [Windows Forms], creating an HTML document viewer"
   - "document viewers"
@@ -44,10 +45,10 @@ You can use the <xref:System.Windows.Forms.WebBrowser> control to display and pr
 -   References to the `System` and `System.Windows.Forms` assemblies.  
   
 ## See Also  
- <xref:System.Windows.Forms.WebBrowser>   
- <xref:System.Windows.Forms.WebBrowser.AllowWebBrowserDrop%2A>   
- <xref:System.Windows.Forms.WebBrowser.Url%2A>   
- [WebBrowser Control Overview](../../../../docs/framework/winforms/controls/webbrowser-control-overview.md)   
- [WebBrowser Security](../../../../docs/framework/winforms/controls/webbrowser-security.md)   
- [How to: Navigate to a URL with the WebBrowser Control](../../../../docs/framework/winforms/controls/how-to-navigate-to-a-url-with-the-webbrowser-control.md)   
+ <xref:System.Windows.Forms.WebBrowser>  
+ <xref:System.Windows.Forms.WebBrowser.AllowWebBrowserDrop%2A>  
+ <xref:System.Windows.Forms.WebBrowser.Url%2A>  
+ [WebBrowser Control Overview](../../../../docs/framework/winforms/controls/webbrowser-control-overview.md)  
+ [WebBrowser Security](../../../../docs/framework/winforms/controls/webbrowser-security.md)  
+ [How to: Navigate to a URL with the WebBrowser Control](../../../../docs/framework/winforms/controls/how-to-navigate-to-a-url-with-the-webbrowser-control.md)  
  [How to: Print with a WebBrowser Control](../../../../docs/framework/winforms/controls/how-to-print-with-a-webbrowser-control.md)

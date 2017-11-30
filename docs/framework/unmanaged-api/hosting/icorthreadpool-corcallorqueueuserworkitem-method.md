@@ -1,5 +1,5 @@
 ---
-title: "ICorThreadpool::CorCallOrQueueUserWorkItem Method | Microsoft Docs"
+title: "ICorThreadpool::CorCallOrQueueUserWorkItem Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorCallOrQueueUserWorkItem"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorThreadpool::CorCallOrQueueUserWorkItem method [.NET Framework hosting]"
   - "CorCallOrQueueUserWorkItem method [.NET Framework hosting]"

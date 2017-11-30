@@ -1,5 +1,5 @@
 ---
-title: "Oracle Distributed Transactions | Microsoft Docs"
+title: "Oracle Distributed Transactions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -25,5 +25,5 @@ Enlist=false
  as a connection string parameter for an <xref:System.Data.OracleClient.OracleConnection>.  
   
 ## See Also  
- [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)   
+ [Oracle and ADO.NET](../../../../docs/framework/data/adonet/oracle-and-adonet.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

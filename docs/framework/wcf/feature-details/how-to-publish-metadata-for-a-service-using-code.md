@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish Metadata for a Service Using Code | Microsoft Docs"
+title: "How to: Publish Metadata for a Service Using Code"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 51407e6d-4d87-42d5-be7c-9887b8652006
 caps.latest.revision: 19
 author: "Erikre"
@@ -90,8 +93,8 @@ This is one of two how-to topics that discuss publishing metadata for a [!INCLUD
  [!code-vb[htPublishMetadataCode#11](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/htpublishmetadatacode/vb/program.vb#11)]  
   
 ## See Also  
- [How to: Host a WCF Service in a Managed Application](../../../../docs/framework/wcf/how-to-host-a-wcf-service-in-a-managed-application.md)   
- [Self-Host](../../../../docs/framework/wcf/samples/self-host.md)   
- [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)   
- [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)   
+ [How to: Host a WCF Service in a Managed Application](../../../../docs/framework/wcf/how-to-host-a-wcf-service-in-a-managed-application.md)  
+ [Self-Host](../../../../docs/framework/wcf/samples/self-host.md)  
+ [Metadata Architecture Overview](../../../../docs/framework/wcf/feature-details/metadata-architecture-overview.md)  
+ [Using Metadata](../../../../docs/framework/wcf/feature-details/using-metadata.md)  
  [How to: Publish Metadata for a Service Using a Configuration File](../../../../docs/framework/wcf/feature-details/how-to-publish-metadata-for-a-service-using-a-configuration-file.md)

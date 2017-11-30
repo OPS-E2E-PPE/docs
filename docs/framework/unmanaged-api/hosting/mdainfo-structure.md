@@ -1,5 +1,5 @@
 ---
-title: "MDAInfo Structure | Microsoft Docs"
+title: "MDAInfo Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "MDAInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "MDAInfo structure [.NET Framework hosting]"
 ms.assetid: fb8c14f7-d461-43d1-8b47-adb6723b9b93
@@ -69,5 +67,5 @@ typedef struct _MDAInfo {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)   
+ [Hosting Structures](../../../../docs/framework/unmanaged-api/hosting/hosting-structures.md)  
  [Diagnosing Errors with Managed Debugging Assistants](../../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

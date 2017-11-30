@@ -1,5 +1,5 @@
 ---
-title: "CreateInstallReferenceEnum Function | Microsoft Docs"
+title: "CreateInstallReferenceEnum Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CreateInstallReference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateInstallReference function [.NET Framework fusion]"
 ms.assetid: 80dbbbf8-54fc-4894-b74a-0179d3201083
@@ -68,6 +66,6 @@ HRESULT CreateInstallReferenceEnum (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IInstallReferenceEnum Interface](../../../../docs/framework/unmanaged-api/fusion/iinstallreferenceenum-interface.md)   
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IInstallReferenceEnum Interface](../../../../docs/framework/unmanaged-api/fusion/iinstallreferenceenum-interface.md)  
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)

@@ -1,5 +1,5 @@
 ---
-title: "Configuration Sample | Microsoft Docs"
+title: "Configuration Sample"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -45,7 +45,7 @@ This sample demonstrates the use of a configuration file to make a service disco
   
  The following config snippet shows a service with an application endpoint and a discovery endpoint defined:  
   
-```vb  
+```xml
 <services>  
         <service name="Microsoft.Samples.Discovery.CalculatorService"  
                  behaviorConfiguration="calculatorServiceBehavior">  

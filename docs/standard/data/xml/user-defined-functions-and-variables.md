@@ -1,5 +1,5 @@
 ---
-title: "User Defined Functions and Variables | Microsoft Docs"
+title: "User Defined Functions and Variables"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 4772f20e-1e7f-496e-93c2-1484473be555
 caps.latest.revision: 2
 author: "mairaw"

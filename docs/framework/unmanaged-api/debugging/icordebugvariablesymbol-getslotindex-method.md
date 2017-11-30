@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugVariableSymbol::GetSlotIndex Method | Microsoft Docs"
+title: "ICorDebugVariableSymbol::GetSlotIndex Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 09c19f5f-afc4-4e0c-bffe-cd7147bc7a43
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -51,5 +49,5 @@ HRESULT GetSlotIndex(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugVariableSymbol Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvariablesymbol-interface.md)   
+ [ICorDebugVariableSymbol Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvariablesymbol-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

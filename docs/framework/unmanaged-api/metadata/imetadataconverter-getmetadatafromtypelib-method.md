@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataConverter::GetMetaDataFromTypeLib Method | Microsoft Docs"
+title: "IMetaDataConverter::GetMetaDataFromTypeLib Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataConverter::GetMetaDataFromTypeLib"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataConverter::GetMetaDataFromTypeLib method [.NET Framework metadata]"
   - "GetMetaDataFromTypeLib method [.NET Framework metadata]"
@@ -59,5 +57,5 @@ HRESULT GetMetaDataFromTypeLib (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)   
+ [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)  
  [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)

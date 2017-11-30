@@ -1,5 +1,5 @@
 ---
-title: "IcorDebugVariableHome::GetLiveRange Method | Microsoft Docs"
+title: "IcorDebugVariableHome::GetLiveRange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugVariableHome::GetLiveRange"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugVariableHome::GetLiveRange method [.NET Framework debugging]"
   - "GetLiveRange method, ICorDebugVariableFrame interface [.NET Framework debugging]"

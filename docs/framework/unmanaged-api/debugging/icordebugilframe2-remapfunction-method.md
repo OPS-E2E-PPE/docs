@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugILFrame2::RemapFunction Method | Microsoft Docs"
+title: "ICorDebugILFrame2::RemapFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugILFrame2::RemapFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugILFrame2::RemapFunction method [.NET Framework debugging]"
   - "RemapFunction method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: ".NET Framework Data Providers | Microsoft Docs"
+title: ".NET Framework Data Providers"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 03a9fc62-2d24-491a-9fe6-d6bdb6dcb131
 caps.latest.revision: 13
 author: "JennieHubbard"
@@ -135,7 +138,7 @@ using System.Data.Odbc;
   
  [!INCLUDE[dnprdnshort](../../../../includes/dnprdnshort-md.md)] Data Provider for Oracle classes are located in the <xref:System.Data.OracleClient> namespace and are contained in the `System.Data.OracleClient.dll` assembly. You must reference both the `System.Data.dll` and the `System.Data.OracleClient.dll` when you compile an application that uses the data provider.  
   
- The following code example shows how to include the `System.Data.OracleClient`namespace in your applications.  
+ The following code example shows how to include the `System.Data.OracleClient` namespace in your applications.  
   
 ```vb  
 Imports System.Data  
@@ -161,6 +164,6 @@ using System.Data.OracleClient;
  The EntityClient provider is used for accessing data based on an Entity Data Model (EDM). Unlike the other .NET Framework data providers, it does not interact directly with a data source. Instead, it uses Entity SQL to communicate with the underlying data provider. For more information, see [EntityClient and Entity SQL](http://msdn.microsoft.com/en-us/49202ab9-ac98-4b4b-a05c-140e422bf527).  
   
 ## See Also  
- [ADO.NET Overview](../../../../docs/framework/data/adonet/ado-net-overview.md)   
- [Retrieving and Modifying Data in ADO.NET](../../../../docs/framework/data/adonet/retrieving-and-modifying-data.md)   
+ [ADO.NET Overview](../../../../docs/framework/data/adonet/ado-net-overview.md)  
+ [Retrieving and Modifying Data in ADO.NET](../../../../docs/framework/data/adonet/retrieving-and-modifying-data.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

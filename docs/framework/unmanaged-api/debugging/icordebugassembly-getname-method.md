@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly::GetName Method | Microsoft Docs"
+title: "ICorDebugAssembly::GetName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAssembly::GetName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAssembly::GetName method [.NET Framework debugging]"
   - "GetName method, ICorDebugAssembly interface [.NET Framework debugging]"

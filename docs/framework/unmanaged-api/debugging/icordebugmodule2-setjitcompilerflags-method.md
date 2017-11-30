@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule2::SetJITCompilerFlags Method | Microsoft Docs"
+title: "ICorDebugModule2::SetJITCompilerFlags Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule2::SetJITCompilerFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule2::SetJITCompilerFlags method [.NET Framework debugging]"
   - "SetJITCompilerFlags method [.NET Framework debugging]"

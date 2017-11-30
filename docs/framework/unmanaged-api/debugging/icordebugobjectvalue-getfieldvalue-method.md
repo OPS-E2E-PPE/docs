@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue::GetFieldValue Method | Microsoft Docs"
+title: "ICorDebugObjectValue::GetFieldValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue::GetFieldValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugObjectValue::GetFieldValue method [.NET Framework debugging]"
   - "GetFieldValue method [.NET Framework debugging]"

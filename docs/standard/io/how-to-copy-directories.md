@@ -1,5 +1,5 @@
 ---
-title: "How to: Copy Directories | Microsoft Docs"
+title: "How to: Copy Directories"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "directory copying"
   - "I/O [.NET Framework], copying directories"
@@ -30,9 +33,9 @@ This example demonstrates how to use I/O classes to synchronously copy the conte
  [!code-vb[System.IO.Directory_Copy#1](../../../samples/snippets/visualbasic/VS_Snippets_CLR_System/system.IO.Directory_Copy/vb/Program.vb#1)]  
   
 ## See Also  
- <xref:System.IO.FileInfo>   
- <xref:System.IO.DirectoryInfo>   
- <xref:System.IO.FileStream>   
- [File and Stream I/O](../../../docs/standard/io/index.md)   
- [Common I/O Tasks](../../../docs/standard/io/common-i-o-tasks.md)   
+ <xref:System.IO.FileInfo>  
+ <xref:System.IO.DirectoryInfo>  
+ <xref:System.IO.FileStream>  
+ [File and Stream I/O](../../../docs/standard/io/index.md)  
+ [Common I/O Tasks](../../../docs/standard/io/common-i-o-tasks.md)  
  [Asynchronous File I/O](../../../docs/standard/io/asynchronous-file-i-o.md)

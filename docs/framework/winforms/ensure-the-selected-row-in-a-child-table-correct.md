@@ -1,5 +1,5 @@
 ---
-title: "How to: Ensure the Selected Row in a Child Table Remains at the Correct Position | Microsoft Docs"
+title: "How to: Ensure the Selected Row in a Child Table Remains at the Correct Position"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "master-details view"
   - "row position [Windows Forms]"
@@ -89,6 +90,6 @@ Oftentimes when you work with data binding in Windows Forms, you will display da
  For information about how to build this example from the command line for [!INCLUDE[vbprvb](../../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../../includes/csprcs-md.md)], see [Building from the Command Line](~/docs/visual-basic/reference/command-line-compiler/building-from-the-command-line.md) or [Command-line Building With csc.exe](~/docs/csharp/language-reference/compiler-options/command-line-building-with-csc-exe.md). You can also build this example in [!INCLUDE[vsprvs](../../../includes/vsprvs-md.md)] by pasting the code into a new project.  Also see [How to: Compile and Run a Complete Windows Forms Code Example Using Visual Studio](http://msdn.microsoft.com/library/Bb129228\(v=vs.110\)).  
   
 ## See Also  
- [How to: Ensure Multiple Controls Bound to the Same Data Source Remain Synchronized](../../../docs/framework/winforms/multiple-controls-bound-to-data-source-synchronized.md)   
- [BindingSource Component](../../../docs/framework/winforms/controls/bindingsource-component.md)   
+ [How to: Ensure Multiple Controls Bound to the Same Data Source Remain Synchronized](../../../docs/framework/winforms/multiple-controls-bound-to-data-source-synchronized.md)  
+ [BindingSource Component](../../../docs/framework/winforms/controls/bindingsource-component.md)  
  [Data Binding and Windows Forms](../../../docs/framework/winforms/data-binding-and-windows-forms.md)

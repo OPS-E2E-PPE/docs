@@ -1,5 +1,5 @@
 ---
-title: "Arranging Controls on Windows Forms | Microsoft Docs"
+title: "Arranging Controls on Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VisualSelection"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "controls [Windows Forms], positioning"
   - "Windows Forms controls, positioning on form"

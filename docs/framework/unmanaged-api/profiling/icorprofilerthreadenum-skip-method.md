@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerThreadEnum::Skip Method | Microsoft Docs"
+title: "ICorProfilerThreadEnum::Skip Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerThreadEnum::Skip"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Skip method, ICorProfilerThreadEnum interface [.NET Framework profiling]"
   - "ICorProfilerThreadEnum::Skip method [.NET Framework profiling]"
@@ -65,5 +63,5 @@ HRESULT Skip (    [in] ULONG celt
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorProfilerThreadEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerthreadenum-interface.md)   
+ [ICorProfilerThreadEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerthreadenum-interface.md)  
  [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)

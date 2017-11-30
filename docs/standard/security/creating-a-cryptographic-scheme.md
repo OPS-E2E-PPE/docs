@@ -1,5 +1,5 @@
 ---
-title: "Creating a Cryptographic Scheme | Microsoft Docs"
+title: "Creating a Cryptographic Scheme"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "encryption [.NET Framework], creating cryptographic schemes"
   - "cryptography [.NET Framework], creating cryptographic schemes"

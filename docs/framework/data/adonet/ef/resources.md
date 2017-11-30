@@ -1,5 +1,5 @@
 ---
-title: "Entity Framework Resources | Microsoft Docs"
+title: "Entity Framework Resources"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 0bb04c18-4a14-42a4-baa9-a63d556c9f49
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -38,7 +34,7 @@ The following external resources provide information and support for creating En
  Blog containing frequently asked questions about the Entity Framework.  
   
 ## See Also  
- [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)   
- [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)   
- [Entity Framework Terminology](../../../../../docs/framework/data/adonet/ef/terminology.md)   
+ [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)  
+ [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)  
+ [Entity Framework Terminology](../../../../../docs/framework/data/adonet/ef/terminology.md)  
  [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)

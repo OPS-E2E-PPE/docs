@@ -1,5 +1,5 @@
 ---
-title: "How To: Add Multiple Sets of Settings To Your Application in C# | Microsoft Docs"
+title: "How To: Add Multiple Sets of Settings To Your Application in C#"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms], multiple sets"
   - "application settings [Windows Forms], C#"
@@ -34,5 +32,5 @@ In some cases, you might want to have multiple sets of settings in an applicatio
 4.  Add and use settings in this file as you would any other settings file. You can access this group of settings via the Properties.Settings object.  
   
 ## See Also  
- [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)   
+ [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)  
  [Application Settings Overview](../../../../docs/framework/winforms/advanced/application-settings-overview.md)

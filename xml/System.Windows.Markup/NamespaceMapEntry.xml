@@ -23,12 +23,14 @@
 ## Remarks  
  This type is specific to the WPF implementation of XAML. If you use it in a general XAML implementation, you must include the WPF assemblies.  
   
- Alternative techniques that do not require including WPF assemblies include referencing the XAML schema context (available in a service provider context from <xref:System.Xaml.IXamlSchemaContextProvider>, or from <xref:System.Xaml.XamlObjectWriter.SchemaContext%2A?displayProperty=fullName> from a XAML node loop or general XAML writer frame of reference.) The XAML schema context includes API for returning its assemblies, preferred prefix mappings, and XAML namespace information.  
+ Alternative techniques that do not require including WPF assemblies include referencing the XAML schema context (available in a service provider context from <xref:System.Xaml.IXamlSchemaContextProvider>, or from <xref:System.Xaml.XamlObjectWriter.SchemaContext%2A?displayProperty=nameWithType> from a XAML node loop or general XAML writer frame of reference.) The XAML schema context includes API for returning its assemblies, preferred prefix mappings, and XAML namespace information.  
   
 <a name="xamlTextUsage_NamespaceMapEntry"></a>   
 ## XAML Text Usage  
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
+    <altmember cref="T:System.Windows.Markup.XmlnsDefinitionAttribute" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -44,6 +46,7 @@
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Markup.NamespaceMapEntry" /> class.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -69,7 +72,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Use the "simple name" form for `assemblyName`. In particular, do not specify pathing, and do not include the file extension. This is analogous to the form that might be reported by <xref:System.Reflection.AssemblyName.Name%2A?displayProperty=fullName>. Paths are specified separately; see <xref:System.Windows.Markup.XamlTypeMapper.SetAssemblyPath%2A?displayProperty=fullName>.  
+ Use the "simple name" form for `assemblyName`. In particular, do not specify pathing, and do not include the file extension. This is analogous to the form that might be reported by <xref:System.Reflection.AssemblyName.Name%2A?displayProperty=nameWithType>. Paths are specified separately; see <xref:System.Windows.Markup.XamlTypeMapper.SetAssemblyPath%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -83,6 +86,7 @@
  -or-  
   
  <paramref name="clrNamespace" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
       </Docs>
     </Member>
     <Member MemberName="AssemblyName">
@@ -104,13 +108,14 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- Use the "simple name" form for <xref:System.Windows.Markup.NamespaceMapEntry.AssemblyName%2A>. In particular, do not specify the full path, and do not include the file extension. This is analogous to the form that might be reported by <xref:System.Reflection.AssemblyName.Name%2A?displayProperty=fullName>.  
+ Use the "simple name" form for <xref:System.Windows.Markup.NamespaceMapEntry.AssemblyName%2A>. In particular, do not specify the full path, and do not include the file extension. This is analogous to the form that might be reported by <xref:System.Reflection.AssemblyName.Name%2A?displayProperty=nameWithType>.  
   
 <a name="xamlTextUsage_AssemblyName"></a>   
 ## XAML Text Usage  
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The value <see cref="P:System.Windows.Markup.NamespaceMapEntry.AssemblyName" /> is being set to is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
       </Docs>
     </Member>
     <Member MemberName="ClrNamespace">
@@ -138,6 +143,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The value <see cref="P:System.Windows.Markup.NamespaceMapEntry.ClrNamespace" /> is being set to is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
       </Docs>
     </Member>
     <Member MemberName="XmlNamespace">
@@ -165,7 +171,17 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The value <see cref="P:System.Windows.Markup.NamespaceMapEntry.XmlNamespace" /> is being set to is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Markup.XamlTypeMapper" />
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationFramework</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Markup.NamespaceMapEntry" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

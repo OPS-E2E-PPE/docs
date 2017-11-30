@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::StepOut Method | Microsoft Docs"
+title: "ICorDebugStepper::StepOut Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::StepOut"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStepper::StepOut method [.NET Framework debugging]"
   - "StepOut method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "Eliminate Duplicate Elements from a Sequence | Microsoft Docs"
+title: "Eliminate Duplicate Elements from a Sequence"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 2b224a84-bad5-4843-adcc-14e784d280f5
 caps.latest.revision: 2
 author: "JennieHubbard"

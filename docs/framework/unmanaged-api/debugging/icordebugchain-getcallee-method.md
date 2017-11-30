@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::GetCallee Method | Microsoft Docs"
+title: "ICorDebugChain::GetCallee Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugChain::GetCallee method"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugChain::GetCallee method [.NET Framework debugging]"
   - "GetCallee method, ICorDebugChain interface [.NET Framework debugging]"

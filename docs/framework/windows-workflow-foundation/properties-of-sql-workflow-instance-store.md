@@ -1,5 +1,5 @@
 ---
-title: "Properties of SQL Workflow Instance Store | Microsoft Docs"
+title: "Properties of SQL Workflow Instance Store"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -31,5 +31,5 @@ The topics in this section provide details about properties of the SQL Workflow 
 -   [Connection String and Connection String Name](../../../docs/framework/windows-workflow-foundation/connection-string-and-connection-string-name.md)  
   
 ## See Also  
- [Windows Server App Fabric Instance Store](http://go.microsoft.com/fwlink/?LinkId=201201)   
+ [Windows Server App Fabric Instance Store](http://go.microsoft.com/fwlink/?LinkId=201201)  
  [App Fabric SQL Server Persistence Database](http://go.microsoft.com/fwlink/?LinkId=201202)

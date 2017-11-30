@@ -1,5 +1,5 @@
 ---
-title: "How to: Anticipate Out-of-Space Conditions with Isolated Storage | Microsoft Docs"
+title: "How to: Anticipate Out-of-Space Conditions with Isolated Storage"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "data stores, quotas"
   - "isolated storage, quotas"
@@ -44,6 +48,6 @@ Code that uses isolated storage is constrained by a [quota](../../../docs/standa
  [!code-vb[Conceptual.IsolatedStorage#8](../../../samples/snippets/visualbasic/VS_Snippets_CLR/conceptual.isolatedstorage/vb/source7.vb#8)]  
   
 ## See Also  
- <xref:System.IO.IsolatedStorage.IsolatedStorageFile>   
- [Isolated Storage](../../../docs/standard/io/isolated-storage.md)   
+ <xref:System.IO.IsolatedStorage.IsolatedStorageFile>  
+ [Isolated Storage](../../../docs/standard/io/isolated-storage.md)  
  [How to: Obtain Stores for Isolated Storage](../../../docs/standard/io/how-to-obtain-stores-for-isolated-storage.md)

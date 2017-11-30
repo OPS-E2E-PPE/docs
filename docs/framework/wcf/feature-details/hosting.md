@@ -1,5 +1,5 @@
 ---
-title: "Hosting2 | Microsoft Docs"
+title: "Hosting2"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -40,5 +40,5 @@ The topics in the section describe service hosting. A service can be hosted by I
  Describes how to specify multiple base addresses for a service using the same URI scheme on a single Web site.  
   
 ## See Also  
- [Hosting Services](../../../../docs/framework/wcf/hosting-services.md)   
+ [Hosting Services](../../../../docs/framework/wcf/hosting-services.md)  
  [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=201276)

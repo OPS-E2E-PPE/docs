@@ -1,5 +1,5 @@
 ---
-title: "SetManifestFile Method | Microsoft Docs"
+title: "SetManifestFile Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SetManifestFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetManifestFile method"
 ms.assetid: 1b33de4c-19cb-4a36-a93f-8675b2a36d58
@@ -55,7 +53,7 @@ HRESULT SetManifestFile(
  Requires aLink.h  
   
 ## See Also  
- [IALink3 Interface](../../../../docs/framework/unmanaged-api/alink/ialink3-interface.md)   
- [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)   
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
+ [IALink3 Interface](../../../../docs/framework/unmanaged-api/alink/ialink3-interface.md)  
+ [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)  
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
  [Al.exe (Assembly Linker)](../../../../docs/framework/tools/al-exe-assembly-linker.md)

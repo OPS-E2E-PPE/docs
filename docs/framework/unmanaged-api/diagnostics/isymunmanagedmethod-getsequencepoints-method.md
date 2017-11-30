@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod::GetSequencePoints Method | Microsoft Docs"
+title: "ISymUnmanagedMethod::GetSequencePoints Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod::GetSequencePoints"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedMethod::GetSequencePoints method [.NET Framework debugging]"
   - "GetSequencePoints method [.NET Framework debugging]"

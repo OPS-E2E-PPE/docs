@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugDataTarget2::GetSymbolProviderForImage Method | Microsoft Docs"
+title: "ICorDebugDataTarget2::GetSymbolProviderForImage Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: b7c0a2f0-e904-43b3-98e1-d669e8a589e8
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -51,5 +49,5 @@ HRESULT GetSymbolProviderForImage(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget2-interface.md)   
+ [ICorDebugDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget2-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

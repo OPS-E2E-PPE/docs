@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen::AddSectionReloc Method | Microsoft Docs"
+title: "ICeeGen::AddSectionReloc Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen::AddSectionReloc"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AddSectionReloc method [.NET Framework metadata]"
   - "ICeeGen::AddSectionReloc method [.NET Framework metadata]"

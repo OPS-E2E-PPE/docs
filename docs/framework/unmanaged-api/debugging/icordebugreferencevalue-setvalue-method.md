@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugReferenceValue::SetValue Method | Microsoft Docs"
+title: "ICorDebugReferenceValue::SetValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugReferenceValue::SetValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetValue method, ICorDebugReferenceValue interface [.NET Framework debugging]"
   - "ICorDebugReferenceValue::SetValue method [.NET Framework debugging]"

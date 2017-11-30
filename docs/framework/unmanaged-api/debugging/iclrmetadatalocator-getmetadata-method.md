@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetadataLocator::GetMetadata Method | Microsoft Docs"
+title: "ICLRMetadataLocator::GetMetadata Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetadataLocator::GetMetadata"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMetadata method, ICLRMetadataLocator interface [.NET Framework debugging]"
   - "ICLRMetadataLocator::GetMetadata method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RemotingClientReceivingReply Method | Microsoft Docs"
+title: "ICorProfilerCallback::RemotingClientReceivingReply Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RemotingClientReceivingReply"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::RemotingClientReceivingReply method [.NET Framework profiling]"
   - "RemotingClientReceivingReply method [.NET Framework profiling]"

@@ -1,5 +1,5 @@
 ---
-title: "EHostApplicationPolicy Enumeration | Microsoft Docs"
+title: "EHostApplicationPolicy Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EHostApplicationPolicy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EHostApplicationPolicy enumeration [.NET Framework hosting]"
 ms.assetid: 0be52d90-1976-4bf7-9717-908833a8a78d

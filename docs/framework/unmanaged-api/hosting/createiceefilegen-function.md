@@ -1,5 +1,5 @@
 ---
-title: "CreateICeeFileGen Function | Microsoft Docs"
+title: "CreateICeeFileGen Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CreateICeeFileGen"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateICeeFileGen function [.NET Framework hosting]"
 ms.assetid: e36e1fd8-8456-4359-bdc3-3ec1765f041f

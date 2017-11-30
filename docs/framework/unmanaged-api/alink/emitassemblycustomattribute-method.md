@@ -1,5 +1,5 @@
 ---
-title: "EmitAssemblyCustomAttribute Method | Microsoft Docs"
+title: "EmitAssemblyCustomAttribute Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EmitAssemblyCustomAttribute"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EmitAssemblyCustomAttribute method"
 ms.assetid: b72f5409-79af-4fa7-90a7-7630eec170f1
@@ -76,6 +74,6 @@ HRESULT EmitAssemblyCustomAttribute(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

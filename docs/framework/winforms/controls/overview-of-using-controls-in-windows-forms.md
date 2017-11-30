@@ -1,5 +1,5 @@
 ---
-title: "Overview of Using Controls in Windows Forms | Microsoft Docs"
+title: "Overview of Using Controls in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "Windows Forms, controls"
   - "controls [Windows Forms]"
@@ -27,7 +28,7 @@ This topic describes the essential elements of a Windows Forms application and p
 ## Simple Windows Forms Applications  
  At a minimum, a Windows Forms application consists of the following elements:  
   
--   One or more classes that derive from <xref:System.Windows.Forms.Form?displayProperty=fullName>.  
+-   One or more classes that derive from <xref:System.Windows.Forms.Form?displayProperty=nameWithType>.  
   
 -   A `Main` method that invokes the `static` (`shared` in Visual Basic) <xref:System.Windows.Forms.Application.Run%2A> method and passes a <xref:System.Windows.Forms.Form> instance to it. The <xref:System.Windows.Forms.Application.Run%2A> method processes messages from the operating system to the application.  
   
@@ -229,5 +230,5 @@ public class MyForm : Form {
 ```  
   
 ## See Also  
- [Developing Custom Windows Forms Controls with the .NET Framework](../../../../docs/framework/winforms/controls/developing-custom-windows-forms-controls.md)   
+ [Developing Custom Windows Forms Controls with the .NET Framework](../../../../docs/framework/winforms/controls/developing-custom-windows-forms-controls.md)  
  [Windows Forms Control Development Basics](../../../../docs/framework/winforms/controls/windows-forms-control-development-basics.md)

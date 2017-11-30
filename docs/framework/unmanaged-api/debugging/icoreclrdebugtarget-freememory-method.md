@@ -1,5 +1,5 @@
 ---
-title: "ICoreClrDebugTarget::FreeMemory Method | Microsoft Docs"
+title: "ICoreClrDebugTarget::FreeMemory Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICoreClrDebugTarget::FreeMemory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "remote debugging API [Silverlight]"
   - "FreeMemory method, ICoreClrDebugTarget interface [Silverlight debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure an Application Domain | Microsoft Docs"
+title: "How to: Configure an Application Domain"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,10 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "application domains, configuring"
   - "ApplicationBase property"
@@ -34,5 +38,5 @@ You can provide the common language runtime with configuration information for a
  [!code-vb[ADApplicationBase#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/ADApplicationBase/VB/source2.vb#2)]  
   
 ## See Also  
- [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131)   
+ [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131)  
  [Using Application Domains](../../../docs/framework/app-domains/use.md)

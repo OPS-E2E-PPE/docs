@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::SetExportedTypeProps Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::SetExportedTypeProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::SetExportedTypeProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetExportedTypeProps method [.NET Framework metadata]"
   - "IMetaDataAssemblyEmit::SetExportedTypeProps method [.NET Framework metadata]"

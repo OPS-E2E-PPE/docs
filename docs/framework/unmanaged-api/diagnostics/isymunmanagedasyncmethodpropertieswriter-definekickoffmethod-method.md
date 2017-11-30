@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedAsyncMethodPropertiesWriter::DefineKickoffMethod Method | Microsoft Docs"
+title: "ISymUnmanagedAsyncMethodPropertiesWriter::DefineKickoffMethod Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 4662f70d-817b-4374-8da8-e0545585939f
 caps.latest.revision: 5
 author: "rpetrusha"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueSnapshot::GetRwDataRVA Method | Microsoft Docs"
+title: "ICorDebugEditAndContinueSnapshot::GetRwDataRVA Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueSnapshot::GetRwDataRVA"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRwDataRVA method [.NET Framework debugging]"
   - "ICorDebugEditAndContinueSnapshot::GetRwDataRVA method [.NET Framework debugging]"

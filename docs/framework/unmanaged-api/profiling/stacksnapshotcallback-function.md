@@ -1,5 +1,5 @@
 ---
-title: "StackSnapshotCallback Function | Microsoft Docs"
+title: "StackSnapshotCallback Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "StackSnapshotCallback"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StackSnapshotCallback function [.NET Framework profiling]"
 ms.assetid: d0f235b2-91fe-4f82-b7d5-e5c64186eea8
@@ -81,5 +79,5 @@ HRESULT __stdcall StackSnapshotCallback (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [DoStackSnapshot Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo2-dostacksnapshot-method.md)   
+ [DoStackSnapshot Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo2-dostacksnapshot-method.md)  
  [Profiling Global Static Functions](../../../../docs/framework/unmanaged-api/profiling/profiling-global-static-functions.md)

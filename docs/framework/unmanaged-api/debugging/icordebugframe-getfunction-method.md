@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFrame::GetFunction Method | Microsoft Docs"
+title: "ICorDebugFrame::GetFunction Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFrame::GetFunction"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetFunction method, ICorDebugFrame interface [.NET Framework debugging]"
   - "ICorDebugFrame::GetFunction method [.NET Framework debugging]"

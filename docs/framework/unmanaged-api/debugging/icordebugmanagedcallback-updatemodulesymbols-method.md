@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::UpdateModuleSymbols Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::UpdateModuleSymbols Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::UpdateModuleSymbols"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "UpdateModuleSymbols method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::UpdateModuleSymbols method [.NET Framework debugging]"

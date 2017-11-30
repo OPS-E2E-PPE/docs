@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerFunctionEnum::Clone Method | Microsoft Docs"
+title: "ICorProfilerFunctionEnum::Clone Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerFunctionEnum::Clone"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerFunctionEnum::Clone method [.NET Framework profiling]"
   - "Clone method, ICorProfilerFunctionEnum interface [.NET Framework profiling]"
@@ -53,5 +51,5 @@ HRESULT Clone([out] ICorProfilerFunctionEnum **ppEnum);
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICorProfilerFunctionEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerfunctionenum-interface.md)   
+ [ICorProfilerFunctionEnum Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerfunctionenum-interface.md)  
  [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)

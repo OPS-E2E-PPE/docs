@@ -32,7 +32,7 @@
 ## Remarks  
  The <xref:System.Windows.Controls.DatePicker> control allows the user to select a date by either typing it into a text field or by using a drop-down <xref:System.Windows.Controls.Calendar> control.  
   
- Many of a <xref:System.Windows.Controls.DatePicker> control's properties are for managing its built-in <xref:System.Windows.Controls.Calendar>, and function identically to the equivalent property in <xref:System.Windows.Controls.Calendar>. In particular, the <xref:System.Windows.Controls.DatePicker.IsTodayHighlighted%2A?displayProperty=fullName>, <xref:System.Windows.Controls.DatePicker.FirstDayOfWeek%2A?displayProperty=fullName>, <xref:System.Windows.Controls.DatePicker.BlackoutDates%2A?displayProperty=fullName>, <xref:System.Windows.Controls.DatePicker.DisplayDateStart%2A?displayProperty=fullName>, <xref:System.Windows.Controls.DatePicker.DisplayDateEnd%2A?displayProperty=fullName>, <xref:System.Windows.Controls.DatePicker.DisplayDate%2A?displayProperty=fullName>, and <xref:System.Windows.Controls.DatePicker.SelectedDate%2A?displayProperty=fullName> properties function identically to their <xref:System.Windows.Controls.Calendar> counterparts.  For more information, see <xref:System.Windows.Controls.Calendar>.  
+ Many of a <xref:System.Windows.Controls.DatePicker> control's properties are for managing its built-in <xref:System.Windows.Controls.Calendar>, and function identically to the equivalent property in <xref:System.Windows.Controls.Calendar>. In particular, the <xref:System.Windows.Controls.DatePicker.IsTodayHighlighted%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.DatePicker.FirstDayOfWeek%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.DatePicker.BlackoutDates%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.DatePicker.DisplayDateStart%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.DatePicker.DisplayDateEnd%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.DatePicker.DisplayDate%2A?displayProperty=nameWithType>, and <xref:System.Windows.Controls.DatePicker.SelectedDate%2A?displayProperty=nameWithType> properties function identically to their <xref:System.Windows.Controls.Calendar> counterparts.  For more information, see <xref:System.Windows.Controls.Calendar>.  
   
  Users can type a date directly into a text field, which sets the <xref:System.Windows.Controls.DatePicker.Text%2A> property. If the <xref:System.Windows.Controls.DatePicker> cannot convert the entered string to a valid date, the <xref:System.Windows.Controls.DatePicker.DateValidationError> event will be raised. By default, this causes an exception, but an event handler for <xref:System.Windows.Controls.DatePicker.DateValidationError> can set the <xref:System.Windows.Controls.DatePickerDateValidationErrorEventArgs.ThrowException%2A> property to `false` and prevent an exception from being raised.  
   
@@ -40,7 +40,7 @@
 >  The <xref:System.Windows.Controls.DatePicker> supports only the Gregorian calendar.  
   
 ## Customizing the DatePicker Control  
- To apply the same property settings to multiple <xref:System.Windows.Controls.DatePicker> controls, use the <xref:System.Windows.FrameworkElement.Style%2A> property. You can modify the default <xref:System.Windows.Controls.ControlTemplate> to give the control a unique appearance. For more information about creating a <xref:System.Windows.Controls.ControlTemplate>, see [Customizing the Appearance of an Existing Control by Creating a ControlTemplate](~/docs/framework/wpf/controls/customizing-the-appearance-of-an-existing-control.md). To see the parts and states that are specific to the <xref:System.Windows.Controls.DatePicker>, see [DatePicker Syles and Templates](~/docs/framework/wpf/controls/datepicker-syles-and-templates.md).  
+ To apply the same property settings to multiple <xref:System.Windows.Controls.DatePicker> controls, use the <xref:System.Windows.FrameworkElement.Style%2A> property. You can modify the default <xref:System.Windows.Controls.ControlTemplate> to give the control a unique appearance. For more information about creating a <xref:System.Windows.Controls.ControlTemplate>, see [Customizing the Appearance of an Existing Control by Creating a ControlTemplate](~/docs/framework/wpf/controls/customizing-the-appearance-of-an-existing-control.md). To see the parts and states that are specific to the <xref:System.Windows.Controls.DatePicker>, see [DatePicker Syles and Templates](~/docs/framework/wpf/controls/datepicker-styles-and-templates.md).  
   
  Dependency properties for this control might be set by the control’s default style. If a property is set by a default style, the property might change from its default value when the control appears in the application. The default style is determined by which desktop theme is used when the application is running.  For more information, see [Default WPF Themes](http://go.microsoft.com/fwlink/?LinkID=158252).  
   
@@ -72,7 +72,7 @@ DatePicker Control
   
  [!code-csharp[DatePickerSnippets#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#1)]
  [!code-vb[DatePickerSnippets#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#1)]
- [!code-xml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
+ [!code-xaml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
   
  ]]></format>
     </remarks>
@@ -141,7 +141,7 @@ DatePicker Control
   
  [!code-csharp[DatePickerSnippets#2](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#2)]
  [!code-vb[DatePickerSnippets#2](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#2)]
- [!code-xml[DatePickerSnippets#2](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#2)]  
+ [!code-xaml[DatePickerSnippets#2](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#2)]  
   
  The <xref:System.Windows.Controls.DatePicker> handles the <xref:System.Windows.Controls.DatePicker.DateValidationError> event, as shown in the following code. If the user enters a date that is not selectable, the example displays a message. If the user enters text that is not a valid date, an exception is thrown.  
   
@@ -188,7 +188,7 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Controls.DatePicker> and provides instructions to the user.  When the user opens or closes the <xref:System.Windows.Controls.Calendar>, the instructions are updated.  
   
- [!code-xml[DatePickerSnippets#7](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#7)]  
+ [!code-xaml[DatePickerSnippets#7](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#7)]  
   
  [!code-csharp[DatePickerSnippets#8](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#8)]
  [!code-vb[DatePickerSnippets#8](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#8)]  
@@ -228,7 +228,7 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Controls.DatePicker> and provides instructions to the user.  When the user opens or closes the <xref:System.Windows.Controls.Calendar>, the instructions are updated.  
   
- [!code-xml[DatePickerSnippets#7](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#7)]  
+ [!code-xaml[DatePickerSnippets#7](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#7)]  
   
  [!code-csharp[DatePickerSnippets#8](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#8)]
  [!code-vb[DatePickerSnippets#8](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#8)]  
@@ -286,7 +286,7 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Style> for <xref:System.Windows.Controls.Calendar> and assigns the style to the <xref:System.Windows.Controls.DatePicker.CalendarStyle%2A> property.  
   
- [!code-xml[DatePickerSnippets#6](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#6)]  
+ [!code-xaml[DatePickerSnippets#6](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#6)]  
   
  ]]></format>
         </remarks>
@@ -327,7 +327,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- After the <xref:System.Windows.Controls.DatePicker.DateValidationError> event occurs, if you set the <xref:System.Windows.Controls.DatePickerDateValidationErrorEventArgs.ThrowException%2A?displayProperty=fullName> property to `true`, one of the following exceptions is raised:  
+ After the <xref:System.Windows.Controls.DatePicker.DateValidationError> event occurs, if you set the <xref:System.Windows.Controls.DatePickerDateValidationErrorEventArgs.ThrowException%2A?displayProperty=nameWithType> property to `true`, one of the following exceptions is raised:  
   
 |Exception type|Condition|  
 |--------------------|---------------|  
@@ -348,7 +348,7 @@ DatePicker with dates that are not selectable
   
  [!code-csharp[DatePickerSnippets#2](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#2)]
  [!code-vb[DatePickerSnippets#2](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#2)]
- [!code-xml[DatePickerSnippets#2](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#2)]  
+ [!code-xaml[DatePickerSnippets#2](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#2)]  
   
  The <xref:System.Windows.Controls.DatePicker> handles the <xref:System.Windows.Controls.DatePicker.DateValidationError> event, as shown in the following code. If the user enters a date that is not selectable, the example displays a message. If the user enters text that is not a valid date, an exception is thrown.  
   
@@ -378,7 +378,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDate%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDate%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_DisplayDate"></a>   
 ## Dependency Property Information  
@@ -407,11 +407,12 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Controls.DatePicker> that is initialized with its calendar open and displaying July 7, 2009.  
   
- [!code-xml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
+ [!code-xaml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
   
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The specified date is not in the range defined by <see cref="P:System.Windows.Controls.DatePicker.DisplayDateStart" />. and <see cref="P:System.Windows.Controls.DatePicker.DisplayDateEnd" />.</exception>
+        <altmember cref="P:System.Windows.Controls.Calendar.DisplayDate" />
       </Docs>
     </Member>
     <Member MemberName="DisplayDateEnd">
@@ -433,7 +434,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDateEnd%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDateEnd%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_DisplayDateEnd"></a>   
 ## Dependency Property Information  
@@ -462,10 +463,11 @@ DatePicker with dates that are not selectable
   
  [!code-csharp[DatePickerSnippets#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#1)]
  [!code-vb[DatePickerSnippets#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#1)]
- [!code-xml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
+ [!code-xaml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Calendar.DisplayDateEnd" />
       </Docs>
     </Member>
     <Member MemberName="DisplayDateEndProperty">
@@ -521,7 +523,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDateStart%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.DisplayDateStart%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_DisplayDateStart"></a>   
 ## Dependency Property Information  
@@ -550,10 +552,11 @@ DatePicker with dates that are not selectable
   
  [!code-csharp[DatePickerSnippets#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#1)]
  [!code-vb[DatePickerSnippets#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#1)]
- [!code-xml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
+ [!code-xaml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Calendar.DisplayDateStart" />
       </Docs>
     </Member>
     <Member MemberName="DisplayDateStartProperty">
@@ -592,7 +595,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.FirstDayOfWeek%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.FirstDayOfWeek%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_FirstDayOfWeek"></a>   
 ## Dependency Property Information  
@@ -613,7 +616,7 @@ DatePicker with dates that are not selectable
   
  [!code-csharp[DatePickerSnippets#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#1)]
  [!code-vb[DatePickerSnippets#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#1)]
- [!code-xml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
+ [!code-xaml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
   
  ]]></format>
         </remarks>
@@ -698,7 +701,7 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Controls.DatePicker> that is initialized with its calendar open and displays July 7, 2009.  
   
- [!code-xml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
+ [!code-xaml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
   
  ]]></format>
         </remarks>
@@ -741,7 +744,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.IsTodayHighlighted%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.IsTodayHighlighted%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_IsTodayHighlighted"></a>   
 ## Dependency Property Information  
@@ -763,10 +766,11 @@ DatePicker with dates that are not selectable
 ## Examples  
  The following example creates a <xref:System.Windows.Controls.DatePicker> that does not highlight the current date.  
   
- [!code-xml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
+ [!code-xaml[DatePickerSnippets#4](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#4)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Calendar.IsTodayHighlighted" />
       </Docs>
     </Member>
     <Member MemberName="IsTodayHighlightedProperty">
@@ -959,7 +963,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.SelectedDate%2A?displayProperty=fullName> property.  
+ This property affects the <xref:System.Windows.Controls.Calendar> of the <xref:System.Windows.Controls.DatePicker>.  For more information, see the <xref:System.Windows.Controls.Calendar.SelectedDate%2A?displayProperty=nameWithType> property.  
   
 <a name="dependencyPropertyInfo_SelectedDate"></a>   
 ## Dependency Property Information  
@@ -984,13 +988,14 @@ DatePicker with dates that are not selectable
    
   
 ## Examples  
- The following example creates a <xref:System.Windows.Controls.DatePicker> that has the date August 10, 2009 selected.  The example also binds the <xref:System.Windows.Controls.DatePicker.Text%2A?displayProperty=fullName> property to a <xref:System.Windows.Controls.TextBlock>.  
+ The following example creates a <xref:System.Windows.Controls.DatePicker> that has the date August 10, 2009 selected.  The example also binds the <xref:System.Windows.Controls.DatePicker.Text%2A?displayProperty=nameWithType> property to a <xref:System.Windows.Controls.TextBlock>.  
   
- [!code-xml[DatePickerSnippets#5](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#5)]  
+ [!code-xaml[DatePickerSnippets#5](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#5)]  
   
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The specified date is not in the range defined by <see cref="P:System.Windows.Controls.DatePicker.DisplayDateStart" /> and <see cref="P:System.Windows.Controls.DatePicker.DisplayDateEnd" />, or the specified date is in the <see cref="P:System.Windows.Controls.DatePicker.BlackoutDates" /> collection.</exception>
+        <altmember cref="P:System.Windows.Controls.Calendar.SelectedDate" />
       </Docs>
     </Member>
     <Member MemberName="SelectedDateChanged">
@@ -1079,7 +1084,7 @@ DatePicker with dates that are not selectable
   
  [!code-csharp[DatePickerSnippets#1](~/samples/snippets/csharp/VS_Snippets_Wpf/datepickersnippets/csharp/window1.xaml.cs#1)]
  [!code-vb[DatePickerSnippets#1](~/samples/snippets/visualbasic/VS_Snippets_Wpf/datepickersnippets/visualbasic/window1.xaml.vb#1)]
- [!code-xml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
+ [!code-xaml[DatePickerSnippets#1](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#1)]  
   
  ]]></format>
         </remarks>
@@ -1139,7 +1144,7 @@ DatePicker with dates that are not selectable
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- A user can set the <xref:System.Windows.Controls.DatePicker.SelectedDate%2A> of a <xref:System.Windows.Controls.DatePicker> by typing a date into its text box. The <xref:System.Windows.Controls.DatePicker> attempts to parse any string entered into this property as a date. While the <xref:System.Windows.Controls.DatePicker.Text%2A> property can be set to any string that can be parsed by the <xref:System.DateTime.Parse%2A> method date, the format of the string that is returned depends on the value of the <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=fullName> property. This means that the <xref:System.Windows.Controls.DatePicker> might display a string that is different than what the user typed.  
+ A user can set the <xref:System.Windows.Controls.DatePicker.SelectedDate%2A> of a <xref:System.Windows.Controls.DatePicker> by typing a date into its text box. The <xref:System.Windows.Controls.DatePicker> attempts to parse any string entered into this property as a date. While the <xref:System.Windows.Controls.DatePicker.Text%2A> property can be set to any string that can be parsed by the <xref:System.DateTime.Parse%2A> method date, the format of the string that is returned depends on the value of the <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType> property. This means that the <xref:System.Windows.Controls.DatePicker> might display a string that is different than what the user typed.  
   
  If <xref:System.Windows.Controls.DatePicker.Text%2A> is set to a date that is selectable and valid, the <xref:System.Windows.Controls.DatePicker.DateValidationError> event occurs. If you handle the <xref:System.Windows.Controls.DatePicker.DateValidationError> event and set the <xref:System.Windows.Controls.DatePickerDateValidationErrorEventArgs.ThrowException%2A> property to `true`, a <xref:System.FormatException> or <xref:System.ArgumentOutOfRangeException> is raised.  
   
@@ -1166,12 +1171,14 @@ DatePicker with dates that are not selectable
    
   
 ## Examples  
- The following example creates a <xref:System.Windows.Controls.DatePicker> that has the date August 10, 2009 selected.  The example also binds the <xref:System.Windows.Controls.DatePicker.Text%2A?displayProperty=fullName> property to a <xref:System.Windows.Controls.TextBlock>. Because the <xref:System.Windows.Controls.DatePicker.SelectedDateFormat%2A> property is set to <xref:System.Windows.Controls.DatePickerFormat.Long>, the <xref:System.Windows.Controls.DatePicker> and <xref:System.Windows.Controls.TextBlock> displays the date using unabbreviated days of the week and month names even if the user enters a short form of a date.  
+ The following example creates a <xref:System.Windows.Controls.DatePicker> that has the date August 10, 2009 selected.  The example also binds the <xref:System.Windows.Controls.DatePicker.Text%2A?displayProperty=nameWithType> property to a <xref:System.Windows.Controls.TextBlock>. Because the <xref:System.Windows.Controls.DatePicker.SelectedDateFormat%2A> property is set to <xref:System.Windows.Controls.DatePickerFormat.Long>, the <xref:System.Windows.Controls.DatePicker> and <xref:System.Windows.Controls.TextBlock> displays the date using unabbreviated days of the week and month names even if the user enters a short form of a date.  
   
- [!code-xml[DatePickerSnippets#5](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#5)]  
+ [!code-xaml[DatePickerSnippets#5](~/samples/snippets/xaml/VS_Snippets_Wpf/datepickersnippets/xaml/window1.xaml#5)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Controls.DatePicker.DateValidationError" />
+        <altmember cref="T:System.Windows.Controls.DatePickerDateValidationErrorEventArgs" />
       </Docs>
     </Member>
     <Member MemberName="TextProperty">

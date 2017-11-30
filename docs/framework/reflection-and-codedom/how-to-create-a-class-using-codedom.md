@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Class Using CodeDOM | Microsoft Docs"
+title: "How to: Create a Class Using CodeDOM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "Code Document Object Model, graphs"
   - "Code Document Object Model, creating classes"
@@ -120,5 +123,5 @@ The object:
 -   This code example requires the `FullTrust` permission set to execute successfully.  
   
 ## See Also  
- [Using the CodeDOM](../../../docs/framework/reflection-and-codedom/using-the-codedom.md)   
+ [Using the CodeDOM](../../../docs/framework/reflection-and-codedom/using-the-codedom.md)  
  [Generating and Compiling Source Code from a CodeDOM Graph](../../../docs/framework/reflection-and-codedom/generating-and-compiling-source-code-from-a-codedom-graph.md)

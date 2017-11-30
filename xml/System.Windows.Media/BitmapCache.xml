@@ -38,10 +38,12 @@
 ## Examples  
  The following XAML shows how to cache a <xref:System.Windows.Controls.Canvas> element. For the complete code example, see [How to: Improve Rendering Performance by Caching an Element](~/docs/framework/wpf/graphics-multimedia/how-to-improve-rendering-performance-by-caching-an-element.md).  
   
- [!code-xml[System.Windows.Media.BitmapCache#_BitmapCacheCreation](~/samples/snippets/csharp/VS_Snippets_Wpf/system.windows.media.bitmapcache/cs/window1.xaml#_bitmapcachecreation)]  
+ [!code-xaml[System.Windows.Media.BitmapCache#_BitmapCacheCreation](~/samples/snippets/csharp/VS_Snippets_Wpf/system.windows.media.bitmapcache/cs/window1.xaml#_bitmapcachecreation)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Windows.UIElement.CacheMode" />
+    <altmember cref="T:System.Windows.Media.BitmapCacheBrush" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -80,10 +82,11 @@
 ## Examples  
  The following XAML shows how to create and assign a <xref:System.Windows.Media.BitmapCache> to a <xref:System.Windows.Controls.Canvas> element. For the complete code example, see [How to: Improve Rendering Performance by Caching an Element](~/docs/framework/wpf/graphics-multimedia/how-to-improve-rendering-performance-by-caching-an-element.md).  
   
- [!code-xml[System.Windows.Media.BitmapCache#_BitmapCacheCreation](~/samples/snippets/csharp/VS_Snippets_Wpf/system.windows.media.bitmapcache/cs/window1.xaml#_bitmapcachecreation)]  
+ [!code-xaml[System.Windows.Media.BitmapCache#_BitmapCacheCreation](~/samples/snippets/csharp/VS_Snippets_Wpf/system.windows.media.bitmapcache/cs/window1.xaml#_bitmapcachecreation)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.UIElement.CacheMode" />
       </Docs>
     </Member>
     <Member MemberName="Clone">
@@ -175,6 +178,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Media.RenderOptions.ClearTypeHint" />
       </Docs>
     </Member>
     <Member MemberName="EnableClearTypeProperty">
@@ -296,6 +300,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Media.BitmapCacheBrush" />
       </Docs>
     </Member>
     <Member MemberName="SnapsToDevicePixelsProperty">
@@ -315,5 +320,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.BitmapCache" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

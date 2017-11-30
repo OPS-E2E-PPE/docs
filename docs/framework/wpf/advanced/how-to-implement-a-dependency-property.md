@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement a Dependency Property | Microsoft Docs"
+title: "How to: Implement a Dependency Property"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "dependency properties, backing properties with"
-  - "properties, backing with dependency properties"
+  - "dependency properties [WPF], backing properties with"
+  - "properties [WPF], backing with dependency properties"
 ms.assetid: 855fd6d7-19ac-493c-bf5e-2f40b57cdc92
 caps.latest.revision: 19
 author: dotnet-bot
@@ -36,5 +39,5 @@ This example shows how to back a [!INCLUDE[TLA#tla_clr](../../../../includes/tla
  For more information about how and why to implement a dependency property, as opposed to just backing a [!INCLUDE[TLA2#tla_clr](../../../../includes/tla2sharptla-clr-md.md)] property with a private field, see [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md).  
   
 ## See Also  
- [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md)   
+ [Dependency Properties Overview](../../../../docs/framework/wpf/advanced/dependency-properties-overview.md)  
  [How-to Topics](../../../../docs/framework/wpf/advanced/properties-how-to-topics.md)

@@ -1,5 +1,5 @@
 ---
-title: "IHostSecurityManager Interface | Microsoft Docs"
+title: "IHostSecurityManager Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostSecurityManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostSecurityManager interface [.NET Framework hosting]"
 ms.assetid: c3be2cbd-2d93-438b-9888-9a0251b63c03
@@ -66,5 +64,5 @@ Provides methods that allow access to and control over the security context of t
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IHostSecurityContext Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritycontext-interface.md)   
+ [IHostSecurityContext Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsecuritycontext-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread::CreateEval Method | Microsoft Docs"
+title: "ICorDebugThread::CreateEval Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread::CreateEval"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateEval method [.NET Framework debugging]"
   - "ICorDebugThread::CreateEval method [.NET Framework debugging]"

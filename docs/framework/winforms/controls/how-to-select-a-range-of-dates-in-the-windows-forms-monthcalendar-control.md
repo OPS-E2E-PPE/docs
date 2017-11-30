@@ -1,5 +1,5 @@
 ---
-title: "How to: Select a Range of Dates in the Windows Forms MonthCalendar Control | Microsoft Docs"
+title: "How to: Select a Range of Dates in the Windows Forms MonthCalendar Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,11 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "dates, selecting range in calendar controls"
+  - "dates [Windows Forms], selecting range in calendar controls"
   - "examples [Windows Forms], calendar controls"
-  - "calendars, selecting date range"
+  - "calendars [Windows Forms], selecting date range"
   - "MonthCalendar control [Windows Forms], selecting date range"
 ms.assetid: 95d9ab95-b0f8-4c19-9f63-b5cd4593a5d0
 caps.latest.revision: 17
@@ -79,7 +81,7 @@ An important feature of the Windows Forms <xref:System.Windows.Forms.MonthCalend
     ```  
   
 ## See Also  
- [MonthCalendar Control](../../../../docs/framework/winforms/controls/monthcalendar-control-windows-forms.md)   
- [How to: Change the Windows Forms MonthCalendar Control's Appearance](../../../../docs/framework/winforms/controls/how-to-change-monthcalendar-control-appearance.md)   
- [How to: Display Specific Days in Bold with the Windows Forms MonthCalendar Control](../../../../docs/framework/winforms/controls/display-specific-days-in-bold-with-wf-monthcalendar-control.md)   
+ [MonthCalendar Control](../../../../docs/framework/winforms/controls/monthcalendar-control-windows-forms.md)  
+ [How to: Change the Windows Forms MonthCalendar Control's Appearance](../../../../docs/framework/winforms/controls/how-to-change-monthcalendar-control-appearance.md)  
+ [How to: Display Specific Days in Bold with the Windows Forms MonthCalendar Control](../../../../docs/framework/winforms/controls/display-specific-days-in-bold-with-wf-monthcalendar-control.md)  
  [How to: Display More than One Month in the Windows Forms MonthCalendar Control](../../../../docs/framework/winforms/controls/display-more-than-one-month-wf-monthcalendar-control.md)

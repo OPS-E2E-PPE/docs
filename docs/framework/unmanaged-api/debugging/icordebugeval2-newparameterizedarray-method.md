@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval2::NewParameterizedArray Method | Microsoft Docs"
+title: "ICorDebugEval2::NewParameterizedArray Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval2::NewParameterizedArray"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEval2::NewParameterizedArray method [.NET Framework debugging]"
   - "NewParameterizedArray method [.NET Framework debugging]"

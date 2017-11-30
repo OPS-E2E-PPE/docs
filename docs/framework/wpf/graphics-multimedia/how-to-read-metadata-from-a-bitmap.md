@@ -1,5 +1,5 @@
 ---
-title: "How to: Read Metadata from a Bitmap | Microsoft Docs"
+title: "How to: Read Metadata from a Bitmap"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,15 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "bitmaps, reading metadata from"
-  - "image metadata"
-  - "metadata, in images"
-  - "metadata, reading from a bitmap"
+  - "bitmaps [WPF], reading metadata from"
+  - "image metadata [WPF]"
+  - "metadata [WPF], in images"
+  - "metadata [WPF], reading from a bitmap"
 ms.assetid: 920784ed-d96b-43e6-92d4-5dea5228f628
 caps.latest.revision: 5
 author: dotnet-bot

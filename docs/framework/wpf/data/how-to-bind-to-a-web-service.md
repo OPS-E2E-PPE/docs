@@ -1,5 +1,5 @@
 ---
-title: "How to: Bind to a Web Service | Microsoft Docs"
+title: "How to: Bind to a Web Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "binding data, Web service"
-  - "Web service binding"
-  - "data binding, Web service"
+  - "binding data [WPF], Web service"
+  - "Web service binding [WPF]"
+  - "data binding [WPF], Web service"
 ms.assetid: 77e2d373-69ba-4cbd-b6f5-2c83c38fc98b
 caps.latest.revision: 6
 author: dotnet-bot
@@ -44,11 +47,11 @@ This example shows how to bind to objects returned by Web service method calls.
   
  After the <xref:System.Windows.FrameworkElement.DataContext%2A> has been set, you can create bindings to the properties of the object that the <xref:System.Windows.FrameworkElement.DataContext%2A> has been set to. In this example, the <xref:System.Windows.FrameworkElement.DataContext%2A> is set to the **getContentResponse** object returned by the **GetContent** method. In the following example, the <xref:System.Windows.Controls.ItemsControl> binds to and displays the **locale** values of **availableVersionsAndLocales** of **getContentResponse**.  
   
- [!code-xml[BindToWebService#Binding](../../../../samples/snippets/csharp/VS_Snippets_Wpf/BindToWebService/CSharp/Window1.xaml#binding)]  
+ [!code-xaml[BindToWebService#Binding](../../../../samples/snippets/csharp/VS_Snippets_Wpf/BindToWebService/CSharp/Window1.xaml#binding)]  
   
  For information about the structure of **getContentResponse**, see [Content Service documentation](http://services.msdn.microsoft.com/ContentServices/ContentService.asmx).  
   
 ## See Also  
- [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)   
- [Binding Sources Overview](../../../../docs/framework/wpf/data/binding-sources-overview.md)   
+ [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)  
+ [Binding Sources Overview](../../../../docs/framework/wpf/data/binding-sources-overview.md)  
  [Make Data Available for Binding in XAML](../../../../docs/framework/wpf/data/how-to-make-data-available-for-binding-in-xaml.md)

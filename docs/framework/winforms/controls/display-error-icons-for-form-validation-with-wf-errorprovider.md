@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component | Microsoft Docs"
+title: "How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "errors [Windows Forms], displaying to users"
   - "error icons"
   - "ErrorProvider component [Windows Forms], displaying error icons"
-  - "error messages, displaying icons"
+  - "error messages [Windows Forms], displaying icons"
 ms.assetid: 3b681a32-9db4-497b-a34b-34980eabee46
 caps.latest.revision: 15
 author: dotnet-bot
@@ -97,6 +99,6 @@ You can use a Windows Forms <xref:System.Windows.Forms.ErrorProvider> component 
 4.  Run the project. Type invalid (in this example, non-numeric) data into the first control, and then tab to the second. When the error icon is displayed, point at it with the mouse pointer to see the error text.  
   
 ## See Also  
- <xref:System.Windows.Forms.ErrorProvider.SetError%2A>   
- [ErrorProvider Component Overview](../../../../docs/framework/winforms/controls/errorprovider-component-overview-windows-forms.md)   
+ <xref:System.Windows.Forms.ErrorProvider.SetError%2A>  
+ [ErrorProvider Component Overview](../../../../docs/framework/winforms/controls/errorprovider-component-overview-windows-forms.md)  
  [How to: View Errors Within a DataSet with the Windows Forms ErrorProvider Component](../../../../docs/framework/winforms/controls/view-errors-within-a-dataset-with-wf-errorprovider-component.md)

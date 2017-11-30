@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::IsArrayClass Method | Microsoft Docs"
+title: "ICorProfilerInfo::IsArrayClass Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::IsArrayClass"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IsArrayClass method [.NET Framework profiling]"
   - "ICorProfilerInfo::IsArrayClass method [.NET Framework profiling]"

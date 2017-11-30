@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::UnloadDomain Method | Microsoft Docs"
+title: "ICorRuntimeHost::UnloadDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::UnloadDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::UnloadDomain method [.NET Framework hosting]"
   - "UnloadDomain method [.NET Framework hosting]"
@@ -43,7 +41,7 @@ HRESULT UnloadDomain (
   
 #### Parameters  
  `pAppDomain`  
- [in] A pointer of type <xref:System._AppDomain?displayProperty=fullName> that represents the domain to be unloaded.  
+ [in] A pointer of type <xref:System._AppDomain?displayProperty=nameWithType> that represents the domain to be unloaded.  
   
 ## Return Value  
   
@@ -64,6 +62,6 @@ HRESULT UnloadDomain (
  **.NET Framework Version:** 1.0, 1.1  
   
 ## See Also  
- <xref:System._AppDomain>   
- <xref:System.AppDomain>   
+ <xref:System._AppDomain>  
+ <xref:System.AppDomain>  
  [ICorRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-interface.md)

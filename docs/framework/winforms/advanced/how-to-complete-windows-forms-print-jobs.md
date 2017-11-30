@@ -1,5 +1,5 @@
 ---
-title: "How to: Complete Windows Forms Print Jobs | Microsoft Docs"
+title: "How to: Complete Windows Forms Print Jobs"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "print jobs, completing in Windows Forms"
+  - "print jobs [Windows Forms], completing in Windows Forms"
   - "printing [Windows Forms], print jobs"
 ms.assetid: 23ec74f7-34c5-4710-82a0-ee2914518548
 caps.latest.revision: 23
@@ -85,5 +87,5 @@ Frequently, word processors and other applications that involve printing will pr
     ```  
   
 ## See Also  
- <xref:System.Drawing.Printing.PrintDocument>   
+ <xref:System.Drawing.Printing.PrintDocument>  
  [Windows Forms Print Support](../../../../docs/framework/winforms/advanced/windows-forms-print-support.md)

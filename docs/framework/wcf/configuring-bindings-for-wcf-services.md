@@ -1,5 +1,5 @@
 ---
-title: "Configuring Bindings for Windows Communication Foundation Services | Microsoft Docs"
+title: "Configuring Bindings for Windows Communication Foundation Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "binding configuration [WCF]"
 ms.assetid: 99a85fd8-f7eb-4a84-a93e-7721b37d415c
@@ -43,7 +40,7 @@ When creating an application, you often want to defer decisions to the administr
 ```  
   
 ### ServiceModel Elements  
- You can use the section bounded by the `system.ServiceModel` element to configure a service type with one or more endpoints, as well as settings for a service. Each endpoint can then be configured with an address, a contract, and a binding. [!INCLUDE[crabout](../../../includes/crabout-md.md)] endpoints, see [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md). If no endpoints are specified, the runtime adds default endpoints. [!INCLUDE[crabout](../../../includes/crabout-md.md)]default endpoints, bindings, and behaviors, see [Simplified Configuration](../../../docs/framework/wcf/simplified-configuration.md) and [Simplified Configuration for WCF Services](../../../docs/framework/wcf/samples/simplified-configuration-for-wcf-services.md).  
+ You can use the section bounded by the `system.ServiceModel` element to configure a service type with one or more endpoints, as well as settings for a service. Each endpoint can then be configured with an address, a contract, and a binding. [!INCLUDE[crabout](../../../includes/crabout-md.md)] endpoints, see [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md). If no endpoints are specified, the runtime adds default endpoints. [!INCLUDE[crabout](../../../includes/crabout-md.md)] default endpoints, bindings, and behaviors, see [Simplified Configuration](../../../docs/framework/wcf/simplified-configuration.md) and [Simplified Configuration for WCF Services](../../../docs/framework/wcf/samples/simplified-configuration-for-wcf-services.md).  
   
  A binding specifies transports (HTTP, TCP, pipes, Message Queuing) and protocols (Security, Reliability, Transaction flows) and consists of binding elements, each of which specifies an aspect of how an endpoint communicates with the world.  
   
@@ -175,7 +172,7 @@ When creating an application, you often want to defer decisions to the administr
 ```  
   
 ## See Also  
- [Simplified Configuration](../../../docs/framework/wcf/simplified-configuration.md)   
- [System-Provided Bindings](../../../docs/framework/wcf/system-provided-bindings.md)   
- [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md)   
+ [Simplified Configuration](../../../docs/framework/wcf/simplified-configuration.md)  
+ [System-Provided Bindings](../../../docs/framework/wcf/system-provided-bindings.md)  
+ [Endpoint Creation Overview](../../../docs/framework/wcf/endpoint-creation-overview.md)  
  [Using Bindings to Configure Services and Clients](../../../docs/framework/wcf/using-bindings-to-configure-services-and-clients.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::DebuggerError Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::DebuggerError Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::DebuggerError"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DebuggerError method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::DebuggerError method [.NET Framework debugging]"

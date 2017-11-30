@@ -1,5 +1,5 @@
 ---
-title: "Reading and Writing XML Schemas | Microsoft Docs"
+title: "Reading and Writing XML Schemas"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 ms.assetid: b5757c4a-ea59-467e-ac62-be2bfe24eb77
 caps.latest.revision: 2
 author: "mairaw"
@@ -20,7 +19,7 @@ ms.author: "mairaw"
 manager: "wpickett"
 ---
 # Reading and Writing XML Schemas
-The Schema Object Model (SOM) API can be used to read and write XML Schema definition language (XSD) schemas from files or other sources and build XML schemas in-memory using the classes in the <xref:System.Xml.Schema?displayProperty=fullName> namespace that map to the structures defined in the World Wide Web Consortium (W3C) XML Schema Recommendation.  
+The Schema Object Model (SOM) API can be used to read and write XML Schema definition language (XSD) schemas from files or other sources and build XML schemas in-memory using the classes in the <xref:System.Xml.Schema?displayProperty=nameWithType> namespace that map to the structures defined in the World Wide Web Consortium (W3C) XML Schema Recommendation.  
   
 ## Reading and Writing XML Schemas  
  The <xref:System.Xml.Schema.XmlSchema> class provides the <xref:System.Xml.Schema.XmlSchema.Read%2A> and <xref:System.Xml.Schema.XmlSchema.Write%2A> methods to read and write XML schemas. The <xref:System.Xml.Schema.XmlSchema.Read%2A> method returns an <xref:System.Xml.Schema.XmlSchema> object representing the XML schema and takes an optional <xref:System.Xml.Schema.ValidationEventHandler> as a parameter to handle schema validation warnings and errors encountered while reading an XML schema.  
@@ -51,11 +50,11 @@ The Schema Object Model (SOM) API can be used to read and write XML Schema defin
 ```  
   
 ## See Also  
- [XML Schema Object Model Overview](../../../../docs/standard/data/xml/xml-schema-object-model-overview.md)   
- [Building XML Schemas](../../../../docs/standard/data/xml/building-xml-schemas.md)   
- [Traversing XML Schemas](../../../../docs/standard/data/xml/traversing-xml-schemas.md)   
- [Editing XML Schemas](../../../../docs/standard/data/xml/editing-xml-schemas.md)   
- [Including or Importing XML Schemas](../../../../docs/standard/data/xml/including-or-importing-xml-schemas.md)   
- [XmlSchemaSet for Schema Compilation](../../../../docs/standard/data/xml/xmlschemaset-for-schema-compilation.md)   
- [Post-Schema Compilation Infoset](../../../../docs/standard/data/xml/post-schema-compilation-infoset.md)   
+ [XML Schema Object Model Overview](../../../../docs/standard/data/xml/xml-schema-object-model-overview.md)  
+ [Building XML Schemas](../../../../docs/standard/data/xml/building-xml-schemas.md)  
+ [Traversing XML Schemas](../../../../docs/standard/data/xml/traversing-xml-schemas.md)  
+ [Editing XML Schemas](../../../../docs/standard/data/xml/editing-xml-schemas.md)  
+ [Including or Importing XML Schemas](../../../../docs/standard/data/xml/including-or-importing-xml-schemas.md)  
+ [XmlSchemaSet for Schema Compilation](../../../../docs/standard/data/xml/xmlschemaset-for-schema-compilation.md)  
+ [Post-Schema Compilation Infoset](../../../../docs/standard/data/xml/post-schema-compilation-infoset.md)  
  [Managing Namespaces in an XML Document](../../../../docs/standard/data/xml/managing-namespaces-in-an-xml-document.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStackWalk::GetContext Method | Microsoft Docs"
+title: "ICorDebugStackWalk::GetContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStackWalk::GetContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetContext method, ICorDebugStackWalk interface [.NET Framework debugging]"
   - "ICorDebugStackWalk::GetContext method [.NET Framework debugging]"
@@ -80,5 +78,5 @@ HRESULT GetContext([in]  ULONG32 contextFlags,
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

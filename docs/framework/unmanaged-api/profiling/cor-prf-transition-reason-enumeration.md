@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_TRANSITION_REASON Enumeration | Microsoft Docs"
+title: "COR_PRF_TRANSITION_REASON Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_TRANSITION_REASON"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_TRANSITION_REASON enumeration [.NET Framework profiling]"
 ms.assetid: da941118-01b7-4197-ae5b-9f2f8adcd623

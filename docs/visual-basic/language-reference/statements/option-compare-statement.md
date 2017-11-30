@@ -1,51 +1,32 @@
 ---
-title: "Option Compare Statement | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "Option Compare Statement"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
 f1_keywords: 
   - "vb.Compare"
   - "vb.OptionCompare"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "case sensitivity, Option Compare statement"
-  - "Compare keyword"
-  - "binary comparison"
+  - "Compare keyword [Visual Basic]"
+  - "binary comparison [Visual Basic]"
   - "strings [Visual Basic], returning from functions"
-  - "binary comparison, Option Compare statement"
+  - "binary comparison [Visual Basic], Option Compare statement"
   - "strings [Visual Basic], comparing"
   - "string comparison [Visual Basic], Option Compare statement"
-  - "Text keyword, Option Compare statement"
-  - "Binary keyword, Option Compare statement"
+  - "Text keyword [Visual Basic], Option Compare statement"
+  - "Binary keyword [Visual Basic], Option Compare statement"
   - "string comparison [Visual Basic], sorting data"
-  - "Option Compare statement"
+  - "Option Compare statement [Visual Basic]"
   - "text [Visual Basic], comparing"
 ms.assetid: 54e8eeeb-3b0d-4fb9-acce-fbfbd5975f6e
 caps.latest.revision: 37
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # Option Compare Statement
 Declares the default comparison method to use when comparing string data.  
@@ -70,7 +51,7 @@ Option Compare { Binary | Text }
   
  A `Binary` comparison compares the numeric Unicode value of each character in each string. A `Text` comparison compares each Unicode character based on its lexical meaning in the current culture.  
   
- In Microsoft Windows, sort order is determined by the code page. For more information, see [Code Pages](https://docs.microsoft.com/cpp/c-runtime-library/code-pages).  
+ In Microsoft Windows, sort order is determined by the code page. For more information, see [Code Pages](/cpp/c-runtime-library/code-pages).  
   
  In the following example, characters in the English/European code page (ANSI 1252) are sorted by using `Option Compare Binary`, which produces a typical binary sort order.  
   
@@ -81,7 +62,7 @@ Option Compare { Binary | Text }
  `(A=a) < (À = à) < (B=b) < (E=e) < (Ê = ê) < (Z=z) < (Ø = ø)`  
   
 ## When an Option Compare Statement Is Not Present  
- If the source code does not contain an `Option Compare` statement, the **Option Compare** setting on the [Compile Page, Project Designer (Visual Basic)](https://docs.microsoft.com/visualstudio/ide/reference/compile-page-project-designer-visual-basic) is used. If you use the command-line compiler, the setting specified by the [/optioncompare](../../../visual-basic/reference/command-line-compiler/optioncompare.md) compiler option is used.  
+ If the source code does not contain an `Option Compare` statement, the **Option Compare** setting on the [Compile Page, Project Designer (Visual Basic)](/visualstudio/ide/reference/compile-page-project-designer-visual-basic) is used. If you use the command-line compiler, the setting specified by the [/optioncompare](../../../visual-basic/reference/command-line-compiler/optioncompare.md) compiler option is used.  
   
 [!INCLUDE[note_settings_general](~/includes/note-settings-general-md.md)]  
   
@@ -110,15 +91,15 @@ Option Compare { Binary | Text }
  [!code-vb[VbVbalrStatements#46](../../../visual-basic/language-reference/error-messages/codesnippet/VisualBasic/option-compare-statement_2.vb)]  
   
 ## See Also  
- <xref:Microsoft.VisualBasic.Strings.InStr%2A>   
- <xref:Microsoft.VisualBasic.Strings.InStrRev%2A>   
- <xref:Microsoft.VisualBasic.Strings.Replace%2A>   
- <xref:Microsoft.VisualBasic.Strings.Split%2A>   
- <xref:Microsoft.VisualBasic.Strings.StrComp%2A>   
- [/optioncompare](../../../visual-basic/reference/command-line-compiler/optioncompare.md)   
- [Comparison Operators](../../../visual-basic/language-reference/operators/comparison-operators.md)   
- [Comparison Operators in Visual Basic](../../../visual-basic/programming-guide/language-features/operators-and-expressions/comparison-operators.md)   
- [Like Operator](../../../visual-basic/language-reference/operators/like-operator.md)   
- [String Functions](../../../visual-basic/language-reference/functions/string-functions.md)   
- [Option Explicit Statement](../../../visual-basic/language-reference/statements/option-explicit-statement.md)   
+ <xref:Microsoft.VisualBasic.Strings.InStr%2A>  
+ <xref:Microsoft.VisualBasic.Strings.InStrRev%2A>  
+ <xref:Microsoft.VisualBasic.Strings.Replace%2A>  
+ <xref:Microsoft.VisualBasic.Strings.Split%2A>  
+ <xref:Microsoft.VisualBasic.Strings.StrComp%2A>  
+ [/optioncompare](../../../visual-basic/reference/command-line-compiler/optioncompare.md)  
+ [Comparison Operators](../../../visual-basic/language-reference/operators/comparison-operators.md)  
+ [Comparison Operators in Visual Basic](../../../visual-basic/programming-guide/language-features/operators-and-expressions/comparison-operators.md)  
+ [Like Operator](../../../visual-basic/language-reference/operators/like-operator.md)  
+ [String Functions](../../../visual-basic/language-reference/functions/string-functions.md)  
+ [Option Explicit Statement](../../../visual-basic/language-reference/statements/option-explicit-statement.md)  
  [Option Strict Statement](../../../visual-basic/language-reference/statements/option-strict-statement.md)

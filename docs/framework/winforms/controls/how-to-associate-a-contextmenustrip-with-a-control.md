@@ -1,5 +1,5 @@
 ---
-title: "How to: Associate a ContextMenuStrip with a Control | Microsoft Docs"
+title: "How to: Associate a ContextMenuStrip with a Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "context menus, relating"
-  - "ContextMenuStrips, associating with controls"
-  - "context menus, associating with controls"
-  - "ContextMenuStrips, relating"
+  - "context menus [Windows Forms], relating"
+  - "ContextMenuStrips [Windows Forms], associating with controls"
+  - "context menus [Windows Forms], associating with controls"
+  - "ContextMenuStrips [Windows Forms], relating"
 ms.assetid: 6fc40a42-5d69-427f-aa30-0a146193226b
 caps.latest.revision: 11
 author: dotnet-bot
@@ -47,8 +48,8 @@ After creating your controls and shortcut menus, use the following procedures to
  For information about building this example from the command line for [!INCLUDE[vbprvb](../../../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../../../includes/csprcs-md.md)], see [Building from the Command Line](~/docs/visual-basic/reference/command-line-compiler/building-from-the-command-line.md) or [Command-line Building With csc.exe](~/docs/csharp/language-reference/compiler-options/command-line-building-with-csc-exe.md). You can also build this example in [!INCLUDE[vsprvs](../../../../includes/vsprvs-md.md)] by pasting the code into a new project.  Also see [How to: Compile and Run a Complete Windows Forms Code Example Using Visual Studio](http://msdn.microsoft.com/library/Bb129228\(v=vs.110\)).  
   
 ## See Also  
- <xref:System.Windows.Forms.ContextMenuStrip>   
- <xref:System.Windows.Forms.Control.ContextMenuStrip%2A>   
- <xref:System.Windows.Forms.ToolStrip>   
- [How to: Add Menu Items to a ContextMenuStrip](../../../../docs/framework/winforms/controls/how-to-add-menu-items-to-a-contextmenustrip.md)   
+ <xref:System.Windows.Forms.ContextMenuStrip>  
+ <xref:System.Windows.Forms.Control.ContextMenuStrip%2A>  
+ <xref:System.Windows.Forms.ToolStrip>  
+ [How to: Add Menu Items to a ContextMenuStrip](../../../../docs/framework/winforms/controls/how-to-add-menu-items-to-a-contextmenustrip.md)  
  [ContextMenuStrip Control](../../../../docs/framework/winforms/controls/contextmenustrip-control.md)

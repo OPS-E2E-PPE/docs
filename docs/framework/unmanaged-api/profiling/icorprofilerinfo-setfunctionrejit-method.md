@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::SetFunctionReJIT Method | Microsoft Docs"
+title: "ICorProfilerInfo::SetFunctionReJIT Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::SetFunctionReJIT"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::SetFunctionReJIT method [.NET Framework profiling]"
   - "SetFunctionReJIT method [.NET Framework profiling]"

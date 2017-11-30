@@ -1,5 +1,5 @@
 ---
-title: "Applying Interop Attributes | Microsoft Docs"
+title: "Applying Interop Attributes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "design-time attributes"
   - ".NET Framework, exposing components to COM"
@@ -77,8 +72,8 @@ The <xref:System.Runtime.InteropServices> namespace provides three categories of
 |<xref:System.Runtime.InteropServices.TypeLibVarAttribute>|Contains the **VARFLAGS** that were originally imported for this variable from the COM type library.|  
   
 ## See Also  
- <xref:System.Runtime.InteropServices>   
- [Exposing .NET Framework Components to COM](../../../docs/framework/interop/exposing-dotnet-components-to-com.md)   
- [Attributes](../../../docs/standard/attributes/index.md)   
- [Qualifying .NET Types for Interoperation](../../../docs/framework/interop/qualifying-net-types-for-interoperation.md)   
+ <xref:System.Runtime.InteropServices>  
+ [Exposing .NET Framework Components to COM](../../../docs/framework/interop/exposing-dotnet-components-to-com.md)  
+ [Attributes](../../../docs/standard/attributes/index.md)  
+ [Qualifying .NET Types for Interoperation](../../../docs/framework/interop/qualifying-net-types-for-interoperation.md)  
  [Packaging an Assembly for COM](../../../docs/framework/interop/packaging-an-assembly-for-com.md)

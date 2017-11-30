@@ -1,5 +1,5 @@
 ---
-title: "How to: Test the Run-Time Behavior of a UserControl | Microsoft Docs"
+title: "How to: Test the Run-Time Behavior of a UserControl"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,12 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "UserControl class, testing"
+  - "UserControl class [Windows Forms], testing"
   - "user controls [Windows Forms], testing"
-  - "composite controls, testing"
+  - "composite controls [Windows Forms], testing"
   - "UserControl Test Container"
-  - "UserControl class, run-time behavior"
+  - "UserControl class [Windows Forms], run-time behavior"
 ms.assetid: 4e4d5c49-1346-40ac-9d96-40211b573583
 caps.latest.revision: 12
 author: dotnet-bot
@@ -75,8 +73,8 @@ When you develop a <xref:System.Windows.Forms.UserControl>, you need to test its
 6.  Use the **Select User Control**<xref:System.Windows.Forms.ComboBox> to switch between the two user controls from the **TestContainerExample** project.  
   
 ## See Also  
- <xref:System.Windows.Forms.UserControl>   
- [How to: Author Composite Controls](../../../../docs/framework/winforms/controls/how-to-author-composite-controls.md)   
- [Walkthrough: Authoring a Composite Control with Visual Basic](../../../../docs/framework/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-basic.md)   
- [Walkthrough: Authoring a Composite Control with Visual C#](../../../../docs/framework/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-csharp.md)   
+ <xref:System.Windows.Forms.UserControl>  
+ [How to: Author Composite Controls](../../../../docs/framework/winforms/controls/how-to-author-composite-controls.md)  
+ [Walkthrough: Authoring a Composite Control with Visual Basic](../../../../docs/framework/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-basic.md)  
+ [Walkthrough: Authoring a Composite Control with Visual C#](../../../../docs/framework/winforms/controls/walkthrough-authoring-a-composite-control-with-visual-csharp.md)  
  [User Control Designer](http://msdn.microsoft.com/en-us/2abb9eec-ba32-45cb-b73d-8b52a8bd6bf1)

@@ -1,5 +1,5 @@
 ---
-title: "Paging Through a Query Result | Microsoft Docs"
+title: "Paging Through a Query Result"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: fa360c46-e5f8-411e-a711-46997771133d
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -127,5 +130,5 @@ adapter.Fill(dataSet, "Orders");
 ```  
   
 ## See Also  
- [DataAdapters and DataReaders](../../../../docs/framework/data/adonet/dataadapters-and-datareaders.md)   
+ [DataAdapters and DataReaders](../../../../docs/framework/data/adonet/dataadapters-and-datareaders.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

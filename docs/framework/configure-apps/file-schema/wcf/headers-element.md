@@ -1,5 +1,5 @@
 ---
-title: "&lt;headers&gt; element | Microsoft Docs"
+title: "&lt;headers&gt; element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,10 +19,10 @@ manager: "erikre"
 This contains a collection of address headers that are required in order to correctly address the local issuer. You can use the `add` keyword to add a header to this collection.  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.IssuedTokenClientElement.LocalIssuer%2A>   
- <xref:System.ServiceModel.Configuration.IssuedTokenParametersEndpointAddressElement>   
- <xref:System.ServiceModel.EndpointAddress>   
- <xref:System.ServiceModel.EndpointAddress.Headers%2A>   
- <xref:System.ServiceModel.Channels.AddressHeaderCollection>   
- [How to: Configure a Local Issuer](../../../../../docs/framework/wcf/feature-details/how-to-configure-a-local-issuer.md)   
+ <xref:System.ServiceModel.Configuration.IssuedTokenClientElement.LocalIssuer%2A>  
+ <xref:System.ServiceModel.Configuration.IssuedTokenParametersEndpointAddressElement>  
+ <xref:System.ServiceModel.EndpointAddress>  
+ <xref:System.ServiceModel.EndpointAddress.Headers%2A>  
+ <xref:System.ServiceModel.Channels.AddressHeaderCollection>  
+ [How to: Configure a Local Issuer](../../../../../docs/framework/wcf/feature-details/how-to-configure-a-local-issuer.md)  
  [Endpoints: Addresses, Bindings, and Contracts](../../../../../docs/framework/wcf/feature-details/endpoints-addresses-bindings-and-contracts.md)

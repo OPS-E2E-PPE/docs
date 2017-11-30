@@ -1,5 +1,5 @@
 ---
-title: "Creating an Activity at Runtime with DynamicActivity | Microsoft Docs"
+title: "Creating an Activity at Runtime with DynamicActivity"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -101,5 +101,5 @@ manager: "erikre"
 8.  Right-click the Workflow1.xaml file in the **Solution Explorer** and select **View Code**. Note that the activity class is created with `x:Class` and the property is created with `x:Property`.  
   
 ## See Also  
- [Authoring Workflows, Activities, and Expressions Using Imperative Code](../../../docs/framework/windows-workflow-foundation/authoring-workflows-activities-and-expressions-using-imperative-code.md)   
+ [Authoring Workflows, Activities, and Expressions Using Imperative Code](../../../docs/framework/windows-workflow-foundation/authoring-workflows-activities-and-expressions-using-imperative-code.md)  
  [DynamicActivity Creation](../../../docs/framework/windows-workflow-foundation/samples/dynamicactivity-creation.md)

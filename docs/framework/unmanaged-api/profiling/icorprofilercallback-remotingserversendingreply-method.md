@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RemotingServerSendingReply Method | Microsoft Docs"
+title: "ICorProfilerCallback::RemotingServerSendingReply Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RemotingServerSendingReply"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RemotingServerSendingReply method [.NET Framework profiling]"
   - "ICorProfilerCallback::RemotingServerSendingReply method [.NET Framework profiling]"

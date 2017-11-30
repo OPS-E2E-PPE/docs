@@ -1,5 +1,5 @@
 ---
-title: "How to: Paint an Area with a Radial Gradient | Microsoft Docs"
+title: "How to: Paint an Area with a Radial Gradient"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "brushes, painting with radial gradients"
-  - "radial gradients, painting with"
-  - "painting, with radial gradients"
+  - "brushes [WPF], painting with radial gradients"
+  - "radial gradients [WPF], painting with"
+  - "painting [WPF], with radial gradients"
 ms.assetid: b5d0fc8a-8986-4796-b003-a75b41a48928
 caps.latest.revision: 9
 author: dotnet-bot
@@ -27,7 +30,7 @@ This example shows how to use the <xref:System.Windows.Media.RadialGradientBrush
   
  [!code-csharp[BrushesIntroduction_snip#SimpleRadialGradientExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/BrushesIntroduction_snip/CSharp/RadialGradientBrushSnippet.cs#simpleradialgradientexamplewholepage)]
  [!code-vb[BrushesIntroduction_snip#SimpleRadialGradientExampleWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/BrushesIntroduction_snip/visualbasic/radialgradientbrushsnippet.vb#simpleradialgradientexamplewholepage)]
- [!code-xml[BrushesIntroduction_snip#SimpleRadialGradientExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/BrushesIntroduction_snip/XAML/RadialGradientBrushSnippet.xaml#simpleradialgradientexamplewholepage)]  
+ [!code-xaml[BrushesIntroduction_snip#SimpleRadialGradientExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/BrushesIntroduction_snip/XAML/RadialGradientBrushSnippet.xaml#simpleradialgradientexamplewholepage)]  
   
  The following illustration shows the gradient from the preceding example. The gradient's stops have been highlighted.  
   

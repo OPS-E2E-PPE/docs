@@ -1,5 +1,5 @@
 ---
-title: "CLRDataEnumMemoryFlags Enumeration | Microsoft Docs"
+title: "CLRDataEnumMemoryFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CLRDataEnumMemoryFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CLRDataEnumMemoryFlags enumeration [.NET Framework debugging]"
 ms.assetid: e249f9fc-e24a-4506-903c-92781f6eab7c

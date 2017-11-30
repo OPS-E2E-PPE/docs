@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModuleDebugEvent::GetModule Method | Microsoft Docs"
+title: "ICorDebugModuleDebugEvent::GetModule Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: b1141c35-4253-4e34-b3e4-ed406a9dea4f
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -48,5 +46,5 @@ HRESULT GetModule(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugModuleDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmoduledebugevent-interface.md)   
+ [ICorDebugModuleDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmoduledebugevent-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

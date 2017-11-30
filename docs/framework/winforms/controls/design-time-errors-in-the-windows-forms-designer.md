@@ -1,5 +1,5 @@
 ---
-title: "Design-Time Errors in the Windows Forms Designer | Microsoft Docs"
+title: "Design-Time Errors in the Windows Forms Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,8 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "DTELErrorList"
   - "WhyDTELPage"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "errors [Windows Forms Designer]"
   - "design-time errors [Windows Forms Designer]"
@@ -61,7 +59,7 @@ This topic explains the meaning and use of the design-time error list that appea
  You can choose to ignore the error condition and continue loading the designer. Choosing this action may result in unexpected behavior. For example, controls may not appear on the design surface.  
   
 ## See Also  
- [Troubleshooting Design-Time Development](http://msdn.microsoft.com/library/e048d08e-fa7c-4be8-b238-4abaa199a0a6)   
- [Troubleshooting Control and Component Authoring](../../../../docs/framework/winforms/controls/troubleshooting-control-and-component-authoring.md)   
- [Developing Windows Forms Controls at Design Time](../../../../docs/framework/winforms/controls/developing-windows-forms-controls-at-design-time.md)   
+ [Troubleshooting Design-Time Development](http://msdn.microsoft.com/library/e048d08e-fa7c-4be8-b238-4abaa199a0a6)  
+ [Troubleshooting Control and Component Authoring](../../../../docs/framework/winforms/controls/troubleshooting-control-and-component-authoring.md)  
+ [Developing Windows Forms Controls at Design Time](../../../../docs/framework/winforms/controls/developing-windows-forms-controls-at-design-time.md)  
  [Windows Forms Designer Error Messages](http://msdn.microsoft.com/en-us/cf610bf4-5fe4-471c-bce7-6a05ece07bd2)

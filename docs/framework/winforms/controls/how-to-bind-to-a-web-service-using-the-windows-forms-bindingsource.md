@@ -1,5 +1,5 @@
 ---
-title: "How to: Bind to a Web Service Using the Windows Forms BindingSource | Microsoft Docs"
+title: "How to: Bind to a Web Service Using the Windows Forms BindingSource"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "Web services, binding controls"
+  - "Web services [Windows Forms], binding controls"
   - "BindingSource component [Windows Forms], binding to a Web service"
   - "examples [Windows Forms], BindingSource component"
   - "controls [Windows Forms], binding to Web service"
@@ -77,5 +79,5 @@ If you want to bind a Windows Form control to the results obtained from calling 
  For information about building this example from the command line for [!INCLUDE[vbprvb](../../../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../../../includes/csprcs-md.md)], see [Building from the Command Line](~/docs/visual-basic/reference/command-line-compiler/building-from-the-command-line.md) or [Command-line Building With csc.exe](~/docs/csharp/language-reference/compiler-options/command-line-building-with-csc-exe.md). You can also build this example in [!INCLUDE[vsprvs](../../../../includes/vsprvs-md.md)] by pasting the code into a new project.  Also see [How to: Compile and Run a Complete Windows Forms Code Example Using Visual Studio](http://msdn.microsoft.com/library/Bb129228\(v=vs.110\)).  
   
 ## See Also  
- [BindingSource Component](../../../../docs/framework/winforms/controls/bindingsource-component.md)   
+ [BindingSource Component](../../../../docs/framework/winforms/controls/bindingsource-component.md)  
  [How to: Bind a Windows Forms Control to a Type](../../../../docs/framework/winforms/controls/how-to-bind-a-windows-forms-control-to-a-type.md)

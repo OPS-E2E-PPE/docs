@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::JITCachedFunctionSearchStarted Method | Microsoft Docs"
+title: "ICorProfilerCallback::JITCachedFunctionSearchStarted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::JITCachedFunctionSearchStarted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "JITCachedFunctionSearchStarted method [.NET Framework profiling]"
   - "ICorProfilerCallback::JITCachedFunctionSearchStarted method [.NET Framework profiling]"

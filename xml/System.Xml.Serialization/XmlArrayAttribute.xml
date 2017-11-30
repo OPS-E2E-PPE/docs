@@ -31,7 +31,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- The <xref:System.Xml.Serialization.XmlArrayAttribute> belongs to a family of attributes that controls how the <xref:System.Xml.Serialization.XmlSerializer> serializes or deserializes an object. For a complete list of similar attributes, see [Attributes That Control XML Serialization](~/docs/framework/serialization/attributes-that-control-xml-serialization.md).  
+ The <xref:System.Xml.Serialization.XmlArrayAttribute> belongs to a family of attributes that controls how the <xref:System.Xml.Serialization.XmlSerializer> serializes or deserializes an object. For a complete list of similar attributes, see [Attributes That Control XML Serialization](~/docs/standard/serialization/attributes-that-control-xml-serialization.md).  
   
  You can apply the <xref:System.Xml.Serialization.XmlArrayAttribute> to a public field or read/write property that returns an array of objects. You can also apply it to collections and fields that return an <xref:System.Collections.ArrayList> or any field that returns an object that implements the <xref:System.Collections.IEnumerable> interface.  
   
@@ -44,7 +44,7 @@
 > [!NOTE]
 >  You can use `XmlArray` in your code instead of the longer <xref:System.Xml.Serialization.XmlArrayAttribute>.  
   
- For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+ For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
    
   
@@ -57,6 +57,10 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Xml.Serialization.XmlAttributes.XmlArray" />
+    <altmember cref="T:System.Xml.Serialization.XmlArrayItemAttribute" />
+    <altmember cref="T:System.Xml.Serialization.XmlAttributeOverrides" />
+    <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -85,7 +89,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+ For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
    
   
@@ -98,6 +102,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlArrayItemAttribute" />
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -129,7 +135,7 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- For more information about using attributes, see [Attributes](http://msdn.microsoft.com/library/30386922-1e00-4602-9ebf-526b271a8b87).  
+ For more information about using attributes, see [Attributes](~/docs/standard/attributes/index.md).  
   
    
   
@@ -143,6 +149,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlArrayItemAttribute" />
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
       </Docs>
     </Member>
     <Member MemberName="ElementName">
@@ -189,6 +197,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Namespace" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Form" />
       </Docs>
     </Member>
     <Member MemberName="Form">
@@ -247,6 +258,10 @@ attributeFormDefault="unqualified"... >
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
+        <altmember cref="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.ElementName" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Namespace" />
       </Docs>
     </Member>
     <Member MemberName="IsNullable">
@@ -349,6 +364,10 @@ attributeFormDefault="unqualified"... >
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
+        <altmember cref="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.ElementName" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Form" />
       </Docs>
     </Member>
     <Member MemberName="Order">
@@ -389,5 +408,15 @@ attributeFormDefault="unqualified"... >
         </remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
+        <AssemblyVersion>4.0.10.0</AssemblyVersion>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Xml.Serialization.XmlArrayAttribute" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

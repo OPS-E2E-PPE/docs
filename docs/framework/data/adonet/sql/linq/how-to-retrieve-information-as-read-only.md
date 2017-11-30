@@ -1,5 +1,5 @@
 ---
-title: "How to: Retrieve Information As Read-Only | Microsoft Docs"
+title: "How to: Retrieve Information As Read-Only"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: fb09e298-0b53-47e5-97fb-ab318bcd4fad
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -30,6 +33,6 @@ When you do not intend to change the data, you can increase the performance of q
  [!code-vb[DLinqQuerying#2](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqQuerying/vb/Module1.vb#2)]  
   
 ## See Also  
- [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)   
- [Querying the Database](../../../../../../docs/framework/data/adonet/sql/linq/querying-the-database.md)   
+ [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)  
+ [Querying the Database](../../../../../../docs/framework/data/adonet/sql/linq/querying-the-database.md)  
  [Deferred versus Immediate Loading](../../../../../../docs/framework/data/adonet/sql/linq/deferred-versus-immediate-loading.md)

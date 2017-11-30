@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::Abort Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::Abort Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::Abort"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::Abort method [.NET Framework debugging]"
   - "Abort method, ISymUnmanagedWriter interface [.NET Framework debugging]"

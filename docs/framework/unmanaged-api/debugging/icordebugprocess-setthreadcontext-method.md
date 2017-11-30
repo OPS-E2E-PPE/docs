@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::SetThreadContext Method | Microsoft Docs"
+title: "ICorDebugProcess::SetThreadContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::SetThreadContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess::SetThreadContext method [.NET Framework debugging]"
   - "SetThreadContext method, ICorDebugProcess interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "Select Nodes Using XPath Navigation | Microsoft Docs"
+title: "Select Nodes Using XPath Navigation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology:  dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 8e4450dc-56b3-472b-b467-32f5694f83ad
 caps.latest.revision: 4
 author: "mairaw"

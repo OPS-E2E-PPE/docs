@@ -1,5 +1,5 @@
 ---
-title: "WCF Directive Syntax | Microsoft Docs"
+title: "WCF Directive Syntax"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -30,6 +30,6 @@ Specifies settings used by the [!INCLUDE[indigo1](../../../../../includes/indigo
  Describes how the @ServiceHost directive is used when hosting a service in Windows Process Activation Service (WAS)  
   
 ## See Also  
- [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)   
- [Hosting in Internet Information Services](../../../../../docs/framework/wcf/feature-details/hosting-in-internet-information-services.md)   
+ [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)  
+ [Hosting in Internet Information Services](../../../../../docs/framework/wcf/feature-details/hosting-in-internet-information-services.md)  
  [Hosting in Windows Process Activation Service](../../../../../docs/framework/wcf/feature-details/hosting-in-windows-process-activation-service.md)

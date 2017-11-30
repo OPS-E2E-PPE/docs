@@ -1,5 +1,5 @@
 ---
-title: "How to: Map HRESULTs and Exceptions | Microsoft Docs"
+title: "How to: Map HRESULTs and Exceptions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,8 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "cpp"
 helpviewer_keywords: 
   - "interoperation with unmanaged code, HRESULTs"
   - "exceptions, HRESULTs"
@@ -150,5 +147,5 @@ CMyClass::MethodThatThrows
  Exception fields, such as **Message**, **Source**, and **StackTrace** are not available for the **StackOverflowException**.  
   
 ## See Also  
- [Advanced COM Interoperability](http://msdn.microsoft.com/en-us/3ada36e5-2390-4d70-b490-6ad8de92f2fb)   
+ [Advanced COM Interoperability](http://msdn.microsoft.com/en-us/3ada36e5-2390-4d70-b490-6ad8de92f2fb)  
  [Exceptions](../../../docs/standard/exceptions/index.md)

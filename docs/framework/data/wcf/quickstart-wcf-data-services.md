@@ -1,5 +1,5 @@
 ---
-title: "Quickstart (WCF Data Services) | Microsoft Docs"
+title: "Quickstart (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "HTML"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "WCF Data Services, quick-start example"
   - "WCF Data Services, Entity Data Model (EDM) service"

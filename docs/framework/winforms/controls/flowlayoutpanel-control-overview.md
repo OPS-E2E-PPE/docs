@@ -1,5 +1,5 @@
 ---
-title: "FlowLayoutPanel Control Overview | Microsoft Docs"
+title: "FlowLayoutPanel Control Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,10 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "FlowLayoutPanel"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "forms, dynamic layout"
+  - "forms [Windows Forms], dynamic layout"
   - "layout [Windows Forms], dynamic"
   - "Windows Forms, dynamic layout"
   - "FlowLayoutPanel control [Windows Forms], about FlowLayoutPanel control"
@@ -36,6 +34,6 @@ The <xref:System.Windows.Forms.FlowLayoutPanel> control arranges its contents in
  Also see [Walkthrough: Arranging Controls on Windows Forms Using a FlowLayoutPanel](http://msdn.microsoft.com/library/z9w7ek2f\(v=vs.110\)).  
   
 ## See Also  
- <xref:System.Windows.Forms.FlowLayoutPanel.FlowDirection%2A>   
- <xref:System.Windows.Forms.TableLayoutPanel>   
+ <xref:System.Windows.Forms.FlowLayoutPanel.FlowDirection%2A>  
+ <xref:System.Windows.Forms.TableLayoutPanel>  
  [FlowLayoutPanel Control](../../../../docs/framework/winforms/controls/flowlayoutpanel-control-windows-forms.md)

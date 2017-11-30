@@ -1,5 +1,5 @@
 ---
-title: "How to: Determine the Installed Version of WPF | Microsoft Docs"
+title: "How to: Determine the Installed Version of WPF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "version, finding"
+  - "version [WPF], finding"
 ms.assetid: 99971cef-e218-4f9f-a4c1-350332741860
 caps.latest.revision: 3
 author: dotnet-bot

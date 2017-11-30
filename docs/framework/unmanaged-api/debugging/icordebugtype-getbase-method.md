@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugType::GetBase Method | Microsoft Docs"
+title: "ICorDebugType::GetBase Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugType::GetBase"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugType::GetBase method [.NET Framework debugging]"
   - "GetBase method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "IHostFilter Interface | Microsoft Docs"
+title: "IHostFilter Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostFilter"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostFilter interface [.NET Framework metadata]"
 ms.assetid: e79456b1-045b-4a84-9714-2ea560ff75ea

@@ -1,5 +1,5 @@
 ---
-title: "&lt;namedPipeTransport&gt; | Microsoft Docs"
+title: "&lt;namedPipeTransport&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 9fc3f42f-43e2-4ab1-8bc7-3c95a9220df1
 caps.latest.revision: 15
 author: "Erikre"

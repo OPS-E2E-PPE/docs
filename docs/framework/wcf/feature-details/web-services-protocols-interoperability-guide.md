@@ -1,5 +1,5 @@
 ---
-title: "Web Services Protocols Interoperability Guide | Microsoft Docs"
+title: "Web Services Protocols Interoperability Guide"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -107,12 +107,12 @@ manager: "erikre"
 -   [Basic Security Profile 1.0 Working Draft](http://go.microsoft.com/fwlink/?LinkId=96711)  
   
 ## See Also  
- [Web Services Protocols Supported by System-Provided Interoperability Bindings](../../../../docs/framework/wcf/feature-details/web-services-protocols-supported-by-system-provided-interoperability-bindings.md)   
- [Messaging Protocols](../../../../docs/framework/wcf/feature-details/messaging-protocols.md)   
- [Data Contract Schema Reference](../../../../docs/framework/wcf/feature-details/data-contract-schema-reference.md)   
- [WSDL and Policy](../../../../docs/framework/wcf/feature-details/wsdl-and-policy.md)   
- [Security Protocols](../../../../docs/framework/wcf/feature-details/security-protocols.md)   
- [Reliable Messaging Protocol version 1.0](../../../../docs/framework/wcf/feature-details/reliable-messaging-protocol-version-1-0.md)   
- [Reliable Messaging Protocol version 1.1](../../../../docs/framework/wcf/feature-details/reliable-messaging-protocol-version-1-1.md)   
- [Transaction Protocols](../../../../docs/framework/wcf/feature-details/transaction-protocols.md)   
+ [Web Services Protocols Supported by System-Provided Interoperability Bindings](../../../../docs/framework/wcf/feature-details/web-services-protocols-supported-by-system-provided-interoperability-bindings.md)  
+ [Messaging Protocols](../../../../docs/framework/wcf/feature-details/messaging-protocols.md)  
+ [Data Contract Schema Reference](../../../../docs/framework/wcf/feature-details/data-contract-schema-reference.md)  
+ [WSDL and Policy](../../../../docs/framework/wcf/feature-details/wsdl-and-policy.md)  
+ [Security Protocols](../../../../docs/framework/wcf/feature-details/security-protocols.md)  
+ [Reliable Messaging Protocol version 1.0](../../../../docs/framework/wcf/feature-details/reliable-messaging-protocol-version-1-0.md)  
+ [Reliable Messaging Protocol version 1.1](../../../../docs/framework/wcf/feature-details/reliable-messaging-protocol-version-1-1.md)  
+ [Transaction Protocols](../../../../docs/framework/wcf/feature-details/transaction-protocols.md)  
  [Context Exchange Protocol](../../../../docs/framework/wcf/feature-details/context-exchange-protocol.md)

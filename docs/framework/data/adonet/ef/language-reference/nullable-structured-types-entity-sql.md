@@ -1,5 +1,5 @@
 ---
-title: "Nullable Structured Types (Entity SQL) | Microsoft Docs"
+title: "Nullable Structured Types (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: ae006fa9-997e-45bb-8a04-a7f62026171e
 caps.latest.revision: 2
 author: "JennieHubbard"

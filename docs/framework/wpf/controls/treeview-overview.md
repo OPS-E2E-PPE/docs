@@ -1,5 +1,5 @@
 ---
-title: "TreeView Overview | Microsoft Docs"
+title: "TreeView Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "expanding node"
-  - "TreeView control, about TreeView control"
-  - "Control class, TreeView"
+  - "expanding node [WPF]"
+  - "TreeView control [WPF], about TreeView control"
+  - "Control class [WPF], TreeView"
 ms.assetid: 62212512-5a5c-4864-949e-b6a6a3a52c02
 caps.latest.revision: 33
 author: dotnet-bot
@@ -27,7 +27,7 @@ The <xref:System.Windows.Controls.TreeView> control provides a way to display in
 ## What Is a TreeView?  
  <xref:System.Windows.Controls.TreeView> is an <xref:System.Windows.Controls.ItemsControl> that nests the items by using <xref:System.Windows.Controls.TreeViewItem> controls. The following example creates a <xref:System.Windows.Controls.TreeView>.  
   
- [!code-xml[TreeViewSnips#EmbeddedTVIs](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#embeddedtvis)]  
+ [!code-xaml[TreeViewSnips#EmbeddedTVIs](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#embeddedtvis)]  
   
 <a name="Creating_a_TreeView"></a>   
 ## Creating a TreeView  
@@ -65,7 +65,7 @@ The <xref:System.Windows.Controls.TreeView> control provides a way to display in
   
  The following example shows how to set the <xref:System.Windows.Controls.Control.Foreground%2A> and <xref:System.Windows.Controls.Control.FontSize%2A> property values for a <xref:System.Windows.Controls.TreeViewItem> control by using a <xref:System.Windows.FrameworkElement.Style%2A>.  
   
- [!code-xml[TreeViewSimple#8](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSimple/CS/Window1.xaml#8)]  
+ [!code-xaml[TreeViewSimple#8](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSimple/CS/Window1.xaml#8)]  
   
 <a name="Adding_Images_and_oOther_Content_to_TreeView_Items"></a>   
 ## Adding Images and Other Content to TreeView Items  
@@ -73,14 +73,14 @@ The <xref:System.Windows.Controls.TreeView> control provides a way to display in
   
  The following example shows how to define the <xref:System.Windows.Controls.HeaderedItemsControl.Header%2A> of a <xref:System.Windows.Controls.TreeViewItem> as a <xref:System.Windows.Controls.CheckBox> and <xref:System.Windows.Controls.TextBlock> that are both enclosed in a <xref:System.Windows.Controls.DockPanel> control.  
   
- [!code-xml[TreeViewSnips#TVIHeader](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#tviheader)]  
+ [!code-xaml[TreeViewSnips#TVIHeader](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewSnips/CSharp/Window1.xaml#tviheader)]  
   
  The following example shows how to define a <xref:System.Windows.DataTemplate> that contains an <xref:System.Windows.Controls.Image> and a <xref:System.Windows.Controls.TextBlock> that are enclosed in a <xref:System.Windows.Controls.DockPanel> control. You can use a <xref:System.Windows.DataTemplate> to set the <xref:System.Windows.Controls.HeaderedItemsControl.HeaderTemplate%2A> or <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> for a <xref:System.Windows.Controls.TreeViewItem>.  
   
- [!code-xml[TreeViewDataBinding#6](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewDataBinding/CSharp/Window1.xaml#6)]  
+ [!code-xaml[TreeViewDataBinding#6](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TreeViewDataBinding/CSharp/Window1.xaml#6)]  
   
 ## See Also  
- <xref:System.Windows.Controls.TreeView>   
- <xref:System.Windows.Controls.TreeViewItem>   
- [How-to Topics](../../../../docs/framework/wpf/controls/treeview-how-to-topics.md)   
+ <xref:System.Windows.Controls.TreeView>  
+ <xref:System.Windows.Controls.TreeViewItem>  
+ [How-to Topics](../../../../docs/framework/wpf/controls/treeview-how-to-topics.md)  
  [WPF Content Model](../../../../docs/framework/wpf/controls/wpf-content-model.md)

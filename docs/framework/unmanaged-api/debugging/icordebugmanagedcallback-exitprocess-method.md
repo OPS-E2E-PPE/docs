@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::ExitProcess Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::ExitProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::ExitProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExitProcess method, ICorDebugManagedCallback interface [.NET Framework debugging]"
   - "ICorDebugManagedCallback::ExitProcess method [.NET Framework debugging]"

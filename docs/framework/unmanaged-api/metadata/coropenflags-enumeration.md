@@ -1,5 +1,5 @@
 ---
-title: "CorOpenFlags Enumeration | Microsoft Docs"
+title: "CorOpenFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorOpenFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorOpenFlags enumeration [.NET Framework metadata]"
 ms.assetid: e27a83b5-2698-4996-9032-1e0fed8b91ca

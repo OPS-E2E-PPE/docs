@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement an Adorner | Microsoft Docs"
+title: "How to: Implement an Adorner"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "adorners, implementing"
+  - "adorners [WPF], implementing"
 ms.assetid: 56ae32b6-0599-455c-b52f-2ff97e6f1ec2
 caps.latest.revision: 8
 author: dotnet-bot

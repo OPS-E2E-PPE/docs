@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::JITCompilationFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::JITCompilationFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::JITCompilationFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "JITCompilationFinished method [.NET Framework profiling]"
   - "ICorProfilerCallback::JITCompilationFinished method [.NET Framework profiling]"
@@ -64,5 +62,5 @@ HRESULT JITCompilationFinished(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [JITCompilationStarted Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-jitcompilationstarted-method.md)

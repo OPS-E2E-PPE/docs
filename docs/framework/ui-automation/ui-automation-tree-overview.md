@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Tree Overview | Microsoft Docs"
+title: "UI Automation Tree Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -61,5 +61,5 @@ manager: "markl"
  The content view is obtained by searching for elements that have the <xref:System.Windows.Automation.AutomationElement.AutomationElementInformation.IsContentElement%2A> property set to `true`, or by using the <xref:System.Windows.Automation.TreeWalker.ContentViewWalker> to navigate the tree.  
   
 ## See Also  
- <xref:System.Windows.Automation.AutomationElement>   
+ <xref:System.Windows.Automation.AutomationElement>  
  [UI Automation Overview](../../../docs/framework/ui-automation/ui-automation-overview.md)

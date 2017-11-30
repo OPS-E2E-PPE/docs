@@ -442,7 +442,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Data.SqlTypes.SqlString op_Explicit (System.Data.SqlTypes.SqlChars value);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Data.SqlTypes.SqlString (System.Data.SqlTypes.SqlChars value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.SqlTypes.SqlString op_Explicit(class System.Data.SqlTypes.SqlChars value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.SqlTypes.SqlChars.op_Explicit(System.Data.SqlTypes.SqlChars)~System.Data.SqlTypes.SqlString" />
       <MemberType>Method</MemberType>
@@ -470,14 +470,16 @@
         <Parameter Name="value" Type="System.Data.SqlTypes.SqlChars" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="value">The <see cref="T:System.Data.SqlTypes.SqlChars" /> structure to be converted.</param>
+        <summary>Converts a <see cref="T:System.Data.SqlTypes.SqlChars" /> structure to a <see cref="T:System.Data.SqlTypes.SqlString" /> structure.</summary>
+        <returns>A <see cref="T:System.Data.SqlTypes.SqlString" /> structure.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Object.ToString%2A?displayProperty=nameWithType>.]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Data.SqlTypes.SqlChars op_Explicit (System.Data.SqlTypes.SqlString value);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Data.SqlTypes.SqlChars (System.Data.SqlTypes.SqlString value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Data.SqlTypes.SqlChars op_Explicit(valuetype System.Data.SqlTypes.SqlString value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.SqlTypes.SqlChars.op_Explicit(System.Data.SqlTypes.SqlString)~System.Data.SqlTypes.SqlChars" />
       <MemberType>Method</MemberType>
@@ -505,10 +507,12 @@
         <Parameter Name="value" Type="System.Data.SqlTypes.SqlString" />
       </Parameters>
       <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="value">The <see cref="T:System.Data.SqlTypes.SqlString" /> structure to be converted.</param>
+        <summary>Converts a <see cref="T:System.Data.SqlTypes.SqlString" /> structure to a <see cref="T:System.Data.SqlTypes.SqlChars" /> structure.</summary>
+        <returns>A <see cref="T:System.Data.SqlTypes.SqlChars" /> structure.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.SqlTypes.SqlChars.%23ctor(System.Data.SqlTypes.SqlString)?displayProperty=nameWithType>.]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -909,5 +913,14 @@
         </remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="op_Explicit">
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Converts to a T:System.Data.SqlTypes.SqlChars structure.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

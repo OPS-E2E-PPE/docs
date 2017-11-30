@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Columns in the Windows Forms DataGridView Control Using the Designer | Microsoft Docs"
+title: "How to: Add and Remove Columns in the Windows Forms DataGridView Control Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.DataGridViewAddColumnDialog"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "DataGridView control [Windows Forms], adding columns"
   - "DataGridView control [Windows Forms], removing columns"
@@ -50,6 +48,6 @@ The Windows Forms <xref:System.Windows.Forms.DataGridView> control must contain 
 3.  Click the **Remove** button to delete the column, causing it to disappear from the designer.  
   
 ## See Also  
- <xref:System.Windows.Forms.DataGridView>   
- [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa)   
+ <xref:System.Windows.Forms.DataGridView>  
+ [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa)  
  [How to: Add Controls to Windows Forms](../../../../docs/framework/winforms/controls/how-to-add-controls-to-windows-forms.md)

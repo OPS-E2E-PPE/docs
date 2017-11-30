@@ -219,6 +219,10 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.True" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsFalse" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsTrue" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.Null" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -264,6 +268,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsTrue" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.True" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsNull" />
       </Docs>
     </Member>
     <Member MemberName="IsNull">
@@ -283,6 +290,8 @@
         <value>
           <see langword="true" /> if the <see cref="T:System.Data.OracleClient.OracleBoolean" /> value of the structure is **Null**, otherwise <see langword="false" />.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsTrue" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsFalse" />
       </Docs>
     </Member>
     <Member MemberName="IsTrue">
@@ -309,6 +318,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsFalse" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.False" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsNull" />
       </Docs>
     </Member>
     <Member MemberName="NotEquals">
@@ -357,6 +369,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsNull" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.True" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.False" />
       </Docs>
     </Member>
     <Member MemberName="One">
@@ -406,7 +421,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_BitwiseAnd">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_BitwiseAnd (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator &amp; (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_BitwiseAnd(valuetype System.Data.OracleClient.OracleBoolean x, valuetype System.Data.OracleClient.OracleBoolean y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_BitwiseAnd(System.Data.OracleClient.OracleBoolean,System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -431,12 +446,12 @@
   
  </description></listheader><item><term><see langword="true" /></term><description><see langword="true" /></description><description><see langword="true" /></description></item><item><term><see langword="true" /></term><description><see langword="false" /></description><description><see langword="false" /></description></item><item><term><see langword="false" /></term><description><see langword="false" /></description><description><see langword="false" /></description></item><item><term><see langword="true" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item><item><term><see langword="false" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item><item><term><see langword="unknown" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item></list></returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.And%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.And%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_BitwiseOr">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_BitwiseOr (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator | (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_BitwiseOr(valuetype System.Data.OracleClient.OracleBoolean x, valuetype System.Data.OracleClient.OracleBoolean y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_BitwiseOr(System.Data.OracleClient.OracleBoolean,System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -461,12 +476,12 @@
   
  </description></listheader><item><term><see langword="true" /></term><description><see langword="true" /></description><description><see langword="true" /></description></item><item><term><see langword="true" /></term><description><see langword="false" /></description><description><see langword="true" /></description></item><item><term><see langword="false" /></term><description><see langword="false" /></description><description><see langword="false" /></description></item><item><term><see langword="true" /></term><description><see langword="unknown" /></description><description><see langword="true" /></description></item><item><term><see langword="false" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item><item><term><see langword="unknown" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item></list></returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Or%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Or%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_Equality (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator == (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_Equality(valuetype System.Data.OracleClient.OracleBoolean x, valuetype System.Data.OracleClient.OracleBoolean y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Equality(System.Data.OracleClient.OracleBoolean,System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -487,12 +502,12 @@
         <summary>Compares two instances of an <see cref="T:System.Data.OracleClient.OracleBoolean" /> for equality.</summary>
         <returns>An <see cref="T:System.Data.OracleClient.OracleBoolean" /> that is <see cref="F:System.Data.OracleClient.OracleBoolean.True" /> if the two instances are equal or <see cref="F:System.Data.OracleClient.OracleBoolean.False" /> if the two instances are not equal. If either instance of <see cref="T:System.Data.OracleClient.OracleBoolean" /> is null, the <see cref="P:System.Data.OracleClient.OracleBoolean.Value" /> of the <see cref="T:System.Data.OracleClient.OracleBoolean" /> is <see cref="F:System.Data.OracleClient.OracleBoolean.Null" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Equals%28System.Object%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Equals%28System.Object%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_ExclusiveOr">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_ExclusiveOr (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator ^ (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_ExclusiveOr(valuetype System.Data.OracleClient.OracleBoolean x, valuetype System.Data.OracleClient.OracleBoolean y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_ExclusiveOr(System.Data.OracleClient.OracleBoolean,System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -517,12 +532,12 @@
   
  </description></listheader><item><term><see langword="true" /></term><description><see langword="true" /></description><description><see langword="false" /></description></item><item><term><see langword="true" /></term><description><see langword="false" /></description><description><see langword="true" /></description></item><item><term><see langword="false" /></term><description><see langword="false" /></description><description><see langword="false" /></description></item><item><term><see langword="true" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item><item><term><see langword="false" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item><item><term><see langword="unknown" /></term><description><see langword="unknown" /></description><description><see langword="unknown" /></description></item></list></returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Xor%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.Xor%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static bool op_Explicit (System.Data.OracleClient.OracleBoolean x);" />
+      <MemberSignature Language="C#" Value="public static explicit operator bool (System.Data.OracleClient.OracleBoolean x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Explicit(valuetype System.Data.OracleClient.OracleBoolean x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Explicit(System.Data.OracleClient.OracleBoolean)~System.Boolean" />
       <MemberType>Method</MemberType>
@@ -537,14 +552,15 @@
         <Parameter Name="x" Type="System.Data.OracleClient.OracleBoolean" />
       </Parameters>
       <Docs>
-        <param name="x">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="x">An <see cref="T:System.Data.OracleClient.OracleBoolean" /> to convert.</param>
+        <summary>Converts an <see cref="T:System.Data.OracleClient.OracleBoolean" /> to a <see langword="Boolean" />.</summary>
+        <returns>A <see langword="Boolean" /> set to the <see cref="P:System.Data.OracleClient.OracleBoolean.Value" /> of the <see cref="T:System.Data.OracleClient.OracleBoolean" />.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">The <see cref="T:System.Data.OracleClient.OracleBoolean" /> contains a null value.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_Explicit (System.Data.OracleClient.OracleNumber x);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Data.OracleClient.OracleBoolean (System.Data.OracleClient.OracleNumber x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_Explicit(valuetype System.Data.OracleClient.OracleNumber x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Explicit(System.Data.OracleClient.OracleNumber)~System.Data.OracleClient.OracleBoolean" />
       <MemberType>Method</MemberType>
@@ -559,14 +575,21 @@
         <Parameter Name="x" Type="System.Data.OracleClient.OracleNumber" />
       </Parameters>
       <Docs>
-        <param name="x">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="x">An <see cref="T:System.Data.OracleClient.OracleNumber" /> to be converted to an <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure.</param>
+        <summary>Converts the <see cref="T:System.Data.OracleClient.OracleNumber" /> parameter to an <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure.</summary>
+        <returns>A new <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure whose value equals the <see cref="P:System.Data.OracleClient.OracleNumber.Value" /> property of the <see cref="T:System.Data.OracleClient.OracleNumber" /> parameter.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If the value of the <xref:System.Data.OracleClient.OracleNumber> is 0, the value of <xref:System.Data.OracleClient.OracleBoolean> is `false`; otherwise, the value of the <xref:System.Data.OracleClient.OracleBoolean> is `true`.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_Explicit (string x);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Data.OracleClient.OracleBoolean (string x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_Explicit(string x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Explicit(System.String)~System.Data.OracleClient.OracleBoolean" />
       <MemberType>Method</MemberType>
@@ -581,14 +604,14 @@
         <Parameter Name="x" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="x">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="x">A string to be converted to an <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure.</param>
+        <summary>Converts a string to an <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure.</summary>
+        <returns>A new <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure whose value equals the <see cref="P:System.Data.OracleClient.OracleNumber.Value" /> of the <see cref="T:System.Data.OracleClient.OracleNumber" /> parameter.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_False">
-      <MemberSignature Language="C#" Value="public static bool op_False (System.Data.OracleClient.OracleBoolean x);" />
+      <MemberSignature Language="C#" Value="public static bool operator false (System.Data.OracleClient.OracleBoolean x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_False(valuetype System.Data.OracleClient.OracleBoolean x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_False(System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -608,12 +631,12 @@
         <returns>
           <see langword="true" /> if the supplied parameter <see cref="T:System.Data.OracleClient.OracleBoolean" /> is false; otherwise <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.IsFalse?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.IsFalse?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_Implicit (bool x);" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Data.OracleClient.OracleBoolean (bool x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_Implicit(bool x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Implicit(System.Boolean)~System.Data.OracleClient.OracleBoolean" />
       <MemberType>Method</MemberType>
@@ -628,14 +651,14 @@
         <Parameter Name="x" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="x">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="x">A <see langword="Boolean" /> value to be converted to <see cref="T:System.Data.OracleClient.OracleBoolean" />.</param>
+        <summary>Converts a <see langword="Boolean" /> value to an <see cref="T:System.Data.OracleClient.OracleBoolean" />.</summary>
+        <returns>An <see cref="T:System.Data.OracleClient.OracleBoolean" /> value containing 0 or 1.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_Inequality (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator != (System.Data.OracleClient.OracleBoolean x, System.Data.OracleClient.OracleBoolean y);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_Inequality(valuetype System.Data.OracleClient.OracleBoolean x, valuetype System.Data.OracleClient.OracleBoolean y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_Inequality(System.Data.OracleClient.OracleBoolean,System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -656,12 +679,12 @@
         <summary>Compares two instances of <see cref="T:System.Data.OracleClient.OracleBoolean" /> for inequality.</summary>
         <returns>An <see cref="T:System.Data.OracleClient.OracleBoolean" /> that is <see cref="F:System.Data.OracleClient.OracleBoolean.True" /> if the two instances are not equal or <see cref="F:System.Data.OracleClient.OracleBoolean.False" /> if the two instances are equal. If either instance of <see cref="T:System.Data.OracleClient.OracleBoolean" /> is null, the <see cref="P:System.Data.OracleClient.OracleBoolean.Value" /> of the <see cref="T:System.Data.OracleClient.OracleBoolean" /> is <see cref="F:System.Data.OracleClient.OracleBoolean.Null" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.NotEquals%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.NotEquals%28System.Data.OracleClient.OracleBoolean%2CSystem.Data.OracleClient.OracleBoolean%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_LogicalNot">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_LogicalNot (System.Data.OracleClient.OracleBoolean x);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator ! (System.Data.OracleClient.OracleBoolean x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_LogicalNot(valuetype System.Data.OracleClient.OracleBoolean x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_LogicalNot(System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -683,7 +706,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_OnesComplement">
-      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean op_OnesComplement (System.Data.OracleClient.OracleBoolean x);" />
+      <MemberSignature Language="C#" Value="public static System.Data.OracleClient.OracleBoolean operator ~ (System.Data.OracleClient.OracleBoolean x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Data.OracleClient.OracleBoolean op_OnesComplement(valuetype System.Data.OracleClient.OracleBoolean x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_OnesComplement(System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -702,12 +725,12 @@
         <summary>Performs a one's complement operation on the specified <see cref="T:System.Data.OracleClient.OracleBoolean" />.</summary>
         <returns>The one's complement of the specified <see cref="T:System.Data.OracleClient.OracleBoolean" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.OnesComplement%28System.Data.OracleClient.OracleBoolean%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.OnesComplement%28System.Data.OracleClient.OracleBoolean%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_True">
-      <MemberSignature Language="C#" Value="public static bool op_True (System.Data.OracleClient.OracleBoolean x);" />
+      <MemberSignature Language="C#" Value="public static bool operator true (System.Data.OracleClient.OracleBoolean x);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_True(valuetype System.Data.OracleClient.OracleBoolean x) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OracleClient.OracleBoolean.op_True(System.Data.OracleClient.OracleBoolean)" />
       <MemberType>Method</MemberType>
@@ -727,7 +750,7 @@
         <returns>
           <see langword="true" /> if the supplied parameter <see cref="T:System.Data.OracleClient.OracleBoolean" /> is true; otherwise <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.IsTrue?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Data.OracleClient.OracleBoolean.IsTrue?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
@@ -822,6 +845,10 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.False" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsTrue" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsFalse" />
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.Null" />
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -841,6 +868,10 @@
         <value>
           <see langword="true" /> if the <see cref="T:System.Data.OracleClient.OracleBoolean" /> is <see cref="F:System.Data.OracleClient.OracleBoolean.True" />; otherwise <see langword="false" />.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="F:System.Data.OracleClient.OracleBoolean.False" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsTrue" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsFalse" />
+        <altmember cref="P:System.Data.OracleClient.OracleBoolean.IsNull" />
       </Docs>
     </Member>
     <Member MemberName="Xor">
@@ -895,5 +926,32 @@
         </remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OracleClient</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Data.OracleClient.OracleBoolean" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OracleClient</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Compares two <see cref="T:System.Data.OracleClient.OracleBoolean" /> structures to determine if they are equal.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Explicit">
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OracleClient</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Used for explicit <see cref="T:System.Data.OracleClient.OracleBoolean" /> conversion.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

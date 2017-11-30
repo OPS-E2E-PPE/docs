@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::CreateAppDomain Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::CreateAppDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::CreateAppDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAppDomain method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::CreateAppDomain method [.NET Framework debugging]"

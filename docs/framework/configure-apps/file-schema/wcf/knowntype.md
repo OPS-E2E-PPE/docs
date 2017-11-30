@@ -1,5 +1,5 @@
 ---
-title: "&lt;knownType&gt; | Microsoft Docs"
+title: "&lt;knownType&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -76,7 +76,7 @@ Specifies a type to be used by <xref:System.Runtime.Serialization.DataContractSe
 ```  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractSerializer>   
- [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md)   
- [\<dataContractSerializer>](../../../../../docs/framework/configure-apps/file-schema/wcf/datacontractserializer-element.md)   
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
+ [Data Contract Known Types](../../../../../docs/framework/wcf/feature-details/data-contract-known-types.md)  
+ [\<dataContractSerializer>](../../../../../docs/framework/configure-apps/file-schema/wcf/datacontractserializer-element.md)  
  [\<add>](../../../../../docs/framework/configure-apps/file-schema/wcf/add-of-declaredtypes-element.md)

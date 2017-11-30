@@ -1,5 +1,5 @@
 ---
-title: "Regsvcs.exe (.NET Services Installation Tool) | Microsoft Docs"
+title: "Regsvcs.exe (.NET Services Installation Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Regsvcs.exe"
   - ".NET Services Installation tool"
@@ -96,6 +91,6 @@ regsvcs /appname:myTargetApp /tlb:newTest.tlb myTest.dll
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [How to: Sign an Assembly with a Strong Name](../../../docs/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [How to: Sign an Assembly with a Strong Name](../../../docs/framework/app-domains/how-to-sign-an-assembly-with-a-strong-name.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

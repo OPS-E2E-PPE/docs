@@ -1,5 +1,5 @@
 ---
-title: "CorFlags.exe (CorFlags Conversion Tool) | Microsoft Docs"
+title: "CorFlags.exe (CorFlags Conversion Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "CorFlags conversion tool"
   - "CorFlags.exe"
@@ -62,6 +57,6 @@ CorFlags.exe assembly [options]
  If no options are specified, the CorFlags Conversion tool displays the flags for the specified assembly.  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [64-bit Applications](../../../docs/framework/64-bit-apps.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [64-bit Applications](../../../docs/framework/64-bit-apps.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

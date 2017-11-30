@@ -31,6 +31,10 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Forms.Binding" />
+    <altmember cref="M:System.Windows.Forms.BindingMemberInfo.#ctor(System.String)" />
+    <altmember cref="P:System.Windows.Forms.Binding.DataSource" />
+    <altmember cref="P:System.Windows.Forms.Binding.PropertyName" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -56,6 +60,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.BindingMemberInfo.#ctor(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="BindingField">
@@ -90,6 +95,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Binding" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingPath" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingMember" />
       </Docs>
     </Member>
     <Member MemberName="BindingMember">
@@ -126,6 +134,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Binding" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingField" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingPath" />
       </Docs>
     </Member>
     <Member MemberName="BindingPath">
@@ -160,6 +171,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Binding" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingField" />
+        <altmember cref="P:System.Windows.Forms.BindingMemberInfo.BindingMember" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -190,6 +204,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.BindingMemberInfo.op_Equality(System.Windows.Forms.BindingMemberInfo,System.Windows.Forms.BindingMemberInfo)" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -212,7 +227,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Forms.BindingMemberInfo a, System.Windows.Forms.BindingMemberInfo b);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Forms.BindingMemberInfo a, System.Windows.Forms.BindingMemberInfo b);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Forms.BindingMemberInfo a, valuetype System.Windows.Forms.BindingMemberInfo b) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.BindingMemberInfo.op_Equality(System.Windows.Forms.BindingMemberInfo,System.Windows.Forms.BindingMemberInfo)" />
       <MemberType>Method</MemberType>
@@ -234,12 +249,12 @@
         <returns>
           <see langword="true" /> if the <see cref="P:System.Windows.Forms.BindingMemberInfo.BindingMember" /> strings for <paramref name="a" /> and <paramref name="b" /> are equal; otherwise <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Forms.BindingMemberInfo.Equals%28System.Object%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Forms.BindingMemberInfo.Equals%28System.Object%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Forms.BindingMemberInfo a, System.Windows.Forms.BindingMemberInfo b);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Forms.BindingMemberInfo a, System.Windows.Forms.BindingMemberInfo b);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Forms.BindingMemberInfo a, valuetype System.Windows.Forms.BindingMemberInfo b) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.BindingMemberInfo.op_Inequality(System.Windows.Forms.BindingMemberInfo,System.Windows.Forms.BindingMemberInfo)" />
       <MemberType>Method</MemberType>
@@ -261,7 +276,7 @@
         <returns>
           <see langword="true" /> if the <see cref="P:System.Windows.Forms.BindingMemberInfo.BindingMember" /> strings for <paramref name="a" /> and <paramref name="b" /> are not equal; otherwise <see langword="false" />.</returns>
         <remarks>
-          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Forms.BindingMemberInfo.Equals%28System.Object%29?displayProperty=fullName>]]></format>
+          <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Windows.Forms.BindingMemberInfo.Equals%28System.Object%29?displayProperty=nameWithType>]]></format>
         </remarks>
       </Docs>
     </Member>

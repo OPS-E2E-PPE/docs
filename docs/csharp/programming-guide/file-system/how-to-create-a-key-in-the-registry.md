@@ -1,16 +1,10 @@
 ---
-title: "How to: Create a Key In the Registry (Visual C#) | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "How to: Create a Key In the Registry (Visual C#)"
+ms.date: 07/20/2015
 ms.prod: .net
-
-
 ms.technology: 
   - "devlang-csharp"
-
 ms.topic: "article"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "registry, adding keys and values [C#]"
   - "registry keys, creating [C#]"
@@ -19,21 +13,6 @@ ms.assetid: 8fa475b0-e01f-483a-9327-fd03488fdf5d
 caps.latest.revision: 14
 author: "BillWagner"
 ms.author: "wiwagn"
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # How to: Create a Key In the Registry (Visual C#)
 This example adds the value pair, "Name" and "Isabella", to the current user's registry, under the key "Names".  
@@ -53,7 +32,7 @@ key.Close();
   
 -   Replace the `Names` parameter with the name of a key that exists directly under the HKEY_CURRENT_USER node of the registry.  
   
--   Replace the `Nam`e parameter with the name of a value that exists directly under the Names node.  
+-   Replace the `Name` parameter with the name of a value that exists directly under the Names node.  
   
 ## Robust Programming  
  Examine the registry structure to find a suitable location for your key. For example, you might want to open the Software key of the current user, and create a key with your company's name. Then add the registry values to your company's key.  
@@ -78,7 +57,7 @@ key.Close();
  It is not secure to store secrets, such as passwords, in the registry as plain text, even if the registry key is protected by access control lists (ACL).  
   
 ## See Also  
- <xref:System.IO?displayProperty=fullName>   
- [C# Programming Guide](../../../csharp/programming-guide/index.md)   
- [File System and the Registry (C# Programming Guide)](../../../csharp/programming-guide/file-system/index.md)   
+ <xref:System.IO?displayProperty=nameWithType>  
+ [C# Programming Guide](../../../csharp/programming-guide/index.md)  
+ [File System and the Registry (C# Programming Guide)](../../../csharp/programming-guide/file-system/index.md)  
  [Read, write and delete from the registry with C#](http://www.codeproject.com/Articles/3389/Read-write-and-delete-from-registry-with-C)

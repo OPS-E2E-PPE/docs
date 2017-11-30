@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader2::GetSymAttributePreRemap Method | Microsoft Docs"
+title: "ISymUnmanagedReader2::GetSymAttributePreRemap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader2::GetSymAttributePreRemap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSymAttributePreRemap method [.NET Framework debugging]"
   - "ISymUnmanagedReader2::GetSymAttributePreRemap method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedAsyncMethod::HasCatchHandlerILOffset Method | Microsoft Docs"
+title: "ISymUnmanagedAsyncMethod::HasCatchHandlerILOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: a9ce105c-6495-49ab-b0e5-903a48ebadb3
 caps.latest.revision: 4
 author: "rpetrusha"

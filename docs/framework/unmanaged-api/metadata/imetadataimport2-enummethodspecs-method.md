@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport2::EnumMethodSpecs Method | Microsoft Docs"
+title: "IMetaDataImport2::EnumMethodSpecs Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport2::EnumMethodSpecs"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataImport2::EnumMethodSpecs method [.NET Framework metadata]"
   - "EnumMethodSpecs method [.NET Framework metadata]"
@@ -78,5 +76,5 @@ HRESULT EnumMethodSpecs (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)   
+ [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)  
  [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)

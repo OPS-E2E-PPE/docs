@@ -1,5 +1,5 @@
 ---
-title: "Common Data Types (Unmanaged API Reference) | Microsoft Docs"
+title: "Common Data Types (Unmanaged API Reference)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: e4ab2c4c-9433-4eba-9e9a-096de406cafb
 caps.latest.revision: 4
 author: "rpetrusha"

@@ -1,5 +1,5 @@
 ---
-title: "Encoding and Windows Forms Globalization | Microsoft Docs"
+title: "Encoding and Windows Forms Globalization"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "ListView control [Windows Forms], lack of Unicode support"
   - "DateTimePicker control [Windows Forms], lack of Unicode support"

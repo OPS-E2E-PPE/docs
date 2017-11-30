@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule3::CreateReaderForInMemorySymbols Method | Microsoft Docs"
+title: "ICorDebugModule3::CreateReaderForInMemorySymbols Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule3::CreateReaderForInMemorySymbols"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateReaderForInMemorySymbols method, ICorDebugModule3 interface [.NET Framework debugging]"
   - "ICorDebugModule3::CreateReaderForInMemorySymbols method [.NET Framework debugging]"
@@ -78,7 +76,7 @@ HRESULT CreateReaderForInMemorySymbols (
  **.NET Framework Versions:** 4.5, 4, 3.5 SP1  
   
 ## See Also  
- [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)   
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebugRemoteTarget Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremotetarget-interface.md)  
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
     
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

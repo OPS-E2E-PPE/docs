@@ -1,5 +1,5 @@
 ---
-title: "&lt;wsDualHttpBinding&gt; | Microsoft Docs"
+title: "&lt;wsDualHttpBinding&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "wsDualHttpBinding Element"
 ms.assetid: fd8ac4e2-5641-473b-9115-73f14ab1c065
@@ -138,9 +135,9 @@ textEncoding="Unicode/BigEndianUnicode/UTF8"
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.WSDualHttpBinding>   
- <xref:System.ServiceModel.Configuration.WSDualHttpBindingElement>   
- [Bindings](../../../../../docs/framework/wcf/bindings.md)   
- [Configuring System-Provided Bindings](../../../../../docs/framework/wcf/feature-details/configuring-system-provided-bindings.md)   
- [Using Bindings to Configure Windows Communication Foundation Services and Clients](http://msdn.microsoft.com/en-us/bd8b277b-932f-472f-a42a-b02bb5257dfb)   
+ <xref:System.ServiceModel.WSDualHttpBinding>  
+ <xref:System.ServiceModel.Configuration.WSDualHttpBindingElement>  
+ [Bindings](../../../../../docs/framework/wcf/bindings.md)  
+ [Configuring System-Provided Bindings](../../../../../docs/framework/wcf/feature-details/configuring-system-provided-bindings.md)  
+ [Using Bindings to Configure Windows Communication Foundation Services and Clients](http://msdn.microsoft.com/en-us/bd8b277b-932f-472f-a42a-b02bb5257dfb)  
  [\<binding>](../../../../../docs/framework/misc/binding.md)

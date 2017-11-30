@@ -1,5 +1,5 @@
 ---
-title: "How to: Navigate Through the Objects in a Data CollectionView | Microsoft Docs"
+title: "How to: Navigate Through the Objects in a Data CollectionView"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "CollectionView, navigating through objects"
-  - "data binding, navigating through objects in data CollectionView"
-  - "navigating through objects in data CollectionView"
+  - "CollectionView [WPF], navigating through objects"
+  - "data binding [WPF], navigating through objects in data CollectionView"
+  - "navigating through objects in data CollectionView [WPF]"
 ms.assetid: fcd37590-bce1-4ac9-8b74-3b96c7458b8a
 caps.latest.revision: 14
 author: dotnet-bot
@@ -33,8 +36,8 @@ Views allow the same data collection to be viewed in different ways, depending o
  [!code-vb[CollectionView#OnButton](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/CollectionView/VisualBasic/Page1.xaml.vb#onbutton)]  
   
 ## See Also  
- [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)   
- [Sort Data in a View](../../../../docs/framework/wpf/data/how-to-sort-data-in-a-view.md)   
- [Filter Data in a View](../../../../docs/framework/wpf/data/how-to-filter-data-in-a-view.md)   
- [Sort and Group Data Using a View in XAML](../../../../docs/framework/wpf/data/how-to-sort-and-group-data-using-a-view-in-xaml.md)   
+ [Data Binding Overview](../../../../docs/framework/wpf/data/data-binding-overview.md)  
+ [Sort Data in a View](../../../../docs/framework/wpf/data/how-to-sort-data-in-a-view.md)  
+ [Filter Data in a View](../../../../docs/framework/wpf/data/how-to-filter-data-in-a-view.md)  
+ [Sort and Group Data Using a View in XAML](../../../../docs/framework/wpf/data/how-to-sort-and-group-data-using-a-view-in-xaml.md)  
  [How-to Topics](../../../../docs/framework/wpf/data/data-binding-how-to-topics.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the ASP.NET Membership Provider | Microsoft Docs"
+title: "How to: Use the ASP.NET Membership Provider"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -161,5 +161,5 @@ The [!INCLUDE[vstecasp](../../../../includes/vstecasp-md.md)] membership provide
 ```  
   
 ## See Also  
- [How to: Use the ASP.NET Role Provider with a Service](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-role-provider-with-a-service.md)   
+ [How to: Use the ASP.NET Role Provider with a Service](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-role-provider-with-a-service.md)  
  [Membership and Role Provider](../../../../docs/framework/wcf/samples/membership-and-role-provider.md)

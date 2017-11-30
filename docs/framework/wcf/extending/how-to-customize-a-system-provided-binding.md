@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize a System-Provided Binding | Microsoft Docs"
+title: "How to: Customize a System-Provided Binding"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: f8b97862-e8bb-470d-8b96-07733c21fe26
 caps.latest.revision: 10
 author: "Erikre"
@@ -54,7 +57,7 @@ manager: "erikre"
      [!code-vb[C_HowTo_ChangeStandardBinding#3](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_howto_changestandardbinding/vb/program.vb#3)]  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.HttpTransportBindingElement>   
- <xref:System.ServiceModel.BasicHttpBinding>   
- <xref:System.ServiceModel.Channels.CustomBinding>   
+ <xref:System.ServiceModel.Channels.HttpTransportBindingElement>  
+ <xref:System.ServiceModel.BasicHttpBinding>  
+ <xref:System.ServiceModel.Channels.CustomBinding>  
  [Custom Bindings](../../../../docs/framework/wcf/extending/custom-bindings.md)

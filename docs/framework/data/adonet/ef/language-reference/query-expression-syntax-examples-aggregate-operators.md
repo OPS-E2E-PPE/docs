@@ -1,5 +1,5 @@
 ---
-title: "Query Expression Syntax Examples: Aggregate Operators | Microsoft Docs"
+title: "Query Expression Syntax Examples: Aggregate Operators"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: d729120c-4c1b-4f34-bbe9-33694fca2dde
 caps.latest.revision: 3
 author: "JennieHubbard"

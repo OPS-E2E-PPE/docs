@@ -1,5 +1,5 @@
 ---
-title: "REF CURSOR Examples | Microsoft Docs"
+title: "REF CURSOR Examples"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -86,5 +86,5 @@ END CURSPKG;
 ```  
   
 ## See Also  
- [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)   
+ [Oracle REF CURSORs](../../../../docs/framework/data/adonet/oracle-ref-cursors.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

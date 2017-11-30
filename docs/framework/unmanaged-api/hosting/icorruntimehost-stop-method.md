@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::Stop Method | Microsoft Docs"
+title: "ICorRuntimeHost::Stop Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::Stop"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Stop method, ICorRuntimeHost interface [.NET Framework hosting]"
   - "ICorRuntimeHost::Stop method [.NET Framework hosting]"

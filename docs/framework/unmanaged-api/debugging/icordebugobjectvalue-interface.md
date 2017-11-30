@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue Interface1 | Microsoft Docs"
+title: "ICorDebugObjectValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugObjectValue interface [.NET Framework debugging]"
 ms.assetid: 937de6a0-6fbf-4ddc-80ea-a6217b73e62b
@@ -60,5 +58,5 @@ A subclass of "ICorDebugValue" that represents a value that contains an object.
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  

@@ -1,5 +1,5 @@
 ---
-title: "CorNativeLinkFlags Enumeration | Microsoft Docs"
+title: "CorNativeLinkFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorNativeLinkFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorNativeLinkFlags enumeration [.NET Framework metadata]"
 ms.assetid: 8027df7c-cfad-4724-bda0-7538d9519070

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Service that Employs a Custom Certificate Validator | Microsoft Docs"
+title: "How to: Create a Service that Employs a Custom Certificate Validator"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, authentication"
 ms.assetid: bb0190ff-0738-4e54-8d22-c97d343708bf

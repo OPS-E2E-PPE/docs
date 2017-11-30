@@ -1,5 +1,5 @@
 ---
-title: "&lt;certificate&gt; of &lt;clientCertificate&gt; Element | Microsoft Docs"
+title: "&lt;certificate&gt; of &lt;clientCertificate&gt; Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -83,9 +83,9 @@ X509FindType="FindByThumbPrint/FindBySubjectName/FindBySubjectDistinguishedName/
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Security.X509CertificateInitiatorServiceCredential.Certificate%2A>   
- <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement.Certificate%2A>   
- <xref:System.ServiceModel.Configuration.X509ClientCertificateCredentialsElement>   
- [Security Behaviors](../../../../../docs/framework/wcf/feature-details/security-behaviors-in-wcf.md)   
- [How to: Create a Service that Employs a Custom Certificate Validator](../../../../../docs/framework/wcf/extending/how-to-create-a-service-that-employs-a-custom-certificate-validator.md)   
+ <xref:System.ServiceModel.Security.X509CertificateInitiatorServiceCredential.Certificate%2A>  
+ <xref:System.ServiceModel.Configuration.X509InitiatorCertificateServiceElement.Certificate%2A>  
+ <xref:System.ServiceModel.Configuration.X509ClientCertificateCredentialsElement>  
+ [Security Behaviors](../../../../../docs/framework/wcf/feature-details/security-behaviors-in-wcf.md)  
+ [How to: Create a Service that Employs a Custom Certificate Validator](../../../../../docs/framework/wcf/extending/how-to-create-a-service-that-employs-a-custom-certificate-validator.md)  
  [Working with Certificates](../../../../../docs/framework/wcf/feature-details/working-with-certificates.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain2::GetFunctionPointerType Method | Microsoft Docs"
+title: "ICorDebugAppDomain2::GetFunctionPointerType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain2::GetFunctionPointerType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain2::GetFunctionPointerType method [.NET Framework debugging]"
   - "GetFunctionPointerType method [.NET Framework debugging]"

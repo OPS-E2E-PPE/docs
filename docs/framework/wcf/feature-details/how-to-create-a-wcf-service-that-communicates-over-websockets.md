@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a WCF Service that Communicates over WebSockets | Microsoft Docs"
+title: "How to: Create a WCF Service that Communicates over WebSockets"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -325,5 +325,5 @@ namespace Client
 ```  
   
 ## See Also  
- [Synchronous and Asynchronous Operations](../../../../docs/framework/wcf/synchronous-and-asynchronous-operations.md)   
+ [Synchronous and Asynchronous Operations](../../../../docs/framework/wcf/synchronous-and-asynchronous-operations.md)  
  [Using the NetHttpBinding](../../../../docs/framework/wcf/feature-details/using-the-nethttpbinding.md)

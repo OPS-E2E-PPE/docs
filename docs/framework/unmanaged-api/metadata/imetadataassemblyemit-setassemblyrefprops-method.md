@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::SetAssemblyRefProps Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::SetAssemblyRefProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::SetAssemblyRefProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetAssemblyRefProps method [.NET Framework metadata]"
   - "IMetaDataAssemblyEmit::SetAssemblyRefProps method [.NET Framework metadata]"

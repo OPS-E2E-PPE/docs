@@ -1,5 +1,5 @@
 ---
-title: "&lt;clear&gt; Element for authenticationModules (Network Settings) | Microsoft Docs"
+title: "&lt;clear&gt; Element for authenticationModules (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/authenticationModules/clear"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#clear"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "clear element, authenticationModules"
   - "<authenticationModules>, clear element"
@@ -64,7 +59,7 @@ Clears all authentication modules from the application.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example removes all configured authentication modules.  
+ The following example removes all configured authentication modules.  
   
 ```xml  
 <configuration>  
@@ -77,6 +72,6 @@ Clears all authentication modules from the application.
 ```  
   
 ## See Also  
- <xref:System.Net.IAuthenticationModule>   
- <xref:System.Net.AuthenticationManager>   
+ <xref:System.Net.IAuthenticationModule>  
+ <xref:System.Net.AuthenticationManager>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

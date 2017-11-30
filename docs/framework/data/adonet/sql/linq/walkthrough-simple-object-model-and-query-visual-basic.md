@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Simple Object Model and Query (Visual Basic) | Microsoft Docs"
+title: "Walkthrough: Simple Object Model and Query (Visual Basic)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,8 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "vb"
 ms.assetid: c878e457-f715-46e4-a136-ff14d6c86018
 caps.latest.revision: 3
 author: "JennieHubbard"

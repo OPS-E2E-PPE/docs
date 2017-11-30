@@ -1,5 +1,5 @@
 ---
-title: "&lt;remove&gt; Element for webRequestModules (Network Settings) | Microsoft Docs"
+title: "&lt;remove&gt; Element for webRequestModules (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/webRequestModules/remove"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#remove"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "remove element, webRequestModules"
   - "webRequestModules, remove element"
@@ -39,8 +34,8 @@ Removes a custom Web request module from the application.
 ## Syntax  
   
 ```xml  
-      <remove   
-  name = "URI prefix"   
+<remove   
+  prefix="URI prefix"   
 />  
 ```  
   
@@ -51,7 +46,7 @@ Removes a custom Web request module from the application.
   
 |**Attribute**|**Description**|  
 |-------------------|---------------------|  
-|`name`|The URI prefix for requests handled by this Web request module.|  
+|`prefix`|The URI prefix for requests handled by this Web request module.|  
   
 ### Child Elements  
  None.  
@@ -71,13 +66,13 @@ Removes a custom Web request module from the application.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example removes the existing Web request module for HTTP and then registers a new custom Web request module for HTTP requests to www.contoso.com.  
+ The following example removes the existing Web request module for HTTP and then registers a new custom Web request module for HTTP requests to www.contoso.com.  
   
 ```xml  
 <configuration>  
   <system.net>  
     <webRequestModules>  
-      <remove prefix = "http">  
+      <remove prefix="http">  
       <add prefix="http"  
            type="System.Net.HttpRequestCreator, System, Version=2.0.3600.0,  
            Culture=neutral, PublicKeyToken=b77a5c561934e089"  
@@ -88,5 +83,5 @@ Removes a custom Web request module from the application.
 ```  
   
 ## See Also  
- <xref:System.Net.WebRequest>   
+ <xref:System.Net.WebRequest>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

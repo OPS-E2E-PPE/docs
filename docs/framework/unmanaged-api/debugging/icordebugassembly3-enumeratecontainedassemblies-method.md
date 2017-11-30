@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly3::EnumerateContainedAssemblies Method | Microsoft Docs"
+title: "ICorDebugAssembly3::EnumerateContainedAssemblies Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 98f15b05-afad-4616-9e2a-1a9af31948b6
 caps.latest.revision: 5
 author: "rpetrusha"
@@ -51,5 +49,5 @@ HRESULT EnumerateContainedAssemblies(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugAssembly3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugassembly3-interface.md)   
+ [ICorDebugAssembly3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugassembly3-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

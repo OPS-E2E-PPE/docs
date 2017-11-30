@@ -1,5 +1,5 @@
 ---
-title: "&lt;serviceThrottling&gt; | Microsoft Docs"
+title: "&lt;serviceThrottling&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: a337d064-1e64-4209-b4a9-db7fdb7e3eaf
 caps.latest.revision: 22
 author: "Erikre"
@@ -78,6 +75,6 @@ Specifies the throttling mechanism of a Windows Communication Foundation (WCF) s
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Description.ServiceThrottlingBehavior>   
- <xref:System.ServiceModel.Configuration.ServiceThrottlingElement>   
+ <xref:System.ServiceModel.Description.ServiceThrottlingBehavior>  
+ <xref:System.ServiceModel.Configuration.ServiceThrottlingElement>  
  [Using ServiceThrottlingBehavior to Control WCF Service Performance](../../../../../docs/framework/wcf/feature-details/using-servicethrottlingbehavior-to-control-wcf-service-performance.md)

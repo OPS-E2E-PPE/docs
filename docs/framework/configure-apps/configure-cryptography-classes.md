@@ -1,5 +1,5 @@
 ---
-title: "Configuring Cryptography Classes | Microsoft Docs"
+title: "Configuring Cryptography Classes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "configuration files [.NET Framework], cryptography"
   - "cryptographic algorithms"

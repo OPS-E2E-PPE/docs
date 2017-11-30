@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode::GetCode Method | Microsoft Docs"
+title: "ICorDebugCode::GetCode Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode::GetCode"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugCode::GetCode method [.NET Framework debugging]"
   - "GetCode method, ICorDebugCode interface [.NET Framework debugging]"
@@ -75,5 +73,5 @@ HRESULT GetCode (
  **.NET Framework Versions:** 1.1, 1.0  
   
 ## See Also  
- [GetCodeChunks Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode2-getcodechunks-method.md)   
+ [GetCodeChunks Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode2-getcodechunks-method.md)  
  

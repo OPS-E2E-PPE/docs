@@ -1,5 +1,5 @@
 ---
-title: "IActionOnCLREvent Interface | Microsoft Docs"
+title: "IActionOnCLREvent Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IActionOnCLREvent"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IActionOnCLREvent interface [.NET Framework hosting]"
 ms.assetid: b5f9b41e-7301-429c-911f-21d5422292b3
@@ -48,7 +46,7 @@ Provides the [IActionOnCLREvent::OnEvent](../../../../docs/framework/unmanaged-a
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [EClrEvent Enumeration](../../../../docs/framework/unmanaged-api/hosting/eclrevent-enumeration.md)   
- [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)   
- [ICLROnEventManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclroneventmanager-interface.md)   
+ [EClrEvent Enumeration](../../../../docs/framework/unmanaged-api/hosting/eclrevent-enumeration.md)  
+ [ICLRControl Interface](../../../../docs/framework/unmanaged-api/hosting/iclrcontrol-interface.md)  
+ [ICLROnEventManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclroneventmanager-interface.md)  
  [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)

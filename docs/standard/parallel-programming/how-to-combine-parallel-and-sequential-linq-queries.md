@@ -1,5 +1,5 @@
 ---
-title: "How to: Combine Parallel and Sequential LINQ Queries | Microsoft Docs"
+title: "How to: Combine Parallel and Sequential LINQ Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "parallel queries, combine parallel and sequential"
 ms.assetid: 1167cfe6-c8aa-4096-94ba-c66c3a4edf4c

@@ -1,5 +1,5 @@
 ---
-title: "ADO.NET Entity Framework | Microsoft Docs"
+title: "ADO.NET Entity Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: a437041f-6899-4ae7-96ce-aabf528d7205
 caps.latest.revision: 10
 author: "JennieHubbard"

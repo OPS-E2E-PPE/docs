@@ -1,5 +1,5 @@
 ---
-title: "ASSEMBLY_INFO Structure | Microsoft Docs"
+title: "ASSEMBLY_INFO Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ASSEMBLY_INFO"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ASSEMBLY_INFO structure [.NET Framework fusion]"
 ms.assetid: b3cbb47c-457f-4083-8895-49562ca99ab8
@@ -62,5 +60,5 @@ typedef struct _ASSEMBLY_INFO {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Fusion Structures](../../../../docs/framework/unmanaged-api/fusion/fusion-structures.md)   
+ [Fusion Structures](../../../../docs/framework/unmanaged-api/fusion/fusion-structures.md)  
  [Global Assembly Cache](../../../../docs/framework/app-domains/gac.md)

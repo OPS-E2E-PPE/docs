@@ -1,5 +1,5 @@
 ---
-title: "ICorDebug::Initialize Method | Microsoft Docs"
+title: "ICorDebug::Initialize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebug::Initialize"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Initialize method, ICorDebug interface [.NET Framework debugging]"
   - "ICorDebug::Initialize method [.NET Framework debugging]"

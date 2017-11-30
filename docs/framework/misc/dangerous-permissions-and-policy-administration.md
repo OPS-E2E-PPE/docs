@@ -1,5 +1,5 @@
 ---
-title: "Dangerous Permissions and Policy Administration | Microsoft Docs"
+title: "Dangerous Permissions and Policy Administration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "permissions [.NET Framework], policy administration"
   - "security [.NET Framework], dangerous permissions"

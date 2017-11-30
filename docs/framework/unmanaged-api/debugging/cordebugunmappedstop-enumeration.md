@@ -1,5 +1,5 @@
 ---
-title: "CorDebugUnmappedStop Enumeration | Microsoft Docs"
+title: "CorDebugUnmappedStop Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugUnmappedStop"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugUnmappedStop enumeration [.NET Framework debugging]"
 ms.assetid: a684f7d7-d0c2-4690-b721-639e613f11f8

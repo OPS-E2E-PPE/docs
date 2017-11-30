@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyName::GetDisplayName Method | Microsoft Docs"
+title: "IAssemblyName::GetDisplayName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyName::GetDisplayName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetDisplayName method, IAssemblyName interface [.NET Framework fusion]"
   - "IAssemblyName::GetDisplayName method [.NET Framework fusion]"
@@ -61,5 +59,5 @@ HRESULT GetDisplayName (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Enumerations](../../../../docs/framework/unmanaged-api/fusion/fusion-enumerations.md)

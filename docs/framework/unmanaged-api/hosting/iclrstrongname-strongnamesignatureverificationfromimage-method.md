@@ -1,5 +1,5 @@
 ---
-title: "ICLRStrongName::StrongNameSignatureVerificationFromImage Method | Microsoft Docs"
+title: "ICLRStrongName::StrongNameSignatureVerificationFromImage Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRStrongName::StrongNameSignatureVerificationFromImage"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRStrongName::StrongNameSignatureVerificationFromImage method [.NET Framework hosting]"
   - "StrongNameSignatureVerificationFromImage method, ICLRStrongName interface [.NET Framework hosting]"

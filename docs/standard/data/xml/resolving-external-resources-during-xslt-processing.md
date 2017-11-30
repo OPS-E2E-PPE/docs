@@ -1,5 +1,5 @@
 ---
-title: "Resolving External Resources During XSLT Processing | Microsoft Docs"
+title: "Resolving External Resources During XSLT Processing"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 3a59d31c-0ec5-4de6-a2a9-558531c8116e
 caps.latest.revision: 3
 author: "mairaw"
@@ -49,6 +47,6 @@ There are several times during an XSLT transformation when you may need to resol
  [!code-vb[XslCompiledTransform.Load#11](../../../../samples/snippets/visualbasic/VS_Snippets_Data/XslCompiledTransform.Load/VB/Xslt_Load_v2.vb#11)]  
   
 ## See Also  
- <xref:System.Xml.Xsl.XslCompiledTransform>   
- <xref:System.Xml.Xsl.XsltSettings>   
+ <xref:System.Xml.Xsl.XslCompiledTransform>  
+ <xref:System.Xml.Xsl.XsltSettings>  
  [XSLT Transformations](../../../../docs/standard/data/xml/xslt-transformations.md)

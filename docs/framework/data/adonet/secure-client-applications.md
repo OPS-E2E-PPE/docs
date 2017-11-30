@@ -1,5 +1,5 @@
 ---
-title: "Secure Client Applications | Microsoft Docs"
+title: "Secure Client Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -72,8 +72,8 @@ Applications typically consist of many parts that must all be protected from vul
 |[Security and Remoting Considerations](../../../../docs/framework/misc/security-and-remoting-considerations.md)|Describes security issues with protected objects and application domain crossing.|  
   
 ## See Also  
- [Securing ADO.NET Applications](../../../../docs/framework/data/adonet/securing-ado-net-applications.md)   
- [Recommendations for Data Access Strategies](http://msdn.microsoft.com/en-us/72411f32-d12a-4de8-b961-e54fca7faaf5)   
- [Securing Applications](/visualstudio/ide/securing-applications)   
- [Protecting Connection Information](../../../../docs/framework/data/adonet/protecting-connection-information.md)   
+ [Securing ADO.NET Applications](../../../../docs/framework/data/adonet/securing-ado-net-applications.md)  
+ [Recommendations for Data Access Strategies](http://msdn.microsoft.com/en-us/72411f32-d12a-4de8-b961-e54fca7faaf5)  
+ [Securing Applications](/visualstudio/ide/securing-applications)  
+ [Protecting Connection Information](../../../../docs/framework/data/adonet/protecting-connection-information.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetAssembly Method | Microsoft Docs"
+title: "ICorDebugModule::GetAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::GetAssembly method [.NET Framework debugging]"
   - "GetAssembly method [.NET Framework debugging]"

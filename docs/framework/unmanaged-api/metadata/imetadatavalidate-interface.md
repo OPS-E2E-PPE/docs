@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataValidate Interface | Microsoft Docs"
+title: "IMetaDataValidate Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataValidate"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataValidate interface [.NET Framework metadata]"
 ms.assetid: db98608a-e85c-4f50-9d7b-5f57a426ddb6

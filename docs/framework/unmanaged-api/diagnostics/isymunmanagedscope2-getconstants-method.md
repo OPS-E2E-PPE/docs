@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedScope2::GetConstants Method | Microsoft Docs"
+title: "ISymUnmanagedScope2::GetConstants Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedScope2::GetConstants"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedScope2::GetConstants method [.NET Framework debugging]"
   - "GetConstants method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunctionBreakpoint Interface1 | Microsoft Docs"
+title: "ICorDebugFunctionBreakpoint Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunctionBreakpoint"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunctionBreakpoint interface [.NET Framework debugging]"
 ms.assetid: 9c149303-14b1-4138-83d7-e8c3e0fcd332

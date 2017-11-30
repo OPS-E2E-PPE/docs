@@ -1,5 +1,5 @@
 ---
-title: "IObjectHandle Interface | Microsoft Docs"
+title: "IObjectHandle Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IObjectHandle"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IObjectHandle interface [.NET Framework hosting]"
 ms.assetid: 436683ef-9849-4b24-89a9-28c06d148dce

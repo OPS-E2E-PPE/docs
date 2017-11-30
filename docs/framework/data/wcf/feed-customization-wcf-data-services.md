@@ -1,5 +1,5 @@
 ---
-title: "Feed Customization (WCF Data Services) | Microsoft Docs"
+title: "Feed Customization (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF Data Services, feeds"
   - "WCF Data Services, Atom protocol"
@@ -71,7 +74,7 @@ manager: "erikre"
  [!code-csharp[Astoria Custom Feeds#CustomOrderFeed](../../../../samples/snippets/csharp/VS_Snippets_Misc/astoria custom feeds/cs/orderitems.svc.cs#customorderfeed)]
  [!code-vb[Astoria Custom Feeds#CustomOrderFeed](../../../../samples/snippets/visualbasic/VS_Snippets_Misc/astoria custom feeds/vb/orderitems.svc.vb#customorderfeed)]  
   
- These attributes produce the following customized data feed for the `Orders` entity set. In this customized feed, the `OrderId`property value displays only in the `title` element of the `entry` and the `Customer` property value displays both in the `author` element and as the `Customer` property element:  
+ These attributes produce the following customized data feed for the `Orders` entity set. In this customized feed, the `OrderId` property value displays only in the `title` element of the `entry` and the `Customer` property value displays both in the `author` element and as the `Customer` property element:  
   
  [!code-xml[Astoria Custom Feeds#IQueryableFeedResult](../../../../samples/snippets/xml/VS_Snippets_Misc/astoria custom feeds/xml/iqueryablefeedresult.xml#iqueryablefeedresult)]  
   
@@ -96,5 +99,5 @@ manager: "erikre"
  For more information, see [Data Service Versioning](../../../../docs/framework/data/wcf/data-service-versioning-wcf-data-services.md).  
   
 ## See Also  
- [Reflection Provider](../../../../docs/framework/data/wcf/reflection-provider-wcf-data-services.md)   
+ [Reflection Provider](../../../../docs/framework/data/wcf/reflection-provider-wcf-data-services.md)  
  [Entity Framework Provider](../../../../docs/framework/data/wcf/entity-framework-provider-wcf-data-services.md)

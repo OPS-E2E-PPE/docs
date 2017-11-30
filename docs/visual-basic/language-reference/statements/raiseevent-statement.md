@@ -1,43 +1,24 @@
 ---
-title: "RaiseEvent Statement | Microsoft Docs"
-
-ms.date: "2015-07-20"
+title: "RaiseEvent Statement"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
 f1_keywords: 
   - "vb.RaiseEventMethod"
   - "vb.RaiseEvent"
   - "RaiseEvent"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
-  - "raising events, RaiseEvent statement"
-  - "RaiseEvent statement"
+  - "raising events [Visual Basic], RaiseEvent statement"
+  - "RaiseEvent statement [Visual Basic]"
   - "event handlers, connecting events to"
 ms.assetid: f82e380a-1e6b-4047-bea8-c853f4d2c742
 caps.latest.revision: 19
 author: dotnet-bot
 ms.author: dotnetcontent
-
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # RaiseEvent Statement
 Triggers an event declared at module level within a class, form, or document.  
@@ -62,7 +43,7 @@ RaiseEvent eventname[( argumentlist )]
   
  [!code-vb[VbVbalrEvents#37](../../../visual-basic/language-reference/statements/codesnippet/VisualBasic/raiseevent-statement_1.vb)]  
   
- You cannot use `RaiseEvent` to raise events that are not explicitly declared in the module. For example, all forms inherit a <xref:System.Windows.Forms.Control.Click> event from <xref:System.Windows.Forms.Form?displayProperty=fullName>, it cannot be raised using `RaiseEvent` in a derived form. If you declare a `Click` event in the form module, it shadows the form's own <xref:System.Windows.Forms.Control.Click> event. You can still invoke the form's <xref:System.Windows.Forms.Control.Click> event by calling the <xref:System.Windows.Forms.Control.OnClick%2A> method.  
+ You cannot use `RaiseEvent` to raise events that are not explicitly declared in the module. For example, all forms inherit a <xref:System.Windows.Forms.Control.Click> event from <xref:System.Windows.Forms.Form?displayProperty=nameWithType>, it cannot be raised using `RaiseEvent` in a derived form. If you declare a `Click` event in the form module, it shadows the form's own <xref:System.Windows.Forms.Control.Click> event. You can still invoke the form's <xref:System.Windows.Forms.Control.Click> event by calling the <xref:System.Windows.Forms.Control.OnClick%2A> method.  
   
  By default, an event defined in Visual Basic raises its event handlers in the order that the connections are established. Because events can have `ByRef` parameters, a process that connects late may receive parameters that have been changed by an earlier event handler. After the event handlers execute, control is returned to the subroutine that raised the event.  
   
@@ -98,8 +79,8 @@ RaiseEvent eventname[( argumentlist )]
 >  The `My.Application.DoEvents` method does not process events in exactly the same way as the form does. To allow the form to handle the events directly, you can use multithreading. For more information, see [Threading](http://msdn.microsoft.com/library/552f6c68-dbdb-4327-ae36-32cf9063d88c).  
   
 ## See Also  
- [Events](../../../visual-basic/programming-guide/language-features/events/index.md)   
- [Event Statement](../../../visual-basic/language-reference/statements/event-statement.md)   
- [AddHandler Statement](../../../visual-basic/language-reference/statements/addhandler-statement.md)   
- [RemoveHandler Statement](../../../visual-basic/language-reference/statements/removehandler-statement.md)   
+ [Events](../../../visual-basic/programming-guide/language-features/events/index.md)  
+ [Event Statement](../../../visual-basic/language-reference/statements/event-statement.md)  
+ [AddHandler Statement](../../../visual-basic/language-reference/statements/addhandler-statement.md)  
+ [RemoveHandler Statement](../../../visual-basic/language-reference/statements/removehandler-statement.md)  
  [Handles](../../../visual-basic/language-reference/statements/handles-clause.md)

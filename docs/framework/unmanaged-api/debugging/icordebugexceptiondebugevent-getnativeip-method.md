@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugExceptionDebugEvent::GetNativeIP Method | Microsoft Docs"
+title: "ICorDebugExceptionDebugEvent::GetNativeIP Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 12e6a262-d9ac-49b8-9b80-1e653a2a3819
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -57,5 +55,5 @@ HRESULT GetNativeIP(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugExceptionDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugexceptiondebugevent-interface.md)   
+ [ICorDebugExceptionDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugexceptiondebugevent-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

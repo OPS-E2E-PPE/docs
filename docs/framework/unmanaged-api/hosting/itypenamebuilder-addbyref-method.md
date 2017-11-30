@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::AddByRef Method | Microsoft Docs"
+title: "ITypeNameBuilder::AddByRef Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddByRef"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameBuilder::AddByRef method [.NET Framework hosting]"
   - "AddByRef method [.NET Framework hosting]"

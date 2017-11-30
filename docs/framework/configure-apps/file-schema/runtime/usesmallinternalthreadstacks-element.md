@@ -1,5 +1,5 @@
 ---
-title: "&lt;UseSmallInternalThreadStacks&gt; Element | Microsoft Docs"
+title: "&lt;UseSmallInternalThreadStacks&gt; Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "UseSmallInternalThreadStacks element"
   - "<UseSmallInternalThreadStacks> element"
@@ -82,5 +77,5 @@ Requests that the common language runtime (CLR) reduce memory use by specifying 
 ```  
   
 ## See Also  
- [Runtime Settings Schema](../../../../../docs/framework/configure-apps/file-schema/runtime/index.md)   
+ [Runtime Settings Schema](../../../../../docs/framework/configure-apps/file-schema/runtime/index.md)  
  [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)

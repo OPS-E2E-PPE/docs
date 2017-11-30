@@ -1,5 +1,5 @@
 ---
-title: "WmiRegistrationFailed | Microsoft Docs"
+title: "WmiRegistrationFailed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 126
  This event indicates that the WMI provider was not registered. The event lists the WMI Object, Error, process name and process ID.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

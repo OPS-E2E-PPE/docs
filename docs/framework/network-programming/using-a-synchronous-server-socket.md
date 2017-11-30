@@ -1,5 +1,5 @@
 ---
-title: "Using a Synchronous Server Socket | Microsoft Docs"
+title: "Using a Synchronous Server Socket"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "application protocols, sockets"
   - "synchronous server sockets"
@@ -82,6 +80,6 @@ handler.Close();
 ```  
   
 ## See Also  
- [Using an Asynchronous Server Socket](../../../docs/framework/network-programming/using-an-asynchronous-server-socket.md)   
- [Synchronous Server Socket Example](../../../docs/framework/network-programming/synchronous-server-socket-example.md)   
+ [Using an Asynchronous Server Socket](../../../docs/framework/network-programming/using-an-asynchronous-server-socket.md)  
+ [Synchronous Server Socket Example](../../../docs/framework/network-programming/synchronous-server-socket-example.md)  
  [Listening with Sockets](../../../docs/framework/network-programming/listening-with-sockets.md)

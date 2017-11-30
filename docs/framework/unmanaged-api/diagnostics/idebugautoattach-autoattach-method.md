@@ -1,5 +1,5 @@
 ---
-title: "IDebugAutoAttach::AutoAttach Method | Microsoft Docs"
+title: "IDebugAutoAttach::AutoAttach Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IDebugAutoAttach::AutoAttach"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AutoAttach method [.NET Framework debugging]"
   - "IDebugAutoAttach::AutoAttach method [.NET Framework debugging]"

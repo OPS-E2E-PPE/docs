@@ -1,5 +1,5 @@
 ---
-title: "CorDebugJITCompilerFlagsDeprecated Enumeration | Microsoft Docs"
+title: "CorDebugJITCompilerFlagsDeprecated Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugJITCompilerFlagsDeprecated"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugJITCompilerFlagsDeprecated enumeration [.NET Framework debugging]"
 ms.assetid: af15e2ca-6be1-472b-bd36-03644a1e3ddd

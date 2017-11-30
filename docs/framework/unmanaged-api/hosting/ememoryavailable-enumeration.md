@@ -1,5 +1,5 @@
 ---
-title: "EMemoryAvailable Enumeration | Microsoft Docs"
+title: "EMemoryAvailable Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EMemoryAvailable"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EMemoryAvailable enumeration [.NET Framework hosting]"
 ms.assetid: 38e72a06-dbed-473b-a59b-7e0b3ea4f2af

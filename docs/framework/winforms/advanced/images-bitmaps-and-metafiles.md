@@ -1,5 +1,5 @@
 ---
-title: "Images, Bitmaps, and Metafiles | Microsoft Docs"
+title: "Images, Bitmaps, and Metafiles"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "metafiles, about metafiles"
+  - "metafiles [Windows Forms], about metafiles"
   - "bitmaps [Windows Forms], about bitmaps"
   - "images [Windows Forms], about images"
   - "Windows Forms, images"

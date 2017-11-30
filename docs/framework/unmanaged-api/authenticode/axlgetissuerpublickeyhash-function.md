@@ -1,5 +1,5 @@
 ---
-title: "_AxlGetIssuerPublicKeyHash Function | Microsoft Docs"
+title: "_AxlGetIssuerPublicKeyHash Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "clr.dll"
 api_type: 
   - "DLLExport"
-dev_langs: 
-  - "C++"
 ms.assetid: fb626b41-b888-4625-84c3-2c02b5e3866f
 caps.latest.revision: 7
 author: "rpetrusha"

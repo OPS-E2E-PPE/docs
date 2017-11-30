@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::LogMessage Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::LogMessage Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::LogMessage"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugManagedCallback::LogMessage method [.NET Framework debugging]"
   - "LogMessage method [.NET Framework debugging]"

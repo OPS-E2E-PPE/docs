@@ -1,5 +1,5 @@
 ---
-title: "HelpProvider Component (Windows Forms) | Microsoft Docs"
+title: "HelpProvider Component (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "forms, Help"
-  - "Help, displaying on Windows Forms"
+  - "forms [Windows Forms], Help"
+  - "Help [Windows Forms], displaying on Windows Forms"
   - "HelpProvider component [Windows Forms]"
 ms.assetid: a09a6e0b-79d8-457f-bb36-86fad2beeada
 caps.latest.revision: 17

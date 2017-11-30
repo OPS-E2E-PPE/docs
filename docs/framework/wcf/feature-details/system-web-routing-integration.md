@@ -1,5 +1,5 @@
 ---
-title: "System.Web.Routing Integration | Microsoft Docs"
+title: "System.Web.Routing Integration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -55,7 +55,7 @@ When hosting a [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] service i
     </system.webServer>  
 ```  
   
- This loads a module and handler required for routing. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][Routing](../../../../docs/framework/wcf/feature-details/routing.md). You must also set the `aspNetCompatibilityEnabled` attribute to `true` in the `<serviceHostingEnvironment>` element as shown in the following example.  
+ This loads a module and handler required for routing. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Routing](../../../../docs/framework/wcf/feature-details/routing.md). You must also set the `aspNetCompatibilityEnabled` attribute to `true` in the `<serviceHostingEnvironment>` element as shown in the following example.  
   
 ```xml  
 <system.serviceModel>  
@@ -76,5 +76,5 @@ When hosting a [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] service i
 ```  
   
 ## See Also  
- [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)   
+ [WCF Web HTTP Programming Model](../../../../docs/framework/wcf/feature-details/wcf-web-http-programming-model.md)  
  [ASP.NET Routing](http://go.microsoft.com/fwlink/?LinkId=184660)

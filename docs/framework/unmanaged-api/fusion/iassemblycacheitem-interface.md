@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyCacheItem Interface | Microsoft Docs"
+title: "IAssemblyCacheItem Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyCacheItem"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IAssemblyCacheItem interface [.NET Framework fusion]"
 ms.assetid: ccc9387a-9f44-4f4f-bf8f-0ea6d2afa21b
@@ -48,6 +46,6 @@ Represents a single assembly in the global assembly cache.
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)   
- [Global Assembly Cache](../../../../docs/framework/app-domains/gac.md)   
+ [Fusion Interfaces](../../../../docs/framework/unmanaged-api/fusion/fusion-interfaces.md)  
+ [Global Assembly Cache](../../../../docs/framework/app-domains/gac.md)  
  [IAssemblyCache Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycache-interface.md)

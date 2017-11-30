@@ -1,5 +1,5 @@
 ---
-title: "XML and ADO.NET Types in Data Contracts | Microsoft Docs"
+title: "XML and ADO.NET Types in Data Contracts"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: c2ce8461-3c15-4c41-8c81-1cb78f5b59a6
 caps.latest.revision: 7
 author: "Erikre"
@@ -90,7 +93,7 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] data contract model 
   
  Populating a data member of type <xref:System.Array> of `Object` or `Array` of `IEnumerable` with `XmlNode` instances does not result in the data member being treated as an `Array` of `XmlNode` instances. Each array member is serialized separately.  
   
- When used with the `DataContractSerializer`, arrays of `XmlNode` can be assigned polymorphically, but only to a data member of type `Object`. Even though it implements `IEnumerable`, an array of `XmlNode` cannot be used as a collection type and be assigned to an `IEnumerable` data member. As with all polymorphic assignments, the `DataContractSerializer` emits the data contract name in the resulting XML – in this case, it is "ArrayOfXmlNode" in the "http://schemas.datacontract.org/2004/07/System.Xml" namespace. When used with the Net`DataContractSerializer`, any valid assignment of an `XmlNode` array is supported.  
+ When used with the `DataContractSerializer`, arrays of `XmlNode` can be assigned polymorphically, but only to a data member of type `Object`. Even though it implements `IEnumerable`, an array of `XmlNode` cannot be used as a collection type and be assigned to an `IEnumerable` data member. As with all polymorphic assignments, the `DataContractSerializer` emits the data contract name in the resulting XML – in this case, it is "ArrayOfXmlNode" in the "http://schemas.datacontract.org/2004/07/System.Xml" namespace. When used with the `NetDataContractSerializer`, any valid assignment of an `XmlNode` array is supported.  
   
 ### Schema Considerations  
  For details about the schema mapping of XML types, see [Data Contract Schema Reference](../../../../docs/framework/wcf/feature-details/data-contract-schema-reference.md). This section provides a summary of the important points.  
@@ -157,7 +160,7 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] data contract model 
   
 -   The `ReadXml` implementation should not read the wrapper element. It is expected to read the one element that `WriteXml` produces.  
   
--   When serializing an element type regularly (for example, as a data member in a data contract), the serializer outputs a wrapper element before calling `WriteXml`, as with content types. However, when serializing an element type at the top level, the serializer does not normally output a wrapper element at all around the element that `WriteXml` writes, unless a root name and namespace were explicitly specified when constructing the serializer in the `DataContractSerializer` or `NetDataContractSerializer` constructors. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][Serialization and Deserialization](../../../../docs/framework/wcf/feature-details/serialization-and-deserialization.md).  
+-   When serializing an element type regularly (for example, as a data member in a data contract), the serializer outputs a wrapper element before calling `WriteXml`, as with content types. However, when serializing an element type at the top level, the serializer does not normally output a wrapper element at all around the element that `WriteXml` writes, unless a root name and namespace were explicitly specified when constructing the serializer in the `DataContractSerializer` or `NetDataContractSerializer` constructors. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Serialization and Deserialization](../../../../docs/framework/wcf/feature-details/serialization-and-deserialization.md).  
   
 -   When serializing an element type at the top level without specifying the root name and namespace at construction time, <xref:System.Runtime.Serialization.XmlObjectSerializer.WriteStartObject%2A> and <xref:System.Runtime.Serialization.XmlObjectSerializer.WriteEndObject%2A> essentially does nothing and <xref:System.Runtime.Serialization.XmlObjectSerializer.WriteObjectContent%2A> calls `WriteXml`. In this mode, the object being serialized cannot be null and cannot be polymorphically assigned. Also, object graph preservation cannot enabled and the `NetDataContractSerializer` cannot be used.  
   
@@ -206,7 +209,7 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] data contract model 
  Support for typed DataSets in the data contract model is limited. Typed DataSets can be serialized and deserialized and can export their schema. However, the Data Contract schema import is unable to generate new typed DataSet types from the schema, as it can only reuse existing ones. You can point to an existing typed DataSet by using the `/r` switch on Svcutil.exe. If you attempt to use a Svcutil.exe without the `/r` switch on a service that uses a typed dataset, an alternative serializer (XmlSerializer) is automatically selected. If you must use the DataContractSerializer and must generate DataSets from schema, you can use the following procedure: generate the typed DataSet types (by using the Xsd.exe tool with the `/d` switch on the service), compile the types, and then point to them using the `/r` switch on Svcutil.exe.  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractSerializer>   
- <xref:System.Xml.Serialization.IXmlSerializable>   
- [Using Data Contracts](../../../../docs/framework/wcf/feature-details/using-data-contracts.md)   
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
+ <xref:System.Xml.Serialization.IXmlSerializable>  
+ [Using Data Contracts](../../../../docs/framework/wcf/feature-details/using-data-contracts.md)  
  [Types Supported by the Data Contract Serializer](../../../../docs/framework/wcf/feature-details/types-supported-by-the-data-contract-serializer.md)

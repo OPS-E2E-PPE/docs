@@ -1,5 +1,5 @@
 ---
-title: "ICLRAssemblyIdentityManager::GetBindingIdentityFromStream Method | Microsoft Docs"
+title: "ICLRAssemblyIdentityManager::GetBindingIdentityFromStream Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRAssemblyIdentityManager::GetBindingIdentityFromStream"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetBindingIdentityFromStream method [.NET Framework hosting]"
   - "ICLRAssemblyIdentityManager::GetBindingIdentityFromStream method [.NET Framework hosting]"
@@ -80,5 +78,5 @@ HRESULT GetBindingIdentityFromStream (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)   
+ [ICLRAssemblyIdentityManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyidentitymanager-interface.md)  
  [ICLRAssemblyReferenceList Interface](../../../../docs/framework/unmanaged-api/hosting/iclrassemblyreferencelist-interface.md)

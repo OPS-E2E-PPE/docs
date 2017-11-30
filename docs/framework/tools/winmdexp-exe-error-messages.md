@@ -1,5 +1,5 @@
 ---
-title: "Winmdexp.exe Error Messages | Microsoft Docs"
+title: "Winmdexp.exe Error Messages"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -160,11 +160,6 @@ f1_keywords:
   - "WME1015"
   - "WME1047"
   - "WME9"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Winmdexp.exe, error messages"
   - "Windows Runtime Metadata Export Tool, error messages"
@@ -183,5 +178,5 @@ The build process calls [Winmdexp.exe (Windows Runtime Metadata Export Tool)](..
  If your error is not discussed in that article, and you feel that the message doesn't contain sufficient information to address the issue, please use the feedback link in that article and include the error message. Alternatively, you can file a bug at the [Microsoft Connect website](http://go.microsoft.com/fwlink/p/?LinkId=251130). You can also look for more information on the [Microsoft Forums](http://go.microsoft.com/fwlink/p/?LinkId=251129).  
   
 ## See Also  
- [Winmdexp.exe (Windows Runtime Metadata Export Tool)](../../../docs/framework/tools/winmdexp-exe-windows-runtime-metadata-export-tool.md)   
+ [Winmdexp.exe (Windows Runtime Metadata Export Tool)](../../../docs/framework/tools/winmdexp-exe-windows-runtime-metadata-export-tool.md)  
  [Diagnosing Windows Runtime component error conditions](http://go.microsoft.com/fwlink/p/?LinkId=251127)

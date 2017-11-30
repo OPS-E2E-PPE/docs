@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread2::GetVolatileOSThreadID Method | Microsoft Docs"
+title: "ICorDebugThread2::GetVolatileOSThreadID Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread2::GetVolatileOSThreadID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetVolatileOSThreadID method [.NET Framework debugging]"
   - "ICorDebugThread2::GetVolatileOSThreadID method [.NET Framework debugging]"

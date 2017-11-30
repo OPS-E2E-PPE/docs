@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::WriteMemory Method | Microsoft Docs"
+title: "ICorDebugProcess::WriteMemory Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::WriteMemory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugProcess::WriteMemory method [.NET Framework debugging]"
   - "WriteMemory method [.NET Framework debugging]"

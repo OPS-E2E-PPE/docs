@@ -1,5 +1,5 @@
 ---
-title: "WIF Configuration Schema Conventions | Microsoft Docs"
+title: "WIF Configuration Schema Conventions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -50,5 +50,5 @@ This topic discusses conventions used throughout the Windows Identity Foundation
  Custom types must be derived from the type specified and they must provide a `public` default (0 argument) constructor.  
   
 ## See Also  
- [\<system.identityModel>](../../../docs/framework/configure-apps/file-schema/windows-identity-foundation/system-identitymodel.md)   
+ [\<system.identityModel>](../../../docs/framework/configure-apps/file-schema/windows-identity-foundation/system-identitymodel.md)  
  [\<system.identityModel.services>](../../../docs/framework/configure-apps/file-schema/windows-identity-foundation/system-identitymodel-services.md)

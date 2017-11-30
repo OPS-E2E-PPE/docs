@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::EnumerateThreads Method | Microsoft Docs"
+title: "ICorDebugController::EnumerateThreads Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::EnumerateThreads"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugController::EnumerateThreads method [.NET Framework debugging]"
   - "EnumerateThreads method [.NET Framework debugging]"

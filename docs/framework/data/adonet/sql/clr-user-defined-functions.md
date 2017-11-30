@@ -1,5 +1,5 @@
 ---
-title: "CLR User-Defined Functions | Microsoft Docs"
+title: "CLR User-Defined Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -21,5 +21,5 @@ User-defined functions are routines that can take parameters, perform calculatio
  For more detailed information, see [CLR User-Defined Functions](http://msdn.microsoft.com/library/ms131077.aspx).  
   
 ## See Also  
- [SQL Server Common Language Runtime Integration](../../../../../docs/framework/data/adonet/sql/sql-server-common-language-runtime-integration.md)   
+ [SQL Server Common Language Runtime Integration](../../../../../docs/framework/data/adonet/sql/sql-server-common-language-runtime-integration.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; of &lt;transportConfigurationType&gt; | Microsoft Docs"
+title: "&lt;add&gt; of &lt;transportConfigurationType&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: 03d79db9-571d-4534-acef-d05e5467b257
 caps.latest.revision: 12
 author: "Erikre"
@@ -68,7 +65,7 @@ This element is a key/value pair, which identifies the type of a particular tran
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.TransportConfigurationTypeElement>   
- <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>   
- <xref:System.ServiceModel.ServiceHostingEnvironment>   
+ <xref:System.ServiceModel.Configuration.TransportConfigurationTypeElement>  
+ <xref:System.ServiceModel.Configuration.ServiceHostingEnvironmentSection>  
+ <xref:System.ServiceModel.ServiceHostingEnvironment>  
  [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)

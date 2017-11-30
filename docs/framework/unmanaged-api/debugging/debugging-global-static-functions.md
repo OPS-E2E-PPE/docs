@@ -1,5 +1,5 @@
 ---
-title: "Debugging Global Static Functions | Microsoft Docs"
+title: "Debugging Global Static Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "global static functions [.NET Framework debugging]"
   - "debugging global static functions [.NET Framework]"

@@ -1,5 +1,5 @@
 ---
-title: "Method-Based Query Syntax Examples: Ordering | Microsoft Docs"
+title: "Method-Based Query Syntax Examples: Ordering"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 5d21b178-d731-471a-8534-1f8184a2ef06
 caps.latest.revision: 3
 author: "JennieHubbard"

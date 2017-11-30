@@ -1,5 +1,5 @@
 ---
-title: "Obtaining a DbProviderFactory | Microsoft Docs"
+title: "Obtaining a DbProviderFactory"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: a16e4a4d-6a5b-45db-8635-19570e4572ae
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -99,7 +102,7 @@ The process of obtaining a <xref:System.Data.Common.DbProviderFactory> involves 
  [!code-vb[DataWorks DbProviderFactories.GetFactory#1](../../../../samples/snippets/visualbasic/VS_Snippets_ADO.NET/DataWorks DbProviderFactories.GetFactory/VB/source.vb#1)]  
   
 ## See Also  
- [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)   
- [Connection Strings](../../../../docs/framework/data/adonet/connection-strings.md)   
- [Using the Configuration Classes](http://msdn.microsoft.com/library/98d2b386-baf6-4a17-974b-76e3b4c87acc)   
+ [DbProviderFactories](../../../../docs/framework/data/adonet/dbproviderfactories.md)  
+ [Connection Strings](../../../../docs/framework/data/adonet/connection-strings.md)  
+ [Using the Configuration Classes](http://msdn.microsoft.com/library/98d2b386-baf6-4a17-974b-76e3b4c87acc)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

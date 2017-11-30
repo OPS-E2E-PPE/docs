@@ -1,5 +1,5 @@
 ---
-title: "COR_PRF_CODE_INFO Structure | Microsoft Docs"
+title: "COR_PRF_CODE_INFO Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PRF_CODE_INFO"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PRF_CODE_INFO structure [.NET Framework profiling]"
 ms.assetid: cf30e27c-1f7e-43a2-ba1e-01e4137301db

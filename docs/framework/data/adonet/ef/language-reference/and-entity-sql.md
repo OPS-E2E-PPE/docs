@@ -1,5 +1,5 @@
 ---
-title: "&amp;&amp; (AND) (Entity SQL) | Microsoft Docs"
+title: "&amp;&amp; (AND) (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: e7d24213-471d-4807-b85e-570375df89b5
 caps.latest.revision: 3
 author: "JennieHubbard"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugChain::IsManaged Method | Microsoft Docs"
+title: "ICorDebugChain::IsManaged Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugChain::IsManaged"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugChain::IsManaged method [.NET Framework debugging]"
   - "IsManaged method, ICorDebugChain interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "Bitmap Effects Overview | Microsoft Docs"
+title: "Bitmap Effects Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "bitmap effects"
+  - "bitmap effects [WPF]"
 ms.assetid: 23cb338e-4b59-4b52-b294-96431f9c9568
 caps.latest.revision: 34
 author: dotnet-bot
@@ -53,7 +53,7 @@ Bitmap effects enable designers and developers to apply visual effects to render
   
  The following example demonstrates how to apply a <xref:System.Windows.Media.Effects.BitmapEffect> in [!INCLUDE[TLA#tla_xaml](../../../../includes/tlasharptla-xaml-md.md)].  
   
- [!code-xml[EffectsGallery_snip#BlurSimpleExampleInline](../../../../samples/snippets/csharp/VS_Snippets_Wpf/EffectsGallery_snip/CSharp/blursimpleexample.xaml#blursimpleexampleinline)]  
+ [!code-xaml[EffectsGallery_snip#BlurSimpleExampleInline](../../../../samples/snippets/csharp/VS_Snippets_Wpf/EffectsGallery_snip/CSharp/blursimpleexample.xaml#blursimpleexampleinline)]  
   
  The following example demonstrates how to apply a <xref:System.Windows.Media.Effects.BitmapEffect> in code.  
   
@@ -67,11 +67,11 @@ Bitmap effects enable designers and developers to apply visual effects to render
  [!INCLUDE[TLA2#tla_wpf](../../../../includes/tla2sharptla-wpf-md.md)] also provides unmanaged interfaces to create custom effects that can be used in managed [!INCLUDE[TLA2#tla_wpf](../../../../includes/tla2sharptla-wpf-md.md)] applications. For additional reference material for creating custom bitmap effects, see the [Unmanaged WPF Bitmap Effect](https://msdn.microsoft.com/library/ms735092.aspx) documentation.  
   
 ## See Also  
- <xref:System.Windows.Media.Effects.BitmapEffectGroup>   
- <xref:System.Windows.Media.Effects.BitmapEffectInput>   
- <xref:System.Windows.Media.Effects.BitmapEffectCollection>   
- [Unmanaged WPF Bitmap Effect](https://msdn.microsoft.com/library/ms735092.aspx)   
- [Imaging Overview](../../../../docs/framework/wpf/graphics-multimedia/imaging-overview.md)   
- [Security](../../../../docs/framework/wpf/security-wpf.md)   
- [WPF Graphics Rendering Overview](../../../../docs/framework/wpf/graphics-multimedia/wpf-graphics-rendering-overview.md)   
+ <xref:System.Windows.Media.Effects.BitmapEffectGroup>  
+ <xref:System.Windows.Media.Effects.BitmapEffectInput>  
+ <xref:System.Windows.Media.Effects.BitmapEffectCollection>  
+ [Unmanaged WPF Bitmap Effect](https://msdn.microsoft.com/library/ms735092.aspx)  
+ [Imaging Overview](../../../../docs/framework/wpf/graphics-multimedia/imaging-overview.md)  
+ [Security](../../../../docs/framework/wpf/security-wpf.md)  
+ [WPF Graphics Rendering Overview](../../../../docs/framework/wpf/graphics-multimedia/wpf-graphics-rendering-overview.md)  
  [2D Graphics and Imaging](../../../../docs/framework/wpf/advanced/optimizing-performance-2d-graphics-and-imaging.md)

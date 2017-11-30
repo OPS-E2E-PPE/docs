@@ -1,5 +1,5 @@
 ---
-title: "How To: Read Settings at Run Time With C# | Microsoft Docs"
+title: "How To: Read Settings at Run Time With C#"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms], reading"
   - "application settings [Windows Forms], run time"
@@ -34,6 +32,6 @@ You can read both Application-scoped and User-scoped settings at run time via th
     ```  
   
 ## See Also  
- [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)   
- [How To: Write User Settings at Run Time with C#](../../../../docs/framework/winforms/advanced/how-to-write-user-settings-at-run-time-with-csharp.md)   
+ [Using Application Settings and User Settings](../../../../docs/framework/winforms/advanced/using-application-settings-and-user-settings.md)  
+ [How To: Write User Settings at Run Time with C#](../../../../docs/framework/winforms/advanced/how-to-write-user-settings-at-run-time-with-csharp.md)  
  [Application Settings Overview](../../../../docs/framework/winforms/advanced/application-settings-overview.md)

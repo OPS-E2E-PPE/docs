@@ -1,5 +1,5 @@
 ---
-title: "Version-Tolerant Serialization Callbacks | Microsoft Docs"
+title: "Version-Tolerant Serialization Callbacks"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "OnDeserializedAttribute [WCF]"
   - "OnDeserializingAttribute [WCF]"
@@ -48,9 +48,9 @@ The data contract programming model fully supports the version-tolerant serializ
  [!code-vb[C_DataContract#9](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_datacontract/vb/source.vb#9)]  
   
 ## See Also  
- <xref:System.Runtime.Serialization.OnSerializingAttribute>   
- <xref:System.Runtime.Serialization.OnSerializedAttribute>   
- <xref:System.Runtime.Serialization.OnDeserializingAttribute>   
- <xref:System.Runtime.Serialization.OnDeserializedAttribute>   
- <xref:System.Runtime.Serialization.StreamingContext>   
- [Version Tolerant Serialization](../../../../docs/framework/serialization/version-tolerant-serialization.md)
+ <xref:System.Runtime.Serialization.OnSerializingAttribute>  
+ <xref:System.Runtime.Serialization.OnSerializedAttribute>  
+ <xref:System.Runtime.Serialization.OnDeserializingAttribute>  
+ <xref:System.Runtime.Serialization.OnDeserializedAttribute>  
+ <xref:System.Runtime.Serialization.StreamingContext>  
+ [Version Tolerant Serialization](../../../../docs/standard/serialization/version-tolerant-serialization.md)

@@ -1,5 +1,5 @@
 ---
-title: "LINQ to SQL Sample | Microsoft Docs"
+title: "LINQ to SQL Sample"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -93,5 +93,5 @@ new FindInSqlTable<Employee>
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Scenario\ActivityLibrary\Liiinq\LinqToSql`  
   
 ## See Also  
- [LINQ to SQL](http://go.microsoft.com/fwlink/?LinkId=150376)   
+ [LINQ to SQL](http://go.microsoft.com/fwlink/?LinkId=150376)  
  [Getting Started (LINQ to SQL)](http://go.microsoft.com/fwlink/?LinkId=150377)

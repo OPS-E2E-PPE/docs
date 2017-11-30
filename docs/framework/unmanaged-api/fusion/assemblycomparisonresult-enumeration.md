@@ -1,5 +1,5 @@
 ---
-title: "AssemblyComparisonResult Enumeration | Microsoft Docs"
+title: "AssemblyComparisonResult Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AssemblyComparisonResult"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "AssemblyComparisonResult enumeration [.NET Framework fusion]"
 ms.assetid: bd042f89-10b1-40ca-946e-46da082f5263
@@ -78,5 +76,5 @@ typedef enum _tagAssemblyComparisonResult {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [CompareAssemblyIdentity Function](../../../../docs/framework/unmanaged-api/fusion/compareassemblyidentity-function.md)   
+ [CompareAssemblyIdentity Function](../../../../docs/framework/unmanaged-api/fusion/compareassemblyidentity-function.md)  
  [Fusion Enumerations](../../../../docs/framework/unmanaged-api/fusion/fusion-enumerations.md)

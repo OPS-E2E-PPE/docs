@@ -1,5 +1,5 @@
 ---
-title: "CorCallingConvention Enumeration | Microsoft Docs"
+title: "CorCallingConvention Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorCallingConvention"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorCallingConvention enumeration [.NET Framework metadata]"
 ms.assetid: 69156fbf-7219-43bf-b4b8-b13f1a2fcb86

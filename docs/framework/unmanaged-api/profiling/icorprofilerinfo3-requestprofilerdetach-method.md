@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo3::RequestProfilerDetach Method | Microsoft Docs"
+title: "ICorProfilerInfo3::RequestProfilerDetach Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo3::RequestProfilerDetach"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RequestProfilerDetach method [.NET Framework profiling]"
   - "ICorProfilerInfo3::RequestProfilerDetach method [.NET Framework profiling]"
@@ -73,6 +71,6 @@ HRESULT RequestProfilerDetach(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)   
- [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)   
+ [ICorProfilerInfo3 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo3-interface.md)  
+ [Profiling Interfaces](../../../../docs/framework/unmanaged-api/profiling/profiling-interfaces.md)  
  [Profiling](../../../../docs/framework/unmanaged-api/profiling/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;timeOuts&gt; | Microsoft Docs"
+title: "&lt;timeOuts&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -51,6 +51,6 @@ Represents a configuration element that specifies the interval of time allowed f
 |[\<host>](../../../../../docs/framework/configure-apps/file-schema/wcf/host.md)|A configuration element that specifies settings for a service host.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.HostElement>   
- <xref:System.ServiceModel.ServiceHost>   
+ <xref:System.ServiceModel.Configuration.HostElement>  
+ <xref:System.ServiceModel.ServiceHost>  
  [Hosting](../../../../../docs/framework/wcf/feature-details/hosting.md)

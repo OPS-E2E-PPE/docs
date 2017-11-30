@@ -1,5 +1,5 @@
 ---
-title: "_AxlPublicKeyBlobToPublicKeyToken Function | Microsoft Docs"
+title: "_AxlPublicKeyBlobToPublicKeyToken Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "clr.dll"
 api_type: 
   - "DLLExport"
-dev_langs: 
-  - "C++"
 ms.assetid: 2d92a746-d68c-4f53-a16e-727f071a2d80
 caps.latest.revision: 7
 author: "rpetrusha"

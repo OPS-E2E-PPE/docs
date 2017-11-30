@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetEditAndContinueSnapshot Method | Microsoft Docs"
+title: "ICorDebugModule::GetEditAndContinueSnapshot Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetEditAndContinueSnapshot"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule::GetEditAndContinueSnapshot method [.NET Framework debugging]"
   - "GetEditAndContinueSnapshot method [.NET Framework debugging]"

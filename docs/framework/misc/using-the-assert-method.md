@@ -1,5 +1,5 @@
 ---
-title: "Using the Assert Method | Microsoft Docs"
+title: "Using the Assert Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "granting permissions, overriding security checks"
   - "code access security, overriding security checks"
@@ -175,9 +173,9 @@ namespace LogUtil
 ```  
   
 ## See Also  
- <xref:System.Security.PermissionSet>   
- <xref:System.Security.Permissions.SecurityPermission>   
- <xref:System.Security.Permissions.FileIOPermission>   
- <xref:System.Security.Permissions.SecurityAction>   
- [Attributes](../../../docs/standard/attributes/index.md)   
+ <xref:System.Security.PermissionSet>  
+ <xref:System.Security.Permissions.SecurityPermission>  
+ <xref:System.Security.Permissions.FileIOPermission>  
+ <xref:System.Security.Permissions.SecurityAction>  
+ [Attributes](../../../docs/standard/attributes/index.md)  
  [Code Access Security](../../../docs/framework/misc/code-access-security.md)

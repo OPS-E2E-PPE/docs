@@ -1,5 +1,5 @@
 ---
-title: "CeeSectionRelocExtra Union | Microsoft Docs"
+title: "CeeSectionRelocExtra Union"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CeeSectionRelocExtra"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CeeSectionRelocExtra union [.NET Framework metadata]"
 ms.assetid: d9568cf6-7f98-4cd6-ab36-0a2bd509afcc

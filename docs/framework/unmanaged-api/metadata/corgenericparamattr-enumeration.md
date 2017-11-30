@@ -1,5 +1,5 @@
 ---
-title: "CorGenericParamAttr Enumeration | Microsoft Docs"
+title: "CorGenericParamAttr Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorGenericParamAttr"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorGenericParamAttr enumeration [.NET Framework metadata]"
 ms.assetid: 36c76266-71d8-48dc-bd89-54943fa659c1

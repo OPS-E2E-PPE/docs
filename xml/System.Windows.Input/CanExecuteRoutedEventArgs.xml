@@ -30,6 +30,9 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Input.CanExecuteRoutedEventHandler" />
+    <altmember cref="T:System.Windows.Input.CommandBinding" />
+    <altmember cref="T:System.Windows.Input.CommandManager" />
   </Docs>
   <Members>
     <Member MemberName="CanExecute">
@@ -64,6 +67,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Input.CanExecuteRoutedEventHandler" />
+        <altmember cref="T:System.Windows.Input.CommandBinding" />
+        <altmember cref="T:System.Windows.Input.CommandManager" />
       </Docs>
     </Member>
     <Member MemberName="Command">
@@ -97,6 +103,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Input.CanExecuteRoutedEventHandler" />
+        <altmember cref="T:System.Windows.Input.CommandBinding" />
+        <altmember cref="T:System.Windows.Input.CommandManager" />
       </Docs>
     </Member>
     <Member MemberName="ContinueRouting">
@@ -169,10 +178,13 @@
 ## Examples  
  The following example shows up to use a <xref:System.Windows.Controls.Button> as the command source for a custom command.  The <xref:System.Windows.Input.ICommandSource.Command%2A> property of the <xref:System.Windows.Controls.Button> is set to the custom <xref:System.Windows.Input.RoutedCommand> called `customComand` and the <xref:System.Windows.Input.ICommandSource.CommandParameter%2A> is used to pass the value of the <xref:System.Windows.Controls.Primitives.RangeBase.Value%2A> property of a <xref:System.Windows.Controls.Slider> control.  This is accomplishment by using databinding to bind the <xref:System.Windows.Input.ICommandSource.CommandParameter%2A> to the <xref:System.Windows.Controls.Primitives.RangeBase.Value%2A> property.  The converter in the binding expression is a custom <xref:System.Windows.Data.IValueConverter> which converts <xref:System.Windows.Controls.Primitives.RangeBase.Value%2A> into an <xref:System.Int32> before binding it to the <xref:System.Windows.Input.ICommandSource.CommandParameter%2A>.  
   
- [!code-xml[invalidaterequerywithdispatchertimer#InvalidateSampleSliderCommandParameter](~/samples/snippets/csharp/VS_Snippets_Wpf/InvalidateRequeryWithDispatcherTimer/CSharp/Window1.xaml#invalidatesampleslidercommandparameter)]  
+ [!code-xaml[invalidaterequerywithdispatchertimer#InvalidateSampleSliderCommandParameter](~/samples/snippets/csharp/VS_Snippets_Wpf/InvalidateRequeryWithDispatcherTimer/CSharp/Window1.xaml#invalidatesampleslidercommandparameter)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Input.CanExecuteRoutedEventHandler" />
+        <altmember cref="T:System.Windows.Input.CommandBinding" />
+        <altmember cref="T:System.Windows.Input.CommandManager" />
       </Docs>
     </Member>
   </Members>

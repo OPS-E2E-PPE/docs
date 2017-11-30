@@ -1,5 +1,5 @@
 ---
-title: "&lt;serviceCredentials&gt; | Microsoft Docs"
+title: "&lt;serviceCredentials&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -73,6 +73,6 @@ Specifies the credential to be used in authenticating the service and the client
 |[\<behavior>](../../../../../docs/framework/configure-apps/file-schema/wcf/behavior-of-endpointbehaviors.md)|Specifies a behavior element.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ServiceCredentialsElement>   
- <xref:System.ServiceModel.Description.ServiceCredentials>   
+ <xref:System.ServiceModel.Configuration.ServiceCredentialsElement>  
+ <xref:System.ServiceModel.Description.ServiceCredentials>  
  [Security Behaviors](../../../../../docs/framework/wcf/feature-details/security-behaviors-in-wcf.md)

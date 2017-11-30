@@ -1,5 +1,5 @@
 ---
-title: "Creating New Entity References | Microsoft Docs"
+title: "Creating New Entity References"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: a42f81b3-0403-4e34-b346-7d2129804e54
 caps.latest.revision: 3
 author: "mairaw"

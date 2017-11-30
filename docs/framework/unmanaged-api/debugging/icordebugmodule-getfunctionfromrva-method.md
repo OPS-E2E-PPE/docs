@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetFunctionFromRVA Method | Microsoft Docs"
+title: "ICorDebugModule::GetFunctionFromRVA Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetFunctionFromRVA"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetFunctionFromRVA method [.NET Framework debugging]"
   - "ICorDebugModule::GetFunctionFromRVA method [.NET Framework debugging]"

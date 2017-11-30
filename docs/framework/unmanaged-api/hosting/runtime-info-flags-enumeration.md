@@ -1,5 +1,5 @@
 ---
-title: "RUNTIME_INFO_FLAGS Enumeration | Microsoft Docs"
+title: "RUNTIME_INFO_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "RUNTIME_INFO_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "RUNTIME_INFO_FLAGS enumeration [.NET Framework hosting]"
 ms.assetid: adba37be-f775-4cdb-8919-5746ce694f33

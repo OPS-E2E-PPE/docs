@@ -1,5 +1,5 @@
 ---
-title: "Capitalization Conventions | Microsoft Docs"
+title: "Capitalization Conventions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "camel-case names [.NET Framework]"
   - "class library design guidelines [.NET Framework], capitalization"
@@ -37,7 +32,7 @@ The guidelines in this chapter lay out a simple method for using case that, when
   
  The PascalCasing convention, used for all identifiers except parameter names, capitalizes the first character of each word (including acronyms over two letters in length), as shown in the following examples:  
   
- `PropertyDescriptor`   
+ `PropertyDescriptor`  
  `HtmlTag`  
   
  A special case is made for two-letter acronyms in which both letters are capitalized, as shown in the following identifier:  
@@ -46,8 +41,8 @@ The guidelines in this chapter lay out a simple method for using case that, when
   
  The camelCasing convention, used only for parameter names, capitalizes the first character of each word except the first word, as shown in the following examples. As the example also shows, two-letter acronyms that begin a camel-cased identifier are both lowercase.  
   
- `propertyDescriptor`   
- `ioStream`   
+ `propertyDescriptor`  
+ `ioStream`  
  `htmlTag`  
   
  **✓ DO** use PascalCasing for all public member, type, and namespace names consisting of multiple words.  
@@ -113,5 +108,5 @@ The guidelines in this chapter lay out a simple method for using case that, when
  *Reprinted by permission of Pearson Education, Inc. from [Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries, 2nd Edition](http://www.informit.com/store/framework-design-guidelines-conventions-idioms-and-9780321545619) by Krzysztof Cwalina and Brad Abrams, published Oct 22, 2008 by Addison-Wesley Professional as part of the Microsoft Windows Development Series.*  
   
 ## See Also  
- [Framework Design Guidelines](../../../docs/standard/design-guidelines/index.md)   
+ [Framework Design Guidelines](../../../docs/standard/design-guidelines/index.md)  
  [Naming Guidelines](../../../docs/standard/design-guidelines/naming-guidelines.md)

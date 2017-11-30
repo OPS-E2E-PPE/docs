@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Public-Private Key Pair | Microsoft Docs"
+title: "How to: Create a Public-Private Key Pair"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,10 @@ ms.technology:
   - "dotnet-bcl"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "key pairs for strong-named assemblies"
   - "signing assemblies"

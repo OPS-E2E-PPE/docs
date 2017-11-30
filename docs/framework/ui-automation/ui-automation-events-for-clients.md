@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Events for Clients | Microsoft Docs"
+title: "UI Automation Events for Clients"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -64,7 +64,7 @@ manager: "markl"
  For example code, see [Subscribe to UI Automation Events](../../../docs/framework/ui-automation/subscribe-to-ui-automation-events.md).  
   
 ## See Also  
- [Subscribe to UI Automation Events](../../../docs/framework/ui-automation/subscribe-to-ui-automation-events.md)   
- [UI Automation Events Overview](../../../docs/framework/ui-automation/ui-automation-events-overview.md)   
- [UI Automation Properties Overview](../../../docs/framework/ui-automation/ui-automation-properties-overview.md)   
+ [Subscribe to UI Automation Events](../../../docs/framework/ui-automation/subscribe-to-ui-automation-events.md)  
+ [UI Automation Events Overview](../../../docs/framework/ui-automation/ui-automation-events-overview.md)  
+ [UI Automation Properties Overview](../../../docs/framework/ui-automation/ui-automation-properties-overview.md)  
  [TrackFocus Sample](http://msdn.microsoft.com/en-us/4a91c0af-6bb5-4d38-a743-cf136f268fc9)

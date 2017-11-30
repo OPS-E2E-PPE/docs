@@ -1,5 +1,5 @@
 ---
-title: "invalidGCHandleCookie MDA | Microsoft Docs"
+title: "invalidGCHandleCookie MDA"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "MDAs (managed debugging assistants), invalid cookies"
   - "cookies, invalid"
@@ -55,6 +50,6 @@ The `invalidGCHandleCookie` managed debugging assistant (MDA) is activated when 
 ```  
   
 ## See Also  
- <xref:System.Runtime.InteropServices.GCHandle.FromIntPtr%2A>   
- <xref:System.Runtime.InteropServices.GCHandle>   
+ <xref:System.Runtime.InteropServices.GCHandle.FromIntPtr%2A>  
+ <xref:System.Runtime.InteropServices.GCHandle>  
  [Diagnosing Errors with Managed Debugging Assistants](../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

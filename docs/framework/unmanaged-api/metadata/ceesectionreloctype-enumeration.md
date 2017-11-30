@@ -1,5 +1,5 @@
 ---
-title: "CeeSectionRelocType Enumeration | Microsoft Docs"
+title: "CeeSectionRelocType Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CeeSectionRelocType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CeeSectionRelocType enumeration [.NET Framework metadata]"
 ms.assetid: 124656f6-0dad-4ceb-9043-d3869ab65cde
@@ -86,6 +84,6 @@ typedef enum  {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Metadata Enumerations](../../../../docs/framework/unmanaged-api/metadata/metadata-enumerations.md)   
- [ICeeGen Interface](../../../../docs/framework/unmanaged-api/metadata/iceegen-interface.md)   
+ [Metadata Enumerations](../../../../docs/framework/unmanaged-api/metadata/metadata-enumerations.md)  
+ [ICeeGen Interface](../../../../docs/framework/unmanaged-api/metadata/iceegen-interface.md)  
  [AddSectionReloc Method](../../../../docs/framework/unmanaged-api/metadata/iceegen-addsectionreloc-method.md)

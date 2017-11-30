@@ -1,5 +1,5 @@
 ---
-title: "How to: Remove all Adorners from an Element | Microsoft Docs"
+title: "How to: Remove all Adorners from an Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "adorners, removing"
+  - "adorners [WPF], removing"
 ms.assetid: fe5303a3-b76e-4643-aafb-51419032b47b
 caps.latest.revision: 10
 author: dotnet-bot

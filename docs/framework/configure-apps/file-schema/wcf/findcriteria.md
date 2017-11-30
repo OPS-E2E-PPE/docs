@@ -1,5 +1,5 @@
 ---
-title: "&lt;findCriteria&gt; | Microsoft Docs"
+title: "&lt;findCriteria&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -71,5 +71,5 @@ A configuration element that supplies a set of criteria used by a client applica
 |[\<standardEndpoints>](../../../../../docs/framework/configure-apps/file-schema/wcf/standardendpoints.md)|Contains the settings needed by an application to participate in the service discovery process as a client.|  
   
 ## See Also  
- <xref:System.ServiceModel.Discovery.FindCriteria>   
+ <xref:System.ServiceModel.Discovery.FindCriteria>  
  <xref:System.ServiceModel.Discovery.Configuration.FindCriteriaElement>

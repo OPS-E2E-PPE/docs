@@ -1,5 +1,5 @@
 ---
-title: "Developer Command Prompt for Visual Studio | Microsoft Docs"
+title: "Developer Command Prompt for Visual Studio"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "command prompt, Windows SDK"
   - "Visual Studio command prompt"
@@ -96,5 +91,5 @@ The Developer Command Prompt for Visual Studio automatically sets the environmen
  After that, the new menu item is added and you can access the command prompt from the **Tools** menu.  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
  [Managing External Tools](/visualstudio/ide/managing-external-tools)

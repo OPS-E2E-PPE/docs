@@ -1,5 +1,5 @@
 ---
-title: "Enumeration Format Strings | Microsoft Docs"
+title: "Enumeration Format Strings"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "format specifiers, enumeration format strings"
   - "enumeration format strings"
@@ -19,7 +22,7 @@ ms.author: "ronpet"
 manager: "wpickett"
 ---
 # Enumeration Format Strings
-You can use the <xref:System.Enum.ToString%2A?displayProperty=fullName> method to create a new string object that represents the numeric, hexadecimal, or string value of an enumeration member. This method takes one of the enumeration formatting strings to specify the value that you want returned.  
+You can use the <xref:System.Enum.ToString%2A?displayProperty=nameWithType> method to create a new string object that represents the numeric, hexadecimal, or string value of an enumeration member. This method takes one of the enumeration formatting strings to specify the value that you want returned.  
   
  The following table lists the enumeration formatting strings and the values they return. These format specifiers are not case-sensitive.  
   

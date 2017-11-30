@@ -1,5 +1,5 @@
 ---
-title: "Attributes in Windows Forms Controls | Microsoft Docs"
+title: "Attributes in Windows Forms Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "attributes [Windows Forms]"
   - "attributes [Windows Forms], data binding properties"
@@ -69,7 +67,7 @@ The .NET Framework provides a variety of attributes you can apply to the members
 |<xref:System.ComponentModel.ToolboxItemFilterAttribute>|Specifies the filter string and filter type to use for a Toolbox item.|  
   
 ## See Also  
- <xref:System.Attribute>   
- [How to: Apply Attributes in Windows Forms Controls](../../../../docs/framework/winforms/controls/how-to-apply-attributes-in-windows-forms-controls.md)   
- [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)   
+ <xref:System.Attribute>  
+ [How to: Apply Attributes in Windows Forms Controls](../../../../docs/framework/winforms/controls/how-to-apply-attributes-in-windows-forms-controls.md)  
+ [Extending Design-Time Support](http://msdn.microsoft.com/library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)  
  [Developing Custom Windows Forms Controls with the .NET Framework](../../../../docs/framework/winforms/controls/developing-custom-windows-forms-controls.md)

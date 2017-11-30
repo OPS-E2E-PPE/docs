@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::UsingNamespace Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::UsingNamespace Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::UsingNamespace"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "UsingNamespace method [.NET Framework debugging]"
   - "ISymUnmanagedWriter::UsingNamespace method [.NET Framework debugging]"

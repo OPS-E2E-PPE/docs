@@ -1,5 +1,5 @@
 ---
-title: "GetALinkMessageDll Function | Microsoft Docs"
+title: "GetALinkMessageDll Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetALinkMessageDll"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Alink API, GetALinkMessageDll function"
   - "GetALinkMessageDll function"

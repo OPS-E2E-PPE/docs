@@ -1221,7 +1221,7 @@
     </Member>
     <Member MemberName="Decompose">
       <MemberSignature Language="C#" Value="public static bool Decompose (System.Numerics.Matrix4x4 matrix, out System.Numerics.Vector3 scale, out System.Numerics.Quaternion rotation, out System.Numerics.Vector3 translation);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Decompose(valuetype System.Numerics.Matrix4x4 matrix, valuetype System.Numerics.Vector3 scale, valuetype System.Numerics.Quaternion rotation, valuetype System.Numerics.Vector3 translation) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Decompose(valuetype System.Numerics.Matrix4x4 matrix, [out] valuetype System.Numerics.Vector3&amp; scale, [out] valuetype System.Numerics.Quaternion&amp; rotation, [out] valuetype System.Numerics.Vector3&amp; translation) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.Decompose(System.Numerics.Matrix4x4,System.Numerics.Vector3@,System.Numerics.Quaternion@,System.Numerics.Vector3@)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1430,7 +1430,7 @@
     </Member>
     <Member MemberName="Invert">
       <MemberSignature Language="C#" Value="public static bool Invert (System.Numerics.Matrix4x4 matrix, out System.Numerics.Matrix4x4 result);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Invert(valuetype System.Numerics.Matrix4x4 matrix, valuetype System.Numerics.Matrix4x4 result) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Invert(valuetype System.Numerics.Matrix4x4 matrix, [out] valuetype System.Numerics.Matrix4x4&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.Invert(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4@)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -2083,7 +2083,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 op_Addition (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 operator + (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Matrix4x4 op_Addition(valuetype System.Numerics.Matrix4x4 value1, valuetype System.Numerics.Matrix4x4 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Addition(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2125,7 +2125,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Numerics.Matrix4x4 value1, valuetype System.Numerics.Matrix4x4 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Equality(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2168,7 +2168,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Numerics.Matrix4x4 value1, valuetype System.Numerics.Matrix4x4 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Inequality(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2204,7 +2204,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 op_Multiply (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 operator * (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Matrix4x4 op_Multiply(valuetype System.Numerics.Matrix4x4 value1, valuetype System.Numerics.Matrix4x4 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2246,7 +2246,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 op_Multiply (System.Numerics.Matrix4x4 value1, float value2);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 operator * (System.Numerics.Matrix4x4 value1, float value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Matrix4x4 op_Multiply(valuetype System.Numerics.Matrix4x4 value1, float32 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Multiply(System.Numerics.Matrix4x4,System.Single)" />
       <MemberType>Method</MemberType>
@@ -2288,7 +2288,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 op_Subtraction (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 operator - (System.Numerics.Matrix4x4 value1, System.Numerics.Matrix4x4 value2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Matrix4x4 op_Subtraction(valuetype System.Numerics.Matrix4x4 value1, valuetype System.Numerics.Matrix4x4 value2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_Subtraction(System.Numerics.Matrix4x4,System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2330,7 +2330,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_UnaryNegation">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 op_UnaryNegation (System.Numerics.Matrix4x4 value);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.Matrix4x4 operator - (System.Numerics.Matrix4x4 value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Matrix4x4 op_UnaryNegation(valuetype System.Numerics.Matrix4x4 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Matrix4x4.op_UnaryNegation(System.Numerics.Matrix4x4)" />
       <MemberType>Method</MemberType>
@@ -2531,5 +2531,104 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="CreateRotationX">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a matrix for rotating points around the X axis.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="CreateRotationY">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a matrix for rotating points around the Y axis.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="CreateScale">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a scaling matrix.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="CreateRotationZ">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a matrix for rotating points around the Z axis.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="CreateTranslation">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a translation matrix.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="op_Multiply">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a multiplication operation on a matrix.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Multiply">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Performs a multiplication operation on a matrix.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a 4x4 matrix.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>System.Numerics.Vectors</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>4.1.3.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Returns a value that indicates whether this instance and a specified <see cref="T:System.Numerics.Matrix4x4" /> instance or a specified object are equal.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

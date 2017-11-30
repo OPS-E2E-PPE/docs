@@ -1,5 +1,5 @@
 ---
-title: "Link Demands | Microsoft Docs"
+title: "Link Demands"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "security [.NET Framework], demands"
   - "demanded permissions"
@@ -61,5 +59,5 @@ public static string ReadData()
 ```  
   
 ## See Also  
- [Attributes](../../../docs/standard/attributes/index.md)   
+ [Attributes](../../../docs/standard/attributes/index.md)  
  [Code Access Security](../../../docs/framework/misc/code-access-security.md)

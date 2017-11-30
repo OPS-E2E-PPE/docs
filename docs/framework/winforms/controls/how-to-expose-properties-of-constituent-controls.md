@@ -1,5 +1,5 @@
 ---
-title: "How to: Expose Properties of Constituent Controls | Microsoft Docs"
+title: "How to: Expose Properties of Constituent Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "user controls [Windows Forms], exposing constituent controls"
   - "controls [Windows Forms], constituent"
@@ -63,6 +64,6 @@ public Color ButtonColor
 3.  In the `set` section of the property, write code that passes the value of the property to the exposed property of the constituent control.  
   
 ## See Also  
- <xref:System.Windows.Forms.UserControl>   
- [Properties in Windows Forms Controls](../../../../docs/framework/winforms/controls/properties-in-windows-forms-controls.md)   
+ <xref:System.Windows.Forms.UserControl>  
+ [Properties in Windows Forms Controls](../../../../docs/framework/winforms/controls/properties-in-windows-forms-controls.md)  
  [Varieties of Custom Controls](../../../../docs/framework/winforms/controls/varieties-of-custom-controls.md)

@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter2::DefineGlobalVariable2 Method | Microsoft Docs"
+title: "ISymUnmanagedWriter2::DefineGlobalVariable2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter2::DefineGlobalVariable2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter2::DefineGlobalVariable2 method [.NET Framework debugging]"
   - "DefineGlobalVariable2 method [.NET Framework debugging]"
@@ -75,5 +73,5 @@ HRESULT DefineGlobalVariable2(
  **Header:** CorSym.idl  
   
 ## See Also  
- [ISymUnmanagedWriter2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter2-interface.md)   
+ [ISymUnmanagedWriter2 Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter2-interface.md)  
  [DefineGlobalVariable Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedwriter-defineglobalvariable-method.md)

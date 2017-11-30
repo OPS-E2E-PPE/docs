@@ -1,5 +1,5 @@
 ---
-title: "DataGrid Control (Windows Forms) | Microsoft Docs"
+title: "DataGrid Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,11 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "data grids"
   - "datasets [Windows Forms], user interface"
   - "DataGrid control [Windows Forms]"
   - "datasets [Windows Forms], displaying in DataGrid control"
-  - "displaying data, on forms"
+  - "displaying data [Windows Forms], on forms"
   - "data [Windows Forms], displaying on Windows Forms"
 ms.assetid: 1d9d5683-43d2-42dd-b6c3-e43f4cf0de99
 caps.latest.revision: 20
@@ -87,5 +84,5 @@ manager: "wpickett"
  Provides links to topics on data binding in Windows Forms.  
   
 ## See Also  
- [DataGridView Control](../../../../docs/framework/winforms/controls/datagridview-control-windows-forms.md)   
+ [DataGridView Control](../../../../docs/framework/winforms/controls/datagridview-control-windows-forms.md)  
  [Differences Between the Windows Forms DataGridView and DataGrid Controls](../../../../docs/framework/winforms/controls/differences-between-the-windows-forms-datagridview-and-datagrid-controls.md)

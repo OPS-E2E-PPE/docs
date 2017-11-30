@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport2 Interface | Microsoft Docs"
+title: "IMetaDataImport2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataImport2 interface [.NET Framework metadata]"
 ms.assetid: d39b2b87-ba53-4771-ae53-952a68452511
@@ -55,6 +53,6 @@ Extends the [IMetaDataImport](../../../../docs/framework/unmanaged-api/metadata/
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- <xref:System.Reflection.PortableExecutableKinds>   
- [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)   
+ <xref:System.Reflection.PortableExecutableKinds>  
+ [Metadata Interfaces](../../../../docs/framework/unmanaged-api/metadata/metadata-interfaces.md)  
  [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)

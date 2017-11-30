@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Workflow Design Experience | Microsoft Docs"
+title: "Customizing the Workflow Design Experience"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -32,7 +32,7 @@ The scenarios for designing custom activities and for rehosting the [!INCLUDE[wf
  <xref:System.Activities.Presentation.ActivityDesigner>  
   
 ## See Also  
- [Extending Windows Workflow Foundation](../../../docs/framework/windows-workflow-foundation/extend.md)   
- [Designer](../../../docs/framework/windows-workflow-foundation/samples/designer.md)   
- [Custom Activity Designers](../../../docs/framework/windows-workflow-foundation/samples/custom-activity-designers.md)   
+ [Extending Windows Workflow Foundation](../../../docs/framework/windows-workflow-foundation/extend.md)  
+ [Designer](../../../docs/framework/windows-workflow-foundation/samples/designer.md)  
+ [Custom Activity Designers](../../../docs/framework/windows-workflow-foundation/samples/custom-activity-designers.md)  
  [Designer ReHosting](../../../docs/framework/windows-workflow-foundation/samples/designer-rehosting.md)

@@ -1,5 +1,5 @@
 ---
-title: "Certificate Selection and Validation | Microsoft Docs"
+title: "Certificate Selection and Validation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: c933aca2-4cd0-4ff1-9df9-267143f25a6f
 caps.latest.revision: 15
 author: "mcleblanc"
@@ -62,5 +57,5 @@ The <xref:System.Net> classes support several ways to select and validate <xref:
  In addition to these tools, the <xref:System.Security.Cryptography.X509Certificates.X509Certificate> and <xref:System.Security.Cryptography.X509Certificates.X509Certificate2> classes provides methods for loading a certificate from the file system.  
   
 ## See Also  
- [Security in Network Programming](../../../docs/framework/network-programming/security-in-network-programming.md)   
+ [Security in Network Programming](../../../docs/framework/network-programming/security-in-network-programming.md)  
  [Network Programming in the .NET Framework](../../../docs/framework/network-programming/index.md)

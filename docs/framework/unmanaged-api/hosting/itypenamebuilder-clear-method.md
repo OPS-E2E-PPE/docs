@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::Clear Method | Microsoft Docs"
+title: "ITypeNameBuilder::Clear Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "Clear"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Clear method [.NET Framework hosting]"
   - "ITypeNameBuilder::Clear method [.NET Framework hosting]"

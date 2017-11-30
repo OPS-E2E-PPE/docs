@@ -1,5 +1,5 @@
 ---
-title: "Extend Glass Frame Into a WPF Application | Microsoft Docs"
+title: "Extend Glass Frame Into a WPF Application"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,14 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "applications, extending glass frames into"
-  - "graphics, extending glass frames into applications"
-  - "extending glass frames into applications"
-  - "glass frames, extending into applications"
+  - "applications [WPF], extending glass frames into"
+  - "graphics [WPF], extending glass frames into applications"
+  - "extending glass frames into applications [WPF]"
+  - "glass frames [WPF], extending into applications"
 ms.assetid: 74388a3a-4b69-4a9d-ba1f-e107636bd660
 caps.latest.revision: 12
 author: dotnet-bot
@@ -153,6 +156,6 @@ void OnLoaded(object sender, RoutedEventArgs e)
  ![Glass Frame Extended into a WPF application.](../../../../docs/framework/wpf/graphics-multimedia/media/wpfextendedglassintoclient.PNG "WPFextendedGlassIntoClient")  
   
 ## See Also  
- [Desktop Window Manager Overview](https://msdn.microsoft.com/library/aa969540.aspx)   
- [Desktop Window Manager Blur Overview](https://msdn.microsoft.com/library/aa969537.aspx)   
+ [Desktop Window Manager Overview](https://msdn.microsoft.com/library/aa969540.aspx)  
+ [Desktop Window Manager Blur Overview](https://msdn.microsoft.com/library/aa969537.aspx)  
  [DwmExtendFrameIntoClientArea](https://msdn.microsoft.com/library/aa969512.aspx)

@@ -1,5 +1,5 @@
 ---
-title: "ASM_CACHE_FLAGS Enumeration | Microsoft Docs"
+title: "ASM_CACHE_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ASM_CACHE_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ASM_CACHE_FLAGS enumeration [.NET Framework fusion]"
 ms.assetid: 82e9a7da-321b-48b8-b239-52eaffda6be8
@@ -64,6 +62,6 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [GetCachePath Function](../../../../docs/framework/unmanaged-api/fusion/getcachepath-function.md)   
- [IAssemblyCacheItem Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycacheitem-interface.md)   
+ [GetCachePath Function](../../../../docs/framework/unmanaged-api/fusion/getcachepath-function.md)  
+ [IAssemblyCacheItem Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblycacheitem-interface.md)  
  [Fusion Enumerations](../../../../docs/framework/unmanaged-api/fusion/fusion-enumerations.md)

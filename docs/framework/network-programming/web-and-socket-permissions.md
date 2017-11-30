@@ -1,5 +1,5 @@
 ---
-title: "Web and Socket Permissions | Microsoft Docs"
+title: "Web and Socket Permissions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Networking"
   - "positions [.NET Framework], accepting"
@@ -43,5 +38,5 @@ Internet security for applications using the <xref:System.Net> namespace is prov
  For **WebPermission** instances, accept means that an application can export the URI controlled by the **WebPermission** to the world; connect means that an application can access that URI (whether it is remote or local).  
   
 ## See Also  
- [Security](../../../docs/standard/security/index.md)   
+ [Security](../../../docs/standard/security/index.md)  
  [Security in Network Programming](../../../docs/framework/network-programming/security-in-network-programming.md)

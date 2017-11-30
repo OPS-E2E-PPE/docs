@@ -1,5 +1,5 @@
 ---
-title: "ContextMenu Overview | Microsoft Docs"
+title: "ContextMenu Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,11 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "controls, ContextMenu"
+  - "controls [WPF], ContextMenu"
   - "ContextMenu controls [WPF], about ContextMenu controls"
 ms.assetid: 16909c42-799a-4561-91e0-7d69dcfeea91
 caps.latest.revision: 25
@@ -31,7 +34,7 @@ The <xref:System.Windows.Controls.ContextMenu> class represents the element that
 ## Creating ContextMenus  
  The following examples show how to create a <xref:System.Windows.Controls.ContextMenu> with submenus. The <xref:System.Windows.Controls.ContextMenu> controls are attached to button controls.  
   
- [!code-xml[ContextMenu#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/ContextMenu/CSharp/Pane1.xaml#1)]  
+ [!code-xaml[ContextMenu#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/ContextMenu/CSharp/Pane1.xaml#1)]  
   
  [!code-csharp[ContextMenu#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/ContextMenu/CSharp/Pane1.xaml.cs#2)]
  [!code-vb[ContextMenu#2](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/ContextMenu/VisualBasic/Pane1.xaml.vb#2)]  
@@ -66,10 +69,10 @@ The <xref:System.Windows.Controls.ContextMenu> class represents the element that
 ```  
   
 ## See Also  
- <xref:System.Windows.Controls.ContextMenu>   
- <xref:System.Windows.Style>   
- <xref:System.Windows.Controls.Menu>   
- <xref:System.Windows.Controls.MenuItem>   
- [ContextMenu](../../../../docs/framework/wpf/controls/contextmenu.md)   
- [ContextMenu Styles and Templates](../../../../docs/framework/wpf/controls/contextmenu-styles-and-templates.md)   
+ <xref:System.Windows.Controls.ContextMenu>  
+ <xref:System.Windows.Style>  
+ <xref:System.Windows.Controls.Menu>  
+ <xref:System.Windows.Controls.MenuItem>  
+ [ContextMenu](../../../../docs/framework/wpf/controls/contextmenu.md)  
+ [ContextMenu Styles and Templates](../../../../docs/framework/wpf/controls/contextmenu-styles-and-templates.md)  
  [WPF Controls Gallery Sample](http://go.microsoft.com/fwlink/?LinkID=160053)

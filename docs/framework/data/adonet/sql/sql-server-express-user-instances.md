@@ -1,5 +1,5 @@
 ---
-title: "SQL Server Express User Instances | Microsoft Docs"
+title: "SQL Server Express User Instances"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 00c12376-cb26-4317-86ad-e6e9c089be57
 caps.latest.revision: 5
 author: "JennieHubbard"
@@ -154,7 +157,7 @@ private static void OpenSqlConnection()
 -   Dedicated ASP.NET hosting using Windows Authentication. A single SQL Server Express instance can be hosted on an intranet. The application connects using the ASPNET Windows account, not by using impersonation. User instances should not be used for third-party or shared hosting scenarios where all applications would share the same user instance and would no longer remain isolated from each other.  
   
 ## See Also  
- [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)   
- [Connection Strings](../../../../../docs/framework/data/adonet/connection-strings.md)   
- [Connecting to a Data Source](../../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)   
+ [SQL Server and ADO.NET](../../../../../docs/framework/data/adonet/sql/index.md)  
+ [Connection Strings](../../../../../docs/framework/data/adonet/connection-strings.md)  
+ [Connecting to a Data Source](../../../../../docs/framework/data/adonet/connecting-to-a-data-source.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;oidMap&gt; Element | Microsoft Docs"
+title: "&lt;oidMap&gt; Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#oidMap"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/mscorlib/cryptographySettings/oidMap"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<oidMap> element"
   - "oidMap element"
@@ -85,8 +80,8 @@ Contains ASN.1 object identifier (OID) mappings to classes.
 ```  
   
 ## See Also  
- [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)   
- [Cryptography Settings Schema](../../../../../docs/framework/configure-apps/file-schema/cryptography/index.md)   
- [Cryptographic Services](../../../../../docs/standard/security/cryptographic-services.md)   
- [Configuring Cryptography Classes](../../../../../docs/framework/configure-apps/configure-cryptography-classes.md)   
+ [Configuration File Schema](../../../../../docs/framework/configure-apps/file-schema/index.md)  
+ [Cryptography Settings Schema](../../../../../docs/framework/configure-apps/file-schema/cryptography/index.md)  
+ [Cryptographic Services](../../../../../docs/standard/security/cryptographic-services.md)  
+ [Configuring Cryptography Classes](../../../../../docs/framework/configure-apps/configure-cryptography-classes.md)  
  [Mapping Object Identifiers to Cryptography Algorithms](../../../../../docs/framework/configure-apps/map-object-identifiers-to-cryptography-algorithms.md)

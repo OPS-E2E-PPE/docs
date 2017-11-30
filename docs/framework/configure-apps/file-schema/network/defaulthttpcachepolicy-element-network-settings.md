@@ -1,5 +1,5 @@
 ---
-title: "&lt;defaultHttpCachePolicy&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;defaultHttpCachePolicy&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/requestCaching/defaultHttpCachePolicy"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#defaultHttpCachePolicy"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "defaultHttpCachePolicy element"
   - "<defaultHttpCachePolicy> element"
@@ -37,11 +32,11 @@ Describes whether HTTP caching is active and describes the default caching polic
 ## Syntax  
   
 ```xml  
-< defaultHttpCachePolicy  
+<defaultHttpCachePolicy  
   policyLevel="BypassCache|Default"  
-  minimumFresh="d.hh:mm:ss"|"minValue"  
-  maximumAge  ="d.hh:mm:ss"|"maxValue"  
-  maximumStale="d.hh:mm:ss"|"maxValue"  
+  minimumFresh="d.hh:mm:ss|minValue|maxValue"  
+  maximumAge="d.hh:mm:ss|minValue|maxValue"  
+  maximumStale="d.hh:mm:ss|minValue|maxValue"  
 />  
 ```  
   
@@ -75,24 +70,24 @@ Describes whether HTTP caching is active and describes the default caching polic
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example shows how to specify a minimum fresh time of six hours, a maximum age time of two days, and a maximum stale time of four hours.  
+ The following example shows how to specify a minimum fresh time of six hours, a maximum age time of two days, and a maximum stale time of four hours.  
   
 ```xml  
 <configuration>  
   <system.net>  
     <requestCaching>  
-      <defaultHttpCachePolicy>  
-        <set minimumFresh="0.06:00:00" />  
-        <set maximumAge  ="2.00:00:00" />  
-        <set maximumStale="0.04:00:00" />  
-      </defaultHttpCachePolicy>  
+      <defaultHttpCachePolicy  
+        minimumFresh="0.06:00:00"  
+        maximumAge="2.00:00:00"  
+        maximumStale="0.04:00:00"
+      />  
     </requestCaching>  
   </system.net>  
 </configuration>  
 ```  
   
 ## See Also  
- <xref:System.Net.Cache>   
- <xref:System.Net.WebRequest>   
- <xref:System.Net.Cache.RequestCacheLevel>   
+ <xref:System.Net.Cache>  
+ <xref:System.Net.WebRequest>  
+ <xref:System.Net.Cache.RequestCacheLevel>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;workflowUnhandledException&gt; | Microsoft Docs"
+title: "&lt;workflowUnhandledException&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -53,5 +53,5 @@ A service behavior that enables you to specify the action to take when an unhand
 |[\<behavior> of \<serviceBehaviors>](../../../../../docs/framework/configure-apps/file-schema/windows-workflow-foundation/behavior-of-servicebehaviors-of-workflow.md)|Specifies a behavior element.|  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior>   
+ <xref:System.ServiceModel.Activities.Description.WorkflowUnhandledExceptionBehavior>  
  <xref:System.ServiceModel.Activities.Configuration.WorkflowUnhandledExceptionElement>

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMDA::GetXML Method | Microsoft Docs"
+title: "ICorDebugMDA::GetXML Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugMDA::GetXML"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugMDA::GetXML method [.NET Framework debugging]"
   - "GetXML method [.NET Framework debugging]"
@@ -67,5 +65,5 @@ HRESULT GetXML (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorDebugMDA Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmda-interface.md)   
+ [ICorDebugMDA Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmda-interface.md)  
  [Diagnosing Errors with Managed Debugging Assistants](../../../../docs/framework/debug-trace-profile/diagnosing-errors-with-managed-debugging-assistants.md)

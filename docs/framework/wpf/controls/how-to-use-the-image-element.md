@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Image Element | Microsoft Docs"
+title: "How to: Use the Image Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "BitmapImage class"
-  - "classes, BitmapImage"
-  - "controls, Image"
-  - "Image control"
-  - "rendering images"
+  - "controls [WPF], Image"
+  - "Image control [WPF]"
+  - "rendering images [WPF]"
 ms.assetid: 5b92e74b-1b56-4756-ac64-d5e9e08d9854
 caps.latest.revision: 20
 author: dotnet-bot
@@ -35,7 +36,7 @@ This example shows how to include images in an application by using the <xref:Sy
   
  The <xref:System.Windows.Controls.Image.Stretch%2A> property determines how the image source is stretched to fill the image element. For more information, see the <xref:System.Windows.Media.Stretch> enumeration.  
   
- [!code-xml[ImageElementExample_snip#ImageSimpleExampleInlineMarkup](../../../../samples/snippets/csharp/VS_Snippets_Wpf/ImageElementExample_snip/CSharp/ImageSimpleExample.xaml#imagesimpleexampleinlinemarkup)]  
+ [!code-xaml[ImageElementExample_snip#ImageSimpleExampleInlineMarkup](../../../../samples/snippets/csharp/VS_Snippets_Wpf/ImageElementExample_snip/CSharp/ImageSimpleExample.xaml#imagesimpleexampleinlinemarkup)]  
   
 ## Example  
  The following example shows how to render an image 200 pixels wide using code.  

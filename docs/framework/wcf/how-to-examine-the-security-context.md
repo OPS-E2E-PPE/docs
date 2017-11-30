@@ -1,5 +1,5 @@
 ---
-title: "How to: Examine the Security Context | Microsoft Docs"
+title: "How to: Examine the Security Context"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "ServiceSecurityContext class"
   - "WCF, security"
@@ -58,5 +61,5 @@ When programming [!INCLUDE[indigo1](../../../includes/indigo1-md.md)] services, 
 -   <xref:System.IdentityModel.Claims>  
   
 ## See Also  
- [Securing Services](../../../docs/framework/wcf/securing-services.md)   
+ [Securing Services](../../../docs/framework/wcf/securing-services.md)  
  [Service Identity and Authentication](../../../docs/framework/wcf/feature-details/service-identity-and-authentication.md)

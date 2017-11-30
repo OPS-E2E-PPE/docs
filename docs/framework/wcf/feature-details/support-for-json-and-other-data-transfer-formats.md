@@ -1,5 +1,5 @@
 ---
-title: "Support for JSON and Other Data Transfer Formats | Microsoft Docs"
+title: "Support for JSON and Other Data Transfer Formats"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -29,5 +29,5 @@ JSON (JavaScript Object Notation) is an efficient data encoding format that enab
  Describes the correspondence between JavaScript Object Notation (JSON) encodings and the XML infoset, which is used internally by [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] to represent JSON-encoded data and documents.  
   
 ## See Also  
- <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer>   
+ <xref:System.Runtime.Serialization.Json.DataContractJsonSerializer>  
  <xref:System.Runtime.Serialization.Json.JsonReaderWriterFactory>

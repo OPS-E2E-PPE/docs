@@ -1,5 +1,5 @@
 ---
-title: "Tracing and Message Logging | Microsoft Docs"
+title: "Tracing and Message Logging"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Tracing and logging"
 ms.assetid: a4f39bfc-3c5e-4d51-a312-71c5c3ce0afd
@@ -142,5 +139,5 @@ This sample demonstrates how to enable tracing and message logging. The resultin
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Management\TracingAndLogging`  
   
 ## See Also  
- [Tracing](../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
+ [Tracing](../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
  [AppFabric Monitoring Samples](http://go.microsoft.com/fwlink/?LinkId=193959)

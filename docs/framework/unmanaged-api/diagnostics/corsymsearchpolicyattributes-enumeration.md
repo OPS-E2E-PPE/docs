@@ -1,5 +1,5 @@
 ---
-title: "CorSymSearchPolicyAttributes Enumeration | Microsoft Docs"
+title: "CorSymSearchPolicyAttributes Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorSymSearchPolicyAttributes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorSymSearchPolicyAttributes enumeration [.NET Framework debugging]"
 ms.assetid: 03abde84-930a-49d3-bac3-23abb34a0184

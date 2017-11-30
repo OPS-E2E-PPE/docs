@@ -1,5 +1,5 @@
 ---
-title: "CorSetENC Enumeration | Microsoft Docs"
+title: "CorSetENC Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorSetENC"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorSetENC enumeration [.NET Framework metadata]"
 ms.assetid: fe4150e8-071d-43fb-8e06-c3c616dbeed2

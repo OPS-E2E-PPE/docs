@@ -1,5 +1,5 @@
 ---
-title: "Resgen.exe (Resource File Generator) | Microsoft Docs"
+title: "Resgen.exe (Resource File Generator)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "resource files, .resources files"
   - "resource files, .resx files"
@@ -339,8 +334,8 @@ resgen StringResources.txt /str:vb,,StringResources
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [Resources in Desktop Apps](../../../docs/framework/resources/index.md)   
- [Creating Resource Files](../../../docs/framework/resources/creating-resource-files-for-desktop-apps.md)   
- [Al.exe (Assembly Linker)](../../../docs/framework/tools/al-exe-assembly-linker.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Resources in Desktop Apps](../../../docs/framework/resources/index.md)  
+ [Creating Resource Files](../../../docs/framework/resources/creating-resource-files-for-desktop-apps.md)  
+ [Al.exe (Assembly Linker)](../../../docs/framework/tools/al-exe-assembly-linker.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

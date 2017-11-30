@@ -1,5 +1,5 @@
 ---
-title: "TextBlock Overview | Microsoft Docs"
+title: "TextBlock Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "controls, TextBlock"
-  - "TextBlock control"
+  - "controls [WPF], TextBlock"
+  - "TextBlock control [WPF]"
 ms.assetid: 24720bca-341a-4b03-8a6b-7a678023b10a
 caps.latest.revision: 6
 author: dotnet-bot
@@ -23,7 +26,7 @@ The <xref:System.Windows.Controls.TextBlock> control provides flexible text supp
   
  A <xref:System.Windows.Controls.TextBlock> element can be instantiated very simply using [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)].  
   
- [!code-xml[TextBlockSnip_XAML#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TextBlockSnip_XAML/CS/default.xaml#2)]  
+ [!code-xaml[TextBlockSnip_XAML#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TextBlockSnip_XAML/CS/default.xaml#2)]  
   
  Similarly, usage of the <xref:System.Windows.Controls.TextBlock> element in code is relatively simple.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Data Contract Known Types | Microsoft Docs"
+title: "Data Contract Known Types"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "data contracts [WCF], known types"
   - "KnownTypeAttribute [WCF]"
@@ -174,11 +174,11 @@ The <xref:System.Runtime.Serialization.KnownTypeAttribute> class allows you to s
  In the preceding configuration file a data contract type called `MyCompany.Library.Shape` is declared to have `MyCompany.Library.Circle` as a known type.  
   
 ## See Also  
- <xref:System.Runtime.Serialization.KnownTypeAttribute>   
- <xref:System.Collections.Hashtable>   
- <xref:System.Object>   
- <xref:System.Runtime.Serialization.DataContractSerializer>   
- <xref:System.Runtime.Serialization.DataContractSerializer.KnownTypes%2A>   
- [Known Types](../../../../docs/framework/wcf/samples/known-types.md)   
- [Data Contract Equivalence](../../../../docs/framework/wcf/feature-details/data-contract-equivalence.md)   
+ <xref:System.Runtime.Serialization.KnownTypeAttribute>  
+ <xref:System.Collections.Hashtable>  
+ <xref:System.Object>  
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
+ <xref:System.Runtime.Serialization.DataContractSerializer.KnownTypes%2A>  
+ [Known Types](../../../../docs/framework/wcf/samples/known-types.md)  
+ [Data Contract Equivalence](../../../../docs/framework/wcf/feature-details/data-contract-equivalence.md)  
  [Designing Service Contracts](../../../../docs/framework/wcf/designing-service-contracts.md)

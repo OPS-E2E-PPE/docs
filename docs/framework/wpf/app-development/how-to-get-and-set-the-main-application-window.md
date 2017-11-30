@@ -1,5 +1,5 @@
 ---
-title: "How to: Get and Set the Main Application Window | Microsoft Docs"
+title: "How to: Get and Set the Main Application Window"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,14 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "windows objects, setting"
-  - "setting windows objects"
-  - "windows objects, getting"
-  - "getting windows objects"
+  - "windows objects [WPF], setting"
+  - "setting windows objects [WPF]"
+  - "windows objects [WPF], getting"
+  - "getting windows objects [WPF]"
 ms.assetid: ec902bc4-4a59-46f5-8ec1-963b46789356
 caps.latest.revision: 8
 author: dotnet-bot
@@ -33,7 +36,7 @@ This example shows how to get and set the main application window.
   
  Sometimes, the first instantiated <xref:System.Windows.Window> is not actually the main application window e.g. a splash screen. In this case, you can specify the main application window using markup, like the following:  
   
- [!code-xml[ApplicationMainWindowSnippets#SetApplicationMainWindowXAML](../../../../samples/snippets/xaml/VS_Snippets_Wpf/ApplicationMainWindowSnippets/XAML/App.xaml#setapplicationmainwindowxaml)]  
+ [!code-xaml[ApplicationMainWindowSnippets#SetApplicationMainWindowXAML](../../../../samples/snippets/xaml/VS_Snippets_Wpf/ApplicationMainWindowSnippets/XAML/App.xaml#setapplicationmainwindowxaml)]  
   
  Whether the main window is specified automatically or manually, you can get the main window from <xref:System.Windows.Application.MainWindow%2A> using the following code, like the following:  
   

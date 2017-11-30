@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::GetClassFromToken Method | Microsoft Docs"
+title: "ICorProfilerInfo::GetClassFromToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::GetClassFromToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::GetClassFromToken method [.NET Framework profiling]"
   - "GetClassFromToken method, ICorProfilerInfo interface [.NET Framework profiling]"

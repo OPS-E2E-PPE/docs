@@ -1,5 +1,5 @@
 ---
-title: "Distributed Application Security | Microsoft Docs"
+title: "Distributed Application Security"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "distributed application security [WCF]"
   - "security [WCF], transfer"
@@ -104,7 +101,7 @@ manager: "mbaldwin"
  The message security mode also allows you to perform transfer security so that the service credential is exchanged with the client as part of an initial negotiation. To enable negotiation, set the <xref:System.ServiceModel.MessageSecurityOverHttp.NegotiateServiceCredential%2A> property to `true`.  
   
 ## See Also  
- [Endpoint Creation Overview](../../../../docs/framework/wcf/endpoint-creation-overview.md)   
- [System-Provided Bindings](../../../../docs/framework/wcf/system-provided-bindings.md)   
- [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)   
+ [Endpoint Creation Overview](../../../../docs/framework/wcf/endpoint-creation-overview.md)  
+ [System-Provided Bindings](../../../../docs/framework/wcf/system-provided-bindings.md)  
+ [Security Overview](../../../../docs/framework/wcf/feature-details/security-overview.md)  
  [Security Model for Windows Server App Fabric](http://go.microsoft.com/fwlink/?LinkID=201279&clcid=0x409)

@@ -13,6 +13,9 @@ To build/use any of these (using `new-library` as an example):
 3. Restore packages by typing the following:
 
 	`$ dotnet restore`
+	
+[!INCLUDE[DotNet Restore Note](~/includes/dotnet-restore-note.md)]
+	
 		
 4. To build and package the library as a NuGet package, type the following:
 
@@ -60,16 +63,16 @@ The project under `/net45-compat-library` targets any of the following:
 * Xamarin
 * Mono
 
-It uses the `netstandard1.2` Target Framework Moniker introduced with the [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/library).
+It uses the `netstandard1.2` Target Framework Moniker introduced with the [.NET Standard](https://docs.microsoft.com/dotnet/standard/library).
 
 ## net40-library
 
 **IMPORTANT:** This project requires Windows and the the .NET Framework installed on your machine.
 
-The project under `/net40-library` targets the .NET Framework 4.0 and above.  It also demonstrates how to use [#if](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directives to multi-target for a .NET 4.0 target.
+The project under `/net40-library` targets the .NET Framework 4.0 and above.  It also demonstrates how to use [#if](https://docs.microsoft.com/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directives to multi-target for a .NET 4.0 target.
 
 ## pcl-library
 
 **IMPORTANT:** This project requires Windows and the .NET Framework installed on your machine.
 
-The project under `/pcl-library` shows how to target a supported PCL Profile (for example, 344).  It shows how to structure the `Library.csproj` file to allow for targeting a PCL.  It also demonstrates how to use [#if](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directives and how to define a preprocessor constant, `PORTABLE259` in the `Library.csproj` file.
+The project under `/pcl-library` shows how to target a supported PCL Profile (for example, 344).  It shows how to structure the `Library.csproj` file to allow for targeting a PCL.  It also demonstrates how to use [#if](https://docs.microsoft.com/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directives and how to define a preprocessor constant, `PORTABLE259` in the `Library.csproj` file.

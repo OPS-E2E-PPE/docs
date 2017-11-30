@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify a Service Binding in Configuration | Microsoft Docs"
+title: "How to: Specify a Service Binding in Configuration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 885037f7-1c2b-4d7a-90d9-06b89be172f2
 caps.latest.revision: 17
 author: "Erikre"
@@ -96,5 +99,5 @@ In this example, an `ICalculator` contract is defined for a basic calculator ser
     ```  
   
 ## See Also  
- [Using Bindings to Configure Services and Clients](../../../docs/framework/wcf/using-bindings-to-configure-services-and-clients.md)   
+ [Using Bindings to Configure Services and Clients](../../../docs/framework/wcf/using-bindings-to-configure-services-and-clients.md)  
  [Specifying an Endpoint Address](../../../docs/framework/wcf/specifying-an-endpoint-address.md)

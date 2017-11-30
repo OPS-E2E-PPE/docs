@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugRemote::DebugActiveProcessEx Method | Microsoft Docs"
+title: "ICorDebugRemote::DebugActiveProcessEx Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugRemoteTarget::DebugActiveProcessEx"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugRemote::DebugActiveProcessEx method [.NET Framework debugging]"
   - "DebugActiveProcessEx method, ICorDebugRemote interface [.NET Framework debugging]"
@@ -77,7 +75,7 @@ HRESULT DebugActiveProcessEx (
  **.NET Framework Versions:** 4.5, 4, 3.5 SP1  
   
 ## See Also  
- [ICorDebugRemote Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremote-interface.md)   
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebugRemote Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugremote-interface.md)  
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
     
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

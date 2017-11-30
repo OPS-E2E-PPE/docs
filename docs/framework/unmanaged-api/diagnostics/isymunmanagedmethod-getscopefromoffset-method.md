@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedMethod::GetScopeFromOffset Method | Microsoft Docs"
+title: "ISymUnmanagedMethod::GetScopeFromOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedMethod::GetScopeFromOffset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetScopeFromOffset method [.NET Framework debugging]"
   - "ISymUnmanagedMethod::GetScopeFromOffset method [.NET Framework debugging]"

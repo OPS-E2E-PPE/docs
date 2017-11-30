@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStringValue::GetLength Method | Microsoft Docs"
+title: "ICorDebugStringValue::GetLength Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStringValue::GetLength"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStringValue::GetLength method [.NET Framework debugging]"
   - "GetLength method [.NET Framework debugging]"

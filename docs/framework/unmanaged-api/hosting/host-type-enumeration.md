@@ -1,5 +1,5 @@
 ---
-title: "HOST_TYPE Enumeration | Microsoft Docs"
+title: "HOST_TYPE Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "HOST_TYPE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "HOST_TYPE enumeration [.NET Framework hosting]"
 ms.assetid: 51f848be-84c5-4036-9839-c762c576bbf5

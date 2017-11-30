@@ -1,5 +1,5 @@
 ---
-title: "How to: Host a WCF Service in a Managed Windows Service | Microsoft Docs"
+title: "How to: Host a WCF Service in a Managed Windows Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 8e37363b-4dad-4fb6-907f-73c30fac1d9a
 caps.latest.revision: 21
 author: "Erikre"
@@ -114,7 +117,7 @@ This topic outlines the basic steps required to create a [!INCLUDE[indigo1](../.
   
      Right click the App.config file in the **Solution Explorer** and select **Properties**. Under **Copy to Output Directory** select **Copy if Newer**.  
   
-     This example explicitly specifies endpoints in the configuration file. If you do not add any endpoints to the service, the runtime adds default endpoints for you. In this example, because the service has a <xref:System.ServiceModel.Description.ServiceMetadataBehavior> set to `true`, your service also has publishing metadata enabled. [!INCLUDE[crabout](../../../../includes/crabout-md.md)]default endpoints, bindings, and behaviors, see [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md) and [Simplified Configuration for WCF Services](../../../../docs/framework/wcf/samples/simplified-configuration-for-wcf-services.md).  
+     This example explicitly specifies endpoints in the configuration file. If you do not add any endpoints to the service, the runtime adds default endpoints for you. In this example, because the service has a <xref:System.ServiceModel.Description.ServiceMetadataBehavior> set to `true`, your service also has publishing metadata enabled. [!INCLUDE[crabout](../../../../includes/crabout-md.md)] default endpoints, bindings, and behaviors, see [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md) and [Simplified Configuration for WCF Services](../../../../docs/framework/wcf/samples/simplified-configuration-for-wcf-services.md).  
   
 ### Install and run the service  
   
@@ -138,7 +141,7 @@ This topic outlines the basic steps required to create a [!INCLUDE[indigo1](../.
  Like the "Self-Hosting" option, the Windows service hosting environment requires that some hosting code be written as part of the application. The service is implemented as a console application and contains its own hosting code. In other hosting environments, such as Windows Process Activation Service (WAS) hosting in Internet Information Services (IIS), it is not necessary for developers to write hosting code.  
   
 ## See Also  
- [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md)   
- [Hosting in a Managed Application](../../../../docs/framework/wcf/feature-details/hosting-in-a-managed-application.md)   
- [Hosting Services](../../../../docs/framework/wcf/hosting-services.md)   
+ [Simplified Configuration](../../../../docs/framework/wcf/simplified-configuration.md)  
+ [Hosting in a Managed Application](../../../../docs/framework/wcf/feature-details/hosting-in-a-managed-application.md)  
+ [Hosting Services](../../../../docs/framework/wcf/hosting-services.md)  
  [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=201276)

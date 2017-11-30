@@ -1,5 +1,5 @@
 ---
-title: "How to: Apply a Drawing to a 3-D Model | Microsoft Docs"
+title: "How to: Apply a Drawing to a 3-D Model"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,8 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "drawings, applying to 3-D models"
-  - "3-D models, applying drawings to"
+  - "drawings [WPF], applying to 3-D models"
+  - "3-D models [WPF], applying drawings to"
 ms.assetid: 68357577-b7fc-446e-8be9-a8cc7df3a350
 caps.latest.revision: 10
 author: dotnet-bot
@@ -25,15 +25,15 @@ This example shows how to use a <xref:System.Windows.Media.DrawingBrush> as the 
   
  **Note:** It is often desirable to define complex objects and values like the drawing below as resources which can be reused and simplify your code. See [XAML Resources](../../../../docs/framework/wpf/advanced/xaml-resources.md) for more information.  
   
- [!code-xml[3DGallery_snip#ApplyDrawingToMaterialInline1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/3DGallery_snip/CS/ApplyDrawingToMaterialExample.xaml#applydrawingtomaterialinline1)]  
+ [!code-xaml[3DGallery_snip#ApplyDrawingToMaterialInline1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/3DGallery_snip/CS/ApplyDrawingToMaterialExample.xaml#applydrawingtomaterialinline1)]  
   
 ## Example  
  The following code shows the entire sample.  
   
- [!code-xml[3DGallery_snip#ApplyDrawingToMaterialExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/3DGallery_snip/CS/ApplyDrawingToMaterialExample.xaml#applydrawingtomaterialexamplewholepage)]  
+ [!code-xaml[3DGallery_snip#ApplyDrawingToMaterialExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/3DGallery_snip/CS/ApplyDrawingToMaterialExample.xaml#applydrawingtomaterialexamplewholepage)]  
   
 ## See Also  
- [XAML Resources](../../../../docs/framework/wpf/advanced/xaml-resources.md)   
- [Create a 3-D Scene](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-3-d-scene.md)   
- [Drawing Objects Overview](../../../../docs/framework/wpf/graphics-multimedia/drawing-objects-overview.md)   
+ [XAML Resources](../../../../docs/framework/wpf/advanced/xaml-resources.md)  
+ [Create a 3-D Scene](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-3-d-scene.md)  
+ [Drawing Objects Overview](../../../../docs/framework/wpf/graphics-multimedia/drawing-objects-overview.md)  
  [3-D Graphics Overview](../../../../docs/framework/wpf/graphics-multimedia/3-d-graphics-overview.md)

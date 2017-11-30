@@ -1,14 +1,12 @@
 ---
-title: "-nowarn (C# Compiler Options) | Microsoft Docs"
-ms.date: "2015-07-20"
+title: "-nowarn (C# Compiler Options)"
+ms.date: 07/20/2015
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
 ms.topic: "article"
 f1_keywords: 
   - "/nowarn"
-dev_langs: 
-  - "CSharp"
 helpviewer_keywords: 
   - "nowarn compiler option [C#]"
   - "/nowarn compiler option [C#]"
@@ -17,20 +15,6 @@ ms.assetid: 6dcbc5e8-ae67-4566-9df3-f63cfdd9c4e4
 caps.latest.revision: 24
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # /nowarn (C# Compiler Options)
 The **/nowarn** option lets you suppress the compiler from displaying one or more warnings. Separate multiple warning numbers with a comma.  
@@ -60,7 +44,7 @@ The **/nowarn** option lets you suppress the compiler from displaying one or mor
   
 ### To set this compiler option in the Visual Studio development environment  
   
-1.  Open the **Properties** page for the project. For details, see [Build Page, Project Designer (C#)](https://docs.microsoft.com/visualstudio/ide/reference/build-page-project-designer-csharp).  
+1.  Open the **Properties** page for the project. For details, see [Build Page, Project Designer (C#)](/visualstudio/ide/reference/build-page-project-designer-csharp).  
   
 2.  Click the **Build** property page.  
   
@@ -69,6 +53,6 @@ The **/nowarn** option lets you suppress the compiler from displaying one or mor
  For information about how to set this compiler option programmatically, see <xref:VSLangProj80.ProjectProperties3.DelaySign%2A>.  
   
 ## See Also  
- [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)   
+ [C# Compiler Options](../../../csharp/language-reference/compiler-options/index.md)  
+ [Managing Project and Solution Properties](/visualstudio/ide/managing-project-and-solution-properties)  
  [C# Compiler Errors](../../../csharp/language-reference/compiler-messages/index.md)

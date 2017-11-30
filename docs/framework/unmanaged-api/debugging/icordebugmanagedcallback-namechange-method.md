@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::NameChange Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::NameChange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::NameChange"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugManagedCallback::NameChange method [.NET Framework debugging]"
   - "NameChange method [.NET Framework debugging]"

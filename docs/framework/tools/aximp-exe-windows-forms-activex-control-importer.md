@@ -1,5 +1,5 @@
 ---
-title: "Aximp.exe (Windows Forms ActiveX Control Importer) | Microsoft Docs"
+title: "Aximp.exe (Windows Forms ActiveX Control Importer)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "ActiveX controls, hosting in Windows Forms"
   - "ActiveX Control Importer"
@@ -89,5 +84,5 @@ aximp c:\systemroot\system32\msdxm.ocx
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
  [Ildasm.exe (IL Disassembler)](../../../docs/framework/tools/ildasm-exe-il-disassembler.md)

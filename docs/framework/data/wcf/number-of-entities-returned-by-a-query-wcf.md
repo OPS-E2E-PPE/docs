@@ -1,5 +1,5 @@
 ---
-title: "How to: Determine the Number of Entities Returned by a Query (WCF Data Services) | Microsoft Docs"
+title: "How to: Determine the Number of Entities Returned by a Query (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF Data Services, row count"
 ms.assetid: 03d41a82-df95-40ac-8439-a6c327d37ba8

@@ -1,5 +1,5 @@
 ---
-title: "Supported and Unsupported LINQ Methods (LINQ to Entities) | Microsoft Docs"
+title: "Supported and Unsupported LINQ Methods (LINQ to Entities)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 7f3ffa5f-f819-4730-bcdb-09b23de3b6d0
 caps.latest.revision: 4
 author: "JennieHubbard"

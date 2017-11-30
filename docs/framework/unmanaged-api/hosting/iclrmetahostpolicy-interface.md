@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetaHostPolicy Interface | Microsoft Docs"
+title: "ICLRMetaHostPolicy Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetaHostPolicy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRMetaHostPolicy interface [.NET Framework hosting]"
 ms.assetid: 1bdeccb6-0698-4c97-ad69-eae2b69e59f1
@@ -62,6 +60,6 @@ HRESULT hr = CLRCreateInstance(CLSID_CLRMetaHostPolicy,
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [CLR Hosting Interfaces Added in the .NET Framework 4 and 4.5](../../../../docs/framework/unmanaged-api/hosting/clr-hosting-interfaces-added-in-the-net-framework-4-and-4-5.md)   
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [CLR Hosting Interfaces Added in the .NET Framework 4 and 4.5](../../../../docs/framework/unmanaged-api/hosting/clr-hosting-interfaces-added-in-the-net-framework-4-and-4-5.md)  
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

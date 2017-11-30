@@ -1,5 +1,5 @@
 ---
-title: "&lt;tokenReplayCache&gt; | Microsoft Docs"
+title: "&lt;tokenReplayCache&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -68,5 +68,5 @@ Registers a token replay cache with a service or a security token handler collec
 ```  
   
 ## See Also  
- <xref:System.IdentityModel.Tokens.TokenReplayCache>   
+ <xref:System.IdentityModel.Tokens.TokenReplayCache>  
  [\<tokenReplayDetection>](../../../../../docs/framework/configure-apps/file-schema/windows-identity-foundation/tokenreplaydetection.md)

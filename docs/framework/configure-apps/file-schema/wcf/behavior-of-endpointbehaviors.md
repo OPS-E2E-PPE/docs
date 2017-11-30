@@ -1,5 +1,5 @@
 ---
-title: "&lt;behavior&gt; of &lt;endpointBehaviors&gt; | Microsoft Docs"
+title: "&lt;behavior&gt; of &lt;endpointBehaviors&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: b90ca3bc-3c22-4174-b903-e3a39898bd27
 caps.latest.revision: 19
 author: "Erikre"

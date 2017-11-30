@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeHost::SetHostControl Method | Microsoft Docs"
+title: "ICLRRuntimeHost::SetHostControl Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeHost::SetHostControl"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetHostControl method [.NET Framework hosting]"
   - "ICLRRuntimeHost::SetHostControl method [.NET Framework hosting]"
@@ -70,5 +68,5 @@ HRESULT SetHostControl(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)   
+ [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)  
  [IHostControl Interface](../../../../docs/framework/unmanaged-api/hosting/ihostcontrol-interface.md)

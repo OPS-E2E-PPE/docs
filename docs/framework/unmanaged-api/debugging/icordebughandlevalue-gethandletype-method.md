@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHandleValue::GetHandleType Method | Microsoft Docs"
+title: "ICorDebugHandleValue::GetHandleType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHandleValue::GetHandleType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetHandleType method [.NET Framework debugging]"
   - "ICorDebugHandleValue::GetHandleType method [.NET Framework debugging]"

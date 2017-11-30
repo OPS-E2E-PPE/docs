@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetClassFromToken Method | Microsoft Docs"
+title: "ICorDebugModule::GetClassFromToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetClassFromToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetClassFromToken method, ICorDebugModule interface [.NET Framework debugging]"
   - "ICorDebugModule::GetClassFromToken method [.NET Framework debugging]"

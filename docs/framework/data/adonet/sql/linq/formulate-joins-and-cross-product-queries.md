@@ -1,5 +1,5 @@
 ---
-title: "Formulate Joins and Cross-Product Queries | Microsoft Docs"
+title: "Formulate Joins and Cross-Product Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: d8072ede-0521-4670-9bec-1778ceeb875b
 caps.latest.revision: 2
 author: "JennieHubbard"

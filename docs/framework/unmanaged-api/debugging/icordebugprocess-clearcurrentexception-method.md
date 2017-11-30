@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess::ClearCurrentException Method | Microsoft Docs"
+title: "ICorDebugProcess::ClearCurrentException Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess::ClearCurrentException"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ClearCurrentException method, ICorDebugProcess interface [.NET Framework debugging]"
   - "ICorDebugProcess::ClearCurrentException method [.NET Framework debugging]"

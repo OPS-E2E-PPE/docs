@@ -1,5 +1,5 @@
 ---
-title: "How to: Determine the Active MDI Child | Microsoft Docs"
+title: "How to: Determine the Active MDI Child"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,13 +10,14 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "Clipboard, copying data to"
-  - "MDI, child windows"
+  - "Clipboard [Windows Forms], copying data to"
+  - "MDI [Windows Forms], child windows"
   - "child forms"
-  - "MDI, activating forms"
-  - "MDI, locating focus"
+  - "MDI [Windows Forms], activating forms"
+  - "MDI [Windows Forms], locating focus"
 ms.assetid: 33880ec3-0207-4c2b-a616-ff140443cc0f
 caps.latest.revision: 12
 author: dotnet-bot
@@ -89,8 +90,8 @@ On occasion, you will want to provide a command that operates on the control tha
     ```  
   
 ## See Also  
- [Multiple-Document Interface (MDI) Applications](../../../../docs/framework/winforms/advanced/multiple-document-interface-mdi-applications.md)   
- [How to: Create MDI Parent Forms](../../../../docs/framework/winforms/advanced/how-to-create-mdi-parent-forms.md)   
- [How to: Create MDI Child Forms](../../../../docs/framework/winforms/advanced/how-to-create-mdi-child-forms.md)   
- [How to: Send Data to the Active MDI Child](../../../../docs/framework/winforms/advanced/how-to-send-data-to-the-active-mdi-child.md)   
+ [Multiple-Document Interface (MDI) Applications](../../../../docs/framework/winforms/advanced/multiple-document-interface-mdi-applications.md)  
+ [How to: Create MDI Parent Forms](../../../../docs/framework/winforms/advanced/how-to-create-mdi-parent-forms.md)  
+ [How to: Create MDI Child Forms](../../../../docs/framework/winforms/advanced/how-to-create-mdi-child-forms.md)  
+ [How to: Send Data to the Active MDI Child](../../../../docs/framework/winforms/advanced/how-to-send-data-to-the-active-mdi-child.md)  
  [How to: Arrange MDI Child Forms](../../../../docs/framework/winforms/advanced/how-to-arrange-mdi-child-forms.md)

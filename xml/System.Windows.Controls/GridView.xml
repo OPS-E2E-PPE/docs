@@ -44,7 +44,7 @@
   
  [!code-csharp[ListViewCode#GridViewColumn](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewcolumn)]
  [!code-vb[ListViewCode#GridViewColumn](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewcolumn)]
- [!code-xml[ListViewCode#GridViewColumn](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumn)]  
+ [!code-xaml[ListViewCode#GridViewColumn](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewcolumn)]  
   
  To style the rows in a <xref:System.Windows.Controls.GridView>, define a style for the <xref:System.Windows.Controls.ListViewItem> controls in the <xref:System.Windows.Controls.ListView>.  
   
@@ -55,10 +55,16 @@
 ## Examples  
  The following example shows how to define a <xref:System.Windows.Controls.ListView> control that implements a <xref:System.Windows.Controls.GridView> as its <xref:System.Windows.Controls.ListView.View%2A>.  
   
- [!code-xml[ListViewSnips#1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#1)]  
+ [!code-xaml[ListViewSnips#1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewSnips/CSharp/Window1.xaml#1)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.ListView" />
+    <altmember cref="T:System.Windows.Controls.GridViewColumn" />
+    <altmember cref="T:System.Windows.Controls.GridViewColumnHeader" />
+    <altmember cref="T:System.Windows.Controls.GridViewRowPresenter" />
+    <altmember cref="T:System.Windows.Controls.GridViewHeaderRowPresenter" />
+    <altmember cref="T:System.Windows.Controls.GridViewColumnCollection" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -159,8 +165,8 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Controls.GridView.AllowsColumnReorder%2A> property.  
   
- [!code-xml[ListViewCode#GridViewAllowsColumnReorderPart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart1)]  
-[!code-xml[ListViewCode#GridViewAllowsColumnReorderPart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart2)]  
+ [!code-xaml[ListViewCode#GridViewAllowsColumnReorderPart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart1)]  
+[!code-xaml[ListViewCode#GridViewAllowsColumnReorderPart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart2)]  
   
  [!code-csharp[ListViewCode#GridViewAllowsColumnReorder](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewallowscolumnreorder)]
  [!code-vb[ListViewCode#GridViewAllowsColumnReorder](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewallowscolumnreorder)]  
@@ -304,9 +310,9 @@
 ## Examples  
  The following example shows how to define the <xref:System.Windows.Controls.GridView.ColumnHeaderContainerStyle%2A> property.  
   
- [!code-xml[ListViewTemplate#GridViewHeaderStyle](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheaderstyle)]  
+ [!code-xaml[ListViewTemplate#GridViewHeaderStyle](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheaderstyle)]  
   
- [!code-xml[ListViewTemplate#GridViewColumnHeaderContainerTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnheadercontainertemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnHeaderContainerTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnheadercontainertemplate)]  
   
  ]]></format>
         </remarks>
@@ -412,15 +418,15 @@
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- If the <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A?displayProperty=fullName>, <xref:System.Windows.Controls.GridViewColumn.HeaderTemplate%2A?displayProperty=fullName>, or <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderTemplate%2A?displayProperty=fullName> property is set, this property is ignored.  
+ If the <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A?displayProperty=nameWithType>, <xref:System.Windows.Controls.GridViewColumn.HeaderTemplate%2A?displayProperty=nameWithType>, or <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderTemplate%2A?displayProperty=nameWithType> property is set, this property is ignored.  
   
  You can use several properties to specify the format of the column headers.  If more than one property is set, the column header is formatted with the value of the property that has the highest priority. The format for a column can be set on several types. The following list shows the properties that can be used to format the column headers, ordered from lowest to highest priority:  
   
--   <xref:System.Windows.Controls.GridView.ColumnHeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridView.ColumnHeaderStringFormat%2A?displayProperty=nameWithType>  
   
--   <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderStringFormat%2A?displayProperty=nameWithType>  
   
--   <xref:System.Windows.Controls.GridViewColumn.HeaderStringFormat%2A?displayProperty=fullName>  
+-   <xref:System.Windows.Controls.GridViewColumn.HeaderStringFormat%2A?displayProperty=nameWithType>  
   
 <a name="dependencyPropertyInfo_ColumnHeaderStringFormat"></a>   
 ## Dependency Property Information  
@@ -505,12 +511,13 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Controls.GridView.ColumnHeaderTemplate%2A> property.  
   
- [!code-xml[ListViewTemplate#GridViewHeaderTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheadertemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewHeaderTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewheadertemplate)]  
   
- [!code-xml[ListViewTemplate#GridViewColumnHeaderContainerTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnheadercontainertemplate)]  
+ [!code-xaml[ListViewTemplate#GridViewColumnHeaderContainerTemplate](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewTemplate/CS/window1.xaml#gridviewcolumnheadercontainertemplate)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridView.ColumnHeaderTemplateSelector" />
       </Docs>
     </Member>
     <Member MemberName="ColumnHeaderTemplateProperty">
@@ -606,6 +613,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridView.ColumnHeaderTemplate" />
       </Docs>
     </Member>
     <Member MemberName="ColumnHeaderTemplateSelectorProperty">
@@ -683,7 +691,7 @@
  A string that becomes the display text for the <xref:System.Windows.Controls.GridView.ColumnHeaderToolTip%2A>.  
   
  `toolTipObjectContent`  
- An object to use as the content for the tooltip. Typically, this object is a <xref:System.Windows.FrameworkElement> or some other element that defines a layout for the <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderToolTip%2A>, such as a text element. In this usage, a <xref:System.Windows.Controls.ToolTip> element is implicitly created from the parsed [!INCLUDE[TLA2#tla_xaml](~/includes/tla2sharptla-xaml-md.md)], and the `toolTipObjectContent` content is set as its <xref:System.Windows.Controls.ContentControl.Content%2A?displayProperty=fullName> property.  
+ An object to use as the content for the tooltip. Typically, this object is a <xref:System.Windows.FrameworkElement> or some other element that defines a layout for the <xref:System.Windows.Controls.GridViewHeaderRowPresenter.ColumnHeaderToolTip%2A>, such as a text element. In this usage, a <xref:System.Windows.Controls.ToolTip> element is implicitly created from the parsed [!INCLUDE[TLA2#tla_xaml](~/includes/tla2sharptla-xaml-md.md)], and the `toolTipObjectContent` content is set as its <xref:System.Windows.Controls.ContentControl.Content%2A?displayProperty=nameWithType> property.  
   
  <`ToolTip` .../>  
  See <xref:System.Windows.Controls.ToolTip>.  
@@ -701,8 +709,8 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Controls.GridView.ColumnHeaderToolTip%2A> property.  
   
- [!code-xml[ListViewCode#GridViewAllowsColumnReorderPart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart1)]  
-[!code-xml[ListViewCode#GridViewAllowsColumnReorderPart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart2)]  
+ [!code-xaml[ListViewCode#GridViewAllowsColumnReorderPart1](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart1)]  
+[!code-xaml[ListViewCode#GridViewAllowsColumnReorderPart2](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml#gridviewallowscolumnreorderpart2)]  
   
  [!code-csharp[ListViewCode#GridViewAllowsColumnReorder](~/samples/snippets/csharp/VS_Snippets_Wpf/ListViewCode/CSharp/Window1.xaml.cs#gridviewallowscolumnreorder)]
  [!code-vb[ListViewCode#GridViewAllowsColumnReorder](~/samples/snippets/visualbasic/VS_Snippets_Wpf/ListViewCode/visualbasic/window1.xaml.vb#gridviewallowscolumnreorder)]  
@@ -854,6 +862,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridView.Columns" />
       </Docs>
     </Member>
     <Member MemberName="GridViewItemContainerStyleKey">
@@ -1018,6 +1027,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.GridView.Columns" />
+        <altmember cref="M:System.Windows.Controls.GridView.GetColumnCollection(System.Windows.DependencyObject)" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeColumnCollection">

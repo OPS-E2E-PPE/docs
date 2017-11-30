@@ -1,5 +1,5 @@
 ---
-title: "Understanding Speedup in PLINQ | Microsoft Docs"
+title: "Understanding Speedup in PLINQ"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "PLINQ queries, performance tuning"
 ms.assetid: 53706c7e-397d-467a-98cd-c0d1fd63ba5e
@@ -26,7 +29,7 @@ The primary purpose of PLINQ is to speed up the execution of LINQ to Objects que
   
      To achieve speedup, a PLINQ query must have enough delightfully parallel work to offset the overhead. The work can be expressed as the computational cost of each delegate multiplied by the number of elements in the source collection. Assuming that an operation can be parallelized, the more computationally expensive it is, the greater the opportunity for speedup. For example, if a function takes one millisecond to execute, a sequential query over 1000 elements will take one second to perform that operation, whereas a parallel query on a computer with four cores might take only 250 milliseconds. This yields a speedup of 750 milliseconds. If the function required one second to execute for each element, then the speedup would be 750 seconds. If the delegate is very expensive, then PLINQ might offer significant speedup with only a few items in the source collection. Conversely, small source collections with trivial delegates are generally not good candidates for PLINQ.  
   
-     In the following example, queryA is probably a good candidate for PLINQ, assuming thatits Select function involves a lot of work. queryB is probably not a good candidate because there is not enough work in the Select statement, and the overhead of parallelization will offset most or all of the speedup.  
+     In the following example, queryA is probably a good candidate for PLINQ, assuming that its Select function involves a lot of work. queryB is probably not a good candidate because there is not enough work in the Select statement, and the overhead of parallelization will offset most or all of the speedup.  
   
     ```vb  
     Dim queryA = From num In numberList.AsParallel()  
@@ -69,7 +72,7 @@ The primary purpose of PLINQ is to speed up the execution of LINQ to Objects que
 ## When PLINQ Chooses Sequential Mode  
  PLINQ will always attempt to execute a query at least as fast as the query would run sequentially. Although PLINQ does not look at how computationally expensive the user delegates are, or how big the input source is, it does look for certain query "shapes." Specifically, it looks for query operators or combinations of operators that typically cause a query to execute more slowly in parallel mode. When it finds such shapes, PLINQ by default falls back to sequential mode.  
   
- However, after measuring a specific query's performance, you may determine that it actually runs faster in parallel mode. In such cases you can use the <xref:System.Linq.ParallelExecutionMode.ForceParallelism?displayProperty=fullName> flag via the <xref:System.Linq.ParallelEnumerable.WithExecutionMode%2A> method to instruct PLINQ to parallelize the query. For more information, see [How to: Specify the Execution Mode in PLINQ](../../../docs/standard/parallel-programming/how-to-specify-the-execution-mode-in-plinq.md).  
+ However, after measuring a specific query's performance, you may determine that it actually runs faster in parallel mode. In such cases you can use the <xref:System.Linq.ParallelExecutionMode.ForceParallelism?displayProperty=nameWithType> flag via the <xref:System.Linq.ParallelEnumerable.WithExecutionMode%2A> method to instruct PLINQ to parallelize the query. For more information, see [How to: Specify the Execution Mode in PLINQ](../../../docs/standard/parallel-programming/how-to-specify-the-execution-mode-in-plinq.md).  
   
  The following list describes the query shapes that PLINQ by default will execute in sequential mode:  
   

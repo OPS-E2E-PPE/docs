@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::CreateProcess Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::CreateProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::CreateProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugManagedCallback::CreateProcess method [.NET Framework debugging]"
   - "CreateProcess method, ICorDebugManagedCallback interface [.NET Framework debugging]"

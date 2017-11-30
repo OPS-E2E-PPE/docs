@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::StepRange Method | Microsoft Docs"
+title: "ICorDebugStepper::StepRange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::StepRange"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StepRange method [.NET Framework debugging]"
   - "ICorDebugStepper::StepRange method [.NET Framework debugging]"

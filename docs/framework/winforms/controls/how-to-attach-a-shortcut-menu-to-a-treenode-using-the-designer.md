@@ -1,5 +1,5 @@
 ---
-title: "How to: Attach a Shortcut Menu to a TreeNode Using the Designer | Microsoft Docs"
+title: "How to: Attach a Shortcut Menu to a TreeNode Using the Designer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "shortcut menus, attaching to TreeNodes"
-  - "TreeNode, attaching a shortcut menu using Designer"
+  - "shortcut menus [Windows Forms], attaching to TreeNodes"
+  - "TreeNode [Windows Forms], attaching a shortcut menu using Designer"
 ms.assetid: 8e45e184-1313-4f8f-90ff-2cd5789b2268
 caps.latest.revision: 9
 author: dotnet-bot
@@ -39,6 +37,6 @@ The Windows Forms <xref:System.Windows.Forms.TreeView> control displays a hierar
      Additionally, you will want to write code to handle the <xref:System.Windows.Forms.ToolStripItem.Click> events for these menu items.  
   
 ## See Also  
- [TreeView Control](../../../../docs/framework/winforms/controls/treeview-control-windows-forms.md)   
- [TreeView Control Overview](../../../../docs/framework/winforms/controls/treeview-control-overview-windows-forms.md)   
+ [TreeView Control](../../../../docs/framework/winforms/controls/treeview-control-windows-forms.md)  
+ [TreeView Control Overview](../../../../docs/framework/winforms/controls/treeview-control-overview-windows-forms.md)  
  [ContextMenuStrip Control](../../../../docs/framework/winforms/controls/contextmenustrip-control.md)

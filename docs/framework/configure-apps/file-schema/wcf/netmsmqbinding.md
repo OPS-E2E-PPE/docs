@@ -1,5 +1,5 @@
 ---
-title: "&lt;netMsmqBinding&gt; | Microsoft Docs"
+title: "&lt;netMsmqBinding&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 ms.assetid: a68b44d7-7799-43a3-9e63-f07c782810a6
 caps.latest.revision: 35
 author: "Erikre"
@@ -143,10 +140,10 @@ Defines a queued binding suitable for cross-machine communication.
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.NetMsmqBinding>   
- <xref:System.ServiceModel.Configuration.NetMsmqBindingElement>   
- [\<binding>](../../../../../docs/framework/misc/binding.md)   
- [Bindings](../../../../../docs/framework/wcf/bindings.md)   
- [Configuring System-Provided Bindings](../../../../../docs/framework/wcf/feature-details/configuring-system-provided-bindings.md)   
- [Using Bindings to Configure Windows Communication Foundation Services and Clients](http://msdn.microsoft.com/en-us/bd8b277b-932f-472f-a42a-b02bb5257dfb)   
+ <xref:System.ServiceModel.NetMsmqBinding>  
+ <xref:System.ServiceModel.Configuration.NetMsmqBindingElement>  
+ [\<binding>](../../../../../docs/framework/misc/binding.md)  
+ [Bindings](../../../../../docs/framework/wcf/bindings.md)  
+ [Configuring System-Provided Bindings](../../../../../docs/framework/wcf/feature-details/configuring-system-provided-bindings.md)  
+ [Using Bindings to Configure Windows Communication Foundation Services and Clients](http://msdn.microsoft.com/en-us/bd8b277b-932f-472f-a42a-b02bb5257dfb)  
  [Queues in WCF](../../../../../docs/framework/wcf/feature-details/queues-in-wcf.md)

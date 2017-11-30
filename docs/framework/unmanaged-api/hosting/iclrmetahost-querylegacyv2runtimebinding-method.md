@@ -1,5 +1,5 @@
 ---
-title: "ICLRMetaHost::QueryLegacyV2RuntimeBinding Method | Microsoft Docs"
+title: "ICLRMetaHost::QueryLegacyV2RuntimeBinding Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRMetaHost::QueryLegacyV2RuntimeBinding"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "QueryLegacyV2RuntimeBinding method [.NET Framework hosting]"
   - "ICLRMetaHost::QueryLegacyV2RuntimeBinding method [.NET Framework hosting]"
@@ -69,5 +67,5 @@ HRESULT QueryLegacyV2RuntimeBinding (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)   
+ [ICLRMetaHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrmetahost-interface.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

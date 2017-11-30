@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugController::Continue Method | Microsoft Docs"
+title: "ICorDebugController::Continue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugController::Continue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Continue method [.NET Framework debugging]"
   - "ICorDebugController::Continue method [.NET Framework debugging]"

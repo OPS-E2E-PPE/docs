@@ -1,5 +1,5 @@
 ---
-title: "How to: Use a Custom User Name and Password Validator | Microsoft Docs"
+title: "How to: Use a Custom User Name and Password Validator"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "WCF, username and password"
 ms.assetid: 8e08b74b-fa44-4018-b63d-0d0805f85e3f
@@ -121,6 +124,6 @@ By default, when a user name and password is used for authentication, [!INCLUDE[
 [!code-vb[C_CustomUsernameAndPasswordValidator#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_customusernameandpasswordvalidator/vb/service.vb#2)]  
   
 ## See Also  
- <xref:System.IdentityModel.Selectors.UserNamePasswordValidator>   
- [How to: Use the ASP.NET Membership Provider](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-membership-provider.md)   
+ <xref:System.IdentityModel.Selectors.UserNamePasswordValidator>  
+ [How to: Use the ASP.NET Membership Provider](../../../../docs/framework/wcf/feature-details/how-to-use-the-aspnet-membership-provider.md)  
  [Authentication](../../../../docs/framework/wcf/feature-details/authentication-in-wcf.md)

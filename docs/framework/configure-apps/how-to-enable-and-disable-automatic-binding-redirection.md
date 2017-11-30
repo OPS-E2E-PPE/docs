@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable and Disable Automatic Binding Redirection | Microsoft Docs"
+title: "How to: Enable and Disable Automatic Binding Redirection"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,14 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "side-by-side execution, assembly binding redirection"
   - "assemblies [.NET Framework], binding redirection"
@@ -94,5 +86,5 @@ Starting with [!INCLUDE[vs_dev12](../../../includes/vs-dev12-md.md)], when you c
      ![Binding redirect permission dialog](../../../docs/framework/configure-apps/media/clr-addbindingredirect.png "CLR_AddBindingRedirect")  
   
 ## See Also  
- [\<bindingRedirect> Element](../../../docs/framework/configure-apps/file-schema/runtime/bindingredirect-element.md)   
+ [\<bindingRedirect> Element](../../../docs/framework/configure-apps/file-schema/runtime/bindingredirect-element.md)  
  [Redirecting Assembly Versions](../../../docs/framework/configure-apps/redirect-assembly-versions.md)

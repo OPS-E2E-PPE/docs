@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataEmit2::DefineGenericParam Method | Microsoft Docs"
+title: "IMetaDataEmit2::DefineGenericParam Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataEmit2::DefineGenericParam"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataEmit2::DefineGenericParam method [.NET Framework metadata]"
   - "DefineGenericParam method [.NET Framework metadata]"
@@ -79,5 +77,5 @@ HRESULT DefineGenericParam (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IMetaDataEmit2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit2-interface.md)   
+ [IMetaDataEmit2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit2-interface.md)  
  [IMetaDataEmit Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataemit-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode::GetILToNativeMapping Method | Microsoft Docs"
+title: "ICorDebugCode::GetILToNativeMapping Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode::GetILToNativeMapping"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetILToNativeMapping method, ICorDebugCode interface [.NET Framework debugging]"
   - "ICorDebugCode::GetILToNativeMapping method [.NET Framework debugging]"

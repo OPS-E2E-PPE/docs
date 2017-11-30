@@ -1,5 +1,5 @@
 ---
-title: "SQL Server Connection Pooling (ADO.NET) | Microsoft Docs"
+title: "SQL Server Connection Pooling (ADO.NET)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 7e51d44e-7c4e-4040-9332-f0190fe36f07
 caps.latest.revision: 11
 author: "JennieHubbard"
@@ -134,7 +137,7 @@ using (SqlConnection connection = new SqlConnection(
  We recommend that you take advantage of security mechanisms that you can use instead of application roles. For more information, see [Creating Application Roles in SQL Server](../../../../docs/framework/data/adonet/sql/creating-application-roles-in-sql-server.md).  
   
 ## See Also  
- [Connection Pooling](../../../../docs/framework/data/adonet/connection-pooling.md)   
- [SQL Server and ADO.NET](../../../../docs/framework/data/adonet/sql/index.md)   
- [Performance Counters](../../../../docs/framework/data/adonet/performance-counters.md)   
+ [Connection Pooling](../../../../docs/framework/data/adonet/connection-pooling.md)  
+ [SQL Server and ADO.NET](../../../../docs/framework/data/adonet/sql/index.md)  
+ [Performance Counters](../../../../docs/framework/data/adonet/performance-counters.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: Using NoSQL databases as a persistence infrastructure | Microsoft Docs 
+title: Using NoSQL databases as a persistence infrastructure
 description: .NET Microservices Architecture for Containerized .NET Applications | Using NoSQL databases as a persistence infrastructure
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,12 +7,13 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 # Using NoSQL databases as a persistence infrastructure
 
-When you use NoSQL databases for your infrastructure data tier, you typically do not use an ORM like Entity Framework Core. Instead you use the API provided by the NoSQL engine, such as Azure Document DB, MongoDB, Cassandra, RavenDB, CouchDB, or Azure Storage Tables.
+When you use NoSQL databases for your infrastructure data tier, you typically do not use an ORM like Entity Framework Core. Instead you use the API provided by the NoSQL engine, such as Azure Cosmos DB, MongoDB, Cassandra, RavenDB, CouchDB, or Azure Storage Tables.
 
-However, when you use a NoSQL database, especially a document-oriented database like Azure Document DB, CouchDB, or RavenDB, the way you design your model with DDD aggregates is partially similar to how you can do it in EF Core, in regards to the identification of aggregate roots, child entity classes, and value object classes. But, ultimately, the database selection will impact in your design.
+However, when you use a NoSQL database, especially a document-oriented database like Azure Cosmos DB, CouchDB, or RavenDB, the way you design your model with DDD aggregates is partially similar to how you can do it in EF Core, in regards to the identification of aggregate roots, child entity classes, and value object classes. But, ultimately, the database selection will impact in your design.
 
 When you use a document-oriented database, you implement an aggregate as a single document, serialized in JSON or another format. However, the use of the database is transparent from a domain model code point of view. When using a NoSQL database, you still are using entity classes and aggregate root classes, but with more flexibility than when using EF Core because the persistence is not relational.
 
@@ -49,7 +50,7 @@ For instance, the following JSON code is a sample implementation of an order agg
 }
 ```
 
-When you use a C\# model to implement the aggregate to be used by something like the Azure Document DB SDK, the aggregate is similar to the C\# POCO classes used with EF Core. The difference is in the way to use them from the application and infrastructure layers, as in the following code:
+When you use a C\# model to implement the aggregate to be used by something like the Azure Cosmos DB SDK, the aggregate is similar to the C\# POCO classes used with EF Core. The difference is in the way to use them from the application and infrastructure layers, as in the following code:
 
 ```csharp
 // C# EXAMPLE OF AN ORDER AGGREGATE BEING PERSISTED WITH DOCUMENTDB API
@@ -102,7 +103,7 @@ orderAggregate.AddOrderItem(orderItem2);
 
 // *** End of Domain Model Code ***
 //...
-// *** Infrastructure Code using Document DB Client API ***
+// *** Infrastructure Code using Cosmos DB Client API ***
 Uri collectionUri = UriFactory.CreateDocumentCollectionUri(databaseName,
     collectionName);
 
@@ -121,7 +122,7 @@ However, when you persist your model into the NoSQL database, the code and API c
 #### Additional resources
 
 -   **Modeling data in DocumentDB**
-    [*https://docs.microsoft.com/en-us/azure/documentdb/documentdb-modeling-data*](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-modeling-data)
+    [*https://docs.microsoft.com/azure/documentdb/documentdb-modeling-data*](https://docs.microsoft.com/azure/documentdb/documentdb-modeling-data)
 
 -   **Vaughn Vernon. The Ideal Domain-Driven Design Aggregate Store?**
     [*https://vaughnvernon.co/?p=942*](https://vaughnvernon.co/?p=942)

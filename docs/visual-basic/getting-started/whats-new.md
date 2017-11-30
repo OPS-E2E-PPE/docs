@@ -1,18 +1,12 @@
 ---
-title: "What's new for Visual Basic | Microsoft Docs"
-
-ms.date: "2017-04-27"
+title: "What's new for Visual Basic"
+ms.date: 04/27/2017
 ms.prod: .net
-
-
 ms.technology: 
   - "devlang-visual-basic"
-
 ms.topic: "article"
 f1_keywords: 
   - "VB.StartPage.WhatsNew"
-dev_langs: 
-  - "VB"
 helpviewer_keywords: 
   - "new features, Visual Basic"
   - "what's new [Visual Basic]"
@@ -21,20 +15,6 @@ ms.assetid: d7e97396-7f42-4873-a81c-4ebcc4b6ca02
 caps.latest.revision: 145
 author: rpetrusha
 ms.author: ronpet
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # What's new for Visual Basic
 
@@ -103,7 +83,7 @@ Starting with C# 7, C# supports reference return values. That is, when the calli
 
 For example, the following `Sentence` class written in C# includes a `FindNext` method that finds the next word in a sentence that begins with a specified substring. The string is returned as a reference return value, and a `Boolean` variable passed by reference to the method indicates whether the search was successful. This means that the caller can not only read the returned value; he or she can also modify it, and that modification is reflected in the `Sentence` class.
 
-[!code-vb[Ref-Return](../../../samples/snippets/visualbasic/getting-started/ref-returns.cs)]
+[!code-csharp[Ref-Return](../../../samples/snippets/visualbasic/getting-started/ref-returns.cs)]
 
 In its simplest form, you can modify the word found in the sentence by using code like the following. Note that you are not assigning a value to the method, but rather to the expression that the method returns, which is the reference return value.
 
@@ -189,4 +169,4 @@ End Interface
  Now the compiler will use normal overload resolution rules to choose the most appropriate `GetDetails` to call, and you can declare interface relationships in Visual Basic like those shown in the sample.  
   
 ## See also  
- [What's New in Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio)
+ [What's New in Visual Studio 2017](/visualstudio/ide/whats-new-in-visual-studio)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Display a ChangeSet | Microsoft Docs"
+title: "How to: Display a ChangeSet"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 126e7245-c5a0-4ebf-800d-cc1fcf9cd0ab
 caps.latest.revision: 2
 author: "JennieHubbard"

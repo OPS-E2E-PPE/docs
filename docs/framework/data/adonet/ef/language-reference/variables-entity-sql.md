@@ -1,5 +1,5 @@
 ---
-title: "Variables (Entity SQL) | Microsoft Docs"
+title: "Variables (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "ESQL"
 ms.assetid: 3eed222a-f8f6-46b6-9cd5-220cc0e4e5d8
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -32,6 +27,6 @@ from LOB.customers as c
 ```  
   
 ## See Also  
- [Identifiers](../../../../../../docs/framework/data/adonet/ef/language-reference/identifiers-entity-sql.md)   
- [Parameters](../../../../../../docs/framework/data/adonet/ef/language-reference/parameters-entity-sql.md)   
+ [Identifiers](../../../../../../docs/framework/data/adonet/ef/language-reference/identifiers-entity-sql.md)  
+ [Parameters](../../../../../../docs/framework/data/adonet/ef/language-reference/parameters-entity-sql.md)  
  [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)

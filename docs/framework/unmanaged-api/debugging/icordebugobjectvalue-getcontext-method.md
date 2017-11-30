@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue::GetContext Method | Microsoft Docs"
+title: "ICorDebugObjectValue::GetContext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue::GetContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetContext method, ICorDebugObjectValue interface [.NET Framework debugging]"
   - "ICorDebugObjectValue::GetContext method [.NET Framework debugging]"

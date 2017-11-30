@@ -1,5 +1,5 @@
 ---
-title: "Generating Commands with CommandBuilders | Microsoft Docs"
+title: "Generating Commands with CommandBuilders"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 6e3fb8b5-373b-4f9e-ab03-a22693df8e91
 caps.latest.revision: 6
 author: "JennieHubbard"
@@ -112,7 +115,7 @@ adapter.Fill(custDS, "Customers");
 ```  
   
 ## See Also  
- [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)   
- [Executing a Command](../../../../docs/framework/data/adonet/executing-a-command.md)   
- [DbConnection, DbCommand and DbException](../../../../docs/framework/data/adonet/dbconnection-dbcommand-and-dbexception.md)   
+ [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)  
+ [Executing a Command](../../../../docs/framework/data/adonet/executing-a-command.md)  
+ [DbConnection, DbCommand and DbException](../../../../docs/framework/data/adonet/dbconnection-dbcommand-and-dbexception.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

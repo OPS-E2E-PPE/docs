@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugThread::CreateStepper Method | Microsoft Docs"
+title: "ICorDebugThread::CreateStepper Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugThread::CreateStepper"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugThread::CreateStepper method [.NET Framework debugging]"
   - "CreateStepper method, ICorDebugThread interface [.NET Framework debugging]"

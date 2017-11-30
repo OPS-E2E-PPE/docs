@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::FindAssembliesByName Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::FindAssembliesByName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::FindAssembliesByName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "FindAssembliesByName method [.NET Framework metadata]"
   - "IMetaDataAssemblyImport::FindAssembliesByName method [.NET Framework metadata]"
@@ -91,5 +89,5 @@ HRESULT FindAssembliesByName (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [How the Runtime Locates Assemblies](../../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)   
+ [How the Runtime Locates Assemblies](../../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)  
  [IMetaDataAssemblyImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataassemblyimport-interface.md)

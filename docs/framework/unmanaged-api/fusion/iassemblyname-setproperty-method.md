@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyName::SetProperty Method | Microsoft Docs"
+title: "IAssemblyName::SetProperty Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyName::SetProperty"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IAssemblyName::SetProperty method [.NET Framework fusion]"
   - "SetProperty method [.NET Framework fusion]"

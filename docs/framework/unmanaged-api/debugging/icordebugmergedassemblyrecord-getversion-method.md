@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugMergedAssemblyRecord::GetVersion Method | Microsoft Docs"
+title: "ICorDebugMergedAssemblyRecord::GetVersion Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: c6858b06-ae26-4312-b325-ea6025016675
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -60,5 +58,5 @@ HRESULT GetVersion(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugMergedAssemblyRecord Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmergedassemblyrecord-interface.md)   
+ [ICorDebugMergedAssemblyRecord Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugmergedassemblyrecord-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

@@ -28,10 +28,14 @@
 ## Examples  
  The following example shows how to set the <xref:System.Windows.Controls.Slider.TickPlacement%2A> property for a <xref:System.Windows.Controls.Slider.TickPlacement%2A> control.  
   
- [!code-xml[Slider#4](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#4)]  
+ [!code-xaml[Slider#4](~/samples/snippets/xaml/VS_Snippets_Wpf/Slider/xaml/window1.xaml#4)]  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Primitives.TickBarPlacement" />
+    <altmember cref="T:System.Windows.Controls.Primitives.TickBar" />
+    <altmember cref="T:System.Windows.Controls.Slider" />
+    <altmember cref="T:System.Windows.Controls.Primitives.Track" />
   </Docs>
   <Members>
     <Member MemberName="Both">

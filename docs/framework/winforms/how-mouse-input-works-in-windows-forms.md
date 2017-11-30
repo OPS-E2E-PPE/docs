@@ -1,5 +1,5 @@
 ---
-title: "How Mouse Input Works in Windows Forms | Microsoft Docs"
+title: "How Mouse Input Works in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Windows Forms, mouse input"
-  - "mouse, input"
+  - "mouse [Windows Forms], input"
 ms.assetid: 48fc5240-75a6-44bf-9fce-6aa21b49705a
 caps.latest.revision: 16
 author: dotnet-bot
@@ -61,6 +59,6 @@ Receiving and handling mouse input is an important part of every Windows applica
 |<xref:System.Windows.Forms.SystemInformation.MouseWheelScrollLines%2A>|Gets the number of lines to scroll when the mouse wheel is rotated.|  
   
 ## See Also  
- [Mouse Input in a Windows Forms Application](../../../docs/framework/winforms/mouse-input-in-a-windows-forms-application.md)   
- [Mouse Capture in Windows Forms](../../../docs/framework/winforms/mouse-capture-in-windows-forms.md)   
+ [Mouse Input in a Windows Forms Application](../../../docs/framework/winforms/mouse-input-in-a-windows-forms-application.md)  
+ [Mouse Capture in Windows Forms](../../../docs/framework/winforms/mouse-capture-in-windows-forms.md)  
  [Mouse Pointers in Windows Forms](../../../docs/framework/winforms/mouse-pointers-in-windows-forms.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunction::GetLocalVarSigToken Method | Microsoft Docs"
+title: "ICorDebugFunction::GetLocalVarSigToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunction::GetLocalVarSigToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunction::GetLocalVarSigToken method [.NET Framework debugging]"
   - "GetLocalVarSigToken method [.NET Framework debugging]"

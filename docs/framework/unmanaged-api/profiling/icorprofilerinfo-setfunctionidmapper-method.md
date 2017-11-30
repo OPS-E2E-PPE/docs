@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo::SetFunctionIDMapper Method | Microsoft Docs"
+title: "ICorProfilerInfo::SetFunctionIDMapper Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo::SetFunctionIDMapper"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo::SetFunctionIDMapper method [.NET Framework profiling]"
   - "SetFunctionIDMapper method [.NET Framework profiling]"

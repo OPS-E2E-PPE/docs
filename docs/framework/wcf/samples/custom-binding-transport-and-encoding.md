@@ -1,5 +1,5 @@
 ---
-title: "Custom Binding Transport and Encoding | Microsoft Docs"
+title: "Custom Binding Transport and Encoding"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 6c0b353d-79ee-4e61-b348-be49ad0e9a16
 caps.latest.revision: 21
 author: "Erikre"

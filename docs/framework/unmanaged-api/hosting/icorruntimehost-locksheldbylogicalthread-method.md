@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::LocksHeldByLogicalThread Method | Microsoft Docs"
+title: "ICorRuntimeHost::LocksHeldByLogicalThread Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::LocksHeldByLogicalThread"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::LocksHeldByLogicalThread method [.NET Framework hosting]"
   - "LocksHeldByLogicalThread method [.NET Framework hosting]"

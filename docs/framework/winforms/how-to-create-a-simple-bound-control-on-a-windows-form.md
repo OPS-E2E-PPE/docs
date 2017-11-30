@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Simple-Bound Control on a Windows Form | Microsoft Docs"
+title: "How to: Create a Simple-Bound Control on a Windows Form"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "data binding, simple data binding"
+  - "data binding [Windows Forms], simple data binding"
   - "Windows Forms controls, data binding"
 ms.assetid: 3bcaded8-0f1a-4cc0-8830-f59be253bf4e
 caps.latest.revision: 9
@@ -54,6 +52,6 @@ With *simple binding*, you can display a single data element, such as a column v
     >  Because simple-bound controls show only a single data element, it is very typical to include navigation logic in a Windows Form with simple-bound controls.  
   
 ## See Also  
- <xref:System.Windows.Forms.Binding>   
- [Windows Forms Data Binding](../../../docs/framework/winforms/windows-forms-data-binding.md)   
+ <xref:System.Windows.Forms.Binding>  
+ [Windows Forms Data Binding](../../../docs/framework/winforms/windows-forms-data-binding.md)  
  [Data Binding and Windows Forms](../../../docs/framework/winforms/data-binding-and-windows-forms.md)

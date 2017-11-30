@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugSymbolProvider::GetMergedAssemblyRecords Method | Microsoft Docs"
+title: "ICorDebugSymbolProvider::GetMergedAssemblyRecords Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: cc4c510d-550d-4941-af34-81987caf3425
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -55,5 +53,5 @@ HRESULT GetMergedAssemblyRecords(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)   
+ [ICorDebugSymbolProvider Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugsymbolprovider-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

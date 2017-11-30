@@ -1,5 +1,5 @@
 ---
-title: "FailedToCreateMessageLoggingTraceSource | Microsoft Docs"
+title: "FailedToCreateMessageLoggingTraceSource"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 115
  This event indicates that message logging failed to create the trace source. The event lists Exception, process name and process ID.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

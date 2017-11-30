@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomainEnum Interface1 | Microsoft Docs"
+title: "ICorDebugAppDomainEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomainEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomainEnum interface [.NET Framework debugging]"
 ms.assetid: e9226e6e-ca2c-428e-bb38-0c099210f507
@@ -53,5 +51,5 @@ Provides the `Next` method, which returns a specified number of `ICorDebugAppDom
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

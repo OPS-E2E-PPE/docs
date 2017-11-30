@@ -1,5 +1,5 @@
 ---
-title: "ICorConfiguration::SetGCHostControl Method | Microsoft Docs"
+title: "ICorConfiguration::SetGCHostControl Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SetGCHostControl"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorConfiguration::SetGCHostControl method [.NET Framework hosting]"
   - "SetGCHostControl method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "WPF Host (PresentationHost.exe) | Microsoft Docs"
+title: "WPF Host (PresentationHost.exe)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "WPF Host application"
+  - "WPF Host application [WPF]"
   - "PresentationHost.exe"
 ms.assetid: 3215bfa1-722c-4ac8-a7c5-bdd02d30afbd
 caps.latest.revision: 14

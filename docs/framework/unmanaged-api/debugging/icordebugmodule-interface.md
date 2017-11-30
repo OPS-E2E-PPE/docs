@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule Interface1 | Microsoft Docs"
+title: "ICorDebugModule Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugModule interface [.NET Framework debugging]"
 ms.assetid: 32e4d6fa-e5a3-413e-9166-d5e2871d3114
@@ -69,5 +67,5 @@ Represents a common language runtime (CLR) module, which is either an executable
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)   
+ [ICorDebug Interface](../../../../docs/framework/unmanaged-api/debugging/icordebug-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

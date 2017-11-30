@@ -1,5 +1,5 @@
 ---
-title: "Metadata Structures | Microsoft Docs"
+title: "Metadata Structures"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "structures [.NET Framework metadata]"
   - "unmanaged structures [.NET Framework], metadata"

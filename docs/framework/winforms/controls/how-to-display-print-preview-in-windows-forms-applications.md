@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Print Preview in Windows Forms Applications | Microsoft Docs"
+title: "How to: Display Print Preview in Windows Forms Applications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,9 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
-  - "print preview, displaying"
+  - "print preview [Windows Forms], displaying"
   - "printing [Windows Forms], print preview"
   - "examples [Windows Forms], print preview"
 ms.assetid: e394134c-0886-4517-bd8d-edc4a3749eb5
@@ -37,7 +39,7 @@ You can use the <xref:System.Windows.Forms.PrintPreviewDialog> control to enable
   
      In the following code example, the <xref:System.Windows.Forms.Button> control's <xref:System.Windows.Forms.Control.Click> event handler opens an instance of the <xref:System.Windows.Forms.PrintPreviewDialog> control. The print document is specified in the <xref:System.Windows.Forms.PrintDialog.Document%2A> property. In the example below, no print document is specified.  
   
-     The example requires that your form has a <xref:System.Windows.Forms.Button> control, a <xref:System.Drawing.Printing.PrintDocument> component named`myDocument`, and a <xref:System.Windows.Forms.PrintPreviewDialog> control.  
+     The example requires that your form has a <xref:System.Windows.Forms.Button> control, a <xref:System.Drawing.Printing.PrintDocument> component named `myDocument`, and a <xref:System.Windows.Forms.PrintPreviewDialog> control.  
   
     ```vb  
     Private Sub Button1_Click(ByVal sender As System.Object, _  
@@ -86,7 +88,7 @@ You can use the <xref:System.Windows.Forms.PrintPreviewDialog> control to enable
     ```  
   
 ## See Also  
- [PrintDocument Component](../../../../docs/framework/winforms/controls/printdocument-component-windows-forms.md)   
- [PrintPreviewDialog Control](../../../../docs/framework/winforms/controls/printpreviewdialog-control-windows-forms.md)   
- [Windows Forms Print Support](../../../../docs/framework/winforms/advanced/windows-forms-print-support.md)   
+ [PrintDocument Component](../../../../docs/framework/winforms/controls/printdocument-component-windows-forms.md)  
+ [PrintPreviewDialog Control](../../../../docs/framework/winforms/controls/printpreviewdialog-control-windows-forms.md)  
+ [Windows Forms Print Support](../../../../docs/framework/winforms/advanced/windows-forms-print-support.md)  
  [Windows Forms](../../../../docs/framework/winforms/index.md)

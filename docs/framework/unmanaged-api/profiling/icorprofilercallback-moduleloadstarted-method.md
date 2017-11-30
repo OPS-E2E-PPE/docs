@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ModuleLoadStarted Method | Microsoft Docs"
+title: "ICorProfilerCallback::ModuleLoadStarted Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ModuleLoadStarted"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ModuleLoadStarted method [.NET Framework profiling]"
   - "ICorProfilerCallback::ModuleLoadStarted method [.NET Framework profiling]"

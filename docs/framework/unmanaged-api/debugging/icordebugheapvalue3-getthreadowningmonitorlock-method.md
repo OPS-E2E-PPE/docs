@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHeapValue3::GetThreadOwningMonitorLock Method | Microsoft Docs"
+title: "ICorDebugHeapValue3::GetThreadOwningMonitorLock Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHeapValue3::GetThreadOwningMonitorLock"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetThreadOwningMonitorLock method [.NET Framework debugging]"
   - "ICorDebugHeapValue3::GetThreadOwningMonitorLock method [.NET Framework debugging]"
@@ -82,5 +80,5 @@ HRESULT GetThreadOwningMonitorLock (
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

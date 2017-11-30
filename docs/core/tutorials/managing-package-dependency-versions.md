@@ -1,6 +1,6 @@
 ---
-title: How to Manage Package Dependency Versions for .NET Core 1.0 | Microsoft Docs
-description: How to Manage Package Dependency Versions for .NET Core 1.0
+title: How to Manage Package Dependency Versions for .NET Core 1.0
+description: Learn about package dependency version management for your .NET Core libraries and apps.
 keywords: .NET, .NET Core
 author: cartermp
 ms.author: mairaw
@@ -45,7 +45,7 @@ To reliably restore packages and write reliable code, it's important that you fi
 
 ### Why does this matter?
 
-We guarantee that if you fixed your dependencies to what ships alongside .NET Core 1.0, those packages will all work together.  There is no such guarantee if you use packages which aren't fixed in this way.
+We guarantee that if you fix your dependencies to what ships alongside .NET Core 1.0, those packages will all work together. There is no such guarantee if you use packages which aren't fixed in this way.
 
 ### Scenarios
 
@@ -53,11 +53,11 @@ Although there is a big list of all packages and their versions released with .N
 
 **Are you depending only on** `NETStandard.Library`**?**
 
-If so, you should fixed your `NETStandard.Library` package to version `1.6`.  Because this is a curated metapackage, its package closure is also fixed to 1.0.
+If so, you should fix your `NETStandard.Library` package to version `1.6`.  Because this is a curated metapackage, its package closure is also fixed to 1.0.
 
 **Are you depending only on** `Microsoft.NETCore.App`**?**
 
-If so, you should fixed your `Microsoft.NETCore.App` package to version `1.0.0`.  Because this is a curated metapackage, its package closure is also fixed to 1.0.
+If so, you should fix your `Microsoft.NETCore.App` package to version `1.0.0`.  Because this is a curated metapackage, its package closure is also fixed to 1.0.
 
 **Are you [trimming](../deploying/reducing-dependencies.md) your** `NETStandard.Library` **or** `Microsoft.NETCore.App` **metapackage dependencies?**
 
@@ -76,7 +76,7 @@ You may have adopted a versioning pattern which uses a splat (\*) string like th
 
 ## Packages and Version Numbers organized by Metapackage
 
-[List of all .NET Standard library packages and their versions for 1.0](https://github.com/dotnet/versions/blob/master/build-info/dotnet/corefx/release/1.0.0/Latest_Packages.txt).
+[List of all .NET Standard packages and their versions for 1.0](https://github.com/dotnet/versions/blob/master/build-info/dotnet/corefx/release/1.0.0/Latest_Packages.txt).
 
 [List of all runtime packages and their versions for 1.0](https://github.com/dotnet/versions/blob/master/build-info/dotnet/coreclr/release/1.0.0/LKG_Packages.txt).
 

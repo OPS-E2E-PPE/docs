@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Table-Valued User-Defined Functions | Microsoft Docs"
+title: "How to: Use Table-Valued User-Defined Functions"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 5a4ae2b4-3290-4aa1-bc95-fc70c51b54cf
 caps.latest.revision: 2
 author: "JennieHubbard"

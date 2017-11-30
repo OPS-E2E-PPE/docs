@@ -1,5 +1,5 @@
 ---
-title: "Style Sheet Directives Embedded in a Document | Microsoft Docs"
+title: "Style Sheet Directives Embedded in a Document"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: d79fb295-ebc7-438d-ba1b-05be7d534834
 caps.latest.revision: 4
 author: "mairaw"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugDataTarget3 Interface | Microsoft Docs"
+title: "ICorDebugDataTarget3 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: f477af85-994f-4df0-ae78-404ed252bf49
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -41,5 +39,5 @@ Logically extends the [ICorDebugDataTarget](../../../../docs/framework/unmanaged
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

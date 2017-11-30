@@ -1,5 +1,5 @@
 ---
-title: "FontDialog Component (Windows Forms) | Microsoft Docs"
+title: "FontDialog Component (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "fonts, dialog box"
+  - "fonts [Windows Forms], dialog box"
   - "FontDialog component [Windows Forms]"
-  - "Font dialog box, Windows Forms"
+  - "Font dialog box [Windows Forms], Windows Forms"
 ms.assetid: 54015df3-aab2-4338-84e5-ba78cedbfdfc
 caps.latest.revision: 9
 author: dotnet-bot

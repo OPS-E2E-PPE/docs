@@ -1,5 +1,5 @@
 ---
-title: "&lt;system.serviceModel&gt; | Microsoft Docs"
+title: "&lt;system.serviceModel&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,9 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#system.ServiceModel"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.ServiceModel"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "<system.serviceModel> element"
   - "system.serviceModel element"

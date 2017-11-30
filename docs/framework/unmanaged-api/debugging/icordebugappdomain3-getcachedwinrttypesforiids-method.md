@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAppDomain3::GetCachedWinRTTypesForIIDs Method | Microsoft Docs"
+title: "ICorDebugAppDomain3::GetCachedWinRTTypesForIIDs Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAppDomain3::GetCachedWinRTTypesForIIDs"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAppDomain3::GetCachedWinRTTypesForIIDs method, [.NET Framework debugging]"
   - "GetCachedWinRTTypesForIIDs method, ICorDebugAppDomain3 interface [.NET Framework debugging]"

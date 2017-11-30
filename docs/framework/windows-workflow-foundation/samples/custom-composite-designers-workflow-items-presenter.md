@@ -1,5 +1,5 @@
 ---
-title: "Custom Composite Designers - Workflow Items Presenter | Microsoft Docs"
+title: "Custom Composite Designers - Workflow Items Presenter"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,6 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 70055c4b-1173-47a3-be80-b5bce6f59e9a
 caps.latest.revision: 14
 author: "Erikre"
@@ -14,11 +17,11 @@ ms.author: "erikre"
 manager: "erikre"
 ---
 # Custom Composite Designers - Workflow Items Presenter
-The [System.Activities.Presentation.WorkflowItemsPresenter](https://msdn.microsoft.com/library/system.activities.presentation.workflowitemspresenter\(v=vs.110\).aspx) is a key type in the WF designer programming model that allows for the editing of a collection of contained elements. This sample shows how to build an activity designer that surfaces such an editable collection.  
+The <xref:System.Activities.Presentation.WorkflowItemsPresenter?displayProperty=nameWithType> is a key type in the WF designer programming model that allows for the editing of a collection of contained elements. This sample shows how to build an activity designer that surfaces such an editable collection.  
   
  This sample demonstrates:  
   
--   Creating a custom activity designer with a [System.Activities.Presentation.WorkflowItemsPresenter](https://msdn.microsoft.com/library/system.activities.presentation.workflowitemspresenter\(v=vs.110\).aspx).  
+-   Creating a custom activity designer with a <xref:System.Activities.Presentation.WorkflowItemsPresenter?displayProperty=nameWithType>.  
   
 -   Creating an activity designer with a "collapsed" and "expanded" view.  
   
@@ -35,13 +38,13 @@ The [System.Activities.Presentation.WorkflowItemsPresenter](https://msdn.microso
   
 -   The activity a designer is built for:  `Parallel`  
   
--   The creation of a custom activity designer with a [System.Activities.Presentation.WorkflowItemsPresenter](https://msdn.microsoft.com/library/system.activities.presentation.workflowitemspresenter\(v=vs.110\).aspx). A few things to point out:  
+-   The creation of a custom activity designer with a <xref:System.Activities.Presentation.WorkflowItemsPresenter?displayProperty=nameWithType>. A few things to point out:  
   
     -   Note the use of WPF data binding to bind to `ModelItem.Branches`. `ModelItem` is the property on `WorkflowElementDesigner` that refers to the underlying object the designer is being used for, in this case, our `Parallel`.  
   
-    -   The [System.Activities.Design.WorkflowItemsPresenter.SpacerTemplate](https://msdn.microsoft.com/library/system.activities.presentation.workflowitemspresenter.spacertemplate\(v=vs.110\).aspx) can be used to put a visual to display between the individual items in the collection.  
+    -   The <xref:System.Activities.Presentation.WorkflowItemsPresenter.SpacerTemplate?displayProperty=nameWithType> can be used to put a visual to display between the individual items in the collection.  
   
-    -   [System.Activities.Design.WorkflowItemsPresenter.ItemsPanel](https://msdn.microsoft.com/library/system.activities.presentation.workflowitemspresenter.itemspanel\(v=vs.110\).aspx) is a template that can be provided to determine the layout of the items in the collection. In this case, a horizontal stack panel is used.  
+    -   <xref:System.Activities.Presentation.WorkflowItemsPresenter.ItemsPanel?displayProperty=nameWithType> is a template that can be provided to determine the layout of the items in the collection. In this case, a horizontal stack panel is used.  
   
  This following example code shows this.  
   
@@ -81,12 +84,10 @@ metadata.Register()
 RegisterCustomMetadata()  
 ```  
   
--   -   Then, override the parallel in `RegisterCustomMetadata` method.  
+    -   Then, override the parallel in `RegisterCustomMetadata` method.  
   
  The following code shows this in C# and Visual Basic.  
-  
- C#  
-  
+ 
 ```csharp  
 void RegisterCustomMetadata()  
 {  
@@ -161,5 +162,5 @@ End Sub
 >  `<InstallDrive>:\WF_WCF_Samples\WF\Basic\CustomActivities\CustomActivityDesigners\WorkflowItemsPresenter`  
   
 ## See Also  
- <xref:System.Activities.Presentation.WorkflowItemsPresenter>   
+ <xref:System.Activities.Presentation.WorkflowItemsPresenter>  
  [Developing Applications with the Workflow Designer](/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer)

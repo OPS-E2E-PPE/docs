@@ -1,5 +1,5 @@
 ---
-title: "Metadata and Self-Describing Components | Microsoft Docs"
+title: "Metadata and Self-Describing Components"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "runtime, metadata"
   - "languages, interoperability"

@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataError::OnError Method | Microsoft Docs"
+title: "IMetaDataError::OnError Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataError::OnError"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataError::OnError method [.NET Framework metadata]"
   - "OnError method, IMetaDataError interface [.NET Framework metadata]"

@@ -1,5 +1,5 @@
 ---
-title: "SplitContainer Control Overview (Windows Forms) | Microsoft Docs"
+title: "SplitContainer Control Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SplitContainer"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "SplitContainer control [Windows Forms], about SplitContainer control"
 ms.assetid: 6de5a5f7-97a5-402d-be6d-7e2785483db5
@@ -58,6 +56,6 @@ The Windows Forms <xref:System.Windows.Forms.SplitContainer> control can be thou
 |<xref:System.Windows.Forms.SplitContainer.SplitterMoved> event|Occurs when the splitter has moved.|  
   
 ## See Also  
- <xref:System.Windows.Forms.SplitContainer>   
- [SplitContainer Control](../../../../docs/framework/winforms/controls/splitcontainer-control-windows-forms.md)   
+ <xref:System.Windows.Forms.SplitContainer>  
+ [SplitContainer Control](../../../../docs/framework/winforms/controls/splitcontainer-control-windows-forms.md)  
  [SplitContainer Control Sample](http://msdn.microsoft.com/en-us/9015fad0-7108-4d85-a83a-a72d038c4f65)

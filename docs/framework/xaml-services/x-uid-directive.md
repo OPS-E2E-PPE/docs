@@ -1,5 +1,5 @@
 ---
-title: "x:Uid Directive | Microsoft Docs"
+title: "x:Uid Directive"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -48,6 +48,6 @@ Provides a unique identifier for markup elements. In many scenarios, this unique
  For more information about the role of `x:Uid` in the WPF localization process and in the BAML form of XAML, see [Globalization for WPF](../../../docs/framework/wpf/advanced/globalization-for-wpf.md) or <xref:System.Windows.Markup.Localizer.BamlLocalizableResourceKey.Uid%2A>  
   
 ## See Also  
- <xref:System.Windows.Markup.Localizer.BamlLocalizableResourceKey.Uid%2A>   
- <xref:Microsoft.Build.Tasks.Windows.UidManager>   
+ <xref:System.Windows.Markup.Localizer.BamlLocalizableResourceKey.Uid%2A>  
+ <xref:Microsoft.Build.Tasks.Windows.UidManager>  
  [Globalization for WPF](../../../docs/framework/wpf/advanced/globalization-for-wpf.md)

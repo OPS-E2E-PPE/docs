@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedConstant::GetName Method | Microsoft Docs"
+title: "ISymUnmanagedConstant::GetName Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedConstant::GetName"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedConstant::GetName method [.NET Framework debugging]"
   - "GetName method, ISymUnmanagedConstant interface [.NET Framework debugging]"
@@ -60,6 +58,6 @@ HRESULT GetName(
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [ISymUnmanagedConstant Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedconstant-interface.md)   
- [GetSignature Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedconstant-getsignature-method.md)   
+ [ISymUnmanagedConstant Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedconstant-interface.md)  
+ [GetSignature Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedconstant-getsignature-method.md)  
  [GetValue Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedconstant-getvalue-method.md)

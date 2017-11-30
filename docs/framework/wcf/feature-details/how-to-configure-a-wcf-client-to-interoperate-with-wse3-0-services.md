@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure a WCF Client to interoperate with WSE3.0 Services | Microsoft Docs"
+title: "How to: Configure a WCF Client to interoperate with WSE3.0 Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 3dadd7f1-d207-4ea5-a73b-3e8aa44407f8
 caps.latest.revision: 6
 author: "Erikre"
@@ -66,5 +69,5 @@ manager: "erikre"
 [!code-vb[c_WCFClientToWSEService#0](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/c_wcfclienttowseservice/vb/client.vb#0)]  
   
 ## See Also  
- <xref:System.ServiceModel.Channels.Binding>   
+ <xref:System.ServiceModel.Channels.Binding>  
  [Interoperating with WSE](http://msdn.microsoft.com/en-us/f6816861-96a0-45f9-8736-8e4e82cd3a41)

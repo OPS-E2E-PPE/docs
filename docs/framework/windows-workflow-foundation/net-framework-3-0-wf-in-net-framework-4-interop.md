@@ -1,5 +1,5 @@
 ---
-title: "Using .NET Framework 3.0 WF Activities in .NET Framework 4 with the Interop Activity | Microsoft Docs"
+title: "Using .NET Framework 3.0 WF Activities in .NET Framework 4 with the Interop Activity"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -22,7 +22,7 @@ The <xref:System.Activities.Statements.Interop> activity is a [!INCLUDE[netfx_cu
 ## Criteria for Using a WF 3 Activity with an Interop Activity  
  For a WF 3 activity to successfully execute within an <xref:System.Activities.Statements.Interop> activity, the following criteria must be met:  
   
--   The WF 3 activity must derive from <xref:System.Workflow.ComponentModel.Activity?displayProperty=fullName>.  
+-   The WF 3 activity must derive from <xref:System.Workflow.ComponentModel.Activity?displayProperty=nameWithType>.  
   
 -   The WF 3 activity must be declared as `public` and cannot be `abstract`.  
   

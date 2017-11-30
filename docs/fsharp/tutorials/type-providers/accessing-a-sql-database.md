@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Accessing a SQL Database by Using Type Providers (F#) | Microsoft Docs"
-description: "Walkthrough: Accessing a SQL Database by Using Type Providers (F#)"
+title: "Walkthrough: Accessing a SQL Database by Using Type Providers (F#)"
+description: Learn how to use the SqlDataConnection (LINQ to SQL) type provider in F# 3.0 to generate types for a SQL database when you have a live database connection.
 keywords: visual f#, f#, functional programming
 author: cartermp
 ms.author: phcart
@@ -53,7 +53,7 @@ On a server that's running SQL Server, create a database for testing purposes. Y
 
 #### To prepare a test database
 
-To run the MyDatabase Create Script, open the **View** menu, and then choose **SQL Server Object Explorer** or choose the Ctrl+\, Ctrl+S keys. In **SQL Server Object Explorer** window, open the shortcut menu for the appropriate instance, choose **New Query**, copy the script at the bottom of this page, and then paste the script into the editor. To run the SQL script, choose the toolbar icon with the triangular symbol, or choose the Ctrl+Q keys. For more information about **SQL Server Object Explorer**, see [Connected Database Development](http://go.microsoft.com/fwlink/?LinkId=237128).
+To run the MyDatabase Create Script, open the **View** menu, and then choose **SQL Server Object Explorer** or choose the Ctrl+\, Ctrl+S keys. In **SQL Server Object Explorer** window, open the shortcut menu for the appropriate instance, choose **New Query**, copy the script at the bottom of this page, and then paste the script into the editor. To run the SQL script, choose the toolbar icon with the triangular symbol, or choose the Ctrl+Q keys. For more information about **SQL Server Object Explorer**, see [Connected Database Development](https://msdn.microsoft.com/library/hh272679(VS.103).aspx).
 
 
 ## Creating the project

@@ -1,5 +1,5 @@
 ---
-title: "ICLRValidator::Validate Method | Microsoft Docs"
+title: "ICLRValidator::Validate Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRValidator::Validate"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Validate method, ICLRValidator interface [.NET Framework hosting]"
   - "ICLRValidator::Validate method [.NET Framework hosting]"

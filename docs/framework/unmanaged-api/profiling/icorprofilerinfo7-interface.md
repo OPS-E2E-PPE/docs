@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo7 Interface | Microsoft Docs"
+title: "ICorProfilerInfo7 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "C++"
 ms.assetid: cf37c462-73c5-412a-a7f8-bb26ca746313
 caps.latest.revision: 6
 author: "rpetrusha"

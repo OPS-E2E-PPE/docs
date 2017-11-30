@@ -1,5 +1,5 @@
 ---
-title: "ICLRSyncManager::GetRWLockOwnerNext Method | Microsoft Docs"
+title: "ICLRSyncManager::GetRWLockOwnerNext Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRSyncManager::GetRWLockOwnerNext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRSyncManager::GetRWLockOwnerNext method [.NET Framework hosting]"
   - "GetRWLockOwnerNext method [.NET Framework hosting]"
@@ -76,5 +74,5 @@ HRESULT GetRWLockOwnerNext (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)   
+ [ICLRSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/iclrsyncmanager-interface.md)  
  [IHostSyncManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihostsyncmanager-interface.md)

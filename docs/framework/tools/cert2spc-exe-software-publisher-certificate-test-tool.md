@@ -1,5 +1,5 @@
 ---
-title: "Cert2spc.exe (Software Publisher Certificate Test Tool) | Microsoft Docs"
+title: "Cert2spc.exe (Software Publisher Certificate Test Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "SPC"
   - "Software Publisher Certificate Test tool"
@@ -65,6 +60,6 @@ cert2spc oneCertificate.cer twoCertificate.cer mySPCFile.spc
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
- [Makecert.exe (Certificate Creation Tool)](http://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)   
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Makecert.exe (Certificate Creation Tool)](http://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

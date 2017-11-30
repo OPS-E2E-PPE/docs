@@ -1,5 +1,5 @@
 ---
-title: "CorDebugInterfaceVersion Enumeration | Microsoft Docs"
+title: "CorDebugInterfaceVersion Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugInterfaceVersion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugInterfaceVersion enumeration [.NET Framework debugging]"
 ms.assetid: 7d1e6cd9-2a15-41c6-9b68-008705a4ed90

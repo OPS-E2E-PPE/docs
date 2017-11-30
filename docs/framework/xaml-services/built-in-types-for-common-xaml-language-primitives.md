@@ -1,5 +1,5 @@
 ---
-title: "Built-in Types for Common XAML Language Primitives | Microsoft Docs"
+title: "Built-in Types for Common XAML Language Primitives"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -124,7 +124,7 @@ xmlns:sys="clr-namespace:System;assembly=mscorlib">
  For the XAML language specification definition, see [\[MS-XAML\] Sections 5.2.15 and 5.4.9](http://go.microsoft.com/fwlink/?LinkId=114525).  
   
 ### x:Byte  
- For CLR backing, the `x:Byte` primitive corresponds to <xref:System.Byte>. A<xref:System.Byte> / `x:Byte` is treated as unsigned.  
+ For CLR backing, the `x:Byte` primitive corresponds to <xref:System.Byte>. A <xref:System.Byte> / `x:Byte` is treated as unsigned.  
   
  For the XAML language specification definition, see [\[MS-XAML\] Sections 5.2.10 and 5.4.4](http://go.microsoft.com/fwlink/?LinkId=114525).  
   
@@ -139,4 +139,4 @@ xmlns:sys="clr-namespace:System;assembly=mscorlib">
 ## WPF Support  
  In WPF, you can use XAML 2009 features but only for XAML that is not markup-compiled. Markup-compiled XAML for WPF and the BAML form of XAML do not currently support the XAML 2009 keywords and features.  
   
- A scenario where you can use XAML 2009 features together with WPF is if you author loose XAML and you then load that XAML into a WPF runtime and object graph with <xref:System.Windows.Markup.XamlReader.Load%2A?displayProperty=fullName>. The WPF <xref:System.Windows.Markup.XamlReader?displayProperty=fullName> and its <xref:System.Windows.Markup.XamlReader.Load%2A> can process XAML 2009 language keywords and features into a valid object graph representation.
+ A scenario where you can use XAML 2009 features together with WPF is if you author loose XAML and you then load that XAML into a WPF runtime and object graph with <xref:System.Windows.Markup.XamlReader.Load%2A?displayProperty=nameWithType>. The WPF <xref:System.Windows.Markup.XamlReader?displayProperty=nameWithType> and its <xref:System.Windows.Markup.XamlReader.Load%2A> can process XAML 2009 language keywords and features into a valid object graph representation.

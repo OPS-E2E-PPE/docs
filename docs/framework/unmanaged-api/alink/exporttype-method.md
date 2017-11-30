@@ -1,5 +1,5 @@
 ---
-title: "ExportType Method | Microsoft Docs"
+title: "ExportType Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ExportType"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExportType method"
 ms.assetid: 91a7ce63-f5b8-4f16-b2c4-e1d0baa88944
@@ -71,6 +69,6 @@ HRESULT ExportType(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "SignTool.exe (Sign Tool) | Microsoft Docs"
+title: "SignTool.exe (Sign Tool)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Sign tool"
   - "SignTool.exe"
@@ -85,7 +80,7 @@ signtool [command] [options] [file_name | ...]
 |`/csp`  *CSPName*|Specifies the cryptographic service provider (CSP) that contains the private key container.|  
 |`/d`  *Desc*|Specifies a description of the signed content.|  
 |`/du`  *URL*|Specifies a Uniform Resource Locator (URL) for the expanded description of the signed content.|  
-|`/f`  *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file does not contain private keys, use the `/csp` and `/k` options to specify the CSP and private key container name.|  
+|`/f`  *SignCertFile*|Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file does not contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name.|  
 |`/fd`|Specifies the file digest algorithm to use for creating file signatures. The default is SHA1.|  
 |`/i`  *IssuerName*|Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name.|  
 |`/kc`  *PrivKeyContainerName*|Specifies the private key container name.|  
@@ -219,5 +214,5 @@ signtool verify /c MyCatalog.cat SystemFile.dll
 ```  
   
 ## See Also  
- [Tools](../../../docs/framework/tools/index.md)   
+ [Tools](../../../docs/framework/tools/index.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

@@ -1,5 +1,5 @@
 ---
-title: "Default NetTcpBinding | Microsoft Docs"
+title: "Default NetTcpBinding"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "Net profile TCP"
 ms.assetid: e8475fe6-0ecd-407a-8e7e-45860561bb74

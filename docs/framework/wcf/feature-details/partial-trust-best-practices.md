@@ -1,5 +1,5 @@
 ---
-title: "Partial Trust Best Practices | Microsoft Docs"
+title: "Partial Trust Best Practices"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -72,5 +72,5 @@ This topic describes best practices when running [!INCLUDE[indigo1](../../../../
  As a best practice, avoid creating thread-specific permission context by calling <xref:System.Security.PermissionSet.Assert%2A>, <xref:System.Security.PermissionSet.PermitOnly%2A>, or <xref:System.Security.PermissionSet.Deny%2A>. Instead, grant or deny the privilege to the application itself, so that no <xref:System.Security.PermissionSet.Assert%2A>, <xref:System.Security.PermissionSet.Deny%2A>, or <xref:System.Security.PermissionSet.PermitOnly%2A> is required.  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractSerializer>   
+ <xref:System.Runtime.Serialization.DataContractSerializer>  
  <xref:System.Xml.Serialization.IXmlSerializable>

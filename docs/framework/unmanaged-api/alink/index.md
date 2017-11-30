@@ -1,5 +1,5 @@
 ---
-title: "ALink API (Unmanaged API Reference) | Microsoft Docs"
+title: "ALink API (Unmanaged API Reference)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "ALink"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ALink API"
 ms.assetid: f4a84be2-309c-439c-b686-6facb85f4654

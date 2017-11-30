@@ -1,5 +1,5 @@
 ---
-title: "Hosting (Unmanaged API Reference) | Microsoft Docs"
+title: "Hosting (Unmanaged API Reference)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "unmanaged API reference [.NET Framework], hosting"
   - "native API reference [.NET Framework], hosting"

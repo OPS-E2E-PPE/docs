@@ -1,5 +1,5 @@
 ---
-title: "DataTable Constraints | Microsoft Docs"
+title: "DataTable Constraints"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 27c9f2fd-f64d-4b4e-bbf6-1d24f47067cb
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -96,10 +99,10 @@ custDS.Tables["Customers"].Constraints.Add(custUnique);
 ```  
   
 ## See Also  
- <xref:System.Data.DataRelation>   
- <xref:System.Data.DataTable>   
- <xref:System.Data.ForeignKeyConstraint>   
- <xref:System.Data.UniqueConstraint>   
- [DataTable Schema Definition](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatable-schema-definition.md)   
- [DataSets, DataTables, and DataViews](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/index.md)   
+ <xref:System.Data.DataRelation>  
+ <xref:System.Data.DataTable>  
+ <xref:System.Data.ForeignKeyConstraint>  
+ <xref:System.Data.UniqueConstraint>  
+ [DataTable Schema Definition](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/datatable-schema-definition.md)  
+ [DataSets, DataTables, and DataViews](../../../../../docs/framework/data/adonet/dataset-datatable-dataview/index.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Control a MediaElement by Using a Storyboard | Microsoft Docs"
+title: "How to: Control a MediaElement by Using a Storyboard"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,15 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "multimedia, controlling playback of media with Storyboards"
-  - "controlling playback of media, with Storyboards"
-  - "Storyboards, controlling playback of media with"
-  - "media, controlling playback with Storyboards"
-  - "playback of media, controlling with Storyboards"
+  - "multimedia [WPF], controlling playback of media with Storyboards"
+  - "controlling playback of media [WPF], with Storyboards"
+  - "Storyboards [WPF], controlling playback of media with"
+  - "media [WPF], controlling playback with Storyboards"
+  - "playback of media [WPF], controlling with Storyboards"
 ms.assetid: 6128ca77-b826-4e36-b968-6f237157c543
 caps.latest.revision: 12
 author: dotnet-bot
@@ -31,7 +34,7 @@ This example shows how to control a <xref:System.Windows.Controls.MediaElement> 
   
  The following example creates the [!INCLUDE[TLA#tla_ui](../../../../includes/tlasharptla-ui-md.md)] for the media player.  
   
- [!code-xml[MediaGallery_snip#MediaTimelineExampleWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/MediaGallery_snip/VB/MediaTimelineExample.xaml#mediatimelineexamplewholepage)]  
+ [!code-xaml[MediaGallery_snip#MediaTimelineExampleWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/MediaGallery_snip/VB/MediaTimelineExample.xaml#mediatimelineexamplewholepage)]  
   
  The following example creates the functionality for the progress bar.  
   
@@ -39,12 +42,12 @@ This example shows how to control a <xref:System.Windows.Controls.MediaElement> 
  [!code-vb[MediaGallery_snip#CodeBehindMediaTimelineExampleWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/MediaGallery_snip/VB/MediaTimelineExample.xaml.vb#codebehindmediatimelineexamplewholepage)]  
   
 ## See Also  
- <xref:System.Windows.Controls.MediaElement>   
- <xref:System.Windows.Media.MediaTimeline>   
- <xref:System.Windows.Media.Animation.Storyboard>   
- [Control a MediaElement (Play, Pause, Stop, Volume, and Speed)](../../../../docs/framework/wpf/graphics-multimedia/how-to-control-a-mediaelement-play-pause-stop-volume-and-speed.md)   
- [Storyboards Overview](../../../../docs/framework/wpf/graphics-multimedia/storyboards-overview.md)   
- [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)   
- [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)   
- [How-to Topics](../../../../docs/framework/wpf/graphics-multimedia/audio-and-video-how-to-topics.md)   
+ <xref:System.Windows.Controls.MediaElement>  
+ <xref:System.Windows.Media.MediaTimeline>  
+ <xref:System.Windows.Media.Animation.Storyboard>  
+ [Control a MediaElement (Play, Pause, Stop, Volume, and Speed)](../../../../docs/framework/wpf/graphics-multimedia/how-to-control-a-mediaelement-play-pause-stop-volume-and-speed.md)  
+ [Storyboards Overview](../../../../docs/framework/wpf/graphics-multimedia/storyboards-overview.md)  
+ [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)  
+ [Animation Overview](../../../../docs/framework/wpf/graphics-multimedia/animation-overview.md)  
+ [How-to Topics](../../../../docs/framework/wpf/graphics-multimedia/audio-and-video-how-to-topics.md)  
  [Graphics and Multimedia](../../../../docs/framework/wpf/graphics-multimedia/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFrameEnum Interface1 | Microsoft Docs"
+title: "ICorDebugFrameEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFrameEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFrameEnum interface [.NET Framework debugging]"
 ms.assetid: ee3f85d3-044e-46b8-945c-93ebfa5d9e91

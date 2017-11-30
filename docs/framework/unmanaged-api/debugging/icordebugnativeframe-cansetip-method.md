@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugNativeFrame::CanSetIP Method | Microsoft Docs"
+title: "ICorDebugNativeFrame::CanSetIP Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugNativeFrame::CanSetIP"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugNativeFrame::CanSetIP method [.NET Framework debugging]"
   - "CanSetIP method, ICorDebugNativeFrame interface [.NET Framework debugging]"

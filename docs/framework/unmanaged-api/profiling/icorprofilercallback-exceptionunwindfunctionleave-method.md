@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionUnwindFunctionLeave Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionUnwindFunctionLeave Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionUnwindFunctionLeave"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::ExceptionUnwindFunctionLeave method [.NET Framework profiling]"
   - "ExceptionUnwindFunctionLeave method [.NET Framework profiling]"
@@ -56,5 +54,5 @@ HRESULT ExceptionUnwindFunctionLeave();
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ExceptionUnwindFunctionEnter Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-exceptionunwindfunctionenter-method.md)

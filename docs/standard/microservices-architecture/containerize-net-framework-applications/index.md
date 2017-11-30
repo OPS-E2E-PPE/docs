@@ -1,5 +1,5 @@
 ---
-title: Migrating Legacy Monolithic .NET Framework Applications to Windows Containers | Microsoft Docs 
+title: Migrating Legacy Monolithic .NET Framework Applications to Windows Containers
 description: .NET Microservices Architecture for Containerized .NET Applications | Migrating Legacy Monolithic .NET Framework Applications to Windows Containers
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,6 +7,7 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 # Migrating Legacy Monolithic .NET Framework Applications to Windows Containers
 
@@ -69,15 +70,15 @@ private static IContainer CreateContainer()
 
   if (fake)
   {
-    builder.RegisterType<;CatalogMockService>()
-    .As<;ICatalogService>();
+    builder.RegisterType<CatalogMockService>()
+    .As<ICatalogService>();
   }
   else
   {
-    builder.RegisterType<;CatalogService>()
-    .As<;ICatalogService>();
-    builder.RegisterType<;RequestProvider>()
-    .As<;IRequestProvider>();
+    builder.RegisterType<CatalogService>()
+    .As<ICatalogService>();
+    builder.RegisterType<RequestProvider>()
+    .As<IRequestProvider>();
   }
 
   var container = builder.Build();

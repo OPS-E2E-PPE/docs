@@ -1,5 +1,5 @@
 ---
-title: "Mouse Events in Windows Forms | Microsoft Docs"
+title: "Mouse Events in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,20 +9,18 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "MouseLeave event"
+  - "MouseLeave event [Windows Forms]"
   - "events [Windows Forms], mouse"
-  - "Click event, raising order"
+  - "Click event [Windows Forms], raising order"
   - "Windows Forms controls, click events"
-  - "MouseDoubleClick event"
-  - "MouseEnter event"
-  - "MouseHover event"
-  - "MouseDown event"
-  - "MouseClick event"
-  - "MouseMove event"
-  - "mouse, events"
+  - "MouseDoubleClick event [Windows Forms]"
+  - "MouseEnter event [Windows Forms]"
+  - "MouseHover event [Windows Forms]"
+  - "MouseDown event [Windows Forms]"
+  - "MouseClick event [Windows Forms]"
+  - "MouseMove event [Windows Forms]"
+  - "mouse [Windows Forms], events"
   - "MouseUp event"
 ms.assetid: 8cf0070d-793b-4876-b09e-d20d28280fab
 caps.latest.revision: 15

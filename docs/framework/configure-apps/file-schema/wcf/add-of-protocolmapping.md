@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; of &lt;protocolMapping&gt; | Microsoft Docs"
+title: "&lt;add&gt; of &lt;protocolMapping&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -24,13 +24,10 @@ Represents a default protocol mapping between a transport protocol scheme (e.g.,
   
 ## Syntax  
   
-```vb  
-   <protocolMapping>    <add binding="String"         bindingConfiguration="String"         scheme="http/net.msmq/net.pipe/net.tcp"/></protocolMapping>  
-```  
-  
-```csharp  
-```  
-  
+```xml
+   <protocolMapping>    <add binding="String"         bindingConfiguration="String"         scheme="http/net.msmq/net.pipe/net.tcp"/></protocolMapping>
+```
+
 ## Attributes and Elements  
  The following sections describe attributes, child elements, and parent elements.  
   
@@ -64,5 +61,5 @@ Represents a default protocol mapping between a transport protocol scheme (e.g.,
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.ProtocolMappingSection?displayProperty=fullName>      
- <xref:System.ServiceModel.Configuration.ProtocolMappingElement?displayProperty=fullName>    
+ <xref:System.ServiceModel.Configuration.ProtocolMappingSection?displayProperty=nameWithType>      
+ <xref:System.ServiceModel.Configuration.ProtocolMappingElement?displayProperty=nameWithType>    

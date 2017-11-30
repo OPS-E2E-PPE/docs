@@ -1,5 +1,5 @@
 ---
-title: "&lt;add&gt; of &lt;allowAccounts&gt; | Microsoft Docs"
+title: "&lt;add&gt; of &lt;allowAccounts&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -65,7 +65,7 @@ Specifies a user account for processes that host [!INCLUDE[indigo2](../../../../
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Activation.Configuration.NetTcpSection.AllowAccounts%2A>   
- <xref:System.ServiceModel.Activation.Configuration.NetPipeSection.AllowAccounts%2A>   
- <xref:System.ServiceModel.Activation.Configuration.SecurityIdentifierElementCollection>   
+ <xref:System.ServiceModel.Activation.Configuration.NetTcpSection.AllowAccounts%2A>  
+ <xref:System.ServiceModel.Activation.Configuration.NetPipeSection.AllowAccounts%2A>  
+ <xref:System.ServiceModel.Activation.Configuration.SecurityIdentifierElementCollection>  
  <xref:System.ServiceModel.Activation.Configuration.SecurityIdentifierElement>

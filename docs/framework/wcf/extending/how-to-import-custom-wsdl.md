@@ -1,5 +1,5 @@
 ---
-title: "How to: Import Custom WSDL | Microsoft Docs"
+title: "How to: Import Custom WSDL"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -84,6 +84,6 @@ This topic describes how to import custom WSDL. To handle the custom WSDL, you m
     ```  
   
 ## See Also  
- [Metadata](../../../../docs/framework/wcf/feature-details/metadata.md)   
- [Exporting and Importing Metadata](../../../../docs/framework/wcf/feature-details/exporting-and-importing-metadata.md)   
+ [Metadata](../../../../docs/framework/wcf/feature-details/metadata.md)  
+ [Exporting and Importing Metadata](../../../../docs/framework/wcf/feature-details/exporting-and-importing-metadata.md)  
  [Custom WSDL Publication](../../../../docs/framework/wcf/samples/custom-wsdl-publication.md)

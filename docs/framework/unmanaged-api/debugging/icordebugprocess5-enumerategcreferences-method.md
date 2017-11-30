@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess5::EnumerateGCReferences Method | Microsoft Docs"
+title: "ICorDebugProcess5::EnumerateGCReferences Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess5::EnumerateGCReferences"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumerateGCReferences method, ICorDebugProcess5 interface [.NET Framework debugging]"
   - "ICorDebugProcess5::EnumerateGCReferences method [.NET Framework debugging]"
@@ -62,5 +60,5 @@ HRESULT EnumerateGCReferences(
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)   
+ [ICorDebugProcess5 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugprocess5-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

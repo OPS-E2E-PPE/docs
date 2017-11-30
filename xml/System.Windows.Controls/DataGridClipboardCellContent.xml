@@ -16,10 +16,12 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This structure is used by the <xref:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent%2A?displayProperty=fullName> property.  
+ This structure is used by the <xref:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent%2A?displayProperty=nameWithType> property.  
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.DataGrid" />
+    <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -42,6 +44,8 @@
         <param name="content">The text value of the cell being copied.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.DataGridClipboardCellContent" /> structure.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="Column">
@@ -60,6 +64,8 @@
         <summary>Gets the column that contains the cell being copied.</summary>
         <value>The column that contains the cell being copied.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="Content">
@@ -78,6 +84,8 @@
         <summary>Gets the text value of the cell being copied.</summary>
         <value>The text value of the cell being copied.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -101,6 +109,8 @@
         <returns>
           <see langword="true" /> if the current and specified <see cref="T:System.Windows.Controls.DataGridClipboardCellContent" /> instances have the same <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Item" />, <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Column" />, and <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Content" /> property values; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -127,6 +137,8 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -145,10 +157,12 @@
         <summary>Gets the data item for the row that contains the cell being copied.</summary>
         <value>The data item for the row that contains the cell being copied.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, valuetype System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.DataGridClipboardCellContent.op_Equality(System.Windows.Controls.DataGridClipboardCellContent,System.Windows.Controls.DataGridClipboardCellContent)" />
       <MemberType>Method</MemberType>
@@ -170,10 +184,12 @@
         <returns>
           <see langword="true" /> if the specified <see cref="T:System.Windows.Controls.DataGridClipboardCellContent" /> instances have the same <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Item" />, <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Column" />, and <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Content" /> property values; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent1, valuetype System.Windows.Controls.DataGridClipboardCellContent clipboardCellContent2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.DataGridClipboardCellContent.op_Inequality(System.Windows.Controls.DataGridClipboardCellContent,System.Windows.Controls.DataGridClipboardCellContent)" />
       <MemberType>Method</MemberType>
@@ -195,6 +211,8 @@
         <returns>
           <see langword="true" /> if the current and specified <see cref="T:System.Windows.Controls.DataGridClipboardCellContent" /> instances do not have the same <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Item" />, <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Column" />, and <see cref="P:System.Windows.Controls.DataGridClipboardCellContent.Content" /> property values; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Controls.DataGrid" />
+        <altmember cref="P:System.Windows.Controls.DataGridRowClipboardEventArgs.ClipboardRowContent" />
       </Docs>
     </Member>
   </Members>

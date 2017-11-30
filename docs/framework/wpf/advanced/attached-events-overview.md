@@ -1,5 +1,5 @@
 ---
-title: "Attached Events Overview | Microsoft Docs"
+title: "Attached Events Overview"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "handling attached events [WPF]"
   - "defining attached events as routed events [WPF]"
@@ -39,7 +42,7 @@ manager: "wpickett"
   
  For example, the following is the [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] syntax for attaching a handler for a custom `NeedsCleaning` attached event:  
   
- [!code-xml[WPFAquariumSln#AE](../../../../samples/snippets/csharp/VS_Snippets_Wpf/WPFAquariumSln/CSharp/WPFAquarium/Window1.xaml#ae)]  
+ [!code-xaml[WPFAquariumSln#AE](../../../../samples/snippets/csharp/VS_Snippets_Wpf/WPFAquariumSln/CSharp/WPFAquarium/Window1.xaml#ae)]  
   
  Note the `aqua:` prefix; the prefix is necessary in this case because the attached event is a custom event that comes from a custom mapped xmlns.  
   
@@ -53,7 +56,7 @@ manager: "wpickett"
   
  Although [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)] defines a number of attached events, the scenarios where you will either use or handle the attached event directly are very limited. Generally, the attached event serves an architecture purpose, but is then forwarded to a non-attached (backed with a [!INCLUDE[TLA2#tla_clr](../../../../includes/tla2sharptla-clr-md.md)] event "wrapper") routed event.  
   
- For instance, the underlying attached event <xref:System.Windows.Input.Mouse.MouseDown?displayProperty=fullName> can more easily be handled on any given <xref:System.Windows.UIElement> by using <xref:System.Windows.UIElement.MouseDown> on that <xref:System.Windows.UIElement> rather than dealing with attached event syntax either in [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] or code. The attached event serves a purpose in the architecture because it allows for future expansion of input devices. The hypothetical device would only need to raise <xref:System.Windows.Input.Mouse.MouseDown?displayProperty=fullName> in order to simulate mouse input, and would not need to derive from <xref:System.Windows.Input.Mouse> to do so. However, this scenario involves code handling of the events, and [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] handling of the attached event is not relevant to this scenario.  
+ For instance, the underlying attached event <xref:System.Windows.Input.Mouse.MouseDown?displayProperty=nameWithType> can more easily be handled on any given <xref:System.Windows.UIElement> by using <xref:System.Windows.UIElement.MouseDown> on that <xref:System.Windows.UIElement> rather than dealing with attached event syntax either in [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] or code. The attached event serves a purpose in the architecture because it allows for future expansion of input devices. The hypothetical device would only need to raise <xref:System.Windows.Input.Mouse.MouseDown?displayProperty=nameWithType> in order to simulate mouse input, and would not need to derive from <xref:System.Windows.Input.Mouse> to do so. However, this scenario involves code handling of the events, and [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] handling of the attached event is not relevant to this scenario.  
   
 <a name="Handling"></a>   
 ## Handling an Attached Event in WPF  
@@ -95,6 +98,6 @@ manager: "wpickett"
  However, if you are defining a custom attached event based on the [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)] model of basing attached events on <xref:System.Windows.RoutedEvent>, you can use <xref:System.Windows.UIElement.RaiseEvent%2A> to raise an attached event from any <xref:System.Windows.UIElement> or <xref:System.Windows.ContentElement>. Raising a routed event (attached or not) requires that you declare a particular element in the element tree as the event source; that source is reported as the <xref:System.Windows.UIElement.RaiseEvent%2A> caller. Determining which element is reported as the source in the tree is your service's responsibility  
   
 ## See Also  
- [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md)   
- [XAML Syntax In Detail](../../../../docs/framework/wpf/advanced/xaml-syntax-in-detail.md)   
+ [Routed Events Overview](../../../../docs/framework/wpf/advanced/routed-events-overview.md)  
+ [XAML Syntax In Detail](../../../../docs/framework/wpf/advanced/xaml-syntax-in-detail.md)  
  [XAML and Custom Classes for WPF](../../../../docs/framework/wpf/advanced/xaml-and-custom-classes-for-wpf.md)

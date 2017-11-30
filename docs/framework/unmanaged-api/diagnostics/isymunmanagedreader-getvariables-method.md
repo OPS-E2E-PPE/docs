@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetVariables Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetVariables Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetVariables"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedReader::GetVariables method [.NET Framework debugging]"
   - "GetVariables method, ISymUnmanagedReader interface [.NET Framework debugging]"

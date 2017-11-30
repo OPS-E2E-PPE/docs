@@ -1,5 +1,5 @@
 ---
-title: "Defining WCF Data Services | Microsoft Docs"
+title: "Defining WCF Data Services"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -52,6 +52,6 @@ This section describes how to create and configure [!INCLUDE[ssAstoria](../../..
  Describes optional functionalities of the [!INCLUDE[ssODataShort](../../../../includes/ssodatashort-md.md)] protocol that are not currently implemented by WCF Data Services.  
   
 ## See Also  
- [WCF Data Services Client Library](../../../../docs/framework/data/wcf/wcf-data-services-client-library.md)   
- [Accessing Data Service Resources](../../../../docs/framework/data/wcf/accessing-data-service-resources-wcf-data-services.md)   
+ [WCF Data Services Client Library](../../../../docs/framework/data/wcf/wcf-data-services-client-library.md)  
+ [Accessing Data Service Resources](../../../../docs/framework/data/wcf/accessing-data-service-resources-wcf-data-services.md)  
  [Getting Started](../../../../docs/framework/data/wcf/getting-started-with-wcf-data-services.md)

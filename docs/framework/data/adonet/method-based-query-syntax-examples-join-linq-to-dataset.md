@@ -1,5 +1,5 @@
 ---
-title: "Method-Based Query Syntax Examples: Join (LINQ to DataSet) | Microsoft Docs"
+title: "Method-Based Query Syntax Examples: Join (LINQ to DataSet)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 4fd5ed2c-b03a-4054-a3ed-3ddb380d7d9d
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -46,8 +49,8 @@ Joining is an important operation in queries that target data sources that have 
  [!code-vb[DP LINQ to DataSet Examples#JoinWithGroupedResults_MQ](../../../../samples/snippets/visualbasic/VS_Snippets_ADO.NET/DP LINQ to DataSet Examples/VB/Module1.vb#joinwithgroupedresults_mq)]  
   
 ## See Also  
- [Loading Data Into a DataSet](../../../../docs/framework/data/adonet/loading-data-into-a-dataset.md)   
- [LINQ to DataSet Examples](../../../../docs/framework/data/adonet/linq-to-dataset-examples.md)   
- [Standard Query Operators Overview](http://msdn.microsoft.com/library/24cda21e-8af8-4632-b519-c404a839b9b2)   
- [Join Samples](http://go.microsoft.com/fwlink/?LinkId=187357)   
+ [Loading Data Into a DataSet](../../../../docs/framework/data/adonet/loading-data-into-a-dataset.md)  
+ [LINQ to DataSet Examples](../../../../docs/framework/data/adonet/linq-to-dataset-examples.md)  
+ [Standard Query Operators Overview](http://msdn.microsoft.com/library/24cda21e-8af8-4632-b519-c404a839b9b2)  
+ [Join Samples](http://go.microsoft.com/fwlink/?LinkId=187357)  
  [Dataset Samples](http://go.microsoft.com/fwlink/?LinkId=187358)

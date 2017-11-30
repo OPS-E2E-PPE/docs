@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedConstant Interface | Microsoft Docs"
+title: "ISymUnmanagedConstant Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedConstant"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedConstant interface [.NET Framework debugging]"
 ms.assetid: e11c9baa-4cf1-4bb4-a95f-b1908893b46c

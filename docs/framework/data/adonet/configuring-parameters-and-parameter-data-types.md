@@ -1,5 +1,5 @@
 ---
-title: "Configuring Parameters and Parameter Data Types | Microsoft Docs"
+title: "Configuring Parameters and Parameter Data Types"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 537d8a2c-d40b-4000-83eb-bc1fcc93f707
 caps.latest.revision: 6
 author: "JennieHubbard"
@@ -199,7 +202,7 @@ parameter.Direction = ParameterDirection.Output;
 ```  
   
 ## See Also  
- [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)   
- [DataAdapter Parameters](../../../../docs/framework/data/adonet/dataadapter-parameters.md)   
- [Data Type Mappings in ADO.NET](../../../../docs/framework/data/adonet/data-type-mappings-in-ado-net.md)   
+ [Commands and Parameters](../../../../docs/framework/data/adonet/commands-and-parameters.md)  
+ [DataAdapter Parameters](../../../../docs/framework/data/adonet/dataadapter-parameters.md)  
+ [Data Type Mappings in ADO.NET](../../../../docs/framework/data/adonet/data-type-mappings-in-ado-net.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

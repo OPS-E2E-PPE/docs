@@ -1,5 +1,5 @@
 ---
-title: "Microsoft.Transactions.TransactionBridge.EnlistmentIdentityCheckFailed | Microsoft Docs"
+title: "Microsoft.Transactions.TransactionBridge.EnlistmentIdentityCheckFailed"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -25,6 +25,6 @@ The identity of the incoming message sender did not match the identity derived f
  Ensure that Transaction security is correctly configured for all machines participating in the transaction.  
   
 ## See Also  
- [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)   
- [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)   
+ [Tracing](../../../../../docs/framework/wcf/diagnostics/tracing/index.md)  
+ [Using Tracing to Troubleshoot Your Application](../../../../../docs/framework/wcf/diagnostics/tracing/using-tracing-to-troubleshoot-your-application.md)  
  [Administration and Diagnostics](../../../../../docs/framework/wcf/diagnostics/index.md)

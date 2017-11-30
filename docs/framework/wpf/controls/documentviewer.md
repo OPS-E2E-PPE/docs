@@ -1,5 +1,5 @@
 ---
-title: "DocumentViewer | Microsoft Docs"
+title: "DocumentViewer"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -29,6 +29,6 @@ The <xref:System.Windows.Controls.DocumentViewer> control is used to view <xref:
  <xref:System.Windows.Documents.FixedDocument>  
   
 ## See Also  
- [Documents](../../../../docs/framework/wpf/advanced/documents.md)   
- [Document Serialization and Storage](../../../../docs/framework/wpf/advanced/document-serialization-and-storage.md)   
+ [Documents](../../../../docs/framework/wpf/advanced/documents.md)  
+ [Document Serialization and Storage](../../../../docs/framework/wpf/advanced/document-serialization-and-storage.md)  
  [Printing Overview](../../../../docs/framework/wpf/advanced/printing-overview.md)

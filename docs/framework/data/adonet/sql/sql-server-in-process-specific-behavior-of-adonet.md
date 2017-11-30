@@ -1,5 +1,5 @@
 ---
-title: "SQL Server In-Process-Specific Behavior of ADO.NET | Microsoft Docs"
+title: "SQL Server In-Process-Specific Behavior of ADO.NET"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -25,5 +25,5 @@ There are four main functional extensions to ADO.NET, found in the <xref:Microso
 1.  [SQL Server In-Process Specific Extensions to ADO.NET](http://go.microsoft.com/fwlink/?LinkId=115403)  
   
 ## See Also  
- [Creating SQL Server 2005 Objects In Managed Code](http://msdn.microsoft.com/en-us/5358a825-e19b-49aa-8214-674ce5fed1da)   
+ [Creating SQL Server 2005 Objects In Managed Code](http://msdn.microsoft.com/en-us/5358a825-e19b-49aa-8214-674ce5fed1da)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

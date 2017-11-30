@@ -1,5 +1,5 @@
 ---
-title: "Internet Protocol Version 6 | Microsoft Docs"
+title: "Internet Protocol Version 6"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "IPv6, improvements"
   - "IPv4"
@@ -67,6 +62,6 @@ The Internet Protocol version 6 (IPv6) is a new suite of standard protocols for 
  You can also find IPv6-related information on the [IPv6 area on Technet](http://go.microsoft.com/fwlink/?LinkID=179658).  
   
 ## See Also  
- [IPv6 Sockets Sample](http://go.microsoft.com/fwlink/?LinkID=179568)   
- [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)   
+ [IPv6 Sockets Sample](http://go.microsoft.com/fwlink/?LinkID=179568)  
+ [Network Programming Samples](../../../docs/framework/network-programming/network-programming-samples.md)  
  [Sockets](../../../docs/framework/network-programming/sockets.md)

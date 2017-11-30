@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ClassUnloadFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::ClassUnloadFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ClassUnloadFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::ClassUnloadFinished method [.NET Framework profiling]"
   - "ClassUnloadFinished method [.NET Framework profiling]"
@@ -61,5 +59,5 @@ HRESULT ClassUnloadFinished(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)   
+ [ICorProfilerCallback Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-interface.md)  
  [ClassUnloadStarted Method](../../../../docs/framework/unmanaged-api/profiling/icorprofilercallback-classunloadstarted-method.md)

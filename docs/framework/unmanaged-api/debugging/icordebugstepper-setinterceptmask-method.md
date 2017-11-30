@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepper::SetInterceptMask Method | Microsoft Docs"
+title: "ICorDebugStepper::SetInterceptMask Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepper::SetInterceptMask"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetInterceptMask method [.NET Framework debugging]"
   - "ICorDebugStepper::SetInterceptMask method [.NET Framework debugging]"

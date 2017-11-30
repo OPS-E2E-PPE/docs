@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedVariable::GetEndOffset Method | Microsoft Docs"
+title: "ISymUnmanagedVariable::GetEndOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedVariable::GetEndOffset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedVariable::GetEndOffset method [.NET Framework debugging]"
   - "GetEndOffset method, ISymUnmanagedVariable interface [.NET Framework debugging]"
@@ -51,5 +49,5 @@ HRESULT GetEndOffset(
  **Header:** CorSym.idl, CorSym.h  
   
 ## See Also  
- [ISymUnmanagedVariable Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedvariable-interface.md)   
+ [ISymUnmanagedVariable Interface](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedvariable-interface.md)  
  [GetStartOffset Method](../../../../docs/framework/unmanaged-api/diagnostics/isymunmanagedvariable-getstartoffset-method.md)

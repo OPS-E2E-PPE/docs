@@ -1,5 +1,5 @@
 ---
-title: "LAFailedToListenForApp | Microsoft Docs"
+title: "LAFailedToListenForApp"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 160
  This event indicates that an error occurred in the specified Activation Service of the specified protocol, while trying to listen for the specified site, thus the protocol is disabled for the site temporarily..The event lists the URL, status, exception, process name and process ID.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

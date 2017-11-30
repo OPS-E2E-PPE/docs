@@ -1,5 +1,5 @@
 ---
-title: "How to: Use a Color Matrix to Transform a Single Color | Microsoft Docs"
+title: "How to: Use a Color Matrix to Transform a Single Color"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "image colors, transforming"
-  - "color matrices, using"
+  - "image colors [Windows Forms], transforming"
+  - "color matrices [Windows Forms], using"
 ms.assetid: 44df4556-a433-49c0-ac0f-9a12063a5860
 caps.latest.revision: 17
 author: dotnet-bot
@@ -69,5 +70,5 @@ manager: "wpickett"
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of the <xref:System.Windows.Forms.Control.Paint> event handler.  
   
 ## See Also  
- [Recoloring Images](../../../../docs/framework/winforms/advanced/recoloring-images.md)   
+ [Recoloring Images](../../../../docs/framework/winforms/advanced/recoloring-images.md)  
  [Coordinate Systems and Transformations](../../../../docs/framework/winforms/advanced/coordinate-systems-and-transformations.md)

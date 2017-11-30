@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameBuilder::AddArray Method | Microsoft Docs"
+title: "ITypeNameBuilder::AddArray Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "AddArray"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameBuilder::AddArray method [.NET Framework hosting]"
   - "AddArray method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugILFrame::EnumerateArguments Method | Microsoft Docs"
+title: "ICorDebugILFrame::EnumerateArguments Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugILFrame::EnumerateArguments"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugILFrame::EnumerateArguments method [.NET Framework debugging]"
   - "EnumerateArguments method [.NET Framework debugging]"

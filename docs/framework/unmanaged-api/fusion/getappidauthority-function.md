@@ -1,5 +1,5 @@
 ---
-title: "GetAppIdAuthority Function | Microsoft Docs"
+title: "GetAppIdAuthority Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetAppIdAuthority"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetAppIdAuthority function [.NET Framework fusion]"
 ms.assetid: 9f968dad-0d09-47fb-bebc-94c39a0d16ad
@@ -53,5 +51,5 @@ HRESULT GetAppIdAuthority (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAppIdAuthority Interface](../../../../docs/framework/unmanaged-api/fusion/iappidauthority-interface.md)   
+ [IAppIdAuthority Interface](../../../../docs/framework/unmanaged-api/fusion/iappidauthority-interface.md)  
  [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)

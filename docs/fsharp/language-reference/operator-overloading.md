@@ -1,6 +1,6 @@
 ---
-title: Operator Overloading (F#) | Microsoft Docs
-description: Operator Overloading (F#)
+title: Operator Overloading (F#)
+description: Learn how to overload arithmetic operators in a class or record type and at the global level in F#.
 keywords: visual f#, f#, functional programming
 author: cartermp
 ms.author: phcart
@@ -47,7 +47,7 @@ Depending on the exact character sequence you use, your operator will have a cer
 
 The operator character `.` does not affect precedence, so that, for example, if you want to define your own version of multiplication that has the same precedence and associativity as ordinary multiplication, you could create operators such as `.*`.
 
-Only the operators `?` and `?<-` may start with `?.`
+Only the operators `?` and `?<-` may start with `?`.
 
 A table that shows the precedence of all operators in F# can be found in [Symbol and Operator Reference](symbol-and-operator-reference/index.md).
 

@@ -1,5 +1,5 @@
 ---
-title: "Diagnostics Symbol Store Interfaces | Microsoft Docs"
+title: "Diagnostics Symbol Store Interfaces"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "unmanaged interfaces [.NET Framework], debugging"
   - "diagnostics symbol store interfaces [.NET Framework]"

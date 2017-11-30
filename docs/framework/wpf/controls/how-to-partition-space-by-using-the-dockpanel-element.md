@@ -1,5 +1,5 @@
 ---
-title: "How to: Partition Space by Using the DockPanel Element | Microsoft Docs"
+title: "How to: Partition Space by Using the DockPanel Element"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,14 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "controls [WPF], DockPanel"
-  - "DockPanel control, partitioning space"
-  - "partitioning space"
+  - "DockPanel control [WPF], partitioning space"
+  - "partitioning space [WPF]"
 ms.assetid: a219b9e5-b205-4438-89b5-0a137ac463ab
 caps.latest.revision: 12
 author: dotnet-bot
@@ -28,7 +32,7 @@ The following example creates a simple [!INCLUDE[TLA#tla_ui](../../../../include
  [!code-cpp[DockPanelOvwSample#1](../../../../samples/snippets/cpp/VS_Snippets_Wpf/DockPanelOvwSample/CPP/DockPanel_Ovw_Sample.cpp#1)]
  [!code-csharp[DockPanelOvwSample#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DockPanelOvwSample/CSharp/DockPanel_Ovw_Sample.cs#1)]
  [!code-vb[DockPanelOvwSample#1](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/DockPanelOvwSample/VisualBasic/dockpanel_vb.vb#1)]
- [!code-xml[DockPanelOvwSample#1](../../../../samples/snippets/xaml/VS_Snippets_Wpf/DockPanelOvwSample/XAML/default.xaml#1)]  
+ [!code-xaml[DockPanelOvwSample#1](../../../../samples/snippets/xaml/VS_Snippets_Wpf/DockPanelOvwSample/XAML/default.xaml#1)]  
   
 > [!NOTE]
 >  By default, the last child of a <xref:System.Windows.Controls.DockPanel> element fills the remaining unallocated space. If you do not want this behavior, set `LastChildFill="False"`.  
@@ -38,5 +42,5 @@ The following example creates a simple [!INCLUDE[TLA#tla_ui](../../../../include
  ![A typical DockPanel scenario.](../../../../docs/framework/wpf/controls/media/panel-intro-dockpanel.PNG "panel_intro_dockpanel")  
   
 ## See Also  
- <xref:System.Windows.Controls.DockPanel>   
+ <xref:System.Windows.Controls.DockPanel>  
  [Panels Overview](../../../../docs/framework/wpf/controls/panels-overview.md)

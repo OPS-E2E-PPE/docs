@@ -1,5 +1,5 @@
 ---
-title: "Splitter Control (Windows Forms) | Microsoft Docs"
+title: "Splitter Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "multiple views"
   - "Splitter control [Windows Forms]"
-  - "views, multiple per frame"
+  - "views [Windows Forms], multiple per frame"
 ms.assetid: 6f287407-e895-4b07-a46a-a5bff8388d46
 caps.latest.revision: 10
 author: dotnet-bot

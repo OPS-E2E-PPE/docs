@@ -1,5 +1,5 @@
 ---
-title: "&lt;remove&gt; Element for authenticationModules (Network Settings) | Microsoft Docs"
+title: "&lt;remove&gt; Element for authenticationModules (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/authenticationModules/remove"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#remove"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "remove element, authenticationModules"
   - "<authenticationModules>, remove element"
@@ -39,8 +34,8 @@ Removes an authentication module from the application.
 ## Syntax  
   
 ```xml  
-      <remove   
-   name = "authentication module name"   
+<remove   
+   type="authentication module name"   
 />  
 ```  
   
@@ -51,7 +46,7 @@ Removes an authentication module from the application.
   
 |**Attribute**|**Description**|  
 |-------------------|---------------------|  
-|**name**|The name of the authentication module to remove.|  
+|**type**|The name of the authentication module to remove.|  
   
 ### Child Elements  
  None.  
@@ -65,25 +60,25 @@ Removes an authentication module from the application.
 ## Remarks  
  The `remove` element removes authentication modules that were defined earlier in the configuration file or at a higher level in the configuration hierarchy.  
   
- The value for the `name` attribute should be a valid class name.  
+ The value for the `type` attribute should be a valid class name.  
   
 ## Configuration Files  
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## Example  
- The following code example removes an authentication module.  
+ The following example removes an authentication module.  
   
 ```xml  
 <configuration>  
   <system.net>  
     <authenticationModules>  
-      <remove name = "System.Net.NtlmClient" />  
+      <remove type="System.Net.NtlmClient" />  
     </authenticationModules>  
   </system.net>  
 </configuration>  
 ```  
   
 ## See Also  
- <xref:System.Net.IAuthenticationModule>   
- <xref:System.Net.AuthenticationManager>   
+ <xref:System.Net.IAuthenticationModule>  
+ <xref:System.Net.AuthenticationManager>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

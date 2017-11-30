@@ -1,5 +1,5 @@
 ---
-title: "PNRP in Application Development | Microsoft Docs"
+title: "PNRP in Application Development"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: 265615d6-4423-4b5d-8626-752e456f4f4e
 caps.latest.revision: 6
 author: "mcleblanc"

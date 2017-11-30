@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDispose::Destroy Method | Microsoft Docs"
+title: "ISymUnmanagedDispose::Destroy Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDispose::Destroy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedDispose::Destroy method [.NET Framework debugging]"
   - "Destroy method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Private Font Collection | Microsoft Docs"
+title: "How to: Create a Private Font Collection"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "private font collections, creating"
-  - "fonts, creating private collections"
+  - "private font collections [Windows Forms], creating"
+  - "fonts [Windows Forms], creating private collections"
 ms.assetid: 6533d5e5-a8dc-4b76-9fc4-3bf75c8b9212
 caps.latest.revision: 16
 author: dotnet-bot
@@ -57,5 +58,5 @@ The <xref:System.Drawing.Text.PrivateFontCollection> class inherits from the <xr
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- <xref:System.Drawing.Text.PrivateFontCollection>   
+ <xref:System.Drawing.Text.PrivateFontCollection>  
  [Using Fonts and Text](../../../../docs/framework/winforms/advanced/using-fonts-and-text.md)

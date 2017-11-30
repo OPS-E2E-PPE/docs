@@ -1,5 +1,5 @@
 ---
-title: "Using a Gradient Brush to Fill Shapes | Microsoft Docs"
+title: "Using a Gradient Brush to Fill Shapes"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "brushes, gradient brushes"
+  - "brushes [Windows Forms], gradient brushes"
   - "gradient brushes"
   - "examples [Windows Forms], gradient brushes"
 ms.assetid: 2c6037b9-05bd-44c0-a22a-19584b722524
@@ -41,8 +39,8 @@ You can use a gradient brush to fill a shape with a gradually changing color. Fo
  Explains how to use gamma correction with a gradient brush.  
   
 ## Reference  
- <xref:System.Drawing.Drawing2D.LinearGradientBrush?displayProperty=fullName>  
+ <xref:System.Drawing.Drawing2D.LinearGradientBrush?displayProperty=nameWithType>  
  Contains a description of this class and has links to all of its members.  
   
- <xref:System.Drawing.Drawing2D.PathGradientBrush?displayProperty=fullName>  
+ <xref:System.Drawing.Drawing2D.PathGradientBrush?displayProperty=nameWithType>  
  Contains a description of this class and has links to all of its members.

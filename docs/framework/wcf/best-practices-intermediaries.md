@@ -1,5 +1,5 @@
 ---
-title: "Best Practices: Intermediaries | Microsoft Docs"
+title: "Best Practices: Intermediaries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -39,5 +39,5 @@ catch (Exception e)
 ```  
   
 ## See Also  
- [WCF Error Handling](../../../docs/framework/wcf/wcf-error-handling.md)   
+ [WCF Error Handling](../../../docs/framework/wcf/wcf-error-handling.md)  
  [Specifying and Handling Faults in Contracts and Services](../../../docs/framework/wcf/specifying-and-handling-faults-in-contracts-and-services.md)

@@ -1,5 +1,5 @@
 ---
-title: "Reflection in the .NET Framework for Windows Store Apps | Microsoft Docs"
+title: "Reflection in the .NET Framework for Windows Store Apps"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "reflection, Windows Store apps"
   - ".NET for Windows Store apps, TypeInfo class"
@@ -43,5 +46,5 @@ Starting with the [!INCLUDE[net_v45](../../../includes/net-v45-md.md)], the .NET
  [!code-vb[System.ReflectionWinStoreApp#1](../../../samples/snippets/visualbasic/VS_Snippets_CLR_System/system.reflectionwinstoreapp/vb/mainpage.xaml.vb#1)]  
   
 ## See Also  
- [Reflection](../../../docs/framework/reflection-and-codedom/reflection.md)   
+ [Reflection](../../../docs/framework/reflection-and-codedom/reflection.md)  
  [.NET for Windows Store apps – supported APIs](http://go.microsoft.com/fwlink/?LinkID=225700)

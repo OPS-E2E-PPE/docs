@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure a Custom WS-Metadata Exchange Binding | Microsoft Docs"
+title: "How to: Configure a Custom WS-Metadata Exchange Binding"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -120,8 +120,8 @@ This topic will explain how to configure a custom WS-Metadata exchange binding. 
     ```  
   
 ## See Also  
- [Metadata Publishing Behavior](../../../../docs/framework/wcf/samples/metadata-publishing-behavior.md)   
- [Retrieve Metadata](../../../../docs/framework/wcf/samples/retrieve-metadata.md)   
- [Metadata](../../../../docs/framework/wcf/feature-details/metadata.md)   
- [Publishing Metadata](../../../../docs/framework/wcf/feature-details/publishing-metadata.md)   
+ [Metadata Publishing Behavior](../../../../docs/framework/wcf/samples/metadata-publishing-behavior.md)  
+ [Retrieve Metadata](../../../../docs/framework/wcf/samples/retrieve-metadata.md)  
+ [Metadata](../../../../docs/framework/wcf/feature-details/metadata.md)  
+ [Publishing Metadata](../../../../docs/framework/wcf/feature-details/publishing-metadata.md)  
  [Publishing Metadata Endpoints](../../../../docs/framework/wcf/publishing-metadata-endpoints.md)

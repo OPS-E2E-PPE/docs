@@ -1,5 +1,5 @@
 ---
-title: "CASE (Entity SQL) | Microsoft Docs"
+title: "CASE (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 26a47873-e87d-4ba2-9e2c-3787c21efe89
 caps.latest.revision: 5
 author: "JennieHubbard"
@@ -67,6 +63,6 @@ END
  [!code-csharp[DP EntityServices Concepts 2#CASE_WHEN_THEN_ELSE](../../../../../../samples/snippets/csharp/VS_Snippets_Data/dp entityservices concepts 2/cs/entitysql.cs#case_when_then_else)]  
   
 ## See Also  
- [THEN](../../../../../../docs/framework/data/adonet/ef/language-reference/then-entity-sql.md)   
- [SELECT](../../../../../../docs/framework/data/adonet/ef/language-reference/select-entity-sql.md)   
+ [THEN](../../../../../../docs/framework/data/adonet/ef/language-reference/then-entity-sql.md)  
+ [SELECT](../../../../../../docs/framework/data/adonet/ef/language-reference/select-entity-sql.md)  
  [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)

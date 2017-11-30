@@ -1,5 +1,5 @@
 ---
-title: "StrongNameFreeBuffer Function | Microsoft Docs"
+title: "StrongNameFreeBuffer Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -21,8 +21,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameFreeBuffer"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameFreeBuffer function [.NET Framework strong naming]"
 ms.assetid: eda21ecf-4734-4f92-aaba-9f34884385db
@@ -60,5 +58,5 @@ VOID StrongNameFreeBuffer (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [StrongNameFreeBuffer Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamefreebuffer-method.md)   
+ [StrongNameFreeBuffer Method](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-strongnamefreebuffer-method.md)  
  [ICLRStrongName Interface](../../../../docs/framework/unmanaged-api/hosting/iclrstrongname-interface.md)

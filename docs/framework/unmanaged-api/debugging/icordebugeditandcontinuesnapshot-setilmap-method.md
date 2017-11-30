@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueSnapshot::SetILMap Method | Microsoft Docs"
+title: "ICorDebugEditAndContinueSnapshot::SetILMap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueSnapshot::SetILMap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetILMap method [.NET Framework debugging]"
   - "ICorDebugEditAndContinueSnapshot::SetILMap method [.NET Framework debugging]"

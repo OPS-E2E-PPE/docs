@@ -1,5 +1,5 @@
 ---
-title: "&lt;states&gt; of &lt;activityStateQuery&gt; | Microsoft Docs"
+title: "&lt;states&gt; of &lt;activityStateQuery&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -79,7 +79,7 @@ A collection of configuration elements that contain the states of the subscribed
 ```  
   
 ## See Also  
- <xref:System.ServiceModel.Activities.Tracking.Configuration.StateElementCollection?displayProperty=fullName>      
- <xref:System.Activities.Tracking.ActivityStateQuery?displayProperty=fullName>       
- [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)   
+ <xref:System.ServiceModel.Activities.Tracking.Configuration.StateElementCollection?displayProperty=nameWithType>      
+ <xref:System.Activities.Tracking.ActivityStateQuery?displayProperty=nameWithType>       
+ [Workflow Tracking and Tracing](../../../../../docs/framework/windows-workflow-foundation/workflow-tracking-and-tracing.md)  
  [Tracking Profiles](../../../../../docs/framework/windows-workflow-foundation/tracking-profiles.md)

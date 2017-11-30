@@ -1,5 +1,5 @@
 ---
-title: "SqlClient for the Entity Framework | Microsoft Docs"
+title: "SqlClient for the Entity Framework"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 9a5d6d39-d955-43a5-a5c2-931c239398f1
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -58,6 +54,6 @@ This section describes the .NET Framework Data Provider for SQL Server (SqlClien
  [Known Issues in SqlClient for Entity Framework](../../../../../docs/framework/data/adonet/ef/known-issues-in-sqlclient-for-entity-framework.md)  
   
 ## See Also  
- [Entity SQL Language](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-language.md)   
- [Language Reference](../../../../../docs/framework/data/adonet/ef/language-reference/index.md)   
+ [Entity SQL Language](../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-language.md)  
+ [Language Reference](../../../../../docs/framework/data/adonet/ef/language-reference/index.md)  
  [Known Issues in SqlClient Provider for Entity Framework](../../../../../docs/framework/data/adonet/ef/sqlclient-for-the-entity-framework.md)

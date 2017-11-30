@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugNativeFrame::GetLocalMemoryValue Method | Microsoft Docs"
+title: "ICorDebugNativeFrame::GetLocalMemoryValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugNativeFrame::GetLocalMemoryValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetLocalMemoryValue method [.NET Framework debugging]"
   - "ICorDebugNativeFrame::GetLocalMemoryValue method [.NET Framework debugging]"

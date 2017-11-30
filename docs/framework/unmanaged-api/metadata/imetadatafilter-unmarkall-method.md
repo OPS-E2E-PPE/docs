@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataFilter::UnmarkAll Method | Microsoft Docs"
+title: "IMetaDataFilter::UnmarkAll Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataFilter::UnmarkAll"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataFilter::UnmarkAll method [.NET Framework metadata]"
   - "UnmarkAll method [.NET Framework metadata]"

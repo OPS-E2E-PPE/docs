@@ -1,5 +1,5 @@
 ---
-title: "IGCHost::Collect Method | Microsoft Docs"
+title: "IGCHost::Collect Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "Collect"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Collect method, IGCHost interface [.NET Framework hosting]"
   - "IGCHost::Collect method [.NET Framework hosting]"

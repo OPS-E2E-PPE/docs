@@ -1,5 +1,5 @@
 ---
-title: "COR_HEAPOBJECT Structure | Microsoft Docs"
+title: "COR_HEAPOBJECT Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_HEAPOBJECT"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_HEAPOBJECT structure [.NET Framework debugging]"
 ms.assetid: a92fdf95-492b-49ae-a741-2186e5c1d7c5
@@ -71,5 +69,5 @@ typedef struct _COR_HEAPOBJECT {
  **.NET Framework Versions:** [!INCLUDE[net_current_v45plus](../../../../includes/net-current-v45plus-md.md)]  
   
 ## See Also  
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

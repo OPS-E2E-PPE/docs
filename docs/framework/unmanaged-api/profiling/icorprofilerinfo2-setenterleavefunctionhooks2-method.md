@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerInfo2::SetEnterLeaveFunctionHooks2 Method | Microsoft Docs"
+title: "ICorProfilerInfo2::SetEnterLeaveFunctionHooks2 Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerInfo2::SetEnterLeaveFunctionHooks2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerInfo2::SetEnterLeaveFunctionHooks2 method [.NET Framework profiling]"
   - "SetEnterLeaveFunctionHooks2 method [.NET Framework profiling]"
@@ -69,5 +67,5 @@ HRESULT SetEnterLeaveFunctionHooks2(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)   
+ [ICorProfilerInfo Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo-interface.md)  
  [ICorProfilerInfo2 Interface](../../../../docs/framework/unmanaged-api/profiling/icorprofilerinfo2-interface.md)

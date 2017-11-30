@@ -1,5 +1,5 @@
 ---
-title: "Serialization2 | Microsoft Docs"
+title: "Serialization2"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: a15ae411-8dc2-4ca3-84d2-01c9d5f1972a
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -31,7 +34,7 @@ This topic describes [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq
   
 -   A <xref:System.Data.Linq.DataContext> mode for turning off deferred loading (<xref:System.Data.Linq.DataContext.ObjectTrackingEnabled%2A>). For more information, see <xref:System.Data.Linq.DataContext>.  
   
--   A code-generation switch to generate <xref:System.Runtime.Serialization.DataContractAttribute?displayProperty=fullName> and <xref:System.Runtime.Serialization.DataMemberAttribute?displayProperty=fullName> attributes on generated entities. This aspect, including the behavior of defer-loading classes under serialization, is the major subject of this topic.  
+-   A code-generation switch to generate <xref:System.Runtime.Serialization.DataContractAttribute?displayProperty=nameWithType> and <xref:System.Runtime.Serialization.DataMemberAttribute?displayProperty=nameWithType> attributes on generated entities. This aspect, including the behavior of defer-loading classes under serialization, is the major subject of this topic.  
   
 ### Definitions  
   
@@ -76,6 +79,6 @@ This topic describes [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq
  [!code-vb[DLinqSerialization#7](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqSerialization/vb/northwind-ser.vb#7)]  
   
 ## See Also  
- [Background Information](../../../../../../docs/framework/data/adonet/sql/linq/background-information.md)   
- [SqlMetal.exe (Code Generation Tool)](../../../../../../docs/framework/tools/sqlmetal-exe-code-generation-tool.md)   
+ [Background Information](../../../../../../docs/framework/data/adonet/sql/linq/background-information.md)  
+ [SqlMetal.exe (Code Generation Tool)](../../../../../../docs/framework/tools/sqlmetal-exe-code-generation-tool.md)  
  [How to: Make Entities Serializable](../../../../../../docs/framework/data/adonet/sql/linq/how-to-make-entities-serializable.md)

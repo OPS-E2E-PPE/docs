@@ -1,5 +1,5 @@
 ---
-title: "&lt;webHttp&gt; | Microsoft Docs"
+title: "&lt;webHttp&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -38,8 +38,8 @@ This element specifies the <xref:System.ServiceModel.Description.WebHttpBehavior
 |Attribute|Description|  
 |---------------|-----------------|  
 |automaticFormatSelectionEnabled|When this property is set to `true`, the WCF infrastructure determines the best format to use. Automatic format selection is disabled by default for backwards compatibility. Automatic format selection can be enabled programmatically or through configuration.|  
-|defaultBodyStyle|Specifies the default body style of returned messages. [!INCLUDE[crdefault](../../../../../includes/crdefault-md.md)]<xref:System.ServiceModel.Web.WebMessageBodyStyle> and [WCF Web HTTP Formatting](../../../../../docs/framework/wcf/feature-details/wcf-web-http-formatting.md).|  
-|defaultOutgoingResponseFormat|Specifies the default outgoing response format for messages. [!INCLUDE[crdefault](../../../../../includes/crdefault-md.md)]For more information see, [WCF Web HTTP Formatting](../../../../../docs/framework/wcf/feature-details/wcf-web-http-formatting.md).|  
+|defaultBodyStyle|Specifies the default body style of returned messages. [!INCLUDE[crdefault](../../../../../includes/crdefault-md.md)] <xref:System.ServiceModel.Web.WebMessageBodyStyle> and [WCF Web HTTP Formatting](../../../../../docs/framework/wcf/feature-details/wcf-web-http-formatting.md).|  
+|defaultOutgoingResponseFormat|Specifies the default outgoing response format for messages. [!INCLUDE[crdefault](../../../../../includes/crdefault-md.md)] [WCF Web HTTP Formatting](../../../../../docs/framework/wcf/feature-details/wcf-web-http-formatting.md).|  
 |faultExceptionEnabled|Gets or sets the flag that specifies whether a FaultException is generated when an internal server error (HTTP status code: 500) occurs.|  
 |helpEnabled|Gets or sets a value that determines if the Help page is enabled.|  
   
@@ -53,7 +53,7 @@ This element specifies the <xref:System.ServiceModel.Description.WebHttpBehavior
 |[\<behavior>](../../../../../docs/framework/configure-apps/file-schema/wcf/behavior-of-endpointbehaviors.md)|Specifies the set of endpoint behaviors.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.WebHttpElement>   
- <xref:System.ServiceModel.Description.WebHttpBehavior>   
- [AJAX Integration and JSON Support](../../../../../docs/framework/wcf/feature-details/ajax-integration-and-json-support.md)   
+ <xref:System.ServiceModel.Configuration.WebHttpElement>  
+ <xref:System.ServiceModel.Description.WebHttpBehavior>  
+ [AJAX Integration and JSON Support](../../../../../docs/framework/wcf/feature-details/ajax-integration-and-json-support.md)  
  [\<webHttpBinding>](../../../../../docs/framework/configure-apps/file-schema/wcf/webhttpbinding.md)

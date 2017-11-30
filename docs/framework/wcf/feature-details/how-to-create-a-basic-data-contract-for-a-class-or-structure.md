@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Basic Data Contract for a Class or Structure | Microsoft Docs"
+title: "How to: Create a Basic Data Contract for a Class or Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "DataMemberAttribute"
   - "DataContractAttribute class"
@@ -29,9 +29,9 @@ This topic shows the basic steps to create a data contract using a class or stru
   
 ### To create a basic data contract for a class or structure  
   
-1.  Declare that the type has a data contract by applying the <xref:System.Runtime.Serialization.DataContractAttribute> attribute to the class. Note that all public types, including those without attributes, are serializable. The <xref:System.Runtime.Serialization.DataContractSerializer> infers a data contract if the <xref:System.Runtime.Serialization.DataContractAttribute> attribute is absent. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)], see [Serializable Types](../../../../docs/framework/wcf/feature-details/serializable-types.md).  
+1.  Declare that the type has a data contract by applying the <xref:System.Runtime.Serialization.DataContractAttribute> attribute to the class. Note that all public types, including those without attributes, are serializable. The <xref:System.Runtime.Serialization.DataContractSerializer> infers a data contract if the <xref:System.Runtime.Serialization.DataContractAttribute> attribute is absent. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Serializable Types](../../../../docs/framework/wcf/feature-details/serializable-types.md).  
   
-2.  Define the members (properties, fields, or events) that are serialized by applying the <xref:System.Runtime.Serialization.DataMemberAttribute> attribute to each member. These members are called data members. By default, all public types are serializable. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)], see [Serializable Types](../../../../docs/framework/wcf/feature-details/serializable-types.md).  
+2.  Define the members (properties, fields, or events) that are serialized by applying the <xref:System.Runtime.Serialization.DataMemberAttribute> attribute to each member. These members are called data members. By default, all public types are serializable. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [Serializable Types](../../../../docs/framework/wcf/feature-details/serializable-types.md).  
   
     > [!NOTE]
     >  You can apply the <xref:System.Runtime.Serialization.DataMemberAttribute> attribute to private fields, causing the data to be exposed to others. Be sure that the member does not contain sensitive data.  
@@ -43,8 +43,8 @@ This topic shows the basic steps to create a data contract using a class or stru
  [!code-vb[DataContractAttribute#2](../../../../samples/snippets/visualbasic/VS_Snippets_CFX/datacontractattribute/vb/overview.vb#2)]  
   
 ## See Also  
- <xref:System.Runtime.Serialization.DataContractAttribute>   
- <xref:System.Runtime.Serialization.DataMemberAttribute>   
- [Using Data Contracts](../../../../docs/framework/wcf/feature-details/using-data-contracts.md)   
- [Getting Started Tutorial](../../../../docs/framework/wcf/getting-started-tutorial.md)   
+ <xref:System.Runtime.Serialization.DataContractAttribute>  
+ <xref:System.Runtime.Serialization.DataMemberAttribute>  
+ [Using Data Contracts](../../../../docs/framework/wcf/feature-details/using-data-contracts.md)  
+ [Getting Started Tutorial](../../../../docs/framework/wcf/getting-started-tutorial.md)  
  [Getting Started](../../../../docs/framework/wcf/samples/getting-started-sample.md)

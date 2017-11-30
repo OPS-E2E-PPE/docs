@@ -1,5 +1,5 @@
 ---
-title: Designing validations in the domain model layer | Microsoft Docs 
+title: Designing validations in the domain model layer
 description: .NET Microservices Architecture for Containerized .NET Applications | Designing validations in the domain model layer
 keywords: Docker, Microservices, ASP.NET, Container
 author: CESARDELATORRE
@@ -7,12 +7,13 @@ ms.author: wiwagn
 ms.date: 05/26/2017
 ms.prod: .net-core
 ms.technology: dotnet-docker
+ms.topic: article
 ---
 # Designing validations in the domain model layer
 
 In DDD, validation rules can be thought as invariants. The main responsibility of an aggregate is to enforce invariants across state changes for all the entities within that aggregate.
 
-Domain entities should always be valid entities. There are a certain number of invariants for an object that should always be true. For example, an order item object always has to have a quantity that must be must be a positive integer, plus an article name and price. Therefore, invariants enforcement is the responsibility of the domain entities (especially of the aggregate root) and an entity object should not be able to exist without being valid. Invariant rules are simply expressed as contracts, and exceptions or notifications are raised when they are violated.
+Domain entities should always be valid entities. There are a certain number of invariants for an object that should always be true. For example, an order item object always has to have a quantity that must be a positive integer, plus an article name and price. Therefore, invariants enforcement is the responsibility of the domain entities (especially of the aggregate root) and an entity object should not be able to exist without being valid. Invariant rules are simply expressed as contracts, and exceptions or notifications are raised when they are violated.
 
 The reasoning behind this is that many bugs occur because objects are in a state they should never have been in. The following is a good explanation from Greg Young in an [online discussion](http://jeffreypalermo.com/blog/the-fallacy-of-the-always-valid-entity/):
 
@@ -107,10 +108,10 @@ Using field validation with data annotations, for example, you do not duplicate 
 ## Additional resources
 
 -   **Rachel Appel. Introduction to model validation in ASP.NET Core MVC**
-    [*https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation*](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation)
+    [*https://docs.microsoft.com/aspnet/core/mvc/models/validation*](https://docs.microsoft.com/aspnet/core/mvc/models/validation)
 
 -   **Rick Anderson. Adding validation**
-    [*https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation*](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/validation)
+    [*https://docs.microsoft.com/aspnet/core/tutorials/first-mvc-app/validation*](https://docs.microsoft.com/aspnet/core/tutorials/first-mvc-app/validation)
 
 -   **Martin Fowler. Replacing Throwing Exceptions with Notification in Validations**
     [*https://martinfowler.com/articles/replaceThrowWithNotification.html*](https://martinfowler.com/articles/replaceThrowWithNotification.html)

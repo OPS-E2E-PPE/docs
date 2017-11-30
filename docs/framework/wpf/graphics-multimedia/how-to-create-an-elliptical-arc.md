@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Elliptical Arc | Microsoft Docs"
+title: "How to: Create an Elliptical Arc"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "graphics [WPF], elliptical arcs"
-  - "elliptical arcs, creating"
-  - "arcs, elliptical"
+  - "elliptical arcs [WPF], creating"
+  - "arcs [WPF], elliptical"
 ms.assetid: 3dcfe502-3485-45de-99fb-d53a1367c484
 caps.latest.revision: 9
 author: dotnet-bot
@@ -29,7 +29,7 @@ This example shows how to draw an elliptical arc. To create an elliptical arc, u
   
  In [!INCLUDE[TLA#tla_xaml](../../../../includes/tlasharptla-xaml-md.md)], you can use attribute syntax to describe a path.  
   
- [!code-xml[GeometrySample#56](../../../../samples/snippets/csharp/VS_Snippets_Wpf/GeometrySample/CS/geometryattributesyntaxexample.xaml#56)]  
+ [!code-xaml[GeometrySample#56](../../../../samples/snippets/csharp/VS_Snippets_Wpf/GeometrySample/CS/geometryattributesyntaxexample.xaml#56)]  
   
  [xaml]  
   
@@ -37,10 +37,10 @@ This example shows how to draw an elliptical arc. To create an elliptical arc, u
   
  In [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)], you can also draw an elliptical arc by explicitly using object tags. The following is equivalent to the preceding [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] markup.  
   
- [!code-xml[GeometrySample#36](../../../../samples/snippets/csharp/VS_Snippets_Wpf/GeometrySample/CS/pathgeometryexample.xaml#36)]  
+ [!code-xaml[GeometrySample#36](../../../../samples/snippets/csharp/VS_Snippets_Wpf/GeometrySample/CS/pathgeometryexample.xaml#36)]  
   
  This example is part of a larger sample. For the complete sample, see the [Geometries Sample](http://go.microsoft.com/fwlink/?LinkID=159989).  
   
 ## See Also  
- [Create a Quadratic Bezier Curve](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-quadratic-bezier-curve.md)   
+ [Create a Quadratic Bezier Curve](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-quadratic-bezier-curve.md)  
  [Create a Cubic Bezier Curve](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-cubic-bezier-curve.md)

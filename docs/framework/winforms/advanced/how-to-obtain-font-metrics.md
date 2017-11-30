@@ -1,5 +1,5 @@
 ---
-title: "How to: Obtain Font Metrics | Microsoft Docs"
+title: "How to: Obtain Font Metrics"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "fonts, obtaining metrics"
-  - "font metrics, obtaining"
+  - "fonts [Windows Forms], obtaining metrics"
+  - "font metrics [Windows Forms], obtaining"
 ms.assetid: ff7c0616-67f7-4fa2-84ee-b8d642f2b09b
 caps.latest.revision: 13
 author: dotnet-bot
@@ -61,5 +62,5 @@ The <xref:System.Drawing.FontFamily> class provides the following methods that r
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)   
+ [Graphics and Drawing in Windows Forms](../../../../docs/framework/winforms/advanced/graphics-and-drawing-in-windows-forms.md)  
  [Using Fonts and Text](../../../../docs/framework/winforms/advanced/using-fonts-and-text.md)

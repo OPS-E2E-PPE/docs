@@ -1,5 +1,5 @@
 ---
-title: "How to: Host a non-service workflow in IIS | Microsoft Docs"
+title: "How to: Host a non-service workflow in IIS"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -679,11 +679,11 @@ namespace CreationClient
  This example may seem confusing because you never implement a service that implements `IWorkflowCreation`. This is because the `CreationEndpoint` does this for you.  
   
 ## See Also  
- [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)   
- [Hosting in Internet Information Services](../../../../docs/framework/wcf/feature-details/hosting-in-internet-information-services.md)   
- [Internet Information Services Hosting Best Practices](../../../../docs/framework/wcf/feature-details/internet-information-services-hosting-best-practices.md)   
- [Internet Information Service Hosting Instructions](../../../../docs/framework/wcf/samples/internet-information-service-hosting-instructions.md)   
- [Windows Workflow Architecture](../../../../docs/framework/windows-workflow-foundation/architecture.md)   
- [WorkflowHostingEndpoint Resume Bookmark](../../../../docs/framework/windows-workflow-foundation/samples/workflowhostingendpoint-resume-bookmark.md)   
- [Rehosting the Workflow Designer](../../../../docs/framework/windows-workflow-foundation/rehosting-the-workflow-designer.md)   
+ [Workflow Services](../../../../docs/framework/wcf/feature-details/workflow-services.md)  
+ [Hosting in Internet Information Services](../../../../docs/framework/wcf/feature-details/hosting-in-internet-information-services.md)  
+ [Internet Information Services Hosting Best Practices](../../../../docs/framework/wcf/feature-details/internet-information-services-hosting-best-practices.md)  
+ [Internet Information Service Hosting Instructions](../../../../docs/framework/wcf/samples/internet-information-service-hosting-instructions.md)  
+ [Windows Workflow Architecture](../../../../docs/framework/windows-workflow-foundation/architecture.md)  
+ [WorkflowHostingEndpoint Resume Bookmark](../../../../docs/framework/windows-workflow-foundation/samples/workflowhostingendpoint-resume-bookmark.md)  
+ [Rehosting the Workflow Designer](../../../../docs/framework/windows-workflow-foundation/rehosting-the-workflow-designer.md)  
  [Windows Workflow Overview](../../../../docs/framework/windows-workflow-foundation/overview.md)

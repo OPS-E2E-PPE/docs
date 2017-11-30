@@ -1,5 +1,5 @@
 ---
-title: "Data Tracing in ADO.NET | Microsoft Docs"
+title: "Data Tracing in ADO.NET"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -58,6 +58,6 @@ add target ring_buffer with (track_causality=on)
 ```  
   
 ## See Also  
- [Network Tracing in the .NET Framework](../../../../docs/framework/network-programming/network-tracing.md)   
- [Tracing and Instrumenting Applications](../../../../docs/framework/debug-trace-profile/tracing-and-instrumenting-applications.md)   
+ [Network Tracing in the .NET Framework](../../../../docs/framework/network-programming/network-tracing.md)  
+ [Tracing and Instrumenting Applications](../../../../docs/framework/debug-trace-profile/tracing-and-instrumenting-applications.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

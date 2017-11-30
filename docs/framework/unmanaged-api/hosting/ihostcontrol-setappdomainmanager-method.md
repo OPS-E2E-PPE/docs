@@ -1,5 +1,5 @@
 ---
-title: "IHostControl::SetAppDomainManager Method | Microsoft Docs"
+title: "IHostControl::SetAppDomainManager Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostControl::SetAppDomainManager"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostControl::SetAppDomainManager method [.NET Framework hosting]"
   - "SetAppDomainManager method [.NET Framework hosting]"
@@ -75,6 +73,6 @@ HRESULT SetAppDomainManager (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- <xref:System.AppDomain>   
- <xref:System.AppDomainManager>   
+ <xref:System.AppDomain>  
+ <xref:System.AppDomainManager>  
  [IHostControl Interface](../../../../docs/framework/unmanaged-api/hosting/ihostcontrol-interface.md)

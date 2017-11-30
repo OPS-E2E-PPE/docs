@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::RemapToken Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::RemapToken Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::RemapToken"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::RemapToken method [.NET Framework debugging]"
   - "RemapToken method [.NET Framework debugging]"

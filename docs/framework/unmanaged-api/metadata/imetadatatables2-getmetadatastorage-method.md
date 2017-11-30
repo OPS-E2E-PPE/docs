@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataTables2::GetMetaDataStorage Method | Microsoft Docs"
+title: "IMetaDataTables2::GetMetaDataStorage Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataTables2::GetMetaDataStorage"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMetaDataStorage method [.NET Framework metadata]"
   - "IMetaDataTables2::GetMetaDataStorage method [.NET Framework metadata]"
@@ -59,5 +57,5 @@ HRESULT GetMetaDataStorage (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IMetaDataTables2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables2-interface.md)   
+ [IMetaDataTables2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables2-interface.md)  
  [IMetaDataTables Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable the Net.TCP Port Sharing Service | Microsoft Docs"
+title: "How to: Enable the Net.TCP Port Sharing Service"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -40,5 +40,5 @@ manager: "erikre"
 ## Example  
   
 ## See Also  
- [Net.TCP Port Sharing](../../../../docs/framework/wcf/feature-details/net-tcp-port-sharing.md)   
+ [Net.TCP Port Sharing](../../../../docs/framework/wcf/feature-details/net-tcp-port-sharing.md)  
  [Configuring the Net.TCP Port Sharing Service](../../../../docs/framework/wcf/feature-details/configuring-the-net-tcp-port-sharing-service.md)

@@ -1,5 +1,5 @@
 ---
-title: "&lt;memoryCache&gt; Element (Cache Settings) | Microsoft Docs"
+title: "&lt;memoryCache&gt; Element (Cache Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "<memoryCache> element"
   - "caching [.NET Framework], configuration"
@@ -102,6 +97,6 @@ Defines an element that is used to configure a cache that is based on the <xref:
 ```  
   
 ## See Also  
- <xref:System.Runtime.Caching.MemoryCache>   
- [\<system.runtime.caching> Element (Cache Settings)](../../../../../docs/framework/configure-apps/file-schema/runtime/system-runtime-caching-element-cache-settings.md)   
+ <xref:System.Runtime.Caching.MemoryCache>  
+ [\<system.runtime.caching> Element (Cache Settings)](../../../../../docs/framework/configure-apps/file-schema/runtime/system-runtime-caching-element-cache-settings.md)  
  [\<namedCaches> Element (Cache Settings)](../../../../../docs/framework/configure-apps/file-schema/runtime/namedcaches-element-cache-settings.md)

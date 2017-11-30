@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Ink | Microsoft Docs"
+title: "Getting Started with Ink"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,15 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "procedural code in lieu of XAML"
-  - "gradient brush, animating colors of"
-  - "XAML, procedural code in lieu of"
-  - "animation, gradient brush colors"
-  - "brushes, animating colors of"
+  - "procedural code in lieu of XAML [WPF]"
+  - "gradient brush [WPF], animating colors of"
+  - "XAML [WPF], procedural code in lieu of"
+  - "animation [WPF], gradient brush colors"
+  - "brushes [WPF], animating colors of"
 ms.assetid: 760332dd-594a-475d-865b-01659db8cab7
 caps.latest.revision: 10
 author: dotnet-bot
@@ -52,20 +55,20 @@ Incorporating digital ink into your applications is easier than ever. Ink has ev
 #### Spice Up Your Application  
  Let’s take advantage of some features of the [!INCLUDE[TLA2#tla_winclient](../../../../includes/tla2sharptla-winclient-md.md)].  Replace everything between the opening \<Window> and closing \</Window> tags with the following markup to get a gradient brush background on your inking surface.  
   
- [!code-xml[DigitalInkTopics#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#1)]  
-[!code-xml[DigitalInkTopics#1a](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#1a)]  
+ [!code-xaml[DigitalInkTopics#1](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#1)]  
+[!code-xaml[DigitalInkTopics#1a](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#1a)]  
   
 #### Using Animation  
  For fun, let's animate the colors of the gradient brush. Add the following [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)] after the closing `</InkCanvas>` tag but before the closing `</Page>` tag.  
   
- [!code-xml[DigitalInkTopics#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#2)]  
+ [!code-xaml[DigitalInkTopics#2](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window1.xaml#2)]  
   
 #### Adding Some Code Behind the XAML  
  While XAML makes it very easy to design the user interface, any real-world application needs to add code to handle events. Here is a simple example that zooms in on the ink in response to a right-click from a mouse:  
   
  Set the `MouseRightButtonUp` handler in your [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)]:  
   
- [!code-xml[DigitalInkTopics#3](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window2.xaml#3)]  
+ [!code-xaml[DigitalInkTopics#3](../../../../samples/snippets/csharp/VS_Snippets_Wpf/DigitalInkTopics/CSharp/Window2.xaml#3)]  
   
  In Visual Studio’s Solution Explorer, expand Windows1.xaml and open the code-behind file, Window1.xaml.cs or Window1.xaml.vb if you are using Visual Basic. Add the following event handler code:  
   
@@ -81,7 +84,7 @@ Incorporating digital ink into your applications is easier than ever. Ink has ev
  [!code-vb[InkCanvasConsoleApp#1](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/InkCanvasConsoleApp/VisualBasic/Module1.vb#1)]  
   
 ## See Also  
- [Digital Ink](../../../../docs/framework/wpf/advanced/digital-ink.md)   
- [Collecting Ink](../../../../docs/framework/wpf/advanced/collecting-ink.md)   
- [Handwriting Recognition](../../../../docs/framework/wpf/advanced/handwriting-recognition.md)   
+ [Digital Ink](../../../../docs/framework/wpf/advanced/digital-ink.md)  
+ [Collecting Ink](../../../../docs/framework/wpf/advanced/collecting-ink.md)  
+ [Handwriting Recognition](../../../../docs/framework/wpf/advanced/handwriting-recognition.md)  
  [Storing Ink](../../../../docs/framework/wpf/advanced/storing-ink.md)

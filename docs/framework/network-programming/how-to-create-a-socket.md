@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Socket | Microsoft Docs"
+title: "How to: Create a Socket"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "application protocols, sockets"
   - "Networking"
@@ -67,5 +65,5 @@ Dim s as New Socket(AddressFamily.InterNetwork, _
  After a **Socket** is created, it can either initiate a connection to a remote endpoint or receive connections from remote devices.  
   
 ## See Also  
- [Using Client Sockets](../../../docs/framework/network-programming/using-client-sockets.md)   
+ [Using Client Sockets](../../../docs/framework/network-programming/using-client-sockets.md)  
  [Listening with Sockets](../../../docs/framework/network-programming/listening-with-sockets.md)

@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyImport::GetAssemblyFromScope Method | Microsoft Docs"
+title: "IMetaDataAssemblyImport::GetAssemblyFromScope Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyImport::GetAssemblyFromScope"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyImport::GetAssemblyFromScope method [.NET Framework metadata]"
   - "GetAssemblyFromScope method [.NET Framework metadata]"

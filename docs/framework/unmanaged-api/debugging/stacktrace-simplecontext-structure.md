@@ -1,5 +1,5 @@
 ---
-title: "StackTrace_SimpleContext Structure | Microsoft Docs"
+title: "StackTrace_SimpleContext Structure"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SimpleContext"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SimpleContext structure [.NET Framework debugging]"
   - "StackTrace_SimpleContext structure [.NET Framework debugging]"
@@ -63,5 +61,5 @@ struct StackTrace_SimpleContext
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)   
+ [Debugging Structures](../../../../docs/framework/unmanaged-api/debugging/debugging-structures.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule::GetSize Method | Microsoft Docs"
+title: "ICorDebugModule::GetSize Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule::GetSize"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSize method, ICorDebugModule interface [.NET Framework debugging]"
   - "ICorDebugModule::GetSize method [.NET Framework debugging]"

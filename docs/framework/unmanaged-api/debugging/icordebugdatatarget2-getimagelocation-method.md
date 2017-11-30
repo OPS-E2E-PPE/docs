@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugDataTarget2::GetImageLocation Method | Microsoft Docs"
+title: "ICorDebugDataTarget2::GetImageLocation Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 696afe71-5852-478d-a33f-b2d2dbc4b91f
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -58,5 +56,5 @@ HRESULT GetImageLocation(    [in] CORDB_ADDRESS baseAddress,
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget2-interface.md)   
+ [ICorDebugDataTarget2 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugdatatarget2-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::SetManifestResourceProps Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::SetManifestResourceProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::SetManifestResourceProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "SetManifestResourceProps method [.NET Framework metadata]"
   - "IMetaDataAssemblyEmit::SetManifestResourceProps method [.NET Framework metadata]"

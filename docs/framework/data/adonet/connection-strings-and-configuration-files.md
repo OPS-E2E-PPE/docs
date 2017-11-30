@@ -1,5 +1,5 @@
 ---
-title: "Connection Strings and Configuration Files | Microsoft Docs"
+title: "Connection Strings and Configuration Files"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 37df2641-661e-407a-a3fb-7bf9540f01e8
 caps.latest.revision: 4
 author: "JennieHubbard"
@@ -173,9 +176,9 @@ Embedding connection strings in your application's code can lead to security vul
  For more information securing ASP.NET applications, see [NIB: ASP.NET Security](http://msdn.microsoft.com/en-us/04b37532-18d9-40b4-8e5f-ee09a70b311d) and [ASP.NET 2.0 Security Practices at a Glance](http://go.microsoft.com/fwlink/?LinkId=59997) on the ASP.NET Developer Center.  
   
 ## See Also  
- [Connection String Builders](../../../../docs/framework/data/adonet/connection-string-builders.md)   
- [Protecting Connection Information](../../../../docs/framework/data/adonet/protecting-connection-information.md)   
- [Using the Configuration Classes](http://msdn.microsoft.com/library/98d2b386-baf6-4a17-974b-76e3b4c87acc)   
- [Configuring Apps](../../../../docs/framework/configure-apps/index.md)   
- [ASP.NET Web Site Administration](http://msdn.microsoft.com/library/1298034b-5f7d-464d-abd1-ad9e6b3eeb7e)   
+ [Connection String Builders](../../../../docs/framework/data/adonet/connection-string-builders.md)  
+ [Protecting Connection Information](../../../../docs/framework/data/adonet/protecting-connection-information.md)  
+ [Using the Configuration Classes](http://msdn.microsoft.com/library/98d2b386-baf6-4a17-974b-76e3b4c87acc)  
+ [Configuring Apps](../../../../docs/framework/configure-apps/index.md)  
+ [ASP.NET Web Site Administration](http://msdn.microsoft.com/library/1298034b-5f7d-464d-abd1-ad9e6b3eeb7e)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

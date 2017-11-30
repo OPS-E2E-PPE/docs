@@ -27,7 +27,7 @@
 ## Remarks  
  Creating a <xref:System.Xml.Serialization.SoapAttributes> is part of a process that overrides the default way the <xref:System.Xml.Serialization.XmlSerializer> serializes class instances. For example, suppose you want to serialize an object that is created from a DLL that has an inaccessible source. By using the <xref:System.Xml.Serialization.SoapAttributeOverrides> class, you can augment or otherwise control how the object is serialized.  
   
- The members of the <xref:System.Xml.Serialization.SoapAttributes> class correspond directly to a family of attribute classes that control serialization. For example, the <xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A> property must be set to a <xref:System.Xml.Serialization.SoapAttributeAttribute>, which allows you to override serialization of a field or property by instructing the <xref:System.Xml.Serialization.XmlSerializer> to serialize the property value as an encoded SOAP attribute. For a complete list of attributes that control encoded SOAP serialization, see [Attributes That Control Encoded SOAP Serialization](~/docs/framework/serialization/attributes-that-control-encoded-soap-serialization.md).  
+ The members of the <xref:System.Xml.Serialization.SoapAttributes> class correspond directly to a family of attribute classes that control serialization. For example, the <xref:System.Xml.Serialization.SoapAttributes.SoapAttribute%2A> property must be set to a <xref:System.Xml.Serialization.SoapAttributeAttribute>, which allows you to override serialization of a field or property by instructing the <xref:System.Xml.Serialization.XmlSerializer> to serialize the property value as an encoded SOAP attribute. For a complete list of attributes that control encoded SOAP serialization, see [Attributes That Control Encoded SOAP Serialization](~/docs/standard/serialization/attributes-that-control-encoded-soap-serialization.md).  
   
  For more details about adding an instance of the <xref:System.Xml.Serialization.SoapAttributes> class to an instance of the <xref:System.Xml.Serialization.SoapAttributeOverrides> class, see the <xref:System.Xml.Serialization.SoapAttributeOverrides> class overview.  
   
@@ -42,6 +42,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -82,6 +83,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -154,6 +156,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName="SoapDefaultValue">
@@ -197,6 +200,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName="SoapElement">
@@ -242,6 +246,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName="SoapEnum">
@@ -287,6 +292,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName="SoapIgnore">
@@ -335,6 +341,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
     <Member MemberName="SoapType">
@@ -378,7 +385,18 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Xml.Serialization.XmlAttributes" />
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>System.Xml</AssemblyName>
+        <AssemblyVersion>2.0.5.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Xml.Serialization.SoapAttributes" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

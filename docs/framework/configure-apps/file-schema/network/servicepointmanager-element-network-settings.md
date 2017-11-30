@@ -1,5 +1,5 @@
 ---
-title: "&lt;servicePointManager&gt; Element (Network Settings) | Microsoft Docs"
+title: "&lt;servicePointManager&gt; Element (Network Settings)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -12,11 +12,6 @@ ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#servicePointManager"
   - "http://schemas.microsoft.com/.NetConfiguration/v2.0#configuration/system.net/settings/servicePointManager"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "servicePointManager element"
   - "<servicePointManager> element"
@@ -37,7 +32,7 @@ Configures connections to network resources.
 ## Syntax  
   
 ```xml  
-      <servicePointManager  
+<servicePointManager  
   checkCertificateName="true|false"  
   checkCertificateRevocationList="true|false"  
   encryptionPolicy="AllowNoEncryption|NoEncryption|RequireEncryption"  
@@ -78,6 +73,6 @@ Configures connections to network resources.
  This element can be used in the application configuration file or the machine configuration file (Machine.config).  
   
 ## See Also  
- <xref:System.Net.ServicePointManager>   
- <xref:System.Net.Security.EncryptionPolicy>   
+ <xref:System.Net.ServicePointManager>  
+ <xref:System.Net.Security.EncryptionPolicy>  
  [Network Settings Schema](../../../../../docs/framework/configure-apps/file-schema/network/index.md)

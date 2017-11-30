@@ -1,5 +1,5 @@
 ---
-title: "ImportFile Method | Microsoft Docs"
+title: "ImportFile Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ImportFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ImportFile method"
 ms.assetid: bcbe321f-b83a-4e9a-9f10-8d913e244dc9
@@ -71,6 +69,6 @@ HRESULT ImportFile(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

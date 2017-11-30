@@ -1,5 +1,5 @@
 ---
-title: "IDebuggerInfo::IsDebuggerAttached Method | Microsoft Docs"
+title: "IDebuggerInfo::IsDebuggerAttached Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IsDebuggerAttached"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IDebuggerInfo::IsDebuggerAttached method [.NET Framework hosting]"
   - "IsDebuggerAttached method, IDebuggerInfo interface [.NET Framework hosting]"

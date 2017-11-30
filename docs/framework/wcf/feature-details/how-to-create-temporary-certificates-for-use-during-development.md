@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Temporary Certificates for Use During Development | Microsoft Docs"
+title: "How to: Create Temporary Certificates for Use During Development"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -69,7 +69,7 @@ When developing a secure service or client using [!INCLUDE[indigo1](../../../../
   
 #### To install a self-signed certificate in the Trusted Root Certification Authorities  
   
-1.  Open the certificate snap-in. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)][How to: View Certificates with the MMC Snap-in](../../../../docs/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in.md).  
+1.  Open the certificate snap-in. [!INCLUDE[crdefault](../../../../includes/crdefault-md.md)] [How to: View Certificates with the MMC Snap-in](../../../../docs/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in.md).  
   
 2.  Open the folder to store the certificate, either the **Local Computer** or the **Current User**.  
   
@@ -118,6 +118,6 @@ When developing a secure service or client using [!INCLUDE[indigo1](../../../../
  Be sure to delete any temporary root authority certificates from the **Trusted Root Certification Authorities** and **Personal** folders by right-clicking the certificate, then clicking **Delete**.  
   
 ## See Also  
- [Working with Certificates](../../../../docs/framework/wcf/feature-details/working-with-certificates.md)   
- [How to: View Certificates with the MMC Snap-in](../../../../docs/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in.md)   
+ [Working with Certificates](../../../../docs/framework/wcf/feature-details/working-with-certificates.md)  
+ [How to: View Certificates with the MMC Snap-in](../../../../docs/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in.md)  
  [Securing Services and Clients](../../../../docs/framework/wcf/feature-details/securing-services-and-clients.md)

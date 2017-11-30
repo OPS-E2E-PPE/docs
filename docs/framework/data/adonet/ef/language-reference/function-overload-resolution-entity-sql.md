@@ -1,5 +1,5 @@
 ---
-title: "Function Overload Resolution (Entity SQL) | Microsoft Docs"
+title: "Function Overload Resolution (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 9c648054-3808-4a69-9d3e-98e6a4f9c5ca
 caps.latest.revision: 2
 author: "JennieHubbard"
@@ -41,6 +37,6 @@ This topic describes how [!INCLUDE[esql](../../../../../../includes/esql-md.md)]
  For user-defined functions, the definition for an inline query function takes precedence even when a model-defined function exists with a signature that is a better match for the user-defined function.  
   
 ## See Also  
- [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)   
- [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)   
+ [Entity SQL Reference](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-reference.md)  
+ [Entity SQL Overview](../../../../../../docs/framework/data/adonet/ef/language-reference/entity-sql-overview.md)  
  [Functions](../../../../../../docs/framework/data/adonet/ef/language-reference/functions-entity-sql.md)

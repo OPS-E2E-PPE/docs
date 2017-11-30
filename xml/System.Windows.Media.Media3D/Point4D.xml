@@ -115,6 +115,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Addition(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -157,6 +158,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Equality(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -187,6 +189,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Equality(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -229,6 +232,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Equality(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -292,6 +296,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Multiply(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Matrix3D)" />
       </Docs>
     </Member>
     <Member MemberName="Offset">
@@ -337,7 +342,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Addition">
-      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D op_Addition (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D operator + (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Media.Media3D.Point4D op_Addition(valuetype System.Windows.Media.Media3D.Point4D point1, valuetype System.Windows.Media.Media3D.Point4D point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point4D.op_Addition(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       <MemberType>Method</MemberType>
@@ -368,10 +373,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.Add(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.Media.Media3D.Point4D point1, valuetype System.Windows.Media.Media3D.Point4D point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point4D.op_Equality(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       <MemberType>Method</MemberType>
@@ -410,10 +416,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.Windows.Media.Media3D.Point4D.Equals" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.Media.Media3D.Point4D point1, valuetype System.Windows.Media.Media3D.Point4D point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point4D.op_Inequality(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       <MemberType>Method</MemberType>
@@ -455,7 +462,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Multiply">
-      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D op_Multiply (System.Windows.Media.Media3D.Point4D point, System.Windows.Media.Media3D.Matrix3D matrix);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D operator * (System.Windows.Media.Media3D.Point4D point, System.Windows.Media.Media3D.Matrix3D matrix);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Media.Media3D.Point4D op_Multiply(valuetype System.Windows.Media.Media3D.Point4D point, valuetype System.Windows.Media.Media3D.Matrix3D matrix) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point4D.op_Multiply(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Matrix3D)" />
       <MemberType>Method</MemberType>
@@ -486,10 +493,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.Multiply(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Matrix3D)" />
       </Docs>
     </Member>
     <Member MemberName="op_Subtraction">
-      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D op_Subtraction (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Media.Media3D.Point4D operator - (System.Windows.Media.Media3D.Point4D point1, System.Windows.Media.Media3D.Point4D point2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Windows.Media.Media3D.Point4D op_Subtraction(valuetype System.Windows.Media.Media3D.Point4D point1, valuetype System.Windows.Media.Media3D.Point4D point2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point4D.op_Subtraction(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       <MemberType>Method</MemberType>
@@ -520,6 +528,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.Subtract(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -586,6 +595,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Media.Media3D.Point4D.op_Subtraction(System.Windows.Media.Media3D.Point4D,System.Windows.Media.Media3D.Point4D)" />
       </Docs>
     </Member>
     <Member MemberName="System.IFormattable.ToString">
@@ -753,5 +763,23 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName="Equals">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Compares two <see cref="T:System.Windows.Media.Media3D.Point4D" /> structures for equality.</summary>
+      </Docs>
+    </MemberGroup>
+    <MemberGroup MemberName="ToString">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Creates a <see cref="T:System.String" /> representation of this <see cref="T:System.Windows.Media.Media3D.Point4D" /> structure.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

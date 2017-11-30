@@ -1,5 +1,5 @@
 ---
-title: "Application Settings for Windows Forms | Microsoft Docs"
+title: "Application Settings for Windows Forms"
 ms.custom: ""
 ms.date: "04/07/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ClientApplicationSettings"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "application settings [Windows Forms]"
   - "Windows Forms, application settings"

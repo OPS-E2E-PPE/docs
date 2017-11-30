@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugObjectValue::GetManagedCopy Method | Microsoft Docs"
+title: "ICorDebugObjectValue::GetManagedCopy Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugObjectValue::GetManagedCopy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetManagedCopy method [.NET Framework debugging]"
   - "ICorDebugObjectValue::GetManagedCopy method [.NET Framework debugging]"

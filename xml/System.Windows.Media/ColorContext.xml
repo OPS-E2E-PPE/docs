@@ -28,6 +28,9 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Media.Imaging.ColorConvertedBitmap" />
+    <altmember cref="T:System.Windows.Media.PixelFormat" />
+    <altmember cref="T:System.Windows.Media.PixelFormats" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -91,6 +94,9 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Media.PixelFormat" />
+        <altmember cref="T:System.Windows.Media.PixelFormats" />
+        <altmember cref="T:System.Windows.Media.Color" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -141,7 +147,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.Media.ColorContext context1, System.Windows.Media.ColorContext context2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.Media.ColorContext context1, System.Windows.Media.ColorContext context2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class System.Windows.Media.ColorContext context1, class System.Windows.Media.ColorContext context2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.ColorContext.op_Equality(System.Windows.Media.ColorContext,System.Windows.Media.ColorContext)" />
       <MemberType>Method</MemberType>
@@ -171,7 +177,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.Media.ColorContext context1, System.Windows.Media.ColorContext context2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.Media.ColorContext context1, System.Windows.Media.ColorContext context2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class System.Windows.Media.ColorContext context1, class System.Windows.Media.ColorContext context2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.ColorContext.op_Inequality(System.Windows.Media.ColorContext,System.Windows.Media.ColorContext)" />
       <MemberType>Method</MemberType>
@@ -242,5 +248,14 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of <see cref="T:System.Windows.Media.ColorContext" />.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

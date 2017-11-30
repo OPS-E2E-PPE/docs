@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport::EnumModuleRefs Method | Microsoft Docs"
+title: "IMetaDataImport::EnumModuleRefs Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport::EnumModuleRefs"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumModuleRefs method [.NET Framework metadata]"
   - "IMetaDataImport::EnumModuleRefs method [.NET Framework metadata]"
@@ -74,5 +72,5 @@ HRESULT EnumModuleRefs (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)   
+ [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)  
  [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)

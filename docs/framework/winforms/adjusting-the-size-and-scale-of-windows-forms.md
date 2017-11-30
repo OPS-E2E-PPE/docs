@@ -1,5 +1,5 @@
 ---
-title: "Adjusting the size and scale of Windows Forms | Microsoft Docs"
+title: "Adjusting the size and scale of Windows Forms"
 ms.custom: ""
 ms.date: "04/07/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "Windows Forms, changing size"
   - "Windows Forms, adjusting size"

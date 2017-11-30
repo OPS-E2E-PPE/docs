@@ -1,5 +1,5 @@
 ---
-title: "IGCThreadControl::SuspensionStarting Method | Microsoft Docs"
+title: "IGCThreadControl::SuspensionStarting Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SuspensionStarting"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IGCThreadControl::SuspensionStarting method [.NET Framework hosting]"
   - "SuspensionStarting method, IGCThreadControl interface [.NET Framework hosting]"

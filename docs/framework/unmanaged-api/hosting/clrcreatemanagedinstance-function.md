@@ -1,5 +1,5 @@
 ---
-title: "ClrCreateManagedInstance Function | Microsoft Docs"
+title: "ClrCreateManagedInstance Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -20,8 +20,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "ClrCreateManagedInstance"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ClrCreateManagedInstance function [.NET Framework hosting]"
 ms.assetid: 58ba42c0-4857-43bf-a039-73a4dc6544c2
@@ -70,5 +68,5 @@ STDAPI ClrCreateManagedInstance (
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Deprecated CLR Hosting Functions](../../../../docs/framework/unmanaged-api/hosting/deprecated-clr-hosting-functions.md)   
+ [Deprecated CLR Hosting Functions](../../../../docs/framework/unmanaged-api/hosting/deprecated-clr-hosting-functions.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

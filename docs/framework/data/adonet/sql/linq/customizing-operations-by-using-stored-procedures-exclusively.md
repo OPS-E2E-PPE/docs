@@ -1,5 +1,5 @@
 ---
-title: "Customizing Operations by Using Stored Procedures Exclusively | Microsoft Docs"
+title: "Customizing Operations by Using Stored Procedures Exclusively"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 441e8ef3-998c-4d12-8825-ce66a178f90f
 caps.latest.revision: 2
 author: "JennieHubbard"

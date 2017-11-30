@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Tables and Columns to the Windows Forms DataGrid Control | Microsoft Docs"
+title: "How to: Add Tables and Columns to the Windows Forms DataGrid Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
+  - "cpp"
 helpviewer_keywords: 
   - "columns [Windows Forms], adding to DataGrid control"
   - "tables [Windows Forms], adding to DataGrid control"
@@ -100,5 +102,5 @@ manager: "wpickett"
     ```  
   
 ## See Also  
- [DataGrid Control](../../../../docs/framework/winforms/controls/datagrid-control-windows-forms.md)   
+ [DataGrid Control](../../../../docs/framework/winforms/controls/datagrid-control-windows-forms.md)  
  [How to: Delete or Hide Columns in the Windows Forms DataGrid Control](../../../../docs/framework/winforms/controls/how-to-delete-or-hide-columns-in-the-windows-forms-datagrid-control.md)

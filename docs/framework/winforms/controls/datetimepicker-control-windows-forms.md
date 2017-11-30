@@ -1,5 +1,5 @@
 ---
-title: "DateTimePicker Control (Windows Forms) | Microsoft Docs"
+title: "DateTimePicker Control (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,9 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "dates, choosing from a list"
-  - "dates, Windows Forms controls"
+  - "dates [Windows Forms], choosing from a list"
+  - "dates [Windows Forms], Windows Forms controls"
   - "DateTimePicker control [Windows Forms]"
   - "date and time picker controls"
 ms.assetid: 1dac1fbd-8f67-4910-9ccb-2c5462d0d855

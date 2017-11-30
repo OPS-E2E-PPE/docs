@@ -1,5 +1,5 @@
 ---
-title: "ICLRRuntimeInfo::GetRuntimeDirectory Method | Microsoft Docs"
+title: "ICLRRuntimeInfo::GetRuntimeDirectory Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRRuntimeInfo::GetRuntimeDirectory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetRuntimeDirectory method [.NET Framework hosting]"
   - "ICLRRuntimeInfo::GetRuntimeDirectory method [.NET Framework hosting]"
@@ -70,5 +68,5 @@ HRESULT GetRuntimeDirectory(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICLRRuntimeInfo Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimeinfo-interface.md)   
+ [ICLRRuntimeInfo Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimeinfo-interface.md)  
  [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)

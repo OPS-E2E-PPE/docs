@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost Interface | Microsoft Docs"
+title: "ICorRuntimeHost Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost interface [.NET Framework hosting]"
 ms.assetid: 4369533d-7834-4497-bc37-bfea0ad737b1
@@ -39,7 +37,7 @@ Provides methods that enable the host to start and stop the common language runt
 |Method|Description|  
 |------------|-----------------|  
 |[CloseEnum Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-closeenum-method.md)|Resets a domain enumerator back to the beginning of the domain list.|  
-|[CreateDomain Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomain-method.md)|Creates an application domain. The caller receives an interface pointer of type <xref:System._AppDomain> to an instance of type <xref:System.AppDomain?displayProperty=fullName>.|  
+|[CreateDomain Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomain-method.md)|Creates an application domain. The caller receives an interface pointer of type <xref:System._AppDomain> to an instance of type <xref:System.AppDomain?displayProperty=nameWithType>.|  
 |[CreateDomainEx Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomainex-method.md)|Creates an application domain. This method allows the caller to pass an IAppDomainSetup instance to configure additional features of the returned <xref:System._AppDomain> instance.|  
 |[CreateDomainSetup Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomainsetup-method.md)|Gets an interface pointer of type `IAppDomainSetup` to an <xref:System.AppDomainSetup> instance. `IAppDomainSetup` provides methods to configure aspects of an application domain before it is created.|  
 |[CreateEvidence Method](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createevidence-method.md)|Gets an interface pointer of type <xref:System.Security.Principal.IIdentity>, which allows the host to create security evidence to pass to [CreateDomain](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomain-method.md) or [CreateDomainEx](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-createdomainex-method.md).|  
@@ -68,9 +66,9 @@ Provides methods that enable the host to start and stop the common language runt
  **.NET Framework Versions:** 1.0, 1.1  
   
 ## See Also  
- <xref:System.AppDomain>   
- [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)   
- [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)   
- [Runtime Hosts](http://msdn.microsoft.com/en-us/99d9246a-b994-4fe5-985c-8588d1d59998)   
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ <xref:System.AppDomain>  
+ [Hosting](../../../../docs/framework/unmanaged-api/hosting/index.md)  
+ [ICLRRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/iclrruntimehost-interface.md)  
+ [Runtime Hosts](http://msdn.microsoft.com/en-us/99d9246a-b994-4fe5-985c-8588d1d59998)  
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [CorRuntimeHost Coclass](../../../../docs/framework/unmanaged-api/hosting/corruntimehost-coclass.md)

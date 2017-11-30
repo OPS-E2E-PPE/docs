@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Windows Forms DataGridView Control | Microsoft Docs"
+title: "Customizing the Windows Forms DataGridView Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "data grids, customization"
+  - "data grids [Windows Forms], customization"
   - "DataGridView control [Windows Forms], customization"
 ms.assetid: 01ea5d4c-a736-4596-b0e9-a67a1b86e15f
 caps.latest.revision: 12
@@ -62,5 +60,5 @@ The `DataGridView` control provides several properties that you can use to adjus
  Provides topics that describe how to modify the basic appearance of the control and the display formatting of cell data.  
   
 ## See Also  
- [DataGridView Control](../../../../docs/framework/winforms/controls/datagridview-control-windows-forms.md)   
+ [DataGridView Control](../../../../docs/framework/winforms/controls/datagridview-control-windows-forms.md)  
  [Column Types in the Windows Forms DataGridView Control](../../../../docs/framework/winforms/controls/column-types-in-the-windows-forms-datagridview-control.md)

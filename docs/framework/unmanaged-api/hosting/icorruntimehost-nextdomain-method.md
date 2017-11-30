@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::NextDomain Method | Microsoft Docs"
+title: "ICorRuntimeHost::NextDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::NextDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::NextDomain method [.NET Framework hosting]"
   - "NextDomain method [.NET Framework hosting]"
@@ -47,7 +45,7 @@ HRESULT NextDomain (
  [in] The enumerator that was obtained through a call to [EnumDomains](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-enumdomains-method.md).  
   
  `pAppDomain`  
- [out] An interface pointer to the <xref:System._AppDomain?displayProperty=fullName> type that represents the next domain in the enumeration, or null, if no more domains exist.  
+ [out] An interface pointer to the <xref:System._AppDomain?displayProperty=nameWithType> type that represents the next domain in the enumeration, or null, if no more domains exist.  
   
 ## Return Value  
   
@@ -68,6 +66,6 @@ HRESULT NextDomain (
  **.NET Framework Versions:** 1.0, 1.1  
   
 ## See Also  
- <xref:System._AppDomain>   
- <xref:System.AppDomain>   
+ <xref:System._AppDomain>  
+ <xref:System.AppDomain>  
  [ICorRuntimeHost Interface](../../../../docs/framework/unmanaged-api/hosting/icorruntimehost-interface.md)

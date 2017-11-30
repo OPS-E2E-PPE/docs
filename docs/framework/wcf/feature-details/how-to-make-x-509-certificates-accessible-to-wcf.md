@@ -1,5 +1,5 @@
 ---
-title: "How to: Make X.509 Certificates Accessible to WCF | Microsoft Docs"
+title: "How to: Make X.509 Certificates Accessible to WCF"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "X.509 certificates [WCF]"
   - "certificates [WCF], making X.509 certificates accessible to WCF"
@@ -74,6 +77,6 @@ To make an X.509 certificate accessible to [!INCLUDE[indigo1](../../../../includ
         ```  
   
 ## See Also  
- [FindPrivateKey](../../../../docs/framework/wcf/samples/findprivatekey.md)   
- [How to: Retrieve the Thumbprint of a Certificate](../../../../docs/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate.md)   
+ [FindPrivateKey](../../../../docs/framework/wcf/samples/findprivatekey.md)  
+ [How to: Retrieve the Thumbprint of a Certificate](../../../../docs/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate.md)  
  [Working with Certificates](../../../../docs/framework/wcf/feature-details/working-with-certificates.md)

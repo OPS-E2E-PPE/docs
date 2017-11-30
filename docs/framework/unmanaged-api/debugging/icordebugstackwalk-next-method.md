@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStackWalk::Next Method | Microsoft Docs"
+title: "ICorDebugStackWalk::Next Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStackWalk::Next"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStackWalk::Next method [.NET Framework debugging]"
   - "Next method, ICorDebugStackWalk interface [.NET Framework debugging]"
@@ -64,6 +62,6 @@ HRESULT Next();
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [ICorDebugStackWalk Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugstackwalk-interface.md)   
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [ICorDebugStackWalk Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugstackwalk-interface.md)  
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

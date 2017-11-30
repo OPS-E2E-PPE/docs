@@ -1,5 +1,5 @@
 ---
-title: "IGCThreadControl::SuspensionEnding Method | Microsoft Docs"
+title: "IGCThreadControl::SuspensionEnding Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SuspensionEnding"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IGCThreadControl::SuspensionEnding method [.NET Framework hosting]"
   - "SuspensionEnding method, IGCThreadControl interface [.NET Framework hosting]"

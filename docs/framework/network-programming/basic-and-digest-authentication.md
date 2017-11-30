@@ -1,5 +1,5 @@
 ---
-title: "Basic and Digest Authentication | Microsoft Docs"
+title: "Basic and Digest Authentication"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "authentication [.NET Framework], classes"
   - "Basic authentication"
@@ -53,5 +51,5 @@ WReq.Credentials = new NetworkCredential(UserName, SecurelyStoredPassword);
 >  Data sent with Basic and Digest Authentication is not encrypted, so the data can be seen by an adversary. Additionally, Basic Authentication credentials (user name and password) are sent in the clear and can be intercepted.  
   
 ## See Also  
- [NTLM and Kerberos Authentication](../../../docs/framework/network-programming/ntlm-and-kerberos-authentication.md)   
+ [NTLM and Kerberos Authentication](../../../docs/framework/network-programming/ntlm-and-kerberos-authentication.md)  
  [Internet Authentication](../../../docs/framework/network-programming/internet-authentication.md)

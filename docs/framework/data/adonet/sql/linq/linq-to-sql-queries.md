@@ -1,5 +1,5 @@
 ---
-title: "LINQ to SQL Queries | Microsoft Docs"
+title: "LINQ to SQL Queries"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -38,7 +38,7 @@ You define [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md)] q
 |Streaming versus cached querying|Not applicable in a local memory scenario||  
   
 ## See Also  
- [Introduction to LINQ Queries (C#)](~/docs/csharp/programming-guide/concepts/linq/introduction-to-linq-queries.md)   
- [Basic LINQ Query Operations](~/docs/csharp/programming-guide/concepts/linq/basic-linq-query-operations.md)   
- [Type Relationships in LINQ Query Operations](~/docs/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations.md)   
+ [Introduction to LINQ Queries (C#)](~/docs/csharp/programming-guide/concepts/linq/introduction-to-linq-queries.md)  
+ [Basic LINQ Query Operations](~/docs/csharp/programming-guide/concepts/linq/basic-linq-query-operations.md)  
+ [Type Relationships in LINQ Query Operations](~/docs/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations.md)  
  [Query Concepts](../../../../../../docs/framework/data/adonet/sql/linq/query-concepts.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::RemotingServerInvocationReturned Method | Microsoft Docs"
+title: "ICorProfilerCallback::RemotingServerInvocationReturned Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::RemotingServerInvocationReturned"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::RemotingServerInvocationReturned method [.NET Framework profiling]"
   - "RemotingServerInvocationReturned method [.NET Framework profiling]"

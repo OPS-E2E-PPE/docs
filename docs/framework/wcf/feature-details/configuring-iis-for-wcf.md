@@ -1,5 +1,5 @@
 ---
-title: "Configuring Internet Information Services 7.0 for Windows Communication Foundation | Microsoft Docs"
+title: "Configuring Internet Information Services 7.0 for Windows Communication Foundation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -76,7 +76,7 @@ Internet Information Services (IIS) 7.0 has a modular design that allows you to 
  `</system.webServer>`  
   
 ## See Also  
- [WAS Activation Architecture](../../../../docs/framework/wcf/feature-details/was-activation-architecture.md)   
- [Configuring WAS for Use with WCF](../../../../docs/framework/wcf/feature-details/configuring-the-wpa--service-for-use-with-wcf.md)   
- [How to: Install and Configure WCF Activation Components](../../../../docs/framework/wcf/feature-details/how-to-install-and-configure-wcf-activation-components.md)   
+ [WAS Activation Architecture](../../../../docs/framework/wcf/feature-details/was-activation-architecture.md)  
+ [Configuring WAS for Use with WCF](../../../../docs/framework/wcf/feature-details/configuring-the-wpa--service-for-use-with-wcf.md)  
+ [How to: Install and Configure WCF Activation Components](../../../../docs/framework/wcf/feature-details/how-to-install-and-configure-wcf-activation-components.md)  
  [Windows Server App Fabric Hosting Features](http://go.microsoft.com/fwlink/?LinkId=201276)

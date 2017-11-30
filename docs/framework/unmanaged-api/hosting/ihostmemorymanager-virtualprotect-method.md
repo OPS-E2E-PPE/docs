@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::VirtualProtect Method | Microsoft Docs"
+title: "IHostMemoryManager::VirtualProtect Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::VirtualProtect"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostMemoryManager::VirtualProtect method [.NET Framework hosting]"
   - "VirtualProtect method [.NET Framework hosting]"

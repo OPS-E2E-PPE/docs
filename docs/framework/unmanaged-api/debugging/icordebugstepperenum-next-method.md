@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepperEnum::Next Method | Microsoft Docs"
+title: "ICorDebugStepperEnum::Next Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepperEnum::Next"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Next method, ICorDebugStepperEnum interface [.NET Framework debugging]"
   - "ICorDebugStepperEnum::Next method [.NET Framework debugging]"

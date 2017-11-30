@@ -1,5 +1,5 @@
 ---
-title: "Functions (Entity SQL) | Microsoft Docs"
+title: "Functions (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 52b3d776-5acc-4f69-b614-5a43ce56ef9f
 caps.latest.revision: 2
 author: "JennieHubbard"

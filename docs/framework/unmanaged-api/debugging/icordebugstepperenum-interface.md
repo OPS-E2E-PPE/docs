@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugStepperEnum Interface1 | Microsoft Docs"
+title: "ICorDebugStepperEnum Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugStepperEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugStepperEnum interface [.NET Framework debugging]"
 ms.assetid: 988718c1-1a4a-40f2-a04c-7d67e5cfe1e2

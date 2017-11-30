@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::GetDebugInfo Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::GetDebugInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::GetDebugInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::GetDebugInfo method [.NET Framework debugging]"
   - "GetDebugInfo method [.NET Framework debugging]"

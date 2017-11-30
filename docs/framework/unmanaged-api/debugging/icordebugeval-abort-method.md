@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::Abort Method | Microsoft Docs"
+title: "ICorDebugEval::Abort Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::Abort"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Abort method, ICorDebugEval interface [.NET Framework debugging]"
   - "ICorDebugEval::Abort method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Support for the Button Control Type | Microsoft Docs"
+title: "UI Automation Support for the Button Control Type"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -82,6 +82,6 @@ manager: "markl"
 |<xref:System.Windows.Automation.TogglePatternIdentifiers.ToggleStateProperty> property-changed event.|Depends|If the control supports the Toggle control pattern, it must support this event.|  
   
 ## See Also  
- <xref:System.Windows.Automation.ControlType.Button>   
- [UI Automation Control Types Overview](../../../docs/framework/ui-automation/ui-automation-control-types-overview.md)   
+ <xref:System.Windows.Automation.ControlType.Button>  
+ [UI Automation Control Types Overview](../../../docs/framework/ui-automation/ui-automation-control-types-overview.md)  
  [UI Automation Overview](../../../docs/framework/ui-automation/ui-automation-overview.md)

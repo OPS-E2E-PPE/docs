@@ -1,5 +1,5 @@
 ---
-title: "MainMenu Component (Windows Forms) | Microsoft Docs"
+title: "MainMenu Component (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "MainMenu control [Windows Forms]"
 ms.assetid: 7cd22f29-828b-42e8-9c88-f08aa4533850
@@ -34,5 +32,5 @@ manager: "wpickett"
  Describes this class and has links to all its members.  
   
 ## See Also  
- <xref:System.Windows.Forms.MenuStrip>   
+ <xref:System.Windows.Forms.MenuStrip>  
  <xref:System.Windows.Forms.ContextMenuStrip>

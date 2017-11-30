@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Antialiasing with Text | Microsoft Docs"
+title: "How to: Use Antialiasing with Text"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "strings [Windows Forms], smoothing drawn"
-  - "antialiasing, using with text"
+  - "antialiasing [Windows Forms], using with text"
   - "text [Windows Forms], smoothing"
   - "text [Windows Forms], antialiasing"
   - "strings [Windows Forms], antialiasing when drawing"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Clipping with a Region | Microsoft Docs"
+title: "How to: Use Clipping with a Region"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "regions, clipping"
-  - "regions, restricting drawing surface"
+  - "regions [Windows Forms], clipping"
+  - "regions [Windows Forms], restricting drawing surface"
 ms.assetid: 43d121b4-e14c-4901-b25c-2d6c25ba4e29
 caps.latest.revision: 14
 author: dotnet-bot
@@ -37,5 +38,5 @@ One of the properties of the <xref:System.Drawing.Graphics> class is the clip re
  The preceding example is designed for use with Windows Forms, and it requires <xref:System.Windows.Forms.PaintEventArgs> `e`, which is a parameter of <xref:System.Windows.Forms.PaintEventHandler>.  
   
 ## See Also  
- [Regions in GDI+](../../../../docs/framework/winforms/advanced/regions-in-gdi.md)   
+ [Regions in GDI+](../../../../docs/framework/winforms/advanced/regions-in-gdi.md)  
  [Using Regions](../../../../docs/framework/winforms/advanced/using-regions.md)

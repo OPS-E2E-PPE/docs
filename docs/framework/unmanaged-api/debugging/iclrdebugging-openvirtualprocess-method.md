@@ -1,5 +1,5 @@
 ---
-title: "ICLRDebugging::OpenVirtualProcess Method | Microsoft Docs"
+title: "ICLRDebugging::OpenVirtualProcess Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDebugging::OpenVirtualProcess"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "OpenVirtualProcess method [.NET Framework debugging]"
   - "ICLRDebugging::OpenVirtualProcess method [.NET Framework debugging]"
@@ -103,5 +101,5 @@ HRESULT OpenVirtualProcess(
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

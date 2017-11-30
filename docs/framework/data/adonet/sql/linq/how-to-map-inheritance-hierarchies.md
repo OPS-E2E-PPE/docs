@@ -1,5 +1,5 @@
 ---
-title: "How to: Map Inheritance Hierarchies | Microsoft Docs"
+title: "How to: Map Inheritance Hierarchies"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,6 +10,9 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b27c779b-9355-4dc7-b95f-7dfd504b6e48
+dev_langs:
+ - "csharp"
+ - "vb"
 caps.latest.revision: 4
 author: "JennieHubbard"
 ms.author: "jhubbard"
@@ -54,5 +57,5 @@ To implement inheritance mapping in [!INCLUDE[vbteclinq](../../../../../../inclu
  [!code-vb[DLinqCustomize#4](../../../../../../samples/snippets/visualbasic/VS_Snippets_Data/DLinqCustomize/vb/Module1.vb#4)]  
   
 ## See Also  
- [Inheritance Support](../../../../../../docs/framework/data/adonet/sql/linq/inheritance-support.md)   
+ [Inheritance Support](../../../../../../docs/framework/data/adonet/sql/linq/inheritance-support.md)  
  [How to: Customize Entity Classes by Using the Code Editor](../../../../../../docs/framework/data/adonet/sql/linq/how-to-customize-entity-classes-by-using-the-code-editor.md)

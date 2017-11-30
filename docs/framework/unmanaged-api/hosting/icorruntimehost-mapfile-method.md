@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::MapFile Method | Microsoft Docs"
+title: "ICorRuntimeHost::MapFile Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::MapFile"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::MapFile method [.NET Framework hosting]"
   - "MapFile method [.NET Framework hosting]"

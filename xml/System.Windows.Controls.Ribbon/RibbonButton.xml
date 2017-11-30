@@ -36,7 +36,7 @@ Ribbon button controls with highlight
 ## Examples  
  The following example shows the markup to create the first button.  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButton](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbutton)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButton](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbutton)]  
   
  ]]></format>
     </remarks>
@@ -493,7 +493,7 @@ Ribbon button controls with highlight
  ![Ribbon button controls](~/add/media/wpfribbon-button.png "Ribbon button controls")  
 Ribbon button controls  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButton](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbutton)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButton](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbutton)]  
   
  ]]></format>
         </remarks>
@@ -729,7 +729,7 @@ Ribbon button controls
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- This method calls the base method and then raises the <xref:System.Windows.Controls.Ribbon.RibbonControlService.DismissPopup?displayProperty=fullName> attached event.  
+ This method calls the base method and then raises the <xref:System.Windows.Controls.Ribbon.RibbonControlService.DismissPopup?displayProperty=nameWithType> attached event.  
   
  ]]></format>
         </remarks>
@@ -994,6 +994,7 @@ Ribbon button controls
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Ribbon.RibbonButton.IsInQuickAccessToolBar" />
       </Docs>
     </Member>
     <Member MemberName="QuickAccessToolBarControlSizeDefinitionProperty">
@@ -1233,7 +1234,7 @@ Ribbon button controls
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipDescription"></a>   
 ## Dependency Property Information  
@@ -1251,10 +1252,11 @@ Ribbon button controls
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipDescriptionProperty">
@@ -1295,7 +1297,7 @@ Enhanced ToolTip
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipFooterDescription"></a>   
 ## Dependency Property Information  
@@ -1313,10 +1315,11 @@ Enhanced ToolTip
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipFooterDescriptionProperty">
@@ -1357,7 +1360,7 @@ Enhanced ToolTip
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipFooterImageSource"></a>   
 ## Dependency Property Information  
@@ -1375,10 +1378,11 @@ Enhanced ToolTip
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipFooterImageSourceProperty">
@@ -1419,7 +1423,7 @@ Enhanced ToolTip
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipFooterTitle"></a>   
 ## Dependency Property Information  
@@ -1437,10 +1441,11 @@ Enhanced ToolTip
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipFooterTitleProperty">
@@ -1481,7 +1486,7 @@ Enhanced ToolTip
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipImageSource"></a>   
 ## Dependency Property Information  
@@ -1499,10 +1504,11 @@ Enhanced ToolTip
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipImageSourceProperty">
@@ -1543,7 +1549,7 @@ Enhanced ToolTip
 ## Remarks  
   
 > [!WARNING]
->  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=fullName> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
+>  Each ribbon control inherits a <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property. If the <xref:System.Windows.FrameworkElement.ToolTip%2A?displayProperty=nameWithType> property is set, the ribbon’s enhanced ToolTip will not be shown; the standard ToolTip will be shown instead.  
   
 <a name="dependencyPropertyInfo_ToolTipTitle"></a>   
 ## Dependency Property Information  
@@ -1561,10 +1567,11 @@ Enhanced ToolTip
  ![Enhanced ToolTip](~/add/media/wpfribbon-tooltipenhanced.png "Enhanced ToolTip")  
 Enhanced ToolTip  
   
- [!code-xml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
+ [!code-xaml[Ribbon_ControlsSample#RibbonButtonTT](~/samples/snippets/csharp/VS_Snippets_Wpf/ribbon_controlssample/cs/mainwindow.xaml#ribbonbuttontt)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Ribbon.RibbonToolTip" />
       </Docs>
     </Member>
     <Member MemberName="ToolTipTitleProperty">

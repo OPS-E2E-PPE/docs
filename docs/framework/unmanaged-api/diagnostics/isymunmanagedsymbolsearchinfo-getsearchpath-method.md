@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedSymbolSearchInfo::GetSearchPath Method | Microsoft Docs"
+title: "ISymUnmanagedSymbolSearchInfo::GetSearchPath Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedSymbolSearchInfo::GetSearchPath"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetSearchPath method [.NET Framework debugging]"
   - "ISymUnmanagedSymbolSearchInfo::GetSearchPath method [.NET Framework debugging]"

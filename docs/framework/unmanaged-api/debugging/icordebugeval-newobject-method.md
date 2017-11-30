@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEval::NewObject Method | Microsoft Docs"
+title: "ICorDebugEval::NewObject Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEval::NewObject"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "NewObject method [.NET Framework debugging]"
   - "ICorDebugEval::NewObject method [.NET Framework debugging]"

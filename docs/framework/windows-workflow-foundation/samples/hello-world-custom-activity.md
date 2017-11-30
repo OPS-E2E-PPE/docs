@@ -1,5 +1,5 @@
 ---
-title: "Hello World Custom Activity | Microsoft Docs"
+title: "Hello World Custom Activity"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -54,6 +54,4 @@ This sample demonstrates several key features of [!INCLUDE[wf](../../../../inclu
   
 2.  To build the solution, press CTRL+SHIFT+B.  
   
-3.  To run the solution, press F5.  
-  
-## See Also
+3.  To run the solution, press F5.

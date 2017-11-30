@@ -1,5 +1,5 @@
 ---
-title: "NTLM and Kerberos Authentication | Microsoft Docs"
+title: "NTLM and Kerberos Authentication"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "authentication [.NET Framework], NTLM"
   - "authentication [.NET Framework], Kerberos"
@@ -69,5 +67,5 @@ WReq.Credentials = CredentialCache.DefaultCredentials;
 >  NTLM authentication does not work through a proxy server.  
   
 ## See Also  
- [Basic and Digest Authentication](../../../docs/framework/network-programming/basic-and-digest-authentication.md)   
+ [Basic and Digest Authentication](../../../docs/framework/network-programming/basic-and-digest-authentication.md)  
  [Internet Authentication](../../../docs/framework/network-programming/internet-authentication.md)

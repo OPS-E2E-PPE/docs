@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Getting Started Tutorial | Microsoft Docs"
+title: "Troubleshooting the Getting Started Tutorial"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -76,6 +76,6 @@ selfhost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(SecurityMode.
 ```  
   
 ## See Also  
- [Getting Started Tutorial](../../../docs/framework/wcf/getting-started-tutorial.md)   
- [WCF Troubleshooting Quickstart](../../../docs/framework/wcf/wcf-troubleshooting-quickstart.md)   
+ [Getting Started Tutorial](../../../docs/framework/wcf/getting-started-tutorial.md)  
+ [WCF Troubleshooting Quickstart](../../../docs/framework/wcf/wcf-troubleshooting-quickstart.md)  
  [Troubleshooting Setup Issues](../../../docs/framework/wcf/troubleshooting-setup-issues.md)

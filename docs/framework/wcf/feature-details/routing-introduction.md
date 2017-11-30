@@ -1,5 +1,5 @@
 ---
-title: "Routing Introduction | Microsoft Docs"
+title: "Routing Introduction"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -407,6 +407,6 @@ using (ServiceHost serviceHost =
  To use Windows credential impersonation with the routing service you need to configure both the credentials and the service. The client credentials object (<xref:System.ServiceModel.Security.WindowsClientCredential>, accessable from the <xref:System.ServiceModel.ChannelFactory>) defines an <xref:System.ServiceModel.Security.WindowsClientCredential.AllowedImpersonationLevel%2A> property that must be set to permit impersonation. Finally, on the service you need to configure the <xref:System.ServiceModel.Description.ServiceAuthorizationBehavior> behavior to set `ImpersonateCallerForAllOperations` to `true`. The routing service uses this flag to decide whether to create the clients for forwarding messages with impersonation enabled.  
   
 ## See Also  
- [Message Filters](../../../../docs/framework/wcf/feature-details/message-filters.md)   
- [Routing Contracts](../../../../docs/framework/wcf/feature-details/routing-contracts.md)   
+ [Message Filters](../../../../docs/framework/wcf/feature-details/message-filters.md)  
+ [Routing Contracts](../../../../docs/framework/wcf/feature-details/routing-contracts.md)  
  [Choosing a Filter](../../../../docs/framework/wcf/feature-details/choosing-a-filter.md)

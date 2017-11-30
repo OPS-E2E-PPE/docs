@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFunctionBreakpoint::GetOffset Method | Microsoft Docs"
+title: "ICorDebugFunctionBreakpoint::GetOffset Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFunctionBreakpoint::GetOffset"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugFunctionBreakpoint::GetOffset method [.NET Framework debugging]"
   - "GetOffset method, ICorDebugFunctionBreakpoint interface [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Spell Checking with a Context Menu | Microsoft Docs"
+title: "How to: Use Spell Checking with a Context Menu"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "enabling spell checking in a text box [WPF]"
   - "reenabling spell checking in a text box [WPF]"
@@ -25,7 +28,7 @@ By default, when you enable spell checking in an editing control like <xref:Syst
 ## Example  
  The following example shows the [!INCLUDE[TLA#tla_xaml](../../../../includes/tlasharptla-xaml-md.md)] that creates a <xref:System.Windows.Controls.TextBox> with some events that are used to implement the context menu.  
   
- [!code-xml[TextBoxMiscSnippets_snip#SpellerCustomContextMenuExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TextBoxMiscSnippets_snip/csharp/speller_custom_context_menu.xaml#spellercustomcontextmenuexamplewholepage)]  
+ [!code-xaml[TextBoxMiscSnippets_snip#SpellerCustomContextMenuExampleWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/TextBoxMiscSnippets_snip/csharp/speller_custom_context_menu.xaml#spellercustomcontextmenuexamplewholepage)]  
   
 ## Example  
  The following example shows the code that implements the context menu.  
@@ -42,7 +45,7 @@ By default, when you enable spell checking in an editing control like <xref:Syst
  `spellingError = myRichTextBox.GetSpellingError(myRichTextBox.CaretPosition);`  
   
 ## See Also  
- [TextBox Overview](../../../../docs/framework/wpf/controls/textbox-overview.md)   
- [RichTextBox Overview](../../../../docs/framework/wpf/controls/richtextbox-overview.md)   
- [Enable Spell Checking in a Text Editing Control](../../../../docs/framework/wpf/controls/how-to-enable-spell-checking-in-a-text-editing-control.md)   
+ [TextBox Overview](../../../../docs/framework/wpf/controls/textbox-overview.md)  
+ [RichTextBox Overview](../../../../docs/framework/wpf/controls/richtextbox-overview.md)  
+ [Enable Spell Checking in a Text Editing Control](../../../../docs/framework/wpf/controls/how-to-enable-spell-checking-in-a-text-editing-control.md)  
  [Use a Custom Context Menu with a TextBox](../../../../docs/framework/wpf/controls/how-to-use-a-custom-context-menu-with-a-textbox.md)

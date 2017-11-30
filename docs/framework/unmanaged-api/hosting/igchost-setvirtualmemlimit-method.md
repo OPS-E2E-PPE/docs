@@ -1,5 +1,5 @@
 ---
-title: "IGCHost::SetVirtualMemLimit Method | Microsoft Docs"
+title: "IGCHost::SetVirtualMemLimit Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "SetVirtualMemLimit"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IGCHost::SetVirtualMemLimit method [.NET Framework hosting]"
   - "SetVirtualMemLimit method [.NET Framework hosting]"

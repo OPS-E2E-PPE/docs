@@ -1,5 +1,5 @@
 ---
-title: "Garbage Collection Notifications | Microsoft Docs"
+title: "Garbage Collection Notifications"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,10 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "garbage collection, notifications"
 ms.assetid: e12d8e74-31e3-4035-a87d-f3e66f0a9b89

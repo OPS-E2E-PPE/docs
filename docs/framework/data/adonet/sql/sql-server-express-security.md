@@ -1,5 +1,5 @@
 ---
-title: "SQL Server Express Security | Microsoft Docs"
+title: "SQL Server Express Security"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -44,6 +44,6 @@ Microsoft SQL Server Express Edition (SQL Server Express) is based on Microsoft 
 |[SQL Server Express User Instances](../../../../../docs/framework/data/adonet/sql/sql-server-express-user-instances.md)|Describes user instance capabilities in an ADO.NET application. Provides information about how to enable a user instance, connect to a user instance using a <xref:System.Data.SqlClient.SqlConnection>, user instance lifetime, and user instance scenarios.|  
   
 ## See Also  
- [SQL Server Security](../../../../../docs/framework/data/adonet/sql/sql-server-security.md)   
- [SQL Server Express User Instances](../../../../../docs/framework/data/adonet/sql/sql-server-express-user-instances.md)   
+ [SQL Server Security](../../../../../docs/framework/data/adonet/sql/sql-server-security.md)  
+ [SQL Server Express User Instances](../../../../../docs/framework/data/adonet/sql/sql-server-express-user-instances.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

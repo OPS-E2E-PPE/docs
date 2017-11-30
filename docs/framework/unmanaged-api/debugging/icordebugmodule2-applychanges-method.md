@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugModule2::ApplyChanges Method | Microsoft Docs"
+title: "ICorDebugModule2::ApplyChanges Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugModule2::ApplyChanges"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ApplyChanges method [.NET Framework debugging]"
   - "ICorDebugModule2::ApplyChanges method [.NET Framework debugging]"

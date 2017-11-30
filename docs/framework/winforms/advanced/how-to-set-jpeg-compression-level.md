@@ -1,5 +1,5 @@
 ---
-title: "How to: Set JPEG Compression Level | Microsoft Docs"
+title: "How to: Set JPEG Compression Level"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "images [Windows Forms], changing encoder parameters"
-  - "JPEG images, setting quality level"
+  - "JPEG images [Windows Forms], setting quality level"
 ms.assetid: 4b9a74e3-9504-43c1-9f28-ace651d0772e
 caps.latest.revision: 11
 author: dotnet-bot
@@ -135,6 +136,6 @@ End Function
 -   An image file that is named `TestPhoto.jpg` and located at **c:\\**.  
   
 ## See Also  
- [How to: Determine the Parameters Supported by an Encoder](../../../../docs/framework/winforms/advanced/how-to-determine-the-parameters-supported-by-an-encoder.md)   
- [Types of Bitmaps](../../../../docs/framework/winforms/advanced/types-of-bitmaps.md)   
+ [How to: Determine the Parameters Supported by an Encoder](../../../../docs/framework/winforms/advanced/how-to-determine-the-parameters-supported-by-an-encoder.md)  
+ [Types of Bitmaps](../../../../docs/framework/winforms/advanced/types-of-bitmaps.md)  
  [Using Image Encoders and Decoders in Managed GDI+](../../../../docs/framework/winforms/advanced/using-image-encoders-and-decoders-in-managed-gdi.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishProcess::EnumAppDomains Method | Microsoft Docs"
+title: "ICorPublishProcess::EnumAppDomains Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishProcess::EnumAppDomains"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumAppDomains method [.NET Framework debugging]"
   - "ICorPublishProcess::EnumAppDomains method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "UriTemplate Sample | Microsoft Docs"
+title: "UriTemplate Sample"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -40,5 +40,5 @@ The <xref:System.UriTemplate> class provides methods for working with sets of UR
 >  `<InstallDrive>:\WF_WCF_Samples\WCF\Basic\Web\UriTemplate`  
   
 ## See Also  
- [UriTemplate Table](../../../../docs/framework/wcf/samples/uritemplate-table-sample.md)   
+ [UriTemplate Table](../../../../docs/framework/wcf/samples/uritemplate-table-sample.md)  
  [UriTemplate Table Dispatcher](../../../../docs/framework/wcf/samples/uritemplate-table-dispatcher-sample.md)

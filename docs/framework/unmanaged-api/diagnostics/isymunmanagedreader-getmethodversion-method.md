@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedReader::GetMethodVersion Method | Microsoft Docs"
+title: "ISymUnmanagedReader::GetMethodVersion Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedReader::GetMethodVersion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMethodVersion method [.NET Framework debugging]"
   - "ISymUnmanagedReader::GetMethodVersion method [.NET Framework debugging]"

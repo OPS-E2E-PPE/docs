@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerFunctionControl::SetILFunctionBody Method | Microsoft Docs"
+title: "ICorProfilerFunctionControl::SetILFunctionBody Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerFunctionControl::SetILFunctionBody"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerFunctionControl::SetILFunctionBody method [.NET Framework profiling]"
   - "SetILFunctionBody method, ICorProfilerFunctionControl interface [.NET Framework profiling]"

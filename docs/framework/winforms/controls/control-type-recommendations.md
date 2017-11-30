@@ -1,5 +1,5 @@
 ---
-title: "Control Type Recommendations | Microsoft Docs"
+title: "Control Type Recommendations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "inheritance, Windows Forms custom controls"
+  - "inheritance [Windows Forms], Windows Forms custom controls"
   - "user controls [Windows Forms], when to use"
   - "custom controls [Windows Forms], types"
   - "controls [Windows Forms], creating"
@@ -88,5 +86,5 @@ The .NET Framework gives you power to develop and implement new controls. In add
 -   [How to: Create a Windows Forms Control That Takes Advantage of Design-Time Features](http://msdn.microsoft.com/library/307hck25\(v=vs.120\))  
   
 ## See Also  
- [How to: Develop a Simple Windows Forms Control](../../../../docs/framework/winforms/controls/how-to-develop-a-simple-windows-forms-control.md)   
+ [How to: Develop a Simple Windows Forms Control](../../../../docs/framework/winforms/controls/how-to-develop-a-simple-windows-forms-control.md)  
  [Varieties of Custom Controls](../../../../docs/framework/winforms/controls/varieties-of-custom-controls.md)

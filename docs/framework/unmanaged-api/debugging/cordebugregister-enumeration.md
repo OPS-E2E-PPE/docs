@@ -1,5 +1,5 @@
 ---
-title: "CorDebugRegister Enumeration | Microsoft Docs"
+title: "CorDebugRegister Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugRegister"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugRegister enumeration [.NET Framework debugging]"
 ms.assetid: 003bb138-7960-4291-ac88-0d87e470ff70

@@ -1,5 +1,5 @@
 ---
-title: "Ordered Node Retrieval by Index | Microsoft Docs"
+title: "Ordered Node Retrieval by Index"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 5412c90f-2703-4aa8-a9c4-1b8a35183c37
 caps.latest.revision: 4
 author: "mairaw"

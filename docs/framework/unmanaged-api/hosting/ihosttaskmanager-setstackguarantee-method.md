@@ -1,5 +1,5 @@
 ---
-title: "IHostTaskManager::SetStackGuarantee Method | Microsoft Docs"
+title: "IHostTaskManager::SetStackGuarantee Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostTaskManager::SetStackGuarantee"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IHostTaskManager::SetStackGuarantee method [.NET Framework hosting]"
   - "SetStackGuarantee method [.NET Framework hosting]"
@@ -51,5 +49,5 @@ HRESULT SetStackGuarantee(
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [GetStackGuarantee Method](../../../../docs/framework/unmanaged-api/hosting/ihosttaskmanager-getstackguarantee-method.md)   
+ [GetStackGuarantee Method](../../../../docs/framework/unmanaged-api/hosting/ihosttaskmanager-getstackguarantee-method.md)  
  [IHostTaskManager Interface](../../../../docs/framework/unmanaged-api/hosting/ihosttaskmanager-interface.md)

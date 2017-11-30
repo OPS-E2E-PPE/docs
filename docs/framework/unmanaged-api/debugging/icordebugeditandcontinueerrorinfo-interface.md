@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugEditAndContinueErrorInfo Interface | Microsoft Docs"
+title: "ICorDebugEditAndContinueErrorInfo Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugEditAndContinueErrorInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugEditAndContinueErrorInfo interface [.NET Framework debugging]"
 ms.assetid: 6ae0204c-6bb2-4bda-b13e-94507203bc68

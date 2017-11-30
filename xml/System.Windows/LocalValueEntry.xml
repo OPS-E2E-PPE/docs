@@ -30,6 +30,7 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.LocalValueEnumerator" />
   </Docs>
   <Members>
     <Member MemberName="Equals">
@@ -74,7 +75,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool op_Equality (System.Windows.LocalValueEntry obj1, System.Windows.LocalValueEntry obj2);" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Windows.LocalValueEntry obj1, System.Windows.LocalValueEntry obj2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype System.Windows.LocalValueEntry obj1, valuetype System.Windows.LocalValueEntry obj2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.LocalValueEntry.op_Equality(System.Windows.LocalValueEntry,System.Windows.LocalValueEntry)" />
       <MemberType>Method</MemberType>
@@ -105,10 +106,11 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.LocalValueEntry.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool op_Inequality (System.Windows.LocalValueEntry obj1, System.Windows.LocalValueEntry obj2);" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Windows.LocalValueEntry obj1, System.Windows.LocalValueEntry obj2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype System.Windows.LocalValueEntry obj1, valuetype System.Windows.LocalValueEntry obj2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.LocalValueEntry.op_Inequality(System.Windows.LocalValueEntry,System.Windows.LocalValueEntry)" />
       <MemberType>Method</MemberType>
@@ -131,6 +133,7 @@
   
  For locally set properties that have reference types, the behavior is deferred to that type's equality determination mechanisms, because it uses the <see langword="==" /> operator on the two values internally. By default, this is a reference equality of the values.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.Windows.LocalValueEntry.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Property">
@@ -156,6 +159,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.DependencyProperty" />
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -181,6 +185,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.DependencyProperty" />
       </Docs>
     </Member>
   </Members>

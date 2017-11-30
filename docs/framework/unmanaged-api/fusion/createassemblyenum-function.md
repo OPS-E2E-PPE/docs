@@ -1,5 +1,5 @@
 ---
-title: "CreateAssemblyEnum Function | Microsoft Docs"
+title: "CreateAssemblyEnum Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -19,8 +19,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CreateAssemblyEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateAssemblyEnum function [.NET Framework fusion]"
 ms.assetid: 3506df38-6cea-42f6-946e-4287863bcfb3
@@ -75,6 +73,6 @@ HRESULT CreateAssemblyEnum (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IAssemblyEnum Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyenum-interface.md)   
- [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)   
+ [IAssemblyEnum Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyenum-interface.md)  
+ [IAssemblyName Interface](../../../../docs/framework/unmanaged-api/fusion/iassemblyname-interface.md)  
  [Fusion Global Static Functions](../../../../docs/framework/unmanaged-api/fusion/fusion-global-static-functions.md)

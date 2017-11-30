@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugReferenceValue::GetValue Method | Microsoft Docs"
+title: "ICorDebugReferenceValue::GetValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugReferenceValue::GetValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetValue method, ICorDebugReferenceValue interface [.NET Framework debugging]"
   - "ICorDebugReferenceValue::GetValue method [.NET Framework debugging]"

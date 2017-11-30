@@ -1,5 +1,5 @@
 ---
-title: "How to: Use a Windows Communication Foundation Client | Microsoft Docs"
+title: "How to: Use a Windows Communication Foundation Client"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
 helpviewer_keywords: 
   - "WCF clients [WCF], using"
 ms.assetid: 190349fc-0573-49c7-bb85-8e316df7f31f
@@ -148,11 +145,11 @@ Add(100,15.99) = 115.99Subtract(145,76.54) = 68.46Multiply(9,81.25) = 731.25Divi
 ```  
   
 ## See Also  
- [Building Clients](../../../docs/framework/wcf/building-clients.md)   
- [How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md)   
- [Getting Started Tutorial](../../../docs/framework/wcf/getting-started-tutorial.md)   
- [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)   
- [How to: Create a Duplex Contract](../../../docs/framework/wcf/feature-details/how-to-create-a-duplex-contract.md)   
- [How to: Access Services with a Duplex Contract](../../../docs/framework/wcf/feature-details/how-to-access-services-with-a-duplex-contract.md)   
- [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)   
+ [Building Clients](../../../docs/framework/wcf/building-clients.md)  
+ [How to: Create a Client](../../../docs/framework/wcf/how-to-create-a-wcf-client.md)  
+ [Getting Started Tutorial](../../../docs/framework/wcf/getting-started-tutorial.md)  
+ [Basic WCF Programming](../../../docs/framework/wcf/basic-wcf-programming.md)  
+ [How to: Create a Duplex Contract](../../../docs/framework/wcf/feature-details/how-to-create-a-duplex-contract.md)  
+ [How to: Access Services with a Duplex Contract](../../../docs/framework/wcf/feature-details/how-to-access-services-with-a-duplex-contract.md)  
+ [Getting Started](../../../docs/framework/wcf/samples/getting-started-sample.md)  
  [Self-Host](../../../docs/framework/wcf/samples/self-host.md)

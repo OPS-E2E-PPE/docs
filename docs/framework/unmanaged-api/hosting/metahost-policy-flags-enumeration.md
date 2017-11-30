@@ -1,5 +1,5 @@
 ---
-title: "METAHOST_POLICY_FLAGS Enumeration | Microsoft Docs"
+title: "METAHOST_POLICY_FLAGS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "METAHOST_POLICY_FLAGS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "METAHOST_POLICY_FLAGS enumeration [.NET Framework hosting]"
 ms.assetid: 3bb4b526-0118-42e2-ba59-c95648528ce9
@@ -72,5 +70,5 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)   
+ [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)  
  [GetRequestedRuntime Method](../../../../docs/framework/unmanaged-api/hosting/iclrmetahostpolicy-getrequestedruntime-method.md)

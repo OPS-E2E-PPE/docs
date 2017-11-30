@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishAppDomain::GetID Method | Microsoft Docs"
+title: "ICorPublishAppDomain::GetID Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishAppDomain::GetID"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetID method, ICorPublishAppDomain interface [.NET Framework debugging]"
   - "ICorPublishAppDomain::GetID method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "FileDialog Class | Microsoft Docs"
+title: "FileDialog Class"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "FileDialog class"
+  - "FileDialog class [Windows Forms]"
 ms.assetid: 85a8fb62-c7d9-4a30-9b74-1cd10efe6ccb
 caps.latest.revision: 10
 author: dotnet-bot

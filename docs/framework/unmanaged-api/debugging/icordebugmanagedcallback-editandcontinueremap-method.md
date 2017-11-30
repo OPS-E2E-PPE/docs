@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugManagedCallback::EditAndContinueRemap Method | Microsoft Docs"
+title: "ICorDebugManagedCallback::EditAndContinueRemap Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugManagedCallback::EditAndContinueRemap"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EditAndContinueRemap method [.NET Framework debugging]"
   - "ICorDebugManagedCallback::EditAndContinueRemap method [.NET Framework debugging]"

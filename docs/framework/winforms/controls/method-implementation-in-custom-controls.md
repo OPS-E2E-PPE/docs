@@ -1,5 +1,5 @@
 ---
-title: "Method Implementation in Custom Controls | Microsoft Docs"
+title: "Method Implementation in Custom Controls"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,7 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "user controls [Windows Forms], method implementation"
   - "custom controls [Windows Forms], overloading methods"
@@ -81,5 +82,5 @@ public void Spin(Widget driver)
 ```  
   
 ## See Also  
- [Events](../../../../docs/standard/events/index.md)   
+ [Events](../../../../docs/standard/events/index.md)  
  [Properties in Windows Forms Controls](../../../../docs/framework/winforms/controls/properties-in-windows-forms-controls.md)

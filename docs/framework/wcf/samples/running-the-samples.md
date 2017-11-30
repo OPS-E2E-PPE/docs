@@ -1,5 +1,5 @@
 ---
-title: "Running the Windows Communication Foundation Samples | Microsoft Docs"
+title: "Running the Windows Communication Foundation Samples"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -86,6 +86,6 @@ The [!INCLUDE[indigo1](../../../../includes/indigo1-md.md)] samples can be run i
 -   If the service is hosted in IIS for security purposes, remove the virtual directory definition and permissions granted in the setup steps when you are finished with the samples.  
   
 ## See Also  
- [Building the Windows Communication Foundation Samples](../../../../docs/framework/wcf/samples/building-the-samples.md)   
- [Running the Samples in a Workgroup and Across Machines](http://msdn.microsoft.com/en-us/a451a525-e7ce-452d-9da9-620221260113)   
+ [Building the Windows Communication Foundation Samples](../../../../docs/framework/wcf/samples/building-the-samples.md)  
+ [Running the Samples in a Workgroup and Across Machines](http://msdn.microsoft.com/en-us/a451a525-e7ce-452d-9da9-620221260113)  
  [Troubleshooting Tips](http://msdn.microsoft.com/en-us/8787c877-5e96-42da-8214-fa737a38f10b)

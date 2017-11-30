@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugAssembly::GetAppDomain Method | Microsoft Docs"
+title: "ICorDebugAssembly::GetAppDomain Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugAssembly::GetAppDomain"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugAssembly::GetAppDomain method [.NET Framework debugging]"
   - "GetAppDomain method, ICorDebugAssembly interface [.NET Framework debugging]"

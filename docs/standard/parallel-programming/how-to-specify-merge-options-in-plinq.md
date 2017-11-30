@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Merge Options in PLINQ | Microsoft Docs"
+title: "How to: Specify Merge Options in PLINQ"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,6 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "PLINQ queries, how to use merge options"
 ms.assetid: 0f33b527-e91a-4550-a39a-e63e396fd831
@@ -31,5 +34,5 @@ This example shows how to specify the merge options that will apply to all subse
  In cases where the <xref:System.Linq.ParallelMergeOptions.AutoBuffered> option incurs an undesirable latency before the first element is yielded, try the <xref:System.Linq.ParallelMergeOptions.NotBuffered> option to yield result elements faster and more smoothly.  
   
 ## See Also  
- <xref:System.Linq.ParallelMergeOptions>   
+ <xref:System.Linq.ParallelMergeOptions>  
  [Parallel LINQ (PLINQ)](../../../docs/standard/parallel-programming/parallel-linq-plinq.md)

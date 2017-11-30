@@ -1,5 +1,5 @@
 ---
-title: "CorLocalRefPreservation Enumeration | Microsoft Docs"
+title: "CorLocalRefPreservation Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorLocalRefPreservation"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorLocalRefPreservation enumeration [.NET Framework metadata]"
 ms.assetid: 44757163-1228-4213-a4c4-d4de503cc75d

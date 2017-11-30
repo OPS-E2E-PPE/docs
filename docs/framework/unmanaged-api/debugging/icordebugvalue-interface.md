@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValue Interface1 | Microsoft Docs"
+title: "ICorDebugValue Interface1"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugValue interface [.NET Framework debugging]"
 ms.assetid: b2f7007f-c446-4b18-aed1-a25cff8aee31
@@ -63,5 +61,5 @@ Represents a value in the process being debugged. The value can be a read or a w
     
     
     
- [ICorDebugValue3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvalue3-interface.md)   
+ [ICorDebugValue3 Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugvalue3-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

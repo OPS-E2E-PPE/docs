@@ -38,7 +38,7 @@
 ## Examples  
  The following example shows the `<TableStructure>` part of an [!INCLUDE[TLA#tla_xps](~/includes/tlasharptla-xps-md.md)] document.  
   
- [!code-xml[DocumentStructure#DocStructTableStruct1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructtablestruct1)]  
+ [!code-xaml[DocumentStructure#DocStructTableStruct1](~/samples/snippets/csharp/VS_Snippets_Wpf/DocumentStructure/CSharp/Content/FixedPage1_structure.xaml#docstructtablestruct1)]  
   
  ]]></format>
     </remarks>
@@ -98,6 +98,7 @@
         <summary>This method has not been implemented.</summary>
         <returns>Always raises <see cref="T:System.NotSupportedException" />.</returns>
         <remarks>To be added.</remarks>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">

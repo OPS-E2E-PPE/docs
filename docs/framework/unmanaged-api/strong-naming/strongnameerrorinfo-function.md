@@ -1,5 +1,5 @@
 ---
-title: "StrongNameErrorInfo Function | Microsoft Docs"
+title: "StrongNameErrorInfo Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -21,8 +21,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "StrongNameErrorInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "StrongNameErrorInfo function [.NET Framework strong naming]"
 ms.assetid: e91bf8c3-7c26-4732-938e-2e5b04abfc99

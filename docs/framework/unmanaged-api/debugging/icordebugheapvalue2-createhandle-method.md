@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugHeapValue2::CreateHandle Method | Microsoft Docs"
+title: "ICorDebugHeapValue2::CreateHandle Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugHeapValue2::CreateHandle"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateHandle method [.NET Framework debugging]"
   - "ICorDebugHeapValue2::CreateHandle method [.NET Framework debugging]"

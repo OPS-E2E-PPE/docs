@@ -1,5 +1,5 @@
 ---
-title: "Limitations of the Windows Forms Timer Component&#39;s Interval Property | Microsoft Docs"
+title: "Limitations of the Windows Forms Timer Component&#39;s Interval Property"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,12 +9,10 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "timers, event intervals"
-  - "Interval property, limitations"
-  - "timers, Windows-based"
+  - "timers [Windows Forms], event intervals"
+  - "Interval property [Windows Forms], limitations"
+  - "timers [Windows Forms], Windows-based"
   - "Timer component [Windows Forms], limitations of Interval property"
 ms.assetid: 7e5fb513-77e7-4046-a8e8-aab94e61ca0f
 caps.latest.revision: 10
@@ -37,6 +35,6 @@ The Windows Forms <xref:System.Windows.Forms.Timer> component has an <xref:Syste
 -   The precision of the <xref:System.Windows.Forms.Timer.Interval%2A> property is in milliseconds. Some computers provide a high-resolution counter that has a resolution higher than milliseconds. The availability of such a counter depends on the processor hardware of your computer. For more information, see article 172338, "How To Use QueryPerformanceCounter to Time Code," in the Microsoft Knowledge Base at http://support.microsoft.com.  
   
 ## See Also  
- <xref:System.Windows.Forms.Timer>   
- [Timer Component](../../../../docs/framework/winforms/controls/timer-component-windows-forms.md)   
+ <xref:System.Windows.Forms.Timer>  
+ [Timer Component](../../../../docs/framework/winforms/controls/timer-component-windows-forms.md)  
  [Timer Component Overview](../../../../docs/framework/winforms/controls/timer-component-overview-windows-forms.md)

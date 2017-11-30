@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugExceptionDebugEvent::GetFlags Method | Microsoft Docs"
+title: "ICorDebugExceptionDebugEvent::GetFlags Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 ms.assetid: 73225303-8852-487e-9a0e-9f0cb95e99d9
 caps.latest.revision: 4
 author: "rpetrusha"
@@ -47,5 +45,5 @@ HRESULT GetFlags(
  **.NET Framework Versions:** [!INCLUDE[net_46_native](../../../../includes/net-46-native-md.md)]  
   
 ## See Also  
- [ICorDebugExceptionDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugexceptiondebugevent-interface.md)   
+ [ICorDebugExceptionDebugEvent Interface](../../../../docs/framework/unmanaged-api/debugging/icordebugexceptiondebugevent-interface.md)  
  [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)

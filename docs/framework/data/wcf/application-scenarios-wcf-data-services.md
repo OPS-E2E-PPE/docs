@@ -1,5 +1,5 @@
 ---
-title: "Application Scenarios (WCF Data Services) | Microsoft Docs"
+title: "Application Scenarios (WCF Data Services)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -93,5 +93,5 @@ manager: "erikre"
 -   [Service Operations](../../../../docs/framework/data/wcf/service-operations-wcf-data-services.md)  
   
 ## See Also  
- [Quickstart](../../../../docs/framework/data/wcf/quickstart-wcf-data-services.md)   
+ [Quickstart](../../../../docs/framework/data/wcf/quickstart-wcf-data-services.md)  
  [Resources](../../../../docs/framework/data/wcf/wcf-data-services-resources.md)

@@ -1,5 +1,5 @@
 ---
-title: "Development and Deployment Considerations | Microsoft Docs"
+title: "Development and Deployment Considerations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -28,7 +28,7 @@ Topics in this section address issues to consider when developing or deploying a
  [Deployment Considerations](../../../../../docs/framework/data/adonet/ef/deployment-considerations.md)  
   
 ## See Also  
- [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)   
- [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)   
- [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)   
+ [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)  
+ [Entity Framework Overview](../../../../../docs/framework/data/adonet/ef/overview.md)  
+ [Getting Started](../../../../../docs/framework/data/adonet/ef/getting-started.md)  
  [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/en-us/91076853-0881-421b-837a-f582f36be527)

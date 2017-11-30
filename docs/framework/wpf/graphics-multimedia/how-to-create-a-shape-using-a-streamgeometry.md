@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Shape Using a StreamGeometry | Microsoft Docs"
+title: "How to: Create a Shape Using a StreamGeometry"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "classes, StreamGeometry"
-  - "StreamGeometry class"
   - "graphics [WPF], shapes"
-  - "shapes, creating with StreamGeometry class"
+  - "shapes [WPF], creating with StreamGeometry class"
 ms.assetid: 08f7c8ce-074b-49cd-9aba-cc9592d4ee51
 caps.latest.revision: 9
 author: dotnet-bot
@@ -26,7 +27,7 @@ manager: "wpickett"
 ## Example  
  The following example uses attribute syntax to create a triangular <xref:System.Windows.Media.StreamGeometry> in [!INCLUDE[TLA2#tla_xaml](../../../../includes/tla2sharptla-xaml-md.md)].  
   
- [!code-xml[GeometriesMiscSnippets_snip#StreamGeometryTriangleExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/StreamGeometryExample.xaml#streamgeometrytriangleexamplewholepage)]  
+ [!code-xaml[GeometriesMiscSnippets_snip#StreamGeometryTriangleExampleWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/GeometriesMiscSnippets_snip/XAML/StreamGeometryExample.xaml#streamgeometrytriangleexamplewholepage)]  
   
  For more information about <xref:System.Windows.Media.StreamGeometry> attribute syntax, see the [Path Markup Syntax](../../../../docs/framework/wpf/graphics-multimedia/path-markup-syntax.md) page.  
   
@@ -43,8 +44,8 @@ manager: "wpickett"
  [!code-vb[GeometriesMiscSnippets_procedural_snip#StreamGeometryExampleWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/GeometriesMiscSnippets_procedural_snip/visualbasic/streamgeometryexample.vb#streamgeometryexamplewholepage)]  
   
 ## See Also  
- <xref:System.Windows.Media.PathGeometry>   
- <xref:System.Windows.Media.StreamGeometry>   
- <xref:System.Windows.Media.StreamGeometryContext>   
- [Create a Shape by Using a PathGeometry](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-shape-by-using-a-pathgeometry.md)   
+ <xref:System.Windows.Media.PathGeometry>  
+ <xref:System.Windows.Media.StreamGeometry>  
+ <xref:System.Windows.Media.StreamGeometryContext>  
+ [Create a Shape by Using a PathGeometry](../../../../docs/framework/wpf/graphics-multimedia/how-to-create-a-shape-by-using-a-pathgeometry.md)  
  [Geometry Overview](../../../../docs/framework/wpf/graphics-multimedia/geometry-overview.md)

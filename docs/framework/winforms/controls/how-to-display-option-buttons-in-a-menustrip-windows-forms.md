@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Option Buttons in a MenuStrip (Windows Forms) | Microsoft Docs"
+title: "How to: Display Option Buttons in a MenuStrip (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "MenuStrip [Windows Forms], displaying option buttons"
-  - "displaying option buttons, MenuStrip [Windows Forms]"
+  - "displaying option buttons [Windows Forms], MenuStrip [Windows Forms]"
   - "option buttons [Windows Forms], displaying in MenuStrip"
 ms.assetid: 8b596af2-9ff8-4f7b-93d7-cba830e167f4
 caps.latest.revision: 9
@@ -86,13 +87,13 @@ Option buttons, also known as radio buttons, are similar to check boxes except t
 -   References to the System, System.Drawing, and System.Windows.Forms assemblies.  
   
 ## See Also  
- <xref:System.Windows.Forms.MenuStrip>   
- <xref:System.Windows.Forms.ToolStripMenuItem>   
- <xref:System.Windows.Forms.ToolStripMenuItem.CheckOnClick%2A?displayProperty=fullName>   
- <xref:System.Windows.Forms.ToolStripMenuItem.Checked%2A?displayProperty=fullName>   
- <xref:System.Windows.Forms.ToolStripMenuItem.OnCheckedChanged%2A?displayProperty=fullName>   
- <xref:System.Windows.Forms.ToolStripMenuItem.OnPaint%2A?displayProperty=fullName>   
- <xref:System.Windows.Forms.ToolStripMenuItem.Enabled%2A?displayProperty=fullName>   
- <xref:System.Windows.Forms.RadioButtonRenderer>   
- [MenuStrip Control](../../../../docs/framework/winforms/controls/menustrip-control-windows-forms.md)   
+ <xref:System.Windows.Forms.MenuStrip>  
+ <xref:System.Windows.Forms.ToolStripMenuItem>  
+ <xref:System.Windows.Forms.ToolStripMenuItem.CheckOnClick%2A?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.ToolStripMenuItem.Checked%2A?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.ToolStripMenuItem.OnCheckedChanged%2A?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.ToolStripMenuItem.OnPaint%2A?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.ToolStripMenuItem.Enabled%2A?displayProperty=nameWithType>  
+ <xref:System.Windows.Forms.RadioButtonRenderer>  
+ [MenuStrip Control](../../../../docs/framework/winforms/controls/menustrip-control-windows-forms.md)  
  [How to: Implement a Custom ToolStripRenderer](../../../../docs/framework/winforms/controls/how-to-implement-a-custom-toolstriprenderer.md)

@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugFrame::GetStackRange Method | Microsoft Docs"
+title: "ICorDebugFrame::GetStackRange Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugFrame::GetStackRange"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetStackRange method, ICorDebugFrame interface [.NET Framework debugging]"
   - "ICorDebugFrame::GetStackRange method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "CorDebugChainReason Enumeration | Microsoft Docs"
+title: "CorDebugChainReason Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugChainReason"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugChainReason enumeration [.NET Framework debugging]"
 ms.assetid: c915da51-50b2-41df-841a-2b971f4d0975

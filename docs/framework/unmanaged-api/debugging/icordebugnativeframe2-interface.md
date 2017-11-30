@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugNativeFrame2 Interface | Microsoft Docs"
+title: "ICorDebugNativeFrame2 Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugNativeFrame2"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugNativeFrame2 interface [.NET Framework debugging]"
 ms.assetid: 52a80838-af36-4399-bc97-d8a4c6d76df2
@@ -57,5 +55,5 @@ Provides methods that test for child and parent frame relationships.
   
 ## See Also  
     
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [Debugging](../../../../docs/framework/unmanaged-api/debugging/index.md)

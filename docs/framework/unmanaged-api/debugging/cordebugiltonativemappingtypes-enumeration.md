@@ -1,5 +1,5 @@
 ---
-title: "CorDebugIlToNativeMappingTypes Enumeration | Microsoft Docs"
+title: "CorDebugIlToNativeMappingTypes Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorDebugIlToNativeMappingTypes"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorDebugIIToNativeMappingTypes enumeration [.NET Framework debugging]"
 ms.assetid: c35e2919-42c3-4ba0-ae28-443c35f66f93
@@ -60,5 +58,5 @@ typedef enum CorDebugIlToNativeMappingTypes {
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode-getiltonativemapping-method.md)   
+ [GetILToNativeMapping Method](../../../../docs/framework/unmanaged-api/debugging/icordebugcode-getiltonativemapping-method.md)  
  [Debugging Enumerations](../../../../docs/framework/unmanaged-api/debugging/debugging-enumerations.md)

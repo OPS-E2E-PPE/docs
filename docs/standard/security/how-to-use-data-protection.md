@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Data Protection | Microsoft Docs"
+title: "How to: Use Data Protection"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 helpviewer_keywords: 
   - "DPAPI"
   - "encryption [.NET Framework], data protection API"
@@ -71,5 +69,5 @@ The .NET Framework provides access to the data protection API (DPAPI), which all
 -   Include the <xref:System>, <xref:System.IO>, <xref:System.Security.Cryptography>, and <xref:System.Text> namespace.  
   
 ## See Also  
- <xref:System.Security.Cryptography.ProtectedMemory>   
+ <xref:System.Security.Cryptography.ProtectedMemory>  
  <xref:System.Security.Cryptography.ProtectedData>

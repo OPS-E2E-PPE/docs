@@ -1,5 +1,5 @@
 ---
-title: "Profiling Enumerations | Microsoft Docs"
+title: "Profiling Enumerations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,8 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "reference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "profiling enumerations [.NET Framework]"
   - "enumerations [.NET Framework profiling]"

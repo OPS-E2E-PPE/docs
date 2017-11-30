@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::AssemblyLoadFinished Method | Microsoft Docs"
+title: "ICorProfilerCallback::AssemblyLoadFinished Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::AssemblyLoadFinished"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorProfilerCallback::AssemblyLoadFinished method [.NET Framework profiling]"
   - "AssemblyLoadFinished method [.NET Framework profiling]"

@@ -5,16 +5,13 @@
   "need_pr_comments": false,
   "need_generate_pdf_url_template": true,
   "git_repository_branch_open_to_public_contributors": "master",
-  "git_repository_url_open_to_public_contributors": "https://github.com/dotnet/docs",
   "branch_target_mapping": {
     "live": [
       "Publish",
-      "Pdf",
       "Intellisense"
     ],
     "master": [
-      "Publish",
-      "Pdf"
+      "Publish"
     ]
   },
   "Targets": {
@@ -37,6 +34,7 @@
         "netframework-4.6.1",
         "netframework-4.6.2",
         "netframework-4.7",
+        "netframework-4.7.1",
         "netcore-1.0",
         "netcore-1.1",
         "netcore-2.0",
@@ -56,7 +54,8 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "Tutorial": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -76,7 +75,7 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": ["master-sync-work", "live-sync-work"],
   "git_repository_url_open_to_public_contributors": "https://github.com/dotnet/docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
@@ -90,6 +89,16 @@
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master"
+    },
+    {
+      "path_to_root": "_csharplang",
+      "url": "https://github.com/dotnet/csharplang",
+      "branch": "master"
+    },
+    {
+      "path_to_root": "_vblang",
+      "url": "https://github.com/dotnet/vblang",
+      "branch": "master"
     }
   ],
 
@@ -99,21 +108,21 @@
       "nuget_feed": "https://www.myget.org/F/op/api/v2",
       "path_to_root": "_dependentPackages/ECMA2Yaml",
       "target_framework": "net45",
-      "version": "latest"
+      "version": "latest-prerelease"
     },
     {
       "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
+      "nuget_feed": "https://www.myget.org/F/docfx-dev/api/v2",
       "path_to_root": "_dependentPackages/memberpage.plugins",
       "target_framework": "net45",
-      "version": "latest"
+      "version": "latest-prerelease"
     },
     {
       "id": "SplitToc",
       "nuget_feed": "https://www.myget.org/F/op/api/v2",
       "path_to_root": "_dependentPackages/splitToc",
       "target_framework": "net45",
-      "version": "latest"
+      "version": "latest-prerelease"
     }
   ],
   "ECMA2Yaml": {

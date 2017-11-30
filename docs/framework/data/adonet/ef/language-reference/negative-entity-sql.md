@@ -1,5 +1,5 @@
 ---
-title: "- (Negative) (Entity SQL) | Microsoft Docs"
+title: "- (Negative) (Entity SQL)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 208e54ef-4741-4ec5-89d6-6ff700863cb0
 caps.latest.revision: 3
 author: "JennieHubbard"

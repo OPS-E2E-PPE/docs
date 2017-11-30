@@ -1,5 +1,5 @@
 ---
-title: "GetWin32ResBlob Method | Microsoft Docs"
+title: "GetWin32ResBlob Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "GetWin32ResBlob"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetWin32ResBlob method"
 ms.assetid: 36997e04-f9f6-4254-a041-6767ac6c51d9
@@ -71,6 +69,6 @@ HRESULT GetWin32ResBlob(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

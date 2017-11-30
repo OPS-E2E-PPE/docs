@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerCallback::ExceptionThrown Method | Microsoft Docs"
+title: "ICorProfilerCallback::ExceptionThrown Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorProfilerCallback::ExceptionThrown"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ExceptionThrown method [.NET Framework profiling]"
   - "ICorProfilerCallback::ExceptionThrown method [.NET Framework profiling]"

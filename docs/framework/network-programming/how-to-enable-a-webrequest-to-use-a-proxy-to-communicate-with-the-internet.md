@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable a WebRequest to Use a Proxy to Communicate With the Internet | Microsoft Docs"
+title: "How to: Enable a WebRequest to Use a Proxy to Communicate With the Internet"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 63c0ef2c-44b5-4c54-9804-ba0b9b001ac7
 caps.latest.revision: 9
 author: "mcleblanc"
@@ -39,5 +37,5 @@ GlobalProxySelection.Select = proxyObject
 -   References to the **System.Net** namespace.  
   
 ## See Also  
- [Using Application Protocols](../../../docs/framework/network-programming/using-application-protocols.md)   
+ [Using Application Protocols](../../../docs/framework/network-programming/using-application-protocols.md)  
  [Accessing the Internet Through a Proxy](../../../docs/framework/network-programming/accessing-the-internet-through-a-proxy.md)

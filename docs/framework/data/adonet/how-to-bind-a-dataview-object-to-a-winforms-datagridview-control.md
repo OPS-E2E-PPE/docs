@@ -1,5 +1,5 @@
 ---
-title: "How to: Bind a DataView Object to a Windows Forms DataGridView Control | Microsoft Docs"
+title: "How to: Bind a DataView Object to a Windows Forms DataGridView Control"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: 2b73d60a-6049-446a-85a7-3e5a68b183e2
 caps.latest.revision: 2
 author: "JennieHubbard"

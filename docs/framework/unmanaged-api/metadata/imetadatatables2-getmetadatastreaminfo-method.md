@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataTables2::GetMetaDataStreamInfo Method | Microsoft Docs"
+title: "IMetaDataTables2::GetMetaDataStreamInfo Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataTables2::GetMetaDataStreamInfo"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetMetaDataStreamInfo method [.NET Framework metadata]"
   - "IMetaDataTables2::GetMetaDataStreamInfo method [.NET Framework metadata]"
@@ -67,5 +65,5 @@ HRESULT GetMetaDataStreamInfo (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IMetaDataTables2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables2-interface.md)   
+ [IMetaDataTables2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables2-interface.md)  
  [IMetaDataTables Interface](../../../../docs/framework/unmanaged-api/metadata/imetadatatables-interface.md)

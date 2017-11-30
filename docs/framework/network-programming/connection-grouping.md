@@ -1,5 +1,5 @@
 ---
-title: "Connection Grouping | Microsoft Docs"
+title: "Connection Grouping"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -7,11 +7,6 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "Internet, connections"
   - "connections [.NET Framework], grouping"
@@ -30,5 +25,5 @@ Connection grouping associates specific requests within a single application to 
  To assign a request to a specific connection group, you must assign a name to the <xref:System.Net.WebRequest.ConnectionGroupName%2A> property of your <xref:System.Net.WebRequest> before making the request.  
   
 ## See Also  
- [Managing Connections](../../../docs/framework/network-programming/managing-connections.md)   
+ [Managing Connections](../../../docs/framework/network-programming/managing-connections.md)  
  [How to: Assign User Information to Group Connections](../../../docs/framework/network-programming/how-to-assign-user-information-to-group-connections.md)

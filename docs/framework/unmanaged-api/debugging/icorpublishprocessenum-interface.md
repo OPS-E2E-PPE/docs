@@ -1,5 +1,5 @@
 ---
-title: "ICorPublishProcessEnum Interface | Microsoft Docs"
+title: "ICorPublishProcessEnum Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublishProcessEnum"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorPublishProcessEnum interface [.NET Framework debugging]"
 ms.assetid: aac8fcf9-ac09-437c-bd5c-2fda14ae1007
@@ -53,5 +51,5 @@ A subclass of the [ICorPublishEnum](../../../../docs/framework/unmanaged-api/deb
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)   
+ [Debugging Interfaces](../../../../docs/framework/unmanaged-api/debugging/debugging-interfaces.md)  
  [CorpubPublish Coclass](../../../../docs/framework/unmanaged-api/debugging/corpubpublish-coclass.md)

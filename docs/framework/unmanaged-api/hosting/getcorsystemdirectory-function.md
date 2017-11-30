@@ -1,5 +1,5 @@
 ---
-title: "GetCORSystemDirectory Function | Microsoft Docs"
+title: "GetCORSystemDirectory Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "GetCORSystemDirectory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetCORSystemDirectory function [.NET Framework hosting]"
 ms.assetid: 3dcd16a7-dafc-4ca8-b5cd-20ffb37db91d

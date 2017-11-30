@@ -1,5 +1,5 @@
 ---
-title: "ICorRuntimeHost::SwitchOutLogicalThreadState Method | Microsoft Docs"
+title: "ICorRuntimeHost::SwitchOutLogicalThreadState Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorRuntimeHost::SwitchOutLogicalThreadState"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorRuntimeHost::SwitchOutLogicalThreadState method [.NET Framework hosting]"
   - "SwitchOutLogicalThreadState method [.NET Framework hosting]"

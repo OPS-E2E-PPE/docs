@@ -1,5 +1,5 @@
 ---
-title: "ICLRDebugManager::SetSymbolReadingPolicy Method | Microsoft Docs"
+title: "ICLRDebugManager::SetSymbolReadingPolicy Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICLRDebugManager::SetSymbolReadingPolicy"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICLRDebugManager, SetSymbolREadingPolicy method"
   - "SetSymbolReadingPolicy method [.NET Framework hosting]"

@@ -1,5 +1,5 @@
 ---
-title: "Required Arguments and Overload Groups | Microsoft Docs"
+title: "Required Arguments and Overload Groups"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -65,7 +65,7 @@ public sealed class Add : CodeActivity<int>
   
  If the activity is used and either of the required arguments is not bound the following validation error is returned.  
   
- **Value for a required activity argument 'Operand1' was not supplied.**   
+ **Value for a required activity argument 'Operand1' was not supplied.**  
 > [!NOTE]
 >  [!INCLUDE[crabout](../../../includes/crabout-md.md)] about checking for and handling validation errors and warnings, see [Invoking Activity Validation](../../../docs/framework/windows-workflow-foundation/invoking-activity-validation.md).  
   

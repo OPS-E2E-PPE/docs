@@ -1,5 +1,5 @@
 ---
-title: "How to: Animate a Rectangle Geometry by Using Key Frames | Microsoft Docs"
+title: "How to: Animate a Rectangle Geometry by Using Key Frames"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,13 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "key frames, animating RectangleGeometry objects with"
-  - "RectangleGeometry objects, animating with key frames"
-  - "animation, RectangleGeometry objects with key frames"
+  - "key frames [WPF], animating RectangleGeometry objects with"
+  - "RectangleGeometry objects [WPF], animating with key frames"
+  - "animation [WPF], RectangleGeometry objects with key frames"
 ms.assetid: a8b45ceb-0e32-4ba1-928f-df6d30db17c6
 caps.latest.revision: 11
 author: dotnet-bot
@@ -33,13 +36,13 @@ This example shows how to animate the <xref:System.Windows.Media.RectangleGeomet
   
  [!code-csharp[keyframes_snip#RectAnimationUsingKeyFramesWholePage](../../../../samples/snippets/csharp/VS_Snippets_Wpf/keyframes_snip/CSharp/RectAnimationUsingKeyFramesExample.cs#rectanimationusingkeyframeswholepage)]
  [!code-vb[keyframes_snip#RectAnimationUsingKeyFramesWholePage](../../../../samples/snippets/visualbasic/VS_Snippets_Wpf/keyframes_snip/visualbasic/rectanimationusingkeyframesexample.vb#rectanimationusingkeyframeswholepage)]
- [!code-xml[keyframes_snip#RectAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/RectAnimationUsingKeyFramesExample.xaml#rectanimationusingkeyframeswholepage)]  
+ [!code-xaml[keyframes_snip#RectAnimationUsingKeyFramesWholePage](../../../../samples/snippets/xaml/VS_Snippets_Wpf/keyframes_snip/XAML/RectAnimationUsingKeyFramesExample.xaml#rectanimationusingkeyframeswholepage)]  
   
  For the complete sample, see [KeyFrame Animation Sample](http://go.microsoft.com/fwlink/?LinkID=160012).  
   
 ## See Also  
- <xref:System.Windows.Media.RectangleGeometry>   
- <xref:System.Windows.Media.RectangleGeometry.Rect%2A>   
- <xref:System.Windows.Media.Animation.RectAnimationUsingKeyFrames>   
- [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)   
+ <xref:System.Windows.Media.RectangleGeometry>  
+ <xref:System.Windows.Media.RectangleGeometry.Rect%2A>  
+ <xref:System.Windows.Media.Animation.RectAnimationUsingKeyFrames>  
+ [Key-Frame Animations Overview](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animations-overview.md)  
  [Key-Frame How-to Topics](../../../../docs/framework/wpf/graphics-multimedia/key-frame-animation-how-to-topics.md)

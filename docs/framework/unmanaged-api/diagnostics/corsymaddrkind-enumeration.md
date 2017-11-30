@@ -1,5 +1,5 @@
 ---
-title: "CorSymAddrKind Enumeration | Microsoft Docs"
+title: "CorSymAddrKind Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorSymAddrKind"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorSymAddrKind enumeration [.NET Framework debugging]"
 ms.assetid: 3ef841c2-cade-42ee-ba34-2ef91d6d0879

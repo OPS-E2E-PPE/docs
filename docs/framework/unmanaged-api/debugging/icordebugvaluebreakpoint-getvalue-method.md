@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugValueBreakpoint::GetValue Method | Microsoft Docs"
+title: "ICorDebugValueBreakpoint::GetValue Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugValueBreakpoint::GetValue"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetValue method, ICorDebugValueBreakpoint interface [.NET Framework debugging]"
   - "ICorDebugValueBreakpoint::GetValue method [.NET Framework debugging]"

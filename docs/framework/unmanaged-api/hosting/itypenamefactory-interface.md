@@ -1,5 +1,5 @@
 ---
-title: "ITypeNameFactory Interface | Microsoft Docs"
+title: "ITypeNameFactory Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ITypeNameFactory"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ITypeNameFactory interface [.NET Framework hosting]"
 ms.assetid: fa4247c4-f4f1-4855-9241-e04d737f5f73
@@ -44,5 +42,5 @@ Provides methods for deconstructing a type name.
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)   
+ [Hosting Interfaces](../../../../docs/framework/unmanaged-api/hosting/hosting-interfaces.md)  
  [TypeNameFactory Coclass](../../../../docs/framework/unmanaged-api/hosting/typenamefactory-coclass.md)

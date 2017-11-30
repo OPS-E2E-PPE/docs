@@ -1,5 +1,5 @@
 ---
-title: "CorRegFlags Enumeration | Microsoft Docs"
+title: "CorRegFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "CorRegFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CorRegFlags enumeration [.NET Framework metadata]"
 ms.assetid: 8d3080ee-39fe-4c57-8950-51323632d045

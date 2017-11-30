@@ -1,5 +1,5 @@
 ---
-title: "ICorPublish::EnumProcesses Method | Microsoft Docs"
+title: "ICorPublish::EnumProcesses Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorPublish::EnumProcesses"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorPublish::EnumProcesses method [.NET Framework debugging]"
   - "EnumProcesses method [.NET Framework debugging]"

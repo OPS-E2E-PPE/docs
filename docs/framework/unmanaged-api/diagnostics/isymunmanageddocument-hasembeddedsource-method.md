@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedDocument::HasEmbeddedSource Method | Microsoft Docs"
+title: "ISymUnmanagedDocument::HasEmbeddedSource Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedDocument::HasEmbeddedSource"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "HasEmbeddedSource method [.NET Framework debugging]"
   - "ISymUnmanagedDocument::HasEmbeddedSource method [.NET Framework debugging]"

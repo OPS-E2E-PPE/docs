@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::DefineAssemblyRef Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::DefineAssemblyRef Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::DefineAssemblyRef"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "DefineAssemblyRef method [.NET Framework metadata]"
   - "IMetaDataAssemblyEmit::DefineAssemblyRef method [.NET Framework metadata]"

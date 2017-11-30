@@ -1,5 +1,5 @@
 ---
-title: "Ngen.exe (Native Image Generator) | Microsoft Docs"
+title: "Ngen.exe (Native Image Generator)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,11 +9,10 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
+- "cpp"
 helpviewer_keywords: 
   - "Native Image Generator"
   - "images [.NET Framework], native"
@@ -83,7 +82,7 @@ ngen /? | /help
 |`uninstall` [`assemblyName` &#124; `assemblyPath`] [`scenarios`] [`config`]|Delete the native images of an assembly and its dependencies from the native image cache.<br /><br /> To uninstall a single image and its dependencies, use the same command-line arguments that were used to install the image. **Note:**  Starting with the [!INCLUDE[net_v40_long](../../../includes/net-v40-long-md.md)], the action `uninstall` * is no longer supported.|  
 |`update` [`/queue`]|Update native images that have become invalid.<br /><br /> If `/queue` is specified, the updates are queued for the native image service. Updates are always scheduled at priority 3, so they run when the computer is idle.|  
 |`display` [`assemblyName` &#124; `assemblyPath`]|Display the state of the native images for an assembly and its dependencies.<br /><br /> If no argument is supplied, everything in the native image cache is displayed.|  
-|`executeQueuedItems` [`1``&#124;``2``&#124;``3`]<br /><br /> -or-<br /><br /> `eqi` [1&#124;2&#124;3]|Execute queued compilation jobs.<br /><br /> If a priority is specified, compilation jobs with greater or equal priority are executed. If no priority is specified, all queued compilation jobs are executed.|  
+|`executeQueuedItems` [<code>1&#124;2&#124;3</code>]<br /><br /> -or-<br /><br /> `eqi` [1&#124;2&#124;3]|Execute queued compilation jobs.<br /><br /> If a priority is specified, compilation jobs with greater or equal priority are executed. If no priority is specified, all queued compilation jobs are executed.|  
 |`queue` {`pause` &#124; `continue` &#124; `status`}|Pause the native image service, allow the paused service to continue, or query the status of the service.|  
   
 <a name="ArgumentTable"></a>   
@@ -138,20 +137,20 @@ ngen /? | /help
   
  Starting with the [!INCLUDE[net_v40_short](../../../includes/net-v40-short-md.md)], the native images that are generated with Ngen.exe can no longer be loaded into applications that are running in partial trust. Instead, the just-in-time (JIT) compiler is invoked.  
   
- Ngen.exe generates native images for the assembly specified by the `assemblyname` argument to the `install` action and all its dependencies. Dependencies are determined from references in the assembly manifest. The only scenario in which you need to install a dependency separately is when the application loads it using reflection, for example by calling the <xref:System.Reflection.Assembly.Load%2A?displayProperty=fullName> method.  
+ Ngen.exe generates native images for the assembly specified by the `assemblyname` argument to the `install` action and all its dependencies. Dependencies are determined from references in the assembly manifest. The only scenario in which you need to install a dependency separately is when the application loads it using reflection, for example by calling the <xref:System.Reflection.Assembly.Load%2A?displayProperty=nameWithType> method.  
   
 > [!IMPORTANT]
->  Do not use the <xref:System.Reflection.Assembly.LoadFrom%2A?displayProperty=fullName> method with native images. An image loaded with this method cannot be used by other assemblies in the execution context.  
+>  Do not use the <xref:System.Reflection.Assembly.LoadFrom%2A?displayProperty=nameWithType> method with native images. An image loaded with this method cannot be used by other assemblies in the execution context.  
   
  Ngen.exe maintains a count on dependencies. For example, suppose `MyAssembly.exe` and `YourAssembly.exe` are both installed in the native image cache, and both have references to `OurDependency.dll`. If `MyAssembly.exe` is uninstalled, `OurDependency.dll` is not uninstalled. It is only removed when `YourAssembly.exe` is also uninstalled.  
   
- If you are generating a native image for an assembly in the global assembly cache, specify its display name. See <xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName>.  
+ If you are generating a native image for an assembly in the global assembly cache, specify its display name. See <xref:System.Reflection.Assembly.FullName%2A?displayProperty=nameWithType>.  
   
  The native images that Ngen.exe generates can be shared across application domains. This means you can use Ngen.exe in application scenarios that require assemblies to be shared across application domains. To specify domain neutrality:  
   
 -   Apply the <xref:System.LoaderOptimizationAttribute> attribute to your application.  
   
--   Set the <xref:System.AppDomainSetup.LoaderOptimization%2A?displayProperty=fullName> property when you create setup information for a new application domain.  
+-   Set the <xref:System.AppDomainSetup.LoaderOptimization%2A?displayProperty=nameWithType> property when you create setup information for a new application domain.  
   
  Always use domain-neutral code when loading the same assembly into multiple application domains. If a native image is loaded into a nonshared application domain after having been loaded into a shared domain, it cannot be used.  
   
@@ -196,7 +195,7 @@ ngen /? | /help
 ## Generating images for     different scenarios  
  After you have generated a native image for an assembly, the runtime automatically attempts to locate and use this native   image each time it runs the assembly. Multiple images can be generated, depending on usage scenarios.  
   
- For example, if you run an assembly in a debugging or profiling scenario, the runtime looks for a native image that was generated with the `/Debug` or `/Profile` options. If it is unable to find a matching native image, the runtime reverts to standard JIT compilation. The only way to debug native images is to create a native image with the `/Debug`option.  
+ For example, if you run an assembly in a debugging or profiling scenario, the runtime looks for a native image that was generated with the `/Debug` or `/Profile` options. If it is unable to find a matching native image, the runtime reverts to standard JIT compilation. The only way to debug native images is to create a native image with the `/Debug` option.  
   
  The `uninstall` action also recognize scenarios, so you can uninstall all scenarios or only selected scenarios.  
   
@@ -283,7 +282,7 @@ ngen /? | /help
   
 <a name="DependencyHint"></a>   
 ### Specifying a binding hint for a dependency  
- Apply the <xref:System.Runtime.CompilerServices.DependencyAttribute> to an assembly to indicate the likelihood that a specified dependency will be loaded. <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=fullName> indicates that hard binding is appropriate, <xref:System.Runtime.CompilerServices.LoadHint.Default> indicates that the default for the dependency should be used, and <xref:System.Runtime.CompilerServices.LoadHint.Sometimes> indicates that hard binding is not appropriate.  
+ Apply the <xref:System.Runtime.CompilerServices.DependencyAttribute> to an assembly to indicate the likelihood that a specified dependency will be loaded. <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=nameWithType> indicates that hard binding is appropriate, <xref:System.Runtime.CompilerServices.LoadHint.Default> indicates that the default for the dependency should be used, and <xref:System.Runtime.CompilerServices.LoadHint.Sometimes> indicates that hard binding is not appropriate.  
   
  The following code shows the attributes for an assembly that has two dependencies. The first dependency (Assembly1) is an appropriate candidate for hard binding, and the second (Assembly2) is not.  
   
@@ -299,7 +298,7 @@ using System.Runtime.CompilerServices;
 [assembly:DependencyAttribute("Assembly2", LoadHint.Sometimes)]  
 ```  
   
-```cpp#  
+```cpp  
 using namespace System::Runtime::CompilerServices;  
 [assembly:DependencyAttribute("Assembly1", LoadHint.Always)];  
 [assembly:DependencyAttribute("Assembly2", LoadHint.Sometimes)];  
@@ -309,10 +308,10 @@ using namespace System::Runtime::CompilerServices;
   
 <a name="AssemblyHint"></a>   
 ### Specifying a default binding hint for an assembly  
- Default binding hints are only needed for assemblies that will be used immediately and frequently by any application that has a dependency on them. Apply the <xref:System.Runtime.CompilerServices.DefaultDependencyAttribute> with <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=fullName> to such assemblies to specify that hard binding should be used.  
+ Default binding hints are only needed for assemblies that will be used immediately and frequently by any application that has a dependency on them. Apply the <xref:System.Runtime.CompilerServices.DefaultDependencyAttribute> with <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=nameWithType> to such assemblies to specify that hard binding should be used.  
   
 > [!NOTE]
->  There is no reason to apply <xref:System.Runtime.CompilerServices.DefaultDependencyAttribute> to .dll assemblies that do not fall into this category, because applying the attribute with any value other than <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=fullName> has the same effect as not applying the attribute at all.  
+>  There is no reason to apply <xref:System.Runtime.CompilerServices.DefaultDependencyAttribute> to .dll assemblies that do not fall into this category, because applying the attribute with any value other than <xref:System.Runtime.CompilerServices.LoadHint.Always?displayProperty=nameWithType> has the same effect as not applying the attribute at all.  
   
  Microsoft uses the <xref:System.Runtime.CompilerServices.DefaultDependencyAttribute> to specify that hard binding is the default for a very small number of assemblies in the .NET Framework, such as mscorlib.dll.  
   
@@ -410,7 +409,7 @@ ngen install c:\myfiles\MyAssembly.exe
 > [!NOTE]
 >  This is a change from Ngen.exe behavior in the .NET Framework versions 1.0 and 1.1, where the application base is set to the current directory.  
   
- An assembly can have a dependency without a reference, for example if it loads a .dll file by using the <xref:System.Reflection.Assembly.Load%2A?displayProperty=fullName> method. You can create a native image for such a .dll file by using configuration information for the application assembly, with the `/ExeConfig` option. The following command generates a native image for `MyLib.dll,` using the configuration information from `MyApp.exe`.  
+ An assembly can have a dependency without a reference, for example if it loads a .dll file by using the <xref:System.Reflection.Assembly.Load%2A?displayProperty=nameWithType> method. You can create a native image for such a .dll file by using configuration information for the application assembly, with the `/ExeConfig` option. The following command generates a native image for `MyLib.dll,` using the configuration information from `MyApp.exe`.  
   
 ```  
 ngen install c:\myfiles\MyLib.dll /ExeConfig:c:\myapps\MyApp.exe  
@@ -590,9 +589,9 @@ ngen executeQueuedItems
  In the .NET Framework version 2.0, the only interaction with the native image service is through the command-line tool Ngen.exe. Use the command-line tool in installation scripts to queue actions for the native image service and to interact with the service.  
   
 ## See Also  
- [Native Image Service](http://msdn.microsoft.com/en-us/b15e0e32-59cb-4ae4-967c-6c9527781309)   
- [Native Image Task](http://msdn.microsoft.com/en-us/9b1f7590-4e0d-4737-90ef-eaf696932afb)   
- [Tools](../../../docs/framework/tools/index.md)   
- [Managed Execution Process](../../../docs/standard/managed-execution-process.md)   
- [How the Runtime Locates Assemblies](../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)   
+ [Native Image Service](http://msdn.microsoft.com/en-us/b15e0e32-59cb-4ae4-967c-6c9527781309)  
+ [Native Image Task](http://msdn.microsoft.com/en-us/9b1f7590-4e0d-4737-90ef-eaf696932afb)  
+ [Tools](../../../docs/framework/tools/index.md)  
+ [Managed Execution Process](../../../docs/standard/managed-execution-process.md)  
+ [How the Runtime Locates Assemblies](../../../docs/framework/deployment/how-the-runtime-locates-assemblies.md)  
  [Command Prompts](../../../docs/framework/tools/developer-command-prompt-for-vs.md)

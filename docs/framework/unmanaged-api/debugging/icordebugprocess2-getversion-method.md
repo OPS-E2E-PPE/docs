@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugProcess2::GetVersion Method | Microsoft Docs"
+title: "ICorDebugProcess2::GetVersion Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugProcess2::GetVersion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetVersion method, ICorDebugProcess2 nterface [.NET Framework debugging]"
   - "ICorDebugProcess2::GetVersion method [.NET Framework debugging]"

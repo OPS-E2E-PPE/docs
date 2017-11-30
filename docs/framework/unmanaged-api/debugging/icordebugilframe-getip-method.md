@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugILFrame::GetIP Method | Microsoft Docs"
+title: "ICorDebugILFrame::GetIP Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugILFrame::GetIP"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "GetIP method, ICorDebugILFrame interface [.NET Framework debugging]"
   - "ICorDebugILFrame::GetIP method [.NET Framework debugging]"

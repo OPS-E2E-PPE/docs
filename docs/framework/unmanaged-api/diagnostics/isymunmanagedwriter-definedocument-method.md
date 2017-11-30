@@ -1,5 +1,5 @@
 ---
-title: "ISymUnmanagedWriter::DefineDocument Method | Microsoft Docs"
+title: "ISymUnmanagedWriter::DefineDocument Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ISymUnmanagedWriter::DefineDocument"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ISymUnmanagedWriter::DefineDocument method [.NET Framework debugging]"
   - "DefineDocument method [.NET Framework debugging]"

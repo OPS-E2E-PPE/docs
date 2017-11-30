@@ -1,5 +1,5 @@
 ---
-title: "How to: Design a Windows Forms Layout that Responds Well to Localization | Microsoft Docs"
+title: "How to: Design a Windows Forms Layout that Responds Well to Localization"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,12 +10,13 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "TableLayoutPanel control [Windows Forms]"
-  - "application design, localization"
+  - "application design [Windows Forms], localization"
   - "Windows Forms, localization"
-  - "localization, Windows Forms layout"
+  - "localization [Windows Forms], Windows Forms layout"
 ms.assetid: d13eff2d-701c-4b6e-8838-3885cbfb7223
 caps.latest.revision: 11
 author: dotnet-bot
@@ -59,6 +60,6 @@ Creating forms that are ready to be localized greatly speeds development for int
  For information about building this example from the command line for [!INCLUDE[vbprvb](../../../../includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../../../../includes/csprcs-md.md)], see [Building from the Command Line](~/docs/visual-basic/reference/command-line-compiler/building-from-the-command-line.md) or [Command-line Building With csc.exe](~/docs/csharp/language-reference/compiler-options/command-line-building-with-csc-exe.md). You can also build this example in [!INCLUDE[vsprvs](../../../../includes/vsprvs-md.md)] by pasting the code into a new project.  Also see [How to: Compile and Run a Complete Windows Forms Code Example Using Visual Studio](http://msdn.microsoft.com/library/Bb129228\(v=vs.110\)).  
   
 ## See Also  
- <xref:System.Windows.Forms.TableLayoutPanel>   
- <xref:System.Windows.Forms.FlowLayoutPanel>   
+ <xref:System.Windows.Forms.TableLayoutPanel>  
+ <xref:System.Windows.Forms.FlowLayoutPanel>  
  [Localization](../../../../docs/standard/globalization-localization/localization.md)

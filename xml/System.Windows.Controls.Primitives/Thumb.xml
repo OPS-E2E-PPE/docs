@@ -48,6 +48,9 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Controls.Slider" />
+    <altmember cref="T:System.Windows.Controls.Primitives.Track" />
+    <altmember cref="T:System.Windows.Controls.Primitives.ScrollBar" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -133,13 +136,18 @@
 ## Examples  
  The following example shows how to assign an event handler for the <xref:System.Windows.Controls.Primitives.Thumb.DragCompleted> event to a <xref:System.Windows.Controls.Primitives.Thumb> control, and how to define the event handler. For the complete sample, see [Thumb Drag Functionality Sample](http://go.microsoft.com/fwlink/?LinkID=160042).  
   
- [!code-xml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
+ [!code-xaml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
   
  [!code-csharp[Thumb#DragCompletedHandler](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml.cs#dragcompletedhandler)]
  [!code-vb[Thumb#DragCompletedHandler](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Thumb/VisualBasic/Pane1.xaml.vb#dragcompletedhandler)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.DragCompletedEventArgs" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragStarted" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragDelta" />
+        <altmember cref="P:System.Windows.Controls.Primitives.Thumb.IsDragging" />
+        <altmember cref="M:System.Windows.Controls.Primitives.Thumb.CancelDrag" />
       </Docs>
     </Member>
     <Member MemberName="DragCompletedEvent">
@@ -200,12 +208,17 @@
 ## Examples  
  The following example shows how to assign an event handler for the <xref:System.Windows.Controls.Primitives.Thumb.DragDelta> event to a <xref:System.Windows.Controls.Primitives.Thumb> control, and how to define the event handler. For the complete sample, see [Thumb Drag Functionality Sample](http://go.microsoft.com/fwlink/?LinkID=160042).  
   
- [!code-xml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
+ [!code-xaml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
   
  [!code-csharp[Thumb#2](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml.cs#2)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Controls.Primitives.Thumb.IsDragging" />
+        <altmember cref="T:System.Windows.Controls.Primitives.DragDeltaEventArgs" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragStarted" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragCompleted" />
+        <altmember cref="M:System.Windows.Controls.Primitives.Thumb.CancelDrag" />
       </Docs>
     </Member>
     <Member MemberName="DragDeltaEvent">
@@ -264,13 +277,18 @@
 ## Examples  
  The following example shows how to assign an event handler for the <xref:System.Windows.Controls.Primitives.Thumb.DragStarted> event to a <xref:System.Windows.Controls.Primitives.Thumb> control, and how to define the event handler. For the complete sample, see [Thumb Drag Functionality Sample](http://go.microsoft.com/fwlink/?LinkID=160042).  
   
- [!code-xml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
+ [!code-xaml[Thumb#Thumb](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml#thumb)]  
   
  [!code-csharp[Thumb#DragStartedHandler](~/samples/snippets/csharp/VS_Snippets_Wpf/Thumb/CSharp/Pane1.xaml.cs#dragstartedhandler)]
  [!code-vb[Thumb#DragStartedHandler](~/samples/snippets/visualbasic/VS_Snippets_Wpf/Thumb/VisualBasic/Pane1.xaml.vb#dragstartedhandler)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Controls.Primitives.DragStartedEventArgs" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragCompleted" />
+        <altmember cref="E:System.Windows.Controls.Primitives.Thumb.DragDelta" />
+        <altmember cref="P:System.Windows.Controls.Primitives.Thumb.IsDragging" />
+        <altmember cref="M:System.Windows.Controls.Primitives.Thumb.CancelDrag" />
       </Docs>
     </Member>
     <Member MemberName="DragStartedEvent">
@@ -335,6 +353,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Controls.Primitives.Thumb.OnDraggingChanged(System.Windows.DependencyPropertyChangedEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="IsDraggingProperty">

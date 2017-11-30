@@ -1,5 +1,5 @@
 ---
-title: "Namespace Support in the DOM | Microsoft Docs"
+title: "Namespace Support in the DOM"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: f0548ead-0fed-41ee-b33e-117ba900d3bc
 caps.latest.revision: 3
 author: "mairaw"

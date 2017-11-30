@@ -1,5 +1,5 @@
 ---
-title: "EmitAssembly Method | Microsoft Docs"
+title: "EmitAssembly Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -18,8 +18,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EmitAssembly"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EmitAssembly method"
 ms.assetid: 605ff39e-e5cc-4bff-8196-e8d68a9715b9
@@ -52,6 +50,6 @@ HRESULT EmitAssembly(
  Requires alink.h  
   
 ## See Also  
- [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)   
- [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)   
+ [IALink Interface](../../../../docs/framework/unmanaged-api/alink/ialink-interface.md)  
+ [IALink2 Interface](../../../../docs/framework/unmanaged-api/alink/ialink2-interface.md)  
  [ALink API](../../../../docs/framework/unmanaged-api/alink/index.md)

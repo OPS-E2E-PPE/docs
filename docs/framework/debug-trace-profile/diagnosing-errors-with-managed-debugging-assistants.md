@@ -1,5 +1,5 @@
 ---
-title: "Diagnosing Errors with Managed Debugging Assistants | Microsoft Docs"
+title: "Diagnosing Errors with Managed Debugging Assistants"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,11 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "EHMDA"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "run-time error debugging"
   - "managed code, run-time debugging"

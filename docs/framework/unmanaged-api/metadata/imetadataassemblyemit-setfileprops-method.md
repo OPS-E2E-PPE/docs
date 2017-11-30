@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataAssemblyEmit::SetFileProps Method | Microsoft Docs"
+title: "IMetaDataAssemblyEmit::SetFileProps Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataAssemblyEmit::SetFileProps"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IMetaDataAssemblyEmit::SetFileProps method [.NET Framework metadata]"
   - "SetFileProps method [.NET Framework metadata]"

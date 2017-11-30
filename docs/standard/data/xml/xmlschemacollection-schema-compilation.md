@@ -1,5 +1,5 @@
 ---
-title: "XmlSchemaCollection Schema Compilation | Microsoft Docs"
+title: "XmlSchemaCollection Schema Compilation"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,9 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+dev_langs:
+- "csharp"
+- "vb"
 ms.assetid: 76f28770-7126-428f-9ed5-7b5ae8bad5ee
 caps.latest.revision: 4
 author: "mairaw"
@@ -62,5 +60,5 @@ vr.Schemas.Add(xsc);
 ```  
   
 ## See Also  
- [XDR Validation with XmlSchemaCollection](../../../../docs/standard/data/xml/xdr-validation-with-xmlschemacollection.md)   
+ [XDR Validation with XmlSchemaCollection](../../../../docs/standard/data/xml/xdr-validation-with-xmlschemacollection.md)  
  [XML Schema (XSD) Validation with XmlSchemaCollection](../../../../docs/standard/data/xml/xml-schema-xsd-validation-with-xmlschemacollection.md)

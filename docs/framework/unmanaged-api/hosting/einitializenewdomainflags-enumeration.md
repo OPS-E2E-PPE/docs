@@ -1,5 +1,5 @@
 ---
-title: "EInitializeNewDomainFlags Enumeration | Microsoft Docs"
+title: "EInitializeNewDomainFlags Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "EInitializeNewDomainFlags"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EInitializeNewDomainFlags enumeration [.NET Framework hosting]"
 ms.assetid: 3a120ab2-f5ef-4c9b-8595-d3ed7247c342
@@ -59,5 +57,5 @@ typedef enum {
  **.NET Framework Versions:** [!INCLUDE[net_current_v40plus](../../../../includes/net-current-v40plus-md.md)]  
   
 ## See Also  
- [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)   
+ [Hosting Enumerations](../../../../docs/framework/unmanaged-api/hosting/hosting-enumerations.md)  
  [SetAppDomainManagerType Method](../../../../docs/framework/unmanaged-api/hosting/iclrdomainmanager-setappdomainmanagertype-method.md)

@@ -1,5 +1,5 @@
 ---
-title: "Naming Resources | Microsoft Docs"
+title: "Naming Resources"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 helpviewer_keywords: 
   - "names [.NET Framework], localized resources"
   - "localization, naming guidelines"
@@ -40,8 +35,8 @@ Because localizable resources can be referenced via certain objects as if they w
   
  The resource identifier should be the exception type name plus a short identifier of the exception:  
   
- `ArgumentExceptionIllegalCharacters`   
- `ArgumentExceptionInvalidName`   
+ `ArgumentExceptionIllegalCharacters`  
+ `ArgumentExceptionInvalidName`  
  `ArgumentExceptionFileNameIsMalformed`  
   
  *Portions © 2005, 2009 Microsoft Corporation. All rights reserved.*  
@@ -49,5 +44,5 @@ Because localizable resources can be referenced via certain objects as if they w
  *Reprinted by permission of Pearson Education, Inc. from [Framework Design Guidelines: Conventions, Idioms, and Patterns for Reusable .NET Libraries, 2nd Edition](http://www.informit.com/store/framework-design-guidelines-conventions-idioms-and-9780321545619) by Krzysztof Cwalina and Brad Abrams, published Oct 22, 2008 by Addison-Wesley Professional as part of the Microsoft Windows Development Series.*  
   
 ## See Also  
- [Framework Design Guidelines](../../../docs/standard/design-guidelines/index.md)   
+ [Framework Design Guidelines](../../../docs/standard/design-guidelines/index.md)  
  [Naming Guidelines](../../../docs/standard/design-guidelines/naming-guidelines.md)

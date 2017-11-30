@@ -1,5 +1,5 @@
 ---
-title: "Deployment Considerations (Entity Framework) | Microsoft Docs"
+title: "Deployment Considerations (Entity Framework)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,6 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
 ms.assetid: 3a847a22-4eb8-4565-b18b-453bbca070db
 caps.latest.revision: 3
 author: "JennieHubbard"
@@ -39,5 +35,5 @@ This topic provides information about deploying applications that use the ADO.NE
 -   Because the Entity Framework is a component of the .NET Framework, it can be redistributed with your application as permitted by the .NET Framework license agreement.  
   
 ## See Also  
- [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)   
+ [ADO.NET Entity Framework](../../../../../docs/framework/data/adonet/ef/index.md)  
  [Development and Deployment Considerations](../../../../../docs/framework/data/adonet/ef/development-and-deployment-considerations.md)

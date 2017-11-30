@@ -1,5 +1,5 @@
 ---
-title: "Application Security Scenarios in SQL Server | Microsoft Docs"
+title: "Application Security Scenarios in SQL Server"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -63,7 +63,7 @@ There is no single correct way to create a secure SQL Server client application.
  Describes how to enable cross-database access without jeopardizing security.  
   
 ## See Also  
- [SQL Server Security](../../../../../docs/framework/data/adonet/sql/sql-server-security.md)   
- [Overview of SQL Server Security](../../../../../docs/framework/data/adonet/sql/overview-of-sql-server-security.md)   
- [Securing ADO.NET Applications](../../../../../docs/framework/data/adonet/securing-ado-net-applications.md)   
+ [SQL Server Security](../../../../../docs/framework/data/adonet/sql/sql-server-security.md)  
+ [Overview of SQL Server Security](../../../../../docs/framework/data/adonet/sql/overview-of-sql-server-security.md)  
+ [Securing ADO.NET Applications](../../../../../docs/framework/data/adonet/securing-ado-net-applications.md)  
  [ADO.NET Managed Providers and DataSet Developer Center](http://go.microsoft.com/fwlink/?LinkId=217917)

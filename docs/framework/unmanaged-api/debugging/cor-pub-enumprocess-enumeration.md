@@ -1,5 +1,5 @@
 ---
-title: "COR_PUB_ENUMPROCESS Enumeration | Microsoft Docs"
+title: "COR_PUB_ENUMPROCESS Enumeration"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "COR_PUB_ENUMPROCESS"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "COR_PUB_ENUMPROCESS enumeration [.NET Framework debugging]"
 ms.assetid: 5d3ada6e-feea-47da-a7ed-b664107c137f

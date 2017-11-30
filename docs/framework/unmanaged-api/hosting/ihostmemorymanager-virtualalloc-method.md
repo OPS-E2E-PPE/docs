@@ -1,5 +1,5 @@
 ---
-title: "IHostMemoryManager::VirtualAlloc Method | Microsoft Docs"
+title: "IHostMemoryManager::VirtualAlloc Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IHostMemoryManager::VirtualAlloc"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "VirtualAlloc method [.NET Framework hosting]"
   - "IHostMemoryManager::VirtualAlloc method [.NET Framework hosting]"

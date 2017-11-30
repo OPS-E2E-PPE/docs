@@ -1,5 +1,5 @@
 ---
-title: "&lt;metadata&gt; | Microsoft Docs"
+title: "&lt;metadata&gt;"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -58,10 +58,10 @@ Specifies how service metadata can be processed.
 |[\<client>](../../../../../docs/framework/configure-apps/file-schema/wcf/client.md)|The client section defines a list of endpoints that a client can connect to.|  
   
 ## See Also  
- <xref:System.ServiceModel.Configuration.MetadataElement>   
- <xref:System.ServiceModel.Configuration.PolicyImporterElementCollection>   
- <xref:System.ServiceModel.Configuration.WsdlImporterElementCollection>   
- <xref:System.ServiceModel.Description.MetadataImporter>   
- <xref:System.ServiceModel.Description.WsdlImporter>   
- [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)   
+ <xref:System.ServiceModel.Configuration.MetadataElement>  
+ <xref:System.ServiceModel.Configuration.PolicyImporterElementCollection>  
+ <xref:System.ServiceModel.Configuration.WsdlImporterElementCollection>  
+ <xref:System.ServiceModel.Description.MetadataImporter>  
+ <xref:System.ServiceModel.Description.WsdlImporter>  
+ [WCF Client Configuration](../../../../../docs/framework/wcf/feature-details/client-configuration.md)  
  [Clients](../../../../../docs/framework/wcf/feature-details/clients.md)

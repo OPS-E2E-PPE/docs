@@ -1,5 +1,5 @@
 ---
-title: "CreateDebuggingInterfaceFromVersion Function for Silverlight | Microsoft Docs"
+title: "CreateDebuggingInterfaceFromVersion Function for Silverlight"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,8 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 f1_keywords: 
   - "CreateDebuggingInterfaceFromVersion"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CreateDebuggingInterfaceFromVersion function"
   - "debugging API [Silverlight]"

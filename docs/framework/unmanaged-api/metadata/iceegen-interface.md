@@ -1,5 +1,5 @@
 ---
-title: "ICeeGen Interface | Microsoft Docs"
+title: "ICeeGen Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICeeGen"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICeeGen interface [.NET Framework metadata]"
 ms.assetid: 383d20b0-efe9-4e71-8fb8-1186b2e7d0c0

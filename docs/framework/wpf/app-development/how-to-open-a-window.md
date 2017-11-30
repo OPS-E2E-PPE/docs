@@ -1,5 +1,5 @@
 ---
-title: "How to: Open a Window | Microsoft Docs"
+title: "How to: Open a Window"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,9 +9,12 @@ ms.technology:
   - "dotnet-wpf"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs: 
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
-  - "windows, opening"
-  - "opening windows"
+  - "windows [WPF], opening"
+  - "opening windows [WPF]"
 ms.assetid: 6b91b2bb-fda7-491d-a72e-139dd630a5b0
 caps.latest.revision: 4
 author: dotnet-bot

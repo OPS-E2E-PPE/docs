@@ -1,5 +1,5 @@
 ---
-title: "ICorProfilerAssemblyReferenceProvider Interface | Microsoft Docs"
+title: "ICorProfilerAssemblyReferenceProvider Interface"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -15,8 +15,6 @@ api_location:
   - "mscorwks.dll"
 api_type: 
   - "COM"
-dev_langs: 
-  - "C++"
 ms.assetid: 17205116-66e1-4acc-8f01-532fb3867028
 topic_type: 
   - "apiref"

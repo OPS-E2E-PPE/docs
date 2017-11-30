@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyName::GetProperty Method | Microsoft Docs"
+title: "IAssemblyName::GetProperty Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyName::GetProperty"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IAssemblyName::GetProperty method [.NET Framework fusion]"
   - "GetProperty method [.NET Framework fusion]"

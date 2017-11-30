@@ -1,5 +1,5 @@
 ---
-title: "IMetaDataImport::EnumPermissionSets Method | Microsoft Docs"
+title: "IMetaDataImport::EnumPermissionSets Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IMetaDataImport::EnumPermissionSets"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "EnumPermissionSets method [.NET Framework metadata]"
   - "IMetaDataImport::EnumPermissionSets method [.NET Framework metadata]"
@@ -82,5 +80,5 @@ HRESULT EnumPermissionSets
  **.NET Framework Versions:** [!INCLUDE[net_current_v10plus](../../../../includes/net-current-v10plus-md.md)]  
   
 ## See Also  
- [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)   
+ [IMetaDataImport Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport-interface.md)  
  [IMetaDataImport2 Interface](../../../../docs/framework/unmanaged-api/metadata/imetadataimport2-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Control How Much Related Data Is Retrieved | Microsoft Docs"
+title: "How to: Control How Much Related Data Is Retrieved"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-ado"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 ms.assetid: efdc203e-3da9-4477-815e-54f10c3d7c6c
 caps.latest.revision: 2
 author: "JennieHubbard"

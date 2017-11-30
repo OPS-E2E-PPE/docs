@@ -1,5 +1,5 @@
 ---
-title: "ICorDebugCode::IsIL Method | Microsoft Docs"
+title: "ICorDebugCode::IsIL Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "ICorDebugCode::IsIL"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "ICorDebugCode::IsIL method [.NET Framework debugging]"
   - "IsIL method [.NET Framework debugging]"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Access Keyed Collections in Windows Forms | Microsoft Docs"
+title: "How to: Access Keyed Collections in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,10 +10,11 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
-  - "jsharp"
+  - "csharp"
+  - "vb"
 helpviewer_keywords: 
   - "keyed collections [Windows Forms]"
-  - "collections, accessing with keys"
+  - "collections [Windows Forms], accessing with keys"
 ms.assetid: b9b79b8b-d9bf-4f8c-b9d6-9578bc3219d3
 caps.latest.revision: 6
 author: dotnet-bot
@@ -57,5 +58,5 @@ manager: "wpickett"
      [!code-vb[System.Windows.Forms.KeyedCollectionsEx#3](../../../samples/snippets/visualbasic/VS_Snippets_Winforms/System.Windows.Forms.KeyedCollectionsEx/VB/Form1.vb#3)]  
   
 ## See Also  
- [Getting Started with Windows Forms](../../../docs/framework/winforms/getting-started-with-windows-forms.md)   
+ [Getting Started with Windows Forms](../../../docs/framework/winforms/getting-started-with-windows-forms.md)  
  [How to: Add or Remove Images with the Windows Forms ImageList Component](../../../docs/framework/winforms/controls/how-to-add-or-remove-images-with-the-windows-forms-imagelist-component.md)

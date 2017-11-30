@@ -1,5 +1,5 @@
 ---
-title: "Typical Steps for Using LINQ to SQL | Microsoft Docs"
+title: "Typical Steps for Using LINQ to SQL"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -88,6 +88,6 @@ To implement a [!INCLUDE[vbtecdlinq](../../../../../../includes/vbtecdlinq-md.md
  For more information, see [Debugging Support](../../../../../../docs/framework/data/adonet/sql/linq/debugging-support.md).  
   
 ## See Also  
- [Getting Started](../../../../../../docs/framework/data/adonet/sql/linq/getting-started.md)   
- [Creating the Object Model](../../../../../../docs/framework/data/adonet/sql/linq/creating-the-object-model.md)   
+ [Getting Started](../../../../../../docs/framework/data/adonet/sql/linq/getting-started.md)  
+ [Creating the Object Model](../../../../../../docs/framework/data/adonet/sql/linq/creating-the-object-model.md)  
  [Stored Procedures](../../../../../../docs/framework/data/adonet/sql/linq/stored-procedures.md)

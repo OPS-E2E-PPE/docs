@@ -1,5 +1,5 @@
 ---
-title: "CoInitializeEE Function | Microsoft Docs"
+title: "CoInitializeEE Function"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "DLLExport"
 f1_keywords: 
   - "CoInitializeEE"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "CoInitializeEE function [.NET Framework hosting]"
 ms.assetid: 7e42a928-5068-4ba6-b8c3-806551a01fa8

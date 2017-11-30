@@ -1,5 +1,5 @@
 ---
-title: "ErrorProvider Component Overview (Windows Forms) | Microsoft Docs"
+title: "ErrorProvider Component Overview (Windows Forms)"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -11,11 +11,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ErrorProvider"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
   - "errors [Windows Forms], displaying to users"
-  - "error messages, displaying"
+  - "error messages [Windows Forms], displaying"
   - "ErrorProvider component [Windows Forms], about ErrorProvider component"
 ms.assetid: ced189f2-b5c8-46a7-a6f1-37f5af95dc99
 caps.latest.revision: 12
@@ -35,6 +33,6 @@ The Windows Forms [ErrorProvider](../../../../docs/framework/winforms/controls/e
 >  The <xref:System.Windows.Forms.ErrorProvider> component does not provide built-in support for accessibility clients. To make your application accessible when using this component, you must provide an additional, accessible feedback mechanism.  
   
 ## See Also  
- <xref:System.Windows.Forms.ErrorProvider>   
- [How to: View Errors Within a DataSet with the Windows Forms ErrorProvider Component](../../../../docs/framework/winforms/controls/view-errors-within-a-dataset-with-wf-errorprovider-component.md)   
+ <xref:System.Windows.Forms.ErrorProvider>  
+ [How to: View Errors Within a DataSet with the Windows Forms ErrorProvider Component](../../../../docs/framework/winforms/controls/view-errors-within-a-dataset-with-wf-errorprovider-component.md)  
  [How to: Display Error Icons for Form Validation with the Windows Forms ErrorProvider Component](../../../../docs/framework/winforms/controls/display-error-icons-for-form-validation-with-wf-errorprovider.md)

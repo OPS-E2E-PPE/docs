@@ -1,5 +1,5 @@
 ---
-title: "Using Fonts and Text | Microsoft Docs"
+title: "Using Fonts and Text"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,13 +9,11 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "GDI, drawing text [Windows Forms]"
+  - "GDI [Windows Forms], drawing text [Windows Forms]"
   - "text [Windows Forms], drawing in Windows Forms"
   - "examples [Windows Forms], fonts and text"
-  - "fonts, using in Windows Forms"
+  - "fonts [Windows Forms], using in Windows Forms"
   - "strings [Windows Forms], drawing in Windows Forms"
 ms.assetid: d43640f3-da94-4df2-a29d-a9d021a1c069
 caps.latest.revision: 16

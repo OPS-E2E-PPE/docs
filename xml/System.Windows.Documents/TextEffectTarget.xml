@@ -18,7 +18,7 @@
 ## Examples  
  The following example shows how to apply a <xref:System.Windows.Media.TranslateTransform>, <xref:System.Windows.Media.ScaleTransform>, and <xref:System.Windows.Media.RotateTransform> text effect to text. Below is the XAML for the example.  
   
- [!code-xml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
+ [!code-xaml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
   
  Below is the code behind for the example.  
   
@@ -26,6 +26,8 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Documents.TextEffectResolver" />
+    <altmember cref="T:System.Windows.Media.TextEffect" />
   </Docs>
   <Members>
     <Member MemberName="Disable">
@@ -49,7 +51,7 @@
 ## Examples  
  The following example shows how to apply a <xref:System.Windows.Media.TranslateTransform>, <xref:System.Windows.Media.ScaleTransform>, and <xref:System.Windows.Media.RotateTransform> text effect to text. Below is the XAML for the example.  
   
- [!code-xml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
+ [!code-xaml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
   
  Below is the code behind for the example.  
   
@@ -57,6 +59,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Documents.TextEffectTarget.Enable" />
       </Docs>
     </Member>
     <Member MemberName="Element">
@@ -103,7 +106,7 @@
 ## Examples  
  The following example shows how to apply a <xref:System.Windows.Media.TranslateTransform>, <xref:System.Windows.Media.ScaleTransform>, and <xref:System.Windows.Media.RotateTransform> text effect to text. Below is the XAML for the example.  
   
- [!code-xml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
+ [!code-xaml[FlowMiscSnippets_snip#TextEffectTargetExampleWholePage](~/samples/snippets/csharp/VS_Snippets_Wpf/FlowMiscSnippets_snip/cs/texteffecttargetexample.xaml#texteffecttargetexamplewholepage)]  
   
  Below is the code behind for the example.  
   
@@ -111,6 +114,7 @@
   
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Documents.TextEffectTarget.Disable" />
       </Docs>
     </Member>
     <Member MemberName="IsEnabled">

@@ -1,5 +1,5 @@
 ---
-title: "Result Tree Fragment in Transformations | Microsoft Docs"
+title: "Result Tree Fragment in Transformations"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net"
@@ -8,11 +8,6 @@ ms.suite: ""
 ms.technology: dotnet-standard
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
 ms.assetid: df363480-ba02-4233-9ddf-8434e421c4f1
 caps.latest.revision: 3
 author: "mairaw"
@@ -199,7 +194,7 @@ manager: "wpickett"
 ```  
   
 ## See Also  
- <xref:System.Xml.XPath.XPathNodeIterator>   
- <xref:System.Xml.XPath.XPathNodeIterator>   
- [XSLT Transformations with the XslTransform Class](../../../../docs/standard/data/xml/xslt-transformations-with-the-xsltransform-class.md)   
+ <xref:System.Xml.XPath.XPathNodeIterator>  
+ <xref:System.Xml.XPath.XPathNodeIterator>  
+ [XSLT Transformations with the XslTransform Class](../../../../docs/standard/data/xml/xslt-transformations-with-the-xsltransform-class.md)  
  [XslTransform Class Implements the XSLT Processor](../../../../docs/standard/data/xml/xsltransform-class-implements-the-xslt-processor.md)

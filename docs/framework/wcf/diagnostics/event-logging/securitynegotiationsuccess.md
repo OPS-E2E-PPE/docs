@@ -1,5 +1,5 @@
 ---
-title: "SecurityNegotiationSuccess | Microsoft Docs"
+title: "SecurityNegotiationSuccess"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -26,5 +26,5 @@ Id: 171
  This event indicates security negotiation has succeeded, listing the name of the service, Action, Client Identity, ActivityId and Negotiation.  
   
 ## See Also  
- [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)   
+ [Event Logging](../../../../../docs/framework/wcf/diagnostics/event-logging/index.md)  
  [Events General Reference](../../../../../docs/framework/wcf/diagnostics/event-logging/events-general-reference.md)

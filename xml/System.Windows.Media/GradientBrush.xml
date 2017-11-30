@@ -28,6 +28,7 @@
     <block subset="none" type="overrides">
       <para>When you inherit from the <see cref="T:System.Windows.Media.GradientBrush" /> class, you must override the <see cref="M:System.Windows.Freezable.CreateInstanceCore" /> method. Depending on whether your class must perform additional initialization work or contains non-dependency property data members, you might need to override additional <see cref="T:System.Windows.Freezable" /> methods. For more information about inheriting from <see cref="T:System.Windows.Freezable" /> types, see the [Freezable Objects Overview](~/docs/framework/wpf/advanced/freezable-objects-overview.md).</para>
     </block>
+    <altmember cref="T:System.Windows.Media.GradientStop" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -85,7 +86,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.Clone%2A?displayProperty=nameWithType>.  
   
  ]]></format>
         </remarks>
@@ -113,7 +114,7 @@
 ## Remarks  
  This method is used to produce modifiable copies of frozen <xref:System.Windows.Freezable> objects (or any <xref:System.Windows.Freezable> object). For convenience, this method shadows the inherited version with a strongly typed implementation.  
   
- For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=fullName>.  
+ For more information, see <xref:System.Windows.Freezable.CloneCurrentValue%2A?displayProperty=nameWithType>.  
   
  Resource references, data bindings, and animations are not copied, but their current values are.  
   
@@ -154,7 +155,7 @@
 ## Examples  
  The following example shows two similar gradients that have different modes of color interpolation, which causes the interpolation to happen in different color spaces.  
   
- [!code-xml[GradientBrushExamples_snip#ColorInterpolationModeExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GradientBrushExamples_snip/XAML/ColorInterpolationModeExample.xaml#colorinterpolationmodeexamplewholepage)]  
+ [!code-xaml[GradientBrushExamples_snip#ColorInterpolationModeExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GradientBrushExamples_snip/XAML/ColorInterpolationModeExample.xaml#colorinterpolationmodeexamplewholepage)]  
   
  The following illustration shows what the preceding example produces.  
   
@@ -264,7 +265,7 @@
 ## Examples  
  The following example shows how to use the <xref:System.Windows.Media.GradientBrush.MappingMode%2A> property to specify what coordinate system to use for the <xref:System.Windows.Media.LinearGradientBrush.StartPoint%2A> and <xref:System.Windows.Media.LinearGradientBrush.EndPoint%2A> of the gradient.  
   
- [!code-xml[GradientBrushExamples_snip#GradientBrushMappingModeExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GradientBrushExamples_snip/XAML/GradientBrushMappingModeExample.xaml#gradientbrushmappingmodeexamplewholepage)]  
+ [!code-xaml[GradientBrushExamples_snip#GradientBrushMappingModeExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/GradientBrushExamples_snip/XAML/GradientBrushMappingModeExample.xaml#gradientbrushmappingmodeexamplewholepage)]  
   
  ]]></format>
         </remarks>
@@ -324,10 +325,13 @@ Gradient spread methods
 ## Examples  
  The following example applies different <xref:System.Windows.Media.GradientBrush.SpreadMethod%2A> settings to several <xref:System.Windows.Media.LinearGradientBrush> and <xref:System.Windows.Media.RadialGradientBrush> objects.  
   
- [!code-xml[BrushesIntroduction_snip#GraphicsmmGradientSpreadExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/BrushesIntroduction_snip/XAML/GradientSpreadExample.xaml#graphicsmmgradientspreadexamplewholepage)]  
+ [!code-xaml[BrushesIntroduction_snip#GraphicsmmGradientSpreadExampleWholePage](~/samples/snippets/xaml/VS_Snippets_Wpf/BrushesIntroduction_snip/XAML/GradientSpreadExample.xaml#graphicsmmgradientspreadexamplewholepage)]  
   
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Media.GradientStop" />
+        <altmember cref="T:System.Windows.Media.LinearGradientBrush" />
+        <altmember cref="T:System.Windows.Media.RadialGradientBrush" />
       </Docs>
     </Member>
     <Member MemberName="SpreadMethodProperty">
@@ -347,5 +351,14 @@ Gradient spread methods
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <MemberGroup MemberName=".ctor">
+      <AssemblyInfo>
+        <AssemblyName>PresentationCore</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.GradientBrush" /> class.</summary>
+      </Docs>
+    </MemberGroup>
   </Members>
 </Type>

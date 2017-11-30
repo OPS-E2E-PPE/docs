@@ -1,5 +1,5 @@
 ---
-title: "IAssemblyName::Clone Method | Microsoft Docs"
+title: "IAssemblyName::Clone Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IAssemblyName::Clone"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "Clone method, IAssemblyName interface [.NET Framework fusion]"
   - "IAssemblyName::Clone method [.NET Framework fusion]"

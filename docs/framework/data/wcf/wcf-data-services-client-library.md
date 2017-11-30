@@ -1,5 +1,5 @@
 ---
-title: "WCF Data Services Client Library | Microsoft Docs"
+title: "WCF Data Services Client Library"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework-oob"
@@ -9,11 +9,6 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "HTML"
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords: 
   - "WCF Data Services, client library"
   - "DataServiceQuery class, about DataServiceQuery class"
@@ -63,5 +58,5 @@ Any application can interact with an [!INCLUDE[ssODataFull](../../../../includes
  Describes how to access and change binary data returned by the data service as a data stream.  
   
 ## See Also  
- [Defining WCF Data Services](../../../../docs/framework/data/wcf/defining-wcf-data-services.md)   
+ [Defining WCF Data Services](../../../../docs/framework/data/wcf/defining-wcf-data-services.md)  
  [Getting Started](../../../../docs/framework/data/wcf/getting-started-with-wcf-data-services.md)

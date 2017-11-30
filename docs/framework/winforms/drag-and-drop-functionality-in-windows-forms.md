@@ -1,5 +1,5 @@
 ---
-title: "Drag-and-Drop Functionality in Windows Forms | Microsoft Docs"
+title: "Drag-and-Drop Functionality in Windows Forms"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,10 +9,8 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-dev_langs: 
-  - "jsharp"
 helpviewer_keywords: 
-  - "drag and drop, Windows Forms"
+  - "drag and drop [Windows Forms], Windows Forms"
   - "Windows Forms, drag and drop"
 ms.assetid: 65cd2c03-8782-474e-b958-cbe43eeb902c
 caps.latest.revision: 12

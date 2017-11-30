@@ -1,5 +1,5 @@
 ---
-title: "IInstallReferenceItem::GetReference Method | Microsoft Docs"
+title: "IInstallReferenceItem::GetReference Method"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -17,8 +17,6 @@ api_type:
   - "COM"
 f1_keywords: 
   - "IInstallReferenceItem::GetReference"
-dev_langs: 
-  - "C++"
 helpviewer_keywords: 
   - "IInstallReferenceItem::GetReference method [.NET Framework fusion]"
   - "GetReference method [.NET Framework fusion]"
@@ -61,5 +59,5 @@ HRESULT GetReference (
  **.NET Framework Versions:** [!INCLUDE[net_current_v20plus](../../../../includes/net-current-v20plus-md.md)]  
   
 ## See Also  
- [IInstallReferenceItem Interface](../../../../docs/framework/unmanaged-api/fusion/iinstallreferenceitem-interface.md)   
+ [IInstallReferenceItem Interface](../../../../docs/framework/unmanaged-api/fusion/iinstallreferenceitem-interface.md)  
  [FUSION_INSTALL_REFERENCE Structure](../../../../docs/framework/unmanaged-api/fusion/fusion-install-reference-structure.md)

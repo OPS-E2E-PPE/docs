@@ -1,5 +1,5 @@
 ---
-title: "How to: Animate the Opacity of an Element or Brush | Microsoft Docs"
+title: "How to: Animate the Opacity of an Element or Brush"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -10,8 +10,8 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
-  - "opacity, animating"
-  - "animation, Opacity property"
+  - "opacity [WPF], animating"
+  - "animation [WPF], Opacity property"
 ms.assetid: 572af23b-39dd-48d1-9db5-4bca56a4b3d3
 caps.latest.revision: 8
 author: dotnet-bot
@@ -27,6 +27,6 @@ To make a framework element fade in and out of view, you can animate its <xref:S
  In the following example, two buttons are animated so that they fade in and out of view. The Opacity of the first <xref:System.Windows.Controls.Button> is animated from `1.0` to `0.0` over a <xref:System.Windows.Media.Animation.Timeline.Duration%2A> of five seconds. The second button is also animated, but the Opacity of the SolidColorBrush used to paint its <xref:System.Windows.Controls.Control.Background%2A> is animated rather than the opacity of the entire button. When the example is run, the first button completely fades in and out of view, while only the background of the second button fades in and out of view. Its text and border remain fully opaque.  
   
 ## Example  
- [!code-xml[timingbehaviors_snip#10](../../../../samples/snippets/csharp/VS_Snippets_Wpf/timingbehaviors_snip/CSharp/OpacityAnimationExample.xaml#10)]  
+ [!code-xaml[timingbehaviors_snip#10](../../../../samples/snippets/csharp/VS_Snippets_Wpf/timingbehaviors_snip/CSharp/OpacityAnimationExample.xaml#10)]  
   
  Code has been omitted from this example. The full sample also shows how to animate the opacity of a <xref:System.Windows.Media.Color> within a <xref:System.Windows.Media.LinearGradientBrush>.  For the full sample, see the [Animating the Opacity of an Element Sample](http://go.microsoft.com/fwlink/?LinkID=159968).

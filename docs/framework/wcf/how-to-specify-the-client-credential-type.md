@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Client Credential Type | Microsoft Docs"
+title: "How to: Specify the Client Credential Type"
 ms.custom: ""
 ms.date: "03/30/2017"
 ms.prod: ".net-framework"
@@ -9,6 +9,9 @@ ms.technology:
   - "dotnet-clr"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+dev_langs:
+ - "csharp"
+ - "vb"
 helpviewer_keywords: 
   - "security credentials, adding to SOAP messages"
   - "WCF, security"
@@ -61,5 +64,5 @@ After setting a security mode (either transport or message), you have the option
     ```  
   
 ## See Also  
- [Securing Services](../../../docs/framework/wcf/securing-services.md)   
+ [Securing Services](../../../docs/framework/wcf/securing-services.md)  
  [How to: Set the Security Mode](../../../docs/framework/wcf/how-to-set-the-security-mode.md)
