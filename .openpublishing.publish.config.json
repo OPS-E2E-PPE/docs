@@ -19,6 +19,7 @@
       "template_folder": "_themes.pdf"
     }
   },
+  
   "docsets_to_publish": [
     {
       "docset_name": "e2eppe-core-docs",
