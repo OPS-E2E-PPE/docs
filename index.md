@@ -18,7 +18,7 @@ description: Learn how to use .NET to create a variety of applications on any pl
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Get Started with C#</h3>
+                                    <h3>Get Started with C# </h3>
                                 </div>
                             </div>
                         </div>
