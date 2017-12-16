@@ -10,6 +10,10 @@
       "Publish",
       "Intellisense"
     ],
+    "ai-ebook": [
+      "Publish",
+      "Pdf"
+    ],    
     "master": [
       "Publish"
     ]
