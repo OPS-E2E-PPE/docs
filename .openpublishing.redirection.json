@@ -913,6 +913,11 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "docs/standard/portability-analyzer.md",
+            "redirect_url": "/dotnet/standard/analyzers/portability-analyzer",
+            "redirect_document_id": true
+        },
+        {
             "source_path": "docs/standard/microservices-architecture/architect-microservice-container-applications/communication-between-microservices.md",
             "redirect_url": "/dotnet/standard/microservices-architecture/architect-microservice-container-applications/communication-in-microservice-architecture",
             "redirect_document_id": true
@@ -1079,6 +1084,10 @@
         {
             "source_path": "docs/csharp/programming-guide/strings/how-to-parse-strings-using-string-split.md",
             "redirect_url": "docs/csharp/how-to/parse-strings-using-string-split.md"
+        },
+        {
+            "source_path": "docs/csharp/programming-guide/strings/how-to-concatenate-multiple-strings.md",
+            "redirect_url": "/dotnet/csharp/how-to/how-to-concatenate-multiple-strings.md"
         }    
     ]
 }

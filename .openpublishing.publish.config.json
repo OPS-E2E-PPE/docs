@@ -15,7 +15,12 @@
       "Pdf"
     ],    
     "master": [
-      "Publish"
+      "Publish",
+      "Pdf"
+    ],
+    "CITest": [
+      "Publish",
+      "Pdf"
     ]
   },
   "Targets": {
