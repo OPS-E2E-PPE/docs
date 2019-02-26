@@ -2,8 +2,9 @@
 title: Get started with .NET Core
 description: Find resources to learn how to build .NET Core applications on Windows, Linux and macOS.
 author: thraka
+ms.topic: cheese-plate
 ms.author: adegeo
-ms.date: 06/27/2018
+ms.date: 106/27/2018
 ---
 
 # Get started with .NET Core
