@@ -4,7 +4,7 @@
   "need_pr_comments": false,
   "need_generate_pdf_url_template": true,
   "git_repository_branch_open_to_public_contributors": "master",
-  "enable_custom_metadata_validation": false
+  "enable_custom_metadata_validation": false,
   "branch_target_mapping": {
     "live": [
       "Publish",
