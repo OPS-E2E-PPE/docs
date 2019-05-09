@@ -21,12 +21,10 @@ ms.assetid: 2a39a054-3e2a-4659-bcb7-8bcea490ba31
 # WPF Security Strategy - Platform Security
 While Windows Presentation Foundation (WPF) provides a variety of security services, it also leverages the security features of the underlying platform, which includes the operating system, the [!INCLUDE[TLA2#tla_clr](../../../includes/tla2sharptla-clr-md.md)], and [!INCLUDE[TLA2#tla_ie](../../../includes/tla2sharptla-ie-md.md)]. These layers combine to provide [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)] a strong, defense-in-depth security model that attempts to avoid any single point of failure, as shown in the following figure:  
   
- ![WPF security illustration](./media/windowplatformsecurity.PNG "windowplatformsecurity")  
+ ![Diagram that shows the WPF security model.](./media/wpf-security-strategy-platform-security/windows-presentation-foundation-security.png)  
   
  The remainder of this topic discusses the features in each of these layers that pertain to [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)] specifically.  
-  
 
-  
 <a name="Operating_System_Security"></a>   
 ## Operating System Security  
  The minimum level of operating system that is required by [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)] is [!INCLUDE[TLA2#tla_winxpsp2](../../../includes/tla2sharptla-winxpsp2-md.md)]. The core of [!INCLUDE[TLA2#tla_winxpsp2](../../../includes/tla2sharptla-winxpsp2-md.md)] provides several security features that form the security foundation for all Windows applications, including those built with [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)]. [!INCLUDE[TLA#tla_longhorn](../../../includes/tlasharptla-longhorn-md.md)] incorporates the security features of [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)] and extends them further. This topic discusses the breadth of these security features that are important to [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)], as well as how [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)] integrates with them to provide further defense-in-depth.  
@@ -132,9 +130,9 @@ While Windows Presentation Foundation (WPF) provides a variety of security servi
   
  Applications identified as being from the **Untrusted Sites** zone are granted no permissions by [!INCLUDE[TLA2#tla_cas](../../../includes/tla2sharptla-cas-md.md)] at all. Consequently, a predefined permission set does not exist for them.  
   
- The following figure illustrates the relationship between zones, permission sets, permissions, and resources.  
+ The following figure illustrates the relationship between zones, permission sets, permissions, and resources:  
   
- ![CAS permission sets](./media/caspermissionsets.png "CASPermissionSets")  
+ ![Diagram that shows CAS permission sets.](./media/wpf-security-strategy-platform-security/code-access-security-permissions-relationship.png)  
   
  The restrictions of the Internet zone security sandbox apply equally to any code that a [!INCLUDE[TLA2#tla_winfxwebapp](../../../includes/tla2sharptla-winfxwebapp-md.md)] imports from a system library, including [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)]. This ensures that every bit of the code is locked down, even [!INCLUDE[TLA2#tla_wpf](../../../includes/tla2sharptla-wpf-md.md)]. Unfortunately, to be able to execute, a [!INCLUDE[TLA2#tla_winfxwebapp](../../../includes/tla2sharptla-winfxwebapp-md.md)] needs to execute functionality that requires more permissions than those enabled by the Internet zone security sandbox.  
   
@@ -203,6 +201,7 @@ While Windows Presentation Foundation (WPF) provides a variety of security servi
  [!INCLUDE[TLA2#tla_ie7](../../../includes/tla2sharptla-ie7-md.md)] incorporates and extends the security capabilities of [!INCLUDE[TLA2#tla_ie6sp2](../../../includes/tla2sharptla-ie6sp2-md.md)] as part of an ongoing commitment to security.  
   
 ## See also
+
 - [Understanding Security in Microsoft Internet Explorer 6 in Windows XP SP2](https://www.microsoft.com/downloads/details.aspx?FamilyId=E550F940-37A0-4541-B5E2-704AB386C3ED&displaylang=en)
 - [Code Access Security](../misc/code-access-security.md)
 - [Security](security-wpf.md)

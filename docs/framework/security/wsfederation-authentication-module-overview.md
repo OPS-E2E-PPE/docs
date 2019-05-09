@@ -8,30 +8,30 @@ author: "BrucePerlerMS"
 Windows Identity Foundation (WIF) includes support for federated authentication in ASP.NET applications through the WS-Federated Authentication Module (WS-FAM). This topic will help you understand how federated authentication works and how to use it.  
   
 ### Overview of Federated Authentication  
- Federated authentication allows a Security Token Service (STS) in one trust domain to provide authentication information to an STS in another trust domain when there is a trust relationship between the two domains. An example of this is shown in the following illustration.  
+ Federated authentication allows a Security Token Service (STS) in one trust domain to provide authentication information to an STS in another trust domain when there is a trust relationship between the two domains. An example of this is shown in the following illustration:  
   
- ![Federation Authentication Scenario](../../../docs/framework/security/media/federatedauthentication.gif "FederatedAuthentication")  
+ ![Diagram showing the federated authentication scenario.](./media/wsfederation-authentication-module-overview/federated-authentication.gif)  
   
-1.  A client in the Fabrikam trust domain sends a request to a Relying Party (RP) application in the Contoso trust domain.  
+1. A client in the Fabrikam trust domain sends a request to a Relying Party (RP) application in the Contoso trust domain.  
   
-2.  The RP redirects the client to an STS in the Contoso trust domain. This STS has no knowledge of the client.  
+2. The RP redirects the client to an STS in the Contoso trust domain. This STS has no knowledge of the client.  
   
-3.  The Contoso STS redirects the client to an STS in the Fabrikam trust domain, with which the Contoso trust domain has a trust relationship.  
+3. The Contoso STS redirects the client to an STS in the Fabrikam trust domain, with which the Contoso trust domain has a trust relationship.  
   
-4.  The Fabrikam STS verifies the client’s identity and issues a security token to the Contoso STS.  
+4. The Fabrikam STS verifies the client’s identity and issues a security token to the Contoso STS.  
   
-5.  The Contoso STS uses the Fabrikam token to create its own token that can be used by the RP and sends it to the RP.  
+5. The Contoso STS uses the Fabrikam token to create its own token that can be used by the RP and sends it to the RP.  
   
-6.  The RP extracts the client’s claims from the security token and makes an authorization decision.  
+6. The RP extracts the client’s claims from the security token and makes an authorization decision.  
   
 ### Using the Federated Authentication Module with ASP.NET  
  <xref:System.IdentityModel.Services.WSFederationAuthenticationModule> (WS-FAM) is an HTTP module that lets you add federated authentication to an [!INCLUDE[vstecasp](../../../includes/vstecasp-md.md)] application. Federated authentication lets authentication logic be handled by the STS and lets you focus on writing business logic.  
   
  You configure the WS-FAM to specify the STS to which non-authenticated requests should be redirected. WIF lets you authenticate a user in two ways:  
   
-1.  Passive redirect: When an unauthenticated user tries to access a protected resource, and you want to simply redirect them to an STS without requiring a login page, then this is the right approach. The STS verifies the user’s identity, and issues a security token that contains the appropriate claims for that user. This option requires the WS-FAM to be added in the HTTP Modules pipeline. You can use the Identity and Access Tool for Visual Studio 2012 to modify your application’s configuration file to use the WS-FAM and to federate with an STS. For more information, see [Identity and Access Tool for Visual Studio 2012](../../../docs/framework/security/identity-and-access-tool-for-vs.md).  
+1. Passive redirect: When an unauthenticated user tries to access a protected resource, and you want to simply redirect them to an STS without requiring a login page, then this is the right approach. The STS verifies the user’s identity, and issues a security token that contains the appropriate claims for that user. This option requires the WS-FAM to be added in the HTTP Modules pipeline. You can use the Identity and Access Tool for Visual Studio 2012 to modify your application’s configuration file to use the WS-FAM and to federate with an STS. For more information, see [Identity and Access Tool for Visual Studio 2012](../../../docs/framework/security/identity-and-access-tool-for-vs.md).  
   
-2.  You can call the <xref:System.IdentityModel.Services.WSFederationAuthenticationModule.SignIn%2A?displayProperty=nameWithType> method or the <xref:System.IdentityModel.Services.WSFederationAuthenticationModule.RedirectToIdentityProvider%2A> method from the code-behind for a sign-in page in your RP application.  
+2. You can call the <xref:System.IdentityModel.Services.WSFederationAuthenticationModule.SignIn%2A?displayProperty=nameWithType> method or the <xref:System.IdentityModel.Services.WSFederationAuthenticationModule.RedirectToIdentityProvider%2A> method from the code-behind for a sign-in page in your RP application.  
   
  In passive redirect, all communication is performed through response/redirect from the client (typically a browser). You can add the WS-FAM to your application’s HTTP pipeline, where it watches for unauthenticated user requests and redirects users to the STS you specify.  
   
@@ -44,7 +44,7 @@ Windows Identity Foundation (WIF) includes support for federated authentication 
   
  The following diagram shows the overall flow of information in the passive redirect case. The request is automatically redirected via the STS to establish credentials without a login page:  
   
- ![Timing diagram for sign&#45;in with passive redirect](../../../docs/framework/security/media/signinusingpassiveredirect.gif "SignInUsingPassiveRedirect")  
+ ![Diagram that shows sign-in with passive redirect.](./media/wsfederation-authentication-module-overview/sign-in-using-passive-redirect.gif)  
   
  The following diagram shows more detail on what happens when the user has authenticated to the STS and their security tokens are processed by the <xref:System.IdentityModel.Services.WSFederationAuthenticationModule>:  
   
@@ -134,6 +134,7 @@ Windows Identity Foundation (WIF) includes support for federated authentication 
 ```  
   
 ## See also
+
 - <xref:System.IdentityModel.Services.SessionAuthenticationModule>
 - <xref:System.IdentityModel.Services.WSFederationAuthenticationModule>
 - [\<federationConfiguration>](../../../docs/framework/configure-apps/file-schema/windows-identity-foundation/federationconfiguration.md)
