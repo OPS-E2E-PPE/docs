@@ -21,7 +21,7 @@ ms.author: "ronpet"
 Reflection emit uses the same API set in full or partial trust, but some features require special permissions in partially trusted code. In addition, reflection emit has a feature, anonymously hosted dynamic methods, that is designed to be used with partial trust and by security-transparent assemblies.  
   
 > [!NOTE]
->  Before [!INCLUDE[net_v35_long](../../../includes/net-v35-long-md.md)], emitting code required <xref:System.Security.Permissions.ReflectionPermission> with the <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit?displayProperty=nameWithType> flag. This permission is included by default in the `FullTrust` and `Intranet` named permission sets, but not in the `Internet` permission set. Therefore, a library could be used from partial trust only if it had the <xref:System.Security.SecurityCriticalAttribute> attribute and also executed an <xref:System.Security.PermissionSet.Assert%2A> method for <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit>. Such libraries require careful security review because coding errors could result in security holes. The [!INCLUDE[net_v35_short](../../../includes/net-v35-short-md.md)] allows code to be emitted in partial trust scenarios without issuing any security demands, because generating code is not inherently a privileged operation. That is, the generated code has no more permissions than the assembly that emits it. This enables libraries that emit code to be security-transparent and removes the need to assert <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit>, so that writing a secure library does not require such a thorough security review.  
+>  Before .NET Framework 3.5, emitting code required <xref:System.Security.Permissions.ReflectionPermission> with the <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit?displayProperty=nameWithType> flag. This permission is included by default in the `FullTrust` and `Intranet` named permission sets, but not in the `Internet` permission set. Therefore, a library could be used from partial trust only if it had the <xref:System.Security.SecurityCriticalAttribute> attribute and also executed an <xref:System.Security.PermissionSet.Assert%2A> method for <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit>. Such libraries require careful security review because coding errors could result in security holes. The .NET Framework 3.5 allows code to be emitted in partial trust scenarios without issuing any security demands, because generating code is not inherently a privileged operation. That is, the generated code has no more permissions than the assembly that emits it. This enables libraries that emit code to be security-transparent and removes the need to assert <xref:System.Security.Permissions.ReflectionPermissionFlag.ReflectionEmit>, so that writing a secure library does not require such a thorough security review.  
   
  This walkthrough illustrates the following tasks:  
   
@@ -51,7 +51,7 @@ Reflection emit uses the same API set in full or partial trust, but some feature
   
  The following procedure creates a sandboxed application domain that runs your code with partial trust, to test scenarios in which emitted code can access only public members of public types. A subsequent procedure shows how to add <xref:System.Security.Permissions.ReflectionPermissionFlag.RestrictedMemberAccess>, to test scenarios in which emitted code can access nonpublic types and members in assemblies that are granted equal or lesser permissions.  
   
-##### To create an application domain with partial trust  
+#### To create an application domain with partial trust  
   
 1. Create a permission set to grant to the assemblies in the sandboxed application domain. In this case, the permission set of the Internet zone is used.  
   
@@ -81,7 +81,7 @@ Reflection emit uses the same API set in full or partial trust, but some feature
 > [!NOTE]
 >  To prevent elevation of privilege, stack information for the emitting assembly is included when anonymously hosted dynamic methods are constructed. When the method is invoked, the stack information is checked. Thus, an anonymously hosted dynamic method that is invoked from fully trusted code is still limited to the trust level of the emitting assembly.  
   
-##### To create an application domain with partial trust plus RMA  
+#### To create an application domain with partial trust plus RMA  
   
 1. Create a new <xref:System.Security.Permissions.ReflectionPermission> object with the <xref:System.Security.Permissions.ReflectionPermissionFlag.RestrictedMemberAccess> (RMA) flag, and use the <xref:System.Security.PermissionSet.SetPermission%2A?displayProperty=nameWithType> method to add the permission to the grant set.  
   

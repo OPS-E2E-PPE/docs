@@ -40,8 +40,8 @@ Denial of service occurs when a system is overwhelmed in such a way that message
   
  To mitigate this, set the <xref:System.ServiceModel.Description.ServiceSecurityAuditBehavior.SuppressAuditFailure%2A> property to `true` and use the properties of the Event Viewer to control the auditing behavior. For more information about using the Event Viewer to view and manage event logs, see [Event Viewer](https://go.microsoft.com/fwlink/?LinkId=186123). For more information, see [Auditing](../../../../docs/framework/wcf/feature-details/auditing-security-events.md).  
   
-## Invalid Implementations of IAuthorizationPolicy Can Cause Service Hangs  
- Calling the <xref:System.IdentityModel.Policy.IAuthorizationPolicy.Evaluate%2A> method on a faulty implementation of the <xref:System.IdentityModel.Policy.IAuthorizationPolicy> interface can cause the service to hang.  
+## Invalid Implementations of IAuthorizationPolicy Can Cause Service to Become Unresponsive  
+ Calling the <xref:System.IdentityModel.Policy.IAuthorizationPolicy.Evaluate%2A> method on a faulty implementation of the <xref:System.IdentityModel.Policy.IAuthorizationPolicy> interface can cause the service to become unresponsive.  
   
  Mitigation: Use only trusted code. That is, use only code that you have written and tested, or that comes from a trusted provider. Do not allow untrusted extensions of <xref:System.IdentityModel.Policy.IAuthorizationPolicy> to be plugged into your code without due consideration. This applies to all extensions used in a service implementation. WCF does not make any distinction between application code and foreign code that is plugged in using extensibility points.  
   
@@ -61,7 +61,7 @@ Denial of service occurs when a system is overwhelmed in such a way that message
  In the rare case when an X.509 certificate contains multiple alternative subject names, and you authorize using the alternative subject name, authorization may fail.  
   
 ## Protect Configuration Files with ACLs  
- You can specify required and optional claims in code and configuration files for [!INCLUDE[infocard](../../../../includes/infocard-md.md)] issued tokens. This results in corresponding elements being emitted in `RequestSecurityToken` messages that are sent to the security token service. An attacker can modify code or configuration to remove required or optional claims, potentially getting the security token service to issue a token that does not allow access to the target service.  
+ You can specify required and optional claims in code and configuration files for CardSpace issued tokens. This results in corresponding elements being emitted in `RequestSecurityToken` messages that are sent to the security token service. An attacker can modify code or configuration to remove required or optional claims, potentially getting the security token service to issue a token that does not allow access to the target service.  
   
  To mitigate: Require access to the computer to modify the configuration file. Use file access control lists (ACLs) to secure configuration files. WCF requires that code be in the application directory or the global assembly cache before it will allow such code to be loaded from configuration. Use directory ACLs to secure directories.  
   

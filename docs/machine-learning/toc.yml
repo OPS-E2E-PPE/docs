@@ -14,15 +14,17 @@
   - name: Categorize support issues (multiclass classification)
     href: tutorials/github-issue-classification.md
   - name: Predict prices (regression)
-    href: tutorials/taxi-fare.md
+    href: tutorials/predict-prices.md
   - name: Categorize iris flowers (k-means clustering)
     href: tutorials/iris-clustering.md
-  - name: Movie recommender (matrix factorization)
-    href: tutorials/movie-recommmendation.md
+  - name: Recommend movies (matrix factorization)
+    href: tutorials/movie-recommendation.md
   - name: Image Classification (transfer learning)
     href: tutorials/image-classification.md
   - name: Product Sales Analysis (anomaly detection)
     href: tutorials/sales-anomaly-detection.md
+  - name: Detect objects in images (object detection)
+    href: tutorials/object-detection-onnx.md
 - name: How-to guides
   items:
   - name: Load data
@@ -80,6 +82,14 @@
   items:
   - name: Overview
     href: automl-overview.md
+  - name: Model Builder
+    items:
+    - name: What is Model Builder?
+      href: automate-training-with-model-builder.md
+    - name: Install Model Builder
+      href: how-to-guides/install-model-builder.md
+    - name: Predict prices with Model Builder
+      href: tutorials/predict-prices-with-model-builder.md    
   - name: ML.NET CLI
     items:
     - name: Install the CLI

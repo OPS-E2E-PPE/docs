@@ -74,11 +74,10 @@ a = (b = c);
   
 ## Operator overloading
 
-You can define the behavior of certain operators for custom classes and structs. This process is referred to as *operator overloading*. For more information, see [Overloadable operators](overloadable-operators.md) and the [operator](../../language-reference/keywords/operator.md) keyword article.
+You can define the behavior of certain operators for custom classes and structs. This process is referred to as *operator overloading*. For more information, see [Operator overloading](../../language-reference/operators/operator-overloading.md).
   
 ## See also
 
 - [C# Programming Guide](../index.md)
 - [Statements, Expressions, and Operators](index.md)
 - [C# Operators](../../language-reference/operators/index.md)
-- [Operator Keywords](../../language-reference/keywords/operator-keywords.md)

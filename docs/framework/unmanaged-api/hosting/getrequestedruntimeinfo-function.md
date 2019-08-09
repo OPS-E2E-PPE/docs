@@ -21,11 +21,11 @@ ms.author: "ronpet"
 # GetRequestedRuntimeInfo Function
 Gets version and directory information about the common language runtime (CLR) requested by an application.  
   
- This function has been deprecated in the [!INCLUDE[net_v40_long](../../../../includes/net-v40-long-md.md)].  
+ This function has been deprecated in the .NET Framework 4.  
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT GetRequestedRuntimeInfo (  
     [in]  LPCWSTR  pExe,   
     [in]  LPCWSTR  pwszVersion,   

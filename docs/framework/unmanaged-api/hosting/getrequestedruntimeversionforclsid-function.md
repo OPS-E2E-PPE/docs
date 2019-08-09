@@ -20,11 +20,11 @@ ms.author: "ronpet"
 # GetRequestedRuntimeVersionForCLSID Function
 Gets the appropriate common language runtime (CLR) version information for the class with the specified `CLSID`.  
   
- This function has been deprecated in the [!INCLUDE[net_v40_long](../../../../includes/net-v40-long-md.md)].  
+ This function has been deprecated in the .NET Framework 4.  
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT GetRequestedRuntimeVersionForCLSID (  
     [in]  REFCLSID   rclsid,   
     [out]  LPWSTR     pVersion,   

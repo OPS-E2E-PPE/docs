@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 839c960c-c2dc-4d05-af4d-ca5428e54008
 ---
 # Named and Optional Arguments (C# Programming Guide)
-[!INCLUDE[csharp_dev10_long](~/includes/csharp-dev10-long-md.md)] introduces named and optional arguments. *Named arguments* enable you to specify an argument for a particular parameter by associating the argument with the parameter's name rather than with the parameter's position in the parameter list. *Optional arguments* enable you to omit arguments for some parameters. Both techniques can be used with methods, indexers, constructors, and delegates.  
+C# 4 introduces named and optional arguments. *Named arguments* enable you to specify an argument for a particular parameter by associating the argument with the parameter's name rather than with the parameter's position in the parameter list. *Optional arguments* enable you to omit arguments for some parameters. Both techniques can be used with methods, indexers, constructors, and delegates.  
   
  When you use named and optional arguments, the arguments are evaluated in the order in which they appear in the argument list, not the parameter list.  
   
@@ -66,7 +66,7 @@ ms.assetid: 839c960c-c2dc-4d05-af4d-ca5428e54008
   
 - an expression of the form `new ValType()`, where `ValType` is a value type, such as an [enum](../../../csharp/language-reference/keywords/enum.md) or a [struct](../../../csharp/programming-guide/classes-and-structs/structs.md);  
   
-- an expression of the form [default(ValType)](../../../csharp/programming-guide/statements-expressions-operators/default-value-expressions.md),  where `ValType` is a value type.  
+- an expression of the form [default(ValType)](../../../csharp/language-reference/operators/default.md),  where `ValType` is a value type.  
   
  Optional parameters are defined at the end of the parameter list, after any required parameters. If the caller provides an argument for any one of a succession of optional parameters, it must provide arguments for all preceding optional parameters. Comma-separated gaps in the argument list are not supported. For example, in the following code, instance method `ExampleMethod` is defined with one required and two optional parameters.  
   

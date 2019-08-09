@@ -49,7 +49,9 @@ A class can provide methods or properties that enable you to avoid making a call
 [!code-csharp[Conceptual.Exception.Handling#5](../../../samples/snippets/csharp/VS_Snippets_CLR/conceptual.exception.handling/cs/source.cs#5)]
 [!code-vb[Conceptual.Exception.Handling#5](../../../samples/snippets/visualbasic/VS_Snippets_CLR/conceptual.exception.handling/vb/source.vb#5)]
 
-Another way to avoid exceptions is to return `null` for extremely common error cases instead of throwing an exception. An extremely common error case can be considered normal flow of control. By returning `null` in these cases, you minimize the performance impact to an app.
+Another way to avoid exceptions is to return null (or default) for extremely common error cases instead of throwing an exception. An extremely common error case can be considered normal flow of control. By returning null (or default) in these cases, you minimize the performance impact to an app.
+
+For value types, whether to use `Nullable<T>` or default as your error indicator is something to consider for your particular app. By using `Nullable<Guid>`, `default` becomes `null` instead of `Guid.Empty`. Some times, adding `Nullable<T>` can make it clearer when a value is present or absent. Other times, adding `Nullable<T>` can create extra cases to check that aren't necessary, and only serve to create potential sources of errors. 
 
 ## Throw exceptions instead of returning an error code
 
@@ -73,7 +75,7 @@ When a custom exception is necessary, name it appropriately and derive it from t
 
 ## Include three constructors in custom exception classes
 
-Use at least the three common constructors when creating your own exception classes: the default constructor, a constructor that takes a string message, and a constructor that takes a string message and an inner exception.
+Use at least the three common constructors when creating your own exception classes: the parameterless constructor, a constructor that takes a string message, and a constructor that takes a string message and an inner exception.
 
 * <xref:System.Exception.%23ctor>, which uses default values.
 
@@ -136,6 +138,14 @@ public void TransferFunds(Account from, Account to, decimal amount)
 }
 ```
 
+```vb
+Public Sub TransferFunds(from As Account, [to] As Account, amount As Decimal)
+    from.Withdrawal(amount)
+    ' If the deposit fails, the withdrawal shouldn't remain in effect.
+    [to].Deposit(amount)
+End Sub
+```
+
 The method above does not directly throw any exceptions, but must be written defensively so that if the deposit operation fails, the withdrawal is reversed.
 
 One way to handle this situation is to catch any exceptions thrown by the deposit transaction and roll back the withdrawal.
@@ -156,19 +166,43 @@ private static void TransferFunds(Account from, Account to, decimal amount)
 }
 ```
 
+```vb
+Private Shared Sub TransferFunds(from As Account, [to] As Account, amount As Decimal)
+    Dim withdrawalTrxID As String = from.Withdrawal(amount)
+    Try
+        [to].Deposit(amount)
+    Catch
+        from.RollbackTransaction(withdrawalTrxID)
+        Throw
+    End Try
+End Sub
+```
+
 This example illustrates the use of `throw` to re-throw the original exception, which can make it easier for callers to see the real cause of the problem without having to examine the <xref:System.Exception.InnerException> property. An alternative is to throw a new exception and include the original exception as the inner exception:
 
 ```csharp
 catch (Exception ex)
 {
     from.RollbackTransaction(withdrawalTrxID);
-    throw new TransferFundsException("Withdrawal failed", innerException: ex)
+    throw new TransferFundsException("Withdrawal failed.", innerException: ex)
     {
         From = from,
         To = to,
         Amount = amount
     };
 }
+```
+
+```vb
+Catch ex As Exception
+    from.RollbackTransaction(withdrawalTrxID)
+    Throw New TransferFundsException("Withdrawal failed.", innerException:=ex) With
+    {
+        .From = from,
+        .[To] = [to],
+        .Amount = amount
+    }
+End Try
 ```
 
 ## See also

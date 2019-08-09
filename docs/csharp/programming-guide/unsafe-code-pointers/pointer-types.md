@@ -15,16 +15,7 @@ type* identifier;
 void* identifier; //allowed but not recommended
 ```
 
-The type specified before the `*` in a pointer type is called the **referent type**. Any of the following types may be a referent type:
-
-- Any integral type: [sbyte](../../language-reference/keywords/sbyte.md), [byte](../../language-reference/keywords/byte.md), [short](../../language-reference/keywords/short.md), [ushort](../../language-reference/keywords/ushort.md), [int](../../language-reference/keywords/int.md), [uint](../../language-reference/keywords/uint.md), [long](../../language-reference/keywords/long.md), [ulong](../../language-reference/keywords/ulong.md).
-- Any floating-point type: [float](../../language-reference/keywords/float.md), [double](../../language-reference/keywords/double.md).
-- [char](../../language-reference/keywords/char.md).
-- [bool](../../language-reference/keywords/bool.md).
-- [decimal](../../language-reference/keywords/decimal.md).
-- Any [enum](../../language-reference/keywords/enum.md) type.
-- Any pointer type. This allows expressions such as `void**`.
-- Any user-defined struct type that contains fields of unmanaged types only.
+The type specified before the `*` in a pointer type is called the **referent type**. Only an [unmanaged type](../../language-reference/builtin-types/unmanaged-types.md) can be a referent type.
 
 Pointer types do not inherit from [object](../../language-reference/keywords/object.md) and no conversions exist between pointer types and `object`. Also, boxing and unboxing do not support pointers. However, you can convert between different pointer types and between pointer types and integral types.
 
@@ -76,7 +67,7 @@ The following table lists the operators and statements that can operate on point
 |`++` and `--`|Increments and decrements pointers.|
 |`+` and `-`|Performs pointer arithmetic.|
 |`==`, `!=`, `<`, `>`, `<=`, and `>=`|Compares pointers.|
-|[`stackalloc` operator](../../language-reference/keywords/stackalloc.md)|Allocates memory on the stack.|
+|[`stackalloc` operator](../../language-reference/operators/stackalloc.md)|Allocates memory on the stack.|
 |[`fixed` statement](../../language-reference/keywords/fixed-statement.md)|Temporarily fixes a variable so that its address may be found.|
 
 For more information about pointer related operators, see [Pointer related operators](../../language-reference/operators/pointer-related-operators.md).

@@ -36,7 +36,7 @@ You can find the source code for this tutorial at the [dotnet/samples](https://g
 
 3. Install the **Microsoft.ML NuGet Package**:
 
-    In Solution Explorer, right-click on your project and select **Manage NuGet Packages**. Choose "nuget.org" as the package source, and then select the **Browse** tab. Search for **Microsoft.ML**, select the package you want, and then select the **Install** button. Proceed with the installation by agreeing to the the license terms for the package you choose. Do the same for the **Microsoft.ML.FastTree** NuGet package.
+    In Solution Explorer, right-click on your project and select **Manage NuGet Packages**. Choose "nuget.org" as the package source, and then select the **Browse** tab. Search for **Microsoft.ML**, select the package you want, and then select the **Install** button. Proceed with the installation by agreeing to the license terms for the package you choose. Do the same for the **Microsoft.ML.FastTree** NuGet package.
 
 ## Prepare your data
 
@@ -88,12 +88,16 @@ The input dataset class, `SentimentData`, has a `string` for user comments (`Sen
 |Wow... Loved this place.              |    1     |
 |Service was very prompt.              |    1     |
 
-`SentimentPrediction` is the prediction class used after the model training. It inherits from `SentimentData` for displaying the `SentimentText` with the predictions. `SentimentPrediction` has a single boolean (`Sentiment`) and a `PredictedLabel` `ColumnName` attribute. The `Label` is used to create and train the model, and it's also used with the split out test dataset to evaluate the model. The `PredictedLabel` is used during prediction and evaluation. For evaluation, training data, the predicted values, and the model are used.
+`SentimentPrediction` is the prediction class used after model training. It inherits from `SentimentData` so that the input `SentimentText` can be displayed along with the output prediction. The `Prediction` boolean is the value that the model predicts when supplied with new input `SentimentText`.
 
-The [MLContext class](xref:Microsoft.ML.MLContext) is a starting point for all ML.NET operations. Initializing `mlContext` creates a new ML.NET environment that can be shared across the model creation workflow objects. It's similar, conceptually, to `DBContext` in Entity Framework.
+The output class `SentimentPrediction` contains two other properties calculated by the model: `Score` - the raw score calculated by the model, and `Probability` - the score calibrated to the likelihood of the text having positive sentiment.
+
+For this tutorial, the most important property is `Prediction`.
 
 ## Load the data
 Data in ML.NET is represented as an [IDataView class](xref:Microsoft.ML.IDataView). `IDataView` is a flexible, efficient way of describing tabular data (numeric and text). Data can be loaded from a text file or in real time (for example, SQL database or log files) to an `IDataView` object.
+
+The [MLContext class](xref:Microsoft.ML.MLContext) is a starting point for all ML.NET operations. Initializing `mlContext` creates a new ML.NET environment that can be shared across the model creation workflow objects. It's similar, conceptually, to `DBContext` in Entity Framework.
 
 You prepare the app, and then load data:
 
@@ -271,13 +275,13 @@ Use the following code to display the metrics:
 
     [!code-csharp[CallUseModelWithSingleItem](~/samples/machine-learning/tutorials/SentimentAnalysis/Program.cs#CallUseModelWithSingleItem "Call the UseModelWithSingleItem method")]
 
-3. Add the following code to create as the first line in the `Predict()` Method:
+3. Add the following code to create as the first line in the `UseModelWithSingleItem()` Method:
 
     [!code-csharp[CreatePredictionEngine](~/samples/machine-learning/tutorials/SentimentAnalysis/Program.cs#CreatePredictionEngine1 "Create the PredictionEngine")]
 
     The [PredictionEngine](xref:Microsoft.ML.PredictionEngine%602) is a convenience API, which allows you to pass in and then perform a prediction on a single instance of data.
 
-4. Add a comment to test the trained model's prediction in the `Predict()` method by creating an instance of `SentimentData`:
+4. Add a comment to test the trained model's prediction in the `UseModelWithSingleItem()` method by creating an instance of `SentimentData`:
 
     [!code-csharp[PredictionData](~/samples/machine-learning/tutorials/SentimentAnalysis/Program.cs#CreateTestIssue1 "Create test data for single prediction")]
 
@@ -352,7 +356,6 @@ F1Score: 84.04%
 
 Sentiment: This was a very bad steak | Prediction: Negative | Probability: 0.1027377
 =============== End of Predictions ===============
-
 
 =============== Prediction Test of loaded model with a multiple samples ===============
 

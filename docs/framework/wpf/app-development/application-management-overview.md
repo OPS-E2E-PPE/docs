@@ -121,7 +121,7 @@ All applications tend to share a common set of functionality that applies to app
 
 <a name="Splash_Screen"></a>   
 ### Splash Screen  
- Starting in the [!INCLUDE[net_v35SP1_short](../../../../includes/net-v35sp1-short-md.md)], you can specify an image to be used in a startup window, or *splash screen*. The <xref:System.Windows.SplashScreen> class makes it easy to display a startup window while your application is loading. The <xref:System.Windows.SplashScreen> window is created and shown before <xref:System.Windows.Application.Run%2A> is called. For more information, see [Application Startup Time](../advanced/application-startup-time.md) and [Add a Splash Screen to a WPF Application](how-to-add-a-splash-screen-to-a-wpf-application.md).  
+ Starting in the .NET Framework 3.5 SP1, you can specify an image to be used in a startup window, or *splash screen*. The <xref:System.Windows.SplashScreen> class makes it easy to display a startup window while your application is loading. The <xref:System.Windows.SplashScreen> window is created and shown before <xref:System.Windows.Application.Run%2A> is called. For more information, see [Application Startup Time](../advanced/application-startup-time.md) and [Add a Splash Screen to a WPF Application](how-to-add-a-splash-screen-to-a-wpf-application.md).  
   
 <a name="Starting_an_Application"></a>   
 ### Starting an Application  
@@ -166,7 +166,7 @@ All applications tend to share a common set of functionality that applies to app
 > [!NOTE]
 >  For more information on navigation, see [Navigation Overview](navigation-overview.md).  
   
- You need to handle the <xref:System.Windows.Application.Startup> event to open a <xref:System.Windows.Window> if you need to instantiate it using a non-default constructor, or you need to set its properties or subscribe to its events before showing it, or you need to process any command-line arguments that were supplied when the application was launched.  
+ You need to handle the <xref:System.Windows.Application.Startup> event to open a <xref:System.Windows.Window> if you need to instantiate it using a non-parameterless constructor, or you need to set its properties or subscribe to its events before showing it, or you need to process any command-line arguments that were supplied when the application was launched.  
   
 <a name="Processing_Command_Line_Arguments"></a>   
 ### Processing Command-Line Arguments  
@@ -287,7 +287,7 @@ All applications tend to share a common set of functionality that applies to app
   
 - An XBAP is navigated away from.  
   
-- In [!INCLUDE[TLA2#tla_ie7](../../../../includes/tla2sharptla-ie7-md.md)], when the tab that is hosting the XBAP is closed.  
+- In Internet Explorer, when the tab that is hosting the XBAP is closed.  
   
 - When the browser is closed.  
   
