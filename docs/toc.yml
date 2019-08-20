@@ -103,15 +103,15 @@
     - name: COM Interop
       href: standard/native-interop/cominterop.md
       items:
-        - name: COM Wrappers
-          href: standard/native-interop/com-wrappers.md
-          items:
-            - name: Runtime Callable Wrapper
-              href: standard/native-interop/runtime-callable-wrapper.md
-            - name: COM Callable Wrapper
-              href: standard/native-interop/com-callable-wrapper.md
-        - name: Qualifying .NET types for COM interoperation
-          href: standard/native-interop/qualify-net-types-for-interoperation.md
+      - name: COM Wrappers
+        href: standard/native-interop/com-wrappers.md
+        items:
+        - name: Runtime Callable Wrapper
+          href: standard/native-interop/runtime-callable-wrapper.md
+        - name: COM Callable Wrapper
+          href: standard/native-interop/com-callable-wrapper.md
+      - name: Qualifying .NET types for COM interoperation
+        href: standard/native-interop/qualify-net-types-for-interoperation.md
     - name: Applying Interop Attributes
       href: standard/native-interop/apply-interop-attributes.md
   - name: Collections and Data Structures
@@ -195,7 +195,7 @@
     - name: Evaluate breaking changes
       href: core/compatibility/index.md
     - name: Breaking change categories
-      href: core/compatibility/categories.md    
+      href: core/compatibility/categories.md
   - name: Tutorials
     href: core/tutorials/index.md
     items:
@@ -322,12 +322,12 @@
     - name: Overview
       href: core/tools/index.md
     - name: Global Tools
-      expanded: true
       items:
       - name: Overview
         href: core/tools/global-tools.md
       - name: Create a Global Tool
         href: core/tools/global-tools-how-to-create.md
+      expanded: true
     - name: Elevated access
       href: core/tools/elevated-access.md
     - name: Extensibility Model
@@ -776,9 +776,9 @@
         href: fsharp/language-reference/functions/let-bindings.md
       - name: do Bindings
         href: fsharp/language-reference/functions/do-bindings.md
-      - name: "Lambda Expressions: the fun keyword"
+      - name: 'Lambda Expressions: the fun keyword'
         href: fsharp/language-reference/functions/lambda-expressions-the-fun-keyword.md
-      - name: "Recursive Functions: the rec keyword"
+      - name: 'Recursive Functions: the rec keyword'
         href: fsharp/language-reference/functions/recursive-functions-the-rec-keyword.md
       - name: Entry Point
         href: fsharp/language-reference/functions/entry-point.md
@@ -869,7 +869,7 @@
         href: fsharp/language-reference/members/constructors.md
       - name: Events
         href: fsharp/language-reference/members/events.md
-      - name: "Explicit Fields: The `val` Keyword"
+      - name: 'Explicit Fields: The `val` Keyword'
         href: fsharp/language-reference/members/explicit-fields-the-val-keyword.md
     - name: Type Extensions
       href: fsharp/language-reference/type-extensions.md
@@ -887,7 +887,7 @@
       href: fsharp/language-reference/casting-and-conversions.md
     - name: Access Control
       href: fsharp/language-reference/access-control.md
-    - name: "Conditional Expressions: if...then...else"
+    - name: 'Conditional Expressions: if...then...else'
       href: fsharp/language-reference/conditional-expressions-if-then-else.md
     - name: Match Expressions
       href: fsharp/language-reference/match-expressions.md
@@ -895,11 +895,11 @@
       href: fsharp/language-reference/pattern-matching.md
     - name: Active Patterns
       href: fsharp/language-reference/active-patterns.md
-    - name: "Loops: for...to Expression"
+    - name: 'Loops: for...to Expression'
       href: fsharp/language-reference/loops-for-to-expression.md
-    - name: "Loops: for...in Expression"
+    - name: 'Loops: for...in Expression'
       href: fsharp/language-reference/loops-for-in-expression.md
-    - name: "Loops: while...do Expression"
+    - name: 'Loops: while...do Expression'
       href: fsharp/language-reference/loops-while-do-expression.md
     - name: Assertions
       href: fsharp/language-reference/assertions.md
@@ -920,13 +920,13 @@
         href: fsharp/language-reference/exception-handling/the-invalidArg-function.md
     - name: Attributes
       href: fsharp/language-reference/attributes.md
-    - name: "Resource Management: the use Keyword"
+    - name: 'Resource Management: the use Keyword'
       href: fsharp/language-reference/resource-management-the-use-keyword.md
     - name: Namespaces
       href: fsharp/language-reference/namespaces.md
     - name: Modules
       href: fsharp/language-reference/modules.md
-    - name: "Import Declarations: The open Keyword"
+    - name: 'Import Declarations: The open Keyword'
       href: fsharp/language-reference/import-declarations-the-open-keyword.md
     - name: Signature Files
       href: fsharp/language-reference/signature-files.md
@@ -989,13 +989,6 @@
   items:
   - name: What's New for Visual Basic
     href: visual-basic/getting-started/whats-new.md
-  - name: Get Started
-    href: visual-basic/getting-started/index.md
-    items:
-    - name: Visual Basic Breaking Changes in Visual Studio
-      href: visual-basic/getting-started/breaking-changes-in-visual-studio.md
-    - name: Additional Resources for Visual Basic Programmers
-      href: visual-basic/getting-started/additional-resources.md
   - name: Developing Applications
     href: visual-basic/developing-apps/index.md
     items:
@@ -1013,7 +1006,7 @@
       - name: Accessing Application Web Services
         href: visual-basic/developing-apps/programming/accessing-application-web-services.md
         items:
-        - name: "How to: Call a Web Service Asynchronously"
+        - name: 'How to: Call a Web Service Asynchronously'
           href: visual-basic/developing-apps/programming/how-to-call-a-web-service-asynchronously.md
       - name: Accessing Application Settings
         href: visual-basic/developing-apps/programming/app-settings/index.md
@@ -1030,8 +1023,6 @@
         href: visual-basic/developing-apps/development-with-my/rapid-application-development-with-my-resources-and-my-settings.md
       - name: Overview of the Visual Basic Application Model
         href: visual-basic/developing-apps/development-with-my/overview-of-the-visual-basic-application-model.md
-      - name: How My Depends on Project Type
-        href: visual-basic/developing-apps/development-with-my/how-my-depends-on-project-type.md
     - name: Accessing Data
       href: visual-basic/developing-apps/accessing-data.md
     - name: Creating and Using Components
@@ -1056,19 +1047,19 @@
       items:
       - name: Friend Assemblies
         items:
-        - name: "How to: Create Unsigned Friend Assemblies"
+        - name: 'How to: Create Unsigned Friend Assemblies'
           href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-unsigned-friend-assemblies.md
-        - name: "How to: Create Signed Friend Assemblies"
+        - name: 'How to: Create Signed Friend Assemblies'
           href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-signed-friend-assemblies.md
-      - name: "How to: Create and Use Assemblies Using the Command Line"
+      - name: 'How to: Create and Use Assemblies Using the Command Line'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-and-use-assemblies-using-the-command-line.md
-      - name: "How to: Determine If a File Is an Assembly"
+      - name: 'How to: Determine If a File Is an Assembly'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-determine-if-a-file-is-an-assembly.md
-      - name: "How to: Load and Unload Assemblies"
+      - name: 'How to: Load and Unload Assemblies'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-load-and-unload-assemblies.md
-      - name: "How to: Share an Assembly with Other Applications"
+      - name: 'How to: Share an Assembly with Other Applications'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-share-an-assembly-with-other-applications.md
-      - name: "Walkthrough: Embedding Types from Managed Assemblies"
+      - name: 'Walkthrough: Embedding Types from Managed Assemblies'
         href: visual-basic/programming-guide/concepts/assemblies-gac/walkthrough-embedding-types-from-managed-assemblies-in-vs.md
     - name: Asynchronous Programming with Async and Await
       href: visual-basic/programming-guide/concepts/async/index.md
@@ -1109,11 +1100,11 @@
       href: visual-basic/programming-guide/program-structure/coding-conventions.md
     - name: Conditional Compilation
       href: visual-basic/programming-guide/program-structure/conditional-compilation.md
-    - name: "How to: Break and Combine Statements in Code"
+    - name: 'How to: Break and Combine Statements in Code'
       href: visual-basic/programming-guide/program-structure/how-to-break-and-combine-statements-in-code.md
-    - name: "How to: Collapse and Hide Sections of Code"
+    - name: 'How to: Collapse and Hide Sections of Code'
       href: visual-basic/programming-guide/program-structure/how-to-collapse-and-hide-sections-of-code.md
-    - name: "How to: Label Statements"
+    - name: 'How to: Label Statements'
       href: visual-basic/programming-guide/program-structure/how-to-label-statements.md
     - name: Special Characters in Code
       href: visual-basic/programming-guide/program-structure/special-characters-in-code.md
@@ -1153,14 +1144,14 @@
       - name: Composite Data Types
         href: visual-basic/programming-guide/language-features/data-types/composite-data-types.md
         items:
-        - name: "How to: Hold More Than One Value in a Variable"
+        - name: 'How to: Hold More Than One Value in a Variable'
           href: visual-basic/programming-guide/language-features/data-types/how-to-hold-more-than-one-value-in-a-variable.md
       - name: Generic Types
         href: visual-basic/programming-guide/language-features/data-types/generic-types.md
         items:
-        - name: "How to: Define a Class That Can Provide Identical Functionality on Different Data Types"
+        - name: 'How to: Define a Class That Can Provide Identical Functionality on Different Data Types'
           href: visual-basic/programming-guide/language-features/data-types/how-to-define-a-class-that-can-provide-identical-functionality.md
-        - name: "How to: Use a Generic Class"
+        - name: 'How to: Use a Generic Class'
           href: visual-basic/programming-guide/language-features/data-types/how-to-use-a-generic-class.md
       - name: Generic Procedures
         href: visual-basic/programming-guide/language-features/data-types/generic-procedures.md
@@ -1177,14 +1168,14 @@
           href: visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions.md
         - name: Conversions Between Strings and Other Types
           href: visual-basic/programming-guide/language-features/data-types/conversions-between-strings-and-other-types.md
-        - name: "How to: Convert an Object to Another Type"
+        - name: 'How to: Convert an Object to Another Type'
           href: visual-basic/programming-guide/language-features/data-types/how-to-convert-an-object-to-another-type.md
         - name: Array Conversions
           href: visual-basic/programming-guide/language-features/data-types/array-conversions.md
       - name: Structures
         href: visual-basic/programming-guide/language-features/data-types/structures.md
         items:
-        - name: "How to: Declare a Structure"
+        - name: 'How to: Declare a Structure'
           href: visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md
         - name: Structure Variables
           href: visual-basic/programming-guide/language-features/data-types/structure-variables.md
@@ -1211,7 +1202,7 @@
     - name: Interfaces
       href: visual-basic/programming-guide/language-features/interfaces/index.md
       items:
-      - name: "Walkthrough: Creating and Implementing Interfaces"
+      - name: 'Walkthrough: Creating and Implementing Interfaces'
         href: visual-basic/programming-guide/language-features/interfaces/walkthrough-creating-and-implementing-interfaces.md
     - name: LINQ
       href: visual-basic/programming-guide/language-features/linq/index.md
@@ -1234,23 +1225,23 @@
     items:
     - name: Introduction to COM Interop
       href: visual-basic/programming-guide/com-interop/introduction-to-com-interop.md
-    - name: "How to: Reference COM Objects"
+    - name: 'How to: Reference COM Objects'
       href: visual-basic/programming-guide/com-interop/how-to-reference-com-objects.md
-    - name: "How to: Work with ActiveX Controls"
+    - name: 'How to: Work with ActiveX Controls'
       href: visual-basic/programming-guide/com-interop/how-to-work-with-activex-controls.md
-    - name: "Walkthrough: Calling Windows APIs"
+    - name: 'Walkthrough: Calling Windows APIs'
       href: visual-basic/programming-guide/com-interop/walkthrough-calling-windows-apis.md
-    - name: "How to: Call Windows APIs"
+    - name: 'How to: Call Windows APIs'
       href: visual-basic/programming-guide/com-interop/how-to-call-windows-apis.md
-    - name: "How to: Call a Windows Function that Takes Unsigned Types"
+    - name: 'How to: Call a Windows Function that Takes Unsigned Types'
       href: visual-basic/programming-guide/com-interop/how-to-call-a-windows-function-that-takes-unsigned-types.md
-    - name: "Walkthrough: Creating COM Objects"
+    - name: 'Walkthrough: Creating COM Objects'
       href: visual-basic/programming-guide/com-interop/walkthrough-creating-com-objects.md
     - name: Troubleshooting Interoperability
       href: visual-basic/programming-guide/com-interop/troubleshooting-interoperability.md
     - name: COM Interoperability in .NET Framework Applications
       href: visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications.md
-    - name: "Walkthrough: Implementing Inheritance with COM Objects"
+    - name: 'Walkthrough: Implementing Inheritance with COM Objects'
       href: visual-basic/programming-guide/com-interop/walkthrough-implementing-inheritance-with-com-objects.md
   - name: Language Reference
     href: visual-basic/language-reference/index.md
@@ -1345,13 +1336,13 @@
     - name: Directives
       href: visual-basic/language-reference/directives/index.md
       items:
-      - name: "#Const Directive"
+      - name: '#Const Directive'
         href: visual-basic/language-reference/directives/const-directive.md
-      - name: "#ExternalSource Directive"
+      - name: '#ExternalSource Directive'
         href: visual-basic/language-reference/directives/externalsource-directive.md
-      - name: "#If...Then...#Else Directives"
+      - name: '#If...Then...#Else Directives'
         href: visual-basic/language-reference/directives/if-then-else-directives.md
-      - name: "#Region Directive"
+      - name: '#Region Directive'
         href: visual-basic/language-reference/directives/region-directive.md
     - name: Functions
       href: visual-basic/language-reference/functions/index.md
@@ -1530,13 +1521,13 @@
           href: visual-basic/language-reference/operators/miscellaneous-operators.md
       - name: List of Visual Basic Operators
         items:
-        - name: "& Operator"
+        - name: '& Operator'
           href: visual-basic/language-reference/operators/concatenation-operator.md
-        - name: "&= Operator"
+        - name: '&= Operator'
           href: visual-basic/language-reference/operators/and-assignment-operator.md
-        - name: "* Operator"
+        - name: '* Operator'
           href: visual-basic/language-reference/operators/multiplication-operator.md
-        - name: "*= Operator"
+        - name: '*= Operator'
           href: visual-basic/language-reference/operators/multiplication-assignment-operator.md
         - name: + Operator
           href: visual-basic/language-reference/operators/addition-operator.md
@@ -1544,7 +1535,7 @@
           href: visual-basic/language-reference/operators/addition-assignment-operator.md
         - name: = Operator
           href: visual-basic/language-reference/operators/assignment-operator.md
-        - name: "- Operator"
+        - name: '- Operator'
           href: visual-basic/language-reference/operators/subtraction-operator.md
         - name: -= Operator
           href: visual-basic/language-reference/operators/subtraction-assignment-operator.md
@@ -1552,33 +1543,33 @@
           href: visual-basic/language-reference/operators/comparison-operators.md
         - name: <= Operator
           href: visual-basic/language-reference/operators/comparison-operators.md
-        - name: "> Operator"
+        - name: '> Operator'
           href: visual-basic/language-reference/operators/comparison-operators.md
-        - name: ">= Operator"
+        - name: '>= Operator'
           href: visual-basic/language-reference/operators/comparison-operators.md
         - name: << Operator
           href: visual-basic/language-reference/operators/left-shift-operator.md
         - name: <<= Operator
           href: visual-basic/language-reference/operators/left-shift-assignment-operator.md
-        - name: ">> Operator"
+        - name: '>> Operator'
           href: visual-basic/language-reference/operators/right-shift-operator.md
-        - name: ">>= Operator"
+        - name: '>>= Operator'
           href: visual-basic/language-reference/operators/right-shift-assignment-operator.md
         - name: / Operator
           href: visual-basic/language-reference/operators/floating-point-division-operator.md
         - name: /= Operator
           href: visual-basic/language-reference/operators/floating-point-division-assignment-operator.md
-        - name: \ Operator
+        - name: '\ Operator'
           href: visual-basic/language-reference/operators/integer-division-operator.md
-        - name: \= Operator
+        - name: '\= Operator'
           href: visual-basic/language-reference/operators/integer-division-assignment-operator.md
         - name: ^ Operator
           href: visual-basic/language-reference/operators/exponentiation-operator.md
         - name: ^= Operator
           href: visual-basic/language-reference/operators/exponentiation-assignment-operator.md
-        - name: "?() Operator"
+        - name: ?() Operator
           href: visual-basic/language-reference/operators/null-conditional-operators.md
-        - name: "?. Operator"
+        - name: ?. Operator
           href: visual-basic/language-reference/operators/null-conditional-operators.md
         - name: AddressOf Operator
           href: visual-basic/language-reference/operators/addressof-operator.md
@@ -2016,9 +2007,9 @@
         href: visual-basic/language-reference/error-messages/dir-function-must-first-be-called-with-a-pathname-argument.md
       - name: End of statement expected
         href: visual-basic/language-reference/error-messages/end-of-statement-expected.md
-      - name: "Error creating assembly manifest: <error message>"
+      - name: 'Error creating assembly manifest: <error message>'
         href: visual-basic/language-reference/error-messages/error-creating-assembly-manifest-error-message.md
-      - name: "Error creating Win32 resources: <error message>"
+      - name: 'Error creating Win32 resources: <error message>'
         href: visual-basic/language-reference/error-messages/error-creating-win32-resources-error-message.md
       - name: Error in loading DLL
         href: visual-basic/language-reference/error-messages/error-in-loading-dll.md
@@ -2142,7 +2133,7 @@
         href: visual-basic/language-reference/error-messages/object-required.md
       - name: Object variable or With block variable not set
         href: visual-basic/language-reference/error-messages/object-variable-or-with-block-variable-not-set.md
-      - name: "Operator declaration must be one of:  +,-,*,-,-,^, &, Like, Mod, And, Or, Xor, Not, <<, >>, =, <>, <, <=, >, >=, CType, IsTrue, IsFalse"
+      - name: 'Operator declaration must be one of:  +,-,*,-,-,^, &, Like, Mod, And, Or, Xor, Not, <<, >>, =, <>, <, <=, >, >=, CType, IsTrue, IsFalse'
         href: visual-basic/language-reference/error-messages/operator-declaration-must-be-one-of.md
       - name: "'Optional' expected"
         href: visual-basic/language-reference/error-messages/optional-expected.md
@@ -2246,7 +2237,7 @@
         href: visual-basic/language-reference/error-messages/unable-to-create-strong-named-assembly-from-key-file-filename-error.md
       - name: "Unable to embed resource file '<filename>': <error message>"
         href: visual-basic/language-reference/error-messages/unable-to-embed-resource-file-filename-error-message.md
-      - name: "Unable to emit assembly: <error message>"
+      - name: 'Unable to emit assembly: <error message>'
         href: visual-basic/language-reference/error-messages/unable-to-emit-assembly-error-message.md
       - name: Unable to find required file '<filename>'
         href: visual-basic/language-reference/error-messages/unable-to-find-required-file-filename.md
@@ -2297,14 +2288,14 @@
       - name: Building from the Command Line
         href: visual-basic/reference/command-line-compiler/building-from-the-command-line.md
         items:
-        - name: "How to: Invoke the Command-Line Compiler"
+        - name: 'How to: Invoke the Command-Line Compiler'
           href: visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler.md
         - name: Sample Compilation Command Lines
           href: visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md
       - name: Compiler Options Listed Alphabetically
         href: visual-basic/reference/command-line-compiler/compiler-options-listed-alphabetically.md
         items:
-        - name: "@ (Specify Response File)"
+        - name: '@ (Specify Response File)'
           href: visual-basic/reference/command-line-compiler/specify-response-file.md
         - name: -addmodule
           href: visual-basic/reference/command-line-compiler/addmodule.md
@@ -2420,8 +2411,6 @@
       href: visual-basic/reference/language-specification/
   - name: Sample Applications
     href: visual-basic/sample-applications.md
-  - name: Walkthroughs
-    href: visual-basic/walkthroughs.md
 - name: ML.NET Guide
   href: machine-learning/index.yml
 - name: .NET for Apache Spark Guide
