@@ -1,5 +1,4 @@
 - name: Generics
-  href: index.md
   items:
   - name: Generic Type Parameters
     href: generic-type-parameters.md

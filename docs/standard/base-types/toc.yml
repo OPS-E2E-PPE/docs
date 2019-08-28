@@ -30,21 +30,21 @@
     - name: Performing Formatting Operations
       href: performing-formatting-operations.md
       items:
-      - name: "How to: Pad a Number with Leading Zeros"
+      - name: 'How to: Pad a Number with Leading Zeros'
         href: how-to-pad-a-number-with-leading-zeros.md
-      - name: "How to: Extract the Day of the Week from a Specific Date"
+      - name: 'How to: Extract the Day of the Week from a Specific Date'
         href: how-to-extract-the-day-of-the-week-from-a-specific-date.md
-      - name: "How to: Define and Use Custom Numeric Format Providers"
+      - name: 'How to: Define and Use Custom Numeric Format Providers'
         href: how-to-define-and-use-custom-numeric-format-providers.md
-      - name: "How to: Round-trip Date and Time Values"
+      - name: 'How to: Round-trip Date and Time Values'
         href: how-to-round-trip-date-and-time-values.md
-      - name: "How to: Convert Numeric User Input in Web Controls to Numbers"
+      - name: 'How to: Convert Numeric User Input in Web Controls to Numbers'
         href: how-to-convert-numeric-user-input-in-web-controls-to-numbers.md
-      - name: "How to: Display Localized Date and Time Information to Web Users"
+      - name: 'How to: Display Localized Date and Time Information to Web Users'
         href: how-to-display-localized-date-and-time-information-to-web-users.md
-      - name: "How to: Display Milliseconds in Date and Time Values"
+      - name: 'How to: Display Milliseconds in Date and Time Values'
         href: how-to-display-milliseconds-in-date-and-time-values.md
-      - name: "How to: Display Dates in Non-Gregorian Calendars"
+      - name: 'How to: Display Dates in Non-Gregorian Calendars'
         href: how-to-display-dates-in-non-gregorian-calendars.md
   - name: Manipulating Strings
     href: manipulating-strings.md
@@ -66,7 +66,7 @@
         href: changing-case.md
       - name: Using the StringBuilder Class
         href: stringbuilder.md
-      - name: "How to: Perform Basic String Manipulations"
+      - name: 'How to: Perform Basic String Manipulations'
         href: basic-manipulations.md
     - name: Regular Expressions in .NET
       href: regular-expressions.md
@@ -110,15 +110,15 @@
       - name: Regular Expression Examples
         href: regular-expression-examples.md
         items:
-        - name: "Example: Scanning for HREFs"
+        - name: 'Example: Scanning for HREFs'
           href: regular-expression-example-scanning-for-hrefs.md
-        - name: "Example: Changing Date Formats"
+        - name: 'Example: Changing Date Formats'
           href: regular-expression-example-changing-date-formats.md
-        - name: "How to: Extract a Protocol and Port Number from a URL"
+        - name: 'How to: Extract a Protocol and Port Number from a URL'
           href: how-to-extract-a-protocol-and-port-number-from-a-url.md
-        - name: "How to: Strip Invalid Characters from a String"
+        - name: 'How to: Strip Invalid Characters from a String'
           href: how-to-strip-invalid-characters-from-a-string.md
-        - name: "How to: Verify that Strings Are in Valid Email Format"
+        - name: 'How to: Verify that Strings Are in Valid Email Format'
           href: how-to-verify-that-strings-are-in-valid-email-format.md
     - name: Character Encoding in .NET
       href: character-encoding.md
@@ -127,7 +127,5 @@
     items:
     - name: Parsing Numeric Strings
       href: parsing-numeric.md
-    - name: Parsing Date and Time Strings
-      href: parsing-datetime.md
     - name: Parsing Other Strings
       href: parsing-other.md
