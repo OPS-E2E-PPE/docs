@@ -103,15 +103,15 @@
     - name: COM Interop
       href: standard/native-interop/cominterop.md
       items:
-        - name: COM Wrappers
-          href: standard/native-interop/com-wrappers.md
-          items:
-            - name: Runtime Callable Wrapper
-              href: standard/native-interop/runtime-callable-wrapper.md
-            - name: COM Callable Wrapper
-              href: standard/native-interop/com-callable-wrapper.md
-        - name: Qualifying .NET types for COM interoperation
-          href: standard/native-interop/qualify-net-types-for-interoperation.md
+      - name: COM Wrappers
+        href: standard/native-interop/com-wrappers.md
+        items:
+        - name: Runtime Callable Wrapper
+          href: standard/native-interop/runtime-callable-wrapper.md
+        - name: COM Callable Wrapper
+          href: standard/native-interop/com-callable-wrapper.md
+      - name: Qualifying .NET types for COM interoperation
+        href: standard/native-interop/qualify-net-types-for-interoperation.md
     - name: Applying Interop Attributes
       href: standard/native-interop/apply-interop-attributes.md
   - name: Collections and Data Structures
@@ -146,329 +146,6 @@
     href: standard/serialization/
   - name: Developing for Multiple Platforms
     href: standard/cross-platform/
-- name: .NET Core Guide
-  href: core/index.md
-  items:
-  - name: About .NET Core
-    href: core/about.md
-  - name: Get started
-    href: core/get-started.md
-    items:
-    - name: Get started with C# and Visual Studio Code
-      href: core/tutorials/with-visual-studio-code.md
-    - name: Build a C# Hello World app with .NET Core in Visual Studio 2017
-      href: core/tutorials/with-visual-studio.md
-    - name: Build a Visual Basic Hello World app with .NET Core in Visual Studio 2017
-      href: core/tutorials/vb-with-visual-studio.md
-    - name: Debug your C# or Visual Basic .NET Core Hello World application using Visual Studio 2017
-      href: core/tutorials/debugging-with-visual-studio.md
-    - name: Publish your Hello World application with Visual Studio 2017
-      href: core/tutorials/publishing-with-visual-studio.md
-    - name: Build a .NET Standard library with C# and .NET Core in Visual Studio 2017
-      href: core/tutorials/library-with-visual-studio.md
-    - name: Build a .NET Standard library with Visual Basic and .NET Core in Visual Studio 2017
-      href: core/tutorials/vb-library-with-visual-studio.md
-    - name: Test a .NET Standard library with .NET Core in Visual Studio 2017
-      href: core/tutorials/testing-library-with-visual-studio.md
-    - name: Consume a .NET Standard library in Visual Studio 2017
-      href: core/tutorials/consuming-library-with-visual-studio.md
-  - name: Windows Prerequisites
-    href: core/windows-prerequisites.md
-  - name: macOS Prerequisites
-    href: core/macos-prerequisites.md
-  - name: Linux Prerequisites
-    href: core/linux-prerequisites.md
-  - name: What's new in .NET Core
-    items:
-    - name: What's new in .NET Core 3.0
-      href: core/whats-new/dotnet-core-3-0.md
-    - name: What's new in .NET Core 2.2
-      href: core/whats-new/dotnet-core-2-2.md
-    - name: What's new in .NET Core 2.1
-      href: core/whats-new/dotnet-core-2-1.md
-    - name: What's new in .NET Core 2.0
-      href: core/whats-new/dotnet-core-2-0.md
-  - name: Application Compatibility
-    items:
-    - name: Evaluate breaking changes
-      href: core/compatibility/index.md
-    - name: Breaking change categories
-      href: core/compatibility/categories.md    
-  - name: Tutorials
-    href: core/tutorials/index.md
-    items:
-    - name: Templates for the CLI
-      items:
-      - name: 1 - Create an item template
-        href: core/tutorials/cli-templates-create-item-template.md
-      - name: 2 - Create a project template
-        href: core/tutorials/cli-templates-create-project-template.md
-      - name: 3 - Create a template pack
-        href: core/tutorials/cli-templates-create-template-pack.md
-    - name: Get started with .NET Core on macOS
-      href: core/tutorials/using-on-macos.md
-    - name: Get started with .NET Core on macOS using Visual Studio for Mac
-      href: core/tutorials/using-on-mac-vs.md
-    - name: Building a complete .NET Core solution on macOS using Visual Studio for Mac
-      href: core/tutorials/using-on-mac-vs-full-solution.md
-    - name: Get started with .NET Core using the CLI tools
-      href: core/tutorials/using-with-xplat-cli.md
-    - name: Organizing and testing projects with the .NET Core command line
-      href: core/tutorials/testing-with-cli.md
-    - name: Developing Libraries with Cross Platform Tools
-      href: core/tutorials/libraries.md
-    - name: Create a .NET Core application with plugins
-      href: core/tutorials/creating-app-with-plugin-support.md      
-    - name: Developing ASP.NET Core applications
-      href: core/tutorials/aspnet-core.md
-    - name: Hosting .NET Core from native code
-      href: core/tutorials/netcore-hosting.md
-  - name: Native Interoperability
-    items:
-    - name: Exposing .NET Core Components to COM
-      href: core/native-interop/expose-components-to-com.md
-  - name: Packages, Metapackages and Frameworks
-    href: core/packages.md
-  - name: Changes in CLI overview
-    href: core/tools/cli-msbuild-architecture.md
-    items:
-    - name: Dependency management
-      href: core/tools/dependencies.md
-    - name: Additions to the csproj format
-      href: core/tools/csproj.md
-  - name: Migration
-    items:
-    - name: .NET Core 2.0 to 2.1
-      href: core/migration/20-21.md
-    - name: Migrating from project.json
-      href: core/migration/index.md
-    - name: Mapping between project.json and csproj
-      href: core/tools/project-json-to-csproj.md
-    - name: Migrating from DNX
-      href: core/migration/from-dnx.md
-  - name: Application Deployment
-    href: core/deploying/index.md
-    items:
-    - name: Deploy apps with CLI tools
-      href: core/deploying/deploy-with-cli.md
-    - name: Deploy apps with Visual Studio
-      href: core/deploying/deploy-with-vs.md
-    - name: Creating a NuGet Package with Cross Platform Tools
-      href: core/deploying/creating-nuget-packages.md
-    - name: Self-contained deployment runtime roll forward
-      href: core/deploying/runtime-patch-selection.md
-    - name: Runtime package store
-      href: core/deploying/runtime-store.md
-  - name: Docker
-    items:
-    - name: Introduction to .NET and Docker
-      href: core/docker/introduction.md
-    - name: Containerize a .NET Core app
-      href: core/docker/build-container.md
-    - name: Container Tools in Visual Studio
-      href: /visualstudio/containers/overview
-  - name: Diagnostic tools
-    items:
-    - name: Overview
-      href: core/diagnostics/index.md
-    - name: Managed debuggers
-      href: core/diagnostics/managed-debuggers.md
-    - name: Logging and tracing
-      href: core/diagnostics/logging-tracing.md
-  - name: Unit Testing
-    href: core/testing/index.md
-    items:
-    - name: Unit testing best practices
-      href: core/testing/unit-testing-best-practices.md
-    - name: C# unit testing with xUnit
-      href: core/testing/unit-testing-with-dotnet-test.md
-    - name: C# unit testing with NUnit
-      href: core/testing/unit-testing-with-nunit.md
-    - name: C# unit testing with MSTest
-      href: core/testing/unit-testing-with-mstest.md
-    - name: F# unit testing with xUnit
-      href: core/testing/unit-testing-fsharp-with-dotnet-test.md
-    - name: F# unit testing with NUnit
-      href: core/testing/unit-testing-fsharp-with-nunit.md
-    - name: F# unit testing with MSTest
-      href: core/testing/unit-testing-fsharp-with-mstest.md
-    - name: VB unit testing with xUnit
-      href: core/testing/unit-testing-visual-basic-with-dotnet-test.md
-    - name: VB unit testing with NUnit
-      href: core/testing/unit-testing-visual-basic-with-nunit.md
-    - name: VB unit testing with MSTest
-      href: core/testing/unit-testing-visual-basic-with-mstest.md
-    - name: Running selective unit tests
-      href: core/testing/selective-unit-tests.md
-    - name: Unit testing published output
-      href: core/testing/unit-testing-published-output.md
-    - name: Live unit testing .NET Core projects with Visual Studio
-      href: /visualstudio/test/live-unit-testing-start
-  - name: Continuous Integration
-    href: core/tools/using-ci-with-cli.md
-  - name: Versioning
-    href: core/versions/index.md
-    items:
-    - name: .NET Core version selection
-      href: core/versions/selection.md
-    - name: Removing outdated runtimes and SDKs
-      href: core/versions/remove-runtime-sdk-versions.md
-  - name: Runtime Identifier (RID) catalog
-    href: core/rid-catalog.md
-  - name: .NET Core SDK Overview
-    href: core/sdk.md
-  - name: .NET Core CLI
-    items:
-    - name: Overview
-      href: core/tools/index.md
-    - name: Global Tools
-      expanded: true
-      items:
-      - name: Overview
-        href: core/tools/global-tools.md
-      - name: Create a Global Tool
-        href: core/tools/global-tools-how-to-create.md
-    - name: Elevated access
-      href: core/tools/elevated-access.md
-    - name: Extensibility Model
-      href: core/tools/extensibility.md
-    - name: Custom templates
-      href: core/tools/custom-templates.md
-    - name: Enable TAB completion
-      href: core/tools/enable-tab-autocomplete.md
-    - name: Telemetry
-      href: core/tools/telemetry.md
-    - name: global.json overview
-      href: core/tools/global-json.md
-    - name: Reference
-      items:
-      - name: dotnet
-        href: core/tools/dotnet.md
-      - name: dotnet build
-        href: core/tools/dotnet-build.md
-      - name: dotnet build-server
-        href: core/tools/dotnet-build-server.md
-      - name: dotnet clean
-        href: core/tools/dotnet-clean.md
-      - name: dotnet help
-        href: core/tools/dotnet-help.md
-      - name: dotnet migrate
-        href: core/tools/dotnet-migrate.md
-      - name: dotnet msbuild
-        href: core/tools/dotnet-msbuild.md
-      - name: dotnet new
-        href: core/tools/dotnet-new.md
-      - name: dotnet nuget
-        items:
-        - name: dotnet nuget delete
-          href: core/tools/dotnet-nuget-delete.md
-        - name: dotnet nuget locals
-          href: core/tools/dotnet-nuget-locals.md
-        - name: dotnet nuget push
-          href: core/tools/dotnet-nuget-push.md
-      - name: dotnet pack
-        href: core/tools/dotnet-pack.md
-      - name: dotnet publish
-        href: core/tools/dotnet-publish.md
-      - name: dotnet restore
-        href: core/tools/dotnet-restore.md
-      - name: dotnet run
-        href: core/tools/dotnet-run.md
-      - name: dotnet sln
-        href: core/tools/dotnet-sln.md
-      - name: dotnet store
-        href: core/tools/dotnet-store.md
-      - name: dotnet test
-        href: core/tools/dotnet-test.md
-      - name: dotnet tool
-        items:
-        - name: dotnet tool install
-          href: core/tools/dotnet-tool-install.md
-        - name: dotnet tool list
-          href: core/tools/dotnet-tool-list.md
-        - name: dotnet tool uninstall
-          href: core/tools/dotnet-tool-uninstall.md
-        - name: dotnet tool update
-          href: core/tools/dotnet-tool-update.md
-      - name: dotnet vstest
-        href: core/tools/dotnet-vstest.md
-      - name: dotnet-install scripts
-        href: core/tools/dotnet-install-script.md
-      - name: Project reference commands
-        items:
-        - name: dotnet add reference
-          href: core/tools/dotnet-add-reference.md
-        - name: dotnet list reference
-          href: core/tools/dotnet-list-reference.md
-        - name: dotnet remove reference
-          href: core/tools/dotnet-remove-reference.md
-      - name: Project package commands
-        items:
-        - name: dotnet add package
-          href: core/tools/dotnet-add-package.md
-        - name: dotnet list package
-          href: core/tools/dotnet-list-package.md
-        - name: dotnet remove package
-          href: core/tools/dotnet-remove-package.md
-  - name: .NET Core Additional Tools
-    href: core/additional-tools/index.md
-    items:
-    - name: WCF Web Service Reference Provider
-      href: core/additional-tools/wcf-web-service-reference-guide.md
-    - name: dotnet-svcutil
-      href: core/additional-tools/dotnet-svcutil-guide.md
-    - name: dotnet-svcutil.xmlserializer
-      href: core/additional-tools/dotnet-svcutil.xmlserializer-guide.md
-    - name: XML Serializer Generator
-      href: core/additional-tools/xml-serializer-generator.md
-  - name: Porting from .NET Framework
-    href: core/porting/index.md
-    items:
-    - name: .NET Framework technologies unavailable for .NET Core
-      href: core/porting/net-framework-tech-unavailable.md
-    - name: Analyzing third-party dependencies
-      href: core/porting/third-party-deps.md
-    - name: Porting libraries
-      href: core/porting/libraries.md
-    - name: Organizing projects for .NET Core
-      href: core/porting/project-structure.md
-    - name: Tools to help with porting to .NET Core
-      href: core/porting/tools.md
-    - name: Using the Windows Compatibility Pack
-      href: core/porting/windows-compat-pack.md
-    - name: Port Windows Forms projects
-      href: core/porting/winforms.md
-    - name: Port WPF projects
-      href: core/porting/wpf.md
-  - name: Dependency loading
-    items:
-    - name: Overview
-      href: core/dependency-loading/overview.md
-    - name: Understanding AssemblyLoadContext
-      href: core/dependency-loading/understanding-assemblyloadcontext.md
-    - name: Loading details
-      items:
-      - name: Default dependency probing
-        href: core/dependency-loading/default-probing.md
-      - name: Loading managed assemblies
-        href: core/dependency-loading/loading-managed.md
-      - name: Loading satellite assemblies
-        href: core/dependency-loading/loading-resources.md
-      - name: Loading unmanaged libraries
-        href: core/dependency-loading/loading-unmanaged.md
-    - name: Tutorials
-      items:
-      - name: Create a .NET Core application with plugins
-        href: core/tutorials/creating-app-with-plugin-support.md
-      - name: How to use and debug assembly unloadability in .NET Core
-        href: standard/assembly/unloadability-howto.md
-  - name: Build .NET Core from source
-    href: core/build/index.md
-    items:
-    - name: .NET Core distribution packaging
-      href: core/build/distribution-packaging.md
-  - name: VS 2015/project.json docs
-    href: project-json.md
 - name: .NET Framework Guide
   href: framework/index.md
   items:
@@ -798,9 +475,9 @@
         href: fsharp/language-reference/functions/let-bindings.md
       - name: do Bindings
         href: fsharp/language-reference/functions/do-bindings.md
-      - name: "Lambda Expressions: the fun keyword"
+      - name: 'Lambda Expressions: the fun keyword'
         href: fsharp/language-reference/functions/lambda-expressions-the-fun-keyword.md
-      - name: "Recursive Functions: the rec keyword"
+      - name: 'Recursive Functions: the rec keyword'
         href: fsharp/language-reference/functions/recursive-functions-the-rec-keyword.md
       - name: Entry Point
         href: fsharp/language-reference/functions/entry-point.md
@@ -891,7 +568,7 @@
         href: fsharp/language-reference/members/constructors.md
       - name: Events
         href: fsharp/language-reference/members/events.md
-      - name: "Explicit Fields: The `val` Keyword"
+      - name: 'Explicit Fields: The `val` Keyword'
         href: fsharp/language-reference/members/explicit-fields-the-val-keyword.md
     - name: Type Extensions
       href: fsharp/language-reference/type-extensions.md
@@ -909,7 +586,7 @@
       href: fsharp/language-reference/casting-and-conversions.md
     - name: Access Control
       href: fsharp/language-reference/access-control.md
-    - name: "Conditional Expressions: if...then...else"
+    - name: 'Conditional Expressions: if...then...else'
       href: fsharp/language-reference/conditional-expressions-if-then-else.md
     - name: Match Expressions
       href: fsharp/language-reference/match-expressions.md
@@ -917,11 +594,11 @@
       href: fsharp/language-reference/pattern-matching.md
     - name: Active Patterns
       href: fsharp/language-reference/active-patterns.md
-    - name: "Loops: for...to Expression"
+    - name: 'Loops: for...to Expression'
       href: fsharp/language-reference/loops-for-to-expression.md
-    - name: "Loops: for...in Expression"
+    - name: 'Loops: for...in Expression'
       href: fsharp/language-reference/loops-for-in-expression.md
-    - name: "Loops: while...do Expression"
+    - name: 'Loops: while...do Expression'
       href: fsharp/language-reference/loops-while-do-expression.md
     - name: Assertions
       href: fsharp/language-reference/assertions.md
@@ -942,13 +619,13 @@
         href: fsharp/language-reference/exception-handling/the-invalidArg-function.md
     - name: Attributes
       href: fsharp/language-reference/attributes.md
-    - name: "Resource Management: the use Keyword"
+    - name: 'Resource Management: the use Keyword'
       href: fsharp/language-reference/resource-management-the-use-keyword.md
     - name: Namespaces
       href: fsharp/language-reference/namespaces.md
     - name: Modules
       href: fsharp/language-reference/modules.md
-    - name: "Import Declarations: The open Keyword"
+    - name: 'Import Declarations: The open Keyword'
       href: fsharp/language-reference/import-declarations-the-open-keyword.md
     - name: Signature Files
       href: fsharp/language-reference/signature-files.md
@@ -1035,7 +712,7 @@
       - name: Accessing Application Web Services
         href: visual-basic/developing-apps/programming/accessing-application-web-services.md
         items:
-        - name: "How to: Call a Web Service Asynchronously"
+        - name: 'How to: Call a Web Service Asynchronously'
           href: visual-basic/developing-apps/programming/how-to-call-a-web-service-asynchronously.md
       - name: Accessing Application Settings
         href: visual-basic/developing-apps/programming/app-settings/index.md
@@ -1078,19 +755,19 @@
       items:
       - name: Friend Assemblies
         items:
-        - name: "How to: Create Unsigned Friend Assemblies"
+        - name: 'How to: Create Unsigned Friend Assemblies'
           href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-unsigned-friend-assemblies.md
-        - name: "How to: Create Signed Friend Assemblies"
+        - name: 'How to: Create Signed Friend Assemblies'
           href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-signed-friend-assemblies.md
-      - name: "How to: Create and Use Assemblies Using the Command Line"
+      - name: 'How to: Create and Use Assemblies Using the Command Line'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-create-and-use-assemblies-using-the-command-line.md
-      - name: "How to: Determine If a File Is an Assembly"
+      - name: 'How to: Determine If a File Is an Assembly'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-determine-if-a-file-is-an-assembly.md
-      - name: "How to: Load and Unload Assemblies"
+      - name: 'How to: Load and Unload Assemblies'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-load-and-unload-assemblies.md
-      - name: "How to: Share an Assembly with Other Applications"
+      - name: 'How to: Share an Assembly with Other Applications'
         href: visual-basic/programming-guide/concepts/assemblies-gac/how-to-share-an-assembly-with-other-applications.md
-      - name: "Walkthrough: Embedding Types from Managed Assemblies"
+      - name: 'Walkthrough: Embedding Types from Managed Assemblies'
         href: visual-basic/programming-guide/concepts/assemblies-gac/walkthrough-embedding-types-from-managed-assemblies-in-vs.md
     - name: Asynchronous Programming with Async and Await
       href: visual-basic/programming-guide/concepts/async/index.md
@@ -1131,11 +808,11 @@
       href: visual-basic/programming-guide/program-structure/coding-conventions.md
     - name: Conditional Compilation
       href: visual-basic/programming-guide/program-structure/conditional-compilation.md
-    - name: "How to: Break and Combine Statements in Code"
+    - name: 'How to: Break and Combine Statements in Code'
       href: visual-basic/programming-guide/program-structure/how-to-break-and-combine-statements-in-code.md
-    - name: "How to: Collapse and Hide Sections of Code"
+    - name: 'How to: Collapse and Hide Sections of Code'
       href: visual-basic/programming-guide/program-structure/how-to-collapse-and-hide-sections-of-code.md
-    - name: "How to: Label Statements"
+    - name: 'How to: Label Statements'
       href: visual-basic/programming-guide/program-structure/how-to-label-statements.md
     - name: Special Characters in Code
       href: visual-basic/programming-guide/program-structure/special-characters-in-code.md
@@ -1175,14 +852,14 @@
       - name: Composite Data Types
         href: visual-basic/programming-guide/language-features/data-types/composite-data-types.md
         items:
-        - name: "How to: Hold More Than One Value in a Variable"
+        - name: 'How to: Hold More Than One Value in a Variable'
           href: visual-basic/programming-guide/language-features/data-types/how-to-hold-more-than-one-value-in-a-variable.md
       - name: Generic Types
         href: visual-basic/programming-guide/language-features/data-types/generic-types.md
         items:
-        - name: "How to: Define a Class That Can Provide Identical Functionality on Different Data Types"
+        - name: 'How to: Define a Class That Can Provide Identical Functionality on Different Data Types'
           href: visual-basic/programming-guide/language-features/data-types/how-to-define-a-class-that-can-provide-identical-functionality.md
-        - name: "How to: Use a Generic Class"
+        - name: 'How to: Use a Generic Class'
           href: visual-basic/programming-guide/language-features/data-types/how-to-use-a-generic-class.md
       - name: Generic Procedures
         href: visual-basic/programming-guide/language-features/data-types/generic-procedures.md
@@ -1199,14 +876,14 @@
           href: visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions.md
         - name: Conversions Between Strings and Other Types
           href: visual-basic/programming-guide/language-features/data-types/conversions-between-strings-and-other-types.md
-        - name: "How to: Convert an Object to Another Type"
+        - name: 'How to: Convert an Object to Another Type'
           href: visual-basic/programming-guide/language-features/data-types/how-to-convert-an-object-to-another-type.md
         - name: Array Conversions
           href: visual-basic/programming-guide/language-features/data-types/array-conversions.md
       - name: Structures
         href: visual-basic/programming-guide/language-features/data-types/structures.md
         items:
-        - name: "How to: Declare a Structure"
+        - name: 'How to: Declare a Structure'
           href: visual-basic/programming-guide/language-features/data-types/how-to-declare-a-structure.md
         - name: Structure Variables
           href: visual-basic/programming-guide/language-features/data-types/structure-variables.md
@@ -1233,7 +910,7 @@
     - name: Interfaces
       href: visual-basic/programming-guide/language-features/interfaces/index.md
       items:
-      - name: "Walkthrough: Creating and Implementing Interfaces"
+      - name: 'Walkthrough: Creating and Implementing Interfaces'
         href: visual-basic/programming-guide/language-features/interfaces/walkthrough-creating-and-implementing-interfaces.md
     - name: LINQ
       href: visual-basic/programming-guide/language-features/linq/index.md
@@ -1256,23 +933,23 @@
     items:
     - name: Introduction to COM Interop
       href: visual-basic/programming-guide/com-interop/introduction-to-com-interop.md
-    - name: "How to: Reference COM Objects"
+    - name: 'How to: Reference COM Objects'
       href: visual-basic/programming-guide/com-interop/how-to-reference-com-objects.md
-    - name: "How to: Work with ActiveX Controls"
+    - name: 'How to: Work with ActiveX Controls'
       href: visual-basic/programming-guide/com-interop/how-to-work-with-activex-controls.md
-    - name: "Walkthrough: Calling Windows APIs"
+    - name: 'Walkthrough: Calling Windows APIs'
       href: visual-basic/programming-guide/com-interop/walkthrough-calling-windows-apis.md
-    - name: "How to: Call Windows APIs"
+    - name: 'How to: Call Windows APIs'
       href: visual-basic/programming-guide/com-interop/how-to-call-windows-apis.md
-    - name: "How to: Call a Windows Function that Takes Unsigned Types"
+    - name: 'How to: Call a Windows Function that Takes Unsigned Types'
       href: visual-basic/programming-guide/com-interop/how-to-call-a-windows-function-that-takes-unsigned-types.md
-    - name: "Walkthrough: Creating COM Objects"
+    - name: 'Walkthrough: Creating COM Objects'
       href: visual-basic/programming-guide/com-interop/walkthrough-creating-com-objects.md
     - name: Troubleshooting Interoperability
       href: visual-basic/programming-guide/com-interop/troubleshooting-interoperability.md
     - name: COM Interoperability in .NET Framework Applications
       href: visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications.md
-    - name: "Walkthrough: Implementing Inheritance with COM Objects"
+    - name: 'Walkthrough: Implementing Inheritance with COM Objects'
       href: visual-basic/programming-guide/com-interop/walkthrough-implementing-inheritance-with-com-objects.md
   - name: Language Reference
     href: visual-basic/language-reference/index.md
@@ -1367,13 +1044,13 @@
     - name: Directives
       href: visual-basic/language-reference/directives/index.md
       items:
-      - name: "#Const Directive"
+      - name: '#Const Directive'
         href: visual-basic/language-reference/directives/const-directive.md
-      - name: "#ExternalSource Directive"
+      - name: '#ExternalSource Directive'
         href: visual-basic/language-reference/directives/externalsource-directive.md
-      - name: "#If...Then...#Else Directives"
+      - name: '#If...Then...#Else Directives'
         href: visual-basic/language-reference/directives/if-then-else-directives.md
-      - name: "#Region Directive"
+      - name: '#Region Directive'
         href: visual-basic/language-reference/directives/region-directive.md
     - name: Functions
       href: visual-basic/language-reference/functions/index.md
@@ -1552,13 +1229,13 @@
           href: visual-basic/language-reference/operators/miscellaneous-operators.md
       - name: List of Visual Basic Operators
         items:
-        - name: "& Operator"
+        - name: '& Operator'
           href: visual-basic/language-reference/operators/concatenation-operator.md
-        - name: "&= Operator"
+        - name: '&= Operator'
           href: visual-basic/language-reference/operators/and-assignment-operator.md
-        - name: "* Operator"
+        - name: '* Operator'
           href: visual-basic/language-reference/operators/multiplication-operator.md
-        - name: "*= Operator"
+        - name: '*= Operator'
           href: visual-basic/language-reference/operators/multiplication-assignment-operator.md
         - name: + Operator
           href: visual-basic/language-reference/operators/addition-operator.md
@@ -1566,7 +1243,7 @@
           href: visual-basic/language-reference/operators/addition-assignment-operator.md
         - name: = Operator
           href: visual-basic/language-reference/operators/assignment-operator.md
-        - name: "- Operator"
+        - name: '- Operator'
           href: visual-basic/language-reference/operators/subtraction-operator.md
         - name: -= Operator
           href: visual-basic/language-reference/operators/subtraction-assignment-operator.md
@@ -1574,33 +1251,33 @@
           href: visual-basic/language-reference/operators/comparison-operators.md
         - name: <= Operator
           href: visual-basic/language-reference/operators/comparison-operators.md
-        - name: "> Operator"
+        - name: '> Operator'
           href: visual-basic/language-reference/operators/comparison-operators.md
-        - name: ">= Operator"
+        - name: '>= Operator'
           href: visual-basic/language-reference/operators/comparison-operators.md
         - name: << Operator
           href: visual-basic/language-reference/operators/left-shift-operator.md
         - name: <<= Operator
           href: visual-basic/language-reference/operators/left-shift-assignment-operator.md
-        - name: ">> Operator"
+        - name: '>> Operator'
           href: visual-basic/language-reference/operators/right-shift-operator.md
-        - name: ">>= Operator"
+        - name: '>>= Operator'
           href: visual-basic/language-reference/operators/right-shift-assignment-operator.md
         - name: / Operator
           href: visual-basic/language-reference/operators/floating-point-division-operator.md
         - name: /= Operator
           href: visual-basic/language-reference/operators/floating-point-division-assignment-operator.md
-        - name: \ Operator
+        - name: '\ Operator'
           href: visual-basic/language-reference/operators/integer-division-operator.md
-        - name: \= Operator
+        - name: '\= Operator'
           href: visual-basic/language-reference/operators/integer-division-assignment-operator.md
         - name: ^ Operator
           href: visual-basic/language-reference/operators/exponentiation-operator.md
         - name: ^= Operator
           href: visual-basic/language-reference/operators/exponentiation-assignment-operator.md
-        - name: "?() Operator"
+        - name: ?() Operator
           href: visual-basic/language-reference/operators/null-conditional-operators.md
-        - name: "?. Operator"
+        - name: ?. Operator
           href: visual-basic/language-reference/operators/null-conditional-operators.md
         - name: AddressOf Operator
           href: visual-basic/language-reference/operators/addressof-operator.md
@@ -2038,9 +1715,9 @@
         href: visual-basic/language-reference/error-messages/dir-function-must-first-be-called-with-a-pathname-argument.md
       - name: End of statement expected
         href: visual-basic/language-reference/error-messages/end-of-statement-expected.md
-      - name: "Error creating assembly manifest: <error message>"
+      - name: 'Error creating assembly manifest: <error message>'
         href: visual-basic/language-reference/error-messages/error-creating-assembly-manifest-error-message.md
-      - name: "Error creating Win32 resources: <error message>"
+      - name: 'Error creating Win32 resources: <error message>'
         href: visual-basic/language-reference/error-messages/error-creating-win32-resources-error-message.md
       - name: Error in loading DLL
         href: visual-basic/language-reference/error-messages/error-in-loading-dll.md
@@ -2164,7 +1841,7 @@
         href: visual-basic/language-reference/error-messages/object-required.md
       - name: Object variable or With block variable not set
         href: visual-basic/language-reference/error-messages/object-variable-or-with-block-variable-not-set.md
-      - name: "Operator declaration must be one of:  +,-,*,-,-,^, &, Like, Mod, And, Or, Xor, Not, <<, >>, =, <>, <, <=, >, >=, CType, IsTrue, IsFalse"
+      - name: 'Operator declaration must be one of:  +,-,*,-,-,^, &, Like, Mod, And, Or, Xor, Not, <<, >>, =, <>, <, <=, >, >=, CType, IsTrue, IsFalse'
         href: visual-basic/language-reference/error-messages/operator-declaration-must-be-one-of.md
       - name: "'Optional' expected"
         href: visual-basic/language-reference/error-messages/optional-expected.md
@@ -2268,7 +1945,7 @@
         href: visual-basic/language-reference/error-messages/unable-to-create-strong-named-assembly-from-key-file-filename-error.md
       - name: "Unable to embed resource file '<filename>': <error message>"
         href: visual-basic/language-reference/error-messages/unable-to-embed-resource-file-filename-error-message.md
-      - name: "Unable to emit assembly: <error message>"
+      - name: 'Unable to emit assembly: <error message>'
         href: visual-basic/language-reference/error-messages/unable-to-emit-assembly-error-message.md
       - name: Unable to find required file '<filename>'
         href: visual-basic/language-reference/error-messages/unable-to-find-required-file-filename.md
@@ -2319,14 +1996,14 @@
       - name: Building from the Command Line
         href: visual-basic/reference/command-line-compiler/building-from-the-command-line.md
         items:
-        - name: "How to: Invoke the Command-Line Compiler"
+        - name: 'How to: Invoke the Command-Line Compiler'
           href: visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler.md
         - name: Sample Compilation Command Lines
           href: visual-basic/reference/command-line-compiler/sample-compilation-command-lines.md
       - name: Compiler Options Listed Alphabetically
         href: visual-basic/reference/command-line-compiler/compiler-options-listed-alphabetically.md
         items:
-        - name: "@ (Specify Response File)"
+        - name: '@ (Specify Response File)'
           href: visual-basic/reference/command-line-compiler/specify-response-file.md
         - name: -addmodule
           href: visual-basic/reference/command-line-compiler/addmodule.md
