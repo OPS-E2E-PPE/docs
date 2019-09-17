@@ -17,10 +17,10 @@ ms.author: "ronpet"
 
 The tables in this topic provide the hardware, operating system, and software requirements for the following .NET Framework versions:
 
-* .NET Framework 4.5 and its point releases (4.5.1 and 4.5.2).
-* .NET Framework 4.6 and its point releases (4.6.1 and 4.6.2).
-* .NET Framework 4.7 and its point releases (4.7.1 and 4.7.2).
-* .NET Framework 4.8
+- .NET Framework 4.5 and its point releases (4.5.1 and 4.5.2).
+- .NET Framework 4.6 and its point releases (4.6.1 and 4.6.2).
+- .NET Framework 4.7 and its point releases (4.7.1 and 4.7.2).
+- .NET Framework 4.8
 
 For information on .NET Framework versions earlier than .NET Framework 4.5, see [.NET Framework versions and dependencies](../migration-guide/versions-and-dependencies.md).
 
@@ -30,7 +30,7 @@ Development environments that enable you to develop apps for the .NET Framework 
 
 For download information and links, see [Install the .NET Framework for developers](../../../docs/framework/install/guide-for-developers.md).
 
-For information on the support lifecycle of .NET Framework versions, see [Microsoft Support Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?sort=PN&alpha=Microsoft%20.NET%20Framework&Filter=FilterNO).
+For information on the support lifecycle of .NET Framework versions, see [Microsoft Support Lifecycle](https://support.microsoft.com/lifecycle/search?sort=PN&alpha=Microsoft%20.NET%20Framework&Filter=FilterNO).
 
 ## Hardware requirements
 

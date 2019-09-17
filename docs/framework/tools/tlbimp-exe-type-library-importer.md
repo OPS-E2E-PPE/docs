@@ -22,7 +22,7 @@ The Type Library Importer converts the type definitions found within a COM type 
   
 ## Syntax  
   
-```  
+```console  
 tlbimp tlbFile [options]  
 ```  
   
@@ -65,45 +65,47 @@ tlbimp tlbFile [options]
 |**/?**|Displays command syntax and options for the tool.|  
   
 > [!NOTE]
->  The command-line options for Tlbimp.exe are case-insensitive and can be supplied in any order. You only need to specify enough of the option to uniquely identify it. Therefore, **/n** is equivalent to **/nologo** and **/ou:** *outfile.dll* is equivalent to **/out:** *outfile.dll*.  
+> The command-line options for Tlbimp.exe are case-insensitive and can be supplied in any order. You only need to specify enough of the option to uniquely identify it. Therefore, **/n** is equivalent to **/nologo** and **/ou:** *outfile.dll* is equivalent to **/out:** *outfile.dll*.  
   
 ## Remarks  
  Tlbimp.exe performs conversions on an entire type library at one time. You cannot use the tool to generate type information for a subset of the types defined within a single type library.  
   
  It is often useful or necessary to be able to assign [strong names](../app-domains/strong-named-assemblies.md) to assemblies. Therefore, Tlbimp.exe includes options for supplying the information necessary to generate strongly named assemblies. Both the **/keyfile:** and **/keycontainer:** options sign assemblies with strong names. Therefore, it is logical to supply only one of these options at a time.  
   
- You can specify multiple reference assemblies by using the **/reference** option multiple times.  
-  
+ You can specify multiple reference assemblies by using the **/reference** option multiple times.
+ 
+ Due to the way in which Tlbimp.exe generates assemblies, it is not possible to retarget an assembly to a different `mscorlib` version. For example, if you desire to generate an assembly that targets .NET Framework 2.0, the Tlbimp.exe shipped with the .NET Framework 2.0/3.0/3.5 SDK must be used. In order to target .NET Framework 4.x, the Tlbimp.exe shipped with a .NET Framework 4.x SDK should be used.
+ 
  A resource ID can optionally be appended to a type library file when importing a type library from a module containing multiple type libraries. Tlbimp.exe is able to locate this file only if it is in the current directory or if you specify the full path. See the example later in this topic.  
   
 ## Examples  
  The following command generates an assembly with the same name as the type library found in `myTest.tlb` and with the .dll extension.  
   
-```  
+```console  
 tlbimp myTest.tlb   
 ```  
   
  The following command generates an assembly with the name `myTest.dll`.  
   
-```  
+```console  
 tlbimp  myTest.tlb  /out:myTest.dll  
 ```  
   
  The following command generates an assembly with the same name as the type library specified by `MyModule.dll\1` and with the .dll extension. `MyModule.dll\1` must be located in the current directory.  
   
-```  
+```console  
 tlbimp MyModule.dll\1  
 ```  
   
  The following command generates an assembly with the name `myTestLib.dll` for the type library `TestLib.dll`. The **/transform:dispret** option transforms any [out, retval] parameters of methods on dispinterfaces in the type library into return values in the managed library.  
   
-```  
+```console  
 tlbimp TestLib.dll /transform:dispret /out:myTestLib.dll  
 ```  
   
  The type library `TestLib.dll`, in the preceding example, includes a dispinterface method named `SomeMethod` that returns void and has an [out, retval] parameter. The following code is the input type library method signature for `SomeMethod` in `TestLib.dll`.  
   
-```  
+```cpp  
 void SomeMethod([out, retval] VARIANT_BOOL*);  
 ```  
   

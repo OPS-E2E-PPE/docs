@@ -15,18 +15,6 @@ This article shows the supported OS versions in order to run .NET Core applicati
 
 Also, if you're developing on Windows using Visual Studio 2017, the [Prerequisites with Visual Studio 2017](#prerequisites-with-visual-studio-2017) section goes in more detail about minimum versions supported for .NET Core development.
 
-## .NET Core supported Windows versions
-
-.NET Core is supported on the following versions of:
-
-* Windows 7 SP1
-* Windows 8.1
-* Windows 10 Anniversary Update (version 1607) or later versions
-* Windows Server 2008 R2 SP1 (Full Server or Server Core)
-* Windows Server 2012 SP1 (Full Server or Server Core)
-* Windows Server 2012 R2 (Full Server or Server Core)
-* Windows Server 2016 or later versions (Full Server, Server Core, or Nano Server)
-
 ## .NET Core supported operating systems
 
 The following articles have a complete list of .NET Core supported operating systems per version:
@@ -52,11 +40,11 @@ For download links and more information, see [.NET downloads](https://dotnet.mic
 > [!NOTE]
 > **For Windows 8.1 and earlier versions, or Windows Server 2012 R2 and earlier versions:**
 >
-> Make sure that your Windows installation is up-to-date and includes [KB2999226](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows), which can be installed through Windows Update. If you don't have this update installed, you'll see an error like the following when you launch a .NET Core application: `The program can't start because api-ms-win-crt-runtime-1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.`
+> Make sure that your Windows installation is up-to-date and includes [KB2999226](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows), which can be installed through Windows Update. If you don't have this update installed, you'll see an error like the following when you launch a .NET Core application: `The program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.`
 >
 > **For Windows 7 or Windows Server 2008 R2:**
 >
-> In addition to KB2999226, make sure you also have [KB2533623](https://support.microsoft.com/en-us/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot) installed. If you don't have this update installed, you'll see an error similar to the following when you launch a .NET Core application: `The library hostfxr.dll was found, but loading it from C:\<path_to_app>\hostfxr.dll failed`.
+> In addition to KB2999226, make sure you also have [KB2533623](https://support.microsoft.com/help/2533623/microsoft-security-advisory-insecure-library-loading-could-allow-remot) installed. If you don't have this update installed, you'll see an error similar to the following when you launch a .NET Core application: `The library hostfxr.dll was found, but loading it from C:\<path_to_app>\hostfxr.dll failed`.
 
 ## Prerequisites for .NET Core 3.0 Preview 3
 

@@ -21,7 +21,7 @@ ms.author: "ronpet"
 # CorBindToRuntimeEx Function
 Enables unmanaged hosts to load the common language runtime (CLR) into a process. The [CorBindToRuntime](../../../../docs/framework/unmanaged-api/hosting/corbindtoruntime-function.md) and `CorBindToRuntimeEx` functions perform the same operation, but the `CorBindToRuntimeEx` function allows you to set flags to specify the behavior of the CLR.  
   
- This function has been deprecated in the [!INCLUDE[net_v40_long](../../../../includes/net-v40-long-md.md)].  
+ This function has been deprecated in the .NET Framework 4.  
   
  This function takes a set of parameters that allow a host to do the following:  
   
@@ -32,7 +32,7 @@ Enables unmanaged hosts to load the common language runtime (CLR) into a process
 - Control whether concurrent garbage collection or non-concurrent garbage collection is done.  
   
 > [!NOTE]
->  Concurrent garbage collection is not supported in applications running the WOW64 x86 emulator on 64-bit systems that implement the Intel Itanium architecture (formerly called IA-64). For more information about using WOW64 on 64-bit Windows systems, see [Running 32-bit Applications](/windows/desktop/WinProg64/running-32-bit-applications).  
+> Concurrent garbage collection is not supported in applications running the WOW64 x86 emulator on 64-bit systems that implement the Intel Itanium architecture (formerly called IA-64). For more information about using WOW64 on 64-bit Windows systems, see [Running 32-bit Applications](/windows/desktop/WinProg64/running-32-bit-applications).  
   
 - Control whether assemblies are loaded as domain-neutral.  
   
@@ -40,7 +40,7 @@ Enables unmanaged hosts to load the common language runtime (CLR) into a process
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT CorBindToRuntimeEx (  
     [in]  LPCWSTR      pwszVersion,   
     [in]  LPCWSTR      pwszBuildFlavor,   

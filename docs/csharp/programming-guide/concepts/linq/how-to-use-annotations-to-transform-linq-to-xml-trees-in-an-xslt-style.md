@@ -116,7 +116,7 @@ Console.WriteLine(newData);
   
  This example produces the following output:  
   
-```  
+```output  
 Before Transform  
 ----------------  
 <Root>  
@@ -141,7 +141,7 @@ After Transform
   
 - The pseudo code for the function is quite simple:  
   
-```  
+```text  
 The function takes an XElement as an argument and returns an XElement.   
 If an element has an XElement annotation, then  
     Return a new XElement  
@@ -387,7 +387,7 @@ class Program
   
  This example produces the following output:  
   
-```  
+```output  
 Before Transform  
 ----------------  
 <Root Att1="123">  
@@ -419,6 +419,3 @@ After Transform
 </Root>  
 ```  
   
-## See also
-
-- [Advanced LINQ to XML Programming (C#)](../../../../csharp/programming-guide/concepts/linq/advanced-linq-to-xml-programming.md)

@@ -39,7 +39,7 @@ The `mlnet auto-train` command generates the following assets:
 
 The first two assets can directly be used in your end-user apps (ASP.NET Core web app, services, desktop app, etc.) to make predictions with that generated ML model.
 
-The third asset, the training code, shows you what ML.NET API code was used by the CLI to train the generated model, so you can investigate what specific trainer/algorithm and hyper-paramenters were selected by the CLI and the ML.NET AutoML engine.
+The third asset, the training code, shows you what ML.NET API code was used by the CLI to train the generated model, so you can investigate what specific trainer/algorithm and hyper-parameters were selected by the CLI and the ML.NET AutoML engine.
 
 ## The 'auto-train' command uses the AutoML engine
 
@@ -223,7 +223,7 @@ In order to use the `--label-column-name` argument, you need to have a header in
 
 `--max-exploration-time | -x` (string)
 
-By default, the maximum exploration time is 10 seconds.
+By default, the maximum exploration time is 30 minutes.
 
 This argument sets the maximum time (in seconds) for the process to explore multiple trainers and configurations. The configured time may be exceeded if the provided time is too short (say 2 seconds) for a single iteration. In this case, the actual time is the required time to produce one model configuration in a single iteration.
 
