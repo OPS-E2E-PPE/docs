@@ -1,3 +1,4 @@
+for test
 ---
 title: Deconstructing tuples and other types
 description: Learn how to deconstruct tuples and other types.
