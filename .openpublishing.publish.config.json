@@ -93,6 +93,6 @@
   },
   "xref_endpoint": "https://xref.docs.microsoft.com",
   "docs_build_engine": {
-    "name": "docfx_v3"
+    "version": "1.0.02930.1903"
   }
 }
