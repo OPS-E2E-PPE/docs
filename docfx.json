@@ -87,9 +87,6 @@
         ]
       }
     ],
-    "docs_build_engine": {
-      "version": "1.0.02930.1902"
-    },
     "resource": [
       {
         "files": [
@@ -608,6 +605,9 @@
     "xref": [
       "_zip/missingapi.yml"
     ],
+      "docs_build_engine": {
+      "version": "1.0.02930.1903"
+    },
     "lruSize": 0
   }
 }
