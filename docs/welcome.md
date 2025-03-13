@@ -13,7 +13,7 @@ Build many types of apps with .NET, such as cloud, IoT, and games using free cro
 ## News
 
 For news about .NET, check the following blogs:
-
+test
 - [.NET Blog](https://devblogs.microsoft.com/dotnet/)
 - [ASP.NET Blog](https://devblogs.microsoft.com/aspnet/)
 - [The Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/)
