@@ -6,8 +6,13 @@
       "build_output_subfolder": "e2eppe-core-docs",
       "locale": "en-us",
       "monikers": [],
-      "xref_query_tags": ["/dotnet", "/uwp/api"],
-      "filemap_share_depots": ["MSDN.e2e-ppe-dotnetapidocs"],
+      "xref_query_tags": [
+        "/dotnet",
+        "/uwp/api"
+      ],
+      "filemap_share_depots": [
+        "MSDN.e2e-ppe-dotnetapidocs"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "ZonePivotGroups": "Toc",
@@ -20,15 +25,14 @@
       "template_folder": "_themes"
     }
   ],
-  "xref_endpoint": "https://xref.docs.microsoft.com",
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
-  "branches_to_filter": ["live-sync-work-test"],
+  "branches_to_filter": [
+    "live-sync-work-test"
+  ],
   "git_repository_branch_open_to_public_contributors": "main",
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "need_pr_comments": false,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -46,18 +50,21 @@
       "path_to_root": "_csharplang",
       "url": "https://github.com/dotnet/csharplang",
       "branch": "main",
+      "branch_mapping": {},
       "include_in_build": true
     },
     {
       "path_to_root": "_csharpstandard",
       "url": "https://github.com/dotnet/csharpstandard",
       "branch": "draft-v6",
+      "branch_mapping": {},
       "include_in_build": true
     },
     {
       "path_to_root": "_vblang",
       "url": "https://github.com/dotnet/vblang",
       "branch": "main",
+      "branch_mapping": {},
       "include_in_build": true
     },
     {
@@ -85,15 +92,16 @@
       "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  },
+  "docs_build_engine": {},
+  "xref_endpoint": "https://xref.docs.microsoft.com",
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
+  "need_generate_pdf_url_template": true,
   "redirection_files": [
     ".openpublishing.redirection.json",
     ".openpublishing.redirection.architecture.json",
