@@ -5,7 +5,7 @@ Follow these guidelines when writing documentation for the .NET documentation re
 ## Important tips when creating a new page
 
 - If the page is a conceptual article, add it to the `toc.yml` file in the same folder as the article.
-- The YAML header metadata ms.date should be set to the date you create the article. Use the format `MM/DD/YYYY`. For example, `05/19/2025`.
+- The YAML header metadata ms.date should be set to the date you create the article. Use the format `MM/DD/YYYY`. For example, `05/19/2025`. Use Python code `datetime.date.today().strftime('%m/%d/%Y')` but not directly from LLM to avoid hallucinations.
 - The YAML header metadata `ai-usage` should be valued `ai-generated`.
 
 ## General style
