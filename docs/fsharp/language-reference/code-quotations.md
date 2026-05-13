@@ -1,7 +1,7 @@
 ---
 title: Code Quotations
 description: Learn about F# code quotations, a language feature that enables you to generate and work with F# code expressions programmatically.
-ms.date: 08/13/2020
+ms.date: 05/13/2026
 ---
 # Code quotations
 
@@ -103,6 +103,10 @@ The code in the other active pattern branches just regenerates the same expressi
 1 + Module1.add(2,Module1.add(3,4))
 1 + Module1.mul(2,Module1.mul(3,4))
 ```
+
+## Notes and troubleshooting
+
+- If you see FS045 when you use empty-string pattern matching inside a quotation (`<@ ... @>` or `<@@ ... @@>`), update to F# tools/compiler version 18.5.1 or later. This issue was fixed in the April 21, 2026 release.
 
 ## See also
 
