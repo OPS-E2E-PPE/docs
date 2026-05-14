@@ -1,12 +1,15 @@
 ---
 title: "Compiler errors and warnings"
 description: Descriptions and solutions for errors and warnings that the F# compiler will emit
-ms.date: 12/21/2019
+ms.date: 05/13/2026
 ---
 
 # F# compiler messages
 
 This section details compiler errors and warnings that the F# compiler will emit for certain constructs. The default sets of errors can be changed by:
+
+> [!NOTE]
+> FS045 behavior can differ by compiler version. If you still see FS045 for empty-string pattern matches inside code quotations, check your installed SDK and compiler version by running `dotnet --version` and `dotnet fsi --version`, and then update to a newer toolchain if needed.
 
 - Treating specific warnings as if they were errors by using the `-warnaserror+` compiler option,
 
